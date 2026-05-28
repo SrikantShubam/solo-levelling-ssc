@@ -1,0 +1,106 @@
+{
+  "page": 18,
+  "questions": [
+    {
+      "question_number": 35,
+      "section": null,
+      "question_text_full": "In 2002, Zakir Hussain became the youngest percussionist to be honored with which award?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sangeet Natak Akademi Award"
+        },
+        {
+          "label": "2",
+          "text": "Grammy Award"
+        },
+        {
+          "label": "3",
+          "text": "Padma Bhushan"
+        },
+        {
+          "label": "4",
+          "text": "National Heritage Fellowship"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for these questions."
+    },
+    {
+      "question_number": 36,
+      "section": null,
+      "question_text_full": "Microbes like Rhizobium, Nitrosomonas, and Nitrobacter are used for:",
+      "options": [
+        {
+          "label": "1",
+          "text": "nitrogen cycling"
+        },
+        {
+          "label": "2",
+          "text": "carbon cycling"
+        },
+        {
+          "label": "3",
+          "text": "water cycling"
+        },
+        {
+          "label": "4",
+          "text": "sulphur cycling"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for these questions."
+    },
+    {
+      "question_number": 37,
+      "section": null,
+      "question_text_full": "With reference to the Sepoy Mutiny of 1857, on which of the following dates did the soldiers at Meerut start their journey to Delhi?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 May"
+        },
+        {
+          "label": "2",
+          "text": "19 April"
+        },
+        {
+          "label": "3",
+          "text": "2 June"
+        },
+        {
+          "label": "4",
+          "text": "29 March"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for these questions."
+    }
+  ],
+  "warnings": [
+    "No answer keys (green/red marks) were present on the provided page image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

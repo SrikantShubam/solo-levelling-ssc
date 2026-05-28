@@ -1,0 +1,104 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Six letters P, Q, S, T, U and V are written on different faces of a dice. Two positions of this dice are shown in thefigure. Find the letter on the face opposite to T.",
+      "options": [
+        {
+          "label": "1",
+          "text": "S"
+        },
+        {
+          "label": "2",
+          "text": "U"
+        },
+        {
+          "label": "3",
+          "text": "V"
+        },
+        {
+          "label": "4",
+          "text": "P"
+        }
+      ],
+      "question_id": "630680616879",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "P",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "If 'A' stands for '÷', 'B' stands for 'x', 'C' stands for '+' and 'D' stands for '-', what will be come in place of the question mark (?) in the following equation?\n\n55 B 5 D 13 B 2 C 14 A 7 D 15 B 5 C 102 A 2 C 15 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "203"
+        },
+        {
+          "label": "2",
+          "text": "242"
+        },
+        {
+          "label": "3",
+          "text": "291"
+        },
+        {
+          "label": "4",
+          "text": "177"
+        }
+      ],
+      "question_id": "6306801081427",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "242",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Each of the digits in the number 5238641 is arranged in ascending order from left to right. The position(s) of how many digits will remain unchanged as compared to that/those in the original number ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "None"
+        },
+        {
+          "label": "2",
+          "text": "Two"
+        },
+        {
+          "label": "3",
+          "text": "Three"
+        },
+        {
+          "label": "4",
+          "text": "One"
+        }
+      ],
+      "question_id": "630680674151",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Two",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

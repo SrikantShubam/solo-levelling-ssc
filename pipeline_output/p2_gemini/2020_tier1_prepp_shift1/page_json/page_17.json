@@ -1,0 +1,126 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "When x is subtracted from each of 19, 28, 55 and 91, the numbers so obtained in this order are in proportion. What is the value of x?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8"
+        },
+        {
+          "label": "2",
+          "text": "7"
+        },
+        {
+          "label": "3",
+          "text": "9"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "question_id": "81616113066",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "7",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "cosec θ / (cosec θ - 1) + cosec θ / (cosec θ + 1) - tan² θ, 0° < θ < 90°, is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "sec² θ + 1"
+        },
+        {
+          "label": "2",
+          "text": "sec² θ"
+        },
+        {
+          "label": "3",
+          "text": "2sec² θ"
+        },
+        {
+          "label": "4",
+          "text": "1 - tan² θ"
+        }
+      ],
+      "question_id": "81616114090",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "sec² θ + 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "The income of A is 45% more than the income of B and the income of C is 60% less than the sum of the incomes of A and B. The income of D is 20% more than that of C. If the difference between the incomes of B and D is ₹13200, then the income (in ₹) of C is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "72000"
+        },
+        {
+          "label": "2",
+          "text": "72500"
+        },
+        {
+          "label": "3",
+          "text": "73500"
+        },
+        {
+          "label": "4",
+          "text": "75000"
+        }
+      ],
+      "question_id": "81616113973",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "73500",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Length of each side of a rhombus is 13 cm and one of the diagonal is 24 cm. What is the area (in cm²) of the rhombus?",
+      "options": [
+        {
+          "label": "1",
+          "text": "120"
+        },
+        {
+          "label": "2",
+          "text": "300"
+        },
+        {
+          "label": "3",
+          "text": "60"
+        },
+        {
+          "label": "4",
+          "text": "240"
+        }
+      ],
+      "question_id": "81616113373",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "120",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

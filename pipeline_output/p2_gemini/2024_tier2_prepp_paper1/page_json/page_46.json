@@ -1,0 +1,15 @@
+{
+  "page": 46,
+  "questions": [],
+  "warnings": [
+    "No questions with answer options were found on this page. The page contains a reading comprehension passage (Question 95) but the corresponding questions and answer options are not visible."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

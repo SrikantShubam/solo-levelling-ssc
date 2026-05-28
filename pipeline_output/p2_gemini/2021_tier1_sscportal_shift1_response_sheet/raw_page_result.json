@@ -1,0 +1,3203 @@
+[
+  {
+    "page": 1,
+    "questions": [
+      {
+        "question_number": 1,
+        "section": "General Intelligence and Reasoning",
+        "question_text_full": "In a certain language, CHHAPAK is coded as DJKEUGR. How will MALANGA be coded in that language?",
+        "options": [
+          {
+            "label": "1",
+            "text": "NCEOSMC"
+          },
+          {
+            "label": "2",
+            "text": "NCOCSMC"
+          },
+          {
+            "label": "3",
+            "text": "NCOESMH"
+          },
+          {
+            "label": "4",
+            "text": "NCOCMSC"
+          }
+        ],
+        "question_id": "65497844600",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "NCOESMH",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 2,
+        "section": "General Intelligence and Reasoning",
+        "question_text_full": "Amit, Gaurav, Hatim, Varun, Yukti and Zaid are sitting in a straight line, all facing the north. Gaurav is fourth to the left of Amit. Yukti is sitting at one corner. Hatim is fourth to the left of Yukti. Zaid is third to the right of Gaurav. Who is sitting at the second place to the left of Zaid?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Varun"
+          },
+          {
+            "label": "2",
+            "text": "Yukti"
+          },
+          {
+            "label": "3",
+            "text": "Hatim"
+          },
+          {
+            "label": "4",
+            "text": "Amit"
+          }
+        ],
+        "question_id": "65497843079",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Hatim",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 3,
+        "section": "General Intelligence and Reasoning",
+        "question_text_full": "Select the correct combination of mathematical signs that can sequentially replace the * signs and balance the given equation.\n60 * 48 * 36 * 6 * 15 * 53",
+        "options": [
+          {
+            "label": "1",
+            "text": "+, ÷, −, ×, ="
+          },
+          {
+            "label": "2",
+            "text": "+, ÷, ×, −, ="
+          },
+          {
+            "label": "3",
+            "text": "÷, +, ×, −, ="
+          },
+          {
+            "label": "4",
+            "text": "×, ÷, +, −, ="
+          }
+        ],
+        "question_id": "65497843086",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "+, ÷, ×, −, =",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 2,
+    "questions": [
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series.\n237, 196, 155, 114, ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "47"
+          },
+          {
+            "label": "2",
+            "text": "98"
+          },
+          {
+            "label": "3",
+            "text": "73"
+          },
+          {
+            "label": "4",
+            "text": "64"
+          }
+        ],
+        "question_id": "65497842273",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "73",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "Select the combination of letters that when sequentially placed in the blanks of the given series will complete the series.\n_ Z _ C _ L Z _ C _ L _ X _ V L _ _ _ V",
+        "options": [
+          {
+            "label": "1",
+            "text": "L, X, V, X, V, Z, C, Z, X, C"
+          },
+          {
+            "label": "2",
+            "text": "X, Z, L, X, V, Z, C, C, C, L"
+          },
+          {
+            "label": "3",
+            "text": "L, X, C, X, V, C, Z, C, Z, C"
+          },
+          {
+            "label": "4",
+            "text": "L, X, V, V, X, C, C, X, Z, Z"
+          }
+        ],
+        "question_id": "65497844603",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "L, X, V, X, V, Z, C, Z, X, C",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "If '@' means 'addition', '%' means 'multiplication', '$' means 'division' and '#' means 'subtraction', then find the value of the following expression.\n29 @ 128 $ 16 % 7 # 22",
+        "options": [
+          {
+            "label": "1",
+            "text": "58"
+          },
+          {
+            "label": "2",
+            "text": "47"
+          },
+          {
+            "label": "3",
+            "text": "63"
+          },
+          {
+            "label": "4",
+            "text": "23"
+          }
+        ],
+        "question_id": "65497842380",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "63",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 3,
+    "questions": [
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Select the option in which the given figure is embedded (rotation is NOT allowed).",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "65497842283",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Figure 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 4,
+    "questions": [
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "The sequence of folding a piece of paper and the manner in which the folded paper has been cut is shown in the following figures. How would this paper look when unfolded?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "65497843497",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Figure 4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Options are represented as figures."
+      },
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.\n\nStatements:\nAll flowers are beautiful.\nVaidehi is beautiful.\n\nConclusions:\nI. Vaidehi is a flower.\nII. Some beautiful are flowers.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Only conclusion II follows."
+          },
+          {
+            "label": "2",
+            "text": "Either conclusion I or II follows."
+          },
+          {
+            "label": "3",
+            "text": "Only conclusion I follows."
+          },
+          {
+            "label": "4",
+            "text": "Both the conclusions follow."
+          }
+        ],
+        "question_id": "65497842373",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Only conclusion II follows.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 5,
+    "questions": [
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "Select the correct water image of the given combination of letters. D F N Z S R",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "65497843092",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Figure 4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Options are visual representations of water images."
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "Select the correct option that indicates the arrangement of the given words in the order in which they appear in an English dictionary 1. Petitionary 2. Petitioning 3. Petition 4. Petitioners 5. Petitioned",
+        "options": [
+          {
+            "label": "1",
+            "text": "1, 2, 3, 4, 5"
+          },
+          {
+            "label": "2",
+            "text": "4, 1, 2, 3, 5"
+          },
+          {
+            "label": "3",
+            "text": "3, 1, 5, 4, 2"
+          },
+          {
+            "label": "4",
+            "text": "3, 1, 4, 5, 2"
+          }
+        ],
+        "question_id": "65497844585",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "3, 1, 5, 4, 2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "Select the option that is related to the third term in the same way as the second term is related to the first term. BACTERIA : EXFWBUFX :: WOUNDS : ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "ZLRQGV"
+          },
+          {
+            "label": "2",
+            "text": "YLRQFV"
+          },
+          {
+            "label": "3",
+            "text": "ZLSQFW"
+          },
+          {
+            "label": "4",
+            "text": "ZRXQGV"
+          }
+        ],
+        "question_id": "65497843679",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "ZLRQGV",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 6,
+    "questions": [
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Study the given pattern carefully and select the number from among the given options that can replace the question mark (?) in it.\n48 63 56\n42 18 8 45 15 21 51 ? 8\n14 9 17",
+        "options": [
+          {
+            "label": "1",
+            "text": "21"
+          },
+          {
+            "label": "2",
+            "text": "18"
+          },
+          {
+            "label": "3",
+            "text": "19"
+          },
+          {
+            "label": "4",
+            "text": "17"
+          }
+        ],
+        "question_id": "65497842277",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "21",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\nTSF, RPJ, PMN, NJR, ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "JFV"
+          },
+          {
+            "label": "2",
+            "text": "KGU"
+          },
+          {
+            "label": "3",
+            "text": "LGN"
+          },
+          {
+            "label": "4",
+            "text": "LGV"
+          }
+        ],
+        "question_id": "65497842363",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "LGV",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "In a certain code language, ‘CROWD’ is coded as 23415924 and ‘TRHICK’ is coded as 162491997. How will ‘FRUGAL’ be coded in that language?",
+        "options": [
+          {
+            "label": "1",
+            "text": "1226761821"
+          },
+          {
+            "label": "2",
+            "text": "1521012291"
+          },
+          {
+            "label": "3",
+            "text": "1512021921"
+          },
+          {
+            "label": "4",
+            "text": "1221021186"
+          }
+        ],
+        "question_id": "65497843479",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "1512021921",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Saloni is the daughter of the only son of Kartik. Nirupama is the mother of Deepak. Yamini’s only son, Ankit, is married to Nirupama. Kartik is the paternal grandfather of Deepak. How is Kartik related to Ankit?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Brother"
+          },
+          {
+            "label": "2",
+            "text": "Paternal uncle"
+          },
+          {
+            "label": "3",
+            "text": "Son"
+          },
+          {
+            "label": "4",
+            "text": "Father"
+          }
+        ],
+        "question_id": "65497843078",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Father",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 7,
+    "questions": [
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "Six letters and symbols, H, h, I, @, % and S, are written on the different faces of a dice. Two positions of this dice are shown. Select the letter or symbol that will be on the face opposite to the one having ‘H’.",
+        "options": [
+          {
+            "label": "1",
+            "text": "S"
+          },
+          {
+            "label": "2",
+            "text": "%"
+          },
+          {
+            "label": "3",
+            "text": "h"
+          },
+          {
+            "label": "4",
+            "text": "@"
+          }
+        ],
+        "question_id": "65497842383",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "@",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "Select the option that is related to the third number in the same way as the second number is related to the first number.\n223 : 350 :: 519 : ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "736"
+          },
+          {
+            "label": "2",
+            "text": "645"
+          },
+          {
+            "label": "3",
+            "text": "687"
+          },
+          {
+            "label": "4",
+            "text": "654"
+          }
+        ],
+        "question_id": "65497843487",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "736",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the letter-cluster that is different.",
+        "options": [
+          {
+            "label": "1",
+            "text": "SPK"
+          },
+          {
+            "label": "2",
+            "text": "JGT"
+          },
+          {
+            "label": "3",
+            "text": "PMN"
+          },
+          {
+            "label": "4",
+            "text": "GTQ"
+          }
+        ],
+        "question_id": "65497842264",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "GTQ",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 8,
+    "questions": [
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "Select the figure from among the given options that can replace the question mark (?) in the following series.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "65497843089",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Figure 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "In a certain code language, 6219 means ‘Sachin is a cricketer’ and 2646 means ‘He played from Mumbai’. Which of the following is the code for ‘Mumbai is very famous’?",
+        "options": [
+          {
+            "label": "1",
+            "text": "7945"
+          },
+          {
+            "label": "2",
+            "text": "6246"
+          },
+          {
+            "label": "3",
+            "text": "6285"
+          },
+          {
+            "label": "4",
+            "text": "2458"
+          }
+        ],
+        "question_id": "65497842268",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "6246",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 9,
+    "questions": [],
+    "warnings": [
+      "No questions found on the provided page. The page contains promotional material for SSC CGL study notes."
+    ]
+  },
+  {
+    "page": 10,
+    "questions": [
+      {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "Select the set of classes the relationship among which is best illustrated by the following Venn diagram. [Figure: Concentric circles]",
+        "options": [
+          {
+            "label": "1",
+            "text": "Fathers, Brothers, Males"
+          },
+          {
+            "label": "2",
+            "text": "Grandfathers, Fathers, Males"
+          },
+          {
+            "label": "3",
+            "text": "Literates, Engineers, Farmers"
+          },
+          {
+            "label": "4",
+            "text": "Mothers, Aunts, Doctors"
+          }
+        ],
+        "question_id": "65497843700",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Grandfathers, Fathers, Males",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "Gaurav exits from the backdoor of his north-facing house and walks 25 m straight, then he takes a left turn and walks 36 m, then he turns left and walks 47 m. He turns left again and walks 36 m. How far and in which direction is he from his house now?",
+        "options": [
+          {
+            "label": "1",
+            "text": "22 m, North"
+          },
+          {
+            "label": "2",
+            "text": "11 m, North"
+          },
+          {
+            "label": "3",
+            "text": "22 m, South"
+          },
+          {
+            "label": "4",
+            "text": "11 m, South"
+          }
+        ],
+        "question_id": "65497843492",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "22 m, North",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "Mohit and Sudesh bought pens and notebooks from the same shop. Mohit bought 3 pens and 6 notebooks by paying an amount of ₹180. Sudesh bought 5 pens and 2 notebooks by paying an amount of ₹116. How much did Mohit spend on buying notebooks?",
+        "options": [
+          {
+            "label": "1",
+            "text": "₹84"
+          },
+          {
+            "label": "2",
+            "text": "₹138"
+          },
+          {
+            "label": "3",
+            "text": "₹122"
+          },
+          {
+            "label": "4",
+            "text": "₹115"
+          }
+        ],
+        "question_id": "65497843690",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "₹138",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 25,
+        "section": null,
+        "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series. 5, 18, 70, 278, ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "328"
+          },
+          {
+            "label": "2",
+            "text": "298"
+          },
+          {
+            "label": "3",
+            "text": "1110"
+          },
+          {
+            "label": "4",
+            "text": "592"
+          }
+        ],
+        "question_id": "65497842375",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "1110",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 11,
+    "questions": [
+      {
+        "question_number": 1,
+        "section": "General Awareness",
+        "question_text_full": "The numerical taxonomy of plants is based on which of the following?",
+        "options": [
+          {
+            "label": "1",
+            "text": "All observable characteristics"
+          },
+          {
+            "label": "2",
+            "text": "Chemical constituents"
+          },
+          {
+            "label": "3",
+            "text": "Structure"
+          },
+          {
+            "label": "4",
+            "text": "Chromosome number"
+          }
+        ],
+        "question_id": "65497843709",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "All observable characteristics",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 2,
+        "section": "General Awareness",
+        "question_text_full": "On which day was the National Emblem of India adopted?",
+        "options": [
+          {
+            "label": "1",
+            "text": "15th August 1952"
+          },
+          {
+            "label": "2",
+            "text": "26th January 1950"
+          },
+          {
+            "label": "3",
+            "text": "15th August 1947"
+          },
+          {
+            "label": "4",
+            "text": "26th January 1959"
+          }
+        ],
+        "question_id": "65497842309",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "26th January 1950",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 3,
+        "section": "General Awareness",
+        "question_text_full": "Who among the following became the Chief Minister of Uttarakhand in March 2021?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Madan Kaushik"
+          },
+          {
+            "label": "2",
+            "text": "Tirath Singh Rawat"
+          },
+          {
+            "label": "3",
+            "text": "BC Khanduri"
+          },
+          {
+            "label": "4",
+            "text": "Dhan Singh Rawat"
+          }
+        ],
+        "question_id": "65497843112",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Tirath Singh Rawat",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 4,
+        "section": "General Awareness",
+        "question_text_full": "The allocation towards health and well-being was increased by ______ over the previous year in Union Budget 2021-22.",
+        "options": [
+          {
+            "label": "1",
+            "text": "125%"
+          },
+          {
+            "label": "2",
+            "text": "100%"
+          },
+          {
+            "label": "3",
+            "text": "140%"
+          },
+          {
+            "label": "4",
+            "text": "137%"
+          }
+        ],
+        "question_id": "65497843099",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "137%",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 12,
+    "questions": [
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "Who among the following is the author of the book ‘The Secret of the Veda’?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Sri Aurobindo"
+          },
+          {
+            "label": "2",
+            "text": "Annie Besant"
+          },
+          {
+            "label": "3",
+            "text": "Swami Vivekananda"
+          },
+          {
+            "label": "4",
+            "text": "J Krishnamurti"
+          }
+        ],
+        "question_id": "65497843517",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "Sri Aurobindo",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "Pneumatophores are specialised ______ in hydrophytes.",
+        "options": [
+          {
+            "label": "1",
+            "text": "seeds"
+          },
+          {
+            "label": "2",
+            "text": "roots"
+          },
+          {
+            "label": "3",
+            "text": "fruits"
+          },
+          {
+            "label": "4",
+            "text": "flowers"
+          }
+        ],
+        "question_id": "65497842293",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "roots",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Which of the following days is celebrated as ‘World Water Day’?",
+        "options": [
+          {
+            "label": "1",
+            "text": "22 March"
+          },
+          {
+            "label": "2",
+            "text": "29 March"
+          },
+          {
+            "label": "3",
+            "text": "18 February"
+          },
+          {
+            "label": "4",
+            "text": "5 April"
+          }
+        ],
+        "question_id": "65497843106",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "22 March",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "Who among the following Rajput rulers defeated Muhammad Ghori in the First Battle of Tarain in 1191 AD?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Rana Kumbha"
+          },
+          {
+            "label": "2",
+            "text": "Maldeo Rathore"
+          },
+          {
+            "label": "3",
+            "text": "Prithviraj Chauhan"
+          },
+          {
+            "label": "4",
+            "text": "Bappa Rawal"
+          }
+        ],
+        "question_id": "65497843515",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Prithviraj Chauhan",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "In which year was the ‘Lotteries Regulation Act’ passed?",
+        "options": [
+          {
+            "label": "1",
+            "text": "1998"
+          },
+          {
+            "label": "2",
+            "text": "1993"
+          },
+          {
+            "label": "3",
+            "text": "1999"
+          },
+          {
+            "label": "4",
+            "text": "1991"
+          }
+        ],
+        "question_id": "65497843116",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "1998",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 13,
+    "questions": [
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "A Ghatam is a ______.",
+        "options": [
+          {
+            "label": "1",
+            "text": "large, narrow-mouthed earthenware pot used as a percussion instrument"
+          },
+          {
+            "label": "2",
+            "text": "small handheld drum that resembles a tambourine"
+          },
+          {
+            "label": "3",
+            "text": "wind instrument made of wood and metal"
+          },
+          {
+            "label": "4",
+            "text": "percussion instrument made of leather and jackwood"
+          }
+        ],
+        "question_id": "65497842287",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "large, narrow-mouthed earthenware pot used as a percussion instrument",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "Which of the following is an Indirect Tax in India?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Goods and Services Tax"
+          },
+          {
+            "label": "2",
+            "text": "Income Tax"
+          },
+          {
+            "label": "3",
+            "text": "Corporation Tax"
+          },
+          {
+            "label": "4",
+            "text": "Capital Gains Tax"
+          }
+        ],
+        "question_id": "65497843501",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Goods and Services Tax",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "Tribes of the Nicobar Islands pay their respects to the departed soul of the head of the family during the ______.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Ossuary Feast"
+          },
+          {
+            "label": "2",
+            "text": "Jagaddhatri Puja"
+          },
+          {
+            "label": "3",
+            "text": "Ganjan Festival"
+          },
+          {
+            "label": "4",
+            "text": "Kalpataru Utsav"
+          }
+        ],
+        "question_id": "65497842389",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Ossuary Feast",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Which of the following statements is/are correct?\nI.Only marketed goods are considered while estimating Gross Domestic Product (GDP).\nII. The work done by a woman at her home is outside the purview of Gross Domestic Product.\nIII. In estimating GDP, only final goods and services are considered.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Only II and III"
+          },
+          {
+            "label": "2",
+            "text": "I, II and III"
+          },
+          {
+            "label": "3",
+            "text": "Only I and III"
+          },
+          {
+            "label": "4",
+            "text": "Only II"
+          }
+        ],
+        "question_id": "65497843704",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "I, II and III",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 14,
+    "questions": [
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "_______ was an important port city in ancient India.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Tamralipti"
+          },
+          {
+            "label": "2",
+            "text": "Shravasti"
+          },
+          {
+            "label": "3",
+            "text": "Ahichhatra"
+          },
+          {
+            "label": "4",
+            "text": "Champa"
+          }
+        ],
+        "question_id": "65497842403",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Tamralipti",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "_______ is reducing the degree or intensity of, or eliminating, pollution.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Abatement"
+          },
+          {
+            "label": "2",
+            "text": "Aerosol"
+          },
+          {
+            "label": "3",
+            "text": "Absorption"
+          },
+          {
+            "label": "4",
+            "text": "Aeration"
+          }
+        ],
+        "question_id": "65497843104",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Abatement",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Which of the following teams won the Indian Super League 2020-21?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Kerala Blasters FC"
+          },
+          {
+            "label": "2",
+            "text": "NorthEast United FC"
+          },
+          {
+            "label": "3",
+            "text": "ATK Mohun Bagan"
+          },
+          {
+            "label": "4",
+            "text": "Mumbai City FC"
+          }
+        ],
+        "question_id": "65497842411",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "Mumbai City FC",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "The former Spanish footballer, Antonio Lopez Habas, was the coach at the Hero ISL 2020-21 of which of the following football teams?",
+        "options": [
+          {
+            "label": "1",
+            "text": "ATK Mohun Bagan"
+          },
+          {
+            "label": "2",
+            "text": "Kerala Blasters"
+          },
+          {
+            "label": "3",
+            "text": "FC Goa"
+          },
+          {
+            "label": "4",
+            "text": "SC East Bengal"
+          }
+        ],
+        "question_id": "65497843725",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "ATK Mohun Bagan",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "Which of the following is also known as the ‘White Mountain’?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Cho Oyu"
+          },
+          {
+            "label": "2",
+            "text": "Makalu"
+          },
+          {
+            "label": "3",
+            "text": "Dhaulagiri I"
+          },
+          {
+            "label": "4",
+            "text": "Lhotse"
+          }
+        ],
+        "question_id": "65497842400",
+        "chosen_option_label": null,
+        "correct_option_label": "3",
+        "correct_option_text": "Dhaulagiri I",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 15,
+    "questions": [
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "With which of the following oceans would you associate the ‘Ring of Fire’?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Arctic"
+          },
+          {
+            "label": "2",
+            "text": "Atlantic"
+          },
+          {
+            "label": "3",
+            "text": "Indian"
+          },
+          {
+            "label": "4",
+            "text": "Pacific"
+          }
+        ],
+        "question_id": "65497842300",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Pacific",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "Which of the following Amendments of the Constitution of India added a new fundamental duty under Article 51-A?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Eighty-Fifth Amendment Act, 2001"
+          },
+          {
+            "label": "2",
+            "text": "Eighty-Sixth Amendment Act, 2002"
+          },
+          {
+            "label": "3",
+            "text": "Eighty-Eighth Amendment Act, 2003"
+          },
+          {
+            "label": "4",
+            "text": "Eighty-Seventh Amendment Act, 2003"
+          }
+        ],
+        "question_id": "65497843519",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "Eighty-Sixth Amendment Act, 2002",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "The theme for International Mother Earth Day, 2021 was ‘______’.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Restore our Earth"
+          },
+          {
+            "label": "2",
+            "text": "Protect our Species"
+          },
+          {
+            "label": "3",
+            "text": "Climate Action"
+          },
+          {
+            "label": "4",
+            "text": "End Plastic Pollution"
+          }
+        ],
+        "question_id": "65497842393",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Restore our Earth",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "In which of the following states/union territories was an election NOT held during March-April 2021?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Puducherry"
+          },
+          {
+            "label": "2",
+            "text": "West Bengal"
+          },
+          {
+            "label": "3",
+            "text": "Bihar"
+          },
+          {
+            "label": "4",
+            "text": "Tamil Nadu"
+          }
+        ],
+        "question_id": "65497843720",
+        "chosen_option_label": null,
+        "correct_option_label": "3",
+        "correct_option_text": "Bihar",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 16,
+    "questions": [
+      {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "The British East India Company captured Pondicherry (Puducherry) from the French in the year _______.",
+        "options": [
+          {
+            "label": "1",
+            "text": "1761"
+          },
+          {
+            "label": "2",
+            "text": "1699"
+          },
+          {
+            "label": "3",
+            "text": "1674"
+          },
+          {
+            "label": "4",
+            "text": "1738"
+          }
+        ],
+        "question_id": "65497842301",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "1761",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "According to Ramsar Convention, which of the following is World Wetlands Day?",
+        "options": [
+          {
+            "label": "1",
+            "text": "18th March"
+          },
+          {
+            "label": "2",
+            "text": "15th January"
+          },
+          {
+            "label": "3",
+            "text": "2nd February"
+          },
+          {
+            "label": "4",
+            "text": "19th December"
+          }
+        ],
+        "question_id": "65497843711",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "2nd February",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 25,
+        "section": null,
+        "question_text_full": "At least _______ of the carbon dioxide fixation on earth is carried out by algae through photosynthesis.",
+        "options": [
+          {
+            "label": "1",
+            "text": "a quarter"
+          },
+          {
+            "label": "2",
+            "text": "a half"
+          },
+          {
+            "label": "3",
+            "text": "one-tenth"
+          },
+          {
+            "label": "4",
+            "text": "one-third"
+          }
+        ],
+        "question_id": "65497843506",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "a half",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 1,
+        "section": "Quantitative Aptitude",
+        "question_text_full": "A sold a mobile phone to B at a gain of 25% and B sold it to C at a loss of 10%. If C paid ₹5,625 for it, how much did A pay (in ₹) for the phone?",
+        "options": [
+          {
+            "label": "1",
+            "text": "5,000"
+          },
+          {
+            "label": "2",
+            "text": "4,800"
+          },
+          {
+            "label": "3",
+            "text": "4,500"
+          },
+          {
+            "label": "4",
+            "text": "5,100"
+          }
+        ],
+        "question_id": "65497843126",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "5,000",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 17,
+    "questions": [
+      {
+        "question_number": 2,
+        "section": null,
+        "question_text_full": "The value of (sin23°cos67° + sec52°sin38° + cos23°sin67° + cosec52°cos38°) / (cosec²20° - tan²70°) is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "3"
+          },
+          {
+            "label": "2",
+            "text": "4"
+          },
+          {
+            "label": "3",
+            "text": "2"
+          },
+          {
+            "label": "4",
+            "text": "0"
+          }
+        ],
+        "question_id": "65497843139",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "3",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 3,
+        "section": null,
+        "question_text_full": "A motorboat whose speed is 20 km/h in still water takes 30 minutes more to go 24 km upstream than to cover the same distance downstream. If the speed of the boat in still water is increased by 2 km/h, then how much time will it take to go 39 km downstream and 30 km upstream?",
+        "options": [
+          {
+            "label": "1",
+            "text": "2 h 40 m"
+          },
+          {
+            "label": "2",
+            "text": "3 h 10 m"
+          },
+          {
+            "label": "3",
+            "text": "3 h 40 m"
+          },
+          {
+            "label": "4",
+            "text": "2 h 50 m"
+          }
+        ],
+        "question_id": "65497843534",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "3 h 10 m",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "AB is a diameter of a circle with centre O. A tangent is drawn at point A. C is a point on the circle such that BC produced meets the tangent at P. If ∠APC = 62°, then find the measure of the minor arc AC.",
+        "options": [
+          {
+            "label": "1",
+            "text": "56°"
+          },
+          {
+            "label": "2",
+            "text": "62°"
+          },
+          {
+            "label": "3",
+            "text": "28°"
+          },
+          {
+            "label": "4",
+            "text": "31°"
+          }
+        ],
+        "question_id": "65497842326",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "28°",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "A can finish a piece of the work in 16 days and B can finish it in 12 days. They worked together for 4 days and then A left. B finished the remaining work. For how many total number of days did B work to finish the work completely?",
+        "options": [
+          {
+            "label": "1",
+            "text": "6"
+          },
+          {
+            "label": "2",
+            "text": "9"
+          },
+          {
+            "label": "3",
+            "text": "4"
+          },
+          {
+            "label": "4",
+            "text": "8"
+          }
+        ],
+        "question_id": "65497843129",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "9",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 18,
+    "questions": [
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "A solid cube of side 8 cm is dropped into a rectangular container of length 16 cm, breadth 8 cm and height 15 cm which is partly filled with water. If the cube is completely submerged, then the rise of water level (in cm) is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "2"
+          },
+          {
+            "label": "2",
+            "text": "6"
+          },
+          {
+            "label": "3",
+            "text": "5"
+          },
+          {
+            "label": "4",
+            "text": "4"
+          }
+        ],
+        "question_id": "65497843131",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "If (x + 6y) = 8, and xy = 2, where x > 0, what is the value of (x³ + 216y³)?",
+        "options": [
+          {
+            "label": "1",
+            "text": "288"
+          },
+          {
+            "label": "2",
+            "text": "224"
+          },
+          {
+            "label": "3",
+            "text": "368"
+          },
+          {
+            "label": "4",
+            "text": "476"
+          }
+        ],
+        "question_id": "65497843132",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "224",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "The following bar graph shows exports of cars of type A and B (in ₹ millions) from 2014 to 2018. What is the ratio of the total exports of cars of type A in 2014 and 2017 to the total exports of cars of type B in 2015 and 2016?",
+        "options": [
+          {
+            "label": "1",
+            "text": "10 : 9"
+          },
+          {
+            "label": "2",
+            "text": "5 : 6"
+          },
+          {
+            "label": "3",
+            "text": "11 : 10"
+          },
+          {
+            "label": "4",
+            "text": "3 : 2"
+          }
+        ],
+        "question_id": "65497842840",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "5 : 6",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 19,
+    "questions": [
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "In a Δ ABC, points P, Q and R are taken on AB, BC and CA, respectively, such that BQ = PQ and QC = QR. If ∠BAC = 75°, what is the measure of ∠PQR (in degrees)?",
+        "options": [
+          {
+            "label": "1",
+            "text": "40"
+          },
+          {
+            "label": "2",
+            "text": "30"
+          },
+          {
+            "label": "3",
+            "text": "50"
+          },
+          {
+            "label": "4",
+            "text": "75"
+          }
+        ],
+        "question_id": "65497843137",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "30",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "If 4sin² θ = 3(1 + cosθ), 0° < θ < 90°, then what is the value of (2tanθ + 4sinθ − secθ)?",
+        "options": [
+          {
+            "label": "1",
+            "text": "3√15 - 4"
+          },
+          {
+            "label": "2",
+            "text": "15√3 - 4"
+          },
+          {
+            "label": "3",
+            "text": "15√3 + 3"
+          },
+          {
+            "label": "4",
+            "text": "4√15 - 3"
+          }
+        ],
+        "question_id": "65497843542",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "3√15 - 4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "The lengths of the three sides of a right-angled triangle are (x – 1) cm, (x + 1) cm and (x + 3) cm, respectively. The hypotenuse of the right-angled triangle (in cm) is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "6"
+          },
+          {
+            "label": "2",
+            "text": "10"
+          },
+          {
+            "label": "3",
+            "text": "12"
+          },
+          {
+            "label": "4",
+            "text": "7"
+          }
+        ],
+        "question_id": "65497843540",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "10",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "A certain sum is deposited for 4 years at a rate of 10% per annum on compound interest compounded annually. The difference between the interest at the end of 2 years and that at the end of 4 years is ₹5,082. Find the sum (in ₹).",
+        "options": [
+          {
+            "label": "1",
+            "text": "20,000"
+          },
+          {
+            "label": "2",
+            "text": "25,500"
+          },
+          {
+            "label": "3",
+            "text": "50,820"
+          },
+          {
+            "label": "4",
+            "text": "10,164"
+          }
+        ],
+        "question_id": "65497842320",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "20,000",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 20,
+    "questions": [],
+    "warnings": [
+      "No exam questions found on this page. The page contains promotional material for SSC CGL study notes."
+    ]
+  },
+  {
+    "page": 21,
+    "questions": [
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "An item costs ₹400. During a festival sale, a company offers a sale discount that offers x% off on its regular price along with a discount coupon of 10%. The price of the item after using both the sale discount and the discount coupon, is ₹216. What is the value of x?",
+        "options": [
+          {
+            "label": "1",
+            "text": "25"
+          },
+          {
+            "label": "2",
+            "text": "40"
+          },
+          {
+            "label": "3",
+            "text": "30"
+          },
+          {
+            "label": "4",
+            "text": "35"
+          }
+        ],
+        "question_id": "65497843225",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "40",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "The number of cars passing the road near a colony from 6 am to 12 noon has been shown in the following histogram. What is the ratio of the number of cars passed between 6 am and 8 am to the number of cars passed between 9 am and 11 am?",
+        "options": [
+          {
+            "label": "1",
+            "text": "5 : 6"
+          },
+          {
+            "label": "2",
+            "text": "7 : 4"
+          },
+          {
+            "label": "3",
+            "text": "21 : 19"
+          },
+          {
+            "label": "4",
+            "text": "14 : 23"
+          }
+        ],
+        "question_id": "65497842336",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "5 : 6",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "Monthly expenditure of a family on different heads is shown in the following pie chart. The amount spent on Children Education, Transport and Rent is what percentage of the total earnings?",
+        "options": [
+          {
+            "label": "1",
+            "text": "45%"
+          },
+          {
+            "label": "2",
+            "text": "55%"
+          },
+          {
+            "label": "3",
+            "text": "40%"
+          },
+          {
+            "label": "4",
+            "text": "50%"
+          }
+        ],
+        "question_id": "65497843748",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "50%",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 22,
+    "questions": [
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Find the greatest number 23a68b, which is divisible by 3 but NOT divisible by 9.",
+        "options": [
+          {
+            "label": "1",
+            "text": "238689"
+          },
+          {
+            "label": "2",
+            "text": "239685"
+          },
+          {
+            "label": "3",
+            "text": "239688"
+          },
+          {
+            "label": "4",
+            "text": "237687"
+          }
+        ],
+        "question_id": "65497842413",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "239685",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "An equilateral triangle ABC is inscribed in a circle with centre O. D is a point on the minor arc BC and ∠CBD = 40°. Find the measure of ∠BCD.",
+        "options": [
+          {
+            "label": "1",
+            "text": "30°"
+          },
+          {
+            "label": "2",
+            "text": "50°"
+          },
+          {
+            "label": "3",
+            "text": "20°"
+          },
+          {
+            "label": "4",
+            "text": "40°"
+          }
+        ],
+        "question_id": "65497842428",
+        "chosen_option_label": "4",
+        "correct_option_label": "3",
+        "correct_option_text": "20°",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "The ratio of the monthly incomes of A and B is 11 : 13 and the ratio of their expenditures is 9 : 11. If both of them manage to save ₹4,000 per month, then find the difference in their incomes (in ₹).",
+        "options": [
+          {
+            "label": "1",
+            "text": "2,500"
+          },
+          {
+            "label": "2",
+            "text": "3,200"
+          },
+          {
+            "label": "3",
+            "text": "4,000"
+          },
+          {
+            "label": "4",
+            "text": "3,000"
+          }
+        ],
+        "question_id": "65497843531",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "4,000",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "The average weight of P and his three friends is 55 kg. If P is 4 kg more than the average weight of his three friends, what is P's weight (in kg)?",
+        "options": [
+          {
+            "label": "1",
+            "text": "54"
+          },
+          {
+            "label": "2",
+            "text": "58"
+          },
+          {
+            "label": "3",
+            "text": "62"
+          },
+          {
+            "label": "4",
+            "text": "60"
+          }
+        ],
+        "question_id": "65497843123",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "58",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 23,
+    "questions": [
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "If x + y + 3 = 0, then find the value of x³ + y³ - 9xy + 9.",
+        "options": [
+          {
+            "label": "1",
+            "text": "-18"
+          },
+          {
+            "label": "2",
+            "text": "-36"
+          },
+          {
+            "label": "3",
+            "text": "18"
+          },
+          {
+            "label": "4",
+            "text": "36"
+          }
+        ],
+        "question_id": "65497843537",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "-18",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "The given histogram represents the marks of students in Mathematics test of a certain class. The total number of students is 350. Study the graph and answer the question that follows. What is the ratio of the total number of students who scored 140 marks and above to the total number of students who scored marks between 60 to 120?",
+        "options": [
+          {
+            "label": "1",
+            "text": "110 : 137"
+          },
+          {
+            "label": "2",
+            "text": "9 : 11"
+          },
+          {
+            "label": "3",
+            "text": "11 : 9"
+          },
+          {
+            "label": "4",
+            "text": "137 : 110"
+          }
+        ],
+        "question_id": "65497843345",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "110 : 137",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "The angle of elevation of the top of an unfinished tower at a point distant 78 m from its base is 30°. How much higher must the tower be raised (in m) so that the angle of elevation of the top of the finished tower at the same point will be 60°?",
+        "options": [
+          {
+            "label": "1",
+            "text": "78√3"
+          },
+          {
+            "label": "2",
+            "text": "80"
+          },
+          {
+            "label": "3",
+            "text": "52√3"
+          },
+          {
+            "label": "4",
+            "text": "26√3"
+          }
+        ],
+        "question_id": "65497843746",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "52√3",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 24,
+    "questions": [
+      {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "Find the value of the following expression: 372 ÷ 56 × 7 - 5 + 2",
+        "options": [
+          {
+            "label": "1",
+            "text": "58"
+          },
+          {
+            "label": "2",
+            "text": "-2 95/98"
+          },
+          {
+            "label": "3",
+            "text": "43 1/2"
+          },
+          {
+            "label": "4",
+            "text": "2 93/98"
+          }
+        ],
+        "question_id": "65497843728",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "43 1/2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "LCM of two numbers is 56 times their HCF, with the sum of their HCF and LCM being 1710. If one of the two numbers is 240, then what is the other number?",
+        "options": [
+          {
+            "label": "1",
+            "text": "57"
+          },
+          {
+            "label": "2",
+            "text": "171"
+          },
+          {
+            "label": "3",
+            "text": "1680"
+          },
+          {
+            "label": "4",
+            "text": "210"
+          }
+        ],
+        "question_id": "65497843727",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "210",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 25,
+        "section": null,
+        "question_text_full": "Some students (only boys and girls) from different schools appeared for an Olympiad exam. 20% of the boys and 15% of the girls failed the exam. The number of boys who passed the exam was 70 more than that of the girls who passed the exam. A total of 90 students failed. Find the number of students that appeared for the exam.",
+        "options": [
+          {
+            "label": "1",
+            "text": "420"
+          },
+          {
+            "label": "2",
+            "text": "400"
+          },
+          {
+            "label": "3",
+            "text": "500"
+          },
+          {
+            "label": "4",
+            "text": "350"
+          }
+        ],
+        "question_id": "65497842418",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "500",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 25,
+    "questions": [
+      {
+        "question_number": 1,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in passive voice.\nShe handles all tasks efficiently.",
+        "options": [
+          {
+            "label": "1",
+            "text": "All tasks are being handled efficiently by her."
+          },
+          {
+            "label": "2",
+            "text": "All tasks were handled efficiently by her."
+          },
+          {
+            "label": "3",
+            "text": "All tasks have been handled efficiently by her."
+          },
+          {
+            "label": "4",
+            "text": "All tasks are handled efficiently by her."
+          }
+        ],
+        "question_id": "65497843755",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "All tasks are handled efficiently by her.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 2,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in active voice.\nAll weapons were surrendered by them.",
+        "options": [
+          {
+            "label": "1",
+            "text": "They have surrendered all weapons."
+          },
+          {
+            "label": "2",
+            "text": "They surrendered all weapons."
+          },
+          {
+            "label": "3",
+            "text": "They had surrendered all weapons."
+          },
+          {
+            "label": "4",
+            "text": "They are surrendering all weapons."
+          }
+        ],
+        "question_id": "65497843554",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "They surrendered all weapons.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 3,
+        "section": null,
+        "question_text_full": "Select the most appropriate option that can substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’.\nThe authorities are assured the people that they will look into the matter.",
+        "options": [
+          {
+            "label": "1",
+            "text": "has assured"
+          },
+          {
+            "label": "2",
+            "text": "have assured"
+          },
+          {
+            "label": "3",
+            "text": "have been assured"
+          },
+          {
+            "label": "4",
+            "text": "No substitution required"
+          }
+        ],
+        "question_id": "65497842451",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "have assured",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "Select the most appropriate ANTONYM of the given word.\nModest",
+        "options": [
+          {
+            "label": "1",
+            "text": "Glum"
+          },
+          {
+            "label": "2",
+            "text": "Sullen"
+          },
+          {
+            "label": "3",
+            "text": "Unhappy"
+          },
+          {
+            "label": "4",
+            "text": "Conceited"
+          }
+        ],
+        "question_id": "65497842356",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "Conceited",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 26,
+    "questions": [
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nThe study of earthquakes",
+        "options": [
+          {
+            "label": "1",
+            "text": "Geology"
+          },
+          {
+            "label": "2",
+            "text": "Geography"
+          },
+          {
+            "label": "3",
+            "text": "Topography"
+          },
+          {
+            "label": "4",
+            "text": "Seismology"
+          }
+        ],
+        "question_id": "65497843571",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Seismology",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required.’\nA tigress has given birth to a cub in the Ranthambore Tiger Reserve, taking the big cat population to 78.",
+        "options": [
+          {
+            "label": "1",
+            "text": "is given births"
+          },
+          {
+            "label": "2",
+            "text": "was birthed"
+          },
+          {
+            "label": "3",
+            "text": "has give birth"
+          },
+          {
+            "label": "4",
+            "text": "no substitution required"
+          }
+        ],
+        "question_id": "65497843765",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "no substitution required",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Select the most appropriate meaning of the given idiom.\nBe hard up",
+        "options": [
+          {
+            "label": "1",
+            "text": "Unable to calculate"
+          },
+          {
+            "label": "2",
+            "text": "Have very little money"
+          },
+          {
+            "label": "3",
+            "text": "Have difficulty in climbing stairs"
+          },
+          {
+            "label": "4",
+            "text": "Find it very difficult to wake up early"
+          }
+        ],
+        "question_id": "65497842458",
+        "chosen_option_label": "1",
+        "correct_option_label": "2",
+        "correct_option_text": "Have very little money",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nEvery / curious child / want to / rip open a toy.",
+        "options": [
+          {
+            "label": "1",
+            "text": "curious child"
+          },
+          {
+            "label": "2",
+            "text": "rip open a toy"
+          },
+          {
+            "label": "3",
+            "text": "Every"
+          },
+          {
+            "label": "4",
+            "text": "want to"
+          }
+        ],
+        "question_id": "65497843751",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "want to",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 27,
+    "questions": [
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error from the given options. If you don’t find any error, mark ‘No error’ as your answer.\nIt was / the very well-directed film / and we enjoyed it.",
+        "options": [
+          {
+            "label": "1",
+            "text": "the very well-directed film"
+          },
+          {
+            "label": "2",
+            "text": "No error"
+          },
+          {
+            "label": "3",
+            "text": "and we enjoyed it"
+          },
+          {
+            "label": "4",
+            "text": "It was"
+          }
+        ],
+        "question_id": "65497843551",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "the very well-directed film",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "Select the INCORRECTLY spelt word.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Tution"
+          },
+          {
+            "label": "2",
+            "text": "Circuit"
+          },
+          {
+            "label": "3",
+            "text": "Genuine"
+          },
+          {
+            "label": "4",
+            "text": "Manners"
+          }
+        ],
+        "question_id": "65497843573",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Tution",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in direct speech.\nHe asked me when I had booked the flight tickets.",
+        "options": [
+          {
+            "label": "1",
+            "text": "He said to me, “When do you book the flight tickets?”"
+          },
+          {
+            "label": "2",
+            "text": "He said to me, “When did you book the flight tickets?”"
+          },
+          {
+            "label": "3",
+            "text": "He said to me, “When are you booking the flight tickets?”"
+          },
+          {
+            "label": "4",
+            "text": "He said to me, “When you had book the flight tickets?”"
+          }
+        ],
+        "question_id": "65497842349",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "He said to me, “When did you book the flight tickets?”",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "The following sentence has been divided into parts. One of them may contain a grammatical error. Select the part that contains the error from the given options. If you don’t find any error, mark ‘No error’ as your answer.\nIf the economy fails / this year it reflect badly / on the government.",
+        "options": [
+          {
+            "label": "1",
+            "text": "this year it reflect badly"
+          },
+          {
+            "label": "2",
+            "text": "No error"
+          },
+          {
+            "label": "3",
+            "text": "on the government"
+          },
+          {
+            "label": "4",
+            "text": "If the economy fails"
+          }
+        ],
+        "question_id": "65497842340",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "this year it reflect badly",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 28,
+    "questions": [
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Select the most appropriate option to fill in the blank.\nThe increasing concerns about climate change point to the need for enhanced efforts towards ______ sustained growth.",
+        "options": [
+          {
+            "label": "1",
+            "text": "achieving"
+          },
+          {
+            "label": "2",
+            "text": "to achieve"
+          },
+          {
+            "label": "3",
+            "text": "achieved"
+          },
+          {
+            "label": "4",
+            "text": "achieve"
+          }
+        ],
+        "question_id": "65497843170",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "achieving",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nTo walk aimlessly",
+        "options": [
+          {
+            "label": "1",
+            "text": "Amble"
+          },
+          {
+            "label": "2",
+            "text": "Crawl"
+          },
+          {
+            "label": "3",
+            "text": "Sprint"
+          },
+          {
+            "label": "4",
+            "text": "Slither"
+          }
+        ],
+        "question_id": "65497843168",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Amble",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "Select the most appropriate synonym of the given word.\nostentatious",
+        "options": [
+          {
+            "label": "1",
+            "text": "showy"
+          },
+          {
+            "label": "2",
+            "text": "tasteful"
+          },
+          {
+            "label": "3",
+            "text": "sudden"
+          },
+          {
+            "label": "4",
+            "text": "quick"
+          }
+        ],
+        "question_id": "65497843767",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "showy",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Select the most appropriate meaning of the given idiom.\nIn the same breath",
+        "options": [
+          {
+            "label": "1",
+            "text": "Try and hold your breath"
+          },
+          {
+            "label": "2",
+            "text": "Say two contradictory things at the same time"
+          },
+          {
+            "label": "3",
+            "text": "Able to get a foul smell"
+          },
+          {
+            "label": "4",
+            "text": "Practice breathing exercises"
+          }
+        ],
+        "question_id": "65497842358",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Say two contradictory things at the same time",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 29,
+    "questions": [
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "Select the most appropriate ANTONYM of the given word.\nRaze",
+        "options": [
+          {
+            "label": "1",
+            "text": "Build"
+          },
+          {
+            "label": "2",
+            "text": "Ease"
+          },
+          {
+            "label": "3",
+            "text": "Comfort"
+          },
+          {
+            "label": "4",
+            "text": "Ruin"
+          }
+        ],
+        "question_id": "65497842456",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Build",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "Select the most appropriate synonym of the given word.\nRetaliate",
+        "options": [
+          {
+            "label": "1",
+            "text": "Clap"
+          },
+          {
+            "label": "2",
+            "text": "react"
+          },
+          {
+            "label": "3",
+            "text": "Facilitate"
+          },
+          {
+            "label": "4",
+            "text": "Rotate"
+          }
+        ],
+        "question_id": "65497843766",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "react",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "Select the most appropriate synonym of the given word.\nAvert",
+        "options": [
+          {
+            "label": "1",
+            "text": "Permit"
+          },
+          {
+            "label": "2",
+            "text": "Confront"
+          },
+          {
+            "label": "3",
+            "text": "Face"
+          },
+          {
+            "label": "4",
+            "text": "Prevent"
+          }
+        ],
+        "question_id": "65497843566",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "Prevent",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "The following sentence has been split into segments. One of them may contain an error. Identify the segment that contains a grammatical error. If you don’t find any error, mark ‘No error’ as your answer.\nNo one were / present when I / entered the hall.",
+        "options": [
+          {
+            "label": "1",
+            "text": "No one were"
+          },
+          {
+            "label": "2",
+            "text": "present when I"
+          },
+          {
+            "label": "3",
+            "text": "No error"
+          },
+          {
+            "label": "4",
+            "text": "entered the hall"
+          }
+        ],
+        "question_id": "65497842236",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "No one were",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 30,
+    "questions": [
+      {
+        "question_number": 21,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no.1.",
+        "options": [
+          {
+            "label": "1",
+            "text": "population"
+          },
+          {
+            "label": "2",
+            "text": "clan"
+          },
+          {
+            "label": "3",
+            "text": "natives"
+          },
+          {
+            "label": "4",
+            "text": "inhabitants"
+          }
+        ],
+        "question_id": "65497843152",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "population",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 22,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no.2.",
+        "options": [
+          {
+            "label": "1",
+            "text": "unwarranted"
+          },
+          {
+            "label": "2",
+            "text": "illegal"
+          },
+          {
+            "label": "3",
+            "text": "illegitimate"
+          },
+          {
+            "label": "4",
+            "text": "unconstitutional"
+          }
+        ],
+        "question_id": "65497843153",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "illegal",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 31,
+    "questions": [
+      {
+        "question_number": 23,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no.3.",
+        "options": [
+          {
+            "label": "1",
+            "text": "trespass"
+          },
+          {
+            "label": "2",
+            "text": "confiscation"
+          },
+          {
+            "label": "3",
+            "text": "intervention"
+          },
+          {
+            "label": "4",
+            "text": "encroachment"
+          }
+        ],
+        "question_id": "65497843154",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "encroachment",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 24,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no.4.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Whereas"
+          },
+          {
+            "label": "2",
+            "text": "Moreover"
+          },
+          {
+            "label": "3",
+            "text": "Nevertheless"
+          },
+          {
+            "label": "4",
+            "text": "However"
+          }
+        ],
+        "question_id": "65497843155",
+        "chosen_option_label": "4",
+        "correct_option_label": "2",
+        "correct_option_text": "Moreover",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 32,
+    "questions": [
+      {
+        "question_number": 25,
+        "section": "English Comprehension",
+        "question_text_full": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank.\n\nThe rise in the Irrawaddy dolphin (1) ______ in Chilika can be attributed to the eviction of (2) ______ fish enclosures. After thousands of hectares of Chilika lake were made (3) ______ free, Irrawaddy dolphins found unobstructed area for movement. (4) ______, due to the COVID-19 lockdown last year, there were comparatively fewer tourist boats on Chilika lake, which made it (5) ______ for dolphins to move from one part of the lake to another.\n\nSelect the most appropriate option to fill in blank no.5.",
+        "options": [
+          {
+            "label": "1",
+            "text": "conducive"
+          },
+          {
+            "label": "2",
+            "text": "hurtful"
+          },
+          {
+            "label": "3",
+            "text": "detrimental"
+          },
+          {
+            "label": "4",
+            "text": "disturbing"
+          }
+        ],
+        "question_id": "65497843156",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "conducive",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 33,
+    "questions": [],
+    "warnings": [
+      "No questions found on the provided page. The page is an advertisement for SSC CGL study notes."
+    ]
+  }
+]

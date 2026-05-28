@@ -1,0 +1,104 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "The question contains pairs of words that are related to each other in a certain way. Three of the following four word pairs are alike as these have the same relationship and thus form a group. Which word pair is the one that DOES NOT belong to that group?\n(The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Pentagon - 5 sides"
+        },
+        {
+          "label": "2",
+          "text": "Hexagon - 8 sides"
+        },
+        {
+          "label": "3",
+          "text": "Triangle - 3 sides"
+        },
+        {
+          "label": "4",
+          "text": "Square - 4 sides"
+        }
+      ],
+      "question_id": "630680798725",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Hexagon - 8 sides",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "The position of how many letters will remain unchanged if each of the letters in the word ‘NIGHTMARES’ is re-arranged in the English alphabetical order from left to right?",
+      "options": [
+        {
+          "label": "1",
+          "text": "One"
+        },
+        {
+          "label": "2",
+          "text": "Four"
+        },
+        {
+          "label": "3",
+          "text": "Two"
+        },
+        {
+          "label": "4",
+          "text": "Three"
+        }
+      ],
+      "question_id": "630680106896",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Four",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "What will come in the place of ‘?’ in the following equation, if ‘+’ and ‘-‘ are interchanged and ‘x’ and ‘÷’ are interchanged?\n5 – 4 ÷ 9 + 80 × 10 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "31"
+        },
+        {
+          "label": "2",
+          "text": "33"
+        },
+        {
+          "label": "3",
+          "text": "35"
+        },
+        {
+          "label": "4",
+          "text": "30"
+        }
+      ],
+      "question_id": "630680327973",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "33",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

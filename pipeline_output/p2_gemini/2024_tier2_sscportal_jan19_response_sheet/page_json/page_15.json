@@ -1,0 +1,104 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 37,
+      "section": null,
+      "question_text_full": "The mean absolute deviation of 25, 30, 27, 40 and 35 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3.58"
+        },
+        {
+          "label": "2",
+          "text": "4.88"
+        },
+        {
+          "label": "3",
+          "text": "5.28"
+        },
+        {
+          "label": "4",
+          "text": "4.67"
+        }
+      ],
+      "question_id": "6306801352842",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "4.88",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 38,
+      "section": null,
+      "question_text_full": "Before using secondary data, one need NOT verify:",
+      "options": [
+        {
+          "label": "1",
+          "text": "reliability of data"
+        },
+        {
+          "label": "2",
+          "text": "suitability of data"
+        },
+        {
+          "label": "3",
+          "text": "expenditure involved at time of collection of data"
+        },
+        {
+          "label": "4",
+          "text": "adequacy of data"
+        }
+      ],
+      "question_id": "6306801293836",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "expenditure involved at time of collection of data",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 39,
+      "section": null,
+      "question_text_full": "25 books are placed at random on a shelf. The probability that a particular pair of books shall be always together is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3/25"
+        },
+        {
+          "label": "2",
+          "text": "2/25"
+        },
+        {
+          "label": "3",
+          "text": "1/25"
+        },
+        {
+          "label": "4",
+          "text": "5/25"
+        }
+      ],
+      "question_id": "6306801352846",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "2/25",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

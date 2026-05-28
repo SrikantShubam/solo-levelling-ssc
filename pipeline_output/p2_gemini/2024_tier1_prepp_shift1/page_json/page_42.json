@@ -1,0 +1,46 @@
+{
+  "page": 42,
+  "questions": [
+    {
+      "question_number": 97,
+      "section": "Comprehension",
+      "question_text_full": "Comprehension: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The beginning of the story is (1)______ in its presentation but (2)______ the style eases out and becomes haunting in its simplicity. The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)_____ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henry's treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos. Select the most appropriate option to fill in blank number 2:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Hardly"
+        },
+        {
+          "label": "2",
+          "text": "Recently"
+        },
+        {
+          "label": "3",
+          "text": "Initially"
+        },
+        {
+          "label": "4",
+          "text": "Gradually"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 98 is incomplete on the page, therefore it was excluded from the extraction."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

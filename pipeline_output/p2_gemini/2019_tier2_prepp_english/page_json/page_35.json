@@ -1,0 +1,36 @@
+{
+  "page": 35,
+  "questions": [
+    {
+      "question_number": 46,
+      "section": null,
+      "question_text_full": "Match the words with their meanings.\na. forage 1. hit\nb. stretch 2. search\nc. whack 3. draw out",
+      "options": [
+        {
+          "label": "1",
+          "text": "a-3, b-2, c-1"
+        },
+        {
+          "label": "2",
+          "text": "a-2, b-3, c-1"
+        },
+        {
+          "label": "3",
+          "text": "a-2, b-1, c-3"
+        },
+        {
+          "label": "4",
+          "text": "a-1, b-3, c-2"
+        }
+      ],
+      "question_id": "8161615531",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "a-2, b-3, c-1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question stem includes a list of words and meanings, but the answer options are clearly provided below the 'Ans' label."
+    }
+  ],
+  "warnings": []
+}

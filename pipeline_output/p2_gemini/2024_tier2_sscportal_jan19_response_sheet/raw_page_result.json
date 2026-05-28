@@ -1,0 +1,3509 @@
+[
+  {
+    "page": 1,
+    "questions": [
+      {
+        "question_number": 1,
+        "section": "Statistics",
+        "question_text_full": "For the bivariate random variable (X,Y), let the joint probability density function be f(x,y) = 9(1 + x + y) / 2(1 + x)^4(1 + y)^4 for 0 < x < ∞, 0 < y < ∞ . The marginal pdf of X is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "3(2x + 3) / 2(1 + x)"
+          },
+          {
+            "label": "2",
+            "text": "3(2x + 1) / 4(1 + x)^4"
+          },
+          {
+            "label": "3",
+            "text": "3(2x + 3) / (1 + x)^4"
+          },
+          {
+            "label": "4",
+            "text": "3(2x + 3) / 4(1 + x)^4"
+          }
+        ],
+        "question_id": "6306801352886",
+        "chosen_option_label": "3",
+        "correct_option_label": "4",
+        "correct_option_text": "3(2x + 3) / 4(1 + x)^4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 2,
+        "section": "Statistics",
+        "question_text_full": "Monthly sales data (in units) shows the following trend-adjusted ratios for three months: January (1.1), February (0.9), and March (1.0). What is the average seasonal index for this quarter?",
+        "options": [
+          {
+            "label": "1",
+            "text": "0.95"
+          },
+          {
+            "label": "2",
+            "text": "0.9"
+          },
+          {
+            "label": "3",
+            "text": "1.0"
+          },
+          {
+            "label": "4",
+            "text": "1.1"
+          }
+        ],
+        "question_id": "6306801302623",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "1.0",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 2,
+    "questions": [],
+    "warnings": [
+      "No questions found on the provided page. The page contains promotional material for SSC CGL study notes."
+    ],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 3,
+    "questions": [
+      {
+        "question_number": 3,
+        "section": null,
+        "question_text_full": "Duncan's Multiple Range Test makes use of which statistical measure?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Standard Error of the Means"
+          },
+          {
+            "label": "2",
+            "text": "Regression Coefficient"
+          },
+          {
+            "label": "3",
+            "text": "Range Statistic (R)"
+          },
+          {
+            "label": "4",
+            "text": "F-statistic"
+          }
+        ],
+        "question_id": "6306801294827",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Range Statistic (R)",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "For three random variables X1, X2 and X3, the correlation coefficients between pairs of random variables are r12 = r13 = r23 = r ≠ 1. For R1.23 (multiple correlation coefficient), 1 - R²1.23 is written as:",
+        "options": [
+          {
+            "label": "1",
+            "text": "(1 + r)(1 + 2r) / (1 - r)"
+          },
+          {
+            "label": "2",
+            "text": "(1 + 2r) / (1 + r)"
+          },
+          {
+            "label": "3",
+            "text": "(1 - r)(1 + 2r) / (1 + r)"
+          },
+          {
+            "label": "4",
+            "text": "(1 + r)(1 - 2r) / (1 + r)"
+          }
+        ],
+        "question_id": "6306801352945",
+        "chosen_option_label": "4",
+        "correct_option_label": "3",
+        "correct_option_text": "(1 - r)(1 + 2r) / (1 + r)",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "What is the primary challenge in using the free-hand curve method for trend estimation?",
+        "options": [
+          {
+            "label": "1",
+            "text": "It is time-consuming and computationally intensive."
+          },
+          {
+            "label": "2",
+            "text": "It is subjective and may lead to inconsistent results."
+          },
+          {
+            "label": "3",
+            "text": "It cannot identify cyclical patterns."
+          },
+          {
+            "label": "4",
+            "text": "It requires advanced statistical knowledge."
+          }
+        ],
+        "question_id": "6306801302260",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "It is subjective and may lead to inconsistent results.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 4,
+    "questions": [
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "If the critical region is evenly distributed, then the test is referred to as:",
+        "options": [
+          {
+            "label": "1",
+            "text": "Three tailed"
+          },
+          {
+            "label": "2",
+            "text": "Zero tailed"
+          },
+          {
+            "label": "3",
+            "text": "One tailed"
+          },
+          {
+            "label": "4",
+            "text": "Two tailed"
+          }
+        ],
+        "question_id": "6306801307943",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Two tailed",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Which of the following is NOT true for seasonal variation?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Caused by public holidays"
+          },
+          {
+            "label": "2",
+            "text": "Caused by rainfall"
+          },
+          {
+            "label": "3",
+            "text": "Repeated irregularly"
+          },
+          {
+            "label": "4",
+            "text": "Variation in a time series within one year"
+          }
+        ],
+        "question_id": "6306801352953",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Repeated irregularly",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "In a two-way ANOVA, how many hypotheses are tested?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Three"
+          },
+          {
+            "label": "2",
+            "text": "One"
+          },
+          {
+            "label": "3",
+            "text": "Four"
+          },
+          {
+            "label": "4",
+            "text": "Two"
+          }
+        ],
+        "question_id": "6306801294823",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Three",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "In ANCOVA, what happens when the covariate is not linearly related to the dependent variable?",
+        "options": [
+          {
+            "label": "1",
+            "text": "The results of ANCOVA may be biased."
+          },
+          {
+            "label": "2",
+            "text": "The covariate becomes irrelevant."
+          },
+          {
+            "label": "3",
+            "text": "All assumptions of ANCOVA are met."
+          },
+          {
+            "label": "4",
+            "text": "The F-statistic becomes insignificant."
+          }
+        ],
+        "question_id": "6306801352934",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "The results of ANCOVA may be biased.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 5,
+    "questions": [
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "Let X and Y be two independent Poisson variates with rate 5 and 10, respectively, then the E(XY=2) is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "0.5"
+          },
+          {
+            "label": "2",
+            "text": "5"
+          },
+          {
+            "label": "3",
+            "text": "10"
+          },
+          {
+            "label": "4",
+            "text": "2"
+          }
+        ],
+        "question_id": "6306801352810",
+        "chosen_option_label": "3",
+        "correct_option_label": "2",
+        "correct_option_text": "5",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "The mean of a residual error in a one way classified data analysis is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "2"
+          },
+          {
+            "label": "2",
+            "text": "0"
+          },
+          {
+            "label": "3",
+            "text": "-1"
+          },
+          {
+            "label": "4",
+            "text": "1"
+          }
+        ],
+        "question_id": "6306801352853",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "0",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "If the angle between two lines of regression is 90°, then correlation coefficient is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "1"
+          },
+          {
+            "label": "2",
+            "text": "1/2"
+          },
+          {
+            "label": "3",
+            "text": "0"
+          },
+          {
+            "label": "4",
+            "text": "-1"
+          }
+        ],
+        "question_id": "6306801352944",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "0",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 6,
+    "questions": [
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "For a monthly data, the link relative for any month is given by:",
+        "options": [
+          {
+            "label": "1",
+            "text": "(Current month's Value - Previous month value) / 2 * 100"
+          },
+          {
+            "label": "2",
+            "text": "(Current month's Value + Previous month value) / 2 * 100"
+          },
+          {
+            "label": "3",
+            "text": "(Previous month's Value / Current month's value) * 100"
+          },
+          {
+            "label": "4",
+            "text": "(Current month's Value / Previous month's value) * 100"
+          }
+        ],
+        "question_id": "6306801352875",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "(Current month's Value / Previous month's value) * 100",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "On fitting of a trend line Y = a + bt on a time series (with year as a unit of time), the monthly increment/decrement is given by",
+        "options": [
+          {
+            "label": "1",
+            "text": "b/12"
+          },
+          {
+            "label": "2",
+            "text": "a/12"
+          },
+          {
+            "label": "3",
+            "text": "a"
+          },
+          {
+            "label": "4",
+            "text": "b"
+          }
+        ],
+        "question_id": "6306801352873",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "b/12",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "If M: Mean, Md: Median, Mo: Mode, Q1: First Quartile and Q3: Third Quartile, then which of the following is an absolute measure of skewness?",
+        "options": [
+          {
+            "label": "1",
+            "text": "(Q1 - Q3)/Md"
+          },
+          {
+            "label": "2",
+            "text": "M - Md"
+          },
+          {
+            "label": "3",
+            "text": "M + Mo"
+          },
+          {
+            "label": "4",
+            "text": "(Q3 + Q1 - 2Md) / (Q3 - Q1)"
+          }
+        ],
+        "question_id": "6306801352910",
+        "chosen_option_label": "4",
+        "correct_option_label": "2",
+        "correct_option_text": "M - Md",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 7,
+    "questions": [
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Which of the following is NOT true?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Frequency polygon facilitates the comparison of more than one series of data"
+          },
+          {
+            "label": "2",
+            "text": "Histograms are constructed using cumulative frequencies"
+          },
+          {
+            "label": "3",
+            "text": "Histogram consists of a set of rectangles with bases on horizontal axes"
+          },
+          {
+            "label": "4",
+            "text": "Histogram consists of a set of rectangles with centres at class marks"
+          }
+        ],
+        "question_id": "6306801294078",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Histograms are constructed using cumulative frequencies",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "For a two-way classification with p treatments, q blocks and r observations per cell, the degrees of freedom for error and total, respectively, are:",
+        "options": [
+          {
+            "label": "1",
+            "text": "pq-1 and pq (r-1)"
+          },
+          {
+            "label": "2",
+            "text": "(p-1)(q-1) and pqr-1"
+          },
+          {
+            "label": "3",
+            "text": "pq (r-1) and pqr-1"
+          },
+          {
+            "label": "4",
+            "text": "p-1 and pq (r-1)"
+          }
+        ],
+        "question_id": "6306801352937",
+        "chosen_option_label": "1",
+        "correct_option_label": "3",
+        "correct_option_text": "pq (r-1) and pqr-1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "Let X and Y be two independent Poisson variates with rate 5 and 10, respectively, then the distribution of Z=X+Y is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "Poisson distribution with rate 15"
+          },
+          {
+            "label": "2",
+            "text": "Exponential distribution with rate 15"
+          },
+          {
+            "label": "3",
+            "text": "Normal distribution with mean 15 and variance 1"
+          },
+          {
+            "label": "4",
+            "text": "Gamma distribution with rate 5 and shape 10"
+          }
+        ],
+        "question_id": "6306801352803",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Poisson distribution with rate 15",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 8,
+    "questions": [
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "The second central moment of the Binomial distribution B(1, 1/2) is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "1/8"
+          },
+          {
+            "label": "2",
+            "text": "1/4"
+          },
+          {
+            "label": "3",
+            "text": "1"
+          },
+          {
+            "label": "4",
+            "text": "1/2"
+          }
+        ],
+        "question_id": "6306801324606",
+        "chosen_option_label": "1",
+        "correct_option_label": "2",
+        "correct_option_text": "1/4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "10-15 is the model class with 25 as its frequency. Also if the frequency of the class preceding and succeeding the model class is 10 and 15, respectively, then the value of mode is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "12"
+          },
+          {
+            "label": "2",
+            "text": "13"
+          },
+          {
+            "label": "3",
+            "text": "10"
+          },
+          {
+            "label": "4",
+            "text": "15"
+          }
+        ],
+        "question_id": "6306801352817",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "13",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "Which of the following is NOT true about ungrouped frequency distribution?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Frequency of an observation is the number of times it occurs"
+          },
+          {
+            "label": "2",
+            "text": "Tally marks are used for finding frequencies"
+          },
+          {
+            "label": "3",
+            "text": "Used for putting raw data in a condensed form"
+          },
+          {
+            "label": "4",
+            "text": "Used when number of observations in data set is very large"
+          }
+        ],
+        "question_id": "6306801293776",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "Used when number of observations in data set is very large",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 9,
+    "questions": [
+      {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "What does the third moment measure?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Variance"
+          },
+          {
+            "label": "2",
+            "text": "Mean"
+          },
+          {
+            "label": "3",
+            "text": "Skewness"
+          },
+          {
+            "label": "4",
+            "text": "Kurtosis"
+          }
+        ],
+        "question_id": "6306801352830",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Skewness",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "For testing whether two independent Normal populations (with unknown and equal variances) have same mean, one uses:",
+        "options": [
+          {
+            "label": "1",
+            "text": "t distribution"
+          },
+          {
+            "label": "2",
+            "text": "Standard Normal Distribution"
+          },
+          {
+            "label": "3",
+            "text": "Chi Square Distribution"
+          },
+          {
+            "label": "4",
+            "text": "F distribution"
+          }
+        ],
+        "question_id": "6306801307918",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "t distribution",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "The following data represents a time series.\nPeriod : 1 2 3 4 5\nObserved values : 150 140 160 170 180\nCompute the first-order and second-order differences for period 3.",
+        "options": [
+          {
+            "label": "1",
+            "text": "First-Order: 20, Second-Order: -30"
+          },
+          {
+            "label": "2",
+            "text": "First-Order: -10, Second-Order: -10"
+          },
+          {
+            "label": "3",
+            "text": "First-Order: -10, Second-Order: 20"
+          },
+          {
+            "label": "4",
+            "text": "First-Order: 20, Second-Order: 10"
+          }
+        ],
+        "question_id": "6306801302739",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "First-Order: 20, Second-Order: -30",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 10,
+    "questions": [
+      {
+        "question_number": 25,
+        "section": null,
+        "question_text_full": "The relative frequency of a class is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "frequency of the class added to total frequency of all classes"
+          },
+          {
+            "label": "2",
+            "text": "frequency of the class multiplied by total frequency of all classes"
+          },
+          {
+            "label": "3",
+            "text": "frequency of the class subtracted from total frequency of all classes"
+          },
+          {
+            "label": "4",
+            "text": "frequency of the class divided by total frequency of all classes"
+          }
+        ],
+        "question_id": "6306801293744",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "frequency of the class divided by total frequency of all classes",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 26,
+        "section": null,
+        "question_text_full": "Let (X, Y) have the probability density function (pdf) as f(x, y) = [c(x + 2y) if 0 < x < 2, 0 < y < 1 0 , otherwise. The value of c is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "1/2"
+          },
+          {
+            "label": "2",
+            "text": "3/4"
+          },
+          {
+            "label": "3",
+            "text": "1/4"
+          },
+          {
+            "label": "4",
+            "text": "1"
+          }
+        ],
+        "question_id": "6306801352883",
+        "chosen_option_label": "2",
+        "correct_option_label": "3",
+        "correct_option_text": "1/4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 27,
+        "section": null,
+        "question_text_full": "A model being fitted is said to be adequate if the residual plot:",
+        "options": [
+          {
+            "label": "1",
+            "text": "is quadratic"
+          },
+          {
+            "label": "2",
+            "text": "is non-linear"
+          },
+          {
+            "label": "3",
+            "text": "is U-shaped"
+          },
+          {
+            "label": "4",
+            "text": "displays random pattern"
+          }
+        ],
+        "question_id": "6306801312678",
+        "chosen_option_label": "1",
+        "correct_option_label": "4",
+        "correct_option_text": "displays random pattern",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 11,
+    "questions": [
+      {
+        "question_number": 28,
+        "section": null,
+        "question_text_full": "For a normal distribution, the mean deviation is minimum when deviations are taken from:",
+        "options": [
+          {
+            "label": "1",
+            "text": "mode"
+          },
+          {
+            "label": "2",
+            "text": "median"
+          },
+          {
+            "label": "3",
+            "text": "Geometric mean"
+          },
+          {
+            "label": "4",
+            "text": "mean"
+          }
+        ],
+        "question_id": "6306801352822",
+        "chosen_option_label": "4",
+        "correct_option_label": "2",
+        "correct_option_text": "median",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 29,
+        "section": null,
+        "question_text_full": "Which definition of probability is NOT applicable if the events of a random experiment are not equally likely?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Empirical definition"
+          },
+          {
+            "label": "2",
+            "text": "Axiomatic definition"
+          },
+          {
+            "label": "3",
+            "text": "Classical definition"
+          },
+          {
+            "label": "4",
+            "text": "Bayesian definition"
+          }
+        ],
+        "question_id": "6306801352844",
+        "chosen_option_label": "1",
+        "correct_option_label": "3",
+        "correct_option_text": "Classical definition",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 30,
+        "section": null,
+        "question_text_full": "If the joint distribution of two random variables X1 and X2 is f(x1,x2) = {x1 + x2; 0 < x1,x2 < 1 {0, otherwise , then P(0 < X2 < 0.5) is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "3/8"
+          },
+          {
+            "label": "2",
+            "text": "1/2"
+          },
+          {
+            "label": "3",
+            "text": "3/4"
+          },
+          {
+            "label": "4",
+            "text": "1/4"
+          }
+        ],
+        "question_id": "6306801352807",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "3/8",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 12,
+    "questions": [
+      {
+        "question_number": 31,
+        "section": null,
+        "question_text_full": "Find the probability that there may be 53 Sundays in a leap year.",
+        "options": [
+          {
+            "label": "1",
+            "text": "2/7"
+          },
+          {
+            "label": "2",
+            "text": "3/7"
+          },
+          {
+            "label": "3",
+            "text": "5/7"
+          },
+          {
+            "label": "4",
+            "text": "1/7"
+          }
+        ],
+        "question_id": "6306801295015",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "2/7",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 32,
+        "section": null,
+        "question_text_full": "For two random variables X and Y, how many lines of regression are possible?",
+        "options": [
+          {
+            "label": "1",
+            "text": "1"
+          },
+          {
+            "label": "2",
+            "text": "3"
+          },
+          {
+            "label": "3",
+            "text": "2"
+          },
+          {
+            "label": "4",
+            "text": "0"
+          }
+        ],
+        "question_id": "6306801352864",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 33,
+        "section": null,
+        "question_text_full": "Out of 100 numbers, 20 are 4's, 40 are 5's, 30 are 6's and the remaining are 7's. The arithmetic mean of the numbers is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "5.8"
+          },
+          {
+            "label": "2",
+            "text": "4.6"
+          },
+          {
+            "label": "3",
+            "text": "5.3"
+          },
+          {
+            "label": "4",
+            "text": "1.9"
+          }
+        ],
+        "question_id": "6306801352893",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "5.3",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 13,
+    "questions": [
+      {
+        "question_number": 34,
+        "section": null,
+        "question_text_full": "Level of significance is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "Probability of Type I Error"
+          },
+          {
+            "label": "2",
+            "text": "1 - Probability of Type I Error"
+          },
+          {
+            "label": "3",
+            "text": "1 - Probability of Type II Error"
+          },
+          {
+            "label": "4",
+            "text": "Probability of Type II Error"
+          }
+        ],
+        "question_id": "6306801307996",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "Probability of Type I Error",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 35,
+        "section": null,
+        "question_text_full": "Let X follow Poisson distribution with mean λ. If P(X = 2) = 1/2 P(X = 3), then the value of λ is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "4"
+          },
+          {
+            "label": "2",
+            "text": "6"
+          },
+          {
+            "label": "3",
+            "text": "7"
+          },
+          {
+            "label": "4",
+            "text": "2"
+          }
+        ],
+        "question_id": "6306801352881",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "6",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 36,
+        "section": null,
+        "question_text_full": "Which of the following is the relative measure of skewness?",
+        "options": [
+          {
+            "label": "1",
+            "text": "β₂"
+          },
+          {
+            "label": "2",
+            "text": "β₁"
+          },
+          {
+            "label": "3",
+            "text": "(X - μ)/σ"
+          },
+          {
+            "label": "4",
+            "text": "(Q₃ - 2Q₂ + Q₁) / (Q₃ - Q₁)"
+          }
+        ],
+        "question_id": "6306801352834",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "(Q₃ - 2Q₂ + Q₁) / (Q₃ - Q₁)",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.5-flash",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 14,
+    "questions": [],
+    "warnings": [
+      "No questions found on the provided page. The page contains promotional material for SSC CGL study materials."
+    ],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 15,
+    "questions": [
+      {
+        "question_number": 37,
+        "section": null,
+        "question_text_full": "The mean absolute deviation of 25, 30, 27, 40 and 35 is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "3.58"
+          },
+          {
+            "label": "2",
+            "text": "4.88"
+          },
+          {
+            "label": "3",
+            "text": "5.28"
+          },
+          {
+            "label": "4",
+            "text": "4.67"
+          }
+        ],
+        "question_id": "6306801352842",
+        "chosen_option_label": "3",
+        "correct_option_label": "2",
+        "correct_option_text": "4.88",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 38,
+        "section": null,
+        "question_text_full": "Before using secondary data, one need NOT verify:",
+        "options": [
+          {
+            "label": "1",
+            "text": "reliability of data"
+          },
+          {
+            "label": "2",
+            "text": "suitability of data"
+          },
+          {
+            "label": "3",
+            "text": "expenditure involved at time of collection of data"
+          },
+          {
+            "label": "4",
+            "text": "adequacy of data"
+          }
+        ],
+        "question_id": "6306801293836",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "expenditure involved at time of collection of data",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 39,
+        "section": null,
+        "question_text_full": "25 books are placed at random on a shelf. The probability that a particular pair of books shall be always together is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "3/25"
+          },
+          {
+            "label": "2",
+            "text": "2/25"
+          },
+          {
+            "label": "3",
+            "text": "1/25"
+          },
+          {
+            "label": "4",
+            "text": "5/25"
+          }
+        ],
+        "question_id": "6306801352846",
+        "chosen_option_label": "3",
+        "correct_option_label": "2",
+        "correct_option_text": "2/25",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 16,
+    "questions": [
+      {
+        "question_number": 40,
+        "section": null,
+        "question_text_full": "Scatter diagram for the following data shows _________.\nX 1 2 3 4 5\nY 9 8 7 6 5",
+        "options": [
+          {
+            "label": "1",
+            "text": "Negative Perfect Correlation"
+          },
+          {
+            "label": "2",
+            "text": "Perfect Positive Correlation"
+          },
+          {
+            "label": "3",
+            "text": "Zero Correlation"
+          },
+          {
+            "label": "4",
+            "text": "Positive Correlation"
+          }
+        ],
+        "question_id": "6306801313409",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Negative Perfect Correlation",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 41,
+        "section": null,
+        "question_text_full": "With usual notations, the 95% confidence limits for the difference of two proportions is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "(p1 - p2) ± 1.96 √(p1q1/n1 + p2q2/n2)"
+          },
+          {
+            "label": "2",
+            "text": "(p1 + p2) ± 1.96 √(p1q1/n1 + p2q2/n2)"
+          },
+          {
+            "label": "3",
+            "text": "(p1 + p2) ± 1.96 √(p1q1/n1 - p2q2/n2)"
+          },
+          {
+            "label": "4",
+            "text": "(p1 - p2) ± 1.96 √(p1q1/n1 - p2q2/n2)"
+          }
+        ],
+        "question_id": "6306801352880",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "(p1 - p2) ± 1.96 √(p1q1/n1 + p2q2/n2)",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 42,
+        "section": null,
+        "question_text_full": "Find the coefficient of skewness from the following information:\nMode = 11, median = 8, Q3-Q1 = 8, Q3+Q1 = 22.",
+        "options": [
+          {
+            "label": "1",
+            "text": "1/3"
+          },
+          {
+            "label": "2",
+            "text": "1/4"
+          },
+          {
+            "label": "3",
+            "text": "3/4"
+          },
+          {
+            "label": "4",
+            "text": "1/5"
+          }
+        ],
+        "question_id": "6306801352829",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "3/4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 17,
+    "questions": [
+      {
+        "question_number": 43,
+        "section": null,
+        "question_text_full": "On rolling of a die, the events E1 (getting an even number) and E2 (getting an odd number) are:",
+        "options": [
+          {
+            "label": "1",
+            "text": "mutually exclusive"
+          },
+          {
+            "label": "2",
+            "text": "exhaustive"
+          },
+          {
+            "label": "3",
+            "text": "neither mutually exclusive nor exhaustive"
+          },
+          {
+            "label": "4",
+            "text": "mutually exclusive and exhaustive"
+          }
+        ],
+        "question_id": "6306801352847",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "mutually exclusive and exhaustive",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 44,
+        "section": null,
+        "question_text_full": "If Y = x/2 + 2 and X = y/8 - 1 are regression lines of Y on X and X on Y, then correlation coefficient between X and Y is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "± 1/4"
+          },
+          {
+            "label": "2",
+            "text": "± 1/6"
+          },
+          {
+            "label": "3",
+            "text": "1/4"
+          },
+          {
+            "label": "4",
+            "text": "1/6"
+          }
+        ],
+        "question_id": "6306801352942",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "1/4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 45,
+        "section": null,
+        "question_text_full": "The coefficient of kurtosis ( β2 ) of standard normal distribution is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "-3"
+          },
+          {
+            "label": "2",
+            "text": "0"
+          },
+          {
+            "label": "3",
+            "text": "3"
+          },
+          {
+            "label": "4",
+            "text": "1"
+          }
+        ],
+        "question_id": "6306801352811",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "3",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 18,
+    "questions": [
+      {
+        "question_number": 46,
+        "section": null,
+        "question_text_full": "If a large sample of size n is taken from a normal population with mean μ and standard deviation σ, the 95% confidence interval for the unknown parameter μ is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "x̄ ± 1.96(σ/√n)"
+          },
+          {
+            "label": "2",
+            "text": "x̄² ± 1.96(σ/√n)"
+          },
+          {
+            "label": "3",
+            "text": "x̄ ± 1.96(σ²/√n)"
+          },
+          {
+            "label": "4",
+            "text": "x̄ ± 1.96(σ²/n)"
+          }
+        ],
+        "question_id": "6306801352879",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "x̄ ± 1.96(σ/√n)",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 47,
+        "section": null,
+        "question_text_full": "O-gives are NOT useful for locating:",
+        "options": [
+          {
+            "label": "1",
+            "text": "percentiles"
+          },
+          {
+            "label": "2",
+            "text": "median"
+          },
+          {
+            "label": "3",
+            "text": "quartiles"
+          },
+          {
+            "label": "4",
+            "text": "mean"
+          }
+        ],
+        "question_id": "6306801294100",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "mean",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 48,
+        "section": null,
+        "question_text_full": "Which of the following index numbers is the geometric mean of Laspeyre's and Paasche's Index number?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Drobish-Bowley Index"
+          },
+          {
+            "label": "2",
+            "text": "Marshall-Edgeworth Index"
+          },
+          {
+            "label": "3",
+            "text": "Irving Fisher Index"
+          },
+          {
+            "label": "4",
+            "text": "Walsch Index"
+          }
+        ],
+        "question_id": "6306801352869",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Irving Fisher Index",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 19,
+    "questions": [
+      {
+        "question_number": 49,
+        "section": null,
+        "question_text_full": "Which component of a time series represents short-term fluctuations due to seasonal factors?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Seasonal component"
+          },
+          {
+            "label": "2",
+            "text": "Irregular component"
+          },
+          {
+            "label": "3",
+            "text": "Cyclical component"
+          },
+          {
+            "label": "4",
+            "text": "Trend"
+          }
+        ],
+        "question_id": "6306801352952",
+        "chosen_option_label": "4",
+        "correct_option_label": "1",
+        "correct_option_text": "Seasonal component",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 50,
+        "section": null,
+        "question_text_full": "Type I error occurs when:",
+        "options": [
+          {
+            "label": "1",
+            "text": "a false null hypothesis is rejected"
+          },
+          {
+            "label": "2",
+            "text": "a true null hypothesis is rejected"
+          },
+          {
+            "label": "3",
+            "text": "a true null hypothesis is accepted"
+          },
+          {
+            "label": "4",
+            "text": "a false null hypothesis is accepted"
+          }
+        ],
+        "question_id": "6306801352959",
+        "chosen_option_label": "3",
+        "correct_option_label": "2",
+        "correct_option_text": "a true null hypothesis is rejected",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 51,
+        "section": null,
+        "question_text_full": "Which of the following statements is FALSE?",
+        "options": [
+          {
+            "label": "1",
+            "text": "An alternative hypothesis is complementary to null hypothesis."
+          },
+          {
+            "label": "2",
+            "text": "The hypothesis for testing mu < mu0 is two sided / two tailed."
+          },
+          {
+            "label": "3",
+            "text": "The null hypothesis H0: mu = mu0 can be tested against the alternative H1: mu not equal to mu0."
+          },
+          {
+            "label": "4",
+            "text": "The hypothesis for testing mu > mu0 is one sided / right tailed."
+          }
+        ],
+        "question_id": "6306801308014",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "The hypothesis for testing mu < mu0 is two sided / two tailed.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 20,
+    "questions": [
+      {
+        "question_number": 52,
+        "section": null,
+        "question_text_full": "The median of the normal distribution with mean and variance μ and σ² is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "σ"
+          },
+          {
+            "label": "2",
+            "text": "μ/2"
+          },
+          {
+            "label": "3",
+            "text": "σ/2"
+          },
+          {
+            "label": "4",
+            "text": "μ"
+          }
+        ],
+        "question_id": "6306801352839",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "μ",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 53,
+        "section": null,
+        "question_text_full": "When two judges rank only two individuals, then value of Spearman's rank correlation coefficient is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "-1 or 1"
+          },
+          {
+            "label": "2",
+            "text": "between 0 and 1"
+          },
+          {
+            "label": "3",
+            "text": "-1 or 0"
+          },
+          {
+            "label": "4",
+            "text": "0 or 1"
+          }
+        ],
+        "question_id": "6306801352939",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "-1 or 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 54,
+        "section": null,
+        "question_text_full": "The formula used for finding the simple aggregate index numbers is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "(Σ p0j * pij) / Σ p0j * 100"
+          },
+          {
+            "label": "2",
+            "text": "(Σ pij) / Σ p0j * pij * 100"
+          },
+          {
+            "label": "3",
+            "text": "(Σ pij) / Σ p0j * 100"
+          },
+          {
+            "label": "4",
+            "text": "(Σ p0j) / Σ pij * 100"
+          }
+        ],
+        "question_id": "6306801352868",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "(Σ pij) / Σ p0j * 100",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Mathematical expressions transcribed based on visual representation."
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 21,
+    "questions": [
+      {
+        "question_number": 55,
+        "section": null,
+        "question_text_full": "If S² is the sample variance of a sample of size n and s² is an unbiased estimator of population variance, then which of the following is true?",
+        "options": [
+          {
+            "label": "1",
+            "text": "n s² = (n - 1) S²"
+          },
+          {
+            "label": "2",
+            "text": "(n - 1) s² = n S²"
+          },
+          {
+            "label": "3",
+            "text": "(n + 1) s² = n S²"
+          },
+          {
+            "label": "4",
+            "text": "n s² = (n + 1) S²"
+          }
+        ],
+        "question_id": "6306801300047",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "(n - 1) s² = n S²",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 56,
+        "section": null,
+        "question_text_full": "For three random variables X₁, X₂ and X₃, correlation coefficients between pairs of random variables are r₁₂ = sin²θ, r₁₃ = cosθ and r₂₃ = sinθ. The partial correlation coefficient r₁₂.₃ is given by:",
+        "options": [
+          {
+            "label": "1",
+            "text": "tanθ - 1"
+          },
+          {
+            "label": "2",
+            "text": "sinθ - 1"
+          },
+          {
+            "label": "3",
+            "text": "cotθ - 1"
+          },
+          {
+            "label": "4",
+            "text": "cosθ - 1"
+          }
+        ],
+        "question_id": "6306801352938",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "tanθ - 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 57,
+        "section": null,
+        "question_text_full": "Which of the following statements is NOT true about a critical region w?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Known as region of acceptance"
+          },
+          {
+            "label": "2",
+            "text": "Alternative hypothesis accepted if set points lie in w"
+          },
+          {
+            "label": "3",
+            "text": "Null hypothesis rejected if set points lie in w"
+          },
+          {
+            "label": "4",
+            "text": "Known as region of rejection"
+          }
+        ],
+        "question_id": "6306801307936",
+        "chosen_option_label": "1",
+        "correct_option_label": "2",
+        "correct_option_text": "Alternative hypothesis accepted if set points lie in w",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 22,
+    "questions": [
+      {
+        "question_number": 58,
+        "section": null,
+        "question_text_full": "For the set of numbers 2, 3, 7, 8 and 10, the second order moment about the origin 4 is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "13.2"
+          },
+          {
+            "label": "2",
+            "text": "12.6"
+          },
+          {
+            "label": "3",
+            "text": "15"
+          },
+          {
+            "label": "4",
+            "text": "10.5"
+          }
+        ],
+        "question_id": "6306801352906",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "13.2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 59,
+        "section": null,
+        "question_text_full": "In a data set, let the first and third quartiles be 268.25 and 290.75, respectively. The quartile deviation is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "12"
+          },
+          {
+            "label": "2",
+            "text": "11.25"
+          },
+          {
+            "label": "3",
+            "text": "18.5"
+          },
+          {
+            "label": "4",
+            "text": "15"
+          }
+        ],
+        "question_id": "6306801352899",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "11.25",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 60,
+        "section": null,
+        "question_text_full": "It has been found that 2% of the tools produced by a certain machine are defective. What is the probability that in a shipment of 400 such tools, 3% or more will be defective? (Probability that the normal variate lies between 0 and 1.43 is 0.4236.)",
+        "options": [
+          {
+            "label": "1",
+            "text": "0.0764"
+          },
+          {
+            "label": "2",
+            "text": "0.50"
+          },
+          {
+            "label": "3",
+            "text": "0.4236"
+          },
+          {
+            "label": "4",
+            "text": "1.43"
+          }
+        ],
+        "question_id": "6306801300075",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "0.0764",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 23,
+    "questions": [
+      {
+        "question_number": 61,
+        "section": null,
+        "question_text_full": "If the values of Bowley's coefficient of skewness, third quartile and first quartile are 0.5, 10 and 5, respectively, then the value of the second quartile is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "6/4"
+          },
+          {
+            "label": "2",
+            "text": "7/3"
+          },
+          {
+            "label": "3",
+            "text": "3/4"
+          },
+          {
+            "label": "4",
+            "text": "25/4"
+          }
+        ],
+        "question_id": "6306801352819",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "25/4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 62,
+        "section": null,
+        "question_text_full": "Which of the following components of time series reflect the general tendency of the data to increase or decrease during a long period of time?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Trend"
+          },
+          {
+            "label": "2",
+            "text": "Seasonal"
+          },
+          {
+            "label": "3",
+            "text": "Irregular"
+          },
+          {
+            "label": "4",
+            "text": "Cyclical"
+          }
+        ],
+        "question_id": "6306801352871",
+        "chosen_option_label": "4",
+        "correct_option_label": "1",
+        "correct_option_text": "Trend",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 63,
+        "section": null,
+        "question_text_full": "In a completely randomized design, with 4 treatments replicated 5 times, the following information is obtained. SST=26234.95, SSE=11558.80, the Fcal is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "20"
+          },
+          {
+            "label": "2",
+            "text": "12.11"
+          },
+          {
+            "label": "3",
+            "text": "14.89"
+          },
+          {
+            "label": "4",
+            "text": "15.6"
+          }
+        ],
+        "question_id": "6306801352858",
+        "chosen_option_label": "3",
+        "correct_option_label": "2",
+        "correct_option_text": "12.11",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 24,
+    "questions": [
+      {
+        "question_number": 64,
+        "section": null,
+        "question_text_full": "If a fair six-sided die is tossed twice and the tosses are independent, then probability of getting a 5 on both tosses is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "1/3"
+          },
+          {
+            "label": "2",
+            "text": "1/36"
+          },
+          {
+            "label": "3",
+            "text": "1/6"
+          },
+          {
+            "label": "4",
+            "text": "1/12"
+          }
+        ],
+        "question_id": "6306801352927",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "1/36",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 65,
+        "section": null,
+        "question_text_full": "The primary purpose of constructing index numbers is to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "compare relative changes in variables over time"
+          },
+          {
+            "label": "2",
+            "text": "assess purchasing power of money"
+          },
+          {
+            "label": "3",
+            "text": "calculate statistical variances"
+          },
+          {
+            "label": "4",
+            "text": "estimate population parameters"
+          }
+        ],
+        "question_id": "6306801352946",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "compare relative changes in variables over time",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 66,
+        "section": null,
+        "question_text_full": "Half of the difference between the 75th percentile and 25th percentile is called:",
+        "options": [
+          {
+            "label": "1",
+            "text": "coefficient of variation"
+          },
+          {
+            "label": "2",
+            "text": "coefficient of skewness"
+          },
+          {
+            "label": "3",
+            "text": "range"
+          },
+          {
+            "label": "4",
+            "text": "quartile deviation"
+          }
+        ],
+        "question_id": "6306801352821",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "quartile deviation",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 25,
+    "questions": [
+      {
+        "question_number": 67,
+        "section": null,
+        "question_text_full": "Data sets with high kurtosis:",
+        "options": [
+          {
+            "label": "1",
+            "text": "have no outliers"
+          },
+          {
+            "label": "2",
+            "text": "will have their distributions symmetric"
+          },
+          {
+            "label": "3",
+            "text": "tend to have heavy outliers"
+          },
+          {
+            "label": "4",
+            "text": "tend to have light outliers"
+          }
+        ],
+        "question_id": "6306801352837",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "tend to have heavy outliers",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 68,
+        "section": null,
+        "question_text_full": "Let a continuous random variable X have pdf\nf(x) = { -0.75 x^2 + 1.5x for 0 < x < 2\n0 , otherwise\nThe mode of X is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "2"
+          },
+          {
+            "label": "2",
+            "text": "1.8"
+          },
+          {
+            "label": "3",
+            "text": "2.6"
+          },
+          {
+            "label": "4",
+            "text": "1"
+          }
+        ],
+        "question_id": "6306801352895",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 69,
+        "section": null,
+        "question_text_full": "At what value of R_1.23 are all regression residuals zero?",
+        "options": [
+          {
+            "label": "1",
+            "text": "-1"
+          },
+          {
+            "label": "2",
+            "text": "1"
+          },
+          {
+            "label": "3",
+            "text": "Both 1 and -1"
+          },
+          {
+            "label": "4",
+            "text": "0"
+          }
+        ],
+        "question_id": "6306801352866",
+        "chosen_option_label": "3",
+        "correct_option_label": "2",
+        "correct_option_text": "1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 26,
+    "questions": [
+      {
+        "question_number": 70,
+        "section": null,
+        "question_text_full": "If the standard deviation of a population is 100, then based on a sample of size 100, the standard deviation of sample mean is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "10"
+          },
+          {
+            "label": "2",
+            "text": "80"
+          },
+          {
+            "label": "3",
+            "text": "100"
+          },
+          {
+            "label": "4",
+            "text": "50"
+          }
+        ],
+        "question_id": "6306801352824",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "10",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 71,
+        "section": null,
+        "question_text_full": "If for the given distribution, the arithmetic mean is 9.41, then which of the following values will replace the question mark (?) in the distribution?\nX 5 8 9 ? 13\nf 8 20 30 25 17",
+        "options": [
+          {
+            "label": "1",
+            "text": "9"
+          },
+          {
+            "label": "2",
+            "text": "10"
+          },
+          {
+            "label": "3",
+            "text": "11"
+          },
+          {
+            "label": "4",
+            "text": "8"
+          }
+        ],
+        "question_id": "6306801292188",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "10",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 72,
+        "section": null,
+        "question_text_full": "For a frequency polygon:",
+        "options": [
+          {
+            "label": "1",
+            "text": "frequencies are plotted against class boundaries"
+          },
+          {
+            "label": "2",
+            "text": "frequencies are plotted against class limits"
+          },
+          {
+            "label": "3",
+            "text": "class intervals are of equal width"
+          },
+          {
+            "label": "4",
+            "text": "cumulative frequencies are plotted against class limits"
+          }
+        ],
+        "question_id": "6306801294086",
+        "chosen_option_label": "2",
+        "correct_option_label": "3",
+        "correct_option_text": "class intervals are of equal width",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 27,
+    "questions": [
+      {
+        "question_number": 73,
+        "section": null,
+        "question_text_full": "The first four moments of a distribution about X=2 are -2, 12, -20 and 100, then μ3 equals:",
+        "options": [
+          {
+            "label": "1",
+            "text": "26"
+          },
+          {
+            "label": "2",
+            "text": "34"
+          },
+          {
+            "label": "3",
+            "text": "38"
+          },
+          {
+            "label": "4",
+            "text": "32"
+          }
+        ],
+        "question_id": "6306801352833",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "26",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 74,
+        "section": null,
+        "question_text_full": "Die I has 4 red and 2 white faces and die II has 2 red and 4 white faces. A coin is flipped once. If head appears, the game continues by flipping die I, and if tail appears, then die II is used. The probability of getting a red face at any throw is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "1/4"
+          },
+          {
+            "label": "2",
+            "text": "1/8"
+          },
+          {
+            "label": "3",
+            "text": "1/3"
+          },
+          {
+            "label": "4",
+            "text": "1/2"
+          }
+        ],
+        "question_id": "6306801352928",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "1/2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 75,
+        "section": null,
+        "question_text_full": "The mean and variance of a Binomial distribution are 8 and 4 respectively, then the value of n is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "32"
+          },
+          {
+            "label": "2",
+            "text": "64"
+          },
+          {
+            "label": "3",
+            "text": "8"
+          },
+          {
+            "label": "4",
+            "text": "16"
+          }
+        ],
+        "question_id": "6306801352806",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "16",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 76,
+        "section": null,
+        "question_text_full": "Let X follows normal distribution with mean μ and median μ̃, then P(μ < X < μ̃) is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "0.50"
+          },
+          {
+            "label": "2",
+            "text": "0"
+          },
+          {
+            "label": "3",
+            "text": "0.10"
+          },
+          {
+            "label": "4",
+            "text": "0.25"
+          }
+        ],
+        "question_id": "6306801352812",
+        "chosen_option_label": "1",
+        "correct_option_label": "2",
+        "correct_option_text": "0",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 28,
+    "questions": [
+      {
+        "question_number": 77,
+        "section": null,
+        "question_text_full": "For a completely randomised design with k treatments, let\nx_ij = i^th observation corresponding to j^th treatment,\ni = 1,2,...,n_j, j = 1,2,...,k\nT = total of all observations,\nx_bar_j = mean of j^th treatment,\nx_bar = T/N where N = Σ_{j=1}^k n_j.\nThe formula for finding the sum of squares due to error (SSE) is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "Σ_{j=1}^k (x_bar_j - x_bar)"
+          },
+          {
+            "label": "2",
+            "text": "Σ_{j=1}^k n_j(x_bar_j - x_bar)^2"
+          },
+          {
+            "label": "3",
+            "text": "Σ_{j=1}^k Σ_{i=1}^{n_j}(x_ij - x_bar_j)^2"
+          },
+          {
+            "label": "4",
+            "text": "Σ_{j=1}^k Σ_{i=1}^{n_j}(x_ij - x_bar)^2"
+          }
+        ],
+        "question_id": "6306801352935",
+        "chosen_option_label": "4",
+        "correct_option_label": "3",
+        "correct_option_text": "Σ_{j=1}^k Σ_{i=1}^{n_j}(x_ij - x_bar_j)^2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 78,
+        "section": null,
+        "question_text_full": "If (X, Y) has a bivariate normal distribution, then X, Y are independent if and only if X, Y are:",
+        "options": [
+          {
+            "label": "1",
+            "text": "ρ (X, Y) ≠ 0"
+          },
+          {
+            "label": "2",
+            "text": "Uncorrelated"
+          },
+          {
+            "label": "3",
+            "text": "Correlated"
+          },
+          {
+            "label": "4",
+            "text": "cov (X, Y) ≠ 0"
+          }
+        ],
+        "question_id": "6306801324604",
+        "chosen_option_label": "4",
+        "correct_option_label": "2",
+        "correct_option_text": "Uncorrelated",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 29,
+    "questions": [
+      {
+        "question_number": 79,
+        "section": null,
+        "question_text_full": "What is the geometric mean of 1/4, 1/8 and 1/16?",
+        "options": [
+          {
+            "label": "1",
+            "text": "16"
+          },
+          {
+            "label": "2",
+            "text": "8"
+          },
+          {
+            "label": "3",
+            "text": "4"
+          },
+          {
+            "label": "4",
+            "text": "1/8"
+          }
+        ],
+        "question_id": "6306801299443",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "1/8",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 80,
+        "section": null,
+        "question_text_full": "Let X1, X2, . . . , X10 be 10 independent and identically distributed (i.i.d) random variables taking the values 0, 1 with corresponding probabilities q, p. Then X = X1 + X2+ . . . + X10 is/has:",
+        "options": [
+          {
+            "label": "1",
+            "text": "a binomial variate"
+          },
+          {
+            "label": "2",
+            "text": "Poisson distribution"
+          },
+          {
+            "label": "3",
+            "text": "a normal variate"
+          },
+          {
+            "label": "4",
+            "text": "a geometric variate"
+          }
+        ],
+        "question_id": "6306801299862",
+        "chosen_option_label": "2",
+        "correct_option_label": "1",
+        "correct_option_text": "a binomial variate",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 81,
+        "section": null,
+        "question_text_full": "In using one way analysis of variance for testing whether treatments are equally effective for a certain experimental data, if Fcalculated = 12.1 and Ftabulated = 3.06, then:",
+        "options": [
+          {
+            "label": "1",
+            "text": "null hypothesis is rejected"
+          },
+          {
+            "label": "2",
+            "text": "both null hypothesis and alternative hypothesis are accepted"
+          },
+          {
+            "label": "3",
+            "text": "both null hypothesis and alternative hypothesis are rejected"
+          },
+          {
+            "label": "4",
+            "text": "null hypothesis is accepted"
+          }
+        ],
+        "question_id": "6306801352855",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "null hypothesis is rejected",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 30,
+    "questions": [
+      {
+        "question_number": 82,
+        "section": null,
+        "question_text_full": "The mean and variance of a binomially distributed random variable X are 4 and 2, respectively. P(X = 2)is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "1/2^8"
+          },
+          {
+            "label": "2",
+            "text": "7/2^5"
+          },
+          {
+            "label": "3",
+            "text": "1/2^6"
+          },
+          {
+            "label": "4",
+            "text": "7/2^8"
+          }
+        ],
+        "question_id": "6306801352885",
+        "chosen_option_label": "1",
+        "correct_option_label": "2",
+        "correct_option_text": "7/2^5",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 83,
+        "section": null,
+        "question_text_full": "As the sample size increases, empirical probability:",
+        "options": [
+          {
+            "label": "1",
+            "text": "becomes less accurate"
+          },
+          {
+            "label": "2",
+            "text": "becomes more subjective"
+          },
+          {
+            "label": "3",
+            "text": "decreases"
+          },
+          {
+            "label": "4",
+            "text": "approaches the true probability of an event"
+          }
+        ],
+        "question_id": "6306801352925",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "approaches the true probability of an event",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 84,
+        "section": null,
+        "question_text_full": "Which of the following is NOT true about collecting data through structured interviews?",
+        "options": [
+          {
+            "label": "1",
+            "text": "They involve the use of highly standardised techniques of recording."
+          },
+          {
+            "label": "2",
+            "text": "The interviewer follows a rigid laid down procedure."
+          },
+          {
+            "label": "3",
+            "text": "They involve the use of a set of predetermined questions."
+          },
+          {
+            "label": "4",
+            "text": "The sequence of asked questions can be changed."
+          }
+        ],
+        "question_id": "6306801294132",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "The sequence of asked questions can be changed.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 31,
+    "questions": [
+      {
+        "question_number": 85,
+        "section": null,
+        "question_text_full": "Which of the following is NOT considered as a property of a good estimator?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Consistency"
+          },
+          {
+            "label": "2",
+            "text": "Unbiasedness"
+          },
+          {
+            "label": "3",
+            "text": "Efficiency"
+          },
+          {
+            "label": "4",
+            "text": "Correlation"
+          }
+        ],
+        "question_id": "6306801352878",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Correlation",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 86,
+        "section": null,
+        "question_text_full": "Suppose a sample of size 36 is drawn from a population with mean 2 and variance 25 using simple random sampling with replacement. The standard error of x̄ is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "3/5"
+          },
+          {
+            "label": "2",
+            "text": "5/8"
+          },
+          {
+            "label": "3",
+            "text": "5/6"
+          },
+          {
+            "label": "4",
+            "text": "1"
+          }
+        ],
+        "question_id": "6306801352955",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "5/6",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 87,
+        "section": null,
+        "question_text_full": "'p' is the probability that a man aged x years will die in a year. If there are n men aged x, A1 will die in a year and will be the first to die.",
+        "options": [
+          {
+            "label": "1",
+            "text": "1/n [ (1-p)n ]"
+          },
+          {
+            "label": "2",
+            "text": "1/n [ 1 - (1-p)n ]"
+          },
+          {
+            "label": "3",
+            "text": "1/n [ (1-p)n - 1 ]"
+          },
+          {
+            "label": "4",
+            "text": "1/n [ (1-p) ]"
+          }
+        ],
+        "question_id": "6306801292667",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "1/n [ 1 - (1-p)n ]",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "The question text appears slightly cut off in the source image, but the context is clear."
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 32,
+    "questions": [
+      {
+        "question_number": 88,
+        "section": null,
+        "question_text_full": "In a one-way ANOVA, which of the following would indicate a violation of the normality assumption?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Equal variances across groups"
+          },
+          {
+            "label": "2",
+            "text": "Residuals showing a skewed distribution"
+          },
+          {
+            "label": "3",
+            "text": "Residuals randomly distributed"
+          },
+          {
+            "label": "4",
+            "text": "Independent observations"
+          }
+        ],
+        "question_id": "6306801294764",
+        "chosen_option_label": "1",
+        "correct_option_label": "2",
+        "correct_option_text": "Residuals showing a skewed distribution",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 89,
+        "section": null,
+        "question_text_full": "What is the main assumption of the ratio-to-moving-averages method?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Seasonal effects are multiplicative."
+          },
+          {
+            "label": "2",
+            "text": "Random components dominate the time series."
+          },
+          {
+            "label": "3",
+            "text": "The trend is constant over time."
+          },
+          {
+            "label": "4",
+            "text": "The seasonal component is additive."
+          }
+        ],
+        "question_id": "6306801302293",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "The seasonal component is additive.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 90,
+        "section": null,
+        "question_text_full": "For an experiment with sample space S, the events Ai, i = 1, 2, 3, .... are mutually exclusive and exhaustive if:",
+        "options": [
+          {
+            "label": "1",
+            "text": "Ui Ai = S"
+          },
+          {
+            "label": "2",
+            "text": "Ai ∩ Aj = Ø for i ≠ j"
+          },
+          {
+            "label": "3",
+            "text": "Ui Ai = S and Ai ∪ Aj = Ø for i ≠ j"
+          },
+          {
+            "label": "4",
+            "text": "Ui Ai = S and Ai ∩ Aj = Ø for i ≠ j"
+          }
+        ],
+        "question_id": "6306801352926",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Ui Ai = S and Ai ∩ Aj = Ø for i ≠ j",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 33,
+    "questions": [
+      {
+        "question_number": 91,
+        "section": null,
+        "question_text_full": "Which of the following is NOT a secondary source of data?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Biography"
+          },
+          {
+            "label": "2",
+            "text": "Research Journals"
+          },
+          {
+            "label": "3",
+            "text": "Autobiography"
+          },
+          {
+            "label": "4",
+            "text": "Newspaper"
+          }
+        ],
+        "question_id": "6306801352813",
+        "chosen_option_label": "2",
+        "correct_option_label": "3",
+        "correct_option_text": "Autobiography",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 92,
+        "section": null,
+        "question_text_full": "The points of inflection of a normal distribution N (5, 1) that exist at x is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "2, 8"
+          },
+          {
+            "label": "2",
+            "text": "5, 1"
+          },
+          {
+            "label": "3",
+            "text": "1, 9"
+          },
+          {
+            "label": "4",
+            "text": "4, 6"
+          }
+        ],
+        "question_id": "6306801352804",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "4, 6",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 93,
+        "section": null,
+        "question_text_full": "From a population of a large number of workers with a standard deviation 5, a sample is drawn and the standard error is found to be 0.5. What is the sample size?",
+        "options": [
+          {
+            "label": "1",
+            "text": "50"
+          },
+          {
+            "label": "2",
+            "text": "1000"
+          },
+          {
+            "label": "3",
+            "text": "10"
+          },
+          {
+            "label": "4",
+            "text": "100"
+          }
+        ],
+        "question_id": "6306801297901",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "100",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 34,
+    "questions": [
+      {
+        "question_number": 94,
+        "section": null,
+        "question_text_full": "If the arithmetic mean is 25 and geometric mean is 15, then the value of the Harmonic mean is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "15"
+          },
+          {
+            "label": "2",
+            "text": "9"
+          },
+          {
+            "label": "3",
+            "text": "12"
+          },
+          {
+            "label": "4",
+            "text": "10"
+          }
+        ],
+        "question_id": "6306801352818",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "9",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 95,
+        "section": null,
+        "question_text_full": "If x̄ is the mean of a sample from N(μ, 1), then the maximum likelihood estimator of μ is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "n x̄"
+          },
+          {
+            "label": "2",
+            "text": "x̄ + 1/n"
+          },
+          {
+            "label": "3",
+            "text": "x̄ + 1"
+          },
+          {
+            "label": "4",
+            "text": "x̄"
+          }
+        ],
+        "question_id": "6306801300178",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "x̄",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 96,
+        "section": null,
+        "question_text_full": "Which of the following is NOT a good characteristic of a questionnaire?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Questions should proceed in logical sequence from easy to more difficult."
+          },
+          {
+            "label": "2",
+            "text": "Technical terms and vague expressions should be avoided."
+          },
+          {
+            "label": "3",
+            "text": "Personal and intimate questions should be put in the beginning."
+          },
+          {
+            "label": "4",
+            "text": "Questionnaire should be comparatively short and simple."
+          }
+        ],
+        "question_id": "6306801294133",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Personal and intimate questions should be put in the beginning.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 97,
+        "section": null,
+        "question_text_full": "The coefficient of variation and standard deviation for a dataset are 23 and 11, then the mean is approximately equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "23.876"
+          },
+          {
+            "label": "2",
+            "text": "33.564"
+          },
+          {
+            "label": "3",
+            "text": "45.825"
+          },
+          {
+            "label": "4",
+            "text": "47.826"
+          }
+        ],
+        "question_id": "6306801352827",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "47.826",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 35,
+    "questions": [],
+    "warnings": [
+      "No questions found on this page. The page contains promotional material for SSC CGL study notes."
+    ],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 36,
+    "questions": [
+      {
+        "question_number": 98,
+        "section": null,
+        "question_text_full": "Let N be the size of a population and n be the size of the sample. Then the efficiency of SRSWOR with respect to SRSWR is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "N-1 / N(n-1)"
+          },
+          {
+            "label": "2",
+            "text": "N-n / N-1"
+          },
+          {
+            "label": "3",
+            "text": "n-1 / N-1"
+          },
+          {
+            "label": "4",
+            "text": "N-1 / N-n"
+          }
+        ],
+        "question_id": "6306801300169",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "N-n / N-1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 99,
+        "section": null,
+        "question_text_full": "Karl Pearson's correlation coefficient is also called:",
+        "options": [
+          {
+            "label": "1",
+            "text": "Product moment correlation coefficient"
+          },
+          {
+            "label": "2",
+            "text": "Likelihood coefficient"
+          },
+          {
+            "label": "3",
+            "text": "Spearman's correlation coefficient"
+          },
+          {
+            "label": "4",
+            "text": "Simplex correlation coefficient"
+          }
+        ],
+        "question_id": "6306801352860",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "Product moment correlation coefficient",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 100,
+        "section": null,
+        "question_text_full": "Usually the formula to determine the number of classes is given by:",
+        "options": [
+          {
+            "label": "1",
+            "text": "2 + 3.322 × log100N"
+          },
+          {
+            "label": "2",
+            "text": "3 + 3.322 × log1000 N"
+          },
+          {
+            "label": "3",
+            "text": "1 + 3.322 × log10 N"
+          },
+          {
+            "label": "4",
+            "text": "None of the above"
+          }
+        ],
+        "question_id": "6306801352841",
+        "chosen_option_label": "2",
+        "correct_option_label": "3",
+        "correct_option_text": "1 + 3.322 × log10 N",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  }
+]

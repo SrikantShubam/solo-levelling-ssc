@@ -1,0 +1,36 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 28,
+      "section": "Comprehension",
+      "question_text_full": "Which of the following countries has NOT sent help for firefighting?",
+      "options": [
+        {
+          "label": "1",
+          "text": "China"
+        },
+        {
+          "label": "2",
+          "text": "The US"
+        },
+        {
+          "label": "3",
+          "text": "Canada"
+        },
+        {
+          "label": "4",
+          "text": "New Zealand"
+        }
+      ],
+      "question_id": "8161615511",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "China",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

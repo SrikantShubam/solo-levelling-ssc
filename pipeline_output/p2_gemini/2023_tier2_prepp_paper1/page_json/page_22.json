@@ -1,0 +1,74 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 30,
+      "section": null,
+      "question_text_full": "When the below given diagram is folded in the shape of a cube which symbol will face opposite to '^'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330172905",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Figure 3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual symbols corresponding to the figures in the answer block."
+    },
+    {
+      "question_number": 1,
+      "section": "English Language and Comprehension",
+      "question_text_full": "Parts of the following sentence have been given as options. Select the option that contains an error.\nThis is the book whom I wanted to buy.",
+      "options": [
+        {
+          "label": "1",
+          "text": "the book"
+        },
+        {
+          "label": "2",
+          "text": "wanted to buy."
+        },
+        {
+          "label": "3",
+          "text": "whom I"
+        },
+        {
+          "label": "4",
+          "text": "This is"
+        }
+      ],
+      "question_id": "264330166080",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "whom I",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

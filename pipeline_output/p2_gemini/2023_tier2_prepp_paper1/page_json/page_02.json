@@ -1,0 +1,104 @@
+{
+  "page": 2,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "A set of data presented in the form of a frequency distribution table with class intervals and their respective frequencies had a mode of 48.5. The lower boundary of the modal class was 46.5; the frequency of the modal class was 34; the frequency of the class interval just preceding the modal class was 32 and the frequency of the class interval just succeeding the modal class was 25. What was the width of the modal class?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "10.5"
+        },
+        {
+          "label": "3",
+          "text": "11"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "question_id": "264330171141",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "11",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "An equilateral triangle ABC surmounts a square BCDE. The value of ∠EAB + 3∠AEB is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "60°"
+        },
+        {
+          "label": "2",
+          "text": "80°"
+        },
+        {
+          "label": "3",
+          "text": "280°"
+        },
+        {
+          "label": "4",
+          "text": "240°"
+        }
+      ],
+      "question_id": "264330173723",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "60°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "The marks obtained by 15 students out of a maximum of 25 in a test are given as 13, 11, 16, 15, 18, 12, 13, 14, 10, 22, 15, 21, 20, 17 and 24. Find the product of the modes of this set of data.",
+      "options": [
+        {
+          "label": "1",
+          "text": "192"
+        },
+        {
+          "label": "2",
+          "text": "210"
+        },
+        {
+          "label": "3",
+          "text": "182"
+        },
+        {
+          "label": "4",
+          "text": "195"
+        }
+      ],
+      "question_id": "264330171139",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "195",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

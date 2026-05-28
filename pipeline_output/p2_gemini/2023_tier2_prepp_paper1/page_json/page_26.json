@@ -1,0 +1,104 @@
+{
+  "page": 26,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the underlined part of the given sentence.\nThere is a place for grains in the backyard of this house.",
+      "options": [
+        {
+          "label": "1",
+          "text": "apiary"
+        },
+        {
+          "label": "2",
+          "text": "archive"
+        },
+        {
+          "label": "3",
+          "text": "granary"
+        },
+        {
+          "label": "4",
+          "text": "dormitory"
+        }
+      ],
+      "question_id": "264330170339",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "granary",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Select the option that expresses the following sentence in active voice.\nBy whom were you taught English grammar and composition?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Who has taught you English grammar and composition?"
+        },
+        {
+          "label": "2",
+          "text": "Whom taught you English grammar and composition?"
+        },
+        {
+          "label": "3",
+          "text": "Who had taught you English grammar and composition?"
+        },
+        {
+          "label": "4",
+          "text": "Who taught you English grammar and composition?"
+        }
+      ],
+      "question_id": "264330164766",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Who taught you English grammar and composition?",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the most appropriate option in direct speech.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The principal said to me, “You are in-charge of the admission cell.”"
+        },
+        {
+          "label": "2",
+          "text": "The principal say me, “You are in-charge of the admission cell.”"
+        },
+        {
+          "label": "3",
+          "text": "The principal said to I, “You are in-charge of the admission cell.”"
+        },
+        {
+          "label": "4",
+          "text": "The principal said me, You are in-charge of the admission cell."
+        }
+      ],
+      "question_id": "264330171902",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "The principal said to me, “You are in-charge of the admission cell.”",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

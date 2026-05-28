@@ -1,0 +1,74 @@
+{
+  "page": 43,
+  "questions": [
+    {
+      "question_number": 43,
+      "section": null,
+      "question_text_full": "Determine the tone of the passage by choosing the option that reflects the overall emotional quality of the writing.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Critical"
+        },
+        {
+          "label": "2",
+          "text": "Humorous"
+        },
+        {
+          "label": "3",
+          "text": "Informative"
+        },
+        {
+          "label": "4",
+          "text": "Dramatic"
+        }
+      ],
+      "question_id": "630680549230",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Informative",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 44,
+      "section": null,
+      "question_text_full": "Select the option that provides an accurate summary of the main points discussed in the passage.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Engaging in regular physical activity positively impacts mental health by releasing endorphins and reducing symptoms of anxiety and depression."
+        },
+        {
+          "label": "2",
+          "text": "The passage discusses the negative effects of technology on health."
+        },
+        {
+          "label": "3",
+          "text": "Exercise requires intense workouts for mental health benefits."
+        },
+        {
+          "label": "4",
+          "text": "Exercise only impacts physical well-being, not mental health."
+        }
+      ],
+      "question_id": "630680549231",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Engaging in regular physical activity positively impacts mental health by releasing endorphins and reducing symptoms of anxiety and depression.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

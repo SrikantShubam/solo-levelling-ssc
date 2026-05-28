@@ -1,0 +1,96 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": "General Awareness",
+      "question_text_full": "The British East India Company captured Pondicherry (Puducherry) from the French in the year ______.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1674"
+        },
+        {
+          "label": "2",
+          "text": "1699"
+        },
+        {
+          "label": "3",
+          "text": "1738"
+        },
+        {
+          "label": "4",
+          "text": "1761"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 27,
+      "section": "General Awareness",
+      "question_text_full": "Who among the following Rajput rulers defeated Muhammad Ghori in the First Battle of Tarain in 1191 AD?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Maldeo Rathore"
+        },
+        {
+          "label": "2",
+          "text": "Rana Kumbha"
+        },
+        {
+          "label": "3",
+          "text": "Prithviraj Chauhan"
+        },
+        {
+          "label": "4",
+          "text": "Bappa Rawal"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 28,
+      "section": "General Awareness",
+      "question_text_full": "The allocation towards health and well-being was increased by ______ over the previous year in Union Budget 2021-22.",
+      "options": [
+        {
+          "label": "1",
+          "text": "140%"
+        },
+        {
+          "label": "2",
+          "text": "125%"
+        },
+        {
+          "label": "3",
+          "text": "137%"
+        },
+        {
+          "label": "4",
+          "text": "100%"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    }
+  ],
+  "warnings": []
+}

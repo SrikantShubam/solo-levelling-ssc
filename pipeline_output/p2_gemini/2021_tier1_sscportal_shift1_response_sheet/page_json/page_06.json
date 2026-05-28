@@ -1,0 +1,126 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Study the given pattern carefully and select the number from among the given options that can replace the question mark (?) in it.\n48 63 56\n42 18 8 45 15 21 51 ? 8\n14 9 17",
+      "options": [
+        {
+          "label": "1",
+          "text": "21"
+        },
+        {
+          "label": "2",
+          "text": "18"
+        },
+        {
+          "label": "3",
+          "text": "19"
+        },
+        {
+          "label": "4",
+          "text": "17"
+        }
+      ],
+      "question_id": "65497842277",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "21",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\nTSF, RPJ, PMN, NJR, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "JFV"
+        },
+        {
+          "label": "2",
+          "text": "KGU"
+        },
+        {
+          "label": "3",
+          "text": "LGN"
+        },
+        {
+          "label": "4",
+          "text": "LGV"
+        }
+      ],
+      "question_id": "65497842363",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "LGV",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘CROWD’ is coded as 23415924 and ‘TRHICK’ is coded as 162491997. How will ‘FRUGAL’ be coded in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1226761821"
+        },
+        {
+          "label": "2",
+          "text": "1521012291"
+        },
+        {
+          "label": "3",
+          "text": "1512021921"
+        },
+        {
+          "label": "4",
+          "text": "1221021186"
+        }
+      ],
+      "question_id": "65497843479",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1512021921",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Saloni is the daughter of the only son of Kartik. Nirupama is the mother of Deepak. Yamini’s only son, Ankit, is married to Nirupama. Kartik is the paternal grandfather of Deepak. How is Kartik related to Ankit?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Brother"
+        },
+        {
+          "label": "2",
+          "text": "Paternal uncle"
+        },
+        {
+          "label": "3",
+          "text": "Son"
+        },
+        {
+          "label": "4",
+          "text": "Father"
+        }
+      ],
+      "question_id": "65497843078",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Father",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

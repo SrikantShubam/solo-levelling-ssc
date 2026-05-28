@@ -1,0 +1,126 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nRaise the bar",
+      "options": [
+        {
+          "label": "1",
+          "text": "To grow taller"
+        },
+        {
+          "label": "2",
+          "text": "To win a competition"
+        },
+        {
+          "label": "3",
+          "text": "To raise the price"
+        },
+        {
+          "label": "4",
+          "text": "To set higher goals"
+        }
+      ],
+      "question_id": "81616113103",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "To set higher goals",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nA group of three novels or plays, each complete in itself",
+      "options": [
+        {
+          "label": "1",
+          "text": "Triplet"
+        },
+        {
+          "label": "2",
+          "text": "Trivet"
+        },
+        {
+          "label": "3",
+          "text": "Triumvir"
+        },
+        {
+          "label": "4",
+          "text": "Trilogy"
+        }
+      ],
+      "question_id": "81616114014",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "Trilogy",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nWork and domestic _______ made Kajal short-tempered.",
+      "options": [
+        {
+          "label": "1",
+          "text": "weights"
+        },
+        {
+          "label": "2",
+          "text": "gravities"
+        },
+        {
+          "label": "3",
+          "text": "pressures"
+        },
+        {
+          "label": "4",
+          "text": "forces"
+        }
+      ],
+      "question_id": "81616114018",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "pressures",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nRegime",
+      "options": [
+        {
+          "label": "1",
+          "text": "Country"
+        },
+        {
+          "label": "2",
+          "text": "Space"
+        },
+        {
+          "label": "3",
+          "text": "Territory"
+        },
+        {
+          "label": "4",
+          "text": "Rule"
+        }
+      ],
+      "question_id": "81616113402",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Rule",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

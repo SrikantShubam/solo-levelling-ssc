@@ -1,0 +1,156 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Name the physicist who is credited with the discovery of the Neutron. This 1932 discovery led to his winning the Nobel Prize.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Max Plank"
+        },
+        {
+          "label": "2",
+          "text": "James Chadwick"
+        },
+        {
+          "label": "3",
+          "text": "Enrico Fermi"
+        },
+        {
+          "label": "4",
+          "text": "J.S. Fleming"
+        }
+      ],
+      "question_id": "12356833",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "James Chadwick",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "For which of the following sports was Dronavalli Harika, conferred with the prestigious Padma Shri award?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cricket"
+        },
+        {
+          "label": "2",
+          "text": "Chess"
+        },
+        {
+          "label": "3",
+          "text": "Archery"
+        },
+        {
+          "label": "4",
+          "text": "Badminton"
+        }
+      ],
+      "question_id": "12356847",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Chess",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Who is the first and currently the only batsman to score double hundreds in four consecutive test series?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Brian Lara"
+        },
+        {
+          "label": "2",
+          "text": "Virat Kohli"
+        },
+        {
+          "label": "3",
+          "text": "A.B. de Villiers"
+        },
+        {
+          "label": "4",
+          "text": "Rohit Sharma"
+        }
+      ],
+      "question_id": "12356846",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "Virat Kohli",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Kolathunadu, Valluvanad and Thekkumkoor were ancient small-time kingdoms in which state of India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bihar"
+        },
+        {
+          "label": "2",
+          "text": "Kerala"
+        },
+        {
+          "label": "3",
+          "text": "Gujarat"
+        },
+        {
+          "label": "4",
+          "text": "Karnataka"
+        }
+      ],
+      "question_id": "12356840",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "Kerala",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Sir Thomas Roe came as an official ambassador from King James I of England to which Mughal emperor's court?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Shah Jahan"
+        },
+        {
+          "label": "2",
+          "text": "Akbar"
+        },
+        {
+          "label": "3",
+          "text": "Jahangir"
+        },
+        {
+          "label": "4",
+          "text": "Aurangzeb"
+        }
+      ],
+      "question_id": "12356838",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Jahangir",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

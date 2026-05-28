@@ -1,0 +1,5286 @@
+[
+  {
+    "page": 1,
+    "questions": [
+      {
+        "question_number": 1,
+        "section": "Mathematical Abilities",
+        "question_text_full": "The average of 25, 46 and ‘y’ is 11. What is the value of ‘y’?",
+        "options": [
+          {
+            "label": "1",
+            "text": "-38"
+          },
+          {
+            "label": "2",
+            "text": "-34"
+          },
+          {
+            "label": "3",
+            "text": "-36"
+          },
+          {
+            "label": "4",
+            "text": "-37"
+          }
+        ],
+        "question_id": "264330171105",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "-38",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 2,
+        "section": "Mathematical Abilities",
+        "question_text_full": "From the top of a tower, the angle of depression of the top of a 10 m high building is 60°. If the distance between the tower and the building is 50√3 m, find the height of the tower.",
+        "options": [
+          {
+            "label": "1",
+            "text": "150 m"
+          },
+          {
+            "label": "2",
+            "text": "100 m"
+          },
+          {
+            "label": "3",
+            "text": "160 m"
+          },
+          {
+            "label": "4",
+            "text": "140 m"
+          }
+        ],
+        "question_id": "264330172607",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "160 m",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 3,
+        "section": "Mathematical Abilities",
+        "question_text_full": "A merchant fixes the sale price of his goods at 42% above the cost price. He sells his goods at a 15% discount marked price. His percentage of profit (rounded off to the nearest integer) is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "21%"
+          },
+          {
+            "label": "2",
+            "text": "42%"
+          },
+          {
+            "label": "3",
+            "text": "35%"
+          },
+          {
+            "label": "4",
+            "text": "27%"
+          }
+        ],
+        "question_id": "264330166057",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "21%",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 2,
+    "questions": [
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "A set of data presented in the form of a frequency distribution table with class intervals and their respective frequencies had a mode of 48.5. The lower boundary of the modal class was 46.5; the frequency of the modal class was 34; the frequency of the class interval just preceding the modal class was 32 and the frequency of the class interval just succeeding the modal class was 25. What was the width of the modal class?",
+        "options": [
+          {
+            "label": "1",
+            "text": "12"
+          },
+          {
+            "label": "2",
+            "text": "10.5"
+          },
+          {
+            "label": "3",
+            "text": "11"
+          },
+          {
+            "label": "4",
+            "text": "10"
+          }
+        ],
+        "question_id": "264330171141",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "11",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "An equilateral triangle ABC surmounts a square BCDE. The value of ∠EAB + 3∠AEB is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "60°"
+          },
+          {
+            "label": "2",
+            "text": "80°"
+          },
+          {
+            "label": "3",
+            "text": "280°"
+          },
+          {
+            "label": "4",
+            "text": "240°"
+          }
+        ],
+        "question_id": "264330173723",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "60°",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "The marks obtained by 15 students out of a maximum of 25 in a test are given as 13, 11, 16, 15, 18, 12, 13, 14, 10, 22, 15, 21, 20, 17 and 24. Find the product of the modes of this set of data.",
+        "options": [
+          {
+            "label": "1",
+            "text": "192"
+          },
+          {
+            "label": "2",
+            "text": "210"
+          },
+          {
+            "label": "3",
+            "text": "182"
+          },
+          {
+            "label": "4",
+            "text": "195"
+          }
+        ],
+        "question_id": "264330171139",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "195",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 3,
+    "questions": [
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Two friends A and B started a business by investing ₹1,50,000 and ₹2,50,000, respectively. They agreed to distribute their earnings in the same ratio of their investments. After an year, the profit earned was ₹6,00,000. Each of them added ₹50,000 to their respective profits and invested in a different project. If this project gave an yield of ₹4,20,000, then A's share in the profit is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "₹2,35,000"
+          },
+          {
+            "label": "2",
+            "text": "₹1,65,000"
+          },
+          {
+            "label": "3",
+            "text": "₹1,97,000"
+          },
+          {
+            "label": "4",
+            "text": "₹1,84,000"
+          }
+        ],
+        "question_id": "264330171718",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "₹1,65,000",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "The ratio of the length, width and height of a closed cuboid is given as 6 : 3 : 2. The total surface area of this cuboid is given as 1800 cm². Find the volume (in cm³) of this cuboid.",
+        "options": [
+          {
+            "label": "1",
+            "text": "4650"
+          },
+          {
+            "label": "2",
+            "text": "4800"
+          },
+          {
+            "label": "3",
+            "text": "4500"
+          },
+          {
+            "label": "4",
+            "text": "4200"
+          }
+        ],
+        "question_id": "264330171151",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "4500",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "B purchased 15 kg apples at the rate of ₹180 per kg from a wholesaler who uses a weight of 950 grams for the kg weight. B sold all these apples at ₹180 per kg but used a weight of 750 grams for the kg weight. Find the percentage profit earned by B in the transaction (correct to 2 places of decimal).",
+        "options": [
+          {
+            "label": "1",
+            "text": "22.55%"
+          },
+          {
+            "label": "2",
+            "text": "25.75%"
+          },
+          {
+            "label": "3",
+            "text": "33.33%"
+          },
+          {
+            "label": "4",
+            "text": "26.67%"
+          }
+        ],
+        "question_id": "264330171866",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "26.67%",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 4,
+    "questions": [
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "If P(A ∪ B) = 5/9, P(Ā ∪ B̄) = 13/27, P(A) = 11/18, then the odds against the event B are:",
+        "options": [
+          {
+            "label": "1",
+            "text": "38/17"
+          },
+          {
+            "label": "2",
+            "text": "7/57"
+          },
+          {
+            "label": "3",
+            "text": "29/25"
+          },
+          {
+            "label": "4",
+            "text": "47/7"
+          }
+        ],
+        "question_id": "264330172352",
+        "chosen_option_label": null,
+        "correct_option_label": "3",
+        "correct_option_text": "29/25",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "The average weight of the first thirteen persons among fourteen persons is 78 kg. The weight of the 14th person is 39 kg more than the average weight of all the fourteen persons. Find the weight of the 14th person.",
+        "options": [
+          {
+            "label": "1",
+            "text": "118 kg"
+          },
+          {
+            "label": "2",
+            "text": "98 kg"
+          },
+          {
+            "label": "3",
+            "text": "110 kg"
+          },
+          {
+            "label": "4",
+            "text": "120 kg"
+          }
+        ],
+        "question_id": "264330164084",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "120 kg",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "What is the single discount equivalent to the successive discounts of 20%, 35%, and 10%?",
+        "options": [
+          {
+            "label": "1",
+            "text": "53.2%"
+          },
+          {
+            "label": "2",
+            "text": "65.4%"
+          },
+          {
+            "label": "3",
+            "text": "48.7%"
+          },
+          {
+            "label": "4",
+            "text": "42.3%"
+          }
+        ],
+        "question_id": "264330164051",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "53.2%",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 5,
+    "questions": [
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Three cards are drawn one after another with replacement from a pack of cards. What is the probability of getting first card a Jack, second card a black card, and third card an even numbered card?",
+        "options": [
+          {
+            "label": "1",
+            "text": "5/338"
+          },
+          {
+            "label": "2",
+            "text": "20/338"
+          },
+          {
+            "label": "3",
+            "text": "25/26"
+          },
+          {
+            "label": "4",
+            "text": "5/169"
+          }
+        ],
+        "question_id": "264330172307",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "5/338",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "At a certain time in a park, the number of heads and the number of legs of monkeys and human visitors were counted, and it was found that there were 54 heads and 148 legs. Find the number of monkeys in the park.",
+        "options": [
+          {
+            "label": "1",
+            "text": "20"
+          },
+          {
+            "label": "2",
+            "text": "16"
+          },
+          {
+            "label": "3",
+            "text": "18"
+          },
+          {
+            "label": "4",
+            "text": "14"
+          }
+        ],
+        "question_id": "264330164103",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "20",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "Vipin travels one-third of the distance of a journey at a speed of 30 km/h and the remaining distance at a speed of 40 km/h. If he took a total of 12 hours to complete the journey, what was the total distance (in km) of the journey?",
+        "options": [
+          {
+            "label": "1",
+            "text": "432"
+          },
+          {
+            "label": "2",
+            "text": "450"
+          },
+          {
+            "label": "3",
+            "text": "445"
+          },
+          {
+            "label": "4",
+            "text": "412"
+          }
+        ],
+        "question_id": "264330171869",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "432",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 6,
+    "questions": [
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "80 litres of a mixture of spirit and water in the ratio 7 : 9 is present in a container A. 20 litres of the mixture is transferred to another container B. Then the container A is filled with 20 litres of water. Then 32 litres of the mixture is again transferred to container B. The ratio of water to spirit of the mixture in container B is equal to:",
+        "options": [
+          {
+            "label": "1",
+            "text": "41 : 87"
+          },
+          {
+            "label": "2",
+            "text": "87 : 41"
+          },
+          {
+            "label": "3",
+            "text": "131 : 77"
+          },
+          {
+            "label": "4",
+            "text": "77 : 131"
+          }
+        ],
+        "question_id": "264330172343",
+        "chosen_option_label": null,
+        "correct_option_label": "3",
+        "correct_option_text": "131 : 77",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "A solid cube, whose each edge is of length 48 cm, is melted. Identical solid cubes, each of volume 64 cm³, are made out of this molten cube, without any wastage. How many such small cubes are obtained?",
+        "options": [
+          {
+            "label": "1",
+            "text": "1728"
+          },
+          {
+            "label": "2",
+            "text": "1718"
+          },
+          {
+            "label": "3",
+            "text": "1748"
+          },
+          {
+            "label": "4",
+            "text": "1738"
+          }
+        ],
+        "question_id": "264330171148",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "1728",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "What is the value of [1/8 + {1/6 × (36/45 ÷ 24/25) - (12/21 × 14/15 ÷ 24/45)} + 27/36]?",
+        "options": [
+          {
+            "label": "1",
+            "text": "1/36"
+          },
+          {
+            "label": "2",
+            "text": "1/72"
+          },
+          {
+            "label": "3",
+            "text": "1/108"
+          },
+          {
+            "label": "4",
+            "text": "1/27"
+          }
+        ],
+        "question_id": "264330172610",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "1/72",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 7,
+    "questions": [
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "Two pillars of equal height stand on either side of a roadway which is 150 m wide. At a point in the road between pillars, the elevations of the pillars are x° and y° so that tanx° = 2/5, tany° = 3/5, then the height of each pillar is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "39 m"
+          },
+          {
+            "label": "2",
+            "text": "36 m"
+          },
+          {
+            "label": "3",
+            "text": "42 m"
+          },
+          {
+            "label": "4",
+            "text": "33 m"
+          }
+        ],
+        "question_id": "264330171729",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "36 m",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "The cost of 2 pencils and 3 pens is ₹55 and the cost of 7 pencils and 2 pens is ₹65. What is the total price (in ₹) of one pen and one pencil?",
+        "options": [
+          {
+            "label": "1",
+            "text": "15"
+          },
+          {
+            "label": "2",
+            "text": "25"
+          },
+          {
+            "label": "3",
+            "text": "12"
+          },
+          {
+            "label": "4",
+            "text": "20"
+          }
+        ],
+        "question_id": "264330163904",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "20",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "If P : Q = 3 : 4 and Q : R = 4 : 7, then find the value of (P + Q) : (Q + R) : (R + P).",
+        "options": [
+          {
+            "label": "1",
+            "text": "11 : 4 : 7"
+          },
+          {
+            "label": "2",
+            "text": "10 : 3 : 11"
+          },
+          {
+            "label": "3",
+            "text": "3 : 4 : 7"
+          },
+          {
+            "label": "4",
+            "text": "7 : 11 : 10"
+          }
+        ],
+        "question_id": "264330164089",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "7 : 11 : 10",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 8,
+    "questions": [
+      {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "A six-digit number 11p9q4 is divisible by 24. Then the greatest possible value for pq is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "56"
+          },
+          {
+            "label": "2",
+            "text": "68"
+          },
+          {
+            "label": "3",
+            "text": "42"
+          },
+          {
+            "label": "4",
+            "text": "32"
+          }
+        ],
+        "question_id": "264330172341",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "56",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "The compound interest on ₹10,000 at 20% per annum is ₹4,641. If the compounding is done half-yearly, then for how many years was the sum invested?",
+        "options": [
+          {
+            "label": "1",
+            "text": "4"
+          },
+          {
+            "label": "2",
+            "text": "6"
+          },
+          {
+            "label": "3",
+            "text": "3"
+          },
+          {
+            "label": "4",
+            "text": "2"
+          }
+        ],
+        "question_id": "264330163897",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "Hari, Kamal and Lalit contested an election in which 6050 votes were polled and none of the votes were invalid. Kamal got 42% more votes than the total votes obtained by Hari and Lalit together. If Lalit obtained only 8% of the total polled votes, find the number of votes obtained by Hari.",
+        "options": [
+          {
+            "label": "1",
+            "text": "2016"
+          },
+          {
+            "label": "2",
+            "text": "1668"
+          },
+          {
+            "label": "3",
+            "text": "1912"
+          },
+          {
+            "label": "4",
+            "text": "1556"
+          }
+        ],
+        "question_id": "264330171864",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "2016",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 9,
+    "questions": [
+      {
+        "question_number": 25,
+        "section": null,
+        "question_text_full": "A and B can complete a job together in 12.5 days; B and C can complete the same job together in 18.75 days, while C and A can complete the same job together in 15 days. In how many days will A, B and C together be able to complete the same job alongside D, who is only 40% as efficient as C?",
+        "options": [
+          {
+            "label": "1",
+            "text": "9 1/3"
+          },
+          {
+            "label": "2",
+            "text": "9 2/3"
+          },
+          {
+            "label": "3",
+            "text": "9 7/27"
+          },
+          {
+            "label": "4",
+            "text": "9 17/27"
+          }
+        ],
+        "question_id": "264330171134",
+        "chosen_option_label": null,
+        "correct_option_label": "3",
+        "correct_option_text": "9 7/27",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 26,
+        "section": null,
+        "question_text_full": "The average age of A, B and C is 20 years. Two years ago the sum of the ages of A and B was 6 more than that of C. Find the present age of C.",
+        "options": [
+          {
+            "label": "1",
+            "text": "25 years"
+          },
+          {
+            "label": "2",
+            "text": "29 years"
+          },
+          {
+            "label": "3",
+            "text": "28 years"
+          },
+          {
+            "label": "4",
+            "text": "26 years"
+          }
+        ],
+        "question_id": "264330171874",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "26 years",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 27,
+        "section": null,
+        "question_text_full": "Find the value of \n√1.24 × √2.79 / √2.64 × √5.94",
+        "options": [
+          {
+            "label": "1",
+            "text": "31/66"
+          },
+          {
+            "label": "2",
+            "text": "31/44"
+          },
+          {
+            "label": "3",
+            "text": "33/64"
+          },
+          {
+            "label": "4",
+            "text": "33/31"
+          }
+        ],
+        "question_id": "264330172972",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "31/66",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 10,
+    "questions": [
+      {
+        "question_number": 28,
+        "section": null,
+        "question_text_full": "If A = 58^2 - 25^2 / 46^2 - 37^2, B = 26^2 - 15^2 / 56^2 - 15^2, then the value of 1/B - 20/A is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "2"
+          },
+          {
+            "label": "2",
+            "text": "1"
+          },
+          {
+            "label": "3",
+            "text": "-1"
+          },
+          {
+            "label": "4",
+            "text": "0"
+          }
+        ],
+        "question_id": "264330171945",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 29,
+        "section": null,
+        "question_text_full": "The simple interest earned on ₹2,800 at a rate of 10% per annum for 3 years is ₹x and ₹1,736 is the simple interest earned on ₹6,200 at a rate of 14% for y years, then the value of x/y is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "140"
+          },
+          {
+            "label": "2",
+            "text": "380"
+          },
+          {
+            "label": "3",
+            "text": "550"
+          },
+          {
+            "label": "4",
+            "text": "420"
+          }
+        ],
+        "question_id": "264330171719",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "420",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 30,
+        "section": null,
+        "question_text_full": "One chord of a circle is given as 20.5 cm. Then the radius (r) of the circle must be:",
+        "options": [
+          {
+            "label": "1",
+            "text": "r = 10cm"
+          },
+          {
+            "label": "2",
+            "text": "r < 10.25"
+          },
+          {
+            "label": "3",
+            "text": "r > 10.25"
+          },
+          {
+            "label": "4",
+            "text": "r ≥ 10.25"
+          }
+        ],
+        "question_id": "264330172602",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "r ≥ 10.25",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 11,
+    "questions": [
+      {
+        "question_number": 1,
+        "section": null,
+        "question_text_full": "A statement is followed by four conclusions. Which of the conclusions is/are true based on the given statement?\nStatement:\nI < M < F ≤ D ≤ S = J\nConclusions:\nI) S < M\nII) F = S\nIII) I > J\nIV) M < D",
+        "options": [
+          {
+            "label": "1",
+            "text": "Only conclusion IV is true."
+          },
+          {
+            "label": "2",
+            "text": "Conclusions I and III are true."
+          },
+          {
+            "label": "3",
+            "text": "Only conclusion II is true."
+          },
+          {
+            "label": "4",
+            "text": "Conclusions IV and II are true."
+          }
+        ],
+        "question_id": "264330171840",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Only conclusion IV is true.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 2,
+        "section": null,
+        "question_text_full": "Given below is a statement followed by two possible reasons numbered I and II. Read the statement carefully and decide which of the two explain(s) the event/observation/information given in the statement.\nstatement:\nIn India, large cities have attracted migrant population from across rural parts of the country. According to 2011 census, in India's six largest metros (Delhi, Mumbai, Chennai, Bengaluru, Kolkata and Hyderabad), approximately 48% of the residents were migrants.\nreasons:\nI) Migration happens due to availability of better career and economic prospects in cities.\nII) Migration happens because people like travelling and exploring new cities.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Only I is a possible reason."
+          },
+          {
+            "label": "2",
+            "text": "Neither I nor II is a possible reason."
+          },
+          {
+            "label": "3",
+            "text": "Both I and II are possible reasons."
+          },
+          {
+            "label": "4",
+            "text": "Only II is a possible reason."
+          }
+        ],
+        "question_id": "264330163769",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Only I is a possible reason.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 3,
+        "section": null,
+        "question_text_full": "What should come in place of the question mark (?) in the given series?\n18, 74, 298, 1194, 4778, ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "19116"
+          },
+          {
+            "label": "2",
+            "text": "19112"
+          },
+          {
+            "label": "3",
+            "text": "19114"
+          },
+          {
+            "label": "4",
+            "text": "19110"
+          }
+        ],
+        "question_id": "264330171936",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "19114",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 12,
+    "questions": [
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "Identify the figure given in the options which when put in place of (?) will logically complete the series.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330162980",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Figure 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Options are visual figures."
+      },
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "What approximate value will come in place of the question mark (?) in the following equation?\n49.85 – 5.31 + 9.97 = ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "19"
+          },
+          {
+            "label": "2",
+            "text": "37"
+          },
+          {
+            "label": "3",
+            "text": "6"
+          },
+          {
+            "label": "4",
+            "text": "55"
+          }
+        ],
+        "question_id": "264330170892",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "55",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 13,
+    "questions": [
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g., 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)\n(5, 5, 25)\n(2, 5, 10)",
+        "options": [
+          {
+            "label": "1",
+            "text": "(3, 3, 9)"
+          },
+          {
+            "label": "2",
+            "text": "(4, 4, 20)"
+          },
+          {
+            "label": "3",
+            "text": "(7, 3, 14)"
+          },
+          {
+            "label": "4",
+            "text": "(9, 3, 26)"
+          }
+        ],
+        "question_id": "264330170859",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "(3, 3, 9)",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Select the correct option that indicates the arrangement of the given words in a logical and meaningful order.\n1. Shirt piece\n2.Thread\n3. Fabric\n4. Shirt\n5. Cotton",
+        "options": [
+          {
+            "label": "1",
+            "text": "5, 2, 3, 1, 4"
+          },
+          {
+            "label": "2",
+            "text": "2, 3, 5, 1, 2, 4"
+          },
+          {
+            "label": "3",
+            "text": "5, 3, 1, 2, 4"
+          },
+          {
+            "label": "4",
+            "text": "3, 1, 2, 4, 5"
+          }
+        ],
+        "question_id": "264330166334",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "5, 2, 3, 1, 4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "Select the combination of letters that when sequentially placed in the blanks of the given series will complete the series.\nA_DF GI_L MOP__UVX YA_D",
+        "options": [
+          {
+            "label": "1",
+            "text": "BJQRB"
+          },
+          {
+            "label": "2",
+            "text": "CJRSB"
+          },
+          {
+            "label": "3",
+            "text": "BJRSB"
+          },
+          {
+            "label": "4",
+            "text": "CJQRB"
+          }
+        ],
+        "question_id": "264330163998",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "CJRSB",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 14,
+    "questions": [
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "Each of the digits in the number 7148356 is arranged in ascending order from left to right. The position of how many digits will remain unchanged as compared to that in the original number?",
+        "options": [
+          {
+            "label": "1",
+            "text": "None"
+          },
+          {
+            "label": "2",
+            "text": "One"
+          },
+          {
+            "label": "3",
+            "text": "Two"
+          },
+          {
+            "label": "4",
+            "text": "Three"
+          }
+        ],
+        "question_id": "264330170901",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "One",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "What will come in the place of the question mark (?) in the following equation if '+' and '-' are interchanged and 'x'and '÷' are interchanged?\n163 ÷ 3 + 147 x 7 - 1 = ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "489"
+          },
+          {
+            "label": "2",
+            "text": "459"
+          },
+          {
+            "label": "3",
+            "text": "479"
+          },
+          {
+            "label": "4",
+            "text": "469"
+          }
+        ],
+        "question_id": "264330170917",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "469",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "A certain number of people are sitting in a row, facing north. N is sitting third to the left of P. M is sitting third to the left of N. O is sitting third to the left of M. M is sitting between O and N. N is sitting between M and P. If no other person is sitting in the row, what is the total number of persons seated?",
+        "options": [
+          {
+            "label": "1",
+            "text": "9"
+          },
+          {
+            "label": "2",
+            "text": "10"
+          },
+          {
+            "label": "3",
+            "text": "8"
+          },
+          {
+            "label": "4",
+            "text": "11"
+          }
+        ],
+        "question_id": "264330171855",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "10",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 15,
+    "questions": [
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "Three of the following word pairs are alike in some manner and hence form a group. Which word pair does not belong to that group? (The words must be considered as meaningful English words and must not be grouped based on the number of letters/number of consonants/vowels in the word.)",
+        "options": [
+          {
+            "label": "1",
+            "text": "Travel : Tour"
+          },
+          {
+            "label": "2",
+            "text": "Close : Distant"
+          },
+          {
+            "label": "3",
+            "text": "Look : See"
+          },
+          {
+            "label": "4",
+            "text": "Carry : Lift"
+          }
+        ],
+        "question_id": "264330171845",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Close : Distant",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "What will come in the place of the question mark (?) in the following equation if '+' and '-' are interchanged and 'x'and '÷' are interchanged? 113 ÷ 4 - 217 × 7 + 4 = ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "467"
+          },
+          {
+            "label": "2",
+            "text": "459"
+          },
+          {
+            "label": "3",
+            "text": "477"
+          },
+          {
+            "label": "4",
+            "text": "479"
+          }
+        ],
+        "question_id": "264330170921",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "479",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "A question is given, followed by two statements labelled I and II. Identify which of the statements is/are sufficient to answer the question. Question: A, B, C, D, E and F are sitting around a circular table. Each of them faces either the centre of the table or outside (i.e., opposite to the centre). In which direction is D facing? Statements: (I) B sits second to the right of F and both are facing the centre. Only two people are sitting between A and E from the either sides. Both A and E are facing the same direction. A is not an immediate neighbor of B. (II) C is facing the opposite direction of B. D is sitting to the second left of C.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Statement I alone is sufficient to answer the question while statement II is not."
+          },
+          {
+            "label": "2",
+            "text": "Statements I and II together are not sufficient to answer the question."
+          },
+          {
+            "label": "3",
+            "text": "Statement II alone is sufficient to answer the question while statement I is not."
+          },
+          {
+            "label": "4",
+            "text": "Statements I and II together are sufficient to answer the question."
+          }
+        ],
+        "question_id": "264330173697",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Statements I and II together are not sufficient to answer the question.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 16,
+    "questions": [
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "Four of the following five figures are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group?\n(A) (B) (C) (D) (E)",
+        "options": [
+          {
+            "label": "1",
+            "text": "C"
+          },
+          {
+            "label": "2",
+            "text": "D"
+          },
+          {
+            "label": "3",
+            "text": "B"
+          },
+          {
+            "label": "4",
+            "text": "A"
+          }
+        ],
+        "question_id": "264330162869",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "B",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "The options are labeled as C, D, B, A in the answer block, corresponding to labels 1, 2, 3, 4."
+      },
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "One statement is given, and it is followed by two inferences numbered I and II. Read the statement and decide which of the inferences is/are true for the given statement.\nStatements: Fuel prices in India are inflating day by day, and there is no upper limit in its price increase.\nInferences:\nI. Central and State governments have not cut down their respective taxes on fuel.\nII. Inflation in the international market is influencing the rising fuel prices.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Both inferences I and II are true."
+          },
+          {
+            "label": "2",
+            "text": "Only inference II is true."
+          },
+          {
+            "label": "3",
+            "text": "Neither inference I nor II is true."
+          },
+          {
+            "label": "4",
+            "text": "Only inference I is true."
+          }
+        ],
+        "question_id": "264330171862",
+        "chosen_option_label": "1",
+        "correct_option_label": "3",
+        "correct_option_text": "Neither inference I nor II is true.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "In this question, a question is followed by two statements numbered (I) and (II). You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and decide the appropriate answer.\nQuestion: How is Kishore related to Sujata?\n(I) Navya is the daughter of Kishore. Vinita is the wife of Kishore.\n(II) Aman is the brother of Navya. Sujata is the only daughter of Aman.",
+        "options": [
+          {
+            "label": "1",
+            "text": "(II) alone is sufficient while (I) alone is not sufficient."
+          },
+          {
+            "label": "2",
+            "text": "(I) alone is sufficient while (II) alone is not sufficient."
+          },
+          {
+            "label": "3",
+            "text": "Both (I) and (II) together are needed."
+          },
+          {
+            "label": "4",
+            "text": "Either (I) alone or (II) alone is sufficient."
+          }
+        ],
+        "question_id": "264330173707",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Both (I) and (II) together are needed.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 17,
+    "questions": [
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "Select the option that is related to the third word in the same way as the second word is related to the first word.\n(The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word.)\nCrowd : Dense : : Slope : ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Plain"
+          },
+          {
+            "label": "2",
+            "text": "Tight"
+          },
+          {
+            "label": "3",
+            "text": "Fill"
+          },
+          {
+            "label": "4",
+            "text": "Steep"
+          }
+        ],
+        "question_id": "264330171853",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Steep",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "What will come in the place of the question mark (?) in the following equation if '+' and '-' are interchanged and 'x'and '÷' are interchanged?\n161 ÷ 4 + 75 × 5 - 4 = ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "533"
+          },
+          {
+            "label": "2",
+            "text": "633"
+          },
+          {
+            "label": "3",
+            "text": "643"
+          },
+          {
+            "label": "4",
+            "text": "543"
+          }
+        ],
+        "question_id": "264330170916",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "633",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "Q is the mother of R. P is the husband of Q. S is the brother of R. How is P related to S?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Father"
+          },
+          {
+            "label": "2",
+            "text": "Brother"
+          },
+          {
+            "label": "3",
+            "text": "Son"
+          },
+          {
+            "label": "4",
+            "text": "Wife's brother"
+          }
+        ],
+        "question_id": "264330172006",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Father",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 18,
+    "questions": [
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "Seven people, A, B, C, D, E, F and G are sitting in a straight line, facing north. Only three people sit to the left of D. Only two people sit between D and A. B sits fifth to the right of C. G sits to the immediate right of E but somewhere to the left of A. Who sits to the extreme right?",
+        "options": [
+          {
+            "label": "1",
+            "text": "B"
+          },
+          {
+            "label": "2",
+            "text": "A"
+          },
+          {
+            "label": "3",
+            "text": "E"
+          },
+          {
+            "label": "4",
+            "text": "G"
+          }
+        ],
+        "question_id": "264330172003",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "A",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "Select the combination of letters that when sequentially placed in the blanks of the given series will make it logically complete.\n\nP R _ Y _ _ R A _ Z P _ A _ Z",
+        "options": [
+          {
+            "label": "1",
+            "text": "AZYZRY"
+          },
+          {
+            "label": "2",
+            "text": "APYZZY"
+          },
+          {
+            "label": "3",
+            "text": "AZPYRY"
+          },
+          {
+            "label": "4",
+            "text": "APYZRY"
+          }
+        ],
+        "question_id": "264330166307",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "AZPYRY",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 19,
+    "questions": [
+      {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "Figure A is related to B in a certain pattern. Following the same pattern, figure C is related to D. Study the pattern and select the figure which should be placed in place of D.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330172907",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Figure 3",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Options are visual figures."
+      },
+      {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "How many meaningful English words can be formed with the second, fourth, fifth, and sixth letters of the word HOCKEY (when counted from left to right) using each letter only once in each word?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Three"
+          },
+          {
+            "label": "2",
+            "text": "Two"
+          },
+          {
+            "label": "3",
+            "text": "Zero"
+          },
+          {
+            "label": "4",
+            "text": "One"
+          }
+        ],
+        "question_id": "264330171997",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "One",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 20,
+    "questions": [
+      {
+        "question_number": 25,
+        "section": null,
+        "question_text_full": "Three of the following four number-pairs are alike in a certain way and thus form a group. Which is the pair that does not belong to that group? (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1and 3 is not allowed.)",
+        "options": [
+          {
+            "label": "1",
+            "text": "13-117"
+          },
+          {
+            "label": "2",
+            "text": "11-89"
+          },
+          {
+            "label": "3",
+            "text": "18-162"
+          },
+          {
+            "label": "4",
+            "text": "15-135"
+          }
+        ],
+        "question_id": "264330170879",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "11-89",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 26,
+        "section": null,
+        "question_text_full": "In a certain code language, ‘BUTTER’ is coded as ‘CWWSC0’ and ‘THEORY’ is coded as ‘UJHNPV’. How will ‘LATENT’ be coded in that language?",
+        "options": [
+          {
+            "label": "1",
+            "text": "MDXCLQ"
+          },
+          {
+            "label": "2",
+            "text": "MCWDLQ"
+          },
+          {
+            "label": "3",
+            "text": "MEVCKR"
+          },
+          {
+            "label": "4",
+            "text": "MCWDMP"
+          }
+        ],
+        "question_id": "264330171860",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "MCWDLQ",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 27,
+        "section": null,
+        "question_text_full": "Read the given statements and conclusions carefully. You have to take the given statements to be true even if they seem to be at variance from commonly known facts. You have to decide which conclusions logically follow(s) from the given statements.\n\nStatements:\nSome pens are books.\nAll book are cars.\nSome cars are spoons.\n\nConclusions:\n(I) : Some spoons are pens.\n(II) : Some books are pens.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Only conclusion (I) follows"
+          },
+          {
+            "label": "2",
+            "text": "Only conclusion (II) follows"
+          },
+          {
+            "label": "3",
+            "text": "Both conclusions (I) and (II) follow"
+          },
+          {
+            "label": "4",
+            "text": "Neither conclusion (I) nor (II) follows"
+          }
+        ],
+        "question_id": "264330166327",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Only conclusion (II) follows",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 21,
+    "questions": [
+      {
+        "question_number": 28,
+        "section": null,
+        "question_text_full": "Select the option figure that will replace the question mark (?) in the figure given below to complete the pattern.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330162946",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Figure 2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Options are visual figures."
+      },
+      {
+        "question_number": 29,
+        "section": null,
+        "question_text_full": "In a certain code language, ‘CARD’ is coded as ‘7359’, ‘SERV’ is coded as ‘1256’and ‘PACK’ is coded as ‘8497’. What is the code for ‘D’ in the given code language?",
+        "options": [
+          {
+            "label": "1",
+            "text": "9"
+          },
+          {
+            "label": "2",
+            "text": "5"
+          },
+          {
+            "label": "3",
+            "text": "7"
+          },
+          {
+            "label": "4",
+            "text": "3"
+          }
+        ],
+        "question_id": "264330167811",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "3",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 22,
+    "questions": [
+      {
+        "question_number": 30,
+        "section": null,
+        "question_text_full": "When the below given diagram is folded in the shape of a cube which symbol will face opposite to '^'?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330172905",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Figure 3",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Options are visual symbols corresponding to the figures in the answer block."
+      },
+      {
+        "question_number": 1,
+        "section": "English Language and Comprehension",
+        "question_text_full": "Parts of the following sentence have been given as options. Select the option that contains an error.\nThis is the book whom I wanted to buy.",
+        "options": [
+          {
+            "label": "1",
+            "text": "the book"
+          },
+          {
+            "label": "2",
+            "text": "wanted to buy."
+          },
+          {
+            "label": "3",
+            "text": "whom I"
+          },
+          {
+            "label": "4",
+            "text": "This is"
+          }
+        ],
+        "question_id": "264330166080",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "whom I",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 23,
+    "questions": [
+      {
+        "question_number": 2,
+        "section": null,
+        "question_text_full": "Parts of the following sentence have been given as options. Select the option that contains an error.\nEveryone should respect those parents, teachers, and elders.",
+        "options": [
+          {
+            "label": "1",
+            "text": "and elders."
+          },
+          {
+            "label": "2",
+            "text": "parents, teachers,"
+          },
+          {
+            "label": "3",
+            "text": "respect those"
+          },
+          {
+            "label": "4",
+            "text": "Everyone should"
+          }
+        ],
+        "question_id": "264330163984",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "respect those",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 3,
+        "section": null,
+        "question_text_full": "The following sentence has been divided into four parts. One of them contains an error. Select the part that contains the error from the given options. .\nThey were / married happily / before she / quit her job.\nA B C D",
+        "options": [
+          {
+            "label": "1",
+            "text": "B"
+          },
+          {
+            "label": "2",
+            "text": "D"
+          },
+          {
+            "label": "3",
+            "text": "C"
+          },
+          {
+            "label": "4",
+            "text": "A"
+          }
+        ],
+        "question_id": "264330162634",
+        "chosen_option_label": "4",
+        "correct_option_label": "1",
+        "correct_option_text": "B",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "Parts of the following sentence have been given as options. Select the option that contains an error.\nThe speaker's emphasiss is on the present-day problems that are being faced by ordinary men of India.",
+        "options": [
+          {
+            "label": "1",
+            "text": "that are being faced"
+          },
+          {
+            "label": "2",
+            "text": "on the present-day problems"
+          },
+          {
+            "label": "3",
+            "text": "by ordinary men of India"
+          },
+          {
+            "label": "4",
+            "text": "The speaker's emphasiss is"
+          }
+        ],
+        "question_id": "264330170949",
+        "chosen_option_label": "1",
+        "correct_option_label": "4",
+        "correct_option_text": "The speaker's emphasiss is",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 24,
+    "questions": [
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "The given sentence has an error which has been underlined. The underlined word is given as options with some changes. Select the option that rectifies the error. She vaccillates a lot while making any decision.",
+        "options": [
+          {
+            "label": "1",
+            "text": "vasillates"
+          },
+          {
+            "label": "2",
+            "text": "vacillattes"
+          },
+          {
+            "label": "3",
+            "text": "vacillates"
+          },
+          {
+            "label": "4",
+            "text": "vacilates"
+          }
+        ],
+        "question_id": "264330170950",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "vacillates",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "Select the most appropriate option to fill in the blank. By this time tomorrow, I ________ the work assigned to me.",
+        "options": [
+          {
+            "label": "1",
+            "text": "will have did"
+          },
+          {
+            "label": "2",
+            "text": "will do"
+          },
+          {
+            "label": "3",
+            "text": "will have done"
+          },
+          {
+            "label": "4",
+            "text": "will be done"
+          }
+        ],
+        "question_id": "264330166088",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "will have done",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Select the most appropriate phrasal verb to fill in the blank. . ________ that thought. It will be a great idea someday.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Hold onto"
+          },
+          {
+            "label": "2",
+            "text": "Hold to"
+          },
+          {
+            "label": "3",
+            "text": "Hold on"
+          },
+          {
+            "label": "4",
+            "text": "Hold against"
+          }
+        ],
+        "question_id": "264330162645",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Hold onto",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 25,
+    "questions": [
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in indirect speech.\nHe said, “Two and two make four.”",
+        "options": [
+          {
+            "label": "1",
+            "text": "He says that two and two make four."
+          },
+          {
+            "label": "2",
+            "text": "He said that two and two make four."
+          },
+          {
+            "label": "3",
+            "text": "He says that two and two make four."
+          },
+          {
+            "label": "4",
+            "text": "He said that two and two made four."
+          }
+        ],
+        "question_id": "264330167397",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "He said that two and two make four.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in active voice.\nThe award was presented to her by the director.",
+        "options": [
+          {
+            "label": "1",
+            "text": "She presented the award to the director."
+          },
+          {
+            "label": "2",
+            "text": "The award presented to her by the director."
+          },
+          {
+            "label": "3",
+            "text": "The director presented the award to her."
+          },
+          {
+            "label": "4",
+            "text": "She was presenting the award to the director."
+          }
+        ],
+        "question_id": "264330167316",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "The director presented the award to her.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "Read the given sentence carefully and fill in the blank by selecting the correct synonym of the word given in the brackets.\nThe authority refused to pay any heed to the ________ demands made by the workers. (Trivial)",
+        "options": [
+          {
+            "label": "1",
+            "text": "conceited"
+          },
+          {
+            "label": "2",
+            "text": "idiotic"
+          },
+          {
+            "label": "3",
+            "text": "insignificant"
+          },
+          {
+            "label": "4",
+            "text": "majestic"
+          }
+        ],
+        "question_id": "264330171641",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "insignificant",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 26,
+    "questions": [
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the underlined part of the given sentence.\nThere is a place for grains in the backyard of this house.",
+        "options": [
+          {
+            "label": "1",
+            "text": "apiary"
+          },
+          {
+            "label": "2",
+            "text": "archive"
+          },
+          {
+            "label": "3",
+            "text": "granary"
+          },
+          {
+            "label": "4",
+            "text": "dormitory"
+          }
+        ],
+        "question_id": "264330170339",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "granary",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "Select the option that expresses the following sentence in active voice.\nBy whom were you taught English grammar and composition?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Who has taught you English grammar and composition?"
+          },
+          {
+            "label": "2",
+            "text": "Whom taught you English grammar and composition?"
+          },
+          {
+            "label": "3",
+            "text": "Who had taught you English grammar and composition?"
+          },
+          {
+            "label": "4",
+            "text": "Who taught you English grammar and composition?"
+          }
+        ],
+        "question_id": "264330164766",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Who taught you English grammar and composition?",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Select the most appropriate option in direct speech.",
+        "options": [
+          {
+            "label": "1",
+            "text": "The principal said to me, “You are in-charge of the admission cell.”"
+          },
+          {
+            "label": "2",
+            "text": "The principal say me, “You are in-charge of the admission cell.”"
+          },
+          {
+            "label": "3",
+            "text": "The principal said to I, “You are in-charge of the admission cell.”"
+          },
+          {
+            "label": "4",
+            "text": "The principal said me, You are in-charge of the admission cell."
+          }
+        ],
+        "question_id": "264330171902",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "The principal said to me, “You are in-charge of the admission cell.”",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 27,
+    "questions": [
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "Select the sentence which gives the most appropriate meaning of the given idiom.\nBite the bullet",
+        "options": [
+          {
+            "label": "1",
+            "text": "The children played in the park on a sunny day."
+          },
+          {
+            "label": "2",
+            "text": "Despite the pain, Sarah decided to go ahead with the surgery."
+          },
+          {
+            "label": "3",
+            "text": "The chef prepared a delicious meal for the guests."
+          },
+          {
+            "label": "4",
+            "text": "Jack and Jill went up the hill to fetch a pail of water."
+          }
+        ],
+        "question_id": "264330167830",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Despite the pain, Sarah decided to go ahead with the surgery.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "Select the option that arranges the given words to form a grammatically correct and meaningful sentence.\nThe students eagerly their awaited results.",
+        "options": [
+          {
+            "label": "1",
+            "text": "The students their eagerly awaited results."
+          },
+          {
+            "label": "2",
+            "text": "The awaited eagerly results their students."
+          },
+          {
+            "label": "3",
+            "text": "Eagerly awaited the students their results."
+          },
+          {
+            "label": "4",
+            "text": "The students eagerly awaited their results."
+          }
+        ],
+        "question_id": "264330166269",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "The students eagerly awaited their results.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Select the most appropriate option to fill in the blank.\nRobin watched as the smoke ________ steadily from the chimney.",
+        "options": [
+          {
+            "label": "1",
+            "text": "hung"
+          },
+          {
+            "label": "2",
+            "text": "rose"
+          },
+          {
+            "label": "3",
+            "text": "left"
+          },
+          {
+            "label": "4",
+            "text": "went"
+          }
+        ],
+        "question_id": "264330171636",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "rose",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 28,
+    "questions": [
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "Select the most appropriate option in the superlative degree that can substitute the underlined segment in the given sentence. This is the challenge task I have ever encountered.",
+        "options": [
+          {
+            "label": "1",
+            "text": "more challenging"
+          },
+          {
+            "label": "2",
+            "text": "most challenging"
+          },
+          {
+            "label": "3",
+            "text": "challenging"
+          },
+          {
+            "label": "4",
+            "text": "much challenging"
+          }
+        ],
+        "question_id": "264330162611",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "most challenging",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error from the given options. If you don’t find any error, mark ‘No error’ as your answer. They want to live in first floor of this building.",
+        "options": [
+          {
+            "label": "1",
+            "text": "They want to"
+          },
+          {
+            "label": "2",
+            "text": "of this building"
+          },
+          {
+            "label": "3",
+            "text": "No error"
+          },
+          {
+            "label": "4",
+            "text": "live in first floor"
+          }
+        ],
+        "question_id": "264330172317",
+        "chosen_option_label": "3",
+        "correct_option_label": "4",
+        "correct_option_text": "live in first floor",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the underlined phrase in the following sentence. She was known for her ability to communicate effectively and express herself clearly in writing and speaking.",
+        "options": [
+          {
+            "label": "1",
+            "text": "incoherence"
+          },
+          {
+            "label": "2",
+            "text": "articulation"
+          },
+          {
+            "label": "3",
+            "text": "mumbling"
+          },
+          {
+            "label": "4",
+            "text": "rambling"
+          }
+        ],
+        "question_id": "264330166261",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "articulation",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 29,
+    "questions": [
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in indirect speech.\nHe said, “I bought this book for my brother.”",
+        "options": [
+          {
+            "label": "1",
+            "text": "He said that he buy this book for his brother."
+          },
+          {
+            "label": "2",
+            "text": "He said that he had bought that book for his brother."
+          },
+          {
+            "label": "3",
+            "text": "He said that he has bought this book for his brother."
+          },
+          {
+            "label": "4",
+            "text": "He said that he bought this book for his brother."
+          }
+        ],
+        "question_id": "264330167400",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "He said that he had bought that book for his brother.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in passive voice.\nAccess denied.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Let the access be denied."
+          },
+          {
+            "label": "2",
+            "text": "Let it be known that access will be denied."
+          },
+          {
+            "label": "3",
+            "text": "Access has been denied."
+          },
+          {
+            "label": "4",
+            "text": "Access is being denied."
+          }
+        ],
+        "question_id": "264330164417",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Let the access be denied.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nWe / has seen / that movie / before.",
+        "options": [
+          {
+            "label": "1",
+            "text": "has seen"
+          },
+          {
+            "label": "2",
+            "text": "before"
+          },
+          {
+            "label": "3",
+            "text": "that movie"
+          },
+          {
+            "label": "4",
+            "text": "We"
+          }
+        ],
+        "question_id": "264330162608",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "has seen",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 30,
+    "questions": [
+      {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "Select the option that rectifies the underlined part of the given sentence. In case no correction is needed, select ‘No correction required’.\nAshoka was not only a great warrior but also a very wiser ruler.",
+        "options": [
+          {
+            "label": "1",
+            "text": "more wise"
+          },
+          {
+            "label": "2",
+            "text": "No correction required"
+          },
+          {
+            "label": "3",
+            "text": "wisest"
+          },
+          {
+            "label": "4",
+            "text": "wise"
+          }
+        ],
+        "question_id": "264330164752",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "wise",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "The given sentence has an error. Choose the option that corrects the error\nThrow a rounder stone to create ripples in the water.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Throw the roundest stone to create ripples in the water."
+          },
+          {
+            "label": "2",
+            "text": "Throw a more round stone to create ripples in the water."
+          },
+          {
+            "label": "3",
+            "text": "Throw a more rounder stone to create ripples in the water."
+          },
+          {
+            "label": "4",
+            "text": "Throw a round stone to create ripples in the water."
+          }
+        ],
+        "question_id": "264330162641",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Throw a round stone to create ripples in the water.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 25,
+        "section": null,
+        "question_text_full": "Select the option that rectifies the underlined part of the given sentence. In case no correction is needed, select ‘No correction required’.\nCinema provides the most universal entertainment.",
+        "options": [
+          {
+            "label": "1",
+            "text": "No correction required"
+          },
+          {
+            "label": "2",
+            "text": "a universal"
+          },
+          {
+            "label": "3",
+            "text": "an universal"
+          },
+          {
+            "label": "4",
+            "text": "more universal"
+          }
+        ],
+        "question_id": "264330164754",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "a universal",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 31,
+    "questions": [
+      {
+        "question_number": 26,
+        "section": null,
+        "question_text_full": "Select the option that will improve the underlined part of the following sentence.\nHe is taller and most handsome than his friend.",
+        "options": [
+          {
+            "label": "1",
+            "text": "very more"
+          },
+          {
+            "label": "2",
+            "text": "more"
+          },
+          {
+            "label": "3",
+            "text": "the more"
+          },
+          {
+            "label": "4",
+            "text": "the most"
+          }
+        ],
+        "question_id": "264330166085",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "more",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 27,
+        "section": null,
+        "question_text_full": "Select the most appropriate option to fill in the blank.\nThe girl was ________ as she was drenched in the rain.",
+        "options": [
+          {
+            "label": "1",
+            "text": "bolt"
+          },
+          {
+            "label": "2",
+            "text": "gold"
+          },
+          {
+            "label": "3",
+            "text": "cold"
+          },
+          {
+            "label": "4",
+            "text": "tight"
+          }
+        ],
+        "question_id": "264330170940",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "cold",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 28,
+        "section": null,
+        "question_text_full": "Select the most appropriate option to fill in the blank.\nYou use an ________ to steer a boat.",
+        "options": [
+          {
+            "label": "1",
+            "text": "are"
+          },
+          {
+            "label": "2",
+            "text": "or"
+          },
+          {
+            "label": "3",
+            "text": "oar"
+          },
+          {
+            "label": "4",
+            "text": "ore"
+          }
+        ],
+        "question_id": "264330162588",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "oar",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 32,
+    "questions": [
+      {
+        "question_number": 29,
+        "section": null,
+        "question_text_full": "Select the most appropriate idiom to fill in the blank.\nDespite their differences, the two politicians decided to _________ and work together for the greater good.",
+        "options": [
+          {
+            "label": "1",
+            "text": "bury the hatchet"
+          },
+          {
+            "label": "2",
+            "text": "burn the midnight oil"
+          },
+          {
+            "label": "3",
+            "text": "bark up the wrong tree"
+          },
+          {
+            "label": "4",
+            "text": "blow off steam"
+          }
+        ],
+        "question_id": "264330163591",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "bury the hatchet",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 30,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no. 1.",
+        "options": [
+          {
+            "label": "1",
+            "text": "drift"
+          },
+          {
+            "label": "2",
+            "text": "focus"
+          },
+          {
+            "label": "3",
+            "text": "divergence"
+          },
+          {
+            "label": "4",
+            "text": "dispersion"
+          }
+        ],
+        "question_id": "264330171951",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "focus",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "The question refers to blank no. 1 in the provided comprehension passage."
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 33,
+    "questions": [
+      {
+        "question_number": 31,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no. 2.",
+        "options": [
+          {
+            "label": "1",
+            "text": "invoked"
+          },
+          {
+            "label": "2",
+            "text": "scattered"
+          },
+          {
+            "label": "3",
+            "text": "provided"
+          },
+          {
+            "label": "4",
+            "text": "gained"
+          }
+        ],
+        "question_id": "264330171952",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "gained",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 32,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no. 3.",
+        "options": [
+          {
+            "label": "1",
+            "text": "cease"
+          },
+          {
+            "label": "2",
+            "text": "perpetuate"
+          },
+          {
+            "label": "3",
+            "text": "refract"
+          },
+          {
+            "label": "4",
+            "text": "terminate"
+          }
+        ],
+        "question_id": "264330171953",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "perpetuate",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 34,
+    "questions": [
+      {
+        "question_number": 33,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no. 4.",
+        "options": [
+          {
+            "label": "1",
+            "text": "engage"
+          },
+          {
+            "label": "2",
+            "text": "coincide"
+          },
+          {
+            "label": "3",
+            "text": "evolve"
+          },
+          {
+            "label": "4",
+            "text": "manifest"
+          }
+        ],
+        "question_id": "264330171954",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "engage",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 34,
+        "section": "Comprehension",
+        "question_text_full": "Identify the structure of the passage.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Cause and effect"
+          },
+          {
+            "label": "2",
+            "text": "Sequential"
+          },
+          {
+            "label": "3",
+            "text": "Classification"
+          },
+          {
+            "label": "4",
+            "text": "Descriptive"
+          }
+        ],
+        "question_id": "264330168513",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Descriptive",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 35,
+    "questions": [
+      {
+        "question_number": 35,
+        "section": "Comprehension",
+        "question_text_full": "Why is steel often called the backbone of modern industry?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Steel is used in almost every tool and machinery."
+          },
+          {
+            "label": "2",
+            "text": "Steel can be added with any material."
+          },
+          {
+            "label": "3",
+            "text": "It is easy to make steel alloys."
+          },
+          {
+            "label": "4",
+            "text": "Steel is tough."
+          }
+        ],
+        "question_id": "264330168514",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Steel is used in almost every tool and machinery.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 36,
+        "section": "Comprehension",
+        "question_text_full": "What is the tone of the passage?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Critical"
+          },
+          {
+            "label": "2",
+            "text": "Informative"
+          },
+          {
+            "label": "3",
+            "text": "Judgemental"
+          },
+          {
+            "label": "4",
+            "text": "Ironical"
+          }
+        ],
+        "question_id": "264330168515",
+        "chosen_option_label": "3",
+        "correct_option_label": "2",
+        "correct_option_text": "Informative",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 36,
+    "questions": [
+      {
+        "question_number": 37,
+        "section": null,
+        "question_text_full": "Select an appropriate title for the passage from the given options.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Steel Industry"
+          },
+          {
+            "label": "2",
+            "text": "Mineral ores"
+          },
+          {
+            "label": "3",
+            "text": "Manufacturing"
+          },
+          {
+            "label": "4",
+            "text": "Resources of Steel"
+          }
+        ],
+        "question_id": "264330168512",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Steel Industry",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 38,
+        "section": null,
+        "question_text_full": "Select the most appropriate title for the given passage.",
+        "options": [
+          {
+            "label": "1",
+            "text": "The Migratory Journey of the Sapphire-winged Warbler"
+          },
+          {
+            "label": "2",
+            "text": "Conservation Efforts in Tropical Rainforests"
+          },
+          {
+            "label": "3",
+            "text": "The Unique Features of the Sapphire-winged Warbler"
+          },
+          {
+            "label": "4",
+            "text": "The Curious Behaviour of Birds in Remote Islands"
+          }
+        ],
+        "question_id": "264330171941",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "The Migratory Journey of the Sapphire-winged Warbler",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 37,
+    "questions": [
+      {
+        "question_number": 39,
+        "section": null,
+        "question_text_full": "Which statement best reflects a fact mentioned in the given passage?",
+        "options": [
+          {
+            "label": "1",
+            "text": "The Sapphire-winged Warbler is the largest bird species in the avian kingdom."
+          },
+          {
+            "label": "2",
+            "text": "Schools on the island organise annual bird-watching competitions."
+          },
+          {
+            "label": "3",
+            "text": "The Sapphire-winged Warbler is the only bird species on the tropical island."
+          },
+          {
+            "label": "4",
+            "text": "Researchers are using satellite tracking devices to study the bird's migratory patterns."
+          }
+        ],
+        "question_id": "264330171942",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Researchers are using satellite tracking devices to study the bird's migratory patterns.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 40,
+        "section": null,
+        "question_text_full": "Identify the most appropriate ANTONYM of the word ‘stare’ from the passage.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Arduousness"
+          },
+          {
+            "label": "2",
+            "text": "Vibrancy"
+          },
+          {
+            "label": "3",
+            "text": "Excitement"
+          },
+          {
+            "label": "4",
+            "text": "Glimpse"
+          }
+        ],
+        "question_id": "264330171944",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Glimpse",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 38,
+    "questions": [
+      {
+        "question_number": 41,
+        "section": null,
+        "question_text_full": "Based on the given passage, which of the following inferences can be made?",
+        "options": [
+          {
+            "label": "1",
+            "text": "The discovery of the Sapphire-winged Warbler has sparked global interest in birdwatching."
+          },
+          {
+            "label": "2",
+            "text": "The Sapphire-winged Warbler is an aggressive and territorial bird species."
+          },
+          {
+            "label": "3",
+            "text": "Conservation efforts are solely focused on protecting the Sapphire-winged Warbler."
+          },
+          {
+            "label": "4",
+            "text": "The scientific community has lost interest in studying avian species."
+          }
+        ],
+        "question_id": "264330171943",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "The discovery of the Sapphire-winged Warbler has sparked global interest in birdwatching.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 42,
+        "section": null,
+        "question_text_full": "What does the fermentation process do?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Turns grapes into raisins"
+          },
+          {
+            "label": "2",
+            "text": "Makes grapes larger"
+          },
+          {
+            "label": "3",
+            "text": "Crushes the grapes"
+          },
+          {
+            "label": "4",
+            "text": "Turns grapes into wine"
+          }
+        ],
+        "question_id": "264330168528",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Turns grapes into wine",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 39,
+    "questions": [
+      {
+        "question_number": 43,
+        "section": "Comprehension",
+        "question_text_full": "Based on your reading of the passage, select the most appropriate word which best describes ‘luscious’.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Smooth"
+          },
+          {
+            "label": "2",
+            "text": "Soft"
+          },
+          {
+            "label": "3",
+            "text": "Juicy"
+          },
+          {
+            "label": "4",
+            "text": "Large"
+          }
+        ],
+        "question_id": "264330168530",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Juicy",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 44,
+        "section": "Comprehension",
+        "question_text_full": "In which region do grapes ripen in August?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Chile"
+          },
+          {
+            "label": "2",
+            "text": "California"
+          },
+          {
+            "label": "3",
+            "text": "France"
+          },
+          {
+            "label": "4",
+            "text": "Australia"
+          }
+        ],
+        "question_id": "264330168527",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "California",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 40,
+    "questions": [
+      {
+        "question_number": 45,
+        "section": null,
+        "question_text_full": "Select the most appropriate title for the passage.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Grapes and its uses"
+          },
+          {
+            "label": "2",
+            "text": "Grapes and world"
+          },
+          {
+            "label": "3",
+            "text": "Wine making"
+          },
+          {
+            "label": "4",
+            "text": "Varieties of grapes"
+          }
+        ],
+        "question_id": "264330168529",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "Grapes and its uses",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 1,
+        "section": "General Awareness",
+        "question_text_full": "Who was the second vice-President of India?",
+        "options": [
+          {
+            "label": "1",
+            "text": "VV Giri"
+          },
+          {
+            "label": "2",
+            "text": "Krishna Kant"
+          },
+          {
+            "label": "3",
+            "text": "Dr Zakir Hussain"
+          },
+          {
+            "label": "4",
+            "text": "Dr S Radhakrishnan"
+          }
+        ],
+        "question_id": "264330171901",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Dr Zakir Hussain",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 41,
+    "questions": [
+      {
+        "question_number": 2,
+        "section": null,
+        "question_text_full": "Match the following\nCharacteristics/Other Name Name of River\nA. Area of Badland topography 1. Godavari\nB. Vridh Ganga 2. Brahmaputra\nC. Tsangpo 3. Kosi\nD. Sorrow of Bihar 4. Chambal",
+        "options": [
+          {
+            "label": "1",
+            "text": "A-4, B-1, C-3, D-2"
+          },
+          {
+            "label": "2",
+            "text": "A-1, B-4, C-2, D-3"
+          },
+          {
+            "label": "3",
+            "text": "A-4, B-2, C-1, D-3"
+          },
+          {
+            "label": "4",
+            "text": "A-4, B-1, C-2, D-3"
+          }
+        ],
+        "question_id": "264330172292",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "A-4, B-1, C-2, D-3",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 3,
+        "section": null,
+        "question_text_full": "Which of the following options represents the total income earned by individuals from all the sources before deduction of personal income taxes?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Disposable income"
+          },
+          {
+            "label": "2",
+            "text": "Personal income"
+          },
+          {
+            "label": "3",
+            "text": "Gross income"
+          },
+          {
+            "label": "4",
+            "text": "National income"
+          }
+        ],
+        "question_id": "264330172912",
+        "chosen_option_label": "3",
+        "correct_option_label": "2",
+        "correct_option_text": "Personal income",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 42,
+    "questions": [
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "Match List-I with List-II.\nList-I (Chemical compound) List-II (Spices)\nA. Curcuminoids 1. Cardamom\nB. 1,8-cineole 2. Black pepper\nC. Eugenol 3. Turmeric\nD. Piperine 4. Cloves",
+        "options": [
+          {
+            "label": "1",
+            "text": "A-4, B-3, C-2, D-1"
+          },
+          {
+            "label": "2",
+            "text": "A-3, B-1, C-4, D-2"
+          },
+          {
+            "label": "3",
+            "text": "A-3, B-1, C-2, D-4"
+          },
+          {
+            "label": "4",
+            "text": "A-1, B-4, C-3, D-2"
+          }
+        ],
+        "question_id": "264330172047",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "A-3, B-1, C-4, D-2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "According to which of the following foreign travellers did Dhruvasena II attend Harsha's assembly at Prayag (Allahabad)?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Marco Polo"
+          },
+          {
+            "label": "2",
+            "text": "Hiuen Tsang"
+          },
+          {
+            "label": "3",
+            "text": "Fa-Hien"
+          },
+          {
+            "label": "4",
+            "text": "Itsing"
+          }
+        ],
+        "question_id": "264330171274",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "Hiuen Tsang",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "The Constitution (Scheduled Tribes) Order (Fourth Amendment) Bill, 2022 was passed in Rajya Sabha in December 2022. It seeks to amend the Constitution (Scheduled Tribes) Order, 1950, with respect to its application to the State of _________.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Karnataka"
+          },
+          {
+            "label": "2",
+            "text": "Rajasthan"
+          },
+          {
+            "label": "3",
+            "text": "Goa"
+          },
+          {
+            "label": "4",
+            "text": "Manipur"
+          }
+        ],
+        "question_id": "264330171912",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Karnataka",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 43,
+    "questions": [
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Match the following subject matters with their concerned Articles.\na\n1. Superintendence, direction and control of elections to be vested in an Election commission\n2. Power of parliament to make provision with respect to election to legislature\n3. Bar of interference by courts in electoral matters\nb\nA) Article 329\nB) Article 324\nC) Article 327",
+        "options": [
+          {
+            "label": "1",
+            "text": "1-C, 2-B, 3-A"
+          },
+          {
+            "label": "2",
+            "text": "1-A, 2-C, 3-B"
+          },
+          {
+            "label": "3",
+            "text": "1-A, 2-B, 3-C"
+          },
+          {
+            "label": "4",
+            "text": "1-B, 2-C, 3-A"
+          }
+        ],
+        "question_id": "264330173727",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "1-B, 2-C, 3-A",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "Match the positions in List I with the states in List II, related to the 36th National Games 2022, and select the correct answer from the codes below.\nList I (Positions)\nA I position in medal tally\nB II position in medal tally\nC III position in medal tally\nD IV position in medal tally\nList II (States)\n(i) Maharashtra\n(ii) Haryana\n(iii) Karnataka\n(iv) Services sports control board",
+        "options": [
+          {
+            "label": "1",
+            "text": "A-i, B-iii, C-ii, D-iv"
+          },
+          {
+            "label": "2",
+            "text": "A-iv, B-i, C-ii, D-iii"
+          },
+          {
+            "label": "3",
+            "text": "A-i, B-ii, C-iii, D-iv"
+          },
+          {
+            "label": "4",
+            "text": "A-ii, B-i, C-iii, D-iv"
+          }
+        ],
+        "question_id": "264330172335",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "A-iv, B-i, C-ii, D-iii",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 44,
+    "questions": [
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "Which of the following are some regions in the world, known for their thriving citrus fruit production?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Africa"
+          },
+          {
+            "label": "2",
+            "text": "Equatorial regions"
+          },
+          {
+            "label": "3",
+            "text": "Caribbean"
+          },
+          {
+            "label": "4",
+            "text": "Mediterranean regions"
+          }
+        ],
+        "question_id": "264330167795",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Mediterranean regions",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "Based on current scientific knowledge, it is currently postulated that the Earth has an estimated age of:",
+        "options": [
+          {
+            "label": "1",
+            "text": "about 4,50,00,00,000 years"
+          },
+          {
+            "label": "2",
+            "text": "about 95,00,00, 00 years"
+          },
+          {
+            "label": "3",
+            "text": "about 45,00,000 years"
+          },
+          {
+            "label": "4",
+            "text": "about 65,00,000 years"
+          }
+        ],
+        "question_id": "264330167796",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "about 4,50,00,00,000 years",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "What kind of energy is associated with falling coconuts, speeding cars, rolling stones and flying aircraft?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Potential energy"
+          },
+          {
+            "label": "2",
+            "text": "Kinetic Energy"
+          },
+          {
+            "label": "3",
+            "text": "Radiant energy"
+          },
+          {
+            "label": "4",
+            "text": "Elastic energy"
+          }
+        ],
+        "question_id": "264330172096",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Kinetic Energy",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 45,
+    "questions": [
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "Match the following details regarding Phase-I of Bharatmala Project.\nScheme\nTargeted\nLength (in km)\nA. Economic corridors 1. 9000\nB. Border and 2. 2000\ninternational\nconnectivity roads\nC. Expressways 3. 800\nD. Inter-corridors and 4. 6000\nfeeder roads",
+        "options": [
+          {
+            "label": "1",
+            "text": "A-1, B-3, C-2, D-4"
+          },
+          {
+            "label": "2",
+            "text": "A-4, B-2, C-3, D-1"
+          },
+          {
+            "label": "3",
+            "text": "A-1, B-2, C-3, D-4"
+          },
+          {
+            "label": "4",
+            "text": "A-1, B-2, C-4, D-3"
+          }
+        ],
+        "question_id": "264330171993",
+        "chosen_option_label": "1",
+        "correct_option_label": "3",
+        "correct_option_text": "A-1, B-2, C-3, D-4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "In September 2022, the Government of __________ decided to launch a campaign aimed at women's safety titled 'Hamar Beti Hamar Maan' (our daughter, our honour). Its focus will be creating awareness on safety measures among school- and college-going girls and prioritising registration and investigation of women-related crimes.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Bihar"
+          },
+          {
+            "label": "2",
+            "text": "Madhya Pradesh"
+          },
+          {
+            "label": "3",
+            "text": "Jharkhand"
+          },
+          {
+            "label": "4",
+            "text": "Chhattisgarh"
+          }
+        ],
+        "question_id": "264330171921",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Chhattisgarh",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "According to Census of India 2011, in which of the following states was the gap in the literacy rates of males and females, highest?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Meghalaya"
+          },
+          {
+            "label": "2",
+            "text": "Mizoram"
+          },
+          {
+            "label": "3",
+            "text": "Rajasthan"
+          },
+          {
+            "label": "4",
+            "text": "Kerala"
+          }
+        ],
+        "question_id": "264330172294",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Rajasthan",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 46,
+    "questions": [
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "Match the following Prime Ministers of India with the Five-Year Plans they initiated.\nList-1 (Prime Ministers)\ni : Jawaharlal Nehru\nii: Manmohan Singh\niii: Atal Bihari Vajpayee\nList-2 (Five-Year Plans)\na) Second Five-Year Plan\nb) Tenth Five-Year Plan\nc) Eleventh Five-Year Plan",
+        "options": [
+          {
+            "label": "1",
+            "text": "i-b, ii-c, iii-a"
+          },
+          {
+            "label": "2",
+            "text": "i-c, ii-b, iii-a"
+          },
+          {
+            "label": "3",
+            "text": "i-b, ii-a, iii-c"
+          },
+          {
+            "label": "4",
+            "text": "i-a, ii-c, iii-b"
+          }
+        ],
+        "question_id": "264330172916",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "i-a, ii-c, iii-b",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Which Committee had suggested a penalty or punishment for the non-performance of Fundamental Duties?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Indira Gandhi Committee"
+          },
+          {
+            "label": "2",
+            "text": "Morarji Desai Committee"
+          },
+          {
+            "label": "3",
+            "text": "Verma Committee"
+          },
+          {
+            "label": "4",
+            "text": "Swaran Singh Committee"
+          }
+        ],
+        "question_id": "264330171898",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "Swaran Singh Committee",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "Among the choices listed, which one is NOT a form of cancer?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Glaucoma"
+          },
+          {
+            "label": "2",
+            "text": "Carcinoma"
+          },
+          {
+            "label": "3",
+            "text": "Lymphoma"
+          },
+          {
+            "label": "4",
+            "text": "Sarcoma"
+          }
+        ],
+        "question_id": "264330166349",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Glaucoma",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 47,
+    "questions": [
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "In September 2022,the ____________ Assembly sets aside one day for women MLAs to speak about women issues such as safety, health, hygiene and education .",
+        "options": [
+          {
+            "label": "1",
+            "text": "Rajasthan"
+          },
+          {
+            "label": "2",
+            "text": "Punjab"
+          },
+          {
+            "label": "3",
+            "text": "Uttar Pradesh"
+          },
+          {
+            "label": "4",
+            "text": "Madhya Pradesh"
+          }
+        ],
+        "question_id": "264330171923",
+        "chosen_option_label": null,
+        "correct_option_label": "3",
+        "correct_option_text": "Uttar Pradesh",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "Who among the following has written the ‘Badshah Nama’?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Babur"
+          },
+          {
+            "label": "2",
+            "text": "Abdul Hamid Lahori"
+          },
+          {
+            "label": "3",
+            "text": "Inayat Khan"
+          },
+          {
+            "label": "4",
+            "text": "Abul Fazl"
+          }
+        ],
+        "question_id": "264330171290",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "Abdul Hamid Lahori",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "What will be the average kinetic energy per molecule in SI units for an ideal gas at a temperature of 25°C?",
+        "options": [
+          {
+            "label": "1",
+            "text": "9.17 × 10⁻²² J"
+          },
+          {
+            "label": "2",
+            "text": "6.17 × 10⁻²¹ J"
+          },
+          {
+            "label": "3",
+            "text": "7.17 × 10⁻²⁰ J"
+          },
+          {
+            "label": "4",
+            "text": "8.17 × 10⁻²² J"
+          }
+        ],
+        "question_id": "264330171742",
+        "chosen_option_label": null,
+        "correct_option_label": "2",
+        "correct_option_text": "6.17 × 10⁻²¹ J",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "Which of the following is a possible criticism of privatisation?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Expansion of bureaucracy and efficiency in public enterprises"
+          },
+          {
+            "label": "2",
+            "text": "Excessive government interference into private businesses"
+          },
+          {
+            "label": "3",
+            "text": "Limited access to essential services for marginalised populations"
+          },
+          {
+            "label": "4",
+            "text": "Reduced competition and innovation in the market"
+          }
+        ],
+        "question_id": "264330172915",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Limited access to essential services for marginalised populations",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 48,
+    "questions": [
+      {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "What are the elements in group zero commonly known as?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Reactive"
+          },
+          {
+            "label": "2",
+            "text": "Inert gases"
+          },
+          {
+            "label": "3",
+            "text": "Radioactive"
+          },
+          {
+            "label": "4",
+            "text": "Volatile"
+          }
+        ],
+        "question_id": "264330163737",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Inert gases",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "Match List-I with List-II.\nList-I (Acid) List-II (Food Source)\nA. Carbonic acid 1. Mustard oil\nB. Lauric acid 2. Butter\nC. Butyric acid 3. Soda Water\nD. Erucic acid 4. Coconut milk",
+        "options": [
+          {
+            "label": "1",
+            "text": "A 1, B 4, C 2, D 3"
+          },
+          {
+            "label": "2",
+            "text": "A 3, B 4, C 2, D 1"
+          },
+          {
+            "label": "3",
+            "text": "A 2, B 3, C 1, D 4"
+          },
+          {
+            "label": "4",
+            "text": "A 4, B 2, C 3, D 1"
+          }
+        ],
+        "question_id": "264330172046",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "A 3, B 4, C 2, D 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 49,
+    "questions": [
+      {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "Identify the INCORRECTLY matched pair(s) of the British Governor-Generals of India and the events with which they are associated.\ni) Lord Dalhousie – Revolt of 1857\nii) Lord Auckland – First Afghan War\niii) Lord Canning – Wood’s Despatch 1854",
+        "options": [
+          {
+            "label": "1",
+            "text": "Only (ii) and (iii)"
+          },
+          {
+            "label": "2",
+            "text": "Only (ii)"
+          },
+          {
+            "label": "3",
+            "text": "Only (i) and (iii)"
+          },
+          {
+            "label": "4",
+            "text": "Only (i)"
+          }
+        ],
+        "question_id": "264330171925",
+        "chosen_option_label": null,
+        "correct_option_label": "3",
+        "correct_option_text": "Only (i) and (iii)",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 25,
+        "section": null,
+        "question_text_full": "Among the following diseases, which one is NOT inherited?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Down syndrome"
+          },
+          {
+            "label": "2",
+            "text": "Cystic fibrosis"
+          },
+          {
+            "label": "3",
+            "text": "Malaria"
+          },
+          {
+            "label": "4",
+            "text": "Muscular dystrophy"
+          }
+        ],
+        "question_id": "264330166353",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Malaria",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 1,
+        "section": "Computer Knowledge Module",
+        "question_text_full": "A/An ______ is an organisation that connects its subscriber’s computer using modem to the Internet.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Uniform Resource Locator"
+          },
+          {
+            "label": "2",
+            "text": "Web Browser"
+          },
+          {
+            "label": "3",
+            "text": "Web Server"
+          },
+          {
+            "label": "4",
+            "text": "Internet Service Provider"
+          }
+        ],
+        "question_id": "264330183365",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Internet Service Provider",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 50,
+    "questions": [
+      {
+        "question_number": 2,
+        "section": null,
+        "question_text_full": "Which of the following is an example of GUI-based user agent in email?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Elm"
+          },
+          {
+            "label": "2",
+            "text": "Mail"
+          },
+          {
+            "label": "3",
+            "text": "Pine"
+          },
+          {
+            "label": "4",
+            "text": "Netscape"
+          }
+        ],
+        "question_id": "264330183359",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "Netscape",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 3,
+        "section": null,
+        "question_text_full": "In MS Office 365, the Page Setup dialog box can be found under which of the following tabs?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Home"
+          },
+          {
+            "label": "2",
+            "text": "Draw"
+          },
+          {
+            "label": "3",
+            "text": "Layout"
+          },
+          {
+            "label": "4",
+            "text": "Insert"
+          }
+        ],
+        "question_id": "264330183362",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Layout",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "When the sender and receiver of an email are on the same system, we need only ______ user agents.",
+        "options": [
+          {
+            "label": "1",
+            "text": "two"
+          },
+          {
+            "label": "2",
+            "text": "three"
+          },
+          {
+            "label": "3",
+            "text": "four"
+          },
+          {
+            "label": "4",
+            "text": "six"
+          }
+        ],
+        "question_id": "264330183363",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "two",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 51,
+    "questions": [
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "In File Explorer of Windows 11, which of the following tabs includes the ‘hidden items’ option?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Home"
+          },
+          {
+            "label": "2",
+            "text": "File"
+          },
+          {
+            "label": "3",
+            "text": "View"
+          },
+          {
+            "label": "4",
+            "text": "Share"
+          }
+        ],
+        "question_id": "264330183357",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "View",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "What is the primary purpose of RAM (Random Access Memory) in a computer?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Storing permanent data and files"
+          },
+          {
+            "label": "2",
+            "text": "Providing long-term storage for programs"
+          },
+          {
+            "label": "3",
+            "text": "Providing temporary storage for data that the CPU is currently processing"
+          },
+          {
+            "label": "4",
+            "text": "Managing peripheral devices"
+          }
+        ],
+        "question_id": "264330183348",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Providing temporary storage for data that the CPU is currently processing",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "What is a cell in Microsoft Excel?",
+        "options": [
+          {
+            "label": "1",
+            "text": "A separate file used to store data."
+          },
+          {
+            "label": "2",
+            "text": "A single worksheet within a workbook."
+          },
+          {
+            "label": "3",
+            "text": "The intersection of a row and a column in a worksheet."
+          },
+          {
+            "label": "4",
+            "text": "A small diagram or chart."
+          }
+        ],
+        "question_id": "264330183336",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "The intersection of a row and a column in a worksheet.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 52,
+    "questions": [
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "Which networking device operates at Layer 2 of the OSI model and forwards data based on MAC addresses?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Switch"
+          },
+          {
+            "label": "2",
+            "text": "Hub"
+          },
+          {
+            "label": "3",
+            "text": "Firewall"
+          },
+          {
+            "label": "4",
+            "text": "Router"
+          }
+        ],
+        "question_id": "264330183354",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Switch",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "Which backup device provides a convenient way to create system images and complete backups, but may require a lengthy restoration process?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Tape drive"
+          },
+          {
+            "label": "2",
+            "text": "Network-attached storage (NAS)"
+          },
+          {
+            "label": "3",
+            "text": "Solid-state drive (SSD)"
+          },
+          {
+            "label": "4",
+            "text": "DVD-RW disc"
+          }
+        ],
+        "question_id": "264330183349",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Tape drive",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "In MS-Excel 2019, what does the SUM function do?",
+        "options": [
+          {
+            "label": "1",
+            "text": "It multiplies the values in a range."
+          },
+          {
+            "label": "2",
+            "text": "It adds up the values in a range."
+          },
+          {
+            "label": "3",
+            "text": "It counts the number of cells in a range."
+          },
+          {
+            "label": "4",
+            "text": "It finds the average of values in a range."
+          }
+        ],
+        "question_id": "264330183338",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "It adds up the values in a range.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 53,
+    "questions": [
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "Which of the following is NOT an example of web browser?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Facebook"
+          },
+          {
+            "label": "2",
+            "text": "Apple Safari"
+          },
+          {
+            "label": "3",
+            "text": "Google Chrome"
+          },
+          {
+            "label": "4",
+            "text": "Opera"
+          }
+        ],
+        "question_id": "264330183364",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Facebook",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "What is the function of the cache memory in a computer's memory hierarchy?",
+        "options": [
+          {
+            "label": "1",
+            "text": "To provide permanent storage for data and files."
+          },
+          {
+            "label": "2",
+            "text": "To store frequently used data for faster access by the CPU."
+          },
+          {
+            "label": "3",
+            "text": "To control the flow of data between the CPU and memory."
+          },
+          {
+            "label": "4",
+            "text": "To manage the allocation of memory resources to different programs."
+          }
+        ],
+        "question_id": "264330183352",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "To store frequently used data for faster access by the CPU.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "What is the keyboard shortcut for 'Copy' in most Windows applications?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Ctrl + Z"
+          },
+          {
+            "label": "2",
+            "text": "Ctrl + C"
+          },
+          {
+            "label": "3",
+            "text": "Ctrl + X"
+          },
+          {
+            "label": "4",
+            "text": "Ctrl + V"
+          }
+        ],
+        "question_id": "264330183350",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Ctrl + C",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 54,
+    "questions": [
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "What is a ‘Firewall’ in the context of network security?",
+        "options": [
+          {
+            "label": "1",
+            "text": "A software application for managing files and folders."
+          },
+          {
+            "label": "2",
+            "text": "A type of malware that spreads through email attachments."
+          },
+          {
+            "label": "3",
+            "text": "A security mechanism that filters and controls network traffic."
+          },
+          {
+            "label": "4",
+            "text": "A hardware device used to boost network performance."
+          }
+        ],
+        "question_id": "264330183341",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "A security mechanism that filters and controls network traffic.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "A high speed memory is placed between the Central Processing Unit (CPU) and the primary memory known as ________ memory.",
+        "options": [
+          {
+            "label": "1",
+            "text": "read only"
+          },
+          {
+            "label": "2",
+            "text": "virtual"
+          },
+          {
+            "label": "3",
+            "text": "cache"
+          },
+          {
+            "label": "4",
+            "text": "secondary"
+          }
+        ],
+        "question_id": "264330183367",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "cache",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "In computer registers, MAR stands for ________.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Main Access Register"
+          },
+          {
+            "label": "2",
+            "text": "Memory Access Register"
+          },
+          {
+            "label": "3",
+            "text": "Memory Address Register"
+          },
+          {
+            "label": "4",
+            "text": "Main Address Register"
+          }
+        ],
+        "question_id": "264330183366",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Memory Address Register",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 55,
+    "questions": [
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "What is a ‘Trojan’ in the context of network security?",
+        "options": [
+          {
+            "label": "1",
+            "text": "A protocol used for secure communication between devices on a network."
+          },
+          {
+            "label": "2",
+            "text": "A program that monitors network traffic for security breaches."
+          },
+          {
+            "label": "3",
+            "text": "A type of firewall that protects against viruses and malware."
+          },
+          {
+            "label": "4",
+            "text": "Malicious software disguised as legitimate software to gain unauthorised access."
+          }
+        ],
+        "question_id": "264330183355",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Malicious software disguised as legitimate software to gain unauthorised access.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "In Microsoft Word, what is the purpose of the ‘Print Preview’ feature?",
+        "options": [
+          {
+            "label": "1",
+            "text": "To insert images and graphics into the document."
+          },
+          {
+            "label": "2",
+            "text": "To format the font and style of the document."
+          },
+          {
+            "label": "3",
+            "text": "To check the spelling and grammar of the document."
+          },
+          {
+            "label": "4",
+            "text": "To view how the document will appear when printed."
+          }
+        ],
+        "question_id": "264330183340",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "To view how the document will appear when printed.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "In File Explorer of Windows 10, the keyboard shortcut ‘Num Lock + Asterisk sign (*)’ is used to ________.",
+        "options": [
+          {
+            "label": "1",
+            "text": "display all subfolders under the selected folder"
+          },
+          {
+            "label": "2",
+            "text": "open the properties dialog box for the selected item"
+          },
+          {
+            "label": "3",
+            "text": "display the contents of the selected folder"
+          },
+          {
+            "label": "4",
+            "text": "collapse the selected folder"
+          }
+        ],
+        "question_id": "264330183373",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "display all subfolders under the selected folder",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 56,
+    "questions": [
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "Which of the following is an example of the input device in a computer?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Monitor"
+          },
+          {
+            "label": "2",
+            "text": "Touchscreen"
+          },
+          {
+            "label": "3",
+            "text": "Printer"
+          },
+          {
+            "label": "4",
+            "text": "Speaker"
+          }
+        ],
+        "question_id": "264330183371",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Touchscreen",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "google_ai_studio",
+    "model": "models/gemini-3.1-flash-lite",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "Module I Mathematical Abilities",
+      "question_text_full": "ΔABC is inscribed in a circle with Centre O. If AB = 21 cm, BC = 20 cm and AC = 29 cm, then what is the length of the circumradius of the triangle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "13.5 cm"
+        },
+        {
+          "label": "2",
+          "text": "21.5 cm"
+        },
+        {
+          "label": "3",
+          "text": "32.5 cm"
+        },
+        {
+          "label": "4",
+          "text": "14.5 cm"
+        }
+      ],
+      "question_id": "630680526633",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "14.5 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "Module I Mathematical Abilities",
+      "question_text_full": "On a 2200 m long circular track, Sarita and Kavita drove their cycles from the same point but in opposite direction with the speeds 20 km/hr and 16 km/hr, respectively. After how much time will they meet again for the first time?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 minutes 40 seconds"
+        },
+        {
+          "label": "2",
+          "text": "3 minutes 20 seconds"
+        },
+        {
+          "label": "3",
+          "text": "2 minutes 50 seconds"
+        },
+        {
+          "label": "4",
+          "text": "2 minutes 20 seconds"
+        }
+      ],
+      "question_id": "630680595186",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "3 minutes 40 seconds",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

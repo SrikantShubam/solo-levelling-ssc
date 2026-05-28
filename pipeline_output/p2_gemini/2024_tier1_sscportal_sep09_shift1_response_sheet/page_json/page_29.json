@@ -1,0 +1,104 @@
+{
+  "page": 29,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Mohan borrows a sum of ₹4,22,092 at the rate of 20% per annum simple interest. At the end of the first year, he repays ₹21,679 towards return of principal amount borrowed. If Mohan clears all pending dues at the end of the second year, including interest payment that accrued during the first year, how much does he pay (in ₹) at the end of the second year?",
+      "options": [
+        {
+          "label": "1",
+          "text": "561347"
+        },
+        {
+          "label": "2",
+          "text": "564914"
+        },
+        {
+          "label": "3",
+          "text": "558380"
+        },
+        {
+          "label": "4",
+          "text": "556367"
+        }
+      ],
+      "question_id": "630680809874",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "564914",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "English Comprehension",
+      "question_text_full": "Select the most appropriate synonym of the given word.\nFatal",
+      "options": [
+        {
+          "label": "1",
+          "text": "Additional"
+        },
+        {
+          "label": "2",
+          "text": "Easy"
+        },
+        {
+          "label": "3",
+          "text": "Deadly"
+        },
+        {
+          "label": "4",
+          "text": "Jovial"
+        }
+      ],
+      "question_id": "630680162156",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Deadly",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "English Comprehension",
+      "question_text_full": "Select the option that expresses the given sentence in active voice.\nLovely tunes are composed by Domnica.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Domnica composes tunes lovely."
+        },
+        {
+          "label": "2",
+          "text": "Domnica will compose lovely tunes."
+        },
+        {
+          "label": "3",
+          "text": "Domnica composes lovely tunes."
+        },
+        {
+          "label": "4",
+          "text": "Domnica composed lovely tunes."
+        }
+      ],
+      "question_id": "630680415253",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Domnica composes lovely tunes.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,46 @@
+{
+  "page": 25,
+  "questions": [
+    {
+      "question_number": 52,
+      "section": null,
+      "question_text_full": "A question is given, followed by two statements labelled I and II. Identify which of the statements is/are sufficient/necessary to answer the question. Question: Arvind has blue, green and white marbles. What is the percentage of white marbles out of all the marbles he has? Statements: (I) The sum of blue and green marbles he has is 7. (II) He has 3 white marbles out of 10 marbles.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Data in Statement II alone is sufficient to answer the question while data in Statement I is not"
+        },
+        {
+          "label": "2",
+          "text": "Data in Statement I alone is sufficient to answer the question while data in Statement II is not"
+        },
+        {
+          "label": "3",
+          "text": "Data in Statements I and II together is sufficient to answer the question"
+        },
+        {
+          "label": "4",
+          "text": "Data in Statements I and II together is not sufficient to answer the question"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, which correspond to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "The provided image does not contain answer keys (green ticks/red crosses) for the questions, so correct_option_label and correct_option_text are null."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

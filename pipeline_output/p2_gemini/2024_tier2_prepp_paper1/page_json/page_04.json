@@ -1,0 +1,106 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Find the simple interest (in ₹) on ₹2000 at 6.5% per annum rate of interest for the period from 14 February 2023 to 28 April 2023",
+      "options": [
+        {
+          "label": "1",
+          "text": "27"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "26"
+        },
+        {
+          "label": "4",
+          "text": "24"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for these questions."
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "The population of a place increased to 50,000 from 2016 to 2018 at the rate of 6% per annum, and continued the same trend for the next 3 years. If A is the population in 2016 and B is the population in 2020, both are approximated to the next possible integers, then the value of B - A is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "11680"
+        },
+        {
+          "label": "2",
+          "text": "13220"
+        },
+        {
+          "label": "3",
+          "text": "16270"
+        },
+        {
+          "label": "4",
+          "text": "12850"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for these questions."
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "If the areas of two similar triangles are in the ratio 121: 225",
+      "options": [
+        {
+          "label": "1",
+          "text": "15:13"
+        },
+        {
+          "label": "2",
+          "text": "11:15"
+        },
+        {
+          "label": "3",
+          "text": "9:11"
+        },
+        {
+          "label": "4",
+          "text": "11:13"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for these questions."
+    }
+  ],
+  "warnings": [
+    "No answer keys (green/red marks) were present on the page to determine correct options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

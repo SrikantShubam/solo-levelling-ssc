@@ -1,0 +1,44 @@
+{
+  "page": 40,
+  "questions": [
+    {
+      "question_number": 43,
+      "section": null,
+      "question_text_full": "Read the statements given below.\nA. The US Air Force shot down the Chinese balloon over US territorial waters.\nB. Tensions between China and US have increased and the visit of the U.S. Secretary of State to Beijing has been postponed.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Both A and B are true but B is not the correct reason for A."
+        },
+        {
+          "label": "2",
+          "text": "Both A and B are true and B is the correct reason for A."
+        },
+        {
+          "label": "3",
+          "text": "A is false and B is true."
+        },
+        {
+          "label": "4",
+          "text": "A is true and B is false."
+        }
+      ],
+      "question_id": "264330128808",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "Both A and B are true and B is the correct reason for A.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

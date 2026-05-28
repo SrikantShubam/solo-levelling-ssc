@@ -1,0 +1,134 @@
+{
+  "page": 46,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Which of the following options is correct regarding sexually transmitted disease (STD)?\nStatement A: Sexually transmitted diseases (STDs) are infections transmitted from an infected person to an uninfected person through sexual contact.\nStatement B: HIV, HPV and Hepatitis B virus is responsible for STD.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Both Statements A and B incorrect"
+        },
+        {
+          "label": "2",
+          "text": "Only Statement B is correct"
+        },
+        {
+          "label": "3",
+          "text": "Both Statements A and B correct"
+        },
+        {
+          "label": "4",
+          "text": "Only Statement A is correct"
+        }
+      ],
+      "question_id": "264330121164",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Both Statements A and B correct",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "What do you call the type of drugs that mimic the natural messenger by switching on the receptor?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Antidepressants"
+        },
+        {
+          "label": "2",
+          "text": "Depressants"
+        },
+        {
+          "label": "3",
+          "text": "Agonist"
+        },
+        {
+          "label": "4",
+          "text": "Antagonists"
+        }
+      ],
+      "question_id": "264330123847",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Agonist",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Identify a type of season that is NOT a part of the four seasons of India.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The cold weather season"
+        },
+        {
+          "label": "2",
+          "text": "The hot weather season"
+        },
+        {
+          "label": "3",
+          "text": "The southwest monsoon season"
+        },
+        {
+          "label": "4",
+          "text": "The southeast monsoon season"
+        }
+      ],
+      "question_id": "264330123844",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "The southeast monsoon season",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Which of the following statements are correct regarding the benefits of the retired President of India?\nA. The former President of India will also be entitled to a monthly pension of ₹2.5 lakh.\nB. He/She is entitled to a secretarial staff comprising a private secretary, a personal assistant, an additional private secretary, two peons, and office expenses up to ₹1 lakh per annum.\nC. He/She is also entitled to free highest-class travel anywhere in India, accompanied by one person, by rail, air, or steamer.",
+      "options": [
+        {
+          "label": "1",
+          "text": "A and B only"
+        },
+        {
+          "label": "2",
+          "text": "B and C only"
+        },
+        {
+          "label": "3",
+          "text": "A and C only"
+        },
+        {
+          "label": "4",
+          "text": "A, B and C"
+        }
+      ],
+      "question_id": "264330121543",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "A, B and C",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

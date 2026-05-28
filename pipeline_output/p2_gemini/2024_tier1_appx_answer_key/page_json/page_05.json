@@ -1,0 +1,224 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": null,
+      "section": "Number Classification",
+      "question_text_full": "pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (23/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "21 – 462"
+        },
+        {
+          "label": "2",
+          "text": "14 – 196"
+        },
+        {
+          "label": "3",
+          "text": "12 – 156"
+        },
+        {
+          "label": "4",
+          "text": "17 – 306"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "This is the continuation of a question from the previous page."
+    },
+    {
+      "question_number": 28,
+      "section": "Number Classification",
+      "question_text_full": "Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (24/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "89 – 212 – 34"
+        },
+        {
+          "label": "2",
+          "text": "58 – 139 – 23"
+        },
+        {
+          "label": "3",
+          "text": "12 – 122 – 99"
+        },
+        {
+          "label": "4",
+          "text": "23 – 84 – 38"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 29,
+      "section": "Number Classification",
+      "question_text_full": "The second number in the given number-pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) is/are followed in all the number-pairs, except one. Find that odd number-pair. (NOTE: The relation should be found without breaking down the numbers into its constituent digits) (24/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "23 : 552"
+        },
+        {
+          "label": "2",
+          "text": "25 : 650"
+        },
+        {
+          "label": "3",
+          "text": "13 : 182"
+        },
+        {
+          "label": "4",
+          "text": "18 : 306"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 30,
+      "section": "Number Classification",
+      "question_text_full": "Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (24/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "643"
+        },
+        {
+          "label": "2",
+          "text": "821"
+        },
+        {
+          "label": "3",
+          "text": "829"
+        },
+        {
+          "label": "4",
+          "text": "237"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 31,
+      "section": "Number Classification",
+      "question_text_full": "The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (25/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "11 : 121"
+        },
+        {
+          "label": "2",
+          "text": "5 : 11"
+        },
+        {
+          "label": "3",
+          "text": "22 : 45"
+        },
+        {
+          "label": "4",
+          "text": "7 : 15"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 32,
+      "section": "Number Classification",
+      "question_text_full": "Three of the following options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (25/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "36 – 88 – 80"
+        },
+        {
+          "label": "2",
+          "text": "34 – 56 – 62"
+        },
+        {
+          "label": "3",
+          "text": "68 – 54 – 94"
+        },
+        {
+          "label": "4",
+          "text": "23 – 56 -51"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 33,
+      "section": "Number Classification",
+      "question_text_full": "The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (25/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 : 152"
+        },
+        {
+          "label": "2",
+          "text": "13 : 169"
+        },
+        {
+          "label": "3",
+          "text": "[Not visible]"
+        },
+        {
+          "label": "4",
+          "text": "[Not visible]"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "Options C and D are cut off at the bottom of the page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.5-flash",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

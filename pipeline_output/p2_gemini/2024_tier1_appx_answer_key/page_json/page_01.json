@@ -1,0 +1,207 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "Reasoning",
+      "question_text_full": "1. In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. In three of the four pairs, the same pattern is applied and hence they form a group. Select the number-pair that DOES NOT belong to this group. (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (09/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "317 - 101"
+        },
+        {
+          "label": "2",
+          "text": "358 - 152"
+        },
+        {
+          "label": "3",
+          "text": "335 - 119"
+        },
+        {
+          "label": "4",
+          "text": "308 - 92"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "Reasoning",
+      "question_text_full": "2. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (09/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 : 39"
+        },
+        {
+          "label": "2",
+          "text": "11 : 35"
+        },
+        {
+          "label": "3",
+          "text": "13 : 42"
+        },
+        {
+          "label": "4",
+          "text": "15 : 48"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": "Reasoning",
+      "question_text_full": "3. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (09/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "66 – 154"
+        },
+        {
+          "label": "2",
+          "text": "72 – 168"
+        },
+        {
+          "label": "3",
+          "text": "33 – 72"
+        },
+        {
+          "label": "4",
+          "text": "36 – 84"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": "Reasoning",
+      "question_text_full": "4. Three of the following four options are alike in a certain way and thus form a group. Which is the option that does NOT belong to that group? (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (10/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 – 4 – 8"
+        },
+        {
+          "label": "2",
+          "text": "3 – 2 – 5"
+        },
+        {
+          "label": "3",
+          "text": "1 – 3 – 3"
+        },
+        {
+          "label": "4",
+          "text": "2 – 2 – 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": "Reasoning",
+      "question_text_full": "5. Three of the following number-pairs are alike in some manner and hence form a group. Which number-pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (10/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "22 – 462"
+        },
+        {
+          "label": "2",
+          "text": "21 – 420"
+        },
+        {
+          "label": "3",
+          "text": "18 – 306"
+        },
+        {
+          "label": "4",
+          "text": "15 – 240"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": "Reasoning",
+      "question_text_full": "6. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (10/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "52 – 68 – 51"
+        },
+        {
+          "label": "2",
+          "text": "21 – 38 – 31"
+        },
+        {
+          "label": "3",
+          "text": "81 – 118 – 91"
+        },
+        {
+          "label": "4",
+          "text": "99 – 104 – 71"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": "Reasoning",
+      "question_text_full": "7. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its",
+      "options": [],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "Question is cut off at the bottom of the page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.5-flash",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

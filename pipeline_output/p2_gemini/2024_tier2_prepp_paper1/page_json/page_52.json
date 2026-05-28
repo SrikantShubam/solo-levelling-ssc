@@ -1,0 +1,46 @@
+{
+  "page": 52,
+  "questions": [
+    {
+      "question_number": null,
+      "section": null,
+      "question_text_full": "What is the central theme of the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The prokaryotic nature of blue-green algae"
+        },
+        {
+          "label": "2",
+          "text": "The anatomy of vascular plants"
+        },
+        {
+          "label": "3",
+          "text": "The symbiotic relationship between algae and fungi"
+        },
+        {
+          "label": "4",
+          "text": "The diversity and characteristics of algae"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question uses a, b, c, d labels in the image, but the schema requires 1, 2, 3, 4. Mapping a->1, b->2, c->3, d->4."
+    }
+  ],
+  "warnings": [
+    "Question 102 is incomplete on this page as it is a passage-based question with no options provided."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

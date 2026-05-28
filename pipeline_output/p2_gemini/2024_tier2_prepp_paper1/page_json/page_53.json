@@ -1,0 +1,76 @@
+{
+  "page": 53,
+  "questions": [
+    {
+      "question_number": null,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the word 'Inherent'.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Artificial"
+        },
+        {
+          "label": "2",
+          "text": "Borrowed"
+        },
+        {
+          "label": "3",
+          "text": "Incited"
+        },
+        {
+          "label": "4",
+          "text": "Natural"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 for the schema."
+    },
+    {
+      "question_number": 103,
+      "section": null,
+      "question_text_full": "Read the given passage and answer the questions that follow. The French Revolution is a revolutionary movement that occurred in France between 1787 and 1799 and reached to its (1) ______ in 1789. This revolution had many causes but the most important of all was (2) ______ of bourgeoisie, who were merchants, manufacturers and professionals. The peasants, many of them landowners, wanted to get rid of the practices of absolute monarchy and feudalism. Another factor was an increase in population due to decreased mortality rates. It was followed by economic predicament and minor revolts were common. This led to a clarion call for social reforms. Intellectuals like Rene Descartes wrote about new things about political, social and economic matters. A fundamental political and societal change was to occur. The French Revolution played a critical role in shaping modern nations by showing the world the power inherent in the will of the people. What is the meaning of the phrase 'a clarion call' in the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Declaration of war"
+        },
+        {
+          "label": "2",
+          "text": "Beginning of a new phase"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "The question is incomplete as options 3 and 4 are missing from the provided image."
+    }
+  ],
+  "warnings": [
+    "Question 103 is incomplete on the page; options 3 and 4 are missing."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

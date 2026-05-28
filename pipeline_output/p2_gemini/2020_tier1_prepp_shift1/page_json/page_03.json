@@ -1,0 +1,126 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "A cube is made by folding the given sheet. In the cube so formed, what would be the symbol on the opposite side of the # symbol?",
+      "options": [
+        {
+          "label": "1",
+          "text": "$"
+        },
+        {
+          "label": "2",
+          "text": "+"
+        },
+        {
+          "label": "3",
+          "text": "&"
+        },
+        {
+          "label": "4",
+          "text": "%"
+        }
+      ],
+      "question_id": "81616113939",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "&",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series. 24, 35, 51, 73, 102, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "139"
+        },
+        {
+          "label": "2",
+          "text": "151"
+        },
+        {
+          "label": "3",
+          "text": "131"
+        },
+        {
+          "label": "4",
+          "text": "149"
+        }
+      ],
+      "question_id": "81616113829",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "139",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the option that is related to the third number in the same way as the second number is related to the first number. 12 : 60 :: 16 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "121"
+        },
+        {
+          "label": "2",
+          "text": "210"
+        },
+        {
+          "label": "3",
+          "text": "112"
+        },
+        {
+          "label": "4",
+          "text": "201"
+        }
+      ],
+      "question_id": "81616113022",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "112",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Select the correct option that indicates the arrangement of the given words in the order in which they appear in an English dictionary. 1. Freeze 2. Freedom 3. Fryer 4. Frozen 5. Fraud 6. Fringe",
+      "options": [
+        {
+          "label": "1",
+          "text": "5, 6, 2, 1, 4, 3"
+        },
+        {
+          "label": "2",
+          "text": "5, 1, 2, 6, 4, 3"
+        },
+        {
+          "label": "3",
+          "text": "5, 2, 1, 6, 3, 4"
+        },
+        {
+          "label": "4",
+          "text": "5, 2, 1, 6, 4, 3"
+        }
+      ],
+      "question_id": "81616113819",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "5, 2, 1, 6, 4, 3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

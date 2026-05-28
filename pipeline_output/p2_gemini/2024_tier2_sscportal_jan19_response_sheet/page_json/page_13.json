@@ -1,0 +1,104 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 34,
+      "section": null,
+      "question_text_full": "Level of significance is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Probability of Type I Error"
+        },
+        {
+          "label": "2",
+          "text": "1 - Probability of Type I Error"
+        },
+        {
+          "label": "3",
+          "text": "1 - Probability of Type II Error"
+        },
+        {
+          "label": "4",
+          "text": "Probability of Type II Error"
+        }
+      ],
+      "question_id": "6306801307996",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "Probability of Type I Error",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 35,
+      "section": null,
+      "question_text_full": "Let X follow Poisson distribution with mean λ. If P(X = 2) = 1/2 P(X = 3), then the value of λ is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "question_id": "6306801352881",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "6",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 36,
+      "section": null,
+      "question_text_full": "Which of the following is the relative measure of skewness?",
+      "options": [
+        {
+          "label": "1",
+          "text": "β₂"
+        },
+        {
+          "label": "2",
+          "text": "β₁"
+        },
+        {
+          "label": "3",
+          "text": "(X - μ)/σ"
+        },
+        {
+          "label": "4",
+          "text": "(Q₃ - 2Q₂ + Q₁) / (Q₃ - Q₁)"
+        }
+      ],
+      "question_id": "6306801352834",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "(Q₃ - 2Q₂ + Q₁) / (Q₃ - Q₁)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.5-flash",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

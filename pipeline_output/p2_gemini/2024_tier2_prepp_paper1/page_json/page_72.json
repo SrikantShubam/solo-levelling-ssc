@@ -1,0 +1,15 @@
+{
+  "page": 72,
+  "questions": [],
+  "warnings": [
+    "No valid questions found on the page. The provided image contains only partial text fragments ('c. 1064 characters', 'd. 255 characters') and no question stem or answer options block."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

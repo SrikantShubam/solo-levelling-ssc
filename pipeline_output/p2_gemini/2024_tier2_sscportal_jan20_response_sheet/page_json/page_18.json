@@ -1,0 +1,74 @@
+{
+  "page": 18,
+  "questions": [
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "A question is given, followed by two statements labelled I and II. Identify which of the statements is/are sufficient to answer the question.\nQuestion:\nFive houses of five different colours (blue, green, yellow, red and violet), with equal space between every two adjacent houses, are constructed in a row facing north. Which coloured house is exactly in the middle of the row?\nStatements:\n(I) Green and yellow coloured houses are constructed at the extreme ends of the row.\n(II) Violet and blue coloured houses are immediate neighbouring houses of green and yellow coloured houses, respectively.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Data in Statements I and II together is not sufficient to answer the question"
+        },
+        {
+          "label": "2",
+          "text": "Data in Statement I alone is sufficient to answer the question while data in Statement II is not"
+        },
+        {
+          "label": "3",
+          "text": "Data in Statement II alone is sufficient to answer the question while data in Statement I is not"
+        },
+        {
+          "label": "4",
+          "text": "Data in Statements I and II together is sufficient to answer the question"
+        }
+      ],
+      "question_id": "630680560981",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Data in Statements I and II together is sufficient to answer the question",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "In a certain code language,\nP + Q means ‘P is the mother of Q’,\nP – Q means ‘P is the brother of Q’,\nP x Q means ‘P is the wife of Q’ and\nP ÷ Q means ‘P is the father of Q’.\nBased on the above, how is U related to Z if ‘U – V + W ÷ Y x Z’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Wife's Father's Mother's Brother"
+        },
+        {
+          "label": "2",
+          "text": "Wife's Mother's Mother's Brother"
+        },
+        {
+          "label": "3",
+          "text": "Wife's Mother's Mother's Father"
+        },
+        {
+          "label": "4",
+          "text": "Wife's Father's Mother's Father"
+        }
+      ],
+      "question_id": "630680681067",
+      "chosen_option_label": "2",
+      "correct_option_label": "1",
+      "correct_option_text": "Wife's Father's Mother's Brother",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

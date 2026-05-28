@@ -1,0 +1,207 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": "Number Classification",
+      "question_text_full": "14. Three of the following four number-pairs are alike in a certain way and thus form a group. Which number-pair does NOT belong to that group? (NOTE: The relation should be found without breaking down the numbers into its constituent digits) (13/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "61,71"
+        },
+        {
+          "label": "2",
+          "text": "83, 97"
+        },
+        {
+          "label": "3",
+          "text": "31, 41"
+        },
+        {
+          "label": "4",
+          "text": "73, 79"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question."
+    },
+    {
+      "question_number": 15,
+      "section": "Number Classification",
+      "question_text_full": "15. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (13/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "63 – 6 – 3"
+        },
+        {
+          "label": "2",
+          "text": "164 – 10 – 4"
+        },
+        {
+          "label": "3",
+          "text": "82 – 8 – 2"
+        },
+        {
+          "label": "4",
+          "text": "360 – 12 – 6"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question."
+    },
+    {
+      "question_number": 16,
+      "section": "Number Classification",
+      "question_text_full": "16. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (17/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "22 – 67 – 22"
+        },
+        {
+          "label": "2",
+          "text": "16 – 45 – 21"
+        },
+        {
+          "label": "3",
+          "text": "20 – 15 – 51"
+        },
+        {
+          "label": "4",
+          "text": "26 – 95 – 21"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question."
+    },
+    {
+      "question_number": 17,
+      "section": "Number Classification",
+      "question_text_full": "17. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (17/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "45 : 54"
+        },
+        {
+          "label": "2",
+          "text": "35 : 42"
+        },
+        {
+          "label": "3",
+          "text": "55 : 66"
+        },
+        {
+          "label": "4",
+          "text": "40 : 52"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question."
+    },
+    {
+      "question_number": 18,
+      "section": "Number Classification",
+      "question_text_full": "18. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (17/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "52 – 36 – 56"
+        },
+        {
+          "label": "2",
+          "text": "86 – 41 – 38"
+        },
+        {
+          "label": "3",
+          "text": "118 – 93 – 161"
+        },
+        {
+          "label": "4",
+          "text": "33 – 15 – 12"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question."
+    },
+    {
+      "question_number": 19,
+      "section": "Number Classification",
+      "question_text_full": "19. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (18/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "16 – 9 – 139"
+        },
+        {
+          "label": "2",
+          "text": "25 – 7 – 175"
+        },
+        {
+          "label": "3",
+          "text": "12 – 7 – 79"
+        },
+        {
+          "label": "4",
+          "text": "17 – 5 – 80"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question."
+    },
+    {
+      "question_number": 20,
+      "section": "Number Classification",
+      "question_text_full": "20. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then",
+      "options": [],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "Question is cut off at the bottom of the page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.5-flash",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

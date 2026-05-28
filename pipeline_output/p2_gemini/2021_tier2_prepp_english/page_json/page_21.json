@@ -1,0 +1,36 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "‘Humanitarian disasters’ refer to all those given below except",
+      "options": [
+        {
+          "label": "1",
+          "text": "earthquakes and floods"
+        },
+        {
+          "label": "2",
+          "text": "civil war"
+        },
+        {
+          "label": "3",
+          "text": "violence and persecution"
+        },
+        {
+          "label": "4",
+          "text": "armed conflicts"
+        }
+      ],
+      "question_id": "26433083545",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "earthquakes and floods",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

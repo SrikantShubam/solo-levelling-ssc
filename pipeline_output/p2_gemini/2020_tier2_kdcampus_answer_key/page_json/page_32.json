@@ -1,0 +1,164 @@
+{
+  "page": 32,
+  "questions": [
+    {
+      "question_number": 189,
+      "section": null,
+      "question_text_full": "Select the segment in which a word has been INCORRECTLY used. He had an amazing capacity to condone up the most delectable dishes at a short notice.",
+      "options": [
+        {
+          "label": "1",
+          "text": "dishes at a short notice"
+        },
+        {
+          "label": "2",
+          "text": "the most delectable"
+        },
+        {
+          "label": "3",
+          "text": "He had an amazing"
+        },
+        {
+          "label": "4",
+          "text": "capacity to condone up"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 190,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words. To free from restraint",
+      "options": [
+        {
+          "label": "1",
+          "text": "Subjugate"
+        },
+        {
+          "label": "2",
+          "text": "Emancipate"
+        },
+        {
+          "label": "3",
+          "text": "Validate"
+        },
+        {
+          "label": "4",
+          "text": "Escalate"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 191,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words. Only on the surface of something",
+      "options": [
+        {
+          "label": "1",
+          "text": "Supercilious"
+        },
+        {
+          "label": "2",
+          "text": "Superlative"
+        },
+        {
+          "label": "3",
+          "text": "Superseding"
+        },
+        {
+          "label": "4",
+          "text": "Superficial"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 192,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech. She said to her mother, “May I have another slice of cake?”",
+      "options": [
+        {
+          "label": "1",
+          "text": "She asked her mother that may I have another slice of cake."
+        },
+        {
+          "label": "2",
+          "text": "She asked her mother that may she have another slice of cake."
+        },
+        {
+          "label": "3",
+          "text": "She asked her mother if she might have another slice of cake."
+        },
+        {
+          "label": "4",
+          "text": "She asked her mother if she may have another slice of cake."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 193,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech. Mother said that when we pluck a flower it dies so we should let it beautify the world as long as it lives.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mother, “When we pluck a flower it dies so we should let it beautify the world as long as it lives.”"
+        },
+        {
+          "label": "2",
+          "text": "Mother said, “When we pluck a flower it dies so you should let it beautify the world as long as it lived.”"
+        },
+        {
+          "label": "3",
+          "text": "Mother said, “When we pluck a flower it dies so we should let it beautify the world as long as it lives.”"
+        },
+        {
+          "label": "4",
+          "text": "Mother said, “When we plucked a flower it died so we should let it beautify the world as long as it lived.”"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

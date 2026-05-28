@@ -1,0 +1,126 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "The average score in Mathematics of 90 students of section A and B of class IX was 63. The number of students in A were 10 more than those in B. The average score of students in A was 30% more than that of students in B. The average score of students in B is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "60"
+        },
+        {
+          "label": "2",
+          "text": "50"
+        },
+        {
+          "label": "3",
+          "text": "54"
+        },
+        {
+          "label": "4",
+          "text": "56"
+        }
+      ],
+      "question_id": "8161615326",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "54",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "The curved surface area of a right cylinder is 3696 cm². Its height is three times its radius. What is the capacity (in litres) of the cylinder? (Take π = 22/7)",
+      "options": [
+        {
+          "label": "1",
+          "text": "19.008"
+        },
+        {
+          "label": "2",
+          "text": "30.87"
+        },
+        {
+          "label": "3",
+          "text": "25.872"
+        },
+        {
+          "label": "4",
+          "text": "29.75"
+        }
+      ],
+      "question_id": "8161615357",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "25.872",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "The sides BA and DE of a regular pentagon are produced to meet at F. What is the measure of ∠EFA?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60°"
+        },
+        {
+          "label": "2",
+          "text": "72°"
+        },
+        {
+          "label": "3",
+          "text": "36°"
+        },
+        {
+          "label": "4",
+          "text": "54°"
+        }
+      ],
+      "question_id": "8161615347",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "36°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "The expression 15(√10+√5) / (√10+√20+√40-√5-√80) is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "5(3 + 2√2)"
+        },
+        {
+          "label": "2",
+          "text": "5 - 2√5"
+        },
+        {
+          "label": "3",
+          "text": "5 + 2√2"
+        },
+        {
+          "label": "4",
+          "text": "10(3 + 2√5)"
+        }
+      ],
+      "question_id": "8161615290",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "5(3 + 2√2)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

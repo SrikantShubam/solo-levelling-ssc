@@ -1,0 +1,36 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "The given passage is a ________ passage.",
+      "options": [
+        {
+          "label": "1",
+          "text": "didactic"
+        },
+        {
+          "label": "2",
+          "text": "narrative"
+        },
+        {
+          "label": "3",
+          "text": "descriptive"
+        },
+        {
+          "label": "4",
+          "text": "literary"
+        }
+      ],
+      "question_id": "26433083327",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "descriptive",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

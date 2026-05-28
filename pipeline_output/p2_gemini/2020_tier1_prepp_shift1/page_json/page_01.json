@@ -1,0 +1,66 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "Select the option in which the words share the same relationship as that shared by the given pair of words.\n\nHorses : Neigh",
+      "options": [
+        {
+          "label": "1",
+          "text": "Pigs : Buzz"
+        },
+        {
+          "label": "2",
+          "text": "Hares : Boom"
+        },
+        {
+          "label": "3",
+          "text": "Ducks : Quack"
+        },
+        {
+          "label": "4",
+          "text": "Parrots : Bray"
+        }
+      ],
+      "question_id": "81616113318",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Ducks : Quack",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.\n\nStatements:\nAll polygons are angles.\nAll angles are diagonals.\nAll cones are cubes.\nAll cubes are decagons.\nNo diagonal is a cube.\n\nConclusions:\nI. Some diagonals are polygons.\nII. All diagonals are decagons.\nIII. No polygon is a cone.\nIV. Some cubes are angles.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Both conclusions II and IV follow"
+        },
+        {
+          "label": "2",
+          "text": "Both conclusions I and III follow"
+        },
+        {
+          "label": "3",
+          "text": "Both conclusions I and II follow"
+        },
+        {
+          "label": "4",
+          "text": "Only conclusion I follows"
+        }
+      ],
+      "question_id": "81616113020",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Both conclusions I and III follow",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

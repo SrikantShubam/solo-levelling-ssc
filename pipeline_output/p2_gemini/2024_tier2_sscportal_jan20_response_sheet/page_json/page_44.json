@@ -1,0 +1,104 @@
+{
+  "page": 44,
+  "questions": [
+    {
+      "question_number": 45,
+      "section": null,
+      "question_text_full": "Select the most appropriate title for the given passage.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The Impact of Technology on Health"
+        },
+        {
+          "label": "2",
+          "text": "The Benefits of Mindfulness Meditation"
+        },
+        {
+          "label": "3",
+          "text": "The Importance of a Balanced Diet"
+        },
+        {
+          "label": "4",
+          "text": "Importance of Regular Physical Activities"
+        }
+      ],
+      "question_id": "630680549165",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Importance of Regular Physical Activities",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Module II General Awareness",
+      "question_text_full": "Which theme encapsulates Wings India 2024, the Aviation Expo, that was inaugurated by Union Minister for Civil Aviation in January 2024?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Aviation Expo-Wings India in Amrit Kaal: Shaping the Future of Indian Civil Aviation."
+        },
+        {
+          "label": "2",
+          "text": "Aviation and Sustainable Development in the Indian Aerospace: Future possibilities in Amrit Kaal."
+        },
+        {
+          "label": "3",
+          "text": "Advancements in Aerospace: A Glimpse into India's Aviation Future in Amrit Kaal."
+        },
+        {
+          "label": "4",
+          "text": "Connecting India to the World in Amrit Kaal: Setting the Stage for India Civil Aviation @2047."
+        }
+      ],
+      "question_id": "630680571724",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "Connecting India to the World in Amrit Kaal: Setting the Stage for India Civil Aviation @2047.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "Module II General Awareness",
+      "question_text_full": "The equation F = k (q1 * q2 / r^2) is representation of: (Where F is the attractive or repulsive electric force of two point charges q1 and q2 and r is the distance between two charges)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Coulomb's law"
+        },
+        {
+          "label": "2",
+          "text": "Biot-Savart law"
+        },
+        {
+          "label": "3",
+          "text": "Charle's law"
+        },
+        {
+          "label": "4",
+          "text": "Ohm's law"
+        }
+      ],
+      "question_id": "630680305590",
+      "chosen_option_label": "2",
+      "correct_option_label": "1",
+      "correct_option_text": "Coulomb's law",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,104 @@
+{
+  "page": 25,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "A statement is followed by two arguments I and II. Read the statement and the arguments carefully and select the appropriate answer from the given options.\n\nStatement:\nHydroelectricity is a cleaner and greener energy than other forms of power generation.\n\nArguments:\n(I) Hydroelectric plants almost have nil CO2 emissions.\n(II) Hydroelectric power projects submerge huge amounts under water thereby affecting local flora and fauna.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Both I and II weaken the statement."
+        },
+        {
+          "label": "2",
+          "text": "II weakens while I strengthens the statement."
+        },
+        {
+          "label": "3",
+          "text": "Both I and II strengthen the statement."
+        },
+        {
+          "label": "4",
+          "text": "I weakens while II strengthens the statement."
+        }
+      ],
+      "question_id": "630680564142",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "II weakens while I strengthens the statement.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?\n\n# : XAF :: SVA : %",
+      "options": [
+        {
+          "label": "1",
+          "text": "# = BEJ % = QRW"
+        },
+        {
+          "label": "2",
+          "text": "# = BEJ % = ORW"
+        },
+        {
+          "label": "3",
+          "text": "# = BEJ % = ORP"
+        },
+        {
+          "label": "4",
+          "text": "# = BBJ % = ORW"
+        }
+      ],
+      "question_id": "630680731372",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "# = BEJ % = ORW",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "O, P, Q, R, S and T are sitting around a circular table facing the centre(but not necessarily in the same order). P sits second to the left of T. S sits third to the right of Q. Q is not an immediate neighbour of P. O sits second to the right of S. Which of the following represents the position of O with respect of R?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Third to the left"
+        },
+        {
+          "label": "2",
+          "text": "Second to the left"
+        },
+        {
+          "label": "3",
+          "text": "Immediate right"
+        },
+        {
+          "label": "4",
+          "text": "Third to the right"
+        }
+      ],
+      "question_id": "630680416782",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Second to the left",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,104 @@
+{
+  "page": 55,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "What is a ‘Trojan’ in the context of network security?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A protocol used for secure communication between devices on a network."
+        },
+        {
+          "label": "2",
+          "text": "A program that monitors network traffic for security breaches."
+        },
+        {
+          "label": "3",
+          "text": "A type of firewall that protects against viruses and malware."
+        },
+        {
+          "label": "4",
+          "text": "Malicious software disguised as legitimate software to gain unauthorised access."
+        }
+      ],
+      "question_id": "264330183355",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Malicious software disguised as legitimate software to gain unauthorised access.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "In Microsoft Word, what is the purpose of the ‘Print Preview’ feature?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To insert images and graphics into the document."
+        },
+        {
+          "label": "2",
+          "text": "To format the font and style of the document."
+        },
+        {
+          "label": "3",
+          "text": "To check the spelling and grammar of the document."
+        },
+        {
+          "label": "4",
+          "text": "To view how the document will appear when printed."
+        }
+      ],
+      "question_id": "264330183340",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "To view how the document will appear when printed.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "In File Explorer of Windows 10, the keyboard shortcut ‘Num Lock + Asterisk sign (*)’ is used to ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "display all subfolders under the selected folder"
+        },
+        {
+          "label": "2",
+          "text": "open the properties dialog box for the selected item"
+        },
+        {
+          "label": "3",
+          "text": "display the contents of the selected folder"
+        },
+        {
+          "label": "4",
+          "text": "collapse the selected folder"
+        }
+      ],
+      "question_id": "264330183373",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "display all subfolders under the selected folder",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

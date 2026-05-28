@@ -1,0 +1,104 @@
+{
+  "page": 36,
+  "questions": [
+    {
+      "question_number": 98,
+      "section": null,
+      "question_text_full": "Let N be the size of a population and n be the size of the sample. Then the efficiency of SRSWOR with respect to SRSWR is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "N-1 / N(n-1)"
+        },
+        {
+          "label": "2",
+          "text": "N-n / N-1"
+        },
+        {
+          "label": "3",
+          "text": "n-1 / N-1"
+        },
+        {
+          "label": "4",
+          "text": "N-1 / N-n"
+        }
+      ],
+      "question_id": "6306801300169",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "N-n / N-1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 99,
+      "section": null,
+      "question_text_full": "Karl Pearson's correlation coefficient is also called:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Product moment correlation coefficient"
+        },
+        {
+          "label": "2",
+          "text": "Likelihood coefficient"
+        },
+        {
+          "label": "3",
+          "text": "Spearman's correlation coefficient"
+        },
+        {
+          "label": "4",
+          "text": "Simplex correlation coefficient"
+        }
+      ],
+      "question_id": "6306801352860",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "Product moment correlation coefficient",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 100,
+      "section": null,
+      "question_text_full": "Usually the formula to determine the number of classes is given by:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 + 3.322 × log100N"
+        },
+        {
+          "label": "2",
+          "text": "3 + 3.322 × log1000 N"
+        },
+        {
+          "label": "3",
+          "text": "1 + 3.322 × log10 N"
+        },
+        {
+          "label": "4",
+          "text": "None of the above"
+        }
+      ],
+      "question_id": "6306801352841",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "1 + 3.322 × log10 N",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,104 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Three cards are drawn one after another with replacement from a pack of cards. What is the probability of getting first card a Jack, second card a black card, and third card an even numbered card?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5/338"
+        },
+        {
+          "label": "2",
+          "text": "20/338"
+        },
+        {
+          "label": "3",
+          "text": "25/26"
+        },
+        {
+          "label": "4",
+          "text": "5/169"
+        }
+      ],
+      "question_id": "264330172307",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "5/338",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "At a certain time in a park, the number of heads and the number of legs of monkeys and human visitors were counted, and it was found that there were 54 heads and 148 legs. Find the number of monkeys in the park.",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "14"
+        }
+      ],
+      "question_id": "264330164103",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "20",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Vipin travels one-third of the distance of a journey at a speed of 30 km/h and the remaining distance at a speed of 40 km/h. If he took a total of 12 hours to complete the journey, what was the total distance (in km) of the journey?",
+      "options": [
+        {
+          "label": "1",
+          "text": "432"
+        },
+        {
+          "label": "2",
+          "text": "450"
+        },
+        {
+          "label": "3",
+          "text": "445"
+        },
+        {
+          "label": "4",
+          "text": "412"
+        }
+      ],
+      "question_id": "264330171869",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "432",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

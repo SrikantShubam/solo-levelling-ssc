@@ -1,0 +1,44 @@
+{
+  "page": 36,
+  "questions": [
+    {
+      "question_number": 39,
+      "section": "Comprehension",
+      "question_text_full": "Select an appropriate title for the passage.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Shorts to Trousers"
+        },
+        {
+          "label": "2",
+          "text": "Lake Heaven"
+        },
+        {
+          "label": "3",
+          "text": "Peasant Life"
+        },
+        {
+          "label": "4",
+          "text": "Journey to Mount Bogda"
+        }
+      ],
+      "question_id": "264330128932",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "Lake Heaven",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

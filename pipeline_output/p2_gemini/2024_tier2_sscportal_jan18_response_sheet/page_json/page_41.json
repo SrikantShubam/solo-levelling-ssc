@@ -1,0 +1,44 @@
+{
+  "page": 41,
+  "questions": [
+    {
+      "question_number": 36,
+      "section": "Comprehension",
+      "question_text_full": "What was the significance of Bose’s slogan ‘Jai Hind’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "It symbolised the struggle against British colonialism."
+        },
+        {
+          "label": "2",
+          "text": "It was a call to arms for the Indian and British Army."
+        },
+        {
+          "label": "3",
+          "text": "It manifests the vision of selected communities."
+        },
+        {
+          "label": "4",
+          "text": "It represented Bose’s vision of a capitalist India."
+        }
+      ],
+      "question_id": "630680513125",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "It symbolised the struggle against British colonialism.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

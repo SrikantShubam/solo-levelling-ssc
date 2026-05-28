@@ -1,0 +1,36 @@
+{
+  "page": 27,
+  "questions": [
+    {
+      "question_number": 34,
+      "section": "Comprehension",
+      "question_text_full": "Match the words with their meanings.\n\nWords- a. luxuriant, b. dormant, c. prolonged\nMeanings- 1. continued, 2. lush, 3. sleeping",
+      "options": [
+        {
+          "label": "1",
+          "text": "a-3, b-2, c-1"
+        },
+        {
+          "label": "2",
+          "text": "a-2, b-1, c-3"
+        },
+        {
+          "label": "3",
+          "text": "a-2, b-3, c-1"
+        },
+        {
+          "label": "4",
+          "text": "a-1, b-3, c-2"
+        }
+      ],
+      "question_id": "26433083522",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "a-2, b-3, c-1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

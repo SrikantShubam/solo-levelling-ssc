@@ -1,0 +1,74 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Four number-pairs have been given, out of which three are alike in some manner and one is different. Select the one that is different. (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "286 - 11"
+        },
+        {
+          "label": "2",
+          "text": "104 - 4"
+        },
+        {
+          "label": "3",
+          "text": "494 - 19"
+        },
+        {
+          "label": "4",
+          "text": "521 - 20"
+        }
+      ],
+      "question_id": "630680162457",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "521 - 20",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘CURB’ is coded as ‘3517’ and ‘BOAT’ is coded as ‘4638’. What is the code for ‘B’ in the given code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "7"
+        }
+      ],
+      "question_id": "630680681052",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,74 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "A question is followed by two statements numbered (I) and (II). You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and select the appropriate option.\nQuestion:\nShourya delivered parcels to five locations A, B, C, D and E while prioritising delivery of heavier parcels first. Which location was delivered in the end?\nStatements:\n(I) The parcel for location C was heavier than all other parcels.\n(II) The parcel for location D was lighter than the parcels assigned to locations B and A.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Data in statements (I) and (II) together are sufficient to answer the question."
+        },
+        {
+          "label": "2",
+          "text": "Data in statement (II) alone is sufficient to answer the question, whereas data in statement (I) alone is not."
+        },
+        {
+          "label": "3",
+          "text": "Data in statement (I) alone is sufficient to answer the question, whereas data in statement (II) alone is not."
+        },
+        {
+          "label": "4",
+          "text": "Data in statements (I) and (II) together are not sufficient to answer the question."
+        }
+      ],
+      "question_id": "630680560993",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Data in statements (I) and (II) together are not sufficient to answer the question.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Read the following information and answer the question which follows.\n“Like seasoned gardeners, Gardener G practices crop rotation to maintain soil fertility, leading to thriving and diverse plant growth.”\nWhich of the following can be inferred from the given statement? (An inference is something which is not directly stated but can be derived from the given facts/information in the statement)\n1. The thriving and diverse plant growth in Gardener G's garden is likely influenced by the practice of crop rotation.\n2. Gardener G is consulted by other gardeners in the area for best gardening practices.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (I) can be inferred."
+        },
+        {
+          "label": "2",
+          "text": "Both (I) and (II) can be inferred."
+        },
+        {
+          "label": "3",
+          "text": "Only (II) can be inferred."
+        },
+        {
+          "label": "4",
+          "text": "Neither (I) nor (II) can be inferred."
+        }
+      ],
+      "question_id": "630680557214",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Only (I) can be inferred.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

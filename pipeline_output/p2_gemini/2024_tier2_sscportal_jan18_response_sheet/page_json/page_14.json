@@ -1,0 +1,74 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Given below is a statement (Cause) followed by possible effects numbered I, II and III. Read the ‘Cause’ carefully and decide which of the three can be possible effect/s.\n\nCause – Many people in City X have reported receiving two electricity bills this month, instead of one.\n\nEffect I – The Electricity Board has published the details of areas where power shutdowns are expected tomorrow in City X.\nEffect II – The municipal commissioner of City X has clarified that the technical glitch which led to multiple electricity bills being generated would be resolved within 48 hours.\nEffect III – Long queues were seen outside the electricity board offices in many localities.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only II is a possible effect."
+        },
+        {
+          "label": "2",
+          "text": "Both I and II are possible effects ."
+        },
+        {
+          "label": "3",
+          "text": "Only I is a possible effect."
+        },
+        {
+          "label": "4",
+          "text": "Both II and III are possible effects."
+        }
+      ],
+      "question_id": "630680568507",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Both II and III are possible effects.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘POSE’ is coded as ‘3517’ and ‘SILK’ is coded as ‘4638’. What is the code for ‘S’ in the given code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "question_id": "630680681050",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

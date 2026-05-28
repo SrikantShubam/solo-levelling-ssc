@@ -1,0 +1,104 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "In a circular race of 840 m, A and B start running in the same direction at the same time from the same point at the speeds of 6 m/s and 12 m/s, respectively. After how much time will they meet next?",
+      "options": [
+        {
+          "label": "1",
+          "text": "140 s"
+        },
+        {
+          "label": "2",
+          "text": "40 s"
+        },
+        {
+          "label": "3",
+          "text": "70 s"
+        },
+        {
+          "label": "4",
+          "text": "20 s"
+        }
+      ],
+      "question_id": "630680138391",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "140 s",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Let O be the centre of the circle and AB and CD are two parallel chords on the same side of the radius. OP is perpendicular to AB and OQ is perpendicular to CD. If AB = 10 cm, CD = 24 cm and PQ = 7 cm, then the diameter (in cm) of the circle is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "24"
+        },
+        {
+          "label": "2",
+          "text": "13"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "26"
+        }
+      ],
+      "question_id": "630680397618",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "26",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Which of the following statements is sufficient to conclude that two triangles are congruent?",
+      "options": [
+        {
+          "label": "1",
+          "text": "One side and one angle of both triangles are equal."
+        },
+        {
+          "label": "2",
+          "text": "These have two equal sides and the same perimeter."
+        },
+        {
+          "label": "3",
+          "text": "These have the same area and the same base."
+        },
+        {
+          "label": "4",
+          "text": "These have the same base and the same height."
+        }
+      ],
+      "question_id": "630680373876",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "These have two equal sides and the same perimeter.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

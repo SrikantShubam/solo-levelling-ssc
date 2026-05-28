@@ -1,0 +1,194 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 110,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice. Efforts are being made by us to reduce crowding in core city areas.",
+      "options": [
+        {
+          "label": "1",
+          "text": "We were making efforts to reduce crowding in core city areas."
+        },
+        {
+          "label": "2",
+          "text": "We made efforts to reduce crowding in core city areas."
+        },
+        {
+          "label": "3",
+          "text": "We will be making efforts to reduce crowding in core city areas."
+        },
+        {
+          "label": "4",
+          "text": "We are making efforts to reduce crowding in core city areas."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 111,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice. The audience is applauding the wonderful performance.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The wonderful performance was being applauded by the audience."
+        },
+        {
+          "label": "2",
+          "text": "The wonderful performance is being applauded by the audience."
+        },
+        {
+          "label": "3",
+          "text": "The wonderful audience is being applauded by the performance."
+        },
+        {
+          "label": "4",
+          "text": "The wonderful performance is applauded by the audience."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 112,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error. This renowned / university provide / research opportunities / for students.",
+      "options": [
+        {
+          "label": "1",
+          "text": "university provide"
+        },
+        {
+          "label": "2",
+          "text": "This renowned"
+        },
+        {
+          "label": "3",
+          "text": "for students"
+        },
+        {
+          "label": "4",
+          "text": "research opportunities"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 113,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error. The allies / of the government / decided to / withdrew all support.",
+      "options": [
+        {
+          "label": "1",
+          "text": "of the government"
+        },
+        {
+          "label": "2",
+          "text": "The allies"
+        },
+        {
+          "label": "3",
+          "text": "withdrew all support"
+        },
+        {
+          "label": "4",
+          "text": "decided to"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 114,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error. Mr. Das, my friend / and Principal / of this college, / have retired.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mr. Das, my friend"
+        },
+        {
+          "label": "2",
+          "text": "have retired"
+        },
+        {
+          "label": "3",
+          "text": "and Principal"
+        },
+        {
+          "label": "4",
+          "text": "of this college"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 115,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error. Scarcely had I / started reading / the paper / then the doorbell rang.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Scarcely had I"
+        },
+        {
+          "label": "2",
+          "text": "started reading"
+        },
+        {
+          "label": "3",
+          "text": "then the doorbell rang"
+        },
+        {
+          "label": "4",
+          "text": "the paper"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

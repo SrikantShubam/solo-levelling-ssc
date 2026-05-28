@@ -1,0 +1,107 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 44,
+      "section": null,
+      "question_text_full": "Select the correct option that indicates the arrangement of the following words in a logical and meaningful order.\n1. Design 2. Test 3. Conceptualize 4. Develop 5. Implement",
+      "options": [
+        {
+          "label": "1",
+          "text": "3, 5, 2, 4, 1"
+        },
+        {
+          "label": "2",
+          "text": "1, 4, 5, 3, 2"
+        },
+        {
+          "label": "3",
+          "text": "3, 1, 4, 2, 5"
+        },
+        {
+          "label": "4",
+          "text": "4, 3, 1, 5, 4, 2"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the source, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 45,
+      "section": null,
+      "question_text_full": "Select the correct option that indicates the arrangement of the following words in a logical and meaningful order.\n1. Delivery\n2. Finished Paper\n3. Dry\n4. Pulp\n5. Press",
+      "options": [
+        {
+          "label": "1",
+          "text": "1, 4, 5, 3, 2, 1"
+        },
+        {
+          "label": "2",
+          "text": "4, 1, 2, 5, 3"
+        },
+        {
+          "label": "3",
+          "text": "2, 5, 4, 3, 1"
+        },
+        {
+          "label": "4",
+          "text": "5, 4, 2, 3, 1"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the source, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 46,
+      "section": null,
+      "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Not provided"
+        },
+        {
+          "label": "2",
+          "text": "Not provided"
+        },
+        {
+          "label": "3",
+          "text": "Not provided"
+        },
+        {
+          "label": "4",
+          "text": "Not provided"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question is incomplete; options are missing."
+    }
+  ],
+  "warnings": [
+    "Question 46 is incomplete on the page.",
+    "Options for questions 44 and 45 were labeled a, b, c, d in the source and mapped to 1, 2, 3, 4."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

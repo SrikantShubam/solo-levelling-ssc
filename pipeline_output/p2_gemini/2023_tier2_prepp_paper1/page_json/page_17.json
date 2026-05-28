@@ -1,0 +1,104 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the option that is related to the third word in the same way as the second word is related to the first word.\n(The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word.)\nCrowd : Dense : : Slope : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Plain"
+        },
+        {
+          "label": "2",
+          "text": "Tight"
+        },
+        {
+          "label": "3",
+          "text": "Fill"
+        },
+        {
+          "label": "4",
+          "text": "Steep"
+        }
+      ],
+      "question_id": "264330171853",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Steep",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "What will come in the place of the question mark (?) in the following equation if '+' and '-' are interchanged and 'x'and '÷' are interchanged?\n161 ÷ 4 + 75 × 5 - 4 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "533"
+        },
+        {
+          "label": "2",
+          "text": "633"
+        },
+        {
+          "label": "3",
+          "text": "643"
+        },
+        {
+          "label": "4",
+          "text": "543"
+        }
+      ],
+      "question_id": "264330170916",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "633",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Q is the mother of R. P is the husband of Q. S is the brother of R. How is P related to S?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father"
+        },
+        {
+          "label": "2",
+          "text": "Brother"
+        },
+        {
+          "label": "3",
+          "text": "Son"
+        },
+        {
+          "label": "4",
+          "text": "Wife's brother"
+        }
+      ],
+      "question_id": "264330172006",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Father",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

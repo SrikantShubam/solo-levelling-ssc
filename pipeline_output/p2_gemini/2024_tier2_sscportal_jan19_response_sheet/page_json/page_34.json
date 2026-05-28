@@ -1,0 +1,134 @@
+{
+  "page": 34,
+  "questions": [
+    {
+      "question_number": 94,
+      "section": null,
+      "question_text_full": "If the arithmetic mean is 25 and geometric mean is 15, then the value of the Harmonic mean is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "15"
+        },
+        {
+          "label": "2",
+          "text": "9"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "question_id": "6306801352818",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "9",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 95,
+      "section": null,
+      "question_text_full": "If x̄ is the mean of a sample from N(μ, 1), then the maximum likelihood estimator of μ is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "n x̄"
+        },
+        {
+          "label": "2",
+          "text": "x̄ + 1/n"
+        },
+        {
+          "label": "3",
+          "text": "x̄ + 1"
+        },
+        {
+          "label": "4",
+          "text": "x̄"
+        }
+      ],
+      "question_id": "6306801300178",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "x̄",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 96,
+      "section": null,
+      "question_text_full": "Which of the following is NOT a good characteristic of a questionnaire?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Questions should proceed in logical sequence from easy to more difficult."
+        },
+        {
+          "label": "2",
+          "text": "Technical terms and vague expressions should be avoided."
+        },
+        {
+          "label": "3",
+          "text": "Personal and intimate questions should be put in the beginning."
+        },
+        {
+          "label": "4",
+          "text": "Questionnaire should be comparatively short and simple."
+        }
+      ],
+      "question_id": "6306801294133",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Personal and intimate questions should be put in the beginning.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 97,
+      "section": null,
+      "question_text_full": "The coefficient of variation and standard deviation for a dataset are 23 and 11, then the mean is approximately equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "23.876"
+        },
+        {
+          "label": "2",
+          "text": "33.564"
+        },
+        {
+          "label": "3",
+          "text": "45.825"
+        },
+        {
+          "label": "4",
+          "text": "47.826"
+        }
+      ],
+      "question_id": "6306801352827",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "47.826",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,104 @@
+{
+  "page": 54,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Select the option that is true regarding the following two statements labelled Assertion (A) and Reason (R).\n\nA. The first battle of Panipat was one of the decisive battles of India.\nR. It brought into power a new band of invaders called Mughals.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statements A and R are true, but R is not the correct explanation of A."
+        },
+        {
+          "label": "2",
+          "text": "Statements A and R are true, and R is the correct explanation of A."
+        },
+        {
+          "label": "3",
+          "text": "R is true, but A is false."
+        },
+        {
+          "label": "4",
+          "text": "A is true, but R is false."
+        }
+      ],
+      "question_id": "630680570879",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Statements A and R are true, and R is the correct explanation of A.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "In the year 2020, National Digital Health Mission was launched on which of the following occasions?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Independence Day"
+        },
+        {
+          "label": "2",
+          "text": "Republic Day"
+        },
+        {
+          "label": "3",
+          "text": "Gandhi Jayanti"
+        },
+        {
+          "label": "4",
+          "text": "Diwali"
+        }
+      ],
+      "question_id": "630680580485",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Independence Day",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Which Indian city experiences the LEAST difference in average temperature between its hottest and coldest months?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mumbai"
+        },
+        {
+          "label": "2",
+          "text": "Srinagar"
+        },
+        {
+          "label": "3",
+          "text": "Bhopal"
+        },
+        {
+          "label": "4",
+          "text": "Delhi"
+        }
+      ],
+      "question_id": "630680635912",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Mumbai",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

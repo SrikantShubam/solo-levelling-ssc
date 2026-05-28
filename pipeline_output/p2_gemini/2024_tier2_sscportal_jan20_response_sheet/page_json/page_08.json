@@ -1,0 +1,104 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Find the median of the following data.\nClass interval 0 – 20 20 – 40 40 – 60 60 – 80 80 – 100\nFrequency 9 16 24 15 4",
+      "options": [
+        {
+          "label": "1",
+          "text": "55"
+        },
+        {
+          "label": "2",
+          "text": "50"
+        },
+        {
+          "label": "3",
+          "text": "58"
+        },
+        {
+          "label": "4",
+          "text": "47.5"
+        }
+      ],
+      "question_id": "630680531337",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "47.5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Two years ago, the population of a town was 9487500. Due to migration to big cities, it decreases every year at the rate of 8%. The present population of the town is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "8070120"
+        },
+        {
+          "label": "2",
+          "text": "8030220"
+        },
+        {
+          "label": "3",
+          "text": "9060110"
+        },
+        {
+          "label": "4",
+          "text": "7060320"
+        }
+      ],
+      "question_id": "630680464564",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "8030220",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Adi and Dia together have ₹1,440. If 3/10 of Adi's amount is equal to 3/5 of Dia's amount, how much amount does Dia have?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹464"
+        },
+        {
+          "label": "2",
+          "text": "₹540"
+        },
+        {
+          "label": "3",
+          "text": "₹512"
+        },
+        {
+          "label": "4",
+          "text": "₹480"
+        }
+      ],
+      "question_id": "630680543918",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "₹480",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

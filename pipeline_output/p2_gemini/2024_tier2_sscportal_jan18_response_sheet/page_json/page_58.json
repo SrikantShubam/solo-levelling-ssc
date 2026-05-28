@@ -1,0 +1,104 @@
+{
+  "page": 58,
+  "questions": [
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "What is the main purpose of using a template when creating a presentation in MS PowerPoint?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To ensure consistency and professionalism"
+        },
+        {
+          "label": "2",
+          "text": "To automatically insert multimedia content"
+        },
+        {
+          "label": "3",
+          "text": "To add complex animations easily"
+        },
+        {
+          "label": "4",
+          "text": "To create interactive quizzes within slides"
+        }
+      ],
+      "question_id": "630680990668",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "To ensure consistency and professionalism",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Which of the following best describes Electronic Mail (E-mail)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A method of sending messages electronically over a computer network."
+        },
+        {
+          "label": "2",
+          "text": "A system for storing digital files on the cloud."
+        },
+        {
+          "label": "3",
+          "text": "A type of secure online transaction system."
+        },
+        {
+          "label": "4",
+          "text": "A service used to make phone calls over the internet."
+        }
+      ],
+      "question_id": "6306801301628",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "A method of sending messages electronically over a computer network.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Match the Task Manager tabs in column A with their respective functionalities in column B.\nColumn A Column B\n1. Processes a) Monitors overall CPU, memory, disk, and network usage\n2. Performance b) Displays active applications and background processes\n3. Startup c) Manages programs that run during system startup\n4. App History d) Shows resource usage for Windows Store apps",
+      "options": [
+        {
+          "label": "1",
+          "text": "1-d, 2-b, 3-a, 4-c"
+        },
+        {
+          "label": "2",
+          "text": "1-c, 2-b, 3-d, 4-a"
+        },
+        {
+          "label": "3",
+          "text": "1-a, 2-c, 3-b, 4-d"
+        },
+        {
+          "label": "4",
+          "text": "1-b, 2-a, 3-c, 4-d"
+        }
+      ],
+      "question_id": "6306801316628",
+      "chosen_option_label": "3",
+      "correct_option_label": "4",
+      "correct_option_text": "1-b, 2-a, 3-c, 4-d",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

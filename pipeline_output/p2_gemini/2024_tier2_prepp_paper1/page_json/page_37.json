@@ -1,0 +1,106 @@
+{
+  "page": 37,
+  "questions": [
+    {
+      "question_number": 76,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech.\n\n\"The District Magistrate ordered the police to work all night and put an end to those riots.\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "The District Magistrate told the police, \"Work all night and put to end these riots.\""
+        },
+        {
+          "label": "2",
+          "text": "The District Magistrate told the police, \"Work all night and put an end to these riots.\""
+        },
+        {
+          "label": "3",
+          "text": "The District Magistrate told the police, \"Work all night and put an end to their riots.\""
+        },
+        {
+          "label": "4",
+          "text": "The District Magistrate told the police, \"Work all night to put an end these riots.\""
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 77,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the underlined idiom.\n\n\"The team decided to pull out all the stops for their upcoming presentation.\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "Keep things simple and straightforward"
+        },
+        {
+          "label": "2",
+          "text": "Wait patiently for a more favourable time"
+        },
+        {
+          "label": "3",
+          "text": "Give up easily and without thinking much"
+        },
+        {
+          "label": "4",
+          "text": "To do everything to make something successful"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 78,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\n\n\"Everyone was surprised at his speech.\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "His speech surprised everyone."
+        },
+        {
+          "label": "2",
+          "text": "Not visible"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question 78 is cut off and does not contain all four options."
+    }
+  ],
+  "warnings": [
+    "Question 78 is incomplete on the page and lacks options 2, 3, and 4."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

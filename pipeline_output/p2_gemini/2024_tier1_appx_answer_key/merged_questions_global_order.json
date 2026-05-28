@@ -1,0 +1,3890 @@
+{
+  "source_pdf": "C:\\experiments\\ssc\\answer_key_candidates_staging\\2024_tier1_appx_answer_key.pdf",
+  "extraction_method": "Gemini page-by-page visual PNG extraction, merged in page/visual order",
+  "page_count": 10,
+  "question_count": 38,
+  "expected_question_count": 100,
+  "is_complete_question_trial": false,
+  "qc_passed": false,
+  "qc_status": "FAIL",
+  "structural_status": "FAIL",
+  "structural_failure_reasons": [
+    "expected_question_count_mismatch",
+    "malformed_options_or_correct_answer"
+  ],
+  "page_counts": [
+    {
+      "page": 1,
+      "count": 7,
+      "warnings": [],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "google_ai_studio",
+      "model": "models/gemini-3.5-flash",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 2,
+      "count": 7,
+      "warnings": [],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "google_ai_studio",
+      "model": "models/gemini-3.5-flash",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 3,
+      "count": 7,
+      "warnings": [],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "google_ai_studio",
+      "model": "models/gemini-3.5-flash",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 4,
+      "count": 7,
+      "warnings": [
+        "Question 27 is incomplete at the bottom of the page and has been omitted."
+      ],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "google_ai_studio",
+      "model": "models/gemini-3.5-flash",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 5,
+      "count": 7,
+      "warnings": [],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "google_ai_studio",
+      "model": "models/gemini-3.5-flash",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 6,
+      "count": 3,
+      "warnings": [
+        "Incomplete options C and D for a previous question (likely Q33) are visible at the top left but excluded from the questions list."
+      ],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "google_ai_studio",
+      "model": "models/gemini-3.5-flash",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 7,
+      "count": 0,
+      "warnings": [
+        "No questions found on this page. This page contains promotional material/advertisements for courses."
+      ],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "google_ai_studio",
+      "model": "models/gemini-3.5-flash",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 8,
+      "count": 0,
+      "warnings": [
+        "The provided page is a solutions/explanation sheet ('Solutions for the Practice Sheet– Number Classification') rather than a standard SSC exam response page. It does not contain actual exam questions, 'Ans' blocks, green tick marks, or question IDs as specified in the extraction rules."
+      ],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "google_ai_studio",
+      "model": "models/gemini-3.5-flash",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 9,
+      "count": 0,
+      "warnings": [
+        "The page contains only explanations and logic descriptions for questions Q23 to Q36, with no actual questions or multiple-choice options visible."
+      ],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "google_ai_studio",
+      "model": "models/gemini-3.5-flash",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 10,
+      "count": 0,
+      "warnings": [
+        "No questions found on this page. The page contains an answer key table and promotional material for a reasoning practice batch."
+      ],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "google_ai_studio",
+      "model": "models/gemini-3.1-flash-lite",
+      "fallback_attempted": false,
+      "fallback_used": false
+    }
+  ],
+  "load_errors": [],
+  "option_or_correct_answer_issue_global_questions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "missing_or_invalid_chosen_option_global_questions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "low_confidence_global_questions": [],
+  "manual_review_count": 38,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "Reasoning",
+      "question_text_full": "1. In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. In three of the four pairs, the same pattern is applied and hence they form a group. Select the number-pair that DOES NOT belong to this group. (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (09/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "317 - 101"
+        },
+        {
+          "label": "2",
+          "text": "358 - 152"
+        },
+        {
+          "label": "3",
+          "text": "335 - 119"
+        },
+        {
+          "label": "4",
+          "text": "308 - 92"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 1,
+        "section": "Reasoning",
+        "question_text_full": "1. In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. In three of the four pairs, the same pattern is applied and hence they form a group. Select the number-pair that DOES NOT belong to this group. (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (09/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "317 - 101"
+          },
+          {
+            "label": "2",
+            "text": "358 - 152"
+          },
+          {
+            "label": "3",
+            "text": "335 - 119"
+          },
+          {
+            "label": "4",
+            "text": "308 - 92"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 1,
+      "section_local_question_number": 1,
+      "global_question_number": 1,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png"
+    },
+    {
+      "question_number": 2,
+      "section": "Reasoning",
+      "question_text_full": "2. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (09/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 : 39"
+        },
+        {
+          "label": "2",
+          "text": "11 : 35"
+        },
+        {
+          "label": "3",
+          "text": "13 : 42"
+        },
+        {
+          "label": "4",
+          "text": "15 : 48"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 2,
+        "section": "Reasoning",
+        "question_text_full": "2. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (09/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "12 : 39"
+          },
+          {
+            "label": "2",
+            "text": "11 : 35"
+          },
+          {
+            "label": "3",
+            "text": "13 : 42"
+          },
+          {
+            "label": "4",
+            "text": "15 : 48"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 1,
+      "section_local_question_number": 2,
+      "global_question_number": 2,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png"
+    },
+    {
+      "question_number": 3,
+      "section": "Reasoning",
+      "question_text_full": "3. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (09/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "66 – 154"
+        },
+        {
+          "label": "2",
+          "text": "72 – 168"
+        },
+        {
+          "label": "3",
+          "text": "33 – 72"
+        },
+        {
+          "label": "4",
+          "text": "36 – 84"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 3,
+        "section": "Reasoning",
+        "question_text_full": "3. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (09/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "66 – 154"
+          },
+          {
+            "label": "2",
+            "text": "72 – 168"
+          },
+          {
+            "label": "3",
+            "text": "33 – 72"
+          },
+          {
+            "label": "4",
+            "text": "36 – 84"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 1,
+      "section_local_question_number": 3,
+      "global_question_number": 3,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png"
+    },
+    {
+      "question_number": 4,
+      "section": "Reasoning",
+      "question_text_full": "4. Three of the following four options are alike in a certain way and thus form a group. Which is the option that does NOT belong to that group? (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (10/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 – 4 – 8"
+        },
+        {
+          "label": "2",
+          "text": "3 – 2 – 5"
+        },
+        {
+          "label": "3",
+          "text": "1 – 3 – 3"
+        },
+        {
+          "label": "4",
+          "text": "2 – 2 – 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 4,
+        "section": "Reasoning",
+        "question_text_full": "4. Three of the following four options are alike in a certain way and thus form a group. Which is the option that does NOT belong to that group? (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (10/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "2 – 4 – 8"
+          },
+          {
+            "label": "2",
+            "text": "3 – 2 – 5"
+          },
+          {
+            "label": "3",
+            "text": "1 – 3 – 3"
+          },
+          {
+            "label": "4",
+            "text": "2 – 2 – 4"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 1,
+      "section_local_question_number": 4,
+      "global_question_number": 4,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png"
+    },
+    {
+      "question_number": 5,
+      "section": "Reasoning",
+      "question_text_full": "5. Three of the following number-pairs are alike in some manner and hence form a group. Which number-pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (10/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "22 – 462"
+        },
+        {
+          "label": "2",
+          "text": "21 – 420"
+        },
+        {
+          "label": "3",
+          "text": "18 – 306"
+        },
+        {
+          "label": "4",
+          "text": "15 – 240"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 5,
+        "section": "Reasoning",
+        "question_text_full": "5. Three of the following number-pairs are alike in some manner and hence form a group. Which number-pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (10/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "22 – 462"
+          },
+          {
+            "label": "2",
+            "text": "21 – 420"
+          },
+          {
+            "label": "3",
+            "text": "18 – 306"
+          },
+          {
+            "label": "4",
+            "text": "15 – 240"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 1,
+      "section_local_question_number": 5,
+      "global_question_number": 5,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png"
+    },
+    {
+      "question_number": 6,
+      "section": "Reasoning",
+      "question_text_full": "6. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (10/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "52 – 68 – 51"
+        },
+        {
+          "label": "2",
+          "text": "21 – 38 – 31"
+        },
+        {
+          "label": "3",
+          "text": "81 – 118 – 91"
+        },
+        {
+          "label": "4",
+          "text": "99 – 104 – 71"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 6,
+        "section": "Reasoning",
+        "question_text_full": "6. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (10/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "52 – 68 – 51"
+          },
+          {
+            "label": "2",
+            "text": "21 – 38 – 31"
+          },
+          {
+            "label": "3",
+            "text": "81 – 118 – 91"
+          },
+          {
+            "label": "4",
+            "text": "99 – 104 – 71"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 1,
+      "section_local_question_number": 6,
+      "global_question_number": 6,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png"
+    },
+    {
+      "question_number": 7,
+      "section": "Reasoning",
+      "question_text_full": "7. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its",
+      "options": [],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "Question is cut off at the bottom of the page.",
+      "raw_gemini_record": {
+        "question_number": 7,
+        "section": "Reasoning",
+        "question_text_full": "7. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its",
+        "options": [],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": false,
+        "confidence": "high",
+        "notes": "Question is cut off at the bottom of the page."
+      },
+      "source_page": 1,
+      "section_local_question_number": 7,
+      "global_question_number": 7,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_01.png"
+    },
+    {
+      "question_number": null,
+      "section": "Reasoning",
+      "question_text_full": "constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (11/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "128 : 16"
+        },
+        {
+          "label": "2",
+          "text": "151 : 19"
+        },
+        {
+          "label": "3",
+          "text": "135 : 17"
+        },
+        {
+          "label": "4",
+          "text": "103 : 13"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "This is the continuation of a question from the previous page.",
+      "raw_gemini_record": {
+        "question_number": null,
+        "section": "Reasoning",
+        "question_text_full": "constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (11/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "128 : 16"
+          },
+          {
+            "label": "2",
+            "text": "151 : 19"
+          },
+          {
+            "label": "3",
+            "text": "135 : 17"
+          },
+          {
+            "label": "4",
+            "text": "103 : 13"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": false,
+        "confidence": "high",
+        "notes": "This is the continuation of a question from the previous page."
+      },
+      "source_page": 2,
+      "section_local_question_number": null,
+      "global_question_number": 8,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png"
+    },
+    {
+      "question_number": 8,
+      "section": "Reasoning",
+      "question_text_full": "8. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (11/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "90 – 144"
+        },
+        {
+          "label": "2",
+          "text": "75 – 120"
+        },
+        {
+          "label": "3",
+          "text": "45 – 70"
+        },
+        {
+          "label": "4",
+          "text": "65 – 104"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 8,
+        "section": "Reasoning",
+        "question_text_full": "8. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (11/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "90 – 144"
+          },
+          {
+            "label": "2",
+            "text": "75 – 120"
+          },
+          {
+            "label": "3",
+            "text": "45 – 70"
+          },
+          {
+            "label": "4",
+            "text": "65 – 104"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 2,
+      "section_local_question_number": 8,
+      "global_question_number": 9,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png"
+    },
+    {
+      "question_number": 9,
+      "section": "Reasoning",
+      "question_text_full": "9. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (11/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "56 : 9"
+        },
+        {
+          "label": "2",
+          "text": "72 : 12"
+        },
+        {
+          "label": "3",
+          "text": "68 : 11"
+        },
+        {
+          "label": "4",
+          "text": "44 : 7"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 9,
+        "section": "Reasoning",
+        "question_text_full": "9. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (11/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "56 : 9"
+          },
+          {
+            "label": "2",
+            "text": "72 : 12"
+          },
+          {
+            "label": "3",
+            "text": "68 : 11"
+          },
+          {
+            "label": "4",
+            "text": "44 : 7"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 2,
+      "section_local_question_number": 9,
+      "global_question_number": 10,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png"
+    },
+    {
+      "question_number": 10,
+      "section": "Reasoning",
+      "question_text_full": "10. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (12/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "72 – 284 – 266"
+        },
+        {
+          "label": "2",
+          "text": "90 – 22– 12"
+        },
+        {
+          "label": "3",
+          "text": "81– 101– 92"
+        },
+        {
+          "label": "4",
+          "text": "540 – 188 – 128"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Question text is split across the bottom of column 1 and top of column 2.",
+      "raw_gemini_record": {
+        "question_number": 10,
+        "section": "Reasoning",
+        "question_text_full": "10. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (12/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "72 – 284 – 266"
+          },
+          {
+            "label": "2",
+            "text": "90 – 22– 12"
+          },
+          {
+            "label": "3",
+            "text": "81– 101– 92"
+          },
+          {
+            "label": "4",
+            "text": "540 – 188 – 128"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Question text is split across the bottom of column 1 and top of column 2."
+      },
+      "source_page": 2,
+      "section_local_question_number": 10,
+      "global_question_number": 11,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png"
+    },
+    {
+      "question_number": 11,
+      "section": "Reasoning",
+      "question_text_full": "11. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (12/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "23 – 8 – 343"
+        },
+        {
+          "label": "2",
+          "text": "19 – 11 – 330"
+        },
+        {
+          "label": "3",
+          "text": "12 – 7 – 209"
+        },
+        {
+          "label": "4",
+          "text": "15 – 9 – 264"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 11,
+        "section": "Reasoning",
+        "question_text_full": "11. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (12/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "23 – 8 – 343"
+          },
+          {
+            "label": "2",
+            "text": "19 – 11 – 330"
+          },
+          {
+            "label": "3",
+            "text": "12 – 7 – 209"
+          },
+          {
+            "label": "4",
+            "text": "15 – 9 – 264"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 2,
+      "section_local_question_number": 11,
+      "global_question_number": 12,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png"
+    },
+    {
+      "question_number": 12,
+      "section": "Reasoning",
+      "question_text_full": "12. Three of the following number-pairs are alike in some manner and hence form a group. Which number-pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (12/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "14 – 121"
+        },
+        {
+          "label": "2",
+          "text": "18 – 256"
+        },
+        {
+          "label": "3",
+          "text": "11 – 81"
+        },
+        {
+          "label": "4",
+          "text": "21 – 361"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 12,
+        "section": "Reasoning",
+        "question_text_full": "12. Three of the following number-pairs are alike in some manner and hence form a group. Which number-pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (12/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "14 – 121"
+          },
+          {
+            "label": "2",
+            "text": "18 – 256"
+          },
+          {
+            "label": "3",
+            "text": "11 – 81"
+          },
+          {
+            "label": "4",
+            "text": "21 – 361"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 2,
+      "section_local_question_number": 12,
+      "global_question_number": 13,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png"
+    },
+    {
+      "question_number": 13,
+      "section": "Reasoning",
+      "question_text_full": "13. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (13/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "13 – 8 – 109"
+        },
+        {
+          "label": "2",
+          "text": "21 – 4 – 89"
+        },
+        {
+          "label": "3",
+          "text": ""
+        },
+        {
+          "label": "4",
+          "text": ""
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "Options C and D are cut off at the bottom of the page.",
+      "raw_gemini_record": {
+        "question_number": 13,
+        "section": "Reasoning",
+        "question_text_full": "13. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (13/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "13 – 8 – 109"
+          },
+          {
+            "label": "2",
+            "text": "21 – 4 – 89"
+          },
+          {
+            "label": "3",
+            "text": ""
+          },
+          {
+            "label": "4",
+            "text": ""
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": false,
+        "confidence": "high",
+        "notes": "Options C and D are cut off at the bottom of the page."
+      },
+      "source_page": 2,
+      "section_local_question_number": 13,
+      "global_question_number": 14,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_02.png"
+    },
+    {
+      "question_number": 14,
+      "section": "Number Classification",
+      "question_text_full": "14. Three of the following four number-pairs are alike in a certain way and thus form a group. Which number-pair does NOT belong to that group? (NOTE: The relation should be found without breaking down the numbers into its constituent digits) (13/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "61,71"
+        },
+        {
+          "label": "2",
+          "text": "83, 97"
+        },
+        {
+          "label": "3",
+          "text": "31, 41"
+        },
+        {
+          "label": "4",
+          "text": "73, 79"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question.",
+      "raw_gemini_record": {
+        "question_number": 14,
+        "section": "Number Classification",
+        "question_text_full": "14. Three of the following four number-pairs are alike in a certain way and thus form a group. Which number-pair does NOT belong to that group? (NOTE: The relation should be found without breaking down the numbers into its constituent digits) (13/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "61,71"
+          },
+          {
+            "label": "2",
+            "text": "83, 97"
+          },
+          {
+            "label": "3",
+            "text": "31, 41"
+          },
+          {
+            "label": "4",
+            "text": "73, 79"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Standard classification question."
+      },
+      "source_page": 3,
+      "section_local_question_number": 14,
+      "global_question_number": 15,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png"
+    },
+    {
+      "question_number": 15,
+      "section": "Number Classification",
+      "question_text_full": "15. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (13/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "63 – 6 – 3"
+        },
+        {
+          "label": "2",
+          "text": "164 – 10 – 4"
+        },
+        {
+          "label": "3",
+          "text": "82 – 8 – 2"
+        },
+        {
+          "label": "4",
+          "text": "360 – 12 – 6"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question.",
+      "raw_gemini_record": {
+        "question_number": 15,
+        "section": "Number Classification",
+        "question_text_full": "15. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (13/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "63 – 6 – 3"
+          },
+          {
+            "label": "2",
+            "text": "164 – 10 – 4"
+          },
+          {
+            "label": "3",
+            "text": "82 – 8 – 2"
+          },
+          {
+            "label": "4",
+            "text": "360 – 12 – 6"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Standard classification question."
+      },
+      "source_page": 3,
+      "section_local_question_number": 15,
+      "global_question_number": 16,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png"
+    },
+    {
+      "question_number": 16,
+      "section": "Number Classification",
+      "question_text_full": "16. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (17/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "22 – 67 – 22"
+        },
+        {
+          "label": "2",
+          "text": "16 – 45 – 21"
+        },
+        {
+          "label": "3",
+          "text": "20 – 15 – 51"
+        },
+        {
+          "label": "4",
+          "text": "26 – 95 – 21"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question.",
+      "raw_gemini_record": {
+        "question_number": 16,
+        "section": "Number Classification",
+        "question_text_full": "16. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (17/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "22 – 67 – 22"
+          },
+          {
+            "label": "2",
+            "text": "16 – 45 – 21"
+          },
+          {
+            "label": "3",
+            "text": "20 – 15 – 51"
+          },
+          {
+            "label": "4",
+            "text": "26 – 95 – 21"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Standard classification question."
+      },
+      "source_page": 3,
+      "section_local_question_number": 16,
+      "global_question_number": 17,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png"
+    },
+    {
+      "question_number": 17,
+      "section": "Number Classification",
+      "question_text_full": "17. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (17/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "45 : 54"
+        },
+        {
+          "label": "2",
+          "text": "35 : 42"
+        },
+        {
+          "label": "3",
+          "text": "55 : 66"
+        },
+        {
+          "label": "4",
+          "text": "40 : 52"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question.",
+      "raw_gemini_record": {
+        "question_number": 17,
+        "section": "Number Classification",
+        "question_text_full": "17. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (17/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "45 : 54"
+          },
+          {
+            "label": "2",
+            "text": "35 : 42"
+          },
+          {
+            "label": "3",
+            "text": "55 : 66"
+          },
+          {
+            "label": "4",
+            "text": "40 : 52"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Standard classification question."
+      },
+      "source_page": 3,
+      "section_local_question_number": 17,
+      "global_question_number": 18,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png"
+    },
+    {
+      "question_number": 18,
+      "section": "Number Classification",
+      "question_text_full": "18. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (17/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "52 – 36 – 56"
+        },
+        {
+          "label": "2",
+          "text": "86 – 41 – 38"
+        },
+        {
+          "label": "3",
+          "text": "118 – 93 – 161"
+        },
+        {
+          "label": "4",
+          "text": "33 – 15 – 12"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question.",
+      "raw_gemini_record": {
+        "question_number": 18,
+        "section": "Number Classification",
+        "question_text_full": "18. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (17/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "52 – 36 – 56"
+          },
+          {
+            "label": "2",
+            "text": "86 – 41 – 38"
+          },
+          {
+            "label": "3",
+            "text": "118 – 93 – 161"
+          },
+          {
+            "label": "4",
+            "text": "33 – 15 – 12"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Standard classification question."
+      },
+      "source_page": 3,
+      "section_local_question_number": 18,
+      "global_question_number": 19,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png"
+    },
+    {
+      "question_number": 19,
+      "section": "Number Classification",
+      "question_text_full": "19. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (18/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "16 – 9 – 139"
+        },
+        {
+          "label": "2",
+          "text": "25 – 7 – 175"
+        },
+        {
+          "label": "3",
+          "text": "12 – 7 – 79"
+        },
+        {
+          "label": "4",
+          "text": "17 – 5 – 80"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Standard classification question.",
+      "raw_gemini_record": {
+        "question_number": 19,
+        "section": "Number Classification",
+        "question_text_full": "19. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (18/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "16 – 9 – 139"
+          },
+          {
+            "label": "2",
+            "text": "25 – 7 – 175"
+          },
+          {
+            "label": "3",
+            "text": "12 – 7 – 79"
+          },
+          {
+            "label": "4",
+            "text": "17 – 5 – 80"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Standard classification question."
+      },
+      "source_page": 3,
+      "section_local_question_number": 19,
+      "global_question_number": 20,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png"
+    },
+    {
+      "question_number": 20,
+      "section": "Number Classification",
+      "question_text_full": "20. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then",
+      "options": [],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "Question is cut off at the bottom of the page.",
+      "raw_gemini_record": {
+        "question_number": 20,
+        "section": "Number Classification",
+        "question_text_full": "20. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then",
+        "options": [],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": false,
+        "confidence": "high",
+        "notes": "Question is cut off at the bottom of the page."
+      },
+      "source_page": 3,
+      "section_local_question_number": 20,
+      "global_question_number": 21,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_03.png"
+    },
+    {
+      "question_number": null,
+      "section": "Reasoning",
+      "question_text_full": "...performing mathematical operations on 1 and 3 is not allowed.) (18/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 – 450"
+        },
+        {
+          "label": "2",
+          "text": "11 – 363"
+        },
+        {
+          "label": "3",
+          "text": "13 – 507"
+        },
+        {
+          "label": "4",
+          "text": "9 – 243"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "This is the continuation of a question from the previous page.",
+      "raw_gemini_record": {
+        "question_number": null,
+        "section": "Reasoning",
+        "question_text_full": "...performing mathematical operations on 1 and 3 is not allowed.) (18/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "15 – 450"
+          },
+          {
+            "label": "2",
+            "text": "11 – 363"
+          },
+          {
+            "label": "3",
+            "text": "13 – 507"
+          },
+          {
+            "label": "4",
+            "text": "9 – 243"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": false,
+        "confidence": "high",
+        "notes": "This is the continuation of a question from the previous page."
+      },
+      "source_page": 4,
+      "section_local_question_number": null,
+      "global_question_number": 22,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png"
+    },
+    {
+      "question_number": 21,
+      "section": "Reasoning",
+      "question_text_full": "21. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (18/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "7 – 392"
+        },
+        {
+          "label": "2",
+          "text": "4 – 128"
+        },
+        {
+          "label": "3",
+          "text": "11 – 882"
+        },
+        {
+          "label": "4",
+          "text": "3 – 72"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 21,
+        "section": "Reasoning",
+        "question_text_full": "21. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (18/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "7 – 392"
+          },
+          {
+            "label": "2",
+            "text": "4 – 128"
+          },
+          {
+            "label": "3",
+            "text": "11 – 882"
+          },
+          {
+            "label": "4",
+            "text": "3 – 72"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 4,
+      "section_local_question_number": 21,
+      "global_question_number": 23,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png"
+    },
+    {
+      "question_number": 22,
+      "section": "Reasoning",
+      "question_text_full": "22. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (19/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "55 : 9"
+        },
+        {
+          "label": "2",
+          "text": "19 : 3"
+        },
+        {
+          "label": "3",
+          "text": "24 : 4"
+        },
+        {
+          "label": "4",
+          "text": "49 : 8"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 22,
+        "section": "Reasoning",
+        "question_text_full": "22. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (19/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "55 : 9"
+          },
+          {
+            "label": "2",
+            "text": "19 : 3"
+          },
+          {
+            "label": "3",
+            "text": "24 : 4"
+          },
+          {
+            "label": "4",
+            "text": "49 : 8"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 4,
+      "section_local_question_number": 22,
+      "global_question_number": 24,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png"
+    },
+    {
+      "question_number": 23,
+      "section": "Reasoning",
+      "question_text_full": "23. The second number in the given number-pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) is/are followed in all the number-pairs, except one. Find that odd number-pair. (NOTE: The relation should be found without breaking down the numbers into its constituent digits (19/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "1764 : 1849"
+        },
+        {
+          "label": "2",
+          "text": "784 : 961"
+        },
+        {
+          "label": "3",
+          "text": "1521 : 1600"
+        },
+        {
+          "label": "4",
+          "text": "1156 : 1225"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Option D is located at the top of the second column.",
+      "raw_gemini_record": {
+        "question_number": 23,
+        "section": "Reasoning",
+        "question_text_full": "23. The second number in the given number-pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) is/are followed in all the number-pairs, except one. Find that odd number-pair. (NOTE: The relation should be found without breaking down the numbers into its constituent digits (19/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "1764 : 1849"
+          },
+          {
+            "label": "2",
+            "text": "784 : 961"
+          },
+          {
+            "label": "3",
+            "text": "1521 : 1600"
+          },
+          {
+            "label": "4",
+            "text": "1156 : 1225"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Option D is located at the top of the second column."
+      },
+      "source_page": 4,
+      "section_local_question_number": 23,
+      "global_question_number": 25,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png"
+    },
+    {
+      "question_number": 24,
+      "section": "Reasoning",
+      "question_text_full": "24. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (19/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "18 – 12 – 72"
+        },
+        {
+          "label": "2",
+          "text": "56 – 31 – 205"
+        },
+        {
+          "label": "3",
+          "text": "88 – 23 – 245"
+        },
+        {
+          "label": "4",
+          "text": "22 – 13 – 85"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 24,
+        "section": "Reasoning",
+        "question_text_full": "24. Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (19/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "18 – 12 – 72"
+          },
+          {
+            "label": "2",
+            "text": "56 – 31 – 205"
+          },
+          {
+            "label": "3",
+            "text": "88 – 23 – 245"
+          },
+          {
+            "label": "4",
+            "text": "22 – 13 – 85"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 4,
+      "section_local_question_number": 24,
+      "global_question_number": 26,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png"
+    },
+    {
+      "question_number": 25,
+      "section": "Reasoning",
+      "question_text_full": "25. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (23/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "21 – 14 – 72"
+        },
+        {
+          "label": "2",
+          "text": "18 – 11 – 63"
+        },
+        {
+          "label": "3",
+          "text": "15 – 3 – 108"
+        },
+        {
+          "label": "4",
+          "text": "12 – 8 – 36"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 25,
+        "section": "Reasoning",
+        "question_text_full": "25. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (23/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "21 – 14 – 72"
+          },
+          {
+            "label": "2",
+            "text": "18 – 11 – 63"
+          },
+          {
+            "label": "3",
+            "text": "15 – 3 – 108"
+          },
+          {
+            "label": "4",
+            "text": "12 – 8 – 36"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 4,
+      "section_local_question_number": 25,
+      "global_question_number": 27,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png"
+    },
+    {
+      "question_number": 26,
+      "section": "Reasoning",
+      "question_text_full": "26. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (23/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "72 : 48"
+        },
+        {
+          "label": "2",
+          "text": "36 : 24"
+        },
+        {
+          "label": "3",
+          "text": "12 : 8"
+        },
+        {
+          "label": "4",
+          "text": "24 : 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 26,
+        "section": "Reasoning",
+        "question_text_full": "26. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (23/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "72 : 48"
+          },
+          {
+            "label": "2",
+            "text": "36 : 24"
+          },
+          {
+            "label": "3",
+            "text": "12 : 8"
+          },
+          {
+            "label": "4",
+            "text": "24 : 4"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 4,
+      "section_local_question_number": 26,
+      "global_question_number": 28,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_04.png"
+    },
+    {
+      "question_number": null,
+      "section": "Number Classification",
+      "question_text_full": "pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (23/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "21 – 462"
+        },
+        {
+          "label": "2",
+          "text": "14 – 196"
+        },
+        {
+          "label": "3",
+          "text": "12 – 156"
+        },
+        {
+          "label": "4",
+          "text": "17 – 306"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "This is the continuation of a question from the previous page.",
+      "raw_gemini_record": {
+        "question_number": null,
+        "section": "Number Classification",
+        "question_text_full": "pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (23/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "21 – 462"
+          },
+          {
+            "label": "2",
+            "text": "14 – 196"
+          },
+          {
+            "label": "3",
+            "text": "12 – 156"
+          },
+          {
+            "label": "4",
+            "text": "17 – 306"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": false,
+        "confidence": "high",
+        "notes": "This is the continuation of a question from the previous page."
+      },
+      "source_page": 5,
+      "section_local_question_number": null,
+      "global_question_number": 29,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png"
+    },
+    {
+      "question_number": 28,
+      "section": "Number Classification",
+      "question_text_full": "Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (24/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "89 – 212 – 34"
+        },
+        {
+          "label": "2",
+          "text": "58 – 139 – 23"
+        },
+        {
+          "label": "3",
+          "text": "12 – 122 – 99"
+        },
+        {
+          "label": "4",
+          "text": "23 – 84 – 38"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 28,
+        "section": "Number Classification",
+        "question_text_full": "Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (24/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "89 – 212 – 34"
+          },
+          {
+            "label": "2",
+            "text": "58 – 139 – 23"
+          },
+          {
+            "label": "3",
+            "text": "12 – 122 – 99"
+          },
+          {
+            "label": "4",
+            "text": "23 – 84 – 38"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 5,
+      "section_local_question_number": 28,
+      "global_question_number": 30,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png"
+    },
+    {
+      "question_number": 29,
+      "section": "Number Classification",
+      "question_text_full": "The second number in the given number-pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) is/are followed in all the number-pairs, except one. Find that odd number-pair. (NOTE: The relation should be found without breaking down the numbers into its constituent digits) (24/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "23 : 552"
+        },
+        {
+          "label": "2",
+          "text": "25 : 650"
+        },
+        {
+          "label": "3",
+          "text": "13 : 182"
+        },
+        {
+          "label": "4",
+          "text": "18 : 306"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 29,
+        "section": "Number Classification",
+        "question_text_full": "The second number in the given number-pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) is/are followed in all the number-pairs, except one. Find that odd number-pair. (NOTE: The relation should be found without breaking down the numbers into its constituent digits) (24/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "23 : 552"
+          },
+          {
+            "label": "2",
+            "text": "25 : 650"
+          },
+          {
+            "label": "3",
+            "text": "13 : 182"
+          },
+          {
+            "label": "4",
+            "text": "18 : 306"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 5,
+      "section_local_question_number": 29,
+      "global_question_number": 31,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png"
+    },
+    {
+      "question_number": 30,
+      "section": "Number Classification",
+      "question_text_full": "Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (24/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "643"
+        },
+        {
+          "label": "2",
+          "text": "821"
+        },
+        {
+          "label": "3",
+          "text": "829"
+        },
+        {
+          "label": "4",
+          "text": "237"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 30,
+        "section": "Number Classification",
+        "question_text_full": "Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (24/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "643"
+          },
+          {
+            "label": "2",
+            "text": "821"
+          },
+          {
+            "label": "3",
+            "text": "829"
+          },
+          {
+            "label": "4",
+            "text": "237"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 5,
+      "section_local_question_number": 30,
+      "global_question_number": 32,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png"
+    },
+    {
+      "question_number": 31,
+      "section": "Number Classification",
+      "question_text_full": "The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (25/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "11 : 121"
+        },
+        {
+          "label": "2",
+          "text": "5 : 11"
+        },
+        {
+          "label": "3",
+          "text": "22 : 45"
+        },
+        {
+          "label": "4",
+          "text": "7 : 15"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 31,
+        "section": "Number Classification",
+        "question_text_full": "The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (25/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "11 : 121"
+          },
+          {
+            "label": "2",
+            "text": "5 : 11"
+          },
+          {
+            "label": "3",
+            "text": "22 : 45"
+          },
+          {
+            "label": "4",
+            "text": "7 : 15"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 5,
+      "section_local_question_number": 31,
+      "global_question_number": 33,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png"
+    },
+    {
+      "question_number": 32,
+      "section": "Number Classification",
+      "question_text_full": "Three of the following options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (25/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "36 – 88 – 80"
+        },
+        {
+          "label": "2",
+          "text": "34 – 56 – 62"
+        },
+        {
+          "label": "3",
+          "text": "68 – 54 – 94"
+        },
+        {
+          "label": "4",
+          "text": "23 – 56 -51"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 32,
+        "section": "Number Classification",
+        "question_text_full": "Three of the following options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (25/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "36 – 88 – 80"
+          },
+          {
+            "label": "2",
+            "text": "34 – 56 – 62"
+          },
+          {
+            "label": "3",
+            "text": "68 – 54 – 94"
+          },
+          {
+            "label": "4",
+            "text": "23 – 56 -51"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 5,
+      "section_local_question_number": 32,
+      "global_question_number": 34,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png"
+    },
+    {
+      "question_number": 33,
+      "section": "Number Classification",
+      "question_text_full": "The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (25/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 : 152"
+        },
+        {
+          "label": "2",
+          "text": "13 : 169"
+        },
+        {
+          "label": "3",
+          "text": "[Not visible]"
+        },
+        {
+          "label": "4",
+          "text": "[Not visible]"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "Options C and D are cut off at the bottom of the page.",
+      "raw_gemini_record": {
+        "question_number": 33,
+        "section": "Number Classification",
+        "question_text_full": "The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (25/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "12 : 152"
+          },
+          {
+            "label": "2",
+            "text": "13 : 169"
+          },
+          {
+            "label": "3",
+            "text": "[Not visible]"
+          },
+          {
+            "label": "4",
+            "text": "[Not visible]"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": false,
+        "confidence": "high",
+        "notes": "Options C and D are cut off at the bottom of the page."
+      },
+      "source_page": 5,
+      "section_local_question_number": 33,
+      "global_question_number": 35,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_05.png"
+    },
+    {
+      "question_number": 34,
+      "section": "Reasoning (Number Classification)",
+      "question_text_full": "Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (26/09/2024 SHIFT-1)",
+      "options": [
+        {
+          "label": "1",
+          "text": "90 – 51 – 13"
+        },
+        {
+          "label": "2",
+          "text": "67 – 45 – 23"
+        },
+        {
+          "label": "3",
+          "text": "82 – 46 – 10"
+        },
+        {
+          "label": "4",
+          "text": "90 – 99 – 108"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 34,
+        "section": "Reasoning (Number Classification)",
+        "question_text_full": "Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (26/09/2024 SHIFT-1)",
+        "options": [
+          {
+            "label": "1",
+            "text": "90 – 51 – 13"
+          },
+          {
+            "label": "2",
+            "text": "67 – 45 – 23"
+          },
+          {
+            "label": "3",
+            "text": "82 – 46 – 10"
+          },
+          {
+            "label": "4",
+            "text": "90 – 99 – 108"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 6,
+      "section_local_question_number": 34,
+      "global_question_number": 36,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_06.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_06.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_06.png"
+    },
+    {
+      "question_number": 35,
+      "section": "Reasoning (Number Classification)",
+      "question_text_full": "The second number in the given number pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) are followed in all the number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed (26/09/2024 SHIFT-2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "13 : 16"
+        },
+        {
+          "label": "2",
+          "text": "34 : 44"
+        },
+        {
+          "label": "3",
+          "text": "35 : 36"
+        },
+        {
+          "label": "4",
+          "text": "23 : 25"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 35,
+        "section": "Reasoning (Number Classification)",
+        "question_text_full": "The second number in the given number pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) are followed in all the number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed (26/09/2024 SHIFT-2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "13 : 16"
+          },
+          {
+            "label": "2",
+            "text": "34 : 44"
+          },
+          {
+            "label": "3",
+            "text": "35 : 36"
+          },
+          {
+            "label": "4",
+            "text": "23 : 25"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 6,
+      "section_local_question_number": 35,
+      "global_question_number": 37,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_06.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_06.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_06.png"
+    },
+    {
+      "question_number": 36,
+      "section": "Reasoning (Number Classification)",
+      "question_text_full": "Three of the following number-pairs are alike in some manner and hence form a group. Which number-pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (26/09/2024 SHIFT-3)",
+      "options": [
+        {
+          "label": "1",
+          "text": "9 – 121"
+        },
+        {
+          "label": "2",
+          "text": "12 – 225"
+        },
+        {
+          "label": "3",
+          "text": "6 – 64"
+        },
+        {
+          "label": "4",
+          "text": "8 – 100"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options C and D are located at the top right of the page.",
+      "raw_gemini_record": {
+        "question_number": 36,
+        "section": "Reasoning (Number Classification)",
+        "question_text_full": "Three of the following number-pairs are alike in some manner and hence form a group. Which number-pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (26/09/2024 SHIFT-3)",
+        "options": [
+          {
+            "label": "1",
+            "text": "9 – 121"
+          },
+          {
+            "label": "2",
+            "text": "12 – 225"
+          },
+          {
+            "label": "3",
+            "text": "6 – 64"
+          },
+          {
+            "label": "4",
+            "text": "8 – 100"
+          }
+        ],
+        "question_id": null,
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Options C and D are located at the top right of the page."
+      },
+      "source_page": 6,
+      "section_local_question_number": 36,
+      "global_question_number": 38,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "BLOCKED",
+      "evidence_reasons": [
+        "correct_option_unresolved"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options",
+        "correct_option_unresolved_or_conflict"
+      ],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_06.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_06.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier1_appx_answer_key\\page_images\\page_06.png"
+    }
+  ],
+  "canonical_review_count": 38,
+  "blocking_review_count": 38,
+  "asset_evidence_attached": true
+}

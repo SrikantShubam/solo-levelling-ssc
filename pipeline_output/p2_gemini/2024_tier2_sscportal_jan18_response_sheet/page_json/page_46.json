@@ -1,0 +1,74 @@
+{
+  "page": 46,
+  "questions": [
+    {
+      "question_number": 44,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in blank no. 1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "fall"
+        },
+        {
+          "label": "2",
+          "text": "pinnacle"
+        },
+        {
+          "label": "3",
+          "text": "foundation"
+        },
+        {
+          "label": "4",
+          "text": "middle"
+        }
+      ],
+      "question_id": "630680405733",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "pinnacle",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 45,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in blank no. 2.",
+      "options": [
+        {
+          "label": "1",
+          "text": "killing"
+        },
+        {
+          "label": "2",
+          "text": "hankering"
+        },
+        {
+          "label": "3",
+          "text": "sorrow"
+        },
+        {
+          "label": "4",
+          "text": "joy"
+        }
+      ],
+      "question_id": "630680405734",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "hankering",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,74 @@
+{
+  "page": 34,
+  "questions": [
+    {
+      "question_number": 33,
+      "section": "Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no. 4.",
+      "options": [
+        {
+          "label": "1",
+          "text": "engage"
+        },
+        {
+          "label": "2",
+          "text": "coincide"
+        },
+        {
+          "label": "3",
+          "text": "evolve"
+        },
+        {
+          "label": "4",
+          "text": "manifest"
+        }
+      ],
+      "question_id": "264330171954",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "engage",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 34,
+      "section": "Comprehension",
+      "question_text_full": "Identify the structure of the passage.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cause and effect"
+        },
+        {
+          "label": "2",
+          "text": "Sequential"
+        },
+        {
+          "label": "3",
+          "text": "Classification"
+        },
+        {
+          "label": "4",
+          "text": "Descriptive"
+        }
+      ],
+      "question_id": "264330168513",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Descriptive",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

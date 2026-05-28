@@ -1,0 +1,134 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": null,
+      "question_text_full": "In which year was Project Tiger launched in India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1973"
+        },
+        {
+          "label": "2",
+          "text": "1970"
+        },
+        {
+          "label": "3",
+          "text": "1972"
+        },
+        {
+          "label": "4",
+          "text": "1985"
+        }
+      ],
+      "question_id": "630680302674",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "1973",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "Lathmar Holi is primarily celebrated in the state of:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Karnataka"
+        },
+        {
+          "label": "2",
+          "text": "Himachal Pradesh"
+        },
+        {
+          "label": "3",
+          "text": "Arunachal Pradesh"
+        },
+        {
+          "label": "4",
+          "text": "Uttar Pradesh"
+        }
+      ],
+      "question_id": "630680305975",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Uttar Pradesh",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Which of the following awards was won by Lata Mangeshkar in the year 2001?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Dadasaheb Phalke Award"
+        },
+        {
+          "label": "2",
+          "text": "Padma Vibhushan"
+        },
+        {
+          "label": "3",
+          "text": "Bharat Ratna"
+        },
+        {
+          "label": "4",
+          "text": "Filmfare Lifetime Achievement Award"
+        }
+      ],
+      "question_id": "630680309203",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "Bharat Ratna",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Details about Sudarshana lake is given in a rock inscription at Girnar (Junagarh), which was composed to record the achievements of the Shaka ruler _________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Chashtana"
+        },
+        {
+          "label": "2",
+          "text": "Rudradaman I"
+        },
+        {
+          "label": "3",
+          "text": "Rudrasimha III"
+        },
+        {
+          "label": "4",
+          "text": "Maues"
+        }
+      ],
+      "question_id": "630680412470",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Rudradaman I",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

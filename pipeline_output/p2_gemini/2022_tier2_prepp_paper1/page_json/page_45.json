@@ -1,0 +1,134 @@
+{
+  "page": 45,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "The Act that is also known as ‘Morley-Minto Reforms’ is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Government of India Act, 1935"
+        },
+        {
+          "label": "2",
+          "text": "Indian Councils Act, 1909"
+        },
+        {
+          "label": "3",
+          "text": "Rowlatt Act, 1919"
+        },
+        {
+          "label": "4",
+          "text": "Government of India Act, 1912"
+        }
+      ],
+      "question_id": "26433055625",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Indian Councils Act, 1909",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Which of the following was the first B vitamin discovered in 1897?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Folate"
+        },
+        {
+          "label": "2",
+          "text": "Biotin"
+        },
+        {
+          "label": "3",
+          "text": "Riboflavin"
+        },
+        {
+          "label": "4",
+          "text": "Thiamine"
+        }
+      ],
+      "question_id": "264330123820",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Thiamine",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "In which year did Albert Einstein predict a new state of matter, the Bose-Einstein condensate (BEC), based on a quantum formulation by the Indian physicist Satyendra Nath Bose?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1935"
+        },
+        {
+          "label": "2",
+          "text": "1924"
+        },
+        {
+          "label": "3",
+          "text": "1930"
+        },
+        {
+          "label": "4",
+          "text": "1919"
+        }
+      ],
+      "question_id": "264330123872",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "1924",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "What was India's rank in the Asia-Pacific Personalised Health Index released by the Economist Intelligence Unit in January 2021?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10th"
+        },
+        {
+          "label": "2",
+          "text": "9th"
+        },
+        {
+          "label": "3",
+          "text": "11th"
+        },
+        {
+          "label": "4",
+          "text": "12th"
+        }
+      ],
+      "question_id": "26433072901",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "10th",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

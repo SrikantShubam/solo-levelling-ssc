@@ -1,0 +1,104 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Three of the following words are alike in some manner and hence form a group. Which word does NOT belong to that group? (The words must be considered as meaningful English words and must not be grouped based on the number of letters/number of consonants/vowels in the word)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Excel"
+        },
+        {
+          "label": "2",
+          "text": "Keynote"
+        },
+        {
+          "label": "3",
+          "text": "PowerPoint"
+        },
+        {
+          "label": "4",
+          "text": "Word"
+        }
+      ],
+      "question_id": "26433065633",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Keynote",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘PAINT’ is written as ‘80’ and ‘DROP’ is written as ‘59’. How will ‘MARKET’ be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "100"
+        },
+        {
+          "label": "2",
+          "text": "85"
+        },
+        {
+          "label": "3",
+          "text": "95"
+        },
+        {
+          "label": "4",
+          "text": "90"
+        }
+      ],
+      "question_id": "264330126266",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "100",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "A number has been denoted to each of the given letters. Select the option from the following four possible arrangements of these numbers that forms a meaningful word. E = 1, Z = 2, L = 3, P = 4, U = 5, Z = 6",
+      "options": [
+        {
+          "label": "1",
+          "text": "4,5,1,6,2,3"
+        },
+        {
+          "label": "2",
+          "text": "6,1,4,3,5,2"
+        },
+        {
+          "label": "3",
+          "text": "1,5,3,4,2,6"
+        },
+        {
+          "label": "4",
+          "text": "4,5,6,2,3,1"
+        }
+      ],
+      "question_id": "264330121088",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "4,5,6,2,3,1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

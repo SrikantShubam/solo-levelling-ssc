@@ -1,0 +1,126 @@
+{
+  "page": 57,
+  "questions": [
+    {
+      "question_number": 102,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’. This appears to be the handiwork of someone who to belong to a criminal gang.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No substitution required"
+        },
+        {
+          "label": "2",
+          "text": "who belongs"
+        },
+        {
+          "label": "3",
+          "text": "who is belonging"
+        },
+        {
+          "label": "4",
+          "text": "which belongs"
+        }
+      ],
+      "question_id": "8161615571",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "who belongs",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 103,
+      "section": null,
+      "question_text_full": "Parts of the following sentence are given as options. Identify the segment that contains a grammatical error. No sooner had Kavya started her online class that the web connection was lost.",
+      "options": [
+        {
+          "label": "1",
+          "text": "was lost"
+        },
+        {
+          "label": "2",
+          "text": "that the web connection"
+        },
+        {
+          "label": "3",
+          "text": "No sooner had Kavya"
+        },
+        {
+          "label": "4",
+          "text": "started her online class"
+        }
+      ],
+      "question_id": "8161615552",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "that the web connection",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 104,
+      "section": null,
+      "question_text_full": "Select the most appropriate direct form of the given sentence. Madhuri told me that I could stay in her flat whenever I was in Kolkata.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Madhuri said to me, “I could stay in her flat whenever I was in Kolkata.”"
+        },
+        {
+          "label": "2",
+          "text": "Madhuri said to me, “You could stay in her flat whenever she was in Kolkata.”"
+        },
+        {
+          "label": "3",
+          "text": "Madhuri said to me, “I can stay in my flat whenever I am in Kolkata.”"
+        },
+        {
+          "label": "4",
+          "text": "Madhuri said to me, “You can stay in my flat whenever you are in Kolkata.”"
+        }
+      ],
+      "question_id": "8161615623",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Madhuri said to me, “You can stay in my flat whenever you are in Kolkata.”",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 105,
+      "section": null,
+      "question_text_full": "Parts of the following sentence are given as options. Identify the segment that contains a grammatical error. He was not able to give many time to his research.",
+      "options": [
+        {
+          "label": "1",
+          "text": "He was not able"
+        },
+        {
+          "label": "2",
+          "text": "many time"
+        },
+        {
+          "label": "3",
+          "text": "to give"
+        },
+        {
+          "label": "4",
+          "text": "to his research"
+        }
+      ],
+      "question_id": "8161615548",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "many time",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

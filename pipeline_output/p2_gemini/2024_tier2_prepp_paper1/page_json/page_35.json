@@ -1,0 +1,77 @@
+{
+  "page": 35,
+  "questions": [
+    {
+      "question_number": 72,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech.\n\"The teacher informed that the exam had been postponed.\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "The teacher informs, \"The exam had been postponed.\""
+        },
+        {
+          "label": "2",
+          "text": "The teacher informed, \"The exam was being postponed.\""
+        },
+        {
+          "label": "3",
+          "text": "The teacher informs, \"The exam has been postponed.\""
+        },
+        {
+          "label": "4",
+          "text": "The teacher informed, \"The exam has been postponed.\""
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain the answer key (Ans block) for these questions."
+    },
+    {
+      "question_number": 73,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Psychotherapy is a voluntary relationship between the one seeking treatment or the client and the one who treats or the therapist.\nB. The relationship is conducive for building the trust of the client so that problems may be freely discussed.\nC. The purpose of the relationship is to help the client to solve the psychological problems being faced by him or her.\nD. Psychotherapy aims at changing the maladaptive behaviours, decreasing the sense of personal distress and helping the client to adapt to the healthier environment.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The options for this question are missing from the provided image."
+    }
+  ],
+  "warnings": [
+    "Question 73 options are missing from the source image.",
+    "Answer keys (Ans blocks) are missing for all questions in the provided image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

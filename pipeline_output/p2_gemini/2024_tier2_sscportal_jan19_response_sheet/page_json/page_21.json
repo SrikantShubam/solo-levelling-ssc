@@ -1,0 +1,104 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 55,
+      "section": null,
+      "question_text_full": "If S² is the sample variance of a sample of size n and s² is an unbiased estimator of population variance, then which of the following is true?",
+      "options": [
+        {
+          "label": "1",
+          "text": "n s² = (n - 1) S²"
+        },
+        {
+          "label": "2",
+          "text": "(n - 1) s² = n S²"
+        },
+        {
+          "label": "3",
+          "text": "(n + 1) s² = n S²"
+        },
+        {
+          "label": "4",
+          "text": "n s² = (n + 1) S²"
+        }
+      ],
+      "question_id": "6306801300047",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "(n - 1) s² = n S²",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 56,
+      "section": null,
+      "question_text_full": "For three random variables X₁, X₂ and X₃, correlation coefficients between pairs of random variables are r₁₂ = sin²θ, r₁₃ = cosθ and r₂₃ = sinθ. The partial correlation coefficient r₁₂.₃ is given by:",
+      "options": [
+        {
+          "label": "1",
+          "text": "tanθ - 1"
+        },
+        {
+          "label": "2",
+          "text": "sinθ - 1"
+        },
+        {
+          "label": "3",
+          "text": "cotθ - 1"
+        },
+        {
+          "label": "4",
+          "text": "cosθ - 1"
+        }
+      ],
+      "question_id": "6306801352938",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "tanθ - 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 57,
+      "section": null,
+      "question_text_full": "Which of the following statements is NOT true about a critical region w?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Known as region of acceptance"
+        },
+        {
+          "label": "2",
+          "text": "Alternative hypothesis accepted if set points lie in w"
+        },
+        {
+          "label": "3",
+          "text": "Null hypothesis rejected if set points lie in w"
+        },
+        {
+          "label": "4",
+          "text": "Known as region of rejection"
+        }
+      ],
+      "question_id": "6306801307936",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "Alternative hypothesis accepted if set points lie in w",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

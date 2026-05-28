@@ -1,0 +1,36 @@
+{
+  "page": 23,
+  "questions": [
+    {
+      "question_number": 34,
+      "section": null,
+      "question_text_full": "The spread of fire can be contained effectively by:",
+      "options": [
+        {
+          "label": "1",
+          "text": "digging earth boundaries"
+        },
+        {
+          "label": "2",
+          "text": "spraying fire retardant from the ground"
+        },
+        {
+          "label": "3",
+          "text": "spraying fire retardant from the air"
+        },
+        {
+          "label": "4",
+          "text": "spraying the forests with water"
+        }
+      ],
+      "question_id": "8161615510",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "digging earth boundaries",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

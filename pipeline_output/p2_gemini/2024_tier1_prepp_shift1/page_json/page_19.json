@@ -1,0 +1,136 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 38,
+      "section": null,
+      "question_text_full": "Who among the following was selected as the Sherpa for India’s G20 hosted in 2022-23?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Piyush Goyal"
+        },
+        {
+          "label": "2",
+          "text": "Ashwini Vaishnaw"
+        },
+        {
+          "label": "3",
+          "text": "Shaktikanta Das"
+        },
+        {
+          "label": "4",
+          "text": "Amitabh Kant"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for any questions."
+    },
+    {
+      "question_number": 39,
+      "section": null,
+      "question_text_full": "Purvanchal Himalayas does NOT comprise of:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Naga hills"
+        },
+        {
+          "label": "2",
+          "text": "Pir Panjal range"
+        },
+        {
+          "label": "3",
+          "text": "Manipur hills"
+        },
+        {
+          "label": "4",
+          "text": "Mizo hills"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for any questions."
+    },
+    {
+      "question_number": 40,
+      "section": null,
+      "question_text_full": "In which year did India make its Olympic debut in hockey?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1936"
+        },
+        {
+          "label": "2",
+          "text": "1932"
+        },
+        {
+          "label": "3",
+          "text": "1924"
+        },
+        {
+          "label": "4",
+          "text": "1928"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for any questions."
+    },
+    {
+      "question_number": 41,
+      "section": null,
+      "question_text_full": "A student, on his school assignment, is taking a session on how to make compost at home for using it at a park. Which fundamental duty is he",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Question text is cut off at the bottom of the page and options are missing."
+    }
+  ],
+  "warnings": [
+    "Question 41 is incomplete on the page and lacks visible options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

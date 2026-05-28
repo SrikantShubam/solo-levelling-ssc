@@ -1,0 +1,126 @@
+{
+  "page": 28,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nThe increasing concerns about climate change point to the need for enhanced efforts towards ______ sustained growth.",
+      "options": [
+        {
+          "label": "1",
+          "text": "achieving"
+        },
+        {
+          "label": "2",
+          "text": "to achieve"
+        },
+        {
+          "label": "3",
+          "text": "achieved"
+        },
+        {
+          "label": "4",
+          "text": "achieve"
+        }
+      ],
+      "question_id": "65497843170",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "achieving",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nTo walk aimlessly",
+      "options": [
+        {
+          "label": "1",
+          "text": "Amble"
+        },
+        {
+          "label": "2",
+          "text": "Crawl"
+        },
+        {
+          "label": "3",
+          "text": "Sprint"
+        },
+        {
+          "label": "4",
+          "text": "Slither"
+        }
+      ],
+      "question_id": "65497843168",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Amble",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nostentatious",
+      "options": [
+        {
+          "label": "1",
+          "text": "showy"
+        },
+        {
+          "label": "2",
+          "text": "tasteful"
+        },
+        {
+          "label": "3",
+          "text": "sudden"
+        },
+        {
+          "label": "4",
+          "text": "quick"
+        }
+      ],
+      "question_id": "65497843767",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "showy",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nIn the same breath",
+      "options": [
+        {
+          "label": "1",
+          "text": "Try and hold your breath"
+        },
+        {
+          "label": "2",
+          "text": "Say two contradictory things at the same time"
+        },
+        {
+          "label": "3",
+          "text": "Able to get a foul smell"
+        },
+        {
+          "label": "4",
+          "text": "Practice breathing exercises"
+        }
+      ],
+      "question_id": "65497842358",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Say two contradictory things at the same time",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

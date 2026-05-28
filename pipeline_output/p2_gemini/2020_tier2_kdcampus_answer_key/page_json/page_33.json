@@ -1,0 +1,194 @@
+{
+  "page": 33,
+  "questions": [
+    {
+      "question_number": 195,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nA long wooden seat with a back for people to sit on in a church",
+      "options": [
+        {
+          "label": "1",
+          "text": "Aisle"
+        },
+        {
+          "label": "2",
+          "text": "Pulpit"
+        },
+        {
+          "label": "3",
+          "text": "Pew"
+        },
+        {
+          "label": "4",
+          "text": "Altar"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 196,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nAgainst one's grain",
+      "options": [
+        {
+          "label": "1",
+          "text": "Against the law"
+        },
+        {
+          "label": "2",
+          "text": "Against the society"
+        },
+        {
+          "label": "3",
+          "text": "Against one's nature"
+        },
+        {
+          "label": "4",
+          "text": "Against one's family"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 197,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice.\nA defamation case is being filed by him against his business partner.",
+      "options": [
+        {
+          "label": "1",
+          "text": "He is filing a defamation case against his business partner."
+        },
+        {
+          "label": "2",
+          "text": "He has filed a defamation case against his business partner."
+        },
+        {
+          "label": "3",
+          "text": "He has been filing a defamation case against his business partner."
+        },
+        {
+          "label": "4",
+          "text": "His business partner is filing a defamation case against him."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 198,
+      "section": null,
+      "question_text_full": "Select the INCORRECTLY spelt word.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Countenance"
+        },
+        {
+          "label": "2",
+          "text": "Perseverance"
+        },
+        {
+          "label": "3",
+          "text": "Maintainence"
+        },
+        {
+          "label": "4",
+          "text": "Assistance"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 199,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Expert designers standardise basic designs, leaving scope for the satisfaction of individual taste.\nB. However, uniformity does not imply lack of taste.\nC. Mechanical production of goods leads to uniformity of design.\nD. In fact, popular taste has improved because standardised goods of better design are now accessible.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ADBC"
+        },
+        {
+          "label": "2",
+          "text": "CBDA"
+        },
+        {
+          "label": "3",
+          "text": "CDAB"
+        },
+        {
+          "label": "4",
+          "text": "ACDB"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 200,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice.\nWere you sent summons by the court?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Has the court sent you summons?"
+        },
+        {
+          "label": "2",
+          "text": "Did the court send you summons?"
+        },
+        {
+          "label": "3",
+          "text": "Will the court send you summons?"
+        },
+        {
+          "label": "4",
+          "text": "Is the court sending you summons?"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

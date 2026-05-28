@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: ssc-corpus
+Version: 0.1.0
+Summary: SSC corpus acquisition and integrity tooling.
+Requires-Python: >=3.10

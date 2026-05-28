@@ -1,0 +1,104 @@
+{
+  "page": 2,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "A bike is sold for ₹87,500 by allowing a discount of 44% on its marked price. The marked price (in ₹) of the bike is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1,56,100"
+        },
+        {
+          "label": "2",
+          "text": "1,58,225"
+        },
+        {
+          "label": "3",
+          "text": "1,56,250"
+        },
+        {
+          "label": "4",
+          "text": "1,55,500"
+        }
+      ],
+      "question_id": "264330121708",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1,56,250",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "A,B, C are three points such that AB = 9 cm, BC = 11 cm and AC = 20 cm. The number of circles passing through points A,B,C is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "question_id": "264330126437",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "0",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "A glass jar contains 6 white, 8 black, 4 red and 3 blue marbles. If a single marble is chosen at random from the jar, what is the probability that it is black or blue?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8/21"
+        },
+        {
+          "label": "2",
+          "text": "11/21"
+        },
+        {
+          "label": "3",
+          "text": "5/21"
+        },
+        {
+          "label": "4",
+          "text": "1/7"
+        }
+      ],
+      "question_id": "264330121737",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "11/21",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,137 @@
+{
+  "page": 58,
+  "questions": [
+    {
+      "question_number": 113,
+      "section": null,
+      "question_text_full": "Identify the naturally occurring aluminum oxide mineral that usually forms hexagonal barrel-shaped prisms.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Corundum"
+        },
+        {
+          "label": "2",
+          "text": "Dolomite"
+        },
+        {
+          "label": "3",
+          "text": "Olivine"
+        },
+        {
+          "label": "4",
+          "text": "Chalcopyrite"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green ticks/red crosses) for any questions."
+    },
+    {
+      "question_number": 114,
+      "section": null,
+      "question_text_full": "The Bharatmala project of the Government of India comes under which of the following Ministries of India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ministry of Ports Shipping and Waterways"
+        },
+        {
+          "label": "2",
+          "text": "Ministry of Environment and Forest and Climate Change"
+        },
+        {
+          "label": "3",
+          "text": "Ministry of Home Affairs"
+        },
+        {
+          "label": "4",
+          "text": "Ministry of Road Transport and Highways"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green ticks/red crosses) for any questions."
+    },
+    {
+      "question_number": 115,
+      "section": null,
+      "question_text_full": "Mathura was the second capital of ______ dynasty.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Gupta"
+        },
+        {
+          "label": "2",
+          "text": "Maurya"
+        },
+        {
+          "label": "3",
+          "text": "Kushana"
+        },
+        {
+          "label": "4",
+          "text": "Maukhri"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green ticks/red crosses) for any questions."
+    },
+    {
+      "question_number": 116,
+      "section": null,
+      "question_text_full": "Which of the following statements is/are correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Not visible"
+        },
+        {
+          "label": "2",
+          "text": "Not visible"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question text is present, but options are cut off by the footer."
+    }
+  ],
+  "warnings": [
+    "Question 116 is incomplete as the options are not visible on the page.",
+    "No answer keys (green ticks/red crosses) are present on this page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

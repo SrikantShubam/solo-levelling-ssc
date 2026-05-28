@@ -1,0 +1,66 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Select the figure from among the given options that can replace the question mark (?) in the following series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "65497843089",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "In a certain code language, 6219 means ‘Sachin is a cricketer’ and 2646 means ‘He played from Mumbai’. Which of the following is the code for ‘Mumbai is very famous’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7945"
+        },
+        {
+          "label": "2",
+          "text": "6246"
+        },
+        {
+          "label": "3",
+          "text": "6285"
+        },
+        {
+          "label": "4",
+          "text": "2458"
+        }
+      ],
+      "question_id": "65497842268",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "6246",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,96 @@
+{
+  "page": 79,
+  "questions": [
+    {
+      "question_number": 173,
+      "section": null,
+      "question_text_full": "Given below are four sentences in jumbled order. Pick the option that gives their correct order.\nA. The last exam of the year was history, which had always been my worst subject.\nB. So, I decided to write the dates and names of the important events on the inside of my arm.\nC. This happened when I was about 14 years old.\nD. I was useless at remembering dates and people's names",
+      "options": [
+        {
+          "label": "1",
+          "text": "ACBD"
+        },
+        {
+          "label": "2",
+          "text": "DBCA"
+        },
+        {
+          "label": "3",
+          "text": "CBDA"
+        },
+        {
+          "label": "4",
+          "text": "CADB"
+        }
+      ],
+      "question_id": "26433083256",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "CADB",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 174,
+      "section": null,
+      "question_text_full": "Select the most appropriate one word to substitute the given group of words.\none who lives on others",
+      "options": [
+        {
+          "label": "1",
+          "text": "hypocrite"
+        },
+        {
+          "label": "2",
+          "text": "shrewd"
+        },
+        {
+          "label": "3",
+          "text": "flatterer"
+        },
+        {
+          "label": "4",
+          "text": "parasite"
+        }
+      ],
+      "question_id": "26433083298",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "parasite",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 175,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the sentence. In case no improvement is needed, select ‘No Improvement’.\nMany battles was fought on the soil of India.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Many a battle was"
+        },
+        {
+          "label": "2",
+          "text": "No Improvement"
+        },
+        {
+          "label": "3",
+          "text": "Much battle was"
+        },
+        {
+          "label": "4",
+          "text": "Many battle were"
+        }
+      ],
+      "question_id": "26433083161",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Many a battle was",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

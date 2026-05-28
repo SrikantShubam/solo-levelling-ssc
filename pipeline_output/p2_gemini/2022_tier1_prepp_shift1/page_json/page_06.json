@@ -1,0 +1,96 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "In a certain code language, FRUCTUS is coded as 108, and SPRINTER is coded as 119. How will MASCULINE be coded in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "96"
+        },
+        {
+          "label": "2",
+          "text": "99"
+        },
+        {
+          "label": "3",
+          "text": "97"
+        },
+        {
+          "label": "4",
+          "text": "98"
+        }
+      ],
+      "question_id": "26433067999",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "97",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "In the following question below are given some statements followed by some conclusions based on those statements. Taking the given statements to be true even if they seem to be at variance from commonly known facts. Read all the conclusions and then decide which of the given conclusion logically follows the given statements.\nStatements:\nI. All W are S.\nII. No D is W.\nConclusion:\nI. Some S are W.\nII. All S are D.\nIII. No W is D.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion III follows"
+        },
+        {
+          "label": "2",
+          "text": "Both conclusions I and III follows"
+        },
+        {
+          "label": "3",
+          "text": "Both conclusions I and II follows"
+        },
+        {
+          "label": "4",
+          "text": "All conclusion follows"
+        }
+      ],
+      "question_id": "264330104941",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Both conclusions I and III follows",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "A series is given with one term missing. Select the correct alternative from the given ones that will complete the series.\nNMRQ, NDZG, NUHW, NLPM, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "NQRC"
+        },
+        {
+          "label": "2",
+          "text": "NCXC"
+        },
+        {
+          "label": "3",
+          "text": "NHMH"
+        },
+        {
+          "label": "4",
+          "text": "MQRQ"
+        }
+      ],
+      "question_id": "264330104833",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "NCXC",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

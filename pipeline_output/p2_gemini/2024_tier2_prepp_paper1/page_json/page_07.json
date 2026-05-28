@@ -1,0 +1,136 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Find the volume (in cm³, rounded off to 2 decimal places) of a right circular cone of diameter 12 cm and height 5 cm. [Use π = 22/7]",
+      "options": [
+        {
+          "label": "1",
+          "text": "197.25"
+        },
+        {
+          "label": "2",
+          "text": "156.39"
+        },
+        {
+          "label": "3",
+          "text": "188.57"
+        },
+        {
+          "label": "4",
+          "text": "147.23"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options labeled a, b, c, d mapped to 1, 2, 3, 4."
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "∛6859 ÷ ∛1296 × (3 ÷ 57) × 42 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7"
+        },
+        {
+          "label": "2",
+          "text": "-3"
+        },
+        {
+          "label": "3",
+          "text": "16"
+        },
+        {
+          "label": "4",
+          "text": "17"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options labeled a, b, c, d mapped to 1, 2, 3, 4."
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "If x = 8 + √5 and y= 8-√5 then the value of x² + y² is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "138"
+        },
+        {
+          "label": "2",
+          "text": "143"
+        },
+        {
+          "label": "3",
+          "text": "140"
+        },
+        {
+          "label": "4",
+          "text": "124"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options labeled a, b, c, d mapped to 1, 2, 3, 4."
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "A sum of money is to be distributed among 3 friends P, Q and R in the proportion of 5:3:4. If P gets ₹1,500 more than R, what is Q's share?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question 16 is incomplete; options are not visible on the page."
+    }
+  ],
+  "warnings": [
+    "Question 16 is incomplete on the page and lacks visible options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

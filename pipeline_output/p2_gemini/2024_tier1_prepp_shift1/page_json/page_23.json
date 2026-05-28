@@ -1,0 +1,46 @@
+{
+  "page": 23,
+  "questions": [
+    {
+      "question_number": 50,
+      "section": null,
+      "question_text_full": "Which of the following is NOT an amendment made to the Airport Economic Regulatory Authority (AERA) Amendment Act, 2021?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The government can call any airport a major airport just by notification."
+        },
+        {
+          "label": "2",
+          "text": "The government will club together profit-making and loss-making airports."
+        },
+        {
+          "label": "3",
+          "text": "The government can offer airports as a package in PPP mode to the prospective bidders."
+        },
+        {
+          "label": "4",
+          "text": "A major airport is one which has an annual traffic of minimum 35 lakh passengers."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the source, but mapped to 1, 2, 3, 4 as per instructions."
+    }
+  ],
+  "warnings": [
+    "No answer key (green tick) is visible on the provided page for question 50."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

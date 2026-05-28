@@ -1,0 +1,74 @@
+{
+  "page": 40,
+  "questions": [
+    {
+      "question_number": 37,
+      "section": "Comprehension",
+      "question_text_full": "Which skill is used by a reader when he evaluates the same information and makes judgments based on evidence?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Analytical skill"
+        },
+        {
+          "label": "2",
+          "text": "Drawing skill"
+        },
+        {
+          "label": "3",
+          "text": "Technical skill"
+        },
+        {
+          "label": "4",
+          "text": "Critical skill"
+        }
+      ],
+      "question_id": "630680512953",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Critical skill",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 38,
+      "section": "Comprehension",
+      "question_text_full": "Select the most appropriate synonym of the word 'impurities' from the options given below.",
+      "options": [
+        {
+          "label": "1",
+          "text": "cleanliness"
+        },
+        {
+          "label": "2",
+          "text": "purity"
+        },
+        {
+          "label": "3",
+          "text": "scum"
+        },
+        {
+          "label": "4",
+          "text": "pureness"
+        }
+      ],
+      "question_id": "630680545663",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "scum",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

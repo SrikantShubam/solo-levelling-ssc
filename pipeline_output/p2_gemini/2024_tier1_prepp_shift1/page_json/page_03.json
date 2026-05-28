@@ -1,0 +1,76 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "Three statements are given, followed by three conclusions numbered I, II and III. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusions logically follow(s) from the statements.\n\nStatements:\nAll pages are diaries.\nSome diaries are books.\nAll books are notebooks.\n\nConclusions:\nI. No page is a notebook.\nII. All pages are notebooks.\nIII. All diaries being notebooks is a possibility.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Both conclusion I and II follow"
+        },
+        {
+          "label": "2",
+          "text": "Only conclusions I and III follow"
+        },
+        {
+          "label": "3",
+          "text": "Only conclusion III follows"
+        },
+        {
+          "label": "4",
+          "text": "Only conclusion II follows"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 2,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "The position of how many letters will remain unchanged, if all the letters in the word BINDER are arranged in English alphabetical order?",
+      "options": [
+        {
+          "label": "1",
+          "text": "None"
+        },
+        {
+          "label": "2",
+          "text": "One"
+        },
+        {
+          "label": "3",
+          "text": "Two"
+        },
+        {
+          "label": "4",
+          "text": "Not enough information provided on page"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Only three options (a, b, c) are visible for this question. Option 4 is missing."
+    }
+  ],
+  "warnings": [
+    "Question 2 is incomplete as it only displays three options (a, b, c) instead of four."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

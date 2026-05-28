@@ -1,0 +1,104 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Find the median of the following data. (Rounded off to 2 decimal places.)\nClass interval 0-5 5-10 10-15 15-20 20-25 25-30 30-35\nFrequency 3 5 4 2 7 6 5",
+      "options": [
+        {
+          "label": "1",
+          "text": "18.64"
+        },
+        {
+          "label": "2",
+          "text": "20.53"
+        },
+        {
+          "label": "3",
+          "text": "21.43"
+        },
+        {
+          "label": "4",
+          "text": "23.40"
+        }
+      ],
+      "question_id": "630680541168",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "21.43",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "Let ABC be a right-angled triangle with a right angle at B. If tan A = √3, then find the value of sin A cos C + cos A sin C and cos A cos C - sin A sin C.",
+      "options": [
+        {
+          "label": "1",
+          "text": "√3/2, √3/2"
+        },
+        {
+          "label": "2",
+          "text": "1/2, 1/2"
+        },
+        {
+          "label": "3",
+          "text": "1, 0"
+        },
+        {
+          "label": "4",
+          "text": "√3/2, 1/2"
+        }
+      ],
+      "question_id": "630680526624",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1, 0",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "Simplify (5z - 12y)² + (12z + 5y)² - 144z²",
+      "options": [
+        {
+          "label": "1",
+          "text": "25z² + 169y²"
+        },
+        {
+          "label": "2",
+          "text": "23z² + 177y²"
+        },
+        {
+          "label": "3",
+          "text": "23z² + 174y²"
+        },
+        {
+          "label": "4",
+          "text": "30z² + 170y²"
+        }
+      ],
+      "question_id": "630680674736",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "25z² + 169y²",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

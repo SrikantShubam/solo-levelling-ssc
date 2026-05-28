@@ -1,0 +1,104 @@
+{
+  "page": 53,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Which of the following is NOT an example of web browser?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Facebook"
+        },
+        {
+          "label": "2",
+          "text": "Apple Safari"
+        },
+        {
+          "label": "3",
+          "text": "Google Chrome"
+        },
+        {
+          "label": "4",
+          "text": "Opera"
+        }
+      ],
+      "question_id": "264330183364",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Facebook",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "What is the function of the cache memory in a computer's memory hierarchy?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To provide permanent storage for data and files."
+        },
+        {
+          "label": "2",
+          "text": "To store frequently used data for faster access by the CPU."
+        },
+        {
+          "label": "3",
+          "text": "To control the flow of data between the CPU and memory."
+        },
+        {
+          "label": "4",
+          "text": "To manage the allocation of memory resources to different programs."
+        }
+      ],
+      "question_id": "264330183352",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "To store frequently used data for faster access by the CPU.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "What is the keyboard shortcut for 'Copy' in most Windows applications?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ctrl + Z"
+        },
+        {
+          "label": "2",
+          "text": "Ctrl + C"
+        },
+        {
+          "label": "3",
+          "text": "Ctrl + X"
+        },
+        {
+          "label": "4",
+          "text": "Ctrl + V"
+        }
+      ],
+      "question_id": "264330183350",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Ctrl + C",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

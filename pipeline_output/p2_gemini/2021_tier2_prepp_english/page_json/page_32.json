@@ -1,0 +1,36 @@
+{
+  "page": 32,
+  "questions": [
+    {
+      "question_number": 39,
+      "section": null,
+      "question_text_full": "Select the carnivorous animal from the following.",
+      "options": [
+        {
+          "label": "1",
+          "text": "zebra"
+        },
+        {
+          "label": "2",
+          "text": "lynx"
+        },
+        {
+          "label": "3",
+          "text": "okapi"
+        },
+        {
+          "label": "4",
+          "text": "gazelle"
+        }
+      ],
+      "question_id": "26433083520",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "lynx",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

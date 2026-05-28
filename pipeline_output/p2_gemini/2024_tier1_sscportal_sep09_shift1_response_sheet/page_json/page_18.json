@@ -1,0 +1,134 @@
+{
+  "page": 18,
+  "questions": [
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Which of the following states is the biggest producer of Pulses?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bihar"
+        },
+        {
+          "label": "2",
+          "text": "Madhya Pradesh"
+        },
+        {
+          "label": "3",
+          "text": "Punjab"
+        },
+        {
+          "label": "4",
+          "text": "Haryana"
+        }
+      ],
+      "question_id": "63068049563",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Madhya Pradesh",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Who founded the Prarthana Samaj in Mumbai in 1867?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Gopal Krishna Gokhale"
+        },
+        {
+          "label": "2",
+          "text": "Shri Ram Bajpai"
+        },
+        {
+          "label": "3",
+          "text": "Atmaram Pandurang"
+        },
+        {
+          "label": "4",
+          "text": "Ram Mohan Roy"
+        }
+      ],
+      "question_id": "630680158737",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Atmaram Pandurang",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Who is the Chief Minister of Tamil Nadu as of July 2023?",
+      "options": [
+        {
+          "label": "1",
+          "text": "KN Nehru"
+        },
+        {
+          "label": "2",
+          "text": "Pinarayi Vijayan"
+        },
+        {
+          "label": "3",
+          "text": "M Yedurappa"
+        },
+        {
+          "label": "4",
+          "text": "MK Stalin"
+        }
+      ],
+      "question_id": "630680413035",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "MK Stalin",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "In which city was the first golf club of India situated?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Kolkata"
+        },
+        {
+          "label": "2",
+          "text": "Mysore"
+        },
+        {
+          "label": "3",
+          "text": "Shimla"
+        },
+        {
+          "label": "4",
+          "text": "Gulmarg"
+        }
+      ],
+      "question_id": "630680510833",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Kolkata",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

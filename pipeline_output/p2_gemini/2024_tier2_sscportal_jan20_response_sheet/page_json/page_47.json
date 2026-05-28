@@ -1,0 +1,104 @@
+{
+  "page": 47,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Which of the following is the headquarters of the South Central Zone of Indian Railways?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Jabalpur"
+        },
+        {
+          "label": "2",
+          "text": "Secunderabad"
+        },
+        {
+          "label": "3",
+          "text": "Hajipur"
+        },
+        {
+          "label": "4",
+          "text": "Bilaspur"
+        }
+      ],
+      "question_id": "630680663574",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Secunderabad",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "According to Census of India 2011, what was the recorded population growth rate of Hindu religion?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16.8%"
+        },
+        {
+          "label": "2",
+          "text": "14,3%"
+        },
+        {
+          "label": "3",
+          "text": "18.5%"
+        },
+        {
+          "label": "4",
+          "text": "11.7%"
+        }
+      ],
+      "question_id": "630680569753",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "16.8%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "What is the name of the software launched by the National Minorities Development and Finance Corporation (NMDFC) for digitising loan accounting processes and integrating the MIS portal, including the release of mobile apps for Android and IOS?",
+      "options": [
+        {
+          "label": "1",
+          "text": "LOAN-X (Loan Accounting Network for NMDFC)"
+        },
+        {
+          "label": "2",
+          "text": "MILAN (Minority Loan Accounting for NMDFC)"
+        },
+        {
+          "label": "3",
+          "text": "DIGIT (Digital Integration for Government Transactions)"
+        },
+        {
+          "label": "4",
+          "text": "MILAP (Minority Loan Accounting Software for Projects)"
+        }
+      ],
+      "question_id": "630680580390",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "MILAN (Minority Loan Accounting for NMDFC)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,104 @@
+{
+  "page": 26,
+  "questions": [
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA.The top band is made of saffron, which symbolises power and courage.\nB.The constituent assembly adopted our national flag, Tiranga, which means tricolour, on 22 July 1947.\nC.As a symbol of nationalism and freedom, it is fashioned from khadi, which is domestically spun Indian cotton.\nD.It features three horizontal stripes that are all the same width.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CBAD"
+        },
+        {
+          "label": "2",
+          "text": "CBDA"
+        },
+        {
+          "label": "3",
+          "text": "BCDA"
+        },
+        {
+          "label": "4",
+          "text": "BDCA"
+        }
+      ],
+      "question_id": "26433096979",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "BCDA",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Select the most appropriate homonym to fill in the blank.\nThe hunter dogs followed the hyena’s ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "sense"
+        },
+        {
+          "label": "2",
+          "text": "scent"
+        },
+        {
+          "label": "3",
+          "text": "cense"
+        },
+        {
+          "label": "4",
+          "text": "cents"
+        }
+      ],
+      "question_id": "264330142390",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "scent",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in blank no. 1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "considering"
+        },
+        {
+          "label": "2",
+          "text": "to consider"
+        },
+        {
+          "label": "3",
+          "text": "considered"
+        },
+        {
+          "label": "4",
+          "text": "consider"
+        }
+      ],
+      "question_id": "264330139174",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "considered",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

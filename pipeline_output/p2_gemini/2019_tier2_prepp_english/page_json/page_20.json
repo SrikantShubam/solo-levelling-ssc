@@ -1,0 +1,36 @@
+{
+  "page": 20,
+  "questions": [
+    {
+      "question_number": 31,
+      "section": null,
+      "question_text_full": "It can be inferred from the passage that this year’s fire in Australia is mostly a result of:",
+      "options": [
+        {
+          "label": "1",
+          "text": "a lightning strike"
+        },
+        {
+          "label": "2",
+          "text": "an accidental spark in the jungle"
+        },
+        {
+          "label": "3",
+          "text": "a result of an extraordinarily hot and dry spell"
+        },
+        {
+          "label": "4",
+          "text": "a deliberate attempt to put the forests on fire"
+        }
+      ],
+      "question_id": "8161615509",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "a result of an extraordinarily hot and dry spell",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,104 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "If P(A ∪ B) = 5/9, P(Ā ∪ B̄) = 13/27, P(A) = 11/18, then the odds against the event B are:",
+      "options": [
+        {
+          "label": "1",
+          "text": "38/17"
+        },
+        {
+          "label": "2",
+          "text": "7/57"
+        },
+        {
+          "label": "3",
+          "text": "29/25"
+        },
+        {
+          "label": "4",
+          "text": "47/7"
+        }
+      ],
+      "question_id": "264330172352",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "29/25",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "The average weight of the first thirteen persons among fourteen persons is 78 kg. The weight of the 14th person is 39 kg more than the average weight of all the fourteen persons. Find the weight of the 14th person.",
+      "options": [
+        {
+          "label": "1",
+          "text": "118 kg"
+        },
+        {
+          "label": "2",
+          "text": "98 kg"
+        },
+        {
+          "label": "3",
+          "text": "110 kg"
+        },
+        {
+          "label": "4",
+          "text": "120 kg"
+        }
+      ],
+      "question_id": "264330164084",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "120 kg",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "What is the single discount equivalent to the successive discounts of 20%, 35%, and 10%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "53.2%"
+        },
+        {
+          "label": "2",
+          "text": "65.4%"
+        },
+        {
+          "label": "3",
+          "text": "48.7%"
+        },
+        {
+          "label": "4",
+          "text": "42.3%"
+        }
+      ],
+      "question_id": "264330164051",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "53.2%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

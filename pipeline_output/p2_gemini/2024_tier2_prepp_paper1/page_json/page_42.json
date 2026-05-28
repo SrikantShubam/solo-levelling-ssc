@@ -1,0 +1,46 @@
+{
+  "page": 42,
+  "questions": [
+    {
+      "question_number": 90,
+      "section": "English Language",
+      "question_text_full": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. Climate change (1) _____ an imminent threat to our planet, demanding urgent global action. The rise in greenhouse gas emissions, deforestation and unsustainable practices contribute to extreme weather events, rising sea levels and disruptions in ecosystems. To (2) ______ these effects, a collaborative international effort is essential. Nations (3) ______ commit to reducing carbon emissions, transitioning to renewable energy sources and implementing sustainable practices. Cooperation on technological advancements and sharing resources will foster a collective resilience against the impacts of climate change. The urgency of this issue calls for a united front, where governments, businesses and individuals work together to create a sustainable and resilient future for the (4) ______ to come. Select the most appropriate option to fill in blank number 1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "will pose"
+        },
+        {
+          "label": "2",
+          "text": "poses"
+        },
+        {
+          "label": "3",
+          "text": "will be posing"
+        },
+        {
+          "label": "4",
+          "text": "posed"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question asks for blank number 1. The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4."
+    }
+  ],
+  "warnings": [
+    "Question 91 is cut off at the bottom of the page and does not contain options, so it was excluded."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

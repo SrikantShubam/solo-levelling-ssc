@@ -1,0 +1,164 @@
+{
+  "page": 26,
+  "questions": [
+    {
+      "question_number": 153,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Most of these superpowers are not rich in natural resources and have faced political turmoil.\nB. Human capital ultimately makes the difference, both, in an enterprise and a nation.\nC. The new economic superpowers of today amply testify this thesis.\nD. Yet, they have achieved economic affluence in a relatively short period.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BCDA"
+        },
+        {
+          "label": "2",
+          "text": "ADBC"
+        },
+        {
+          "label": "3",
+          "text": "ACDB"
+        },
+        {
+          "label": "4",
+          "text": "BCAD"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 154,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\nThe Chief Minister said, “All exams shall be cancelled this year.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "The Chief Minister said that all exams should have been cancelled that year."
+        },
+        {
+          "label": "2",
+          "text": "The Chief Minister said that all exams would be cancelled that year."
+        },
+        {
+          "label": "3",
+          "text": "The Chief Minister says that all exams shall be cancelled this year."
+        },
+        {
+          "label": "4",
+          "text": "The Chief Minister said that all exams should be cancelled this year."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 155,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\nThe old man said, “I was walking in my garden at six o’clock.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "The old man said that I had been walking in my garden at six o’clock."
+        },
+        {
+          "label": "2",
+          "text": "The old man said that he had been walking in his garden at six o’clock."
+        },
+        {
+          "label": "3",
+          "text": "The old man said that I was been walking in my garden at six o’clock."
+        },
+        {
+          "label": "4",
+          "text": "The old man said that he was walking in his garden at six o’clock."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 156,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech.\nThe actor said that what he did in films was something he had never attempted in real life.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The actor said, “What he did in films is something he has never attempted in real life.”"
+        },
+        {
+          "label": "2",
+          "text": "The actor said, “What I do in films is something I have never attempted in real life.”"
+        },
+        {
+          "label": "3",
+          "text": "The actor said, “What I am doing in films is something I have never attempted in real life.”"
+        },
+        {
+          "label": "4",
+          "text": "The actor said, “What he did in films was something he had never attempted in real life.”"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 157,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nHe denied if he had caused the accident.",
+      "options": [
+        {
+          "label": "1",
+          "text": "not to had"
+        },
+        {
+          "label": "2",
+          "text": "of having"
+        },
+        {
+          "label": "3",
+          "text": "No improvement required"
+        },
+        {
+          "label": "4",
+          "text": "that he had"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,96 @@
+{
+  "page": 58,
+  "questions": [
+    {
+      "question_number": 106,
+      "section": null,
+      "question_text_full": "Select the correct passive form of the given sentence. We expect good news about the corona vaccine.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Good news has been expected by us about the corona vaccine."
+        },
+        {
+          "label": "2",
+          "text": "Good news expected us about the corona vaccine."
+        },
+        {
+          "label": "3",
+          "text": "Good news is expected by us about the corona vaccine."
+        },
+        {
+          "label": "4",
+          "text": "Good news was expected by us about the corona vaccine."
+        }
+      ],
+      "question_id": "8161615586",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Good news is expected by us about the corona vaccine.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 107,
+      "section": null,
+      "question_text_full": "Parts of the following sentence are given as options. Identify the segment that contains a grammatical error. Craze for a thing that are not easily available in our country is a common phenomenon.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Craze for a"
+        },
+        {
+          "label": "2",
+          "text": "thing that are not easily"
+        },
+        {
+          "label": "3",
+          "text": "is a common phenomenon"
+        },
+        {
+          "label": "4",
+          "text": "available in our country"
+        }
+      ],
+      "question_id": "8161615557",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "thing that are not easily",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 108,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order. A. The prehistoric ring of standing stones at this site is carefully aligned to point to the sunset. B. To get a view of the sun, Stonehenge in England is considered as one of the most iconic sites. C. As the sun rises and sets on this day in the northern hemisphere, it is the year's shortest day. D. Winter solstice on December 21st marks the beginning of longer daylight hours.",
+      "options": [
+        {
+          "label": "1",
+          "text": "DABC"
+        },
+        {
+          "label": "2",
+          "text": "BDAC"
+        },
+        {
+          "label": "3",
+          "text": "DCBA"
+        },
+        {
+          "label": "4",
+          "text": "BCDA"
+        }
+      ],
+      "question_id": "8161615634",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "DCBA",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

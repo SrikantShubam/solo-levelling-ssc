@@ -1,0 +1,104 @@
+{
+  "page": 33,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the underlined idiom.\nThe team decided to pull out all the stops for their upcoming presentation.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Keep things simple and straightforward"
+        },
+        {
+          "label": "2",
+          "text": "Wait patiently for a more favourable time"
+        },
+        {
+          "label": "3",
+          "text": "Give up easily and without thinking much"
+        },
+        {
+          "label": "4",
+          "text": "To do everything to make something successful"
+        }
+      ],
+      "question_id": "630680639283",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "To do everything to make something successful",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nEveryone was surprised at his speech.",
+      "options": [
+        {
+          "label": "1",
+          "text": "His speech surprised everyone."
+        },
+        {
+          "label": "2",
+          "text": "His speech surprise everyone."
+        },
+        {
+          "label": "3",
+          "text": "His speech was surprising to everyone."
+        },
+        {
+          "label": "4",
+          "text": "His speech is surprising everyone."
+        }
+      ],
+      "question_id": "630680616655",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "His speech surprised everyone.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Complete the dialogue for Person B using the correct idiom.\nPerson A: I am so nervous. I don't think I should make the speech tomorrow.\nPerson B: No. You are just getting ______. You have prepared for this.",
+      "options": [
+        {
+          "label": "1",
+          "text": "cold foot"
+        },
+        {
+          "label": "2",
+          "text": "cold feet"
+        },
+        {
+          "label": "3",
+          "text": "cold hand"
+        },
+        {
+          "label": "4",
+          "text": "hot feet"
+        }
+      ],
+      "question_id": "630680333139",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "cold feet",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

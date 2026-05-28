@@ -1,0 +1,46 @@
+{
+  "page": 44,
+  "questions": [
+    {
+      "question_number": 100,
+      "section": "Comprehension",
+      "question_text_full": "Comprehension: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The beginning of the story is (1)______ in its presentation but (2)______ the style eases out and becomes haunting in its simplicity. The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)______ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henry's treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos. Select the most appropriate option to fill in blank number 5:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Legend"
+        },
+        {
+          "label": "2",
+          "text": "Ascend"
+        },
+        {
+          "label": "3",
+          "text": "Blend"
+        },
+        {
+          "label": "4",
+          "text": "Amend"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question asks for the option to fill blank number 5. The options provided are a, b, c, d which correspond to 1, 2, 3, 4."
+    }
+  ],
+  "warnings": [
+    "The provided image does not contain explicit 'Ans' blocks with green/red marks for question 100, so correct_option_label and correct_option_text could not be determined."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

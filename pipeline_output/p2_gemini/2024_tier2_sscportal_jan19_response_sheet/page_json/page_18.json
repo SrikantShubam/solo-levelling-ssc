@@ -1,0 +1,104 @@
+{
+  "page": 18,
+  "questions": [
+    {
+      "question_number": 46,
+      "section": null,
+      "question_text_full": "If a large sample of size n is taken from a normal population with mean μ and standard deviation σ, the 95% confidence interval for the unknown parameter μ is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "x̄ ± 1.96(σ/√n)"
+        },
+        {
+          "label": "2",
+          "text": "x̄² ± 1.96(σ/√n)"
+        },
+        {
+          "label": "3",
+          "text": "x̄ ± 1.96(σ²/√n)"
+        },
+        {
+          "label": "4",
+          "text": "x̄ ± 1.96(σ²/n)"
+        }
+      ],
+      "question_id": "6306801352879",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "x̄ ± 1.96(σ/√n)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 47,
+      "section": null,
+      "question_text_full": "O-gives are NOT useful for locating:",
+      "options": [
+        {
+          "label": "1",
+          "text": "percentiles"
+        },
+        {
+          "label": "2",
+          "text": "median"
+        },
+        {
+          "label": "3",
+          "text": "quartiles"
+        },
+        {
+          "label": "4",
+          "text": "mean"
+        }
+      ],
+      "question_id": "6306801294100",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "mean",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 48,
+      "section": null,
+      "question_text_full": "Which of the following index numbers is the geometric mean of Laspeyre's and Paasche's Index number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Drobish-Bowley Index"
+        },
+        {
+          "label": "2",
+          "text": "Marshall-Edgeworth Index"
+        },
+        {
+          "label": "3",
+          "text": "Irving Fisher Index"
+        },
+        {
+          "label": "4",
+          "text": "Walsch Index"
+        }
+      ],
+      "question_id": "6306801352869",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Irving Fisher Index",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

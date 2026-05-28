@@ -1,0 +1,126 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Find the greatest number 23a68b, which is divisible by 3 but NOT divisible by 9.",
+      "options": [
+        {
+          "label": "1",
+          "text": "238689"
+        },
+        {
+          "label": "2",
+          "text": "239685"
+        },
+        {
+          "label": "3",
+          "text": "239688"
+        },
+        {
+          "label": "4",
+          "text": "237687"
+        }
+      ],
+      "question_id": "65497842413",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "239685",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "An equilateral triangle ABC is inscribed in a circle with centre O. D is a point on the minor arc BC and ∠CBD = 40°. Find the measure of ∠BCD.",
+      "options": [
+        {
+          "label": "1",
+          "text": "30°"
+        },
+        {
+          "label": "2",
+          "text": "50°"
+        },
+        {
+          "label": "3",
+          "text": "20°"
+        },
+        {
+          "label": "4",
+          "text": "40°"
+        }
+      ],
+      "question_id": "65497842428",
+      "chosen_option_label": "4",
+      "correct_option_label": "3",
+      "correct_option_text": "20°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "The ratio of the monthly incomes of A and B is 11 : 13 and the ratio of their expenditures is 9 : 11. If both of them manage to save ₹4,000 per month, then find the difference in their incomes (in ₹).",
+      "options": [
+        {
+          "label": "1",
+          "text": "2,500"
+        },
+        {
+          "label": "2",
+          "text": "3,200"
+        },
+        {
+          "label": "3",
+          "text": "4,000"
+        },
+        {
+          "label": "4",
+          "text": "3,000"
+        }
+      ],
+      "question_id": "65497843531",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "4,000",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "The average weight of P and his three friends is 55 kg. If P is 4 kg more than the average weight of his three friends, what is P's weight (in kg)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "54"
+        },
+        {
+          "label": "2",
+          "text": "58"
+        },
+        {
+          "label": "3",
+          "text": "62"
+        },
+        {
+          "label": "4",
+          "text": "60"
+        }
+      ],
+      "question_id": "65497843123",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "58",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

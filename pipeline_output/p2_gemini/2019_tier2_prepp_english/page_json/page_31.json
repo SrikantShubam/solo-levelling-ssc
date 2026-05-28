@@ -1,0 +1,36 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 42,
+      "section": null,
+      "question_text_full": "What lay in the centre of Roman towns?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Market places"
+        },
+        {
+          "label": "2",
+          "text": "Residences"
+        },
+        {
+          "label": "3",
+          "text": "Temples"
+        },
+        {
+          "label": "4",
+          "text": "Baths"
+        }
+      ],
+      "question_id": "8161615521",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Market places",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

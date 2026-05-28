@@ -1,0 +1,46 @@
+{
+  "page": 34,
+  "questions": [
+    {
+      "question_number": 70,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\n\nA. As cost of raw materials cannot be reduced, exporters try to cut labour costs.\n\nB. Large MNCs in the garment industry in Europe and America order their products from Indian exporters.\n\nC. These large MNCs with worldwide network look for the cheapest goods in order to maximise their profits.\n\nD. To get these large orders, Indian garment exporters try hard to cut their own costs.\n\nE. Where earlier a factory used to employ workers on a permanent basis, now they employ workers only on a temporary basis so that they do not have to pay workers for the whole year.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BCDAE"
+        },
+        {
+          "label": "2",
+          "text": "CDAEB"
+        },
+        {
+          "label": "3",
+          "text": "DCABE"
+        },
+        {
+          "label": "4",
+          "text": "ADECB"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 71 is incomplete on the page (options are missing)."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

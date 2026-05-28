@@ -1,0 +1,224 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 55,
+      "section": null,
+      "question_text_full": "Which of the following statements is FALSE?\n(1) Loudspeakers with low decibel sound can cause palpitations.\n(2) Several studies have been conducted on air, water and land pollution.\n(3) There is a direct correlation between productivity of workers and noise.\n(4) Noise pollution is not visible to the eyes.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Loudspeakers with low decibel sound can cause palpitations."
+        },
+        {
+          "label": "2",
+          "text": "Several studies have been conducted on air, water and land pollution."
+        },
+        {
+          "label": "3",
+          "text": "There is a direct correlation between productivity of workers and noise."
+        },
+        {
+          "label": "4",
+          "text": "Noise pollution is not visible to the eyes."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided on page."
+    },
+    {
+      "question_number": 56,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech.\nThe teacher ordered the students to go straight to their classrooms.\n(1) “Go straight to their classrooms,” the teacher said to the students.\n(2) The teacher said to the students, “Please go straight to your classrooms.”\n(3) The teacher said, “Students, to go straight to their classrooms.”\n(4) “Go straight to your classrooms,” the teacher said to the students.",
+      "options": [
+        {
+          "label": "1",
+          "text": "“Go straight to their classrooms,” the teacher said to the students."
+        },
+        {
+          "label": "2",
+          "text": "The teacher said to the students, “Please go straight to your classrooms.”"
+        },
+        {
+          "label": "3",
+          "text": "The teacher said, “Students, to go straight to their classrooms.”"
+        },
+        {
+          "label": "4",
+          "text": "“Go straight to your classrooms,” the teacher said to the students."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided on page."
+    },
+    {
+      "question_number": 57,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nIf you have / remained calm / you could have / saved the situation.\n(1) saved the situation\n(2) you could have\n(3) remained calm\n(4) If you have",
+      "options": [
+        {
+          "label": "1",
+          "text": "saved the situation"
+        },
+        {
+          "label": "2",
+          "text": "you could have"
+        },
+        {
+          "label": "3",
+          "text": "remained calm"
+        },
+        {
+          "label": "4",
+          "text": "If you have"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided on page."
+    },
+    {
+      "question_number": 58,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice.\nElaborate plans are being made for Aarushi’s destination wedding.\n(1) They are making elaborate plans for Aarushi’s destination wedding.\n(2) They have made elaborate plans for Aarushi’s destination wedding.\n(3) They have been making elaborate plans for Aarushi’s destination wedding.\n(4) They made elaborate plans for Aarushi’s destination wedding.",
+      "options": [
+        {
+          "label": "1",
+          "text": "They are making elaborate plans for Aarushi’s destination wedding."
+        },
+        {
+          "label": "2",
+          "text": "They have made elaborate plans for Aarushi’s destination wedding."
+        },
+        {
+          "label": "3",
+          "text": "They have been making elaborate plans for Aarushi’s destination wedding."
+        },
+        {
+          "label": "4",
+          "text": "They made elaborate plans for Aarushi’s destination wedding."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided on page."
+    },
+    {
+      "question_number": 59,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice.\nMay you be blessed with health and happiness!\n(1) May health and happiness be blessed by you!\n(2) May God bless you with health and happiness!\n(3) May health and happiness bless you!\n(4) You may bless with health and happiness.",
+      "options": [
+        {
+          "label": "1",
+          "text": "May health and happiness be blessed by you!"
+        },
+        {
+          "label": "2",
+          "text": "May God bless you with health and happiness!"
+        },
+        {
+          "label": "3",
+          "text": "May health and happiness bless you!"
+        },
+        {
+          "label": "4",
+          "text": "You may bless with health and happiness."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided on page."
+    },
+    {
+      "question_number": 60,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nJudicious",
+      "options": [
+        {
+          "label": "1",
+          "text": "Beautiful"
+        },
+        {
+          "label": "2",
+          "text": "Graceful"
+        },
+        {
+          "label": "3",
+          "text": "Thoughtful"
+        },
+        {
+          "label": "4",
+          "text": "Plentiful"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided on page."
+    },
+    {
+      "question_number": 61,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\nShe said, “I wish I could fly like a butterfly!”\n(1) She exclaimed that could she fly like a butterfly.\n(2) She wished that she could fly like a butterfly.\n(3) She exclaimed that she would fly like a butterfly.\n(4) She wished that I could fly like a butterfly.",
+      "options": [
+        {
+          "label": "1",
+          "text": "She exclaimed that could she fly like a butterfly."
+        },
+        {
+          "label": "2",
+          "text": "She wished that she could fly like a butterfly."
+        },
+        {
+          "label": "3",
+          "text": "She exclaimed that she would fly like a butterfly."
+        },
+        {
+          "label": "4",
+          "text": "She wished that I could fly like a butterfly."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

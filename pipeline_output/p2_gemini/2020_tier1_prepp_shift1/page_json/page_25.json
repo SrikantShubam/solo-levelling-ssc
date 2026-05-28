@@ -1,0 +1,126 @@
+{
+  "page": 25,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the right order to form a meaningful and coherent paragraph.\nA. When we got near, we saw it was the steam rising from hot springs.\nB. We saw in the distance a great column of smoke.\nC. We wondered if it came from a chimney or a burning house.\nD. We thought of taking a bath in the hot water.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ACDB"
+        },
+        {
+          "label": "2",
+          "text": "ABCD"
+        },
+        {
+          "label": "3",
+          "text": "BCAD"
+        },
+        {
+          "label": "4",
+          "text": "BCDA"
+        }
+      ],
+      "question_id": "81616113098",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "BCAD",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If no substitution is required, select ‘No substitution’.\nThe toy drummer plays the drum if you press the button at the back.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No substitution"
+        },
+        {
+          "label": "2",
+          "text": "will play the drum if you will press"
+        },
+        {
+          "label": "3",
+          "text": "playing the drum if you pressed"
+        },
+        {
+          "label": "4",
+          "text": "played the drum if you are pressing"
+        }
+      ],
+      "question_id": "81616113998",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "No substitution",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nGeneric",
+      "options": [
+        {
+          "label": "1",
+          "text": "Definite"
+        },
+        {
+          "label": "2",
+          "text": "Specific"
+        },
+        {
+          "label": "3",
+          "text": "Precise"
+        },
+        {
+          "label": "4",
+          "text": "Universal"
+        }
+      ],
+      "question_id": "81616113403",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Universal",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Select the INCORRECTLY spelt word.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Creature"
+        },
+        {
+          "label": "2",
+          "text": "Specified"
+        },
+        {
+          "label": "3",
+          "text": "Decrease"
+        },
+        {
+          "label": "4",
+          "text": "Pieceful"
+        }
+      ],
+      "question_id": "81616113915",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Pieceful",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

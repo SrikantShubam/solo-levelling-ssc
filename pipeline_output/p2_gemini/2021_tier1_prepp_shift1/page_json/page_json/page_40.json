@@ -1,0 +1,99 @@
+{
+  "page": 40,
+  "questions": [
+    {
+      "question_number": 93,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word. ostentatious",
+      "options": [
+        {
+          "label": "1",
+          "text": "showy"
+        },
+        {
+          "label": "2",
+          "text": "tasteful"
+        },
+        {
+          "label": "3",
+          "text": "quick"
+        },
+        {
+          "label": "4",
+          "text": "sudden"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The answer key is not visible for this question."
+    },
+    {
+      "question_number": 94,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice. All weapons were surrendered by them.",
+      "options": [
+        {
+          "label": "1",
+          "text": "They had surrendered all weapons."
+        },
+        {
+          "label": "2",
+          "text": "They surrendered all weapons."
+        },
+        {
+          "label": "3",
+          "text": "They are surrendering all weapons."
+        },
+        {
+          "label": "4",
+          "text": "They have surrendered all weapons."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The answer key is not visible for this question."
+    },
+    {
+      "question_number": 95,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required.’ A tigress has given birth to a cub in the Ranthambore Tiger Reserve, taking the big cat population to 78.",
+      "options": [
+        {
+          "label": "1",
+          "text": "was birthed"
+        },
+        {
+          "label": "2",
+          "text": "Not visible"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question is incomplete; only one option is visible."
+    }
+  ],
+  "warnings": [
+    "Question 95 is incomplete on the page.",
+    "Answer keys (green ticks) are not visible for any questions on this page."
+  ]
+}

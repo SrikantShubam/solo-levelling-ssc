@@ -1,0 +1,74 @@
+{
+  "page": 39,
+  "questions": [
+    {
+      "question_number": 35,
+      "section": "Comprehension",
+      "question_text_full": "Which skill is used by a reader when he gathers information and breaks it down in a logical pattern to solve a problem?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Speaking skill"
+        },
+        {
+          "label": "2",
+          "text": "Analytical skill"
+        },
+        {
+          "label": "3",
+          "text": "Reasoning skill"
+        },
+        {
+          "label": "4",
+          "text": "Critical skill"
+        }
+      ],
+      "question_id": "630680512952",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Analytical skill",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 36,
+      "section": "Comprehension",
+      "question_text_full": "According to the passage, what is the role of reading?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To give strength to the body"
+        },
+        {
+          "label": "2",
+          "text": "To learn new information to avail opportunity"
+        },
+        {
+          "label": "3",
+          "text": "To not to share information"
+        },
+        {
+          "label": "4",
+          "text": "To make environment healthy"
+        }
+      ],
+      "question_id": "630680512951",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "To learn new information to avail opportunity",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

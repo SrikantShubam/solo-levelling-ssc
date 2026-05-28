@@ -1,0 +1,47 @@
+{
+  "page": 45,
+  "questions": [
+    {
+      "question_number": 94,
+      "section": null,
+      "question_text_full": "Read the given passage and answer the questions that follow. Subhas Chandra Bose, a prominent Indian nationalist leader, was convinced that India could not achieve independence without the use of force, and he believed that a military campaign was necessary to achieve this goal. In 1942, Bose formed the Indian National Army (INA) with the help of the Japanese. Bose travelled to Japan in 1941 to seek their support in the struggle against British rule in India. The Japanese were interested in having Bose's help in their own efforts to expand their influence in Southeast Asia. Bose's vision was to create a military force to fight against the British in India with the help of Japanese weapons and training. The INA was formed in Singapore in September 1942 with the slogan 'Jai Hind' (Victory to India). The INA consisted of soldiers who were primarily from the Indian community in Southeast Asia. They were trained by Japanese officers and were equipped with Japanese weapons. The INA fought alongside Japanese forces in Burma and other parts of Southeast Asia during World War II. Bose's leadership of the INA and his military campaigns against the British in India made him a popular figure among many Indians. The consequences of the formation of the INA were significant. The INA's campaigns against the British in India and the Indian soldiers' role in the Burma campaign had a psychological impact on the British forces. The British were shocked that Indian soldiers had turned against them, undermining their confidence in maintaining control over India. The INA also had a significant impact on the Indian independence movement. Bose's vision of a socialist India with equal rights for all citizens inspired many Indians. The INA became a symbol of the struggle against British colonialism, and Bose's slogan of 'Jai Hind' became a rallying cry for the independence movement. However, the INA's military campaigns were not successful in achieving their goal of freeing India from British rule. The INA suffered significant losses in battles, and their efforts were undermined by the Japanese surrender in 1945. What was the primary reason for the Japanese to support Subhas Chandra Bose and the formation of the INA?",
+      "options": [
+        {
+          "label": "1",
+          "text": "They believed in India's right to self-determination."
+        },
+        {
+          "label": "2",
+          "text": "Not provided in the image"
+        },
+        {
+          "label": "3",
+          "text": "Not provided in the image"
+        },
+        {
+          "label": "4",
+          "text": "Not provided in the image"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The image is cut off; only the passage and the first option (labeled 'a' in the text, but requested as '1' in schema) are visible. The question is incomplete."
+    }
+  ],
+  "warnings": [
+    "Question 94 is incomplete as the image cuts off after the first option.",
+    "The provided options for question 94 are not fully visible in the source image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

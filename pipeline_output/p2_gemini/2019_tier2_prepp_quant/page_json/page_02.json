@@ -1,0 +1,96 @@
+{
+  "page": 2,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "If 45/53 = 1/(a + 1/(b + 1/(c - 2/5))), where a, b and c are positive integers, then what is the value of (4a - b + 3c)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "question_id": "8161615287",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "कोई व्यक्ति किसी निश्चित राशि को अपने तीन बेटों के बीच 3 : 4 : 5 के अनुपात में विभाजित करता है। यदि उसने इस राशि को 1/3 : 1/4 : 1/5 के अनुपात में विभाजित किया होता, तो उसके उस बेटे को, जिसे पहले सबसे कम हिस्सा मिला था, उसे ₹1,188 अधिक मिलते। राशि (₹ में) ज्ञात कीजिए।",
+      "options": [
+        {
+          "label": "1",
+          "text": "5,640"
+        },
+        {
+          "label": "2",
+          "text": "6,840"
+        },
+        {
+          "label": "3",
+          "text": "6,768"
+        },
+        {
+          "label": "4",
+          "text": "7,008"
+        }
+      ],
+      "question_id": "8161615300",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "6,768",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "The value of (sec^2 θ(2+tan^2 θ+cot^2 θ)÷(sin^2 θ-tan^2 θ))/(cosec^2 θ+sec^2 θ)(1+cot^2 θ)^2 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "-2"
+        },
+        {
+          "label": "3",
+          "text": "-1"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "question_id": "8161615362",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "-1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

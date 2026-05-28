@@ -1,0 +1,104 @@
+{
+  "page": 51,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Which among the following is incorrect about Laser Printers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Uses laser lights for producing dots to form characters on a page"
+        },
+        {
+          "label": "2",
+          "text": "Can print multiple copies at a time"
+        },
+        {
+          "label": "3",
+          "text": "Fast speed"
+        },
+        {
+          "label": "4",
+          "text": "Supports multiple fonts and sizes"
+        }
+      ],
+      "question_id": "264330128784",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "Can print multiple copies at a time",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Shading option in MS-Word 365 is used for ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "changing the color around the selected text"
+        },
+        {
+          "label": "2",
+          "text": "changing the color behind the selected text"
+        },
+        {
+          "label": "3",
+          "text": "changing the color of the selected text"
+        },
+        {
+          "label": "4",
+          "text": "making the text pop by highlighting it"
+        }
+      ],
+      "question_id": "264330128775",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "changing the color behind the selected text",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Which of the following is NOT an example of e-mail service provider?\nI. Outlook\nII. Gmail\nIII. Yandex",
+      "options": [
+        {
+          "label": "1",
+          "text": "I and III"
+        },
+        {
+          "label": "2",
+          "text": "Only III"
+        },
+        {
+          "label": "3",
+          "text": "All are e-mail service providers"
+        },
+        {
+          "label": "4",
+          "text": "Only I"
+        }
+      ],
+      "question_id": "264330128756",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "All are e-mail service providers",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

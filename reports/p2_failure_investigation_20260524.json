@@ -1,0 +1,284 @@
+{
+  "source_batch_summary": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\batch_summary.json",
+  "pdf_count": 19,
+  "summary": {
+    "usable_with_review": 7,
+    "fallback_needed": 2,
+    "rerun_needed": 9,
+    "quarantine": 1,
+    "failure:model_refusal": 1,
+    "failure:json_or_schema_failure": 1,
+    "failure:api_quota_or_rate_limit": 1
+  },
+  "rows": [
+    {
+      "pdf": "2019_tier1_prepp_shift1.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2019_tier1_prepp_shift1",
+      "document_class": "coaching_pdf_with_answers",
+      "expected_questions": 100,
+      "question_count": 100,
+      "qc_status": "BLOCKED",
+      "primary_failure_type": null,
+      "error_page_count": 0,
+      "failure_counts": {},
+      "recommended_action": "usable_with_review",
+      "raw_error": null
+    },
+    {
+      "pdf": "2019_tier2_prepp_english.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2019_tier2_prepp_english",
+      "document_class": "tier2_section_booklet",
+      "expected_questions": null,
+      "question_count": 200,
+      "qc_status": "BLOCKED",
+      "primary_failure_type": null,
+      "error_page_count": 0,
+      "failure_counts": {},
+      "recommended_action": "usable_with_review",
+      "raw_error": null
+    },
+    {
+      "pdf": "2019_tier2_prepp_quant.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2019_tier2_prepp_quant",
+      "document_class": "tier2_section_booklet",
+      "expected_questions": null,
+      "question_count": 100,
+      "qc_status": "BLOCKED",
+      "primary_failure_type": null,
+      "error_page_count": 0,
+      "failure_counts": {},
+      "recommended_action": "usable_with_review",
+      "raw_error": null
+    },
+    {
+      "pdf": "2020_tier1_prepp_shift1.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2020_tier1_prepp_shift1",
+      "document_class": "coaching_pdf_with_answers",
+      "expected_questions": 100,
+      "question_count": 100,
+      "qc_status": "BLOCKED",
+      "primary_failure_type": null,
+      "error_page_count": 0,
+      "failure_counts": {},
+      "recommended_action": "usable_with_review",
+      "raw_error": null
+    },
+    {
+      "pdf": "2020_tier2_kdcampus_answer_key.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2020_tier2_kdcampus_answer_key",
+      "document_class": "coaching_pdf_with_answers",
+      "expected_questions": null,
+      "question_count": null,
+      "qc_status": "ERROR",
+      "primary_failure_type": "model_refusal",
+      "error_page_count": 0,
+      "failure_counts": {},
+      "recommended_action": "fallback_needed",
+      "raw_error": "ValueError: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 4. Meaning that the model was reciting from copyrighted material."
+    },
+    {
+      "pdf": "2021_tier1_prepp_shift1.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_prepp_shift1",
+      "document_class": "coaching_pdf_with_answers",
+      "expected_questions": 100,
+      "question_count": 91,
+      "qc_status": "FAIL",
+      "primary_failure_type": "json_or_schema_failure",
+      "error_page_count": 4,
+      "failure_counts": {
+        "json_or_schema_failure": 4
+      },
+      "recommended_action": "fallback_needed",
+      "raw_error": null
+    },
+    {
+      "pdf": "2021_tier1_sscportal_shift1_response_sheet.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet",
+      "document_class": "response_sheet_green_answer",
+      "expected_questions": 100,
+      "question_count": 100,
+      "qc_status": "PASS_WITH_MANUAL_REVIEW",
+      "primary_failure_type": null,
+      "error_page_count": 0,
+      "failure_counts": {},
+      "recommended_action": "usable_with_review",
+      "raw_error": null
+    },
+    {
+      "pdf": "2021_tier2_prepp_english.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier2_prepp_english",
+      "document_class": "tier2_section_booklet",
+      "expected_questions": null,
+      "question_count": 200,
+      "qc_status": "BLOCKED",
+      "primary_failure_type": null,
+      "error_page_count": 0,
+      "failure_counts": {},
+      "recommended_action": "usable_with_review",
+      "raw_error": null
+    },
+    {
+      "pdf": "2022_tier1_prepp_shift1.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1",
+      "document_class": "coaching_pdf_with_answers",
+      "expected_questions": 100,
+      "question_count": 100,
+      "qc_status": "BLOCKED",
+      "primary_failure_type": null,
+      "error_page_count": 0,
+      "failure_counts": {},
+      "recommended_action": "usable_with_review",
+      "raw_error": null
+    },
+    {
+      "pdf": "2022_tier2_prepp_paper1.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier2_prepp_paper1",
+      "document_class": "tier2_section_booklet",
+      "expected_questions": null,
+      "question_count": 81,
+      "qc_status": "FAIL",
+      "primary_failure_type": "api_quota_or_rate_limit",
+      "error_page_count": 27,
+      "failure_counts": {
+        "api_quota_or_rate_limit": 27
+      },
+      "recommended_action": "rerun_needed",
+      "raw_error": null
+    },
+    {
+      "pdf": "2023_tier1_prepp_shift1.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2023_tier1_prepp_shift1",
+      "document_class": "coaching_pdf_with_answers",
+      "expected_questions": 100,
+      "question_count": 0,
+      "qc_status": "FAIL",
+      "primary_failure_type": "api_quota_or_rate_limit",
+      "error_page_count": 28,
+      "failure_counts": {
+        "api_quota_or_rate_limit": 28
+      },
+      "recommended_action": "rerun_needed",
+      "raw_error": null
+    },
+    {
+      "pdf": "2023_tier2_prepp_paper1.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2023_tier2_prepp_paper1",
+      "document_class": "tier2_section_booklet",
+      "expected_questions": null,
+      "question_count": 0,
+      "qc_status": "FAIL",
+      "primary_failure_type": "api_quota_or_rate_limit",
+      "error_page_count": 56,
+      "failure_counts": {
+        "api_quota_or_rate_limit": 56
+      },
+      "recommended_action": "rerun_needed",
+      "raw_error": null
+    },
+    {
+      "pdf": "2024_tier1_appx_answer_key.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier1_appx_answer_key",
+      "document_class": "answer_key_notice_or_non_question",
+      "expected_questions": 100,
+      "question_count": 0,
+      "qc_status": "FAIL",
+      "primary_failure_type": "api_quota_or_rate_limit",
+      "error_page_count": 10,
+      "failure_counts": {
+        "api_quota_or_rate_limit": 10
+      },
+      "recommended_action": "quarantine",
+      "raw_error": null
+    },
+    {
+      "pdf": "2024_tier1_prepp_shift1.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier1_prepp_shift1",
+      "document_class": "coaching_pdf_with_answers",
+      "expected_questions": 100,
+      "question_count": 3,
+      "qc_status": "FAIL",
+      "primary_failure_type": "api_quota_or_rate_limit",
+      "error_page_count": 43,
+      "failure_counts": {
+        "api_quota_or_rate_limit": 43
+      },
+      "recommended_action": "rerun_needed",
+      "raw_error": null
+    },
+    {
+      "pdf": "2024_tier1_sscportal_sep09_shift1_response_sheet.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "document_class": "response_sheet_green_answer",
+      "expected_questions": 100,
+      "question_count": 0,
+      "qc_status": "FAIL",
+      "primary_failure_type": "api_quota_or_rate_limit",
+      "error_page_count": 39,
+      "failure_counts": {
+        "api_quota_or_rate_limit": 39
+      },
+      "recommended_action": "rerun_needed",
+      "raw_error": null
+    },
+    {
+      "pdf": "2024_tier2_prepp_paper1.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_prepp_paper1",
+      "document_class": "tier2_section_booklet",
+      "expected_questions": null,
+      "question_count": 7,
+      "qc_status": "FAIL",
+      "primary_failure_type": "api_quota_or_rate_limit",
+      "error_page_count": 69,
+      "failure_counts": {
+        "api_quota_or_rate_limit": 69
+      },
+      "recommended_action": "rerun_needed",
+      "raw_error": null
+    },
+    {
+      "pdf": "2024_tier2_sscportal_jan18_response_sheet.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan18_response_sheet",
+      "document_class": "response_sheet_green_answer",
+      "expected_questions": null,
+      "question_count": 0,
+      "qc_status": "FAIL",
+      "primary_failure_type": "api_quota_or_rate_limit",
+      "error_page_count": 61,
+      "failure_counts": {
+        "api_quota_or_rate_limit": 61
+      },
+      "recommended_action": "rerun_needed",
+      "raw_error": null
+    },
+    {
+      "pdf": "2024_tier2_sscportal_jan19_response_sheet.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan19_response_sheet",
+      "document_class": "response_sheet_green_answer",
+      "expected_questions": null,
+      "question_count": 0,
+      "qc_status": "FAIL",
+      "primary_failure_type": "api_quota_or_rate_limit",
+      "error_page_count": 36,
+      "failure_counts": {
+        "api_quota_or_rate_limit": 36
+      },
+      "recommended_action": "rerun_needed",
+      "raw_error": null
+    },
+    {
+      "pdf": "2024_tier2_sscportal_jan20_response_sheet.pdf",
+      "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet",
+      "document_class": "response_sheet_green_answer",
+      "expected_questions": null,
+      "question_count": 9,
+      "qc_status": "FAIL",
+      "primary_failure_type": "api_quota_or_rate_limit",
+      "error_page_count": 54,
+      "failure_counts": {
+        "api_quota_or_rate_limit": 54
+      },
+      "recommended_action": "rerun_needed",
+      "raw_error": null
+    }
+  ]
+}

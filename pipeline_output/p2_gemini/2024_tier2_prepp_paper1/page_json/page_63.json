@@ -1,0 +1,107 @@
+{
+  "page": 63,
+  "questions": [
+    {
+      "question_number": 127,
+      "section": null,
+      "question_text_full": "Who won the title at the World Chess Armageddon Asia & Oceania event in April 2023?",
+      "options": [
+        {
+          "label": "1",
+          "text": "D Gukesh"
+        },
+        {
+          "label": "2",
+          "text": "P Harikrishna"
+        },
+        {
+          "label": "3",
+          "text": "Koneru Humpy"
+        },
+        {
+          "label": "4",
+          "text": "Viswanathan Anand"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for any questions."
+    },
+    {
+      "question_number": 128,
+      "section": null,
+      "question_text_full": "Select the option that is true regarding the following two statements labelled Assertion (A) and Reason (R).\nA. The first battle of Panipat was one of the decisive battles of India.\nR. It brought into power a new band of invaders called Mughals.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statements A and R are true, but R is not the correct explanation of A."
+        },
+        {
+          "label": "2",
+          "text": "Statements A and R are true, and R is the correct explanation of A."
+        },
+        {
+          "label": "3",
+          "text": "R is true, but A is false."
+        },
+        {
+          "label": "4",
+          "text": "A is true, but R is false."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for any questions."
+    },
+    {
+      "question_number": 129,
+      "section": null,
+      "question_text_full": "In the year 2020, National Digital Health Mission was launched on which of the following occasions?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Independence Day"
+        },
+        {
+          "label": "2",
+          "text": "Republic Day"
+        },
+        {
+          "label": "3",
+          "text": "Gandhi Jayanti"
+        },
+        {
+          "label": "4",
+          "text": "Not visible in image"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Question 129 is incomplete as it only lists 3 options in the source image."
+    }
+  ],
+  "warnings": [
+    "Question 129 is incomplete on the page (only 3 options visible).",
+    "No answer keys (green/red marks) are present on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

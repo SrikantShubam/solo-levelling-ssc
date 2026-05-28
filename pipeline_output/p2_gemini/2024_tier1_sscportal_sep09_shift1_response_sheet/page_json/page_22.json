@@ -1,0 +1,74 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "The given table shows the percentage of marks obtained by three students in three different subjects in an institute. (maximum marks are given in brackets)\n\nSubject History Geography Botany\nStudent (175) (200) (125)\nRam 54 87 71\nMohan 51 79 78\nShyam 75 49 76\n\nIf in order to pass the exam, a minimum of 105 marks are needed in History, how many students pass in the exam?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "0"
+        }
+      ],
+      "question_id": "630680523820",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Fill pipe P is 21 times faster than fill pipe Q. If Q can fill a cistern in 110 minutes, find the time it takes to fill the cistern when both fill pipes are opened together.",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 minutes"
+        },
+        {
+          "label": "2",
+          "text": "5 minutes"
+        },
+        {
+          "label": "3",
+          "text": "4 minutes"
+        },
+        {
+          "label": "4",
+          "text": "6 minutes"
+        }
+      ],
+      "question_id": "630680426590",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "5 minutes",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,104 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank. The blueberries in the basket are blue. The denotation of the word 'blue' is __________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "gloominess"
+        },
+        {
+          "label": "2",
+          "text": "sadness"
+        },
+        {
+          "label": "3",
+          "text": "a colour"
+        },
+        {
+          "label": "4",
+          "text": "negativity"
+        }
+      ],
+      "question_id": "630680147120",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "a colour",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech. The soldier said to his fellow soldiers, \"I have buried our brave comrade here.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The soldier told his fellow soldiers that he had buried their brave comrade there."
+        },
+        {
+          "label": "2",
+          "text": "The soldier told us that I had buried their brave comrade here."
+        },
+        {
+          "label": "3",
+          "text": "The soldier told his fellow soldiers that I had buried our brave comrade there."
+        },
+        {
+          "label": "4",
+          "text": "The soldier told us that he had buried our brave comrade there."
+        }
+      ],
+      "question_id": "630680627778",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "The soldier told his fellow soldiers that he had buried their brave comrade there.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the word given below. Ameliorate",
+      "options": [
+        {
+          "label": "1",
+          "text": "Recondite"
+        },
+        {
+          "label": "2",
+          "text": "Motto"
+        },
+        {
+          "label": "3",
+          "text": "Exacerbate"
+        },
+        {
+          "label": "4",
+          "text": "Succour"
+        }
+      ],
+      "question_id": "630680166477",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Exacerbate",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

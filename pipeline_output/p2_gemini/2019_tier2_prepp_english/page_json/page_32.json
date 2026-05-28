@@ -1,0 +1,36 @@
+{
+  "page": 32,
+  "questions": [
+    {
+      "question_number": 43,
+      "section": null,
+      "question_text_full": "At first, the invaders avoided living in towns.” Who is/are being referred to here as ‘invaders’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Saxons, Angles and Jutes"
+        },
+        {
+          "label": "2",
+          "text": "Alfred the Great"
+        },
+        {
+          "label": "3",
+          "text": "Celts"
+        },
+        {
+          "label": "4",
+          "text": "Romans"
+        }
+      ],
+      "question_id": "8161615524",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Saxons, Angles and Jutes",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

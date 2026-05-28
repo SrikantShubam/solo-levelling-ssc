@@ -1,0 +1,106 @@
+{
+  "page": 65,
+  "questions": [
+    {
+      "question_number": 131,
+      "section": "Computer",
+      "question_text_full": "Which of the following technologies allows real-time communication over the Internet, such as voice and video calls, without requiring additional software or hardware beyond a web browser?",
+      "options": [
+        {
+          "label": "1",
+          "text": "FTP"
+        },
+        {
+          "label": "2",
+          "text": "VoIP"
+        },
+        {
+          "label": "3",
+          "text": "WebRTC"
+        },
+        {
+          "label": "4",
+          "text": "Email"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided on page."
+    },
+    {
+      "question_number": 132,
+      "section": "Computer",
+      "question_text_full": "What is the primary advantage of being able to insert and delete slides in an MS PowerPoint presentation?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To enable the addition of multimedia content"
+        },
+        {
+          "label": "2",
+          "text": "To allow for dynamic content adjustment and organisation"
+        },
+        {
+          "label": "3",
+          "text": "To enhance slide transitions"
+        },
+        {
+          "label": "4",
+          "text": "To apply different templates to individual slides"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided on page."
+    },
+    {
+      "question_number": 133,
+      "section": "Computer",
+      "question_text_full": "Which method is used to protect sensitive information during data transmission?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Decryption"
+        },
+        {
+          "label": "2",
+          "text": "Secure Socket Layer (SSL)"
+        },
+        {
+          "label": "3",
+          "text": "Compression"
+        },
+        {
+          "label": "4",
+          "text": "Hashing"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided on page."
+    }
+  ],
+  "warnings": [
+    "No answer keys (green ticks) were present on the provided page for any of the questions."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

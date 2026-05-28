@@ -1,0 +1,106 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "A man sells a mobile phone for ₹680 and loses something. If he had sold it for ₹1070, his gain would have been double the former loss. The cost price (in ₹) of the mobile phone is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "820"
+        },
+        {
+          "label": "2",
+          "text": "830"
+        },
+        {
+          "label": "3",
+          "text": "810"
+        },
+        {
+          "label": "4",
+          "text": "800"
+        }
+      ],
+      "question_id": "630680633558",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "810",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "If the diameter of the base of a cone is 56 cm and its curved surface area is 3080 cm², then what will be its volume (in cm³)? (Use π = 22/7)",
+      "options": [
+        {
+          "label": "1",
+          "text": "12250"
+        },
+        {
+          "label": "2",
+          "text": "14670"
+        },
+        {
+          "label": "3",
+          "text": "17248"
+        },
+        {
+          "label": "4",
+          "text": "15391"
+        }
+      ],
+      "question_id": "630680671154",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "17248",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "If A and B are two events such that P(A∪B) = 3/4, P(A∩B) = 1/4 and P(Aᶜ) = 2/3, then P(B) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Independent"
+        },
+        {
+          "label": "2",
+          "text": "Not Mutually Exclusive"
+        },
+        {
+          "label": "3",
+          "text": "Dependent"
+        },
+        {
+          "label": "4",
+          "text": "Mutually Exclusive"
+        }
+      ],
+      "question_id": "630680531511",
+      "chosen_option_label": "2",
+      "correct_option_label": "1",
+      "correct_option_text": "Independent",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question text was truncated in the image, but the options provided are clearly for a probability question. The correct option is marked as 1."
+    }
+  ],
+  "warnings": [
+    "Question 17 text is truncated in the source image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

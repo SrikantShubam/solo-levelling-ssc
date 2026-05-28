@@ -1,0 +1,74 @@
+{
+  "page": 37,
+  "questions": [
+    {
+      "question_number": 39,
+      "section": null,
+      "question_text_full": "Which statement best reflects a fact mentioned in the given passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The Sapphire-winged Warbler is the largest bird species in the avian kingdom."
+        },
+        {
+          "label": "2",
+          "text": "Schools on the island organise annual bird-watching competitions."
+        },
+        {
+          "label": "3",
+          "text": "The Sapphire-winged Warbler is the only bird species on the tropical island."
+        },
+        {
+          "label": "4",
+          "text": "Researchers are using satellite tracking devices to study the bird's migratory patterns."
+        }
+      ],
+      "question_id": "264330171942",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Researchers are using satellite tracking devices to study the bird's migratory patterns.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 40,
+      "section": null,
+      "question_text_full": "Identify the most appropriate ANTONYM of the word ‘stare’ from the passage.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Arduousness"
+        },
+        {
+          "label": "2",
+          "text": "Vibrancy"
+        },
+        {
+          "label": "3",
+          "text": "Excitement"
+        },
+        {
+          "label": "4",
+          "text": "Glimpse"
+        }
+      ],
+      "question_id": "264330171944",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Glimpse",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

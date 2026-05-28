@@ -1,0 +1,126 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "The value of (sin23°cos67° + sec52°sin38° + cos23°sin67° + cosec52°cos38°) / (cosec²20° - tan²70°) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "2"
+        },
+        {
+          "label": "4",
+          "text": "0"
+        }
+      ],
+      "question_id": "65497843139",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "A motorboat whose speed is 20 km/h in still water takes 30 minutes more to go 24 km upstream than to cover the same distance downstream. If the speed of the boat in still water is increased by 2 km/h, then how much time will it take to go 39 km downstream and 30 km upstream?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 h 40 m"
+        },
+        {
+          "label": "2",
+          "text": "3 h 10 m"
+        },
+        {
+          "label": "3",
+          "text": "3 h 40 m"
+        },
+        {
+          "label": "4",
+          "text": "2 h 50 m"
+        }
+      ],
+      "question_id": "65497843534",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "3 h 10 m",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "AB is a diameter of a circle with centre O. A tangent is drawn at point A. C is a point on the circle such that BC produced meets the tangent at P. If ∠APC = 62°, then find the measure of the minor arc AC.",
+      "options": [
+        {
+          "label": "1",
+          "text": "56°"
+        },
+        {
+          "label": "2",
+          "text": "62°"
+        },
+        {
+          "label": "3",
+          "text": "28°"
+        },
+        {
+          "label": "4",
+          "text": "31°"
+        }
+      ],
+      "question_id": "65497842326",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "28°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "A can finish a piece of the work in 16 days and B can finish it in 12 days. They worked together for 4 days and then A left. B finished the remaining work. For how many total number of days did B work to finish the work completely?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "9"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "question_id": "65497843129",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "9",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

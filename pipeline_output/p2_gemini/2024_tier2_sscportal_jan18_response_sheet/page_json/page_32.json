@@ -1,0 +1,104 @@
+{
+  "page": 32,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nRashid was not able to _____ the pain after the accident.",
+      "options": [
+        {
+          "label": "1",
+          "text": "beer"
+        },
+        {
+          "label": "2",
+          "text": "buyer"
+        },
+        {
+          "label": "3",
+          "text": "bear"
+        },
+        {
+          "label": "4",
+          "text": "bare"
+        }
+      ],
+      "question_id": "630680674113",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "bear",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nDid you hear that noise?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Was that noise heard by you?"
+        },
+        {
+          "label": "2",
+          "text": "Is that noise heard by you?"
+        },
+        {
+          "label": "3",
+          "text": "Wasn't that noise heard by you?"
+        },
+        {
+          "label": "4",
+          "text": "Has that noise been heard by you?"
+        }
+      ],
+      "question_id": "630680627559",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Was that noise heard by you?",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech.\nThe District Magistrate ordered the police to work all night and put an end to those riots.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The District Magistrate told the police, \"Work all night and put to end these riots.\""
+        },
+        {
+          "label": "2",
+          "text": "The District Magistrate told the police, \"Work all night and put an end to these riots.\""
+        },
+        {
+          "label": "3",
+          "text": "The District Magistrate told the police, \"Work all night and put an end to their riots.\""
+        },
+        {
+          "label": "4",
+          "text": "The District Magistrate told the police, \"Work all night to put an end these riots.\""
+        }
+      ],
+      "question_id": "630680627823",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "The District Magistrate told the police, \"Work all night and put an end to these riots.\"",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

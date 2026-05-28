@@ -1,0 +1,224 @@
+{
+  "page": 25,
+  "questions": [
+    {
+      "question_number": 146,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nNo longer in use",
+      "options": [
+        {
+          "label": "1",
+          "text": "Obscure"
+        },
+        {
+          "label": "2",
+          "text": "Oriental"
+        },
+        {
+          "label": "3",
+          "text": "Original"
+        },
+        {
+          "label": "4",
+          "text": "Obsolete"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 147,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nThese shoes are cheap as well durable.",
+      "options": [
+        {
+          "label": "1",
+          "text": "more cheaper than durable"
+        },
+        {
+          "label": "2",
+          "text": "both cheap and durable"
+        },
+        {
+          "label": "3",
+          "text": "No improvement required"
+        },
+        {
+          "label": "4",
+          "text": "neither cheaper nor durable"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 148,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nThe teacher found it difficult to exceed on the students’ request.",
+      "options": [
+        {
+          "label": "1",
+          "text": "accede by"
+        },
+        {
+          "label": "2",
+          "text": "No improvement required"
+        },
+        {
+          "label": "3",
+          "text": "accede to"
+        },
+        {
+          "label": "4",
+          "text": "exceed for"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 149,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nA decision on which one cannot go back",
+      "options": [
+        {
+          "label": "1",
+          "text": "Incorrigible"
+        },
+        {
+          "label": "2",
+          "text": "Irrevocable"
+        },
+        {
+          "label": "3",
+          "text": "Improbable"
+        },
+        {
+          "label": "4",
+          "text": "Incredible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 150,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nI could not use his laptop as it was password protected.",
+      "options": [
+        {
+          "label": "1",
+          "text": "His laptop has not been used by me as it is password protected."
+        },
+        {
+          "label": "2",
+          "text": "His laptop cannot be used by me as it is password protected."
+        },
+        {
+          "label": "3",
+          "text": "His laptop could not been used by me as it was password protected."
+        },
+        {
+          "label": "4",
+          "text": "His laptop could not be used by me as it was password protected."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 151,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nYour name / precedes before / mine / in the list.",
+      "options": [
+        {
+          "label": "1",
+          "text": "mine"
+        },
+        {
+          "label": "2",
+          "text": "Your name"
+        },
+        {
+          "label": "3",
+          "text": "precedes before"
+        },
+        {
+          "label": "4",
+          "text": "in the list"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 152,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Now, I was shining from top to toe and felt proud of my form.\nB. Finally, I was ready to leave the factory for my new home.\nC. Then the painter set about rubbing me vigorously and polishing me.\nD. A busy carpenter at last gave finishing touches to me.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ADBC"
+        },
+        {
+          "label": "2",
+          "text": "DCAB"
+        },
+        {
+          "label": "3",
+          "text": "ACDB"
+        },
+        {
+          "label": "4",
+          "text": "DACB"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

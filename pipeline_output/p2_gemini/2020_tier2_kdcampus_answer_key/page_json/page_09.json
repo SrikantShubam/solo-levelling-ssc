@@ -1,0 +1,134 @@
+{
+  "page": 9,
+  "questions": [
+    {
+      "question_number": 51,
+      "section": null,
+      "question_text_full": "In what way does noise become a status symbol?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Exposing workmen to high intensity sounds"
+        },
+        {
+          "label": "2",
+          "text": "Showing off the loud volume of one's TV"
+        },
+        {
+          "label": "3",
+          "text": "Awakening people from deep sleep"
+        },
+        {
+          "label": "4",
+          "text": "Conducting late night musical shows"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 52,
+      "section": null,
+      "question_text_full": "According to a survey conducted by AIIMS, noise does NOT cause:",
+      "options": [
+        {
+          "label": "1",
+          "text": "heart related complaints"
+        },
+        {
+          "label": "2",
+          "text": "eye infections"
+        },
+        {
+          "label": "3",
+          "text": "hypertension"
+        },
+        {
+          "label": "4",
+          "text": "nausea and vomiting"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 53,
+      "section": null,
+      "question_text_full": "Noise can be differentiated from other pollutants because:",
+      "options": [
+        {
+          "label": "1",
+          "text": "it does not impact the productivity of the workers in industries"
+        },
+        {
+          "label": "2",
+          "text": "it is regarded as a small irritant which may be easily dismissed"
+        },
+        {
+          "label": "3",
+          "text": "it is not detrimental to our health in any way"
+        },
+        {
+          "label": "4",
+          "text": "it is prevalent only in the urban areas of the country"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 54,
+      "section": null,
+      "question_text_full": "Recreational noise is created during:",
+      "options": [
+        {
+          "label": "1",
+          "text": "discord between agitated workers"
+        },
+        {
+          "label": "2",
+          "text": "running of heavy machinery"
+        },
+        {
+          "label": "3",
+          "text": "weddings and festivals"
+        },
+        {
+          "label": "4",
+          "text": "shouting of slogans"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

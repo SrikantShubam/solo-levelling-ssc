@@ -1,0 +1,44 @@
+{
+  "page": 33,
+  "questions": [
+    {
+      "question_number": 36,
+      "section": null,
+      "question_text_full": "How do we know the number of students getting visas for studies in UK?",
+      "options": [
+        {
+          "label": "1",
+          "text": "from the records of Ministry of Home Affairs"
+        },
+        {
+          "label": "2",
+          "text": "from the Immigration Statistics Report"
+        },
+        {
+          "label": "3",
+          "text": "from the records of the Bureau of Immigration"
+        },
+        {
+          "label": "4",
+          "text": "from the Ministry of Education"
+        }
+      ],
+      "question_id": "264330128822",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "from the Immigration Statistics Report",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

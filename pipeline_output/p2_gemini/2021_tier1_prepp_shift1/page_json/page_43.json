@@ -1,0 +1,68 @@
+{
+  "page": 43,
+  "questions": [
+    {
+      "question_number": 99,
+      "section": null,
+      "question_text_full": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The rise in the Irrawaddy dolphin (1) ______ in Chilika can be attributed to the eviction of (2) ______ fish enclosures. After thousands of hectares of Chilika lake were made (3) ______ free, Irrawaddy dolphins found unobstructed area for movement. (4) ______, due to the COVID-19 lockdown last year, there were comparatively fewer tourist boats on Chilika lake, which made it (5) ______ for dolphins to move from one part of the lake to another. Select the most appropriate option to fill in blank no.4.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Nevertheless"
+        },
+        {
+          "label": "2",
+          "text": "Whereas"
+        },
+        {
+          "label": "3",
+          "text": "However"
+        },
+        {
+          "label": "4",
+          "text": "Moreover"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options provided in the image are labeled a, b, c, d. These have been mapped to 1, 2, 3, 4 respectively as per instructions."
+    },
+    {
+      "question_number": 100,
+      "section": null,
+      "question_text_full": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The rise in the Irrawaddy dolphin (1) ______ in Chilika can be attributed to the eviction of (2) ______ fish enclosures. After thousands of hectares of Chilika lake were made (3) ______ free, Irrawaddy dolphins found unobstructed area for movement. (4) ______, due to the COVID-19 lockdown last year, there were comparatively fewer tourist boats on Chilika lake, which made it (5) ______ for dolphins to move from one part of the lake to another. Select the most appropriate option to fill in blank no.5.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Not visible"
+        },
+        {
+          "label": "2",
+          "text": "Not visible"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The options for question 100 are not visible on the provided page."
+    }
+  ],
+  "warnings": [
+    "Options for question 100 are missing from the provided image."
+  ]
+}

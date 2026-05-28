@@ -1,0 +1,77 @@
+{
+  "page": 59,
+  "questions": [
+    {
+      "question_number": 117,
+      "section": null,
+      "question_text_full": "Charcot-Marie-Tooth disease is caused by duplication of the peripheral myelin protein-22 (PMP22) gene on which chromosome?",
+      "options": [
+        {
+          "label": "1",
+          "text": "chromosome 21"
+        },
+        {
+          "label": "2",
+          "text": "chromosome 15"
+        },
+        {
+          "label": "3",
+          "text": "chromosome 8"
+        },
+        {
+          "label": "4",
+          "text": "chromosome 17"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options were labeled a, b, c, d in the source, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 118,
+      "section": null,
+      "question_text_full": "Which portal allowed stakeholders seamless access to information related to funding, documentation, project monitoring, and approval through four efficient ways of logging in for monitoring the implementation of Centrally Sponsored Schemes in 2023?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Digits India Portal"
+        },
+        {
+          "label": "2",
+          "text": "Viksit Bharat Portal"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Only two options are visible on the page."
+    }
+  ],
+  "warnings": [
+    "Question 118 is incomplete as only two options are visible.",
+    "The first block of text on the page is a standalone question/statement set without a question number or full set of options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

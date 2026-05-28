@@ -1,0 +1,96 @@
+{
+  "page": 16,
+  "questions": [
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "A chord 21 cm long is drawn in a circle of diameter 25 cm. The perpendicular distance of the chord from the centre is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "√41"
+        },
+        {
+          "label": "2",
+          "text": "√23"
+        },
+        {
+          "label": "3",
+          "text": "√56"
+        },
+        {
+          "label": "4",
+          "text": "√46"
+        }
+      ],
+      "question_id": "81616113377",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "√46",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Study the table and answer the question. Table shows District-wise data of the number of primary school teachers posted in schools of a city. [Table: District (East, North, West, South, Central), Male teachers (1650, 1075, 1280, 1170, 690), Female teachers (2375, 2651, 1520, 1085, 859)]. What is the ratio of the number of male teachers to the number of female teachers in the city?",
+      "options": [
+        {
+          "label": "1",
+          "text": "586 : 849"
+        },
+        {
+          "label": "2",
+          "text": "391 : 566"
+        },
+        {
+          "label": "3",
+          "text": "78 : 113"
+        },
+        {
+          "label": "4",
+          "text": "195 : 283"
+        }
+      ],
+      "question_id": "81616112677",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "391 : 566",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "X, Y are two points in a river. Points P and Q divide the straight line XY into three equal parts. The river flows along XY and the time taken by a boat to row from X to Q and from Y to Q are in the ratio 4 : 5. The ratio of the speed of the boat downstream to that of the river current is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 : 10"
+        },
+        {
+          "label": "2",
+          "text": "10 : 3"
+        },
+        {
+          "label": "3",
+          "text": "3 : 4"
+        },
+        {
+          "label": "4",
+          "text": "4 : 3"
+        }
+      ],
+      "question_id": "81616113069",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "10 : 3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

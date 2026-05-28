@@ -1,0 +1,126 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 63,
+      "section": null,
+      "question_text_full": "The numerator of a fraction is 3 more than the denominator. When 5 is added to the numerator and 2 is subtracted from the denominator, the fraction becomes 8/3. When the original fraction is divided by 5 1/2, the fraction so obtained is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/2"
+        },
+        {
+          "label": "2",
+          "text": "2/3"
+        },
+        {
+          "label": "3",
+          "text": "3/4"
+        },
+        {
+          "label": "4",
+          "text": "1/4"
+        }
+      ],
+      "question_id": "8161615288",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "1/4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 64,
+      "section": null,
+      "question_text_full": "In ΔABC, the bisector of ∠A intersects side BC at D. If AB = 12 cm, AC = 15 cm and BC = 18 cm, then the length of BD is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 cm"
+        },
+        {
+          "label": "2",
+          "text": "9.6 cm"
+        },
+        {
+          "label": "3",
+          "text": "7.5 cm"
+        },
+        {
+          "label": "4",
+          "text": "9 cm"
+        }
+      ],
+      "question_id": "8161615339",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "8 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 65,
+      "section": null,
+      "question_text_full": "The lengths of two sides of a parallelogram are 3 cm and 10 cm. What is the sum of the squares of the diagonals of the parallelogram?",
+      "options": [
+        {
+          "label": "1",
+          "text": "218 cm²"
+        },
+        {
+          "label": "2",
+          "text": "109 cm²"
+        },
+        {
+          "label": "3",
+          "text": "169 cm²"
+        },
+        {
+          "label": "4",
+          "text": "206 cm²"
+        }
+      ],
+      "question_id": "8161615346",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "218 cm²",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 66,
+      "section": null,
+      "question_text_full": "The monthly incomes of A and B are in the ratio 3 : 5 and the ratio of their savings is 2 : 3. If the income of B is equal to three times the savings of A, then what is the ratio of the expenditures of A and B?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 : 15"
+        },
+        {
+          "label": "2",
+          "text": "7 : 11"
+        },
+        {
+          "label": "3",
+          "text": "5 : 8"
+        },
+        {
+          "label": "4",
+          "text": "3 : 7"
+        }
+      ],
+      "question_id": "8161615301",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "8 : 15",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

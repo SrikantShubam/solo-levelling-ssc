@@ -1,0 +1,68 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Select the set of classes the relationship among which is best illustrated by the following Venn diagram. [Figure: Concentric circles]",
+      "options": [
+        {
+          "label": "1",
+          "text": "Fathers, Brothers, Males"
+        },
+        {
+          "label": "2",
+          "text": "Mothers, Aunts, Doctors"
+        },
+        {
+          "label": "3",
+          "text": "Literates, Engineers, Farmers"
+        },
+        {
+          "label": "4",
+          "text": "Grandfathers, Fathers, Males"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Select the combination of letters that when sequentially placed in the blanks of the given series will complete the series. _ Z _ C _ L Z _ C _ L _ X _ V L _ _ _ V",
+      "options": [
+        {
+          "label": "1",
+          "text": "L, X, V, V, X, C, X, Z, Z"
+        },
+        {
+          "label": "2",
+          "text": "L, X, C, X, V, C, Z, C, Z, C"
+        },
+        {
+          "label": "3",
+          "text": "X, Z, L, X, V, Z, C, C, C, L"
+        },
+        {
+          "label": "4",
+          "text": "L, X, V, X, V, Z, C, Z, X, C"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 22 is cut off at the bottom of the page and does not contain options."
+  ]
+}

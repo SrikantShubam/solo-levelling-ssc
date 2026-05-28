@@ -1,0 +1,104 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 85,
+      "section": null,
+      "question_text_full": "Which of the following is NOT considered as a property of a good estimator?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Consistency"
+        },
+        {
+          "label": "2",
+          "text": "Unbiasedness"
+        },
+        {
+          "label": "3",
+          "text": "Efficiency"
+        },
+        {
+          "label": "4",
+          "text": "Correlation"
+        }
+      ],
+      "question_id": "6306801352878",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Correlation",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 86,
+      "section": null,
+      "question_text_full": "Suppose a sample of size 36 is drawn from a population with mean 2 and variance 25 using simple random sampling with replacement. The standard error of x̄ is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3/5"
+        },
+        {
+          "label": "2",
+          "text": "5/8"
+        },
+        {
+          "label": "3",
+          "text": "5/6"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "question_id": "6306801352955",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "5/6",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 87,
+      "section": null,
+      "question_text_full": "'p' is the probability that a man aged x years will die in a year. If there are n men aged x, A1 will die in a year and will be the first to die.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/n [ (1-p)n ]"
+        },
+        {
+          "label": "2",
+          "text": "1/n [ 1 - (1-p)n ]"
+        },
+        {
+          "label": "3",
+          "text": "1/n [ (1-p)n - 1 ]"
+        },
+        {
+          "label": "4",
+          "text": "1/n [ (1-p) ]"
+        }
+      ],
+      "question_id": "6306801292667",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "1/n [ 1 - (1-p)n ]",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question text appears slightly cut off in the source image, but the context is clear."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

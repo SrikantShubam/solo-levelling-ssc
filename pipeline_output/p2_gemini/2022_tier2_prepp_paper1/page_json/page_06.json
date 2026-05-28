@@ -1,0 +1,134 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "In ΔPQR,PQ=QR and O is an interior point of ΔPQR such that ∠OPR=∠ORP.\nConsider the following statements:\n(i) ΔPQR is an isosceles triangle.\n(ii) O is the centroid of ΔPQR.\n(iii) ΔPQO is congruent to ΔRQO.\nWhich of the above statements are correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (i) and (ii)"
+        },
+        {
+          "label": "2",
+          "text": "Only (i) and (iii)"
+        },
+        {
+          "label": "3",
+          "text": "Only (ii) and (iii)"
+        },
+        {
+          "label": "4",
+          "text": "Only (ii)"
+        }
+      ],
+      "question_id": "264330121758",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Only (i) and (iii)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "A man can row 10 km/h in still water. When the river is running at a speed of 4.5 km/h, then it takes him 2 h to row to a place and comes back to the initial point . How far is the place (in km) (rounded off to two decimal places)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5.50"
+        },
+        {
+          "label": "2",
+          "text": "8.98"
+        },
+        {
+          "label": "3",
+          "text": "7.98"
+        },
+        {
+          "label": "4",
+          "text": "6.25"
+        }
+      ],
+      "question_id": "264330121725",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "7.98",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Find the average of the cubes of the first five natural numbers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "35"
+        },
+        {
+          "label": "2",
+          "text": "40"
+        },
+        {
+          "label": "3",
+          "text": "45"
+        },
+        {
+          "label": "4",
+          "text": "50"
+        }
+      ],
+      "question_id": "26433073075",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "45",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "For what value of m will the system of equations 17x+my+102=0 and 23x+299y+138=0 have infinite number of solutions?",
+      "options": [
+        {
+          "label": "1",
+          "text": "221"
+        },
+        {
+          "label": "2",
+          "text": "223"
+        },
+        {
+          "label": "3",
+          "text": "220"
+        },
+        {
+          "label": "4",
+          "text": "219"
+        }
+      ],
+      "question_id": "264330121748",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "221",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

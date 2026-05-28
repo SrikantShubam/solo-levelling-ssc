@@ -1,0 +1,36 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Who came up with the idea of making the volcano accessible to tourists?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Trip Advisor"
+        },
+        {
+          "label": "2",
+          "text": "Ami B. Stefansson"
+        },
+        {
+          "label": "3",
+          "text": "Reykjavik"
+        },
+        {
+          "label": "4",
+          "text": "Thrihnukagigur"
+        }
+      ],
+      "question_id": "26433083319",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Ami B. Stefansson",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

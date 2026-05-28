@@ -1,0 +1,126 @@
+{
+  "page": 25,
+  "questions": [
+    {
+      "question_number": 88,
+      "section": null,
+      "question_text_full": "An article is marked 35% above its cost. If a profit of 20% is earned by selling the article, then the discount per cent offered on the marked price of the article is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "11 1/9%"
+        },
+        {
+          "label": "2",
+          "text": "15%"
+        },
+        {
+          "label": "3",
+          "text": "12%"
+        },
+        {
+          "label": "4",
+          "text": "10 1/9%"
+        }
+      ],
+      "question_id": "8161615311",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "11 1/9%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 89,
+      "section": null,
+      "question_text_full": "How many kg of rice costing ₹42 per kg should be mixed with 7 1/2 kg rice costing ₹50 per kg so that by selling the mixture at ₹53.10 per kg, there is a gain of 18%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 1/2"
+        },
+        {
+          "label": "2",
+          "text": "10 1/2"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "question_id": "8161615315",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "12 1/2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 90,
+      "section": null,
+      "question_text_full": "A, B and C started a business. Twice the investment of A is equal to thrice the investment of B and also five times the investment of C. If the total profit after a year is ₹15.5 lakhs, then the share of B in the profit is (in ₹ lakhs):",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "7.5"
+        },
+        {
+          "label": "3",
+          "text": "4.5"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "question_id": "8161615313",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 91,
+      "section": null,
+      "question_text_full": "In a circle with centre O, BC is a chord. Points D and A are on the circle, on the opposite side of BC, such that ∠DBC = 28° and BD = DC. What is the measure of ∠BOC?",
+      "options": [
+        {
+          "label": "1",
+          "text": "112°"
+        },
+        {
+          "label": "2",
+          "text": "96°"
+        },
+        {
+          "label": "3",
+          "text": "98°"
+        },
+        {
+          "label": "4",
+          "text": "84°"
+        }
+      ],
+      "question_id": "8161615343",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "112°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

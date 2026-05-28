@@ -1,0 +1,36 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 30,
+      "section": null,
+      "question_text_full": "The passage is mainly about:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Australia’s struggle with bush fires"
+        },
+        {
+          "label": "2",
+          "text": "how the bush fires occur in Australia"
+        },
+        {
+          "label": "3",
+          "text": "the government’s role in dealing with the bushfire"
+        },
+        {
+          "label": "4",
+          "text": "the loss of wildlife due to bush fires"
+        }
+      ],
+      "question_id": "8161615507",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Australia’s struggle with bush fires",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

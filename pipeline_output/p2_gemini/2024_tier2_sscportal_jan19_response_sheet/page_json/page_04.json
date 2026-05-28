@@ -1,0 +1,134 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "If the critical region is evenly distributed, then the test is referred to as:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Three tailed"
+        },
+        {
+          "label": "2",
+          "text": "Zero tailed"
+        },
+        {
+          "label": "3",
+          "text": "One tailed"
+        },
+        {
+          "label": "4",
+          "text": "Two tailed"
+        }
+      ],
+      "question_id": "6306801307943",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Two tailed",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Which of the following is NOT true for seasonal variation?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Caused by public holidays"
+        },
+        {
+          "label": "2",
+          "text": "Caused by rainfall"
+        },
+        {
+          "label": "3",
+          "text": "Repeated irregularly"
+        },
+        {
+          "label": "4",
+          "text": "Variation in a time series within one year"
+        }
+      ],
+      "question_id": "6306801352953",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Repeated irregularly",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "In a two-way ANOVA, how many hypotheses are tested?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Three"
+        },
+        {
+          "label": "2",
+          "text": "One"
+        },
+        {
+          "label": "3",
+          "text": "Four"
+        },
+        {
+          "label": "4",
+          "text": "Two"
+        }
+      ],
+      "question_id": "6306801294823",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Three",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "In ANCOVA, what happens when the covariate is not linearly related to the dependent variable?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The results of ANCOVA may be biased."
+        },
+        {
+          "label": "2",
+          "text": "The covariate becomes irrelevant."
+        },
+        {
+          "label": "3",
+          "text": "All assumptions of ANCOVA are met."
+        },
+        {
+          "label": "4",
+          "text": "The F-statistic becomes insignificant."
+        }
+      ],
+      "question_id": "6306801352934",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "The results of ANCOVA may be biased.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,36 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 33,
+      "section": null,
+      "question_text_full": "The opposition in Australia is criticising the government for:",
+      "options": [
+        {
+          "label": "1",
+          "text": "not fighting the bush fires"
+        },
+        {
+          "label": "2",
+          "text": "not allotting enough funds for firefighting"
+        },
+        {
+          "label": "3",
+          "text": "not doing enough against the climate change"
+        },
+        {
+          "label": "4",
+          "text": "not giving enough compensation to the deceased"
+        }
+      ],
+      "question_id": "8161615515",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "not doing enough against the climate change",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

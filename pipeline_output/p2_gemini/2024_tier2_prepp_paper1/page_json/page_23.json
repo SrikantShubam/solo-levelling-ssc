@@ -1,0 +1,76 @@
+{
+  "page": 23,
+  "questions": [
+    {
+      "question_number": 49,
+      "section": null,
+      "question_text_full": "Four of the following five figures are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group?",
+      "options": [
+        {
+          "label": "1",
+          "text": "C"
+        },
+        {
+          "label": "2",
+          "text": "D"
+        },
+        {
+          "label": "3",
+          "text": "B"
+        },
+        {
+          "label": "4",
+          "text": "A"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 50,
+      "section": null,
+      "question_text_full": "Identify the figure given in the options which when put in place of the question mark (?) will logically complete the series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The options for question 50 are not visible on the page."
+    }
+  ],
+  "warnings": [
+    "Question 50 options are missing from the provided image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

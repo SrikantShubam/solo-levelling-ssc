@@ -1,0 +1,106 @@
+{
+  "page": 67,
+  "questions": [
+    {
+      "question_number": 137,
+      "section": null,
+      "question_text_full": "Which keyboard shortcut is used for adding bullets in MS Word 2010?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ctrl + Alt + L"
+        },
+        {
+          "label": "2",
+          "text": "Ctrl + L"
+        },
+        {
+          "label": "3",
+          "text": "Shift + L"
+        },
+        {
+          "label": "4",
+          "text": "Ctrl + Shift + L"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for any questions."
+    },
+    {
+      "question_number": 138,
+      "section": null,
+      "question_text_full": "Which device is commonly used to connect computers within a LAN?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Modem"
+        },
+        {
+          "label": "2",
+          "text": "Router"
+        },
+        {
+          "label": "3",
+          "text": "Switch"
+        },
+        {
+          "label": "4",
+          "text": "Repeater"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for any questions."
+    },
+    {
+      "question_number": 139,
+      "section": null,
+      "question_text_full": "What is the primary reason DRAM needs to be refreshed periodically?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To prevent data corruption caused by magnetic fields"
+        },
+        {
+          "label": "2",
+          "text": "To recharge the capacitors storing data bits"
+        },
+        {
+          "label": "3",
+          "text": "To clear unused data"
+        },
+        {
+          "label": "4",
+          "text": "To allow the CPU to access new data"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for any questions."
+    }
+  ],
+  "warnings": [
+    "Question 140 is incomplete on the page (missing options), therefore it was excluded from the extraction."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,7 @@
+# Generated artifacts - too large for git
+page_images/
+page_image_crops/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/

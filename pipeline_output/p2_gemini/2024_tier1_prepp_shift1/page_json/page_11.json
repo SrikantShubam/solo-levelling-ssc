@@ -1,0 +1,46 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Select the figure from the given option that can replace the question mark (?) in the following series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure a"
+        },
+        {
+          "label": "2",
+          "text": "Figure b"
+        },
+        {
+          "label": "3",
+          "text": "Figure c"
+        },
+        {
+          "label": "4",
+          "text": "Figure d"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question asks to select from options a, b, c, d which correspond to labels 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "The answer key (green tick) is not visible on the provided page for question 19."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

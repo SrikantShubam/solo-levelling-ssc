@@ -1,0 +1,126 @@
+{
+  "page": 16,
+  "questions": [
+    {
+      "question_number": null,
+      "section": null,
+      "question_text_full": "The value of \\frac{\\cos^6\\theta + \\sin^6\\theta + 3\\sin^2\\theta \\cos^2\\theta}{\\text{cosec}\\theta\\sec\\theta(\\sin\\theta + \\cos\\theta - 1)(\\sin\\theta + \\cos\\theta + 1)} is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/2"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "question_id": "8161615364",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "1/2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 55,
+      "section": null,
+      "question_text_full": "A certain sum is lent at 4% p.a. for 3 years, 8% p.a. for the next 4 years, and 12% p.a. beyond 7 years. If for a period of 11 years, the simple interest obtained is ₹27,600, then the sum is (in ₹):",
+      "options": [
+        {
+          "label": "1",
+          "text": "27,000"
+        },
+        {
+          "label": "2",
+          "text": "30,000"
+        },
+        {
+          "label": "3",
+          "text": "25,000"
+        },
+        {
+          "label": "4",
+          "text": "32,000"
+        }
+      ],
+      "question_id": "8161615302",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "30,000",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 56,
+      "section": null,
+      "question_text_full": "The areas of three adjacent faces of a cuboidal tank are 3 m² , 12 m² and 16 m² . The capacity of the tank, in litres, is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "48000"
+        },
+        {
+          "label": "2",
+          "text": "72000"
+        },
+        {
+          "label": "3",
+          "text": "24000"
+        },
+        {
+          "label": "4",
+          "text": "36000"
+        }
+      ],
+      "question_id": "8161615359",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "24000",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 57,
+      "section": null,
+      "question_text_full": "A train of length 287 m, running at 80 km/h, crosses another train moving in the opposite direction at 37 km/h in 18 seconds. What is the length of the other train?",
+      "options": [
+        {
+          "label": "1",
+          "text": "285 m"
+        },
+        {
+          "label": "2",
+          "text": "300 m"
+        },
+        {
+          "label": "3",
+          "text": "298 m"
+        },
+        {
+          "label": "4",
+          "text": "289 m"
+        }
+      ],
+      "question_id": "8161615317",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "298 m",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

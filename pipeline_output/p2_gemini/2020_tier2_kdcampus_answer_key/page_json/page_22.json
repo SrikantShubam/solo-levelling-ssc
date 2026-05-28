@@ -1,0 +1,194 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 128,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\nThe teacher says, “Every action has an equal and opposite reaction.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "The teacher says every action had an equal and opposite reaction."
+        },
+        {
+          "label": "2",
+          "text": "The teacher said that every action had an equal and opposite reaction."
+        },
+        {
+          "label": "3",
+          "text": "The teacher said that every action has an equal and opposite reaction."
+        },
+        {
+          "label": "4",
+          "text": "The teacher says that every action has an equal and opposite reaction."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 129,
+      "section": null,
+      "question_text_full": "Select the segment in which a word has been INCORRECTLY used.\nThe children were so exhausted that they sank warily into bed.",
+      "options": [
+        {
+          "label": "1",
+          "text": "warily into bed"
+        },
+        {
+          "label": "2",
+          "text": "The children"
+        },
+        {
+          "label": "3",
+          "text": "were so exhausted"
+        },
+        {
+          "label": "4",
+          "text": "that they sank"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 130,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Suddenly, a motor bike came towards me from the opposite direction.\nB. The consequence of my daredevilry was a sprained ankle and a bruised arm.\nC. I was enjoying my hands-free ride at top speed.\nD. I tried to swerve out of the way but lost control and fell.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CBDA"
+        },
+        {
+          "label": "2",
+          "text": "BCDA"
+        },
+        {
+          "label": "3",
+          "text": "BADC"
+        },
+        {
+          "label": "4",
+          "text": "CADB"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 131,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nThe magistrate acquitted him of all charges and set him free.",
+      "options": [
+        {
+          "label": "1",
+          "text": "atoned him from"
+        },
+        {
+          "label": "2",
+          "text": "No improvement required"
+        },
+        {
+          "label": "3",
+          "text": "apprehended him in"
+        },
+        {
+          "label": "4",
+          "text": "accused him for"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 132,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nYou must sign the contract before you start working.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The contract will be signed by you before you start working."
+        },
+        {
+          "label": "2",
+          "text": "The contract has been signed by you before you start working."
+        },
+        {
+          "label": "3",
+          "text": "The contract must being signed by you before you start working."
+        },
+        {
+          "label": "4",
+          "text": "The contract must be signed by you before you start working."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 133,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the given word.\nIndigenous",
+      "options": [
+        {
+          "label": "1",
+          "text": "Alien"
+        },
+        {
+          "label": "2",
+          "text": "Innate"
+        },
+        {
+          "label": "3",
+          "text": "Natural"
+        },
+        {
+          "label": "4",
+          "text": "Primitive"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

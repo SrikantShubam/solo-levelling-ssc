@@ -1,0 +1,194 @@
+{
+  "page": 27,
+  "questions": [
+    {
+      "question_number": 158,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech. My friend asked me where I planned to go for a vacation.",
+      "options": [
+        {
+          "label": "1",
+          "text": "My friend said to me, “Where have you planned to go for a vacation?”"
+        },
+        {
+          "label": "2",
+          "text": "My friend said to me, “Where you have planned to go for a vacation?”"
+        },
+        {
+          "label": "3",
+          "text": "My friend said to me, “Where do you plan to go for a vacation?”"
+        },
+        {
+          "label": "4",
+          "text": "My friend said to me, “Where are you planning to go for a vacation?”"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 159,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error. You should / avail this opportunity / to demonstrate / your skills.",
+      "options": [
+        {
+          "label": "1",
+          "text": "You should"
+        },
+        {
+          "label": "2",
+          "text": "your skills"
+        },
+        {
+          "label": "3",
+          "text": "avail this opportunity"
+        },
+        {
+          "label": "4",
+          "text": "to demonstrate"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 160,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice. Absolute liberty is enjoyed by us in matters of food and dress.",
+      "options": [
+        {
+          "label": "1",
+          "text": "We are enjoying absolute liberty in matters of food and dress."
+        },
+        {
+          "label": "2",
+          "text": "We enjoy absolute liberty in matters of food and dress."
+        },
+        {
+          "label": "3",
+          "text": "We will enjoy absolute liberty in matters of food and dress."
+        },
+        {
+          "label": "4",
+          "text": "We have enjoyed absolute liberty in matters of food and dress."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 161,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech. The old man said to her, “Good luck to you! May you succeed in your venture!”",
+      "options": [
+        {
+          "label": "1",
+          "text": "The old man exclaimed good luck to you and wished that she may succeed in her venture."
+        },
+        {
+          "label": "2",
+          "text": "The old man wished you good luck and prayed that you might succeed in your venture."
+        },
+        {
+          "label": "3",
+          "text": "The old man wished her good luck and prayed that she might succeed in her venture."
+        },
+        {
+          "label": "4",
+          "text": "The old man told her good luck and prayed that may she succeed in her venture."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 162,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error. The manager / took him / at task / for his negligence.",
+      "options": [
+        {
+          "label": "1",
+          "text": "for his negligence"
+        },
+        {
+          "label": "2",
+          "text": "The manager"
+        },
+        {
+          "label": "3",
+          "text": "at task"
+        },
+        {
+          "label": "4",
+          "text": "took him"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 163,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words. Central character in a story or play",
+      "options": [
+        {
+          "label": "1",
+          "text": "Emulator"
+        },
+        {
+          "label": "2",
+          "text": "Contender"
+        },
+        {
+          "label": "3",
+          "text": "Protagonist"
+        },
+        {
+          "label": "4",
+          "text": "Adversary"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

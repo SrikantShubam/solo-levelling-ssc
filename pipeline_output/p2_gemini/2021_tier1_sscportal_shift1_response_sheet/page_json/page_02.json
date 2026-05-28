@@ -1,0 +1,96 @@
+{
+  "page": 2,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series.\n237, 196, 155, 114, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "47"
+        },
+        {
+          "label": "2",
+          "text": "98"
+        },
+        {
+          "label": "3",
+          "text": "73"
+        },
+        {
+          "label": "4",
+          "text": "64"
+        }
+      ],
+      "question_id": "65497842273",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "73",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Select the combination of letters that when sequentially placed in the blanks of the given series will complete the series.\n_ Z _ C _ L Z _ C _ L _ X _ V L _ _ _ V",
+      "options": [
+        {
+          "label": "1",
+          "text": "L, X, V, X, V, Z, C, Z, X, C"
+        },
+        {
+          "label": "2",
+          "text": "X, Z, L, X, V, Z, C, C, C, L"
+        },
+        {
+          "label": "3",
+          "text": "L, X, C, X, V, C, Z, C, Z, C"
+        },
+        {
+          "label": "4",
+          "text": "L, X, V, V, X, C, C, X, Z, Z"
+        }
+      ],
+      "question_id": "65497844603",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "L, X, V, X, V, Z, C, Z, X, C",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "If '@' means 'addition', '%' means 'multiplication', '$' means 'division' and '#' means 'subtraction', then find the value of the following expression.\n29 @ 128 $ 16 % 7 # 22",
+      "options": [
+        {
+          "label": "1",
+          "text": "58"
+        },
+        {
+          "label": "2",
+          "text": "47"
+        },
+        {
+          "label": "3",
+          "text": "63"
+        },
+        {
+          "label": "4",
+          "text": "23"
+        }
+      ],
+      "question_id": "65497842380",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "63",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

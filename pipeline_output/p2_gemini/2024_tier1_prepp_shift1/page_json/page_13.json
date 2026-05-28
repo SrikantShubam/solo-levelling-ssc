@@ -1,0 +1,76 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which is the one that DOES NOT belong to that group?\n(Note: The odd man out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "KJE"
+        },
+        {
+          "label": "2",
+          "text": "JHD"
+        },
+        {
+          "label": "3",
+          "text": "FDZ"
+        },
+        {
+          "label": "4",
+          "text": "AYU"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "What will come in the place of the question mark (?) in the following equation, if '+' and '-' are interchanged and '×' and '÷' are interchanged?\n342 × 18 + 79 - 45 ÷ 3 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "65"
+        },
+        {
+          "label": "2",
+          "text": "85"
+        },
+        {
+          "label": "3",
+          "text": "75"
+        },
+        {
+          "label": "4",
+          "text": "55"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 25 is incomplete on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

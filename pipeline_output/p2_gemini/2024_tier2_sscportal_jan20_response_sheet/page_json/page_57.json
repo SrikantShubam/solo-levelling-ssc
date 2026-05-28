@@ -1,0 +1,134 @@
+{
+  "page": 57,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "What is the size of each ASCII character in bits?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4 bits"
+        },
+        {
+          "label": "2",
+          "text": "16 bits"
+        },
+        {
+          "label": "3",
+          "text": "8 bits"
+        },
+        {
+          "label": "4",
+          "text": "5 bits"
+        }
+      ],
+      "question_id": "6306801272148",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "8 bits",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "What is a common sign that a computer might be infected with a virus?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Improved system security"
+        },
+        {
+          "label": "2",
+          "text": "Unusual system slowdowns and unexpected errors"
+        },
+        {
+          "label": "3",
+          "text": "Faster system boot times"
+        },
+        {
+          "label": "4",
+          "text": "Increased hard drive space"
+        }
+      ],
+      "question_id": "630680994650",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Unusual system slowdowns and unexpected errors",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "In a multipart email message, what does the boundary parameter in the Content-Type header signify?",
+      "options": [
+        {
+          "label": "1",
+          "text": "It defines the length of the email message."
+        },
+        {
+          "label": "2",
+          "text": "It separates the email's body from the attachments."
+        },
+        {
+          "label": "3",
+          "text": "It marks the start and end of each part in a multipart message."
+        },
+        {
+          "label": "4",
+          "text": "It limits the file size of each attachment."
+        }
+      ],
+      "question_id": "6306801301370",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "It marks the start and end of each part in a multipart message.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "What is the role of User Account Control (UAC) in Windows when modifying system settings?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To monitor memory usage and performance"
+        },
+        {
+          "label": "2",
+          "text": "To adjust display settings"
+        },
+        {
+          "label": "3",
+          "text": "To automate software updates"
+        },
+        {
+          "label": "4",
+          "text": "To prompt for permission before making system-wide changes"
+        }
+      ],
+      "question_id": "6306801313312",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "To prompt for permission before making system-wide changes",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

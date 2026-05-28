@@ -1,0 +1,104 @@
+{
+  "page": 50,
+  "questions": [
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "Which of the following is an example of GUI-based user agent in email?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Elm"
+        },
+        {
+          "label": "2",
+          "text": "Mail"
+        },
+        {
+          "label": "3",
+          "text": "Pine"
+        },
+        {
+          "label": "4",
+          "text": "Netscape"
+        }
+      ],
+      "question_id": "264330183359",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Netscape",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "In MS Office 365, the Page Setup dialog box can be found under which of the following tabs?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Home"
+        },
+        {
+          "label": "2",
+          "text": "Draw"
+        },
+        {
+          "label": "3",
+          "text": "Layout"
+        },
+        {
+          "label": "4",
+          "text": "Insert"
+        }
+      ],
+      "question_id": "264330183362",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Layout",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "When the sender and receiver of an email are on the same system, we need only ______ user agents.",
+      "options": [
+        {
+          "label": "1",
+          "text": "two"
+        },
+        {
+          "label": "2",
+          "text": "three"
+        },
+        {
+          "label": "3",
+          "text": "four"
+        },
+        {
+          "label": "4",
+          "text": "six"
+        }
+      ],
+      "question_id": "264330183363",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "two",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

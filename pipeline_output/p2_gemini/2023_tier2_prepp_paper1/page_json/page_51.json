@@ -1,0 +1,104 @@
+{
+  "page": 51,
+  "questions": [
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "In File Explorer of Windows 11, which of the following tabs includes the ‘hidden items’ option?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Home"
+        },
+        {
+          "label": "2",
+          "text": "File"
+        },
+        {
+          "label": "3",
+          "text": "View"
+        },
+        {
+          "label": "4",
+          "text": "Share"
+        }
+      ],
+      "question_id": "264330183357",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "View",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "What is the primary purpose of RAM (Random Access Memory) in a computer?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Storing permanent data and files"
+        },
+        {
+          "label": "2",
+          "text": "Providing long-term storage for programs"
+        },
+        {
+          "label": "3",
+          "text": "Providing temporary storage for data that the CPU is currently processing"
+        },
+        {
+          "label": "4",
+          "text": "Managing peripheral devices"
+        }
+      ],
+      "question_id": "264330183348",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Providing temporary storage for data that the CPU is currently processing",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "What is a cell in Microsoft Excel?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A separate file used to store data."
+        },
+        {
+          "label": "2",
+          "text": "A single worksheet within a workbook."
+        },
+        {
+          "label": "3",
+          "text": "The intersection of a row and a column in a worksheet."
+        },
+        {
+          "label": "4",
+          "text": "A small diagram or chart."
+        }
+      ],
+      "question_id": "264330183336",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "The intersection of a row and a column in a worksheet.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

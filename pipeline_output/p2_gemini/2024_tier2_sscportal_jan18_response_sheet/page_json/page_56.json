@@ -1,0 +1,134 @@
+{
+  "page": 56,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Which is the correct keyboard shortcut for adjusting the column width in MS Excel?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Shift + H + O + W"
+        },
+        {
+          "label": "2",
+          "text": "Alt + H + O + W"
+        },
+        {
+          "label": "3",
+          "text": "Ctrl + O + W + H"
+        },
+        {
+          "label": "4",
+          "text": "Ctrl + H + O + W"
+        }
+      ],
+      "question_id": "630680994785",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Alt + H + O + W",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Which action should be taken in Microsoft Outlook to send a received email to another person, while keeping the original message for your records?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Use the 'Archive' option and create a new email."
+        },
+        {
+          "label": "2",
+          "text": "Open the email, click on 'Forward', and enter the recipient's email address."
+        },
+        {
+          "label": "3",
+          "text": "Click on 'Reply' and add the new recipient's email address."
+        },
+        {
+          "label": "4",
+          "text": "Click on 'Reply All' and select 'Forward' from the options."
+        }
+      ],
+      "question_id": "630680996276",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "Open the email, click on 'Forward', and enter the recipient's email address.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "What security mechanism ensures that system updates are installed without user intervention?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Patch management software"
+        },
+        {
+          "label": "2",
+          "text": "Firewall"
+        },
+        {
+          "label": "3",
+          "text": "Secure Boot"
+        },
+        {
+          "label": "4",
+          "text": "Intrusion Detection System"
+        }
+      ],
+      "question_id": "6306801261653",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Patch management software",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Which keyboard shortcut is used for adding bullets in MS Word 2010?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ctrl + Alt + L"
+        },
+        {
+          "label": "2",
+          "text": "Ctrl + L"
+        },
+        {
+          "label": "3",
+          "text": "Shift + L"
+        },
+        {
+          "label": "4",
+          "text": "Ctrl + Shift + L"
+        }
+      ],
+      "question_id": "630680995342",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Ctrl + Shift + L",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

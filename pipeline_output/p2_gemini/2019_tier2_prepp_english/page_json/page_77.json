@@ -1,0 +1,96 @@
+{
+  "page": 77,
+  "questions": [
+    {
+      "question_number": 176,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order.\nA. We were driving along National Highway 40.\nB. If we drove ten kilometres along the road that branched off to the right, we would reach Brahmapur.\nC. Aditya and I were returning from the site of our new factory.\nD. We had reached a point where the road bifurcated.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CBAD"
+        },
+        {
+          "label": "2",
+          "text": "DCBA"
+        },
+        {
+          "label": "3",
+          "text": "CADB"
+        },
+        {
+          "label": "4",
+          "text": "BACD"
+        }
+      ],
+      "question_id": "8161615640",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "CADB",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 177,
+      "section": null,
+      "question_text_full": "Select the correct active form of the given sentence.\nThey were refused entry in Delhi by the police.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The police refused them entry in Delhi."
+        },
+        {
+          "label": "2",
+          "text": "The police had refused them entry in Delhi."
+        },
+        {
+          "label": "3",
+          "text": "The police have refused them entry in Delhi."
+        },
+        {
+          "label": "4",
+          "text": "The police can refuse them entry in Delhi."
+        }
+      ],
+      "question_id": "8161615599",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "The police refused them entry in Delhi.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 178,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order.\nA. Since then cows, pigs, dogs and other mammals have been cloned.\nB. They were created with the identical technique used to clone Dolly, the sheep, back in 1996.\nC. Two monkeys have been cloned in a Chinese laboratory.\nD. Zhong Zhong and Hua Hua were born a few weeks ago at a Chinese lab.",
+      "options": [
+        {
+          "label": "1",
+          "text": "DCBA"
+        },
+        {
+          "label": "2",
+          "text": "CDBA"
+        },
+        {
+          "label": "3",
+          "text": "DBAC"
+        },
+        {
+          "label": "4",
+          "text": "CBAD"
+        }
+      ],
+      "question_id": "8161615645",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "CDBA",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,194 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 122,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice.\nLet these ancient texts be preserved for posterity.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Let us preserve these ancient texts for posterity."
+        },
+        {
+          "label": "2",
+          "text": "You must preserve these ancient texts for posterity."
+        },
+        {
+          "label": "3",
+          "text": "Let these ancient texts preserve us for posterity."
+        },
+        {
+          "label": "4",
+          "text": "We have to preserve these ancient texts for posterity."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 123,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. In fact he began his career as a peon in a small firm.\nB. Before he joined us as the accounts officer, he was a junior clerk.\nC. He learnt typing, accounting and even graduated.\nD. But he gradually improved his qualifications.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CDAB"
+        },
+        {
+          "label": "2",
+          "text": "BADC"
+        },
+        {
+          "label": "3",
+          "text": "CBAD"
+        },
+        {
+          "label": "4",
+          "text": "BCDA"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 124,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nThe girl lay down / on the bed / besides her mother / and went to sleep.",
+      "options": [
+        {
+          "label": "1",
+          "text": "on the bed"
+        },
+        {
+          "label": "2",
+          "text": "besides her mother"
+        },
+        {
+          "label": "3",
+          "text": "The girl lay down"
+        },
+        {
+          "label": "4",
+          "text": "and went to sleep"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 125,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nLight the lamp of knowledge in every heart.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Let the lamp of knowledge being lighted in every heart."
+        },
+        {
+          "label": "2",
+          "text": "Let the lamp of knowledge be lit in every heart."
+        },
+        {
+          "label": "3",
+          "text": "Let the lamp of knowledge be lighting every heart."
+        },
+        {
+          "label": "4",
+          "text": "Let the lamp of knowledge light in every heart."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 126,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nHe went / to the bed / with a / slight fever.",
+      "options": [
+        {
+          "label": "1",
+          "text": "slight fever"
+        },
+        {
+          "label": "2",
+          "text": "to the bed"
+        },
+        {
+          "label": "3",
+          "text": "with a"
+        },
+        {
+          "label": "4",
+          "text": "He went"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 127,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\nHarry said to me, “Don’t wear this expensive watch to school.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "Harry told me to not wear this expensive watch to school."
+        },
+        {
+          "label": "2",
+          "text": "Harry told me that don’t wear that expensive watch to school."
+        },
+        {
+          "label": "3",
+          "text": "Harry told me that not to wear that expensive watch to school."
+        },
+        {
+          "label": "4",
+          "text": "Harry told me not to wear that expensive watch to school."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

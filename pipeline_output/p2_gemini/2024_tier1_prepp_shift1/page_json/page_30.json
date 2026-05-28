@@ -1,0 +1,46 @@
+{
+  "page": 30,
+  "questions": [
+    {
+      "question_number": 66,
+      "section": null,
+      "question_text_full": "Find the value of the following expression. \n\n√((1+sinθ)/(1-sinθ))",
+      "options": [
+        {
+          "label": "1",
+          "text": "sec θ + tan θ"
+        },
+        {
+          "label": "2",
+          "text": "cosec θ + tan θ"
+        },
+        {
+          "label": "3",
+          "text": "cosec θ + cot θ"
+        },
+        {
+          "label": "4",
+          "text": "sec θ + cot θ"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 67 is incomplete on the page as it lacks answer options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

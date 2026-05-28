@@ -1,0 +1,134 @@
+{
+  "page": 45,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Which of the following is NOT the qualification for the appointment of judges of supreme court?",
+      "options": [
+        {
+          "label": "1",
+          "text": "An advocate of high court for at least ten years"
+        },
+        {
+          "label": "2",
+          "text": "A distinguished judge in the opinion of the President"
+        },
+        {
+          "label": "3",
+          "text": "A judge of high court for at least five years"
+        },
+        {
+          "label": "4",
+          "text": "An advocate of supreme court for at least ten years"
+        }
+      ],
+      "question_id": "630680616228",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "An advocate of supreme court for at least ten years",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Which letter code indicates mid-latitude desert climate in Köppen climate classification?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Dw"
+        },
+        {
+          "label": "2",
+          "text": "Cfa"
+        },
+        {
+          "label": "3",
+          "text": "BWk"
+        },
+        {
+          "label": "4",
+          "text": "EF"
+        }
+      ],
+      "question_id": "630680618279",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "BWk",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "The Kushan emperor Kanishka, who ruled from the late first to the early/ mid-second century AD was the __________ Kushan ruler.",
+      "options": [
+        {
+          "label": "1",
+          "text": "second"
+        },
+        {
+          "label": "2",
+          "text": "third"
+        },
+        {
+          "label": "3",
+          "text": "fourth"
+        },
+        {
+          "label": "4",
+          "text": "fifth"
+        }
+      ],
+      "question_id": "630680511614",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "third",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Which endemic species of owl of Central India is listed as Endangered in the IUCN Red List since 2018?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Long-eared Owlet"
+        },
+        {
+          "label": "2",
+          "text": "Barn Owlet"
+        },
+        {
+          "label": "3",
+          "text": "Forest Owlet"
+        },
+        {
+          "label": "4",
+          "text": "Snowy Owlet"
+        }
+      ],
+      "question_id": "630680618938",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "Forest Owlet",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

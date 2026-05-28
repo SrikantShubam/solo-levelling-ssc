@@ -1,0 +1,74 @@
+{
+  "page": 48,
+  "questions": [
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "What are the elements in group zero commonly known as?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Reactive"
+        },
+        {
+          "label": "2",
+          "text": "Inert gases"
+        },
+        {
+          "label": "3",
+          "text": "Radioactive"
+        },
+        {
+          "label": "4",
+          "text": "Volatile"
+        }
+      ],
+      "question_id": "264330163737",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Inert gases",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Match List-I with List-II.\nList-I (Acid) List-II (Food Source)\nA. Carbonic acid 1. Mustard oil\nB. Lauric acid 2. Butter\nC. Butyric acid 3. Soda Water\nD. Erucic acid 4. Coconut milk",
+      "options": [
+        {
+          "label": "1",
+          "text": "A 1, B 4, C 2, D 3"
+        },
+        {
+          "label": "2",
+          "text": "A 3, B 4, C 2, D 1"
+        },
+        {
+          "label": "3",
+          "text": "A 2, B 3, C 1, D 4"
+        },
+        {
+          "label": "4",
+          "text": "A 4, B 2, C 3, D 1"
+        }
+      ],
+      "question_id": "264330172046",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "A 3, B 4, C 2, D 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

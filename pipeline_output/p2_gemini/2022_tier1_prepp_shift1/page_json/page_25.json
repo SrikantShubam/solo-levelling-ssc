@@ -1,0 +1,126 @@
+{
+  "page": 25,
+  "questions": [
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the given word.\nRebellion",
+      "options": [
+        {
+          "label": "1",
+          "text": "Uprising"
+        },
+        {
+          "label": "2",
+          "text": "Loyalty"
+        },
+        {
+          "label": "3",
+          "text": "Sedition"
+        },
+        {
+          "label": "4",
+          "text": "Allotment"
+        }
+      ],
+      "question_id": "26433059716",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Loyalty",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the given word.\nHospitality",
+      "options": [
+        {
+          "label": "1",
+          "text": "Complaint"
+        },
+        {
+          "label": "2",
+          "text": "Cordiality"
+        },
+        {
+          "label": "3",
+          "text": "Coldness"
+        },
+        {
+          "label": "4",
+          "text": "Wrathful"
+        }
+      ],
+      "question_id": "26433059713",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "Coldness",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Select the sentence with the appropriate use of adverb of manner.",
+      "options": [
+        {
+          "label": "1",
+          "text": "He done his work regularly."
+        },
+        {
+          "label": "2",
+          "text": "He has just done his work."
+        },
+        {
+          "label": "3",
+          "text": "He does his work carefully."
+        },
+        {
+          "label": "4",
+          "text": "He has done his work on my table."
+        }
+      ],
+      "question_id": "26433073884",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "He does his work carefully.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": "Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank number 1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "impact"
+        },
+        {
+          "label": "2",
+          "text": "might"
+        },
+        {
+          "label": "3",
+          "text": "factors"
+        },
+        {
+          "label": "4",
+          "text": "force"
+        }
+      ],
+      "question_id": "26433084841",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "force",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

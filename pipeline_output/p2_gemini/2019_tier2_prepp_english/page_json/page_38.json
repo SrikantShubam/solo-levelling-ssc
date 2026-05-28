@@ -1,0 +1,36 @@
+{
+  "page": 38,
+  "questions": [
+    {
+      "question_number": 49,
+      "section": "Comprehension",
+      "question_text_full": "According to the passage, ‘necking’ is the:",
+      "options": [
+        {
+          "label": "1",
+          "text": "repeated stretching of the neck"
+        },
+        {
+          "label": "2",
+          "text": "elongation of the giraffes’ neck"
+        },
+        {
+          "label": "3",
+          "text": "breeding by the largest males"
+        },
+        {
+          "label": "4",
+          "text": "fight to woo the females"
+        }
+      ],
+      "question_id": "8161615529",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "fight to woo the females",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

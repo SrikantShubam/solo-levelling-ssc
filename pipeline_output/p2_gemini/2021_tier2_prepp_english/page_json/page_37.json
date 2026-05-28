@@ -1,0 +1,36 @@
+{
+  "page": 37,
+  "questions": [
+    {
+      "question_number": 47,
+      "section": null,
+      "question_text_full": "What will be the consequence of high fertility?",
+      "options": [
+        {
+          "label": "1",
+          "text": "low economic growth"
+        },
+        {
+          "label": "2",
+          "text": "high economic growth"
+        },
+        {
+          "label": "3",
+          "text": "low mortality"
+        },
+        {
+          "label": "4",
+          "text": "high mortality"
+        }
+      ],
+      "question_id": "26433083540",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "low economic growth",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

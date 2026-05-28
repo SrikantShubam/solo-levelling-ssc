@@ -1,0 +1,104 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "The relative frequency of a class is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "frequency of the class added to total frequency of all classes"
+        },
+        {
+          "label": "2",
+          "text": "frequency of the class multiplied by total frequency of all classes"
+        },
+        {
+          "label": "3",
+          "text": "frequency of the class subtracted from total frequency of all classes"
+        },
+        {
+          "label": "4",
+          "text": "frequency of the class divided by total frequency of all classes"
+        }
+      ],
+      "question_id": "6306801293744",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "frequency of the class divided by total frequency of all classes",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "Let (X, Y) have the probability density function (pdf) as f(x, y) = [c(x + 2y) if 0 < x < 2, 0 < y < 1 0 , otherwise. The value of c is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/2"
+        },
+        {
+          "label": "2",
+          "text": "3/4"
+        },
+        {
+          "label": "3",
+          "text": "1/4"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "question_id": "6306801352883",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "1/4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "A model being fitted is said to be adequate if the residual plot:",
+      "options": [
+        {
+          "label": "1",
+          "text": "is quadratic"
+        },
+        {
+          "label": "2",
+          "text": "is non-linear"
+        },
+        {
+          "label": "3",
+          "text": "is U-shaped"
+        },
+        {
+          "label": "4",
+          "text": "displays random pattern"
+        }
+      ],
+      "question_id": "6306801312678",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "displays random pattern",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

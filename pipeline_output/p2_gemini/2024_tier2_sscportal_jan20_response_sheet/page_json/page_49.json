@@ -1,0 +1,134 @@
+{
+  "page": 49,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Who was the first sultan (in the recorded history of the Dargah Sharif) to visit the shrine of khwaja Muinuddin Chisti?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Jalaluddin Khilji"
+        },
+        {
+          "label": "2",
+          "text": "Balban"
+        },
+        {
+          "label": "3",
+          "text": "Alauddin Khilji"
+        },
+        {
+          "label": "4",
+          "text": "Muhammad bin Tughluq"
+        }
+      ],
+      "question_id": "630680362742",
+      "chosen_option_label": "3",
+      "correct_option_label": "4",
+      "correct_option_text": "Muhammad bin Tughluq",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Which international treaty was adopted in 1992 to combat global warming and prepare for its effects?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Vienna Convention for the Protection of the Ozone Layer"
+        },
+        {
+          "label": "2",
+          "text": "Minamata Convention on Mercury"
+        },
+        {
+          "label": "3",
+          "text": "Stockholm Convention on Persistent Organic Pollutants"
+        },
+        {
+          "label": "4",
+          "text": "United Nations Framework Convention on Climate Change"
+        }
+      ],
+      "question_id": "630680618275",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "United Nations Framework Convention on Climate Change",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Who set a new Guinness World Record for the fastest badminton shot, measuring a speed of 565 km/hr in July 2023?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Kidambi Srikanth"
+        },
+        {
+          "label": "2",
+          "text": "Saina Nehwal"
+        },
+        {
+          "label": "3",
+          "text": "PV Sindhu"
+        },
+        {
+          "label": "4",
+          "text": "Satwiksairaj Rankireddy"
+        }
+      ],
+      "question_id": "630680575051",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "Satwiksairaj Rankireddy",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "When did James Chadwick prove the existence of the neutron – an elementary particle devoid of any electric charge?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1920"
+        },
+        {
+          "label": "2",
+          "text": "1932"
+        },
+        {
+          "label": "3",
+          "text": "1941"
+        },
+        {
+          "label": "4",
+          "text": "1955"
+        }
+      ],
+      "question_id": "630680618166",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "1932",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

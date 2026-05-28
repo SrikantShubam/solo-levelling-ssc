@@ -1,0 +1,74 @@
+{
+  "page": 35,
+  "questions": [
+    {
+      "question_number": 35,
+      "section": "Comprehension",
+      "question_text_full": "Why is steel often called the backbone of modern industry?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Steel is used in almost every tool and machinery."
+        },
+        {
+          "label": "2",
+          "text": "Steel can be added with any material."
+        },
+        {
+          "label": "3",
+          "text": "It is easy to make steel alloys."
+        },
+        {
+          "label": "4",
+          "text": "Steel is tough."
+        }
+      ],
+      "question_id": "264330168514",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Steel is used in almost every tool and machinery.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 36,
+      "section": "Comprehension",
+      "question_text_full": "What is the tone of the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Critical"
+        },
+        {
+          "label": "2",
+          "text": "Informative"
+        },
+        {
+          "label": "3",
+          "text": "Judgemental"
+        },
+        {
+          "label": "4",
+          "text": "Ironical"
+        }
+      ],
+      "question_id": "264330168515",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "Informative",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

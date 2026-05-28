@@ -1,0 +1,156 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Who among the following replaced Morarji Desai as the Prime Minister of India in 1979?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Chandrasekhar"
+        },
+        {
+          "label": "2",
+          "text": "Jagjivan Ram"
+        },
+        {
+          "label": "3",
+          "text": "Charan Singh"
+        },
+        {
+          "label": "4",
+          "text": "Devi Lal"
+        }
+      ],
+      "question_id": "81616113962",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Charan Singh",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Which of the following schemes is aimed at helping accelerate the uptake of broadband internet services?",
+      "options": [
+        {
+          "label": "1",
+          "text": "PM-INTERNET"
+        },
+        {
+          "label": "2",
+          "text": "PM-WANI"
+        },
+        {
+          "label": "3",
+          "text": "PM-DHWANI"
+        },
+        {
+          "label": "4",
+          "text": "PM-VAARTA"
+        }
+      ],
+      "question_id": "81616113865",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "PM-WANI",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Which of the following is the application of sciences such as physics, chemistry, biology, computer science and engineering to matters of law and to the identification of various facts of civilian investigation?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Kalology"
+        },
+        {
+          "label": "2",
+          "text": "Morphology"
+        },
+        {
+          "label": "3",
+          "text": "Forensic science"
+        },
+        {
+          "label": "4",
+          "text": "Psychology"
+        }
+      ],
+      "question_id": "81616113039",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Forensic science",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Who won the Toyota Thailand Open Women's Singles Title in Bangkok in January 2021?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Tai Tzu-ying"
+        },
+        {
+          "label": "2",
+          "text": "Ashwini Ponnappa"
+        },
+        {
+          "label": "3",
+          "text": "Carolina Marin"
+        },
+        {
+          "label": "4",
+          "text": "PV Sindhu"
+        }
+      ],
+      "question_id": "81616113056",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Carolina Marin",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Which of the following is NOT a town/city on the west coast of India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Karwar"
+        },
+        {
+          "label": "2",
+          "text": "Gopalpur"
+        },
+        {
+          "label": "3",
+          "text": "Mangalore"
+        },
+        {
+          "label": "4",
+          "text": "Surat"
+        }
+      ],
+      "question_id": "81616113953",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Gopalpur",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

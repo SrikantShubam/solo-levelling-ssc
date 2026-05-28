@@ -1,0 +1,104 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "A six-digit number 11p9q4 is divisible by 24. Then the greatest possible value for pq is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "56"
+        },
+        {
+          "label": "2",
+          "text": "68"
+        },
+        {
+          "label": "3",
+          "text": "42"
+        },
+        {
+          "label": "4",
+          "text": "32"
+        }
+      ],
+      "question_id": "264330172341",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "56",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "The compound interest on ₹10,000 at 20% per annum is ₹4,641. If the compounding is done half-yearly, then for how many years was the sum invested?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "question_id": "264330163897",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Hari, Kamal and Lalit contested an election in which 6050 votes were polled and none of the votes were invalid. Kamal got 42% more votes than the total votes obtained by Hari and Lalit together. If Lalit obtained only 8% of the total polled votes, find the number of votes obtained by Hari.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2016"
+        },
+        {
+          "label": "2",
+          "text": "1668"
+        },
+        {
+          "label": "3",
+          "text": "1912"
+        },
+        {
+          "label": "4",
+          "text": "1556"
+        }
+      ],
+      "question_id": "264330171864",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "2016",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

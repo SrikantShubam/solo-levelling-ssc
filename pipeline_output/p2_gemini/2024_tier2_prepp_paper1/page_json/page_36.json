@@ -1,0 +1,76 @@
+{
+  "page": 36,
+  "questions": [
+    {
+      "question_number": 74,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\n\"Rashid was not able to _____ the pain after the accident.\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "beer"
+        },
+        {
+          "label": "2",
+          "text": "buyer"
+        },
+        {
+          "label": "3",
+          "text": "bear"
+        },
+        {
+          "label": "4",
+          "text": "bare"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The answer key is not visible on this page."
+    },
+    {
+      "question_number": 75,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\n\"Did you hear that noise?\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "Was that noise heard by you?"
+        },
+        {
+          "label": "2",
+          "text": "Is that noise heard by you?"
+        },
+        {
+          "label": "3",
+          "text": "Wasn't that noise heard by you?"
+        },
+        {
+          "label": "4",
+          "text": "Has that noise been heard by you?"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The answer key is not visible on this page."
+    }
+  ],
+  "warnings": [
+    "Answer keys (green ticks) are not present for any questions on this page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

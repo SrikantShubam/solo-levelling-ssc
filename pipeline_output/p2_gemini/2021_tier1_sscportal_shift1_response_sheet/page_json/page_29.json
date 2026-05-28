@@ -1,0 +1,126 @@
+{
+  "page": 29,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the given word.\nRaze",
+      "options": [
+        {
+          "label": "1",
+          "text": "Build"
+        },
+        {
+          "label": "2",
+          "text": "Ease"
+        },
+        {
+          "label": "3",
+          "text": "Comfort"
+        },
+        {
+          "label": "4",
+          "text": "Ruin"
+        }
+      ],
+      "question_id": "65497842456",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Build",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nRetaliate",
+      "options": [
+        {
+          "label": "1",
+          "text": "Clap"
+        },
+        {
+          "label": "2",
+          "text": "react"
+        },
+        {
+          "label": "3",
+          "text": "Facilitate"
+        },
+        {
+          "label": "4",
+          "text": "Rotate"
+        }
+      ],
+      "question_id": "65497843766",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "react",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nAvert",
+      "options": [
+        {
+          "label": "1",
+          "text": "Permit"
+        },
+        {
+          "label": "2",
+          "text": "Confront"
+        },
+        {
+          "label": "3",
+          "text": "Face"
+        },
+        {
+          "label": "4",
+          "text": "Prevent"
+        }
+      ],
+      "question_id": "65497843566",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Prevent",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "The following sentence has been split into segments. One of them may contain an error. Identify the segment that contains a grammatical error. If you don’t find any error, mark ‘No error’ as your answer.\nNo one were / present when I / entered the hall.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No one were"
+        },
+        {
+          "label": "2",
+          "text": "present when I"
+        },
+        {
+          "label": "3",
+          "text": "No error"
+        },
+        {
+          "label": "4",
+          "text": "entered the hall"
+        }
+      ],
+      "question_id": "65497842236",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "No one were",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

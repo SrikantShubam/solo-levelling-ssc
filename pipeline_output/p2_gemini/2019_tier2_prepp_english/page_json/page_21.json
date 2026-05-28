@@ -1,0 +1,36 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 32,
+      "section": null,
+      "question_text_full": "Which statement is NOT true according to the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Zookeepers take animals home to save them from fire."
+        },
+        {
+          "label": "2",
+          "text": "The volunteers outnumber the professional fire fighters in Australia."
+        },
+        {
+          "label": "3",
+          "text": "Around 800,000 hectares have been destroyed due to a bush fire in Australia."
+        },
+        {
+          "label": "4",
+          "text": "Australia is one of the world's biggest per capita greenhouse gas emitters."
+        }
+      ],
+      "question_id": "8161615516",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Around 800,000 hectares have been destroyed due to a bush fire in Australia.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

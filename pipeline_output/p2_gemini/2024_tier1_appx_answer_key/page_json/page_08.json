@@ -1,0 +1,15 @@
+{
+  "page": 8,
+  "questions": [],
+  "warnings": [
+    "The provided page is a solutions/explanation sheet ('Solutions for the Practice Sheet– Number Classification') rather than a standard SSC exam response page. It does not contain actual exam questions, 'Ans' blocks, green tick marks, or question IDs as specified in the extraction rules."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.5-flash",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

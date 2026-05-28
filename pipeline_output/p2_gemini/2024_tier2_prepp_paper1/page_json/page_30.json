@@ -1,0 +1,106 @@
+{
+  "page": 30,
+  "questions": [
+    {
+      "question_number": 61,
+      "section": "English and GA",
+      "question_text_full": "Select the correct spelling of the incorrectly spelt word in the given sentence. The trainer tried to guage the learners' understanding of the subject by asking several new questions.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Gaage"
+        },
+        {
+          "label": "2",
+          "text": "Gaaug"
+        },
+        {
+          "label": "3",
+          "text": "Gaugg"
+        },
+        {
+          "label": "4",
+          "text": "Gauge"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 62,
+      "section": "English and GA",
+      "question_text_full": "Select the most appropriate meaning of the underlined word. \"He walked leisurely towards the entrance.\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "without haste"
+        },
+        {
+          "label": "2",
+          "text": "reassuringly"
+        },
+        {
+          "label": "3",
+          "text": "with a kickstart"
+        },
+        {
+          "label": "4",
+          "text": "hastily"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 63,
+      "section": "English and GA",
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. Sentences: A. It consists of a terracotta army of approximately 8000 life-sized men and horses.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Not provided"
+        },
+        {
+          "label": "2",
+          "text": "Not provided"
+        },
+        {
+          "label": "3",
+          "text": "Not provided"
+        },
+        {
+          "label": "4",
+          "text": "Not provided"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question is incomplete; options are missing from the page."
+    }
+  ],
+  "warnings": [
+    "Question 63 is incomplete and lacks answer options on the provided page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

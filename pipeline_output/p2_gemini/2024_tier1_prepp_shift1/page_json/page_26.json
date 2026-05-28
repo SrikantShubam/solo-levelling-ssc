@@ -1,0 +1,46 @@
+{
+  "page": 26,
+  "questions": [
+    {
+      "question_number": 57,
+      "section": null,
+      "question_text_full": "In triangles ABC and DEF, AB = FD and ∠A = ∠D. The two triangles are congruent by SAS criterion if:",
+      "options": [
+        {
+          "label": "1",
+          "text": "BC = DE"
+        },
+        {
+          "label": "2",
+          "text": "AC = DE"
+        },
+        {
+          "label": "3",
+          "text": "BC = EF"
+        },
+        {
+          "label": "4",
+          "text": "AC = EF"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question uses a, b, c, d labels which have been mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "The first question regarding the table does not have answer options labeled 1-4, nor does it have an 'Ans' block, so it was excluded from the structured list as per instructions."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

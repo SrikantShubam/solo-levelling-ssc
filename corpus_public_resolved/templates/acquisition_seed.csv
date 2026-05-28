@@ -1,0 +1,2 @@
+canonical_id,year,tier,artifact_type,source,source_trust_level,official_status,provisional_or_final,license_status,access_method,url,paper,shift,date,notes
+ssc_cgl_2024_tier1_paper1_na_2024-01-01_question_paper,2024,tier1,question_paper,ssc,official,official,na,unknown,manual,https://example.com/path/to/file.pdf,paper1,na,2024-01-01,replace with real source

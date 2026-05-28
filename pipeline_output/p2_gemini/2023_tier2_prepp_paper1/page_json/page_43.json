@@ -1,0 +1,74 @@
+{
+  "page": 43,
+  "questions": [
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Match the following subject matters with their concerned Articles.\na\n1. Superintendence, direction and control of elections to be vested in an Election commission\n2. Power of parliament to make provision with respect to election to legislature\n3. Bar of interference by courts in electoral matters\nb\nA) Article 329\nB) Article 324\nC) Article 327",
+      "options": [
+        {
+          "label": "1",
+          "text": "1-C, 2-B, 3-A"
+        },
+        {
+          "label": "2",
+          "text": "1-A, 2-C, 3-B"
+        },
+        {
+          "label": "3",
+          "text": "1-A, 2-B, 3-C"
+        },
+        {
+          "label": "4",
+          "text": "1-B, 2-C, 3-A"
+        }
+      ],
+      "question_id": "264330173727",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "1-B, 2-C, 3-A",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Match the positions in List I with the states in List II, related to the 36th National Games 2022, and select the correct answer from the codes below.\nList I (Positions)\nA I position in medal tally\nB II position in medal tally\nC III position in medal tally\nD IV position in medal tally\nList II (States)\n(i) Maharashtra\n(ii) Haryana\n(iii) Karnataka\n(iv) Services sports control board",
+      "options": [
+        {
+          "label": "1",
+          "text": "A-i, B-iii, C-ii, D-iv"
+        },
+        {
+          "label": "2",
+          "text": "A-iv, B-i, C-ii, D-iii"
+        },
+        {
+          "label": "3",
+          "text": "A-i, B-ii, C-iii, D-iv"
+        },
+        {
+          "label": "4",
+          "text": "A-ii, B-i, C-iii, D-iv"
+        }
+      ],
+      "question_id": "264330172335",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "A-iv, B-i, C-ii, D-iii",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,104 @@
+{
+  "page": 30,
+  "questions": [
+    {
+      "question_number": 82,
+      "section": null,
+      "question_text_full": "The mean and variance of a binomially distributed random variable X are 4 and 2, respectively. P(X = 2)is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/2^8"
+        },
+        {
+          "label": "2",
+          "text": "7/2^5"
+        },
+        {
+          "label": "3",
+          "text": "1/2^6"
+        },
+        {
+          "label": "4",
+          "text": "7/2^8"
+        }
+      ],
+      "question_id": "6306801352885",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "7/2^5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 83,
+      "section": null,
+      "question_text_full": "As the sample size increases, empirical probability:",
+      "options": [
+        {
+          "label": "1",
+          "text": "becomes less accurate"
+        },
+        {
+          "label": "2",
+          "text": "becomes more subjective"
+        },
+        {
+          "label": "3",
+          "text": "decreases"
+        },
+        {
+          "label": "4",
+          "text": "approaches the true probability of an event"
+        }
+      ],
+      "question_id": "6306801352925",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "approaches the true probability of an event",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 84,
+      "section": null,
+      "question_text_full": "Which of the following is NOT true about collecting data through structured interviews?",
+      "options": [
+        {
+          "label": "1",
+          "text": "They involve the use of highly standardised techniques of recording."
+        },
+        {
+          "label": "2",
+          "text": "The interviewer follows a rigid laid down procedure."
+        },
+        {
+          "label": "3",
+          "text": "They involve the use of a set of predetermined questions."
+        },
+        {
+          "label": "4",
+          "text": "The sequence of asked questions can be changed."
+        }
+      ],
+      "question_id": "6306801294132",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "The sequence of asked questions can be changed.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

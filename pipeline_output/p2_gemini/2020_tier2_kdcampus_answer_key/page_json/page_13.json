@@ -1,0 +1,194 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 73,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nTo have an axe to grind",
+      "options": [
+        {
+          "label": "1",
+          "text": "To have a selfish motive in doing something"
+        },
+        {
+          "label": "2",
+          "text": "To have an indomitable task to accomplish"
+        },
+        {
+          "label": "3",
+          "text": "To have adequate means of subsistence"
+        },
+        {
+          "label": "4",
+          "text": "To have access to top levels of authority"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 74,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nIt is I who am responsible for the success of the organisation.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No improvement required"
+        },
+        {
+          "label": "2",
+          "text": "It is me who am"
+        },
+        {
+          "label": "3",
+          "text": "It is I which is"
+        },
+        {
+          "label": "4",
+          "text": "It is me that is"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 75,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. He stamped them mechanically and returned them to us.\nB. They had information that large sums of money were being smuggled out of the country.\nC. No sooner had he left than the custom officers entered.\nD. An official entered our train compartment and asked for passports.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CBDA"
+        },
+        {
+          "label": "2",
+          "text": "DCBA"
+        },
+        {
+          "label": "3",
+          "text": "ACBD"
+        },
+        {
+          "label": "4",
+          "text": "DACB"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 76,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nThe show flopped miserably to the utter disappointment of everybody.",
+      "options": [
+        {
+          "label": "1",
+          "text": "by the utterly"
+        },
+        {
+          "label": "2",
+          "text": "for the utter"
+        },
+        {
+          "label": "3",
+          "text": "No improvement required"
+        },
+        {
+          "label": "4",
+          "text": "at an utter"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 77,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nThe news about the surge in Covid-19 cases is broadcasted every morning.",
+      "options": [
+        {
+          "label": "1",
+          "text": "are broadcast"
+        },
+        {
+          "label": "2",
+          "text": "is broadcast"
+        },
+        {
+          "label": "3",
+          "text": "are broadcasted"
+        },
+        {
+          "label": "4",
+          "text": "No improvement required"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 78,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nThe commanding officer ordered the troops to march ahead.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The troops have been ordered to march ahead by the commanding officer."
+        },
+        {
+          "label": "2",
+          "text": "The troops were ordered to march ahead by the commanding officer."
+        },
+        {
+          "label": "3",
+          "text": "The troops were being ordered to march ahead by the commanding officer."
+        },
+        {
+          "label": "4",
+          "text": "The troops are ordered to march ahead by the commanding officer."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

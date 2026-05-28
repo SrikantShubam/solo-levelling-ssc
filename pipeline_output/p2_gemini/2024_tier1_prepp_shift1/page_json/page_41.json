@@ -1,0 +1,46 @@
+{
+  "page": 41,
+  "questions": [
+    {
+      "question_number": 95,
+      "section": "English",
+      "question_text_full": "Select the INCORRECTLY spelt word:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Exceed"
+        },
+        {
+          "label": "2",
+          "text": "Proceed"
+        },
+        {
+          "label": "3",
+          "text": "Succeed"
+        },
+        {
+          "label": "4",
+          "text": "Preceed"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 96 is incomplete on the page as it only shows the passage and the first option for blank 1, lacking the full set of options for the question."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

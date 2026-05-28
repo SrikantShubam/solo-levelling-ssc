@@ -1,0 +1,96 @@
+{
+  "page": 68,
+  "questions": [
+    {
+      "question_number": 145,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order.\nA. On the other hand, the Saracen chief looked slighter and shorter, but he was also strong.\nB. The Briton was a huge powerful man with thick brown hair.\nC. They went side by side to the well, where they ate their simple meal and rested.\nD. They were a great contrast to each other.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CDAB"
+        },
+        {
+          "label": "2",
+          "text": "DCAB"
+        },
+        {
+          "label": "3",
+          "text": "DABC"
+        },
+        {
+          "label": "4",
+          "text": "BADC"
+        }
+      ],
+      "question_id": "8161615641",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "BADC",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 146,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order.\nA. Some people love to watch birds or fish, but I love to watch how men and women behave.\nB. I love to watch people.\nC. I have the habit of observing everything they do – the way they walk, talk, pray, what they eat, read or wear.\nD. Nothing ever escapes my sharp eye.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BACD"
+        },
+        {
+          "label": "2",
+          "text": "DCAB"
+        },
+        {
+          "label": "3",
+          "text": "CBDA"
+        },
+        {
+          "label": "4",
+          "text": "BDCA"
+        }
+      ],
+      "question_id": "8161615646",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "BACD",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 147,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’.\nOn winter evenings, a haze of smog hang in Delhi.",
+      "options": [
+        {
+          "label": "1",
+          "text": "hangs over"
+        },
+        {
+          "label": "2",
+          "text": "is hanging over"
+        },
+        {
+          "label": "3",
+          "text": "hangs up"
+        },
+        {
+          "label": "4",
+          "text": "No substitution required"
+        }
+      ],
+      "question_id": "8161615564",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "hangs over",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

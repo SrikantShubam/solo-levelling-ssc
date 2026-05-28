@@ -1,0 +1,104 @@
+{
+  "page": 36,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the given word.\nGenerous",
+      "options": [
+        {
+          "label": "1",
+          "text": "Selfish"
+        },
+        {
+          "label": "2",
+          "text": "Benevolent"
+        },
+        {
+          "label": "3",
+          "text": "Altruistic"
+        },
+        {
+          "label": "4",
+          "text": "Magnanimous"
+        }
+      ],
+      "question_id": "630680570739",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Selfish",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Parts of the following sentence have been given as options. Select the option that contains an error.\nIt takes me an hour to get to work at the moment, but when the new road is finished it be much quicker.",
+      "options": [
+        {
+          "label": "1",
+          "text": "but when the new road is finished"
+        },
+        {
+          "label": "2",
+          "text": "it be much quicker"
+        },
+        {
+          "label": "3",
+          "text": "at the moment"
+        },
+        {
+          "label": "4",
+          "text": "It takes me an hour to get to work"
+        }
+      ],
+      "question_id": "630680751153",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "it be much quicker",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "Select the most appropriate pronoun to fill in the blank.\nMr. Amit Kumar, Proprietor of Xyling Pens is known for __________ honesty and decent behaviour in the business arena.",
+      "options": [
+        {
+          "label": "1",
+          "text": "his"
+        },
+        {
+          "label": "2",
+          "text": "they"
+        },
+        {
+          "label": "3",
+          "text": "it"
+        },
+        {
+          "label": "4",
+          "text": "her"
+        }
+      ],
+      "question_id": "630680158944",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "his",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

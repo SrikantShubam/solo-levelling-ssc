@@ -1,0 +1,194 @@
+{
+  "page": 28,
+  "questions": [
+    {
+      "question_number": 164,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\n\"Please lend me some money, Raman. I need it urgently,\" said Sumesh.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sumesh requested Raman to lend him some money as he needed it urgently."
+        },
+        {
+          "label": "2",
+          "text": "Sumesh requested Raman please lend me some money as I need it urgently."
+        },
+        {
+          "label": "3",
+          "text": "Sumesh requested to Raman to please lend him some money as I needed it urgently."
+        },
+        {
+          "label": "4",
+          "text": "Sumesh requested Raman to lend me some money as I needed it urgently."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 165,
+      "section": null,
+      "question_text_full": "Select the segment in which a word has been INCORRECTLY used.\nIs the Abominable Snowman a friction of the mountaineers' imagination?",
+      "options": [
+        {
+          "label": "1",
+          "text": "a friction"
+        },
+        {
+          "label": "2",
+          "text": "of the mountaineers'"
+        },
+        {
+          "label": "3",
+          "text": "imagination"
+        },
+        {
+          "label": "4",
+          "text": "Is the Abominable Snowman"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 166,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\nHarsh said, \"How happy I am to receive the best student award!\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "Harsh exclaimed happily that he was receiving the best student award."
+        },
+        {
+          "label": "2",
+          "text": "Harsh exclaimed with joy that he was very happy to receive the best student award."
+        },
+        {
+          "label": "3",
+          "text": "Harsh exclaimed with joy that how happy he was to receive the best student award."
+        },
+        {
+          "label": "4",
+          "text": "Harsh exclaimed happily that I am very happy to receive the best student award."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 167,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nSal trees have been planted in relatively three-fourth of the forest area.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No improvement required"
+        },
+        {
+          "label": "2",
+          "text": "nearly three-fourths"
+        },
+        {
+          "label": "3",
+          "text": "about three-fourth"
+        },
+        {
+          "label": "4",
+          "text": "around three-fourth"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 168,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nUnless we are not sure of our goals, we cannot achieve them.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No improvement required"
+        },
+        {
+          "label": "2",
+          "text": "Unless we are sure"
+        },
+        {
+          "label": "3",
+          "text": "Not until we are sure"
+        },
+        {
+          "label": "4",
+          "text": "Except if we are not sure"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 169,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nKeep your head",
+      "options": [
+        {
+          "label": "1",
+          "text": "Protect yourself"
+        },
+        {
+          "label": "2",
+          "text": "Respect yourself"
+        },
+        {
+          "label": "3",
+          "text": "Remain calm"
+        },
+        {
+          "label": "4",
+          "text": "Be furious"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

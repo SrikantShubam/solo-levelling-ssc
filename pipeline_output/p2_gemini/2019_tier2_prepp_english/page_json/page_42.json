@@ -1,0 +1,36 @@
+{
+  "page": 42,
+  "questions": [
+    {
+      "question_number": 53,
+      "section": "Comprehension",
+      "question_text_full": "What does the author suggest to enhance the income of the farmers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Constitute a panel to suggest ways to double the income"
+        },
+        {
+          "label": "2",
+          "text": "Provide income security to the farmers"
+        },
+        {
+          "label": "3",
+          "text": "Give subsidies on water, fertilizers and power"
+        },
+        {
+          "label": "4",
+          "text": "Shift wheat-rice cycle to include other cereals and pulses"
+        }
+      ],
+      "question_id": "8161615537",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "Provide income security to the farmers",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

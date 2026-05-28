@@ -1,0 +1,472 @@
+{
+  "labels": [
+    "P1",
+    "P2",
+    "P2_patch1",
+    "P2_patch3"
+  ],
+  "rows": [
+    {
+      "pdf": "",
+      "runs": {
+        "P1": null,
+        "P2": {
+          "question_count": 100,
+          "expected_count": null,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; precision evidence layer"
+        },
+        "P2_patch1": null,
+        "P2_patch3": null
+      }
+    },
+    {
+      "pdf": "2019_tier1_prepp_shift1.pdf",
+      "runs": {
+        "P1": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "PASS_WITH_MANUAL_REVIEW",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; llm-only native phase"
+        },
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": null,
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": null
+      }
+    },
+    {
+      "pdf": "2019_tier2_prepp_english.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 200,
+          "expected_count": null,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": null,
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": null
+      }
+    },
+    {
+      "pdf": "2019_tier2_prepp_quant.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 100,
+          "expected_count": null,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": null,
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": null
+      }
+    },
+    {
+      "pdf": "2020_tier1_prepp_shift1.pdf",
+      "runs": {
+        "P1": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "PASS_WITH_MANUAL_REVIEW",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; llm-only native phase"
+        },
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": null,
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": null
+      }
+    },
+    {
+      "pdf": "2020_tier2_kdcampus_answer_key.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": null,
+          "expected_count": null,
+          "qc_status": "ERROR",
+          "structural_status": "FAIL",
+          "primary_failure_type": "model_refusal",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 191,
+          "expected_count": null,
+          "qc_status": "INFRA_FAILURE",
+          "structural_status": "FAIL",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    },
+    {
+      "pdf": "2021_tier1_prepp_shift1.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 91,
+          "expected_count": 100,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "json_or_schema_failure",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 91,
+          "expected_count": 100,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    },
+    {
+      "pdf": "2021_tier1_sscportal_shift1_response_sheet.pdf",
+      "runs": {
+        "P1": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "PASS_WITH_MANUAL_REVIEW",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; llm-only native phase"
+        },
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "PASS_WITH_MANUAL_REVIEW",
+          "structural_status": "PASS",
+          "primary_failure_type": null,
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": null
+      }
+    },
+    {
+      "pdf": "2021_tier2_prepp_english.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 200,
+          "expected_count": null,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": null,
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": null
+      }
+    },
+    {
+      "pdf": "2022_tier1_prepp_shift1.pdf",
+      "runs": {
+        "P1": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "PASS_WITH_MANUAL_REVIEW",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; llm-only native phase"
+        },
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": null,
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": null
+      }
+    },
+    {
+      "pdf": "2022_tier2_prepp_paper1.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 81,
+          "expected_count": null,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "api_quota_or_rate_limit",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 150,
+          "expected_count": null,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    },
+    {
+      "pdf": "2023_tier1_prepp_shift1.pdf",
+      "runs": {
+        "P1": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "PASS_WITH_MANUAL_REVIEW",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; llm-only native phase"
+        },
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 0,
+          "expected_count": 100,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "api_quota_or_rate_limit",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    },
+    {
+      "pdf": "2023_tier2_prepp_paper1.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 0,
+          "expected_count": null,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "api_quota_or_rate_limit",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 150,
+          "expected_count": null,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    },
+    {
+      "pdf": "2024_tier1_appx_answer_key.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 0,
+          "expected_count": 100,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "api_quota_or_rate_limit",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": null
+      }
+    },
+    {
+      "pdf": "2024_tier1_prepp_shift1.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 3,
+          "expected_count": 100,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "api_quota_or_rate_limit",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 94,
+          "expected_count": 100,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    },
+    {
+      "pdf": "2024_tier1_sscportal_sep09_shift1_response_sheet.pdf",
+      "runs": {
+        "P1": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "PASS_WITH_MANUAL_REVIEW",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; llm-only native phase"
+        },
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 0,
+          "expected_count": 100,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "api_quota_or_rate_limit",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 100,
+          "expected_count": 100,
+          "qc_status": "BLOCKED",
+          "structural_status": "PASS",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    },
+    {
+      "pdf": "2024_tier2_prepp_paper1.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 7,
+          "expected_count": null,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "api_quota_or_rate_limit",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 141,
+          "expected_count": 150,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    },
+    {
+      "pdf": "2024_tier2_sscportal_jan18_response_sheet.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 0,
+          "expected_count": null,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "api_quota_or_rate_limit",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 150,
+          "expected_count": 100,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    },
+    {
+      "pdf": "2024_tier2_sscportal_jan19_response_sheet.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 0,
+          "expected_count": null,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "api_quota_or_rate_limit",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 97,
+          "expected_count": 100,
+          "qc_status": "INFRA_FAILURE",
+          "structural_status": "FAIL",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    },
+    {
+      "pdf": "2024_tier2_sscportal_jan20_response_sheet.pdf",
+      "runs": {
+        "P1": null,
+        "P2": null,
+        "P2_patch1": {
+          "question_count": 9,
+          "expected_count": null,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "api_quota_or_rate_limit",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata"
+        },
+        "P2_patch3": {
+          "question_count": 150,
+          "expected_count": 100,
+          "qc_status": "FAIL",
+          "structural_status": "FAIL",
+          "primary_failure_type": "",
+          "provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs"
+        }
+      }
+    }
+  ],
+  "run_manifest": {
+    "P1": {
+      "summary_path": "C:\\experiments\\ssc\\extraction_batch\\tier1_gemini\\batch_summary.json",
+      "default_provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; llm-only native phase",
+      "architecture_notes": "Original llm-only extraction phase using Gemini page-image extraction without deterministic answer evidence."
+    },
+    "P2": {
+      "summary_path": "C:\\experiments\\ssc\\extraction_batch\\tier1_gemini\\precision_batch_summary.json",
+      "default_provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; precision evidence layer",
+      "architecture_notes": "Precision pipeline added layout crops, HSV green-answer evidence, and canonical QC on top of Gemini extraction."
+    },
+    "P2_patch1": {
+      "summary_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\batch_summary.json",
+      "structural_path": "C:\\experiments\\ssc\\reports\\p2_failure_investigation_20260524.json",
+      "default_provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; patched failure metadata",
+      "architecture_notes": "Patch1 added structural failure investigation and metadata after the all-PDF rerun exposed quota pages being merged as empty output."
+    },
+    "P2_patch3": {
+      "summary_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\batch_summary.json",
+      "default_provider_model_notes": "google_ai_studio / models/gemini-3.1-flash-lite; Gemini retry of NIM-failed PDFs",
+      "architecture_notes": "Patch3 retries 11 failed PDFs with Gemini Flash Lite, recovering ~1414 questions vs NIM's ~291."
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "page": 51,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Who among the following was the first Home Minister of Independent India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sardar Vallabh Bhai Patel"
+        },
+        {
+          "label": "2",
+          "text": "Humayun Kabir"
+        },
+        {
+          "label": "3",
+          "text": "Maulana Abdul Kalam Azad"
+        },
+        {
+          "label": "4",
+          "text": "Baldev Singh"
+        }
+      ],
+      "question_id": "630680695139",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Sardar Vallabh Bhai Patel",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "What was the status of the agricultural sector in India before the Green Revolution?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Use of old technology and the absence of required infrastructure"
+        },
+        {
+          "label": "2",
+          "text": "Use of advanced technology and high productivity"
+        },
+        {
+          "label": "3",
+          "text": "Use of advanced technology and dependency on rainfall"
+        },
+        {
+          "label": "4",
+          "text": "Use of traditional technology and the abundance of required infrastructure"
+        }
+      ],
+      "question_id": "630680607902",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Use of old technology and the absence of required infrastructure",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "In which year did Walter Fleming stain the chromosomes to see them clearly and describe the entire process of mitosis?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1780"
+        },
+        {
+          "label": "2",
+          "text": "1901"
+        },
+        {
+          "label": "3",
+          "text": "1882"
+        },
+        {
+          "label": "4",
+          "text": "1956"
+        }
+      ],
+      "question_id": "630680618499",
+      "chosen_option_label": "4",
+      "correct_option_label": "3",
+      "correct_option_text": "1882",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

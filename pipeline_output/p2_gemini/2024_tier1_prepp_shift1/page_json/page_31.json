@@ -1,0 +1,76 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 68,
+      "section": null,
+      "question_text_full": "Let t = 2/5, then the value of the expression t^3 + (3/5)^3 + 9/5 t is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/5"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "2"
+        },
+        {
+          "label": "4",
+          "text": "1/2"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 69,
+      "section": null,
+      "question_text_full": "M and N walk along a circular track. They start at 5:00 a.m. from the same point in the opposite directions. M and N walk at a speed of 5 rounds per hour and 2 rounds per hour, respectively. How many times will they cross each other before 6.30 a.m. on the same day?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "5"
+        },
+        {
+          "label": "4",
+          "text": "7"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 70 is incomplete on the page (missing options), therefore it was excluded."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

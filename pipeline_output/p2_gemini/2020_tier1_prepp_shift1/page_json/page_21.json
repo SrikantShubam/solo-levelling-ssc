@@ -1,0 +1,126 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "A shopkeeper earns a profit of 21% after selling a book at 21% discount on the printed price. The ratio of the cost price and selling price of the book is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "79 : 100"
+        },
+        {
+          "label": "2",
+          "text": "100 : 79"
+        },
+        {
+          "label": "3",
+          "text": "121 : 100"
+        },
+        {
+          "label": "4",
+          "text": "100 : 121"
+        }
+      ],
+      "question_id": "81616113063",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "100 : 121",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "English Comprehension",
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If no substitution is required, select ‘No substitution’.\n\nWhile washing your hands, rub them together for 20 seconds to remove the microbes on them.",
+      "options": [
+        {
+          "label": "1",
+          "text": "the microbes on those"
+        },
+        {
+          "label": "2",
+          "text": "the microbes on they"
+        },
+        {
+          "label": "3",
+          "text": "the microbes on their"
+        },
+        {
+          "label": "4",
+          "text": "No substitution"
+        }
+      ],
+      "question_id": "81616113393",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "No substitution",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "English Comprehension",
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\n\nThe invigilator is advising the students not to carry calculators into the examination hall.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The students were advised not to carry calculators into the examination hall."
+        },
+        {
+          "label": "2",
+          "text": "The students are being advised by the invigilator not to carry calculators into the examination hall."
+        },
+        {
+          "label": "3",
+          "text": "The students have been advised not to carry calculators into the examination hall by the invigilator."
+        },
+        {
+          "label": "4",
+          "text": "The students were advised the invigilator not to carry calculators into the examination hall."
+        }
+      ],
+      "question_id": "81616113996",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "The students are being advised by the invigilator not to carry calculators into the examination hall.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": "English Comprehension",
+      "question_text_full": "Select the INCORRECTLY spelt word.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Voilence"
+        },
+        {
+          "label": "2",
+          "text": "Exterminated"
+        },
+        {
+          "label": "3",
+          "text": "Wildernesses"
+        },
+        {
+          "label": "4",
+          "text": "Unmanageable"
+        }
+      ],
+      "question_id": "81616113916",
+      "chosen_option_label": "4",
+      "correct_option_label": "1",
+      "correct_option_text": "Voilence",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

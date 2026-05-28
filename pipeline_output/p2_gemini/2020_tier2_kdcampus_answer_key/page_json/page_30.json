@@ -1,0 +1,226 @@
+{
+  "page": 30,
+  "questions": [
+    {
+      "question_number": 175,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence. In case no improvement is needed, select ‘No improvement required’. The shopkeeper was obliged to dispense to the service of his salesman.",
+      "options": [
+        {
+          "label": "1",
+          "text": "with the services"
+        },
+        {
+          "label": "2",
+          "text": "by the services"
+        },
+        {
+          "label": "3",
+          "text": "away the service"
+        },
+        {
+          "label": "4",
+          "text": "No improvement required"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 176,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence. In case no improvement is needed, select ‘No improvement required’. The soldiers would not have surrendered if they not ran out of ammunition.",
+      "options": [
+        {
+          "label": "1",
+          "text": "did not ran out"
+        },
+        {
+          "label": "2",
+          "text": "had not run out"
+        },
+        {
+          "label": "3",
+          "text": "do not run out"
+        },
+        {
+          "label": "4",
+          "text": "No improvement required"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 177,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank. The more he tried to solve the mystery, the more ______ he felt.",
+      "options": [
+        {
+          "label": "1",
+          "text": "perplexed"
+        },
+        {
+          "label": "2",
+          "text": "humbled"
+        },
+        {
+          "label": "3",
+          "text": "callous"
+        },
+        {
+          "label": "4",
+          "text": "confusing"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 178,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error. He often / persists to ask / awkward questions / at the board meetings.",
+      "options": [
+        {
+          "label": "1",
+          "text": "He often"
+        },
+        {
+          "label": "2",
+          "text": "persists to ask"
+        },
+        {
+          "label": "3",
+          "text": "awkward questions"
+        },
+        {
+          "label": "4",
+          "text": "at the board meetings"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 179,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank. He was ______ at his brother’s refusal to help him financially.",
+      "options": [
+        {
+          "label": "1",
+          "text": "indignant"
+        },
+        {
+          "label": "2",
+          "text": "indicted"
+        },
+        {
+          "label": "3",
+          "text": "enchanted"
+        },
+        {
+          "label": "4",
+          "text": "enamoured"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 180,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. A. And that something in her lifted her to the world number one position in tennis in 2005. B. But all this happened in almost no time. C. It took Maria just four years as a professional to reach the pinnacle. D. There is something disarming about Maria Sharapova.",
+      "options": [
+        {
+          "label": "1",
+          "text": "DABC"
+        },
+        {
+          "label": "2",
+          "text": "BCDA"
+        },
+        {
+          "label": "3",
+          "text": "CBAD"
+        },
+        {
+          "label": "4",
+          "text": "ABCD"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 181,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word. Sequestered",
+      "options": [
+        {
+          "label": "1",
+          "text": "Polished"
+        },
+        {
+          "label": "2",
+          "text": "Decorated"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Options 3 and 4 are missing from the page text."
+    }
+  ],
+  "warnings": [
+    "Question 181 is incomplete on the page; options 3 and 4 are missing."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

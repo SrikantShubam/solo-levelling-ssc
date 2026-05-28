@@ -1,0 +1,194 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 97,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nTo turn the corner",
+      "options": [
+        {
+          "label": "1",
+          "text": "To change one's goal"
+        },
+        {
+          "label": "2",
+          "text": "To wait for an opportunity"
+        },
+        {
+          "label": "3",
+          "text": "To pass the critical stage"
+        },
+        {
+          "label": "4",
+          "text": "To go back to the past"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 98,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nThis dog seems / to be very ferocious, / otherwise, / it is harmless.",
+      "options": [
+        {
+          "label": "1",
+          "text": "otherwise"
+        },
+        {
+          "label": "2",
+          "text": "to be very ferocious"
+        },
+        {
+          "label": "3",
+          "text": "it is harmless"
+        },
+        {
+          "label": "4",
+          "text": "This dog seems"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 99,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nPenalise",
+      "options": [
+        {
+          "label": "1",
+          "text": "Punish"
+        },
+        {
+          "label": "2",
+          "text": "Praise"
+        },
+        {
+          "label": "3",
+          "text": "Pretend"
+        },
+        {
+          "label": "4",
+          "text": "Protect"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 100,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nDo not touch any items displayed on glass shelves.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Let any items displayed on glass shelves be touched."
+        },
+        {
+          "label": "2",
+          "text": "No items displayed on glass shelves should be touched."
+        },
+        {
+          "label": "3",
+          "text": "Any items displayed on glass shelves will not be touched."
+        },
+        {
+          "label": "4",
+          "text": "Any items displayed on glass shelves not be touched."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 101,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nPeople write autobiographies for various reasons.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Autobiographies are written by people for various reasons."
+        },
+        {
+          "label": "2",
+          "text": "Autobiographies are being written by people for various reasons."
+        },
+        {
+          "label": "3",
+          "text": "Autobiographies have been written by people for various reasons."
+        },
+        {
+          "label": "4",
+          "text": "Autobiographies were written by people for various reasons."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 102,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. This usually results from a conviction on the part of the worker that the boss is genuinely interested in his growth and development.\nB. More attention should be paid to make this contact constructive and productive.\nC. The most vital spot in management is the contact between the workers and the boss.\nD. Constructive conditions prevail when mutual confidence and respect exists between the supervisor and the supervised.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CBDA"
+        },
+        {
+          "label": "2",
+          "text": "CADB"
+        },
+        {
+          "label": "3",
+          "text": "DBCA"
+        },
+        {
+          "label": "4",
+          "text": "DABC"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

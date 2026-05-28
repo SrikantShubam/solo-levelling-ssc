@@ -1,0 +1,104 @@
+{
+  "page": 30,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Select the option that rectifies the underlined part of the given sentence. In case no correction is needed, select ‘No correction required’.\nAshoka was not only a great warrior but also a very wiser ruler.",
+      "options": [
+        {
+          "label": "1",
+          "text": "more wise"
+        },
+        {
+          "label": "2",
+          "text": "No correction required"
+        },
+        {
+          "label": "3",
+          "text": "wisest"
+        },
+        {
+          "label": "4",
+          "text": "wise"
+        }
+      ],
+      "question_id": "264330164752",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "wise",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "The given sentence has an error. Choose the option that corrects the error\nThrow a rounder stone to create ripples in the water.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Throw the roundest stone to create ripples in the water."
+        },
+        {
+          "label": "2",
+          "text": "Throw a more round stone to create ripples in the water."
+        },
+        {
+          "label": "3",
+          "text": "Throw a more rounder stone to create ripples in the water."
+        },
+        {
+          "label": "4",
+          "text": "Throw a round stone to create ripples in the water."
+        }
+      ],
+      "question_id": "264330162641",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Throw a round stone to create ripples in the water.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Select the option that rectifies the underlined part of the given sentence. In case no correction is needed, select ‘No correction required’.\nCinema provides the most universal entertainment.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No correction required"
+        },
+        {
+          "label": "2",
+          "text": "a universal"
+        },
+        {
+          "label": "3",
+          "text": "an universal"
+        },
+        {
+          "label": "4",
+          "text": "more universal"
+        }
+      ],
+      "question_id": "264330164754",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "a universal",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

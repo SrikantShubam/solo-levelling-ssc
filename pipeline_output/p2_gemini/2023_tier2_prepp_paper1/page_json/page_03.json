@@ -1,0 +1,104 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Two friends A and B started a business by investing ₹1,50,000 and ₹2,50,000, respectively. They agreed to distribute their earnings in the same ratio of their investments. After an year, the profit earned was ₹6,00,000. Each of them added ₹50,000 to their respective profits and invested in a different project. If this project gave an yield of ₹4,20,000, then A's share in the profit is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹2,35,000"
+        },
+        {
+          "label": "2",
+          "text": "₹1,65,000"
+        },
+        {
+          "label": "3",
+          "text": "₹1,97,000"
+        },
+        {
+          "label": "4",
+          "text": "₹1,84,000"
+        }
+      ],
+      "question_id": "264330171718",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "₹1,65,000",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "The ratio of the length, width and height of a closed cuboid is given as 6 : 3 : 2. The total surface area of this cuboid is given as 1800 cm². Find the volume (in cm³) of this cuboid.",
+      "options": [
+        {
+          "label": "1",
+          "text": "4650"
+        },
+        {
+          "label": "2",
+          "text": "4800"
+        },
+        {
+          "label": "3",
+          "text": "4500"
+        },
+        {
+          "label": "4",
+          "text": "4200"
+        }
+      ],
+      "question_id": "264330171151",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "4500",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "B purchased 15 kg apples at the rate of ₹180 per kg from a wholesaler who uses a weight of 950 grams for the kg weight. B sold all these apples at ₹180 per kg but used a weight of 750 grams for the kg weight. Find the percentage profit earned by B in the transaction (correct to 2 places of decimal).",
+      "options": [
+        {
+          "label": "1",
+          "text": "22.55%"
+        },
+        {
+          "label": "2",
+          "text": "25.75%"
+        },
+        {
+          "label": "3",
+          "text": "33.33%"
+        },
+        {
+          "label": "4",
+          "text": "26.67%"
+        }
+      ],
+      "question_id": "264330171866",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "26.67%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

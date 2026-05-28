@@ -1,0 +1,96 @@
+{
+  "page": 57,
+  "questions": [
+    {
+      "question_number": 98,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nbad blood",
+      "options": [
+        {
+          "label": "1",
+          "text": "ill feeling"
+        },
+        {
+          "label": "2",
+          "text": "poor quality"
+        },
+        {
+          "label": "3",
+          "text": "low status"
+        },
+        {
+          "label": "4",
+          "text": "hard luck"
+        }
+      ],
+      "question_id": "26433083284",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "ill feeling",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 99,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the sentence. In case no improvement is needed, select ‘No Improvement’.\nThe scientists are busy to explore new ideas.",
+      "options": [
+        {
+          "label": "1",
+          "text": "exploring"
+        },
+        {
+          "label": "2",
+          "text": "No Improvement"
+        },
+        {
+          "label": "3",
+          "text": "for exploring"
+        },
+        {
+          "label": "4",
+          "text": "to be exploring"
+        }
+      ],
+      "question_id": "26433083153",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "exploring",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 100,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in indirect speech.\nShe said to herself, “Shall I have a happy married life?”",
+      "options": [
+        {
+          "label": "1",
+          "text": "She asked that if she should have a happy married life."
+        },
+        {
+          "label": "2",
+          "text": "She thought that she should have a happy married life."
+        },
+        {
+          "label": "3",
+          "text": "She wondered if she would have a happy married life."
+        },
+        {
+          "label": "4",
+          "text": "She wondered if she shall have a happy married life."
+        }
+      ],
+      "question_id": "26433083207",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "She wondered if she would have a happy married life.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

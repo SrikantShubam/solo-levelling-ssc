@@ -1,0 +1,50 @@
+filename,gemini_result
+2021_tier1_prepp_shift1.pdf,"```json
+{
+  ""classification"": ""question_only"",
+  ""has_questions"": true,
+  ""has_answer_key_or_answers"": false,
+  ""is_notice_only"": false,
+  ""evidence"": ""The document contains 100 multiple-choice questions for an SSC CGL exam, but it does not provide the correct answers or an answer key."",
+  ""review_note"": ""The PDF is a complete set of 100 questions for the SSC CGL 2021 Tier-I exam (11-Apr-2022, Shift 1). It lacks an answer key.""
+}
+```"
+2022_tier1_prepp_shift1.pdf,"```json
+{
+  ""classification"": ""actual_answer_key_or_solved_paper"",
+  ""has_questions"": true,
+  ""has_answer_key_or_answers"": true,
+  ""is_notice_only"": false,
+  ""evidence"": ""The document contains a full set of SSC CGL Tier 1 exam questions with marked correct options and candidate responses."",
+  ""review_note"": ""This is a complete solved question paper from the SSC CGL 2022 examination.""
+}
+```"
+2024_tier1_prepp_shift1.pdf,"```json
+{
+  ""classification"": ""question_only"",
+  ""has_questions"": true,
+  ""has_answer_key_or_answers"": false,
+  ""is_notice_only"": false,
+  ""evidence"": ""The document contains 100 multiple-choice questions covering various subjects (Reasoning, General Awareness, Quantitative Aptitude, English), but it does not provide an answer key or the correct options for these questions."",
+  ""review_note"": ""The PDF is a practice question paper. It lacks an answer key or solutions.""
+}
+```"
+2024_tier2_prepp_paper1.pdf,"```json
+{
+  ""classification"": ""question_only"",
+  ""has_questions"": true,
+  ""has_answer_key_or_answers"": false,
+  ""is_notice_only"": false,
+  ""evidence"": ""The document contains 150 multiple-choice questions related to various subjects (Maths, Reasoning, English, GA, Computer), but it does not provide an answer key or the correct options for these questions."",
+  ""review_note"": ""The PDF is a practice test paper containing questions only. It lacks an answer key or solutions.""
+}
+```"
+2020_tier2_kdcampus_answer_key.pdf,"```json
+{
+  ""classification"": ""actual_answer_key_or_solved_paper"",
+  ""has_answer_key_or_answers"": true,
+  ""covers_tier2"": true,
+  ""evidence"": ""The document contains 200 English language questions for SSC CGL Tier-II (2020) and includes a full answer key on page 34."",
+  ""review_note"": ""The PDF is a complete solved paper for the SSC CGL Tier-II exam held on 29-01-2022.""
+}
+```"

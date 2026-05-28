@@ -1,0 +1,104 @@
+{
+  "page": 53,
+  "questions": [
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "In which of the following cases did the Supreme Court direct that, 'the Parliament cannot take away or abridge any of the fundamental rights for the implementation of Directive Principles'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Minerva Mills Case, 1980"
+        },
+        {
+          "label": "2",
+          "text": "Keshvanand Bharti Case, 1973"
+        },
+        {
+          "label": "3",
+          "text": "Indira Sawhney Case, 1992"
+        },
+        {
+          "label": "4",
+          "text": "Golak Nath Case, 1967"
+        }
+      ],
+      "question_id": "630680723420",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Golak Nath Case, 1967",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Who urged political parties to engage in discussions that inspire unity rather than division and promote ideas instead of personal attacks in the address on the eve of National Voters Day in January 2024?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Prime Minister Narendra Modi"
+        },
+        {
+          "label": "2",
+          "text": "Union Home Minister Amit Shah"
+        },
+        {
+          "label": "3",
+          "text": "Chief Election Commissioner Rajiv Kumar"
+        },
+        {
+          "label": "4",
+          "text": "President Droupadi Murmu"
+        }
+      ],
+      "question_id": "630680574510",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Chief Election Commissioner Rajiv Kumar",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Who won the title at the World Chess Armageddon Asia & Oceania event in April 2023?",
+      "options": [
+        {
+          "label": "1",
+          "text": "D Gukesh"
+        },
+        {
+          "label": "2",
+          "text": "P Harikrishna"
+        },
+        {
+          "label": "3",
+          "text": "Koneru Humpy"
+        },
+        {
+          "label": "4",
+          "text": "Viswanathan Anand"
+        }
+      ],
+      "question_id": "630680576300",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "D Gukesh",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

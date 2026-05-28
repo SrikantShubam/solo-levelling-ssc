@@ -1,0 +1,104 @@
+{
+  "page": 27,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in indirect speech.\nHe said, \"I shall need a copy of the documents.\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "He said that he will need a copy of the documents."
+        },
+        {
+          "label": "2",
+          "text": "He said that he shall need a copy of the document."
+        },
+        {
+          "label": "3",
+          "text": "He said that he is going to need a copy of the document."
+        },
+        {
+          "label": "4",
+          "text": "He said that he would need a copy of the documents."
+        }
+      ],
+      "question_id": "630680627725",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "He said that he would need a copy of the documents.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below. While the first and the last sentences (1 and 6) are in the correct order, the sentences in between are jumbled up. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\n1. There are some backward areas in Andhra Pradesh.\nA. Rayalaseema is one of them.\nB. Massive degradation of natural resources and extensive changes in land use have resulted in poor crop productivity in Rayalaseema.\nC. The National Soil Survey and Land use planning organisation is doing its job by giving suggestions to the farmers of Rayalaseema.\nD. Soil Organic Carbon (SOC), which is crucial for maintaining soil quality, has decreased by 84% in the region. Poor soil fertility and soil degradation, like in Rayalaseema region, are the major causes of food shortage.\n6. The advice is about which crops are to be cultivated and which not.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CBAD"
+        },
+        {
+          "label": "2",
+          "text": "DCBA"
+        },
+        {
+          "label": "3",
+          "text": "CDBA"
+        },
+        {
+          "label": "4",
+          "text": "ABDC"
+        }
+      ],
+      "question_id": "630680196513",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "ABDC",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Select the most appropriate option that can substitute the underlined words in the given sentence.\nThe nation has chosen the government by the people over monarchy.",
+      "options": [
+        {
+          "label": "1",
+          "text": "democracy"
+        },
+        {
+          "label": "2",
+          "text": "oligarchy"
+        },
+        {
+          "label": "3",
+          "text": "theocracy"
+        },
+        {
+          "label": "4",
+          "text": "autocracy"
+        }
+      ],
+      "question_id": "630680668932",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "democracy",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

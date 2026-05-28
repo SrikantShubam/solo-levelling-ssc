@@ -1,0 +1,106 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 44,
+      "section": null,
+      "question_text_full": "Which of the following plays was NOT written by Harshavardhana?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Vikramorvasiyam"
+        },
+        {
+          "label": "2",
+          "text": "Ratnavali"
+        },
+        {
+          "label": "3",
+          "text": "Nagananda"
+        },
+        {
+          "label": "4",
+          "text": "Priyadarshika"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 45,
+      "section": null,
+      "question_text_full": "The organisms that do not have a defined nucleus or organelles are classified into ______ Kingdom.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Fungi"
+        },
+        {
+          "label": "2",
+          "text": "Protista"
+        },
+        {
+          "label": "3",
+          "text": "Monera"
+        },
+        {
+          "label": "4",
+          "text": "Plantae"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 46,
+      "section": null,
+      "question_text_full": "Which Article of the Constitution of India provides that 'there shall be a Vice President of India'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Article 61"
+        },
+        {
+          "label": "2",
+          "text": "Article 63"
+        },
+        {
+          "label": "3",
+          "text": "Article 65"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Only 3 options are visible for question 46."
+    }
+  ],
+  "warnings": [
+    "Question 46 is incomplete as it only shows 3 options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

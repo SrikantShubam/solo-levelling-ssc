@@ -1,0 +1,106 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "If tan(x + y)tan(x - y) = 1, then find the value of tanx.",
+      "options": [
+        {
+          "label": "1",
+          "text": "√3"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "1/2√3"
+        },
+        {
+          "label": "4",
+          "text": "1/√3"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Using empirical formula, calculate the mode for the following data. 17, 20, 21, 18, 25, 28, 24, 22, 16, 24, 25, 24",
+      "options": [
+        {
+          "label": "1",
+          "text": "25.8"
+        },
+        {
+          "label": "2",
+          "text": "30.6"
+        },
+        {
+          "label": "3",
+          "text": "25"
+        },
+        {
+          "label": "4",
+          "text": "32"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "If (secθ - tanθ) ÷ (secθ + tanθ) = 1 / 9, θ lies in the first quadrant, then the value of secθ is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "-13 / 27"
+        },
+        {
+          "label": "2",
+          "text": "Not enough options visible"
+        },
+        {
+          "label": "3",
+          "text": "Not enough options visible"
+        },
+        {
+          "label": "4",
+          "text": "Not enough options visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Only one option visible."
+    }
+  ],
+  "warnings": [
+    "Question 19 is incomplete on the page; only one option is visible."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

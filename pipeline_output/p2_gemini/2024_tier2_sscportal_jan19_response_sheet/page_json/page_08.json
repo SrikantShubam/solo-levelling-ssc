@@ -1,0 +1,104 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "The second central moment of the Binomial distribution B(1, 1/2) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/8"
+        },
+        {
+          "label": "2",
+          "text": "1/4"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "1/2"
+        }
+      ],
+      "question_id": "6306801324606",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "1/4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "10-15 is the model class with 25 as its frequency. Also if the frequency of the class preceding and succeeding the model class is 10 and 15, respectively, then the value of mode is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "13"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "question_id": "6306801352817",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "13",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Which of the following is NOT true about ungrouped frequency distribution?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Frequency of an observation is the number of times it occurs"
+        },
+        {
+          "label": "2",
+          "text": "Tally marks are used for finding frequencies"
+        },
+        {
+          "label": "3",
+          "text": "Used for putting raw data in a condensed form"
+        },
+        {
+          "label": "4",
+          "text": "Used when number of observations in data set is very large"
+        }
+      ],
+      "question_id": "6306801293776",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "Used when number of observations in data set is very large",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

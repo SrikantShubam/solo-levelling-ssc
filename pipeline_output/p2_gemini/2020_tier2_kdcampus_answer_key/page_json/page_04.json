@@ -1,0 +1,76 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "What kind of attitude does the writer advocate for a life of fulfilment?",
+      "options": [
+        {
+          "label": "1",
+          "text": "One of perseverance and patience"
+        },
+        {
+          "label": "2",
+          "text": "One of instant gratification"
+        },
+        {
+          "label": "3",
+          "text": "One of anger and dejection"
+        },
+        {
+          "label": "4",
+          "text": "One of stubbornness and refusal"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "What does 'bread making' attitude consist of?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Instantaneous results"
+        },
+        {
+          "label": "2",
+          "text": "Painstaking efforts"
+        },
+        {
+          "label": "3",
+          "text": "Futile labour"
+        },
+        {
+          "label": "4",
+          "text": "Talent and skill"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    }
+  ],
+  "warnings": [
+    "No answer keys (green ticks) are present on this page for the extracted questions."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

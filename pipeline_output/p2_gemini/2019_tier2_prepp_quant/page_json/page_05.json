@@ -1,0 +1,126 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "On selling an article for ₹123.40, the gain is 20% more than the amount of loss incurred on selling it for ₹108. If the article is sold for ₹120.75, then what is the gain/loss per cent?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Loss 5%"
+        },
+        {
+          "label": "2",
+          "text": "Gain 5%"
+        },
+        {
+          "label": "3",
+          "text": "Gain 2.5%"
+        },
+        {
+          "label": "4",
+          "text": "Loss 2.5%"
+        }
+      ],
+      "question_id": "8161615309",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "Gain 5%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "In ΔPQR, ∠Q = 84°, ∠R = 48°, PS ⊥ QR at S and the bisector of ∠P meets QR at T. What is the measure of ∠SPT?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24°"
+        },
+        {
+          "label": "2",
+          "text": "21°"
+        },
+        {
+          "label": "3",
+          "text": "12°"
+        },
+        {
+          "label": "4",
+          "text": "18°"
+        }
+      ],
+      "question_id": "8161615337",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "18°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "In ΔABC, ∠A = 90°, AD is the bisector of ∠A meeting BC at D, and DE ⊥ AC at E. If AB = 10 cm and AC = 15 cm, then the length of DE, in cm, is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "7.5"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "6.25"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "question_id": "8161615340",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "6",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "The base of a right pyramid is a square of side 10 cm. If its height is 10 cm, then the area (in cm²) of its lateral surface is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "50√5"
+        },
+        {
+          "label": "2",
+          "text": "100√5"
+        },
+        {
+          "label": "3",
+          "text": "100"
+        },
+        {
+          "label": "4",
+          "text": "100(√5 + 1)"
+        }
+      ],
+      "question_id": "8161615349",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "100√5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

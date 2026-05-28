@@ -1,0 +1,74 @@
+{
+  "page": 37,
+  "questions": [
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the given word.\nAccumulated",
+      "options": [
+        {
+          "label": "1",
+          "text": "Scattered"
+        },
+        {
+          "label": "2",
+          "text": "Spared"
+        },
+        {
+          "label": "3",
+          "text": "Bunched"
+        },
+        {
+          "label": "4",
+          "text": "Garnered"
+        }
+      ],
+      "question_id": "630680182486",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Scattered",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 30,
+      "section": "Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank number 1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "will pose"
+        },
+        {
+          "label": "2",
+          "text": "poses"
+        },
+        {
+          "label": "3",
+          "text": "will be posing"
+        },
+        {
+          "label": "4",
+          "text": "posed"
+        }
+      ],
+      "question_id": "630680530551",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "poses",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The comprehension passage text is provided above the question."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

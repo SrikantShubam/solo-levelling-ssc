@@ -1,0 +1,36 @@
+{
+  "page": 37,
+  "questions": [
+    {
+      "question_number": 48,
+      "section": null,
+      "question_text_full": "Which statement is NOT true according to the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The largest male giraffe usually wins the battles and does most of the breeding."
+        },
+        {
+          "label": "2",
+          "text": "Giraffes' long necks are the result of repeated stretching over the years."
+        },
+        {
+          "label": "3",
+          "text": "The giraffe can eat leaves from the upper reaches of a tree where other animals cannot reach."
+        },
+        {
+          "label": "4",
+          "text": "A giraffe's hind-legs are longer than its fore-legs and help it to bend."
+        }
+      ],
+      "question_id": "8161615533",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "A giraffe's hind-legs are longer than its fore-legs and help it to bend.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

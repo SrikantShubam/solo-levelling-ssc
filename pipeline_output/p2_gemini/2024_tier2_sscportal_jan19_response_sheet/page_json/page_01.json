@@ -1,0 +1,74 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "Statistics",
+      "question_text_full": "For the bivariate random variable (X,Y), let the joint probability density function be f(x,y) = 9(1 + x + y) / 2(1 + x)^4(1 + y)^4 for 0 < x < ∞, 0 < y < ∞ . The marginal pdf of X is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3(2x + 3) / 2(1 + x)"
+        },
+        {
+          "label": "2",
+          "text": "3(2x + 1) / 4(1 + x)^4"
+        },
+        {
+          "label": "3",
+          "text": "3(2x + 3) / (1 + x)^4"
+        },
+        {
+          "label": "4",
+          "text": "3(2x + 3) / 4(1 + x)^4"
+        }
+      ],
+      "question_id": "6306801352886",
+      "chosen_option_label": "3",
+      "correct_option_label": "4",
+      "correct_option_text": "3(2x + 3) / 4(1 + x)^4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "Statistics",
+      "question_text_full": "Monthly sales data (in units) shows the following trend-adjusted ratios for three months: January (1.1), February (0.9), and March (1.0). What is the average seasonal index for this quarter?",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.95"
+        },
+        {
+          "label": "2",
+          "text": "0.9"
+        },
+        {
+          "label": "3",
+          "text": "1.0"
+        },
+        {
+          "label": "4",
+          "text": "1.1"
+        }
+      ],
+      "question_id": "6306801302623",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1.0",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

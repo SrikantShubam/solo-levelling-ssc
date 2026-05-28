@@ -1,0 +1,36 @@
+{
+  "page": 27,
+  "questions": [
+    {
+      "question_number": 38,
+      "section": null,
+      "question_text_full": "The hill forts of Celts were called:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Oppida"
+        },
+        {
+          "label": "2",
+          "text": "Burhs"
+        },
+        {
+          "label": "3",
+          "text": "Centres"
+        },
+        {
+          "label": "4",
+          "text": "Forums"
+        }
+      ],
+      "question_id": "8161615520",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Oppida",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,106 @@
+{
+  "page": 34,
+  "questions": [
+    {
+      "question_number": 76,
+      "section": "English Comprehension",
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words:\nA false idea or belief",
+      "options": [
+        {
+          "label": "1",
+          "text": "Reticence"
+        },
+        {
+          "label": "2",
+          "text": "Atrophy"
+        },
+        {
+          "label": "3",
+          "text": "Fallacy"
+        },
+        {
+          "label": "4",
+          "text": "Entropy"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The answer key is not provided on the page."
+    },
+    {
+      "question_number": 77,
+      "section": "English Comprehension",
+      "question_text_full": "Identify the most appropriate ANTONYM of the given word:\nSecure",
+      "options": [
+        {
+          "label": "1",
+          "text": "Succeed"
+        },
+        {
+          "label": "2",
+          "text": "Save"
+        },
+        {
+          "label": "3",
+          "text": "Attack"
+        },
+        {
+          "label": "4",
+          "text": "Trundle"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The answer key is not provided on the page."
+    },
+    {
+      "question_number": 78,
+      "section": "English Comprehension",
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence:\nGourav was no good than a foolish person.",
+      "options": [
+        {
+          "label": "1",
+          "text": "no better"
+        },
+        {
+          "label": "2",
+          "text": "not good"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Question is incomplete; options 3 and 4 are missing from the source image."
+    }
+  ],
+  "warnings": [
+    "Question 78 is incomplete on the page; options 3 and 4 are missing."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

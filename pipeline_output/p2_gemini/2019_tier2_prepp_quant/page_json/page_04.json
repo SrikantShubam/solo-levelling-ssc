@@ -1,0 +1,126 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "PQR में, O अन्तःकेंद्र है और ∠P = 42° है। तो ∠QOR का माप ज्ञात कीजिए।",
+      "options": [
+        {
+          "label": "1",
+          "text": "121°"
+        },
+        {
+          "label": "2",
+          "text": "138°"
+        },
+        {
+          "label": "3",
+          "text": "111°"
+        },
+        {
+          "label": "4",
+          "text": "132°"
+        }
+      ],
+      "question_id": "8161615335",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "111°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "The sum of the present ages of a father and son is 52 years. Four years hence, the son's age will be 1/4 that of the father. What will be the ratio of the ages of the son and father, 10 years from now?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 : 8"
+        },
+        {
+          "label": "2",
+          "text": "1 : 3"
+        },
+        {
+          "label": "3",
+          "text": "2 : 7"
+        },
+        {
+          "label": "4",
+          "text": "2 : 5"
+        }
+      ],
+      "question_id": "8161615292",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "1 : 3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "(1/cosθ - 1/sinθ) + 1/(cosecθ - cotθ) - 1/(secθ + tanθ) = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "sinθ cosθ"
+        },
+        {
+          "label": "2",
+          "text": "sinθ tanθ"
+        },
+        {
+          "label": "3",
+          "text": "cosecθ cotθ"
+        },
+        {
+          "label": "4",
+          "text": "secθ cosecθ"
+        }
+      ],
+      "question_id": "8161615363",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "secθ cosecθ",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "A takes 2 hours more than B to cover a distance of 40 km. If A doubles his speed, he takes 1 1/2 hours more than B to cover 80 km. To cover a distance of 90 km, how much time will B take travelling at his same speed?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 1/3 hours"
+        },
+        {
+          "label": "2",
+          "text": "1 3/8 hours"
+        },
+        {
+          "label": "3",
+          "text": "1 1/8 hours"
+        },
+        {
+          "label": "4",
+          "text": "1 1/6 hours"
+        }
+      ],
+      "question_id": "8161615319",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "1 1/8 hours",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

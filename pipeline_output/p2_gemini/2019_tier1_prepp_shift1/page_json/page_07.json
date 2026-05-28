@@ -1,0 +1,126 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the option in which the numbers are related in the same way as are the numbers in the given set.\n(269, 278, 296)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(313, 322, 340)"
+        },
+        {
+          "label": "2",
+          "text": "(109, 118, 128)"
+        },
+        {
+          "label": "3",
+          "text": "(419, 430, 448)"
+        },
+        {
+          "label": "4",
+          "text": "(577, 586, 598)"
+        }
+      ],
+      "question_id": "12356815",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "(313, 322, 340)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nMedicine : Disease :: Food : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Energy"
+        },
+        {
+          "label": "2",
+          "text": "Nutrition"
+        },
+        {
+          "label": "3",
+          "text": "Hunger"
+        },
+        {
+          "label": "4",
+          "text": "Thirst"
+        }
+      ],
+      "question_id": "1235685",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Hunger",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Amit is the brother of Sonia. Jyoti is the sister of Nikita. Sonia is the daughter of Satish's father. Nikita is the daughter of Kavinder. Jyoti is the mother of Amit. Mukesh is Nikita's only sister's husband. How is Satish related to Kavinder?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Brother"
+        },
+        {
+          "label": "2",
+          "text": "Son-in-law"
+        },
+        {
+          "label": "3",
+          "text": "Grandson"
+        },
+        {
+          "label": "4",
+          "text": "Son"
+        }
+      ],
+      "question_id": "12356810",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Grandson",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Select the option in which the words share the same relationship as that shared by the given pair of words.\nClock : Time",
+      "options": [
+        {
+          "label": "1",
+          "text": "Anemometer : Strains"
+        },
+        {
+          "label": "2",
+          "text": "Taseometer : Wind"
+        },
+        {
+          "label": "3",
+          "text": "Balance : Scale"
+        },
+        {
+          "label": "4",
+          "text": "Ammeter : Current"
+        }
+      ],
+      "question_id": "1235686",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Ammeter : Current",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

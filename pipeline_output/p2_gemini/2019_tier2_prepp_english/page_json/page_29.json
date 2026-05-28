@@ -1,0 +1,36 @@
+{
+  "page": 29,
+  "questions": [
+    {
+      "question_number": 40,
+      "section": null,
+      "question_text_full": "\"Some were created from scratch.\" The towns which started from scratch were created by first:",
+      "options": [
+        {
+          "label": "1",
+          "text": "starting a market"
+        },
+        {
+          "label": "2",
+          "text": "establishing a settlement"
+        },
+        {
+          "label": "3",
+          "text": "building houses"
+        },
+        {
+          "label": "4",
+          "text": "building a fort"
+        }
+      ],
+      "question_id": "8161615526",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "starting a market",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

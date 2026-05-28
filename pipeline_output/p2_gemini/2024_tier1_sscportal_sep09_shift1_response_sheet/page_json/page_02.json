@@ -1,0 +1,104 @@
+{
+  "page": 2,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Six letters Q, Z, V, T, L and A are written on different faces of a dice. Two positions of this dice are shown in the figures below. Find the letter on the face opposite to Q.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Z"
+        },
+        {
+          "label": "2",
+          "text": "T"
+        },
+        {
+          "label": "3",
+          "text": "V"
+        },
+        {
+          "label": "4",
+          "text": "A"
+        }
+      ],
+      "question_id": "630680222371",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "T",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. In three of the four pairs, the same pattern is applied and hence they form a group. Select the number-pair that DOES NOT belong to this group.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "335 - 119"
+        },
+        {
+          "label": "2",
+          "text": "358 - 152"
+        },
+        {
+          "label": "3",
+          "text": "317 - 101"
+        },
+        {
+          "label": "4",
+          "text": "308 - 92"
+        }
+      ],
+      "question_id": "630680794639",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "358 - 152",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "In a certain code language, 'NAME' is written as 'FNBO' and 'NANO' is written as 'POBO'. How will 'NAIL' be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "MOBJ"
+        },
+        {
+          "label": "2",
+          "text": "MJOB"
+        },
+        {
+          "label": "3",
+          "text": "MOJB"
+        },
+        {
+          "label": "4",
+          "text": "MJBO"
+        }
+      ],
+      "question_id": "630680416245",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "MJBO",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

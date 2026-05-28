@@ -1,0 +1,104 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "The age of some students is given in years as 12, 13, 16, 18,14, 19, 13, 17, 15 and 11. The median age (in years) of the students is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "14"
+        },
+        {
+          "label": "2",
+          "text": "14.5"
+        },
+        {
+          "label": "3",
+          "text": "13.5"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "question_id": "630680543949",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "14.5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Murlidhar, the owner of a grocery store, offers a discount scheme 'buy 5 water bottles get 1 for free' to his customers. What is the effective percentage discount offered by Murlidhar? (correct up to two decimal places)",
+      "options": [
+        {
+          "label": "1",
+          "text": "13.33%"
+        },
+        {
+          "label": "2",
+          "text": "16.67%"
+        },
+        {
+          "label": "3",
+          "text": "13.67%"
+        },
+        {
+          "label": "4",
+          "text": "20.00%"
+        }
+      ],
+      "question_id": "630680653718",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "16.67%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "The present ages of Sweeta and Suman are in the ratio 4 : 5",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 years"
+        },
+        {
+          "label": "2",
+          "text": "12 years"
+        },
+        {
+          "label": "3",
+          "text": "20 years"
+        },
+        {
+          "label": "4",
+          "text": "16 years"
+        }
+      ],
+      "question_id": "630680533803",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "12 years",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

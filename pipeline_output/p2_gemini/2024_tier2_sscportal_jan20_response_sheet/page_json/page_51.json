@@ -1,0 +1,104 @@
+{
+  "page": 51,
+  "questions": [
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Which of the following best defines liberalisation?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The process of maintaining existing government regulations and restrictions on economic activities."
+        },
+        {
+          "label": "2",
+          "text": "The process of reducing or removing government regulations and restrictions on economic activities."
+        },
+        {
+          "label": "3",
+          "text": "The process of increasing government regulations and restrictions on economic activities."
+        },
+        {
+          "label": "4",
+          "text": "The process of enforcing strict government control over economic activities."
+        }
+      ],
+      "question_id": "630680637560",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "The process of reducing or removing government regulations and restrictions on economic activities.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "In which sport did India defeat Pakistan 2-1 to lift the Men's Junior Asia Cup in 2023, overtaking them in winning the maximum titles at the prestigious event?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Basketball"
+        },
+        {
+          "label": "2",
+          "text": "Hockey"
+        },
+        {
+          "label": "3",
+          "text": "Football"
+        },
+        {
+          "label": "4",
+          "text": "Badminton"
+        }
+      ],
+      "question_id": "630680579880",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Hockey",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Module I Computer Knowledge Module",
+      "question_text_full": "Which file extension is most commonly used for executable installation files on a Windows system?",
+      "options": [
+        {
+          "label": "1",
+          "text": ".exe"
+        },
+        {
+          "label": "2",
+          "text": ".mp3"
+        },
+        {
+          "label": "3",
+          "text": ".txt"
+        },
+        {
+          "label": "4",
+          "text": ".jpg"
+        }
+      ],
+      "question_id": "6306801313375",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": ".exe",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

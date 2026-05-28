@@ -1,0 +1,104 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Amit gets 6% increase in his sale amount in the first year and 20% in the second year, with that his present sale is ₹254400, what was his sale (in ₹) two years ago?",
+      "options": [
+        {
+          "label": "1",
+          "text": "240000"
+        },
+        {
+          "label": "2",
+          "text": "180000"
+        },
+        {
+          "label": "3",
+          "text": "200000"
+        },
+        {
+          "label": "4",
+          "text": "212000"
+        }
+      ],
+      "question_id": "630680667634",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "200000",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "Akshay places three identical rings of diameter 21 cm in such a manner that each one touches the other two rings. He observes that there is a space enclosed by the circles. What is the area (in cm²) of this portion? (Take π = 22/7)\nNote – Rounded off to nearest 2 decimal places and √3 = 1.732",
+      "options": [
+        {
+          "label": "1",
+          "text": "20.65"
+        },
+        {
+          "label": "2",
+          "text": "17.70"
+        },
+        {
+          "label": "3",
+          "text": "18.25"
+        },
+        {
+          "label": "4",
+          "text": "24.12"
+        }
+      ],
+      "question_id": "630680407097",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "17.70",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "In a circle with centre O, an arc ABC subtends an angle of 134° at the centre of the circle. The chord AB is produced to a point P. ∠CBP is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "45°"
+        },
+        {
+          "label": "2",
+          "text": "67°"
+        },
+        {
+          "label": "3",
+          "text": "89°"
+        },
+        {
+          "label": "4",
+          "text": "113°"
+        }
+      ],
+      "question_id": "630680671357",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "67°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,106 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 32,
+      "section": null,
+      "question_text_full": "The magnificent Kailasa temple at Ellora was built during the reign of which Rashtrakuta king?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Krishna I"
+        },
+        {
+          "label": "2",
+          "text": "Indra III"
+        },
+        {
+          "label": "3",
+          "text": "Govinda III"
+        },
+        {
+          "label": "4",
+          "text": "Amoghavarsha"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 33,
+      "section": null,
+      "question_text_full": "In which state/UT is the Hemis festival celebrated?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Punjab"
+        },
+        {
+          "label": "2",
+          "text": "Sikkim"
+        },
+        {
+          "label": "3",
+          "text": "Lakshadweep"
+        },
+        {
+          "label": "4",
+          "text": "Ladakh"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 34,
+      "section": null,
+      "question_text_full": "Which of the following is the largest artificial lake of Asia?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Naini Lake"
+        },
+        {
+          "label": "2",
+          "text": "Bhopal Lake"
+        },
+        {
+          "label": "3",
+          "text": "Dal Lake"
+        },
+        {
+          "label": "4",
+          "text": "Chilika Lake"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    }
+  ],
+  "warnings": [
+    "No answer keys (green ticks) are present on this page for any of the questions."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,104 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Three of the following word pairs are alike in some manner and hence form a group. Which word pair does not belong to that group? (The words must be considered as meaningful English words and must not be grouped based on the number of letters/number of consonants/vowels in the word.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Travel : Tour"
+        },
+        {
+          "label": "2",
+          "text": "Close : Distant"
+        },
+        {
+          "label": "3",
+          "text": "Look : See"
+        },
+        {
+          "label": "4",
+          "text": "Carry : Lift"
+        }
+      ],
+      "question_id": "264330171845",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Close : Distant",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "What will come in the place of the question mark (?) in the following equation if '+' and '-' are interchanged and 'x'and '÷' are interchanged? 113 ÷ 4 - 217 × 7 + 4 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "467"
+        },
+        {
+          "label": "2",
+          "text": "459"
+        },
+        {
+          "label": "3",
+          "text": "477"
+        },
+        {
+          "label": "4",
+          "text": "479"
+        }
+      ],
+      "question_id": "264330170921",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "479",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "A question is given, followed by two statements labelled I and II. Identify which of the statements is/are sufficient to answer the question. Question: A, B, C, D, E and F are sitting around a circular table. Each of them faces either the centre of the table or outside (i.e., opposite to the centre). In which direction is D facing? Statements: (I) B sits second to the right of F and both are facing the centre. Only two people are sitting between A and E from the either sides. Both A and E are facing the same direction. A is not an immediate neighbor of B. (II) C is facing the opposite direction of B. D is sitting to the second left of C.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement I alone is sufficient to answer the question while statement II is not."
+        },
+        {
+          "label": "2",
+          "text": "Statements I and II together are not sufficient to answer the question."
+        },
+        {
+          "label": "3",
+          "text": "Statement II alone is sufficient to answer the question while statement I is not."
+        },
+        {
+          "label": "4",
+          "text": "Statements I and II together are sufficient to answer the question."
+        }
+      ],
+      "question_id": "264330173697",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Statements I and II together are not sufficient to answer the question.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

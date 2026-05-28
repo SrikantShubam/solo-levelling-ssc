@@ -1,0 +1,104 @@
+{
+  "page": 16,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Four of the following five figures are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group?\n(A) (B) (C) (D) (E)",
+      "options": [
+        {
+          "label": "1",
+          "text": "C"
+        },
+        {
+          "label": "2",
+          "text": "D"
+        },
+        {
+          "label": "3",
+          "text": "B"
+        },
+        {
+          "label": "4",
+          "text": "A"
+        }
+      ],
+      "question_id": "264330162869",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "B",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled as C, D, B, A in the answer block, corresponding to labels 1, 2, 3, 4."
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "One statement is given, and it is followed by two inferences numbered I and II. Read the statement and decide which of the inferences is/are true for the given statement.\nStatements: Fuel prices in India are inflating day by day, and there is no upper limit in its price increase.\nInferences:\nI. Central and State governments have not cut down their respective taxes on fuel.\nII. Inflation in the international market is influencing the rising fuel prices.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Both inferences I and II are true."
+        },
+        {
+          "label": "2",
+          "text": "Only inference II is true."
+        },
+        {
+          "label": "3",
+          "text": "Neither inference I nor II is true."
+        },
+        {
+          "label": "4",
+          "text": "Only inference I is true."
+        }
+      ],
+      "question_id": "264330171862",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "Neither inference I nor II is true.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "In this question, a question is followed by two statements numbered (I) and (II). You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and decide the appropriate answer.\nQuestion: How is Kishore related to Sujata?\n(I) Navya is the daughter of Kishore. Vinita is the wife of Kishore.\n(II) Aman is the brother of Navya. Sujata is the only daughter of Aman.",
+      "options": [
+        {
+          "label": "1",
+          "text": "(II) alone is sufficient while (I) alone is not sufficient."
+        },
+        {
+          "label": "2",
+          "text": "(I) alone is sufficient while (II) alone is not sufficient."
+        },
+        {
+          "label": "3",
+          "text": "Both (I) and (II) together are needed."
+        },
+        {
+          "label": "4",
+          "text": "Either (I) alone or (II) alone is sufficient."
+        }
+      ],
+      "question_id": "264330173707",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Both (I) and (II) together are needed.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

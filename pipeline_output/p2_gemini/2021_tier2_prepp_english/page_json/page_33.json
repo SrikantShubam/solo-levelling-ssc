@@ -1,0 +1,36 @@
+{
+  "page": 33,
+  "questions": [
+    {
+      "question_number": 40,
+      "section": null,
+      "question_text_full": "What is the main feature of Savanna landscape?",
+      "options": [
+        {
+          "label": "1",
+          "text": "tall grass and short trees"
+        },
+        {
+          "label": "2",
+          "text": "dense forests with tall trees"
+        },
+        {
+          "label": "3",
+          "text": "dry grass and low bushes"
+        },
+        {
+          "label": "4",
+          "text": "tall trees and short grass"
+        }
+      ],
+      "question_id": "26433083516",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "tall grass and short trees",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "How many triangles are there in the given figure?",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "21"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options were labeled a, b, c, d in the source, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the correct mirror image of the given figure when the mirror is placed at MN.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The question is incomplete as the options are not provided in the image."
+    }
+  ],
+  "warnings": [
+    "Question 18 is incomplete on the page; options are missing."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

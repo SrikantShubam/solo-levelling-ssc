@@ -1,0 +1,106 @@
+{
+  "page": 28,
+  "questions": [
+    {
+      "question_number": 57,
+      "section": null,
+      "question_text_full": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?\n\n#: XAF :: SVA: %",
+      "options": [
+        {
+          "label": "1",
+          "text": "# = BEJ % = QRW"
+        },
+        {
+          "label": "2",
+          "text": "# = BEJ % = ORW"
+        },
+        {
+          "label": "3",
+          "text": "# = BEJ % = ORP"
+        },
+        {
+          "label": "4",
+          "text": "# = BBJ% = ORW"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 58,
+      "section": null,
+      "question_text_full": "O, P, Q, R, S and T are sitting around a circular table facing the centre(but not necessarily in the same order). P sits second to the left of T. S sits third to the right of Q. Q is not an immediate neighbour of P. O sits second to the right of S. Which of the following represents the position of O with respect of R?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Third to the left"
+        },
+        {
+          "label": "2",
+          "text": "Second to the left"
+        },
+        {
+          "label": "3",
+          "text": "Immediate right"
+        },
+        {
+          "label": "4",
+          "text": "Third to the right"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 59,
+      "section": null,
+      "question_text_full": "Read the given statements and conclusions carefully. Assuming that the information given in the statement(s) is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s).\n\nStatements:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question is incomplete; options are not visible on the page."
+    }
+  ],
+  "warnings": [
+    "Question 59 is incomplete on the page and lacks visible options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

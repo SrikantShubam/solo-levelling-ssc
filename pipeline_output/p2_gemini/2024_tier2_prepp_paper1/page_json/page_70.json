@@ -1,0 +1,76 @@
+{
+  "page": 70,
+  "questions": [
+    {
+      "question_number": 146,
+      "section": null,
+      "question_text_full": "Which of the following statements about computer memory is/are correct? RAM is volatile memory, meaning it loses data when power is turned off. ROM is used to store essential instructions required for the computer to boot.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Neither 1 nor 2"
+        },
+        {
+          "label": "2",
+          "text": "Only 1"
+        },
+        {
+          "label": "3",
+          "text": "Both 1 and 2"
+        },
+        {
+          "label": "4",
+          "text": "Only 2"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 147,
+      "section": null,
+      "question_text_full": "Select which of the given statement(s) is/are True or False for the Central Processing Unit (CPU) of the Computer Systems.\n(i) The CPU's clock speed controls the timing and execution speed of instructions.\n(ii) The CPU's cache memory provides high-speed access to frequently used instructions and data.",
+      "options": [
+        {
+          "label": "1",
+          "text": "(i) True, (ii) True"
+        },
+        {
+          "label": "2",
+          "text": "(i) False, (ii) True"
+        },
+        {
+          "label": "3",
+          "text": "(i) False, (ii) False"
+        },
+        {
+          "label": "4",
+          "text": "(i) True, (ii) False"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 148 is incomplete on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

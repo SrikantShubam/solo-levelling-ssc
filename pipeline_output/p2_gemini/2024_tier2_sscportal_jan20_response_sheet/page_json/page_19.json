@@ -1,0 +1,104 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Given below is a statement (Cause) followed by possible effects numbered I, II and III. Read the ‘Cause’ carefully and decide which of the three can be possible effect/s.\n\nCause – Heavy rains yesterday in City X have caused flooding in many areas including the railway station and airport.\n\nEffect I – Railways has announced a delay in the departure of three trains scheduled to start from City X this morning.\nEffect II – A number of flights were unable to land in the airport of City X last evening.\nEffect III – Finance ministry has extended the date for filing tax returns by a month.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only II is a possible effect."
+        },
+        {
+          "label": "2",
+          "text": "Both II and III are possible effects."
+        },
+        {
+          "label": "3",
+          "text": "Both I and II are possible effects."
+        },
+        {
+          "label": "4",
+          "text": "Only I is a possible effect."
+        }
+      ],
+      "question_id": "630680568505",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Both I and II are possible effects.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Paras ranked 5th from the top and 24th from the bottom in his class. How many students are there in his class?",
+      "options": [
+        {
+          "label": "1",
+          "text": "27"
+        },
+        {
+          "label": "2",
+          "text": "26"
+        },
+        {
+          "label": "3",
+          "text": "29"
+        },
+        {
+          "label": "4",
+          "text": "28"
+        }
+      ],
+      "question_id": "630680635342",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "28",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?\n\n# : ORW :: RUZ : %",
+      "options": [
+        {
+          "label": "1",
+          "text": "# = UYD % = KNS"
+        },
+        {
+          "label": "2",
+          "text": "# = VYD % = LNS"
+        },
+        {
+          "label": "3",
+          "text": "# = VYD % = KNS"
+        },
+        {
+          "label": "4",
+          "text": "# = VYD % = KNK"
+        }
+      ],
+      "question_id": "630680731373",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "# = VYD % = KNS",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,44 @@
+{
+  "page": 40,
+  "questions": [
+    {
+      "question_number": 35,
+      "section": "Comprehension",
+      "question_text_full": "What ultimately undermined the INA's efforts to free India from British rule?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Gandhi's death"
+        },
+        {
+          "label": "2",
+          "text": "The Japanese surrender in 1945"
+        },
+        {
+          "label": "3",
+          "text": "The inferior military tactics of the British forces"
+        },
+        {
+          "label": "4",
+          "text": "The lack of support from the Indian and British people"
+        }
+      ],
+      "question_id": "630680513126",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "The Japanese surrender in 1945",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

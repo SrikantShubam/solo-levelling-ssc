@@ -1,0 +1,106 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": null,
+      "section": null,
+      "question_text_full": "9, 5, 6, 10.5, 23, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "90"
+        },
+        {
+          "label": "2",
+          "text": "80"
+        },
+        {
+          "label": "3",
+          "text": "60"
+        },
+        {
+          "label": "4",
+          "text": "50"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 47,
+      "section": null,
+      "question_text_full": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. Q has the exam on Saturday. Only two people have exams between S and Q. R has the exam before S, but after P. U has the exam immediately after T. On which of the following days does V have the exam?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Saturday"
+        },
+        {
+          "label": "2",
+          "text": "Thursday"
+        },
+        {
+          "label": "3",
+          "text": "Sunday"
+        },
+        {
+          "label": "4",
+          "text": "Friday"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 48,
+      "section": null,
+      "question_text_full": "In a certain code language\nA + B means 'A is the mother of B',\nA - B means 'A is the brother of B',\nA x B means 'A is the wife of B' and\nA ÷ B means 'A is the father of B'.\nBased on the above, how is U related to Z if 'U + V + W - Y x Z'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The question text is complete, but the answer options are missing from the provided image."
+    }
+  ],
+  "warnings": [
+    "Question 48 options are missing from the provided image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

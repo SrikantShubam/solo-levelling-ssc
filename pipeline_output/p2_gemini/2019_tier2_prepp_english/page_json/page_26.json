@@ -1,0 +1,36 @@
+{
+  "page": 26,
+  "questions": [
+    {
+      "question_number": 37,
+      "section": "Comprehension",
+      "question_text_full": "Alfred the Great created fortified settlements across his kingdom mainly because:",
+      "options": [
+        {
+          "label": "1",
+          "text": "people could live there"
+        },
+        {
+          "label": "2",
+          "text": "they provided shelter from Danish attacks"
+        },
+        {
+          "label": "3",
+          "text": "merchants could come and sell their goods there"
+        },
+        {
+          "label": "4",
+          "text": "craftsmen could craft their artefacts there"
+        }
+      ],
+      "question_id": "8161615523",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "they provided shelter from Danish attacks",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

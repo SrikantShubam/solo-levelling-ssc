@@ -1,0 +1,104 @@
+{
+  "page": 34,
+  "questions": [
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nLuck does not always favour us, so we must always depend ________ our\nown efforts for success.",
+      "options": [
+        {
+          "label": "1",
+          "text": "in"
+        },
+        {
+          "label": "2",
+          "text": "upon"
+        },
+        {
+          "label": "3",
+          "text": "for"
+        },
+        {
+          "label": "4",
+          "text": "at"
+        }
+      ],
+      "question_id": "630680145368",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "upon",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Parts of a sentence are given below in jumbled order. Arrange the parts in\nthe correct order to form a meaningful sentence.\n\na. beginning in the 19th century,\n\nb. was long a mystery, and\n\nc. the origin of the Moon\n\nd. three competing theories emerged to solve it",
+      "options": [
+        {
+          "label": "1",
+          "text": "dcab"
+        },
+        {
+          "label": "2",
+          "text": "bdca"
+        },
+        {
+          "label": "3",
+          "text": "abdc"
+        },
+        {
+          "label": "4",
+          "text": "cbad"
+        }
+      ],
+      "question_id": "630680730505",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "cbad",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nThe mango is the ________ fruit.",
+      "options": [
+        {
+          "label": "1",
+          "text": "sweet"
+        },
+        {
+          "label": "2",
+          "text": "sweeter"
+        },
+        {
+          "label": "3",
+          "text": "sweetly"
+        },
+        {
+          "label": "4",
+          "text": "sweetest"
+        }
+      ],
+      "question_id": "630680617611",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "sweetest",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

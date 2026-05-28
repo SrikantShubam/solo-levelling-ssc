@@ -1,0 +1,66 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "The sequence of folding a piece of paper and the manner in which the folded paper has been cut is shown in the following figures. How would this paper look when unfolded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "12356824",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual figures."
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n12 : 72 :: 18 : ? :: 22 : 242",
+      "options": [
+        {
+          "label": "1",
+          "text": "164"
+        },
+        {
+          "label": "2",
+          "text": "140"
+        },
+        {
+          "label": "3",
+          "text": "162"
+        },
+        {
+          "label": "4",
+          "text": "160"
+        }
+      ],
+      "question_id": "12356813",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "162",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,104 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "Mathematical Abilities",
+      "question_text_full": "The average of 25, 46 and ‘y’ is 11. What is the value of ‘y’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "-38"
+        },
+        {
+          "label": "2",
+          "text": "-34"
+        },
+        {
+          "label": "3",
+          "text": "-36"
+        },
+        {
+          "label": "4",
+          "text": "-37"
+        }
+      ],
+      "question_id": "264330171105",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "-38",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "Mathematical Abilities",
+      "question_text_full": "From the top of a tower, the angle of depression of the top of a 10 m high building is 60°. If the distance between the tower and the building is 50√3 m, find the height of the tower.",
+      "options": [
+        {
+          "label": "1",
+          "text": "150 m"
+        },
+        {
+          "label": "2",
+          "text": "100 m"
+        },
+        {
+          "label": "3",
+          "text": "160 m"
+        },
+        {
+          "label": "4",
+          "text": "140 m"
+        }
+      ],
+      "question_id": "264330172607",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "160 m",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": "Mathematical Abilities",
+      "question_text_full": "A merchant fixes the sale price of his goods at 42% above the cost price. He sells his goods at a 15% discount marked price. His percentage of profit (rounded off to the nearest integer) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "21%"
+        },
+        {
+          "label": "2",
+          "text": "42%"
+        },
+        {
+          "label": "3",
+          "text": "35%"
+        },
+        {
+          "label": "4",
+          "text": "27%"
+        }
+      ],
+      "question_id": "264330166057",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "21%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

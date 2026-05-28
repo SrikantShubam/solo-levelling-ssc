@@ -1,0 +1,104 @@
+{
+  "page": 54,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "What is a ‘Firewall’ in the context of network security?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A software application for managing files and folders."
+        },
+        {
+          "label": "2",
+          "text": "A type of malware that spreads through email attachments."
+        },
+        {
+          "label": "3",
+          "text": "A security mechanism that filters and controls network traffic."
+        },
+        {
+          "label": "4",
+          "text": "A hardware device used to boost network performance."
+        }
+      ],
+      "question_id": "264330183341",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "A security mechanism that filters and controls network traffic.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "A high speed memory is placed between the Central Processing Unit (CPU) and the primary memory known as ________ memory.",
+      "options": [
+        {
+          "label": "1",
+          "text": "read only"
+        },
+        {
+          "label": "2",
+          "text": "virtual"
+        },
+        {
+          "label": "3",
+          "text": "cache"
+        },
+        {
+          "label": "4",
+          "text": "secondary"
+        }
+      ],
+      "question_id": "264330183367",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "cache",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "In computer registers, MAR stands for ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Main Access Register"
+        },
+        {
+          "label": "2",
+          "text": "Memory Access Register"
+        },
+        {
+          "label": "3",
+          "text": "Memory Address Register"
+        },
+        {
+          "label": "4",
+          "text": "Main Address Register"
+        }
+      ],
+      "question_id": "264330183366",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Memory Address Register",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

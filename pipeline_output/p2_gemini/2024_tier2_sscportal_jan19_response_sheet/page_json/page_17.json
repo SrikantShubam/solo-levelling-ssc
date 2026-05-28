@@ -1,0 +1,104 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 43,
+      "section": null,
+      "question_text_full": "On rolling of a die, the events E1 (getting an even number) and E2 (getting an odd number) are:",
+      "options": [
+        {
+          "label": "1",
+          "text": "mutually exclusive"
+        },
+        {
+          "label": "2",
+          "text": "exhaustive"
+        },
+        {
+          "label": "3",
+          "text": "neither mutually exclusive nor exhaustive"
+        },
+        {
+          "label": "4",
+          "text": "mutually exclusive and exhaustive"
+        }
+      ],
+      "question_id": "6306801352847",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "mutually exclusive and exhaustive",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 44,
+      "section": null,
+      "question_text_full": "If Y = x/2 + 2 and X = y/8 - 1 are regression lines of Y on X and X on Y, then correlation coefficient between X and Y is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "± 1/4"
+        },
+        {
+          "label": "2",
+          "text": "± 1/6"
+        },
+        {
+          "label": "3",
+          "text": "1/4"
+        },
+        {
+          "label": "4",
+          "text": "1/6"
+        }
+      ],
+      "question_id": "6306801352942",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1/4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 45,
+      "section": null,
+      "question_text_full": "The coefficient of kurtosis ( β2 ) of standard normal distribution is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "-3"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "question_id": "6306801352811",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

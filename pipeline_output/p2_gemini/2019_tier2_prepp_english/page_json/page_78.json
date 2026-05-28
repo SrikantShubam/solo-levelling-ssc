@@ -1,0 +1,126 @@
+{
+  "page": 78,
+  "questions": [
+    {
+      "question_number": 179,
+      "section": null,
+      "question_text_full": "Select the most appropriate direct form of the given sentence.\nTaru said that she could not leave the children alone.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Taru said, “I cannot leave the children alone.”"
+        },
+        {
+          "label": "2",
+          "text": "Taru said, “I could not be leaving the children alone.”"
+        },
+        {
+          "label": "3",
+          "text": "Taru said, “I will not leave the children alone.”"
+        },
+        {
+          "label": "4",
+          "text": "Taru said, “She would not leave the children alone.”"
+        }
+      ],
+      "question_id": "8161615618",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Taru said, “I cannot leave the children alone.”",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 180,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’.\nAriel was convinced that something fishy is going up behind his back.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No substitution required"
+        },
+        {
+          "label": "2",
+          "text": "was going on"
+        },
+        {
+          "label": "3",
+          "text": "goes on"
+        },
+        {
+          "label": "4",
+          "text": "was going up"
+        }
+      ],
+      "question_id": "8161615560",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "was going on",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 181,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’.\nJamnalal Bajaj was one of the few businessmen who incurred the wrath of the British for supporting the freedom movement.",
+      "options": [
+        {
+          "label": "1",
+          "text": "in support of"
+        },
+        {
+          "label": "2",
+          "text": "supporting"
+        },
+        {
+          "label": "3",
+          "text": "No substitution required"
+        },
+        {
+          "label": "4",
+          "text": "to supporting"
+        }
+      ],
+      "question_id": "8161615565",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "No substitution required",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 182,
+      "section": null,
+      "question_text_full": "Parts of the following sentence are given as options. Identify the segment that contains a grammatical error.\nA confluence is a place when two or more rivers meet.",
+      "options": [
+        {
+          "label": "1",
+          "text": "rivers meet"
+        },
+        {
+          "label": "2",
+          "text": "A confluence"
+        },
+        {
+          "label": "3",
+          "text": "when two or more"
+        },
+        {
+          "label": "4",
+          "text": "is a place"
+        }
+      ],
+      "question_id": "8161615543",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "when two or more",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

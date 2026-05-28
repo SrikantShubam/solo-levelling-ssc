@@ -1,0 +1,74 @@
+{
+  "page": 43,
+  "questions": [
+    {
+      "question_number": 38,
+      "section": null,
+      "question_text_full": "What does the term 'multiphyletic group' mean in the context of algae?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Having a common ancestor"
+        },
+        {
+          "label": "2",
+          "text": "Being closely related species"
+        },
+        {
+          "label": "3",
+          "text": "No common ancestor, not closely related"
+        },
+        {
+          "label": "4",
+          "text": "Having diverse morphoanatomical characteristics"
+        }
+      ],
+      "question_id": "630680545647",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "No common ancestor, not closely related",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 39,
+      "section": null,
+      "question_text_full": "Which statement accurately describes vascular plants based on the information in the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Vascular plants lack stems, roots and leaves."
+        },
+        {
+          "label": "2",
+          "text": "Vascular plants are unicellular in structure."
+        },
+        {
+          "label": "3",
+          "text": "Vascular plants have true stems, roots and leaves, unlike algae."
+        },
+        {
+          "label": "4",
+          "text": "Algae and vascular plants share the same morphoanatomical characteristics."
+        }
+      ],
+      "question_id": "630680545646",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Vascular plants have true stems, roots and leaves, unlike algae.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

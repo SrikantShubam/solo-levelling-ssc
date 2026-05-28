@@ -1,0 +1,104 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Which of the following is NOT true?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Frequency polygon facilitates the comparison of more than one series of data"
+        },
+        {
+          "label": "2",
+          "text": "Histograms are constructed using cumulative frequencies"
+        },
+        {
+          "label": "3",
+          "text": "Histogram consists of a set of rectangles with bases on horizontal axes"
+        },
+        {
+          "label": "4",
+          "text": "Histogram consists of a set of rectangles with centres at class marks"
+        }
+      ],
+      "question_id": "6306801294078",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Histograms are constructed using cumulative frequencies",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "For a two-way classification with p treatments, q blocks and r observations per cell, the degrees of freedom for error and total, respectively, are:",
+      "options": [
+        {
+          "label": "1",
+          "text": "pq-1 and pq (r-1)"
+        },
+        {
+          "label": "2",
+          "text": "(p-1)(q-1) and pqr-1"
+        },
+        {
+          "label": "3",
+          "text": "pq (r-1) and pqr-1"
+        },
+        {
+          "label": "4",
+          "text": "p-1 and pq (r-1)"
+        }
+      ],
+      "question_id": "6306801352937",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "pq (r-1) and pqr-1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Let X and Y be two independent Poisson variates with rate 5 and 10, respectively, then the distribution of Z=X+Y is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Poisson distribution with rate 15"
+        },
+        {
+          "label": "2",
+          "text": "Exponential distribution with rate 15"
+        },
+        {
+          "label": "3",
+          "text": "Normal distribution with mean 15 and variance 1"
+        },
+        {
+          "label": "4",
+          "text": "Gamma distribution with rate 5 and shape 10"
+        }
+      ],
+      "question_id": "6306801352803",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Poisson distribution with rate 15",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

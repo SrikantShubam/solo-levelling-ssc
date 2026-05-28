@@ -1,0 +1,104 @@
+{
+  "page": 20,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Three of the following four number-pairs are alike in a certain way and thus form a group. Which is the pair that does not belong to that group? (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1and 3 is not allowed.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "13-117"
+        },
+        {
+          "label": "2",
+          "text": "11-89"
+        },
+        {
+          "label": "3",
+          "text": "18-162"
+        },
+        {
+          "label": "4",
+          "text": "15-135"
+        }
+      ],
+      "question_id": "264330170879",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "11-89",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘BUTTER’ is coded as ‘CWWSC0’ and ‘THEORY’ is coded as ‘UJHNPV’. How will ‘LATENT’ be coded in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "MDXCLQ"
+        },
+        {
+          "label": "2",
+          "text": "MCWDLQ"
+        },
+        {
+          "label": "3",
+          "text": "MEVCKR"
+        },
+        {
+          "label": "4",
+          "text": "MCWDMP"
+        }
+      ],
+      "question_id": "264330171860",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "MCWDLQ",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Read the given statements and conclusions carefully. You have to take the given statements to be true even if they seem to be at variance from commonly known facts. You have to decide which conclusions logically follow(s) from the given statements.\n\nStatements:\nSome pens are books.\nAll book are cars.\nSome cars are spoons.\n\nConclusions:\n(I) : Some spoons are pens.\n(II) : Some books are pens.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion (I) follows"
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion (II) follows"
+        },
+        {
+          "label": "3",
+          "text": "Both conclusions (I) and (II) follow"
+        },
+        {
+          "label": "4",
+          "text": "Neither conclusion (I) nor (II) follows"
+        }
+      ],
+      "question_id": "264330166327",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Only conclusion (II) follows",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

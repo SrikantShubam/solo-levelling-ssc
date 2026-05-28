@@ -1,0 +1,15 @@
+{
+  "page": 9,
+  "questions": [],
+  "warnings": [
+    "The page contains only explanations and logic descriptions for questions Q23 to Q36, with no actual questions or multiple-choice options visible."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.5-flash",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

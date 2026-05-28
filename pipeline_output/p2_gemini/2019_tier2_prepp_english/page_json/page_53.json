@@ -1,0 +1,126 @@
+{
+  "page": 53,
+  "questions": [
+    {
+      "question_number": 88,
+      "section": null,
+      "question_text_full": "Select the correct indirect form of the given sentence.\nThe driver said to the passerby, “Do you know the way to the market?”",
+      "options": [
+        {
+          "label": "1",
+          "text": "The driver asked the passerby did he know the way to the market."
+        },
+        {
+          "label": "2",
+          "text": "The driver asked the passerby if he knows the way to the market."
+        },
+        {
+          "label": "3",
+          "text": "The driver asked the passerby if he knew the way to the market."
+        },
+        {
+          "label": "4",
+          "text": "The driver asked the passerby whether you know the way to the market."
+        }
+      ],
+      "question_id": "8161615616",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "The driver asked the passerby if he knew the way to the market.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 89,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nRELUCTANT",
+      "options": [
+        {
+          "label": "1",
+          "text": "unwilling"
+        },
+        {
+          "label": "2",
+          "text": "pleased"
+        },
+        {
+          "label": "3",
+          "text": "afraid"
+        },
+        {
+          "label": "4",
+          "text": "steady"
+        }
+      ],
+      "question_id": "8161615655",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "unwilling",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 90,
+      "section": null,
+      "question_text_full": "Select the correct active form of the given sentence.\nHe was given another chance by his employer.",
+      "options": [
+        {
+          "label": "1",
+          "text": "His employer is giving him another chance."
+        },
+        {
+          "label": "2",
+          "text": "His employer gave him another chance."
+        },
+        {
+          "label": "3",
+          "text": "His employer has given him another chance."
+        },
+        {
+          "label": "4",
+          "text": "He gave his employer another chance."
+        }
+      ],
+      "question_id": "8161615596",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "His employer gave him another chance.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 91,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order.\nA. Far below he saw green meadows and in their midst a village.\nB. He sat down and rested in the shadow of a rock.\nC. Nunez was in a pass between the mountains.\nD. He slowly climbed down the precipices and about midday came to the plain, stiff and tired out.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ADBC"
+        },
+        {
+          "label": "2",
+          "text": "CADB"
+        },
+        {
+          "label": "3",
+          "text": "CDAB"
+        },
+        {
+          "label": "4",
+          "text": "ABDC"
+        }
+      ],
+      "question_id": "8161615653",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "CADB",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

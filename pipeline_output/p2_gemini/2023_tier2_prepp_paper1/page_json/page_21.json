@@ -1,0 +1,74 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "Select the option figure that will replace the question mark (?) in the figure given below to complete the pattern.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330162946",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual figures."
+    },
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘CARD’ is coded as ‘7359’, ‘SERV’ is coded as ‘1256’and ‘PACK’ is coded as ‘8497’. What is the code for ‘D’ in the given code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "9"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "question_id": "264330167811",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

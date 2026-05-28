@@ -1,0 +1,74 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "Figure A is related to B in a certain pattern. Following the same pattern, figure C is related to D. Study the pattern and select the figure which should be placed in place of D.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330121471",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual figures."
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "In a certain language, the word CLOCK is written as 4 – 13 – 17 – 4 – 12. How will you write PHONE in the same language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "17 – 10 – 16 – 15 – 6"
+        },
+        {
+          "label": "2",
+          "text": "17 – 9 – 16 – 17 – 6"
+        },
+        {
+          "label": "3",
+          "text": "17 – 9 – 17 – 15 – 6"
+        },
+        {
+          "label": "4",
+          "text": "16 – 9 – 15 – 16 – 5"
+        }
+      ],
+      "question_id": "26433078842",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "17 – 9 – 17 – 15 – 6",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

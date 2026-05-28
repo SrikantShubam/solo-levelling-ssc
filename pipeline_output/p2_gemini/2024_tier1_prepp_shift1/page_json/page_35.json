@@ -1,0 +1,106 @@
+{
+  "page": 35,
+  "questions": [
+    {
+      "question_number": 79,
+      "section": null,
+      "question_text_full": "Select the option that corrects the error in the given sentence:\nHe ran quick to catch the bus.",
+      "options": [
+        {
+          "label": "1",
+          "text": "quiet"
+        },
+        {
+          "label": "2",
+          "text": "rapid"
+        },
+        {
+          "label": "3",
+          "text": "insipid"
+        },
+        {
+          "label": "4",
+          "text": "quickly"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 80,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word:\nAcquiesce",
+      "options": [
+        {
+          "label": "1",
+          "text": "Desist"
+        },
+        {
+          "label": "2",
+          "text": "Cease"
+        },
+        {
+          "label": "3",
+          "text": "Thwart"
+        },
+        {
+          "label": "4",
+          "text": "Concur"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 81,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words:\nThat which cannot be conquered",
+      "options": [
+        {
+          "label": "1",
+          "text": "Invisible"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Only one option is visible on the page. Other options are truncated."
+    }
+  ],
+  "warnings": [
+    "Question 81 is incomplete on the page; only one option is visible."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

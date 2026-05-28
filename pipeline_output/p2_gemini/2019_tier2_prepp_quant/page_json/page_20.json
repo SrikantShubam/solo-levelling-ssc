@@ -1,0 +1,126 @@
+{
+  "page": 20,
+  "questions": [
+    {
+      "question_number": 67,
+      "section": null,
+      "question_text_full": "X and Y enter into a partnership with capital in the ratio 3 : 5. After 5 months X adds 50% of his capital, while Y withdraws 60% of his capital. What is the share (in ₹ lakhs) of X in the annual profit of ₹6.84 lakhs?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3.12"
+        },
+        {
+          "label": "2",
+          "text": "3.6"
+        },
+        {
+          "label": "3",
+          "text": "3.72"
+        },
+        {
+          "label": "4",
+          "text": "4.2"
+        }
+      ],
+      "question_id": "8161615314",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "3.72",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 68,
+      "section": null,
+      "question_text_full": "The average of three numbers a, b and c is 2 more than c. The average of a and b is 48. If d is 10 less than c, then the average of c and d is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "38"
+        },
+        {
+          "label": "2",
+          "text": "36"
+        },
+        {
+          "label": "3",
+          "text": "35"
+        },
+        {
+          "label": "4",
+          "text": "40"
+        }
+      ],
+      "question_id": "8161615325",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "40",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 69,
+      "section": null,
+      "question_text_full": "The radius and height of a right circular cone are in the ratio 3 : 4. If its curved surface area (in cm²) is 240 π, then its volume (in cm³) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1536 π"
+        },
+        {
+          "label": "2",
+          "text": "768 π"
+        },
+        {
+          "label": "3",
+          "text": "384 π"
+        },
+        {
+          "label": "4",
+          "text": "2304 π"
+        }
+      ],
+      "question_id": "8161615351",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "768 π",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 70,
+      "section": null,
+      "question_text_full": "Anuja owns 66 2/3% of a property. If 30% of the property that she owns is worth ₹1,25,000, then 45% of the value (in ₹) of the property is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2,62,500"
+        },
+        {
+          "label": "2",
+          "text": "2,81,250"
+        },
+        {
+          "label": "3",
+          "text": "2,25,000"
+        },
+        {
+          "label": "4",
+          "text": "2,70,000"
+        }
+      ],
+      "question_id": "8161615295",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "2,81,250",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

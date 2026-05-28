@@ -1,0 +1,96 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Who among the following had written Kitab-ul-Hind that gave an incisive description of early 11th Century India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Al-Khwarizmi"
+        },
+        {
+          "label": "2",
+          "text": "Al-Biruni"
+        },
+        {
+          "label": "3",
+          "text": "Al-Kindi"
+        },
+        {
+          "label": "4",
+          "text": "Al-Bukhari"
+        }
+      ],
+      "question_id": "81616113050",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Al-Biruni",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "Study the following table and answer the question: Number of cars sold by dealers A, B, C, D & E during first six months of 2018. [Table provided] The ratio of the total number of cars sold by dealer B in January, April and June to the total number of cars sold by dealers A and D in March is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 : 9"
+        },
+        {
+          "label": "2",
+          "text": "4 : 3"
+        },
+        {
+          "label": "3",
+          "text": "10 : 9"
+        },
+        {
+          "label": "4",
+          "text": "7 : 5"
+        }
+      ],
+      "question_id": "81616114192",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "4 : 3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "Let ΔABC ~ ΔPQR and ar(ΔABC)/ar(ΔPQR) = 144/49. If AB = 12 cm, BC = 7 cm and AC = 9 cm, then PR (in cm) is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "49/12"
+        },
+        {
+          "label": "2",
+          "text": "108/7"
+        },
+        {
+          "label": "3",
+          "text": "21/4"
+        },
+        {
+          "label": "4",
+          "text": "12"
+        }
+      ],
+      "question_id": "81616113380",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "21/4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

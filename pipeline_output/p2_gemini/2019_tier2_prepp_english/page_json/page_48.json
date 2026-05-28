@@ -1,0 +1,126 @@
+{
+  "page": 48,
+  "questions": [
+    {
+      "question_number": 69,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’. I couldn’t sleep in case of being very tired.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No substitution required"
+        },
+        {
+          "label": "2",
+          "text": "even though"
+        },
+        {
+          "label": "3",
+          "text": "in spite of"
+        },
+        {
+          "label": "4",
+          "text": "in order of"
+        }
+      ],
+      "question_id": "8161615562",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "in spite of",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 70,
+      "section": null,
+      "question_text_full": "Select the most appropriate indirect form of the given sentence. Esha said, “Avika is not going to school today as she has fever.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "Esha said that Avika had not gone to school that day as she was having fever."
+        },
+        {
+          "label": "2",
+          "text": "Esha said that Avika was not going to school today as she has fever."
+        },
+        {
+          "label": "3",
+          "text": "Esha said that Avika was not going to school that day as she had fever."
+        },
+        {
+          "label": "4",
+          "text": "Esha said that Avika is not going to school today as she has fever."
+        }
+      ],
+      "question_id": "8161615609",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Esha said that Avika was not going to school that day as she had fever.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 71,
+      "section": null,
+      "question_text_full": "Parts of the following sentence are given as options. Identify the segment that contains a grammatical error. My grandmother is quite concerned to my progress at school.",
+      "options": [
+        {
+          "label": "1",
+          "text": "My grandmother"
+        },
+        {
+          "label": "2",
+          "text": "to my progress"
+        },
+        {
+          "label": "3",
+          "text": "is quite concerned"
+        },
+        {
+          "label": "4",
+          "text": "at school"
+        }
+      ],
+      "question_id": "8161615556",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "to my progress",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 72,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order. A. The mountaineers set up a camp at a height of 15000 feet. B. Then they started climbing. C. They struggled up a steep slope and stopped at a height of 20000 feet. D. There they stayed for a week to get accustomed to the climate.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ABDC"
+        },
+        {
+          "label": "2",
+          "text": "CADB"
+        },
+        {
+          "label": "3",
+          "text": "ADBC"
+        },
+        {
+          "label": "4",
+          "text": "CDAB"
+        }
+      ],
+      "question_id": "8161615647",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "ADBC",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

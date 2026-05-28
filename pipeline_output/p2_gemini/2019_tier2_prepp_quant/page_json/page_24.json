@@ -1,0 +1,126 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 84,
+      "section": null,
+      "question_text_full": "A is 80% more than B and C is 48 4/7% less than the sum of A and B. By what per cent is C less than A?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30"
+        },
+        {
+          "label": "2",
+          "text": "20"
+        },
+        {
+          "label": "3",
+          "text": "25"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "question_id": "8161615293",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "20",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 85,
+      "section": null,
+      "question_text_full": "In a school, 3/8 of the number of students are girls and the rest are boys. One-third of the number of boys are below 10 years and 2/3 of the number of girls are also below 10 years. If the number of students of age 10 or more years is 260, then the number of boys in the school is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "312"
+        },
+        {
+          "label": "2",
+          "text": "280"
+        },
+        {
+          "label": "3",
+          "text": "234"
+        },
+        {
+          "label": "4",
+          "text": "300"
+        }
+      ],
+      "question_id": "8161615286",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "300",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 86,
+      "section": null,
+      "question_text_full": "A certain number of students from school X appeared in an examination and 30% students failed. 150% more students than those from school X, appeared in the same examination from school Y. If 80% of the total number of students who appeared from X and Y passed, then what is the percentage of students who failed from Y?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "18"
+        }
+      ],
+      "question_id": "8161615297",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "16",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 87,
+      "section": null,
+      "question_text_full": "The radii of two right circular cylinders are in the ratio 3 : 2 and the ratio of their volumes is 27 : 16. What is the ratio of their heights?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4 : 3"
+        },
+        {
+          "label": "2",
+          "text": "9 : 8"
+        },
+        {
+          "label": "3",
+          "text": "3 : 4"
+        },
+        {
+          "label": "4",
+          "text": "8 : 9"
+        }
+      ],
+      "question_id": "8161615358",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "3 : 4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}
