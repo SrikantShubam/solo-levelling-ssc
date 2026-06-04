@@ -1,0 +1,106 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series.\n5, 18, 70, 278, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "328"
+        },
+        {
+          "label": "2",
+          "text": "298"
+        },
+        {
+          "label": "3",
+          "text": "592"
+        },
+        {
+          "label": "4",
+          "text": "1110"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The answer options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Select the option that is related to the third term in the same way as the second term is related to the first term.\nBACTERIA : EXFWBUFX :: WOUNDS : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ZLSQFW"
+        },
+        {
+          "label": "2",
+          "text": "ZLRQGV"
+        },
+        {
+          "label": "3",
+          "text": "YLRQFV"
+        },
+        {
+          "label": "4",
+          "text": "ZRXQGV"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The answer options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "If '@' means 'addition', '%' means 'multiplication', '$' means 'division' and '#' means 'subtraction', then find the value of the following expression.\n29 @ 128 $ 16 % 7 # 22",
+      "options": [
+        {
+          "label": "1",
+          "text": "47"
+        },
+        {
+          "label": "2",
+          "text": "Not visible"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Only the first option is visible on the page."
+    }
+  ],
+  "warnings": [
+    "Question 5 is incomplete as only one option is visible on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

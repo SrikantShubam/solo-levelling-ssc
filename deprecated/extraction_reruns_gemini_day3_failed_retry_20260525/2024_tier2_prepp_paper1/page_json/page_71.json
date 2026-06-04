@@ -1,0 +1,46 @@
+{
+  "page": 71,
+  "questions": [
+    {
+      "question_number": 149,
+      "section": null,
+      "question_text_full": "Match the file locating features in column A with their corresponding functionalities in column B.\n\nColumn A | Column B\n\n1. Search Bar | a) Displays files and folders recently accessed\n2. Quick Access | b) Allows grouping and sorting of files by attributes\n3. Wildcards | c) Refines searches for files with partial names\n4. File Sorting | d) Locates files and folders by typing keywords",
+      "options": [
+        {
+          "label": "1",
+          "text": "1-b, 2-d, 3-a, 4-c"
+        },
+        {
+          "label": "2",
+          "text": "1-a, 2-c, 3-b, 4-d"
+        },
+        {
+          "label": "3",
+          "text": "1-c, 2-b, 3-a, 4-d"
+        },
+        {
+          "label": "4",
+          "text": "1-d, 2-a, 3-c, 4-b"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, but mapped to 1, 2, 3, 4 for the schema."
+    }
+  ],
+  "warnings": [
+    "Question 150 is incomplete on the page (missing options 3 and 4), therefore it was excluded from the extraction."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

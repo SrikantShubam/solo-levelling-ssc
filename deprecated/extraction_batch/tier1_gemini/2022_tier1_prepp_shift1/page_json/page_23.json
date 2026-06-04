@@ -1,0 +1,126 @@
+{
+  "page": 23,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Select the most appropriate option that can substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution’. After finishing high school, I plan to pursuing law.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No substitution"
+        },
+        {
+          "label": "2",
+          "text": "plan to pursue"
+        },
+        {
+          "label": "3",
+          "text": "plan in pursue"
+        },
+        {
+          "label": "4",
+          "text": "plan to pursuing"
+        }
+      ],
+      "question_id": "26433084575",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "plan to pursue",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word. Confusion",
+      "options": [
+        {
+          "label": "1",
+          "text": "Intrepidity"
+        },
+        {
+          "label": "2",
+          "text": "Stagnation"
+        },
+        {
+          "label": "3",
+          "text": "Perusal"
+        },
+        {
+          "label": "4",
+          "text": "Commotion"
+        }
+      ],
+      "question_id": "26433060626",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Commotion",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. Our guests arrived; they are sitting in the garden.",
+      "options": [
+        {
+          "label": "1",
+          "text": "shall arrive"
+        },
+        {
+          "label": "2",
+          "text": "have arrived"
+        },
+        {
+          "label": "3",
+          "text": "are arriving"
+        },
+        {
+          "label": "4",
+          "text": "might arrive"
+        }
+      ],
+      "question_id": "26433073842",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "have arrived",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error. During an earthquake, / it is advised to take / cover above a table / to save your life.",
+      "options": [
+        {
+          "label": "1",
+          "text": "cover above a table"
+        },
+        {
+          "label": "2",
+          "text": "During an earthquake,"
+        },
+        {
+          "label": "3",
+          "text": "it is advised to take"
+        },
+        {
+          "label": "4",
+          "text": "to save your life."
+        }
+      ],
+      "question_id": "26433096152",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "cover above a table",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

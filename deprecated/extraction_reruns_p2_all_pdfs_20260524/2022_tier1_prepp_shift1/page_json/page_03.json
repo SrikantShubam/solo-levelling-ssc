@@ -1,0 +1,126 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Which of the following letter-clusters will replace the question mark (?) in the given series?\nPK, GT, XC, OL, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "GT"
+        },
+        {
+          "label": "2",
+          "text": "HS"
+        },
+        {
+          "label": "3",
+          "text": "EV"
+        },
+        {
+          "label": "4",
+          "text": "FU"
+        }
+      ],
+      "question_id": "26433057189",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "FU",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Select the set in which the numbers are related in the same way as are the numbers of the following set.\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits.)\n(3, 14, 1)\n(4, 36, 2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(8, 12, 2)"
+        },
+        {
+          "label": "2",
+          "text": "(5, 81, 4)"
+        },
+        {
+          "label": "3",
+          "text": "(7, 40, 3)"
+        },
+        {
+          "label": "4",
+          "text": "(8, 260, 2)"
+        }
+      ],
+      "question_id": "26433069234",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "(8, 260, 2)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Select the correct combination of mathematical signs to sequentially replace the * signs and to balance the given equation.\n12 * 24 * 4 * 2 * 60",
+      "options": [
+        {
+          "label": "1",
+          "text": "+, ×, ÷, ="
+        },
+        {
+          "label": "2",
+          "text": "−, ×, +, ="
+        },
+        {
+          "label": "3",
+          "text": "+, ×, −, ="
+        },
+        {
+          "label": "4",
+          "text": "+, ÷, ×, ="
+        }
+      ],
+      "question_id": "26433068564",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "+, ×, ÷, =",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Three of the following four letter-clusters are alike in a certain way and one is different.\nPick the odd one out.",
+      "options": [
+        {
+          "label": "1",
+          "text": "HGF"
+        },
+        {
+          "label": "2",
+          "text": "RQP"
+        },
+        {
+          "label": "3",
+          "text": "UVW"
+        },
+        {
+          "label": "4",
+          "text": "LKJ"
+        }
+      ],
+      "question_id": "26433069014",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "UVW",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

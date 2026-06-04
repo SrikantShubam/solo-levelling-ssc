@@ -1,0 +1,96 @@
+{
+  "page": 18,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "The given table shows the number (in thousands) of cars of five different models A, B, C, D and E produced during Years 2012-2017. Study the table and answer the question that follow.\n\n[Table Data: 2012: 18, 26, 22, 23, 31, 120; 2013: 22, 18, 32, 40, 18, 130; 2014: 32, 43, 26, 35, 34, 170; 2015: 18, 22, 26, 14, 20, 100; 2016: 36, 12, 44, 38, 50, 180; 2017: 12, 48, 40, 22, 28, 150]\n\nIn the year 2015, which type of car constitutes exactly 20% of the total number of cars produced that year?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A"
+        },
+        {
+          "label": "2",
+          "text": "D"
+        },
+        {
+          "label": "3",
+          "text": "B"
+        },
+        {
+          "label": "4",
+          "text": "E"
+        }
+      ],
+      "question_id": "12356873",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "E",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "If '+' means '-', '-' means '+', 'x' means '÷' and '÷' means 'x', then the value of (42-12x3+8÷2+15)/(8x2-4+9÷3) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "5/3"
+        },
+        {
+          "label": "2",
+          "text": "15/19"
+        },
+        {
+          "label": "3",
+          "text": "-15/19"
+        },
+        {
+          "label": "4",
+          "text": "5/3"
+        }
+      ],
+      "question_id": "12356852",
+      "chosen_option_label": "4",
+      "correct_option_label": "3",
+      "correct_option_text": "-15/19",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "A person sells an article at 10% below its cost price. Had he sold it for ₹332 more, he would have made a profit of 20%. What is the original selling price (in ₹) of the article?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1,328"
+        },
+        {
+          "label": "2",
+          "text": "1,028"
+        },
+        {
+          "label": "3",
+          "text": "896"
+        },
+        {
+          "label": "4",
+          "text": "996"
+        }
+      ],
+      "question_id": "12356856",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "996",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

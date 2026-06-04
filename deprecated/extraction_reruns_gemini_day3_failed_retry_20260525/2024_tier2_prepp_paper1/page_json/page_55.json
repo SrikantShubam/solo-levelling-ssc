@@ -1,0 +1,46 @@
+{
+  "page": 55,
+  "questions": [
+    {
+      "question_number": 106,
+      "section": null,
+      "question_text_full": "Which of the following sentences is/are true?\n\ni. All isoclines are expansion paths but all expansion paths are not isoclines.\nii. Short-run production functions involve adjusting all inputs, including fixed inputs like land or capital, to affect output.\niii. Stock resources are the resources which are not used in one period of production but can be stored for a later period.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only ii"
+        },
+        {
+          "label": "2",
+          "text": "Only i"
+        },
+        {
+          "label": "3",
+          "text": "Only iii"
+        },
+        {
+          "label": "4",
+          "text": "Only ii and iii"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options were labeled a, b, c, d in the source, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "The first block of text on the page is a reading comprehension passage fragment with a blank-filling question that lacks standard SSC-style answer options (labeled 1-4) and answer keys."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

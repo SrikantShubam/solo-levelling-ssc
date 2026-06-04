@@ -1,0 +1,28 @@
+Answer these 6 SSC CGL questions from '2024_tier2_sscportal_jan18_response_sheet':
+
+Q18: Select the option that expresses the given sentence in passive voice.
+Everyone was surprised at his speech.
+1. His speech surprised everyone. | 2. His speech surprise everyone. | 3. His speech was surprising to everyone. | 4. His speech is surprising everyone.
+
+Q19: Complete the dialogue for Person B using the correct idiom.
+Person A: I am so nervous. I don't think I should make the speech tomorrow.
+Person B: No. 
+1. cold foot | 2. cold feet | 3. cold hand | 4. hot feet
+
+Q26: Select the most appropriate ANTONYM of the given word.
+Generous
+1. Selfish | 2. Benevolent | 3. Altruistic | 4. Magnanimous
+
+Q28: Select the most appropriate pronoun to fill in the blank.
+Mr. Amit Kumar, Proprietor of Xyling Pens is known for __________ honesty and decent behavio
+1. his | 2. they | 3. it | 4. her
+
+Q6: What security mechanism ensures that system updates are installed without user intervention?
+1. Patch management software | 2. Firewall | 3. Secure Boot | 4. Intrusion Detection System
+
+Q14: Match the Task Manager tabs in column A with their respective functionalities in column B.
+Column A Column B
+1. Processes a) Monitors overall CPU, mem
+1. 1-d, 2-b, 3-a, 4-c | 2. 1-c, 2-b, 3-d, 4-a | 3. 1-a, 2-c, 3-b, 4-d | 4. 1-b, 2-a, 3-c, 4-d
+
+Return ONLY a JSON array: [{"question_number": INTEGER, "correct_option_label": "1"|"2"|"3"|"4"}]

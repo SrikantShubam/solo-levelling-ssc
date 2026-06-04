@@ -1,0 +1,360 @@
+{
+  "task_id": 7,
+  "data": {
+    "pdf_name": "2024_tier2_prepp_paper1",
+    "batch_start": 1,
+    "batch_end": 25,
+    "questions": [
+      {
+        "global_question_number": 1,
+        "question_number": 1,
+        "source_page": 3,
+        "question_text_full": "\u0394ABC is inscribed in a circle with Centre O. If AB = 21 cm, BC = 20 cm and AC = 29 cm, then what is the length of the circumradius of the triangle?",
+        "options": {
+          "1": "13.5 cm",
+          "2": "21.5 cm",
+          "3": "32.5 cm",
+          "4": "14.5 cm"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 2,
+        "question_number": 2,
+        "source_page": 3,
+        "question_text_full": "On a 2200 m long circular track, Sarita and Kavita drove their cycles from the same point but in opposite direction with the speeds 20 km/hr and 16 km/hr, respectively. After how much time will they meet again for the first time?",
+        "options": {
+          "1": "3 minutes 40 seconds",
+          "2": "3 minutes 20 seconds",
+          "3": "2 minutes 50 seconds",
+          "4": "2 minutes 20 seconds"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 3,
+        "question_number": 3,
+        "source_page": 3,
+        "question_text_full": "In a triangle HJK, HJ = HK. G is a point on HJ such that HG = GK = JK. What is the degree measure of two-third of (\u2220HGK +\u2220GKJ)?",
+        "options": {
+          "1": "84\u00b0",
+          "2": "136\u00b0",
+          "3": "90\u00b0",
+          "4": "96\u00b0"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 4,
+        "question_number": 4,
+        "source_page": 4,
+        "question_text_full": "Find the simple interest (in \u20b9) on \u20b92000 at 6.5% per annum rate of interest for the period from 14 February 2023 to 28 April 2023",
+        "options": {
+          "1": "27",
+          "2": "25",
+          "3": "26",
+          "4": "24"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 5,
+        "question_number": 5,
+        "source_page": 4,
+        "question_text_full": "The population of a place increased to 50,000 from 2016 to 2018 at the rate of 6% per annum, and continued the same trend for the next 3 years. If A is the population in 2016 and B is the population in 2020, both are approximated to the next possible integers, then the value of B - A is:",
+        "options": {
+          "1": "11680",
+          "2": "13220",
+          "3": "16270",
+          "4": "12850"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 6,
+        "question_number": 6,
+        "source_page": 4,
+        "question_text_full": "If the areas of two similar triangles are in the ratio 121: 225",
+        "options": {
+          "1": "15:13",
+          "2": "11:15",
+          "3": "9:11",
+          "4": "11:13"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 7,
+        "question_number": 7,
+        "source_page": 5,
+        "question_text_full": "Find the value of Y, if X - 2Y + 2Z = 16, X - Y + Z = 9 and 2X - 3Y - Z = 9.",
+        "options": {
+          "1": "4",
+          "2": "2",
+          "3": "-4",
+          "4": "-3"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 8,
+        "question_number": 8,
+        "source_page": 5,
+        "question_text_full": "Rani and Adya, working separately, can finish a task in 12 days and 16 days, respectively. They work in stretches of one day alternately. If Rani starts working first, then the task will be completed in",
+        "options": {
+          "1": "12 1/3 days",
+          "2": "12 2/3 days",
+          "3": "13 2/3 days",
+          "4": "13 1/3 days"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 9,
+        "question_number": 9,
+        "source_page": 5,
+        "question_text_full": "Let A and B be two players who are playing the game to hit the target. The probabilities of hitting the target by A and B is 2/3 and \u00be, respectively. What is the probability that exactly one of them hit the target?",
+        "options": {
+          "1": "7/12",
+          "2": "1/4",
+          "3": "5/12",
+          "4": "1/12"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 10,
+        "question_number": 10,
+        "source_page": 6,
+        "question_text_full": "On the occasion of Republic Day, a retail store offers a scheme where customers can avail a discount of 26% on their total purchase. If Manish buys items worth \u20b92,050, how much money (in \u20b9) will he save through the scheme discount?",
+        "options": {
+          "1": "1,522",
+          "2": "2,511",
+          "3": "533",
+          "4": "544"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 11,
+        "question_number": 11,
+        "source_page": 6,
+        "question_text_full": "Vessel A contains milk and water in the ratio 4 : 5. Vessel B contains milk and water in the ratio 2 : 1. If x litres mixture of A is mixed with y litres mixture of B, then the ratio of milk to water in the mixture becomes 8 : 5. Find the ratio x : y.",
+        "options": {
+          "1": "5 : 6",
+          "2": "3 : 10",
+          "3": "2 : 5",
+          "4": "3 : 4"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 12,
+        "question_number": 12,
+        "source_page": 6,
+        "question_text_full": "The average of first 91 even numbers is",
+        "options": {
+          "1": "1.91",
+          "2": "2.90",
+          "3": "3.92",
+          "4": "4.93"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 13,
+        "question_number": 13,
+        "source_page": 7,
+        "question_text_full": "Find the volume (in cm\u00b3, rounded off to 2 decimal places) of a right circular cone of diameter 12 cm and height 5 cm. [Use \u03c0 = 22/7]",
+        "options": {
+          "1": "197.25",
+          "2": "156.39",
+          "3": "188.57",
+          "4": "147.23"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 14,
+        "question_number": 14,
+        "source_page": 7,
+        "question_text_full": "\u221b6859 \u00f7 \u221b1296 \u00d7 (3 \u00f7 57) \u00d7 42 = ?",
+        "options": {
+          "1": "7",
+          "2": "-3",
+          "3": "16",
+          "4": "17"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 15,
+        "question_number": 15,
+        "source_page": 7,
+        "question_text_full": "If x = 8 + \u221a5 and y= 8-\u221a5 then the value of x\u00b2 + y\u00b2 is:",
+        "options": {
+          "1": "138",
+          "2": "143",
+          "3": "140",
+          "4": "124"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 16,
+        "question_number": 16,
+        "source_page": 7,
+        "question_text_full": "A sum of money is to be distributed among 3 friends P, Q and R in the proportion of 5:3:4. If P gets \u20b91,500 more than R, what is Q's share?",
+        "options": {
+          "1": "Figure 1",
+          "2": "Figure 2",
+          "3": "Figure 3",
+          "4": "Figure 4"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 17,
+        "question_number": 17,
+        "source_page": 8,
+        "question_text_full": "If tan(x + y)tan(x - y) = 1, then find the value of tanx.",
+        "options": {
+          "1": "\u221a3",
+          "2": "1",
+          "3": "1/2\u221a3",
+          "4": "1/\u221a3"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 18,
+        "question_number": 18,
+        "source_page": 8,
+        "question_text_full": "Using empirical formula, calculate the mode for the following data. 17, 20, 21, 18, 25, 28, 24, 22, 16, 24, 25, 24",
+        "options": {
+          "1": "25.8",
+          "2": "30.6",
+          "3": "25",
+          "4": "32"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 19,
+        "question_number": 19,
+        "source_page": 8,
+        "question_text_full": "If (sec\u03b8 - tan\u03b8) \u00f7 (sec\u03b8 + tan\u03b8) = 1 / 9, \u03b8 lies in the first quadrant, then the value of sec\u03b8 is:",
+        "options": {
+          "1": "-13 / 27",
+          "2": "Not enough options visible",
+          "3": "Not enough options visible",
+          "4": "Not enough options visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 20,
+        "question_number": 20,
+        "source_page": 9,
+        "question_text_full": "(a\u2077 \u00d7 b\u2078 \u00d7 c\u2077) \u00f7 (a\u2079 \u00d7 b\u2075 \u00d7 c\u2074) in simplified form is:",
+        "options": {
+          "1": "(a\u207b\u2075) \u00d7 (b\u207b\u2078) \u00d7 (c\u2070)",
+          "2": "(a\u207b\u2077) \u00d7 (b\u00b2) \u00d7 (c\u207b\u2074)",
+          "3": "(a\u207b\u00b2) \u00d7 (b\u00b3) \u00d7 (c\u00b3)",
+          "4": "(a\u2070) \u00d7 (b\u00b2) \u00d7 (c\u00b9)"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 21,
+        "question_number": 21,
+        "source_page": 9,
+        "question_text_full": "By how much is 60% of 75 greater than 1/5 of 25?",
+        "options": {
+          "1": "37",
+          "2": "34",
+          "3": "40",
+          "4": "38"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 22,
+        "question_number": 22,
+        "source_page": 9,
+        "question_text_full": "If the average age of three persons is 56 years and their ages are in the ratio 2:5:7, then find the age of the youngest person.",
+        "options": {
+          "1": "24 years",
+          "2": "20 years",
+          "3": "22 years",
+          "4": "Not provided in image"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 23,
+        "question_number": 23,
+        "source_page": 10,
+        "question_text_full": "A toy is in the form of a cone mounted on a hemisphere. The radius of the hemisphere and that of the cone is 36 cm and height of the cone is 105 cm. The total surface area (in cm\u00b2) of the toy is:",
+        "options": {
+          "1": "6025 \u03c0",
+          "2": "6588 \u03c0",
+          "3": "5799 \u03c0",
+          "4": "5240 \u03c0"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 24,
+        "question_number": 24,
+        "source_page": 10,
+        "question_text_full": "Anil and Beena are friends, and the difference between their ages is 5 years. Anil's father Dinesh is three times as old as Anil, and Beena is twice as old as her sister Charu. The ages of Dinesh and Charu differ by 45 years. If Beena is older than Anil, then find the sum of the present ages of both Dinesh and Charu.",
+        "options": {
+          "1": "100 years",
+          "2": "91 years",
+          "3": "69 years",
+          "4": "78 years"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 25,
+        "question_number": 25,
+        "source_page": 10,
+        "question_text_full": "The height of a right circular cone is 63 cm and the area of its curved surface is five times the area of its base. What is the volume (in cm\u00b3) of the cone? (Use \u03c0 = 22/7)",
+        "options": {
+          "1": "12589.10",
+          "2": "Not visible",
+          "3": "Not visible",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      }
+    ]
+  }
+}

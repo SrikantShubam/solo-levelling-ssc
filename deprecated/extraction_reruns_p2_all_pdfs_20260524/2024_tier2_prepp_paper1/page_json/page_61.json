@@ -1,0 +1,68 @@
+{
+  "page": 61,
+  "questions": [
+    {
+      "question_number": 122,
+      "section": null,
+      "question_text_full": "Which of the following Constitutional Amendment Acts made the president bound by the advice of the council of ministers headed by the prime minister?",
+      "options": [
+        {
+          "label": "1",
+          "text": "40th"
+        },
+        {
+          "label": "2",
+          "text": "46th"
+        },
+        {
+          "label": "3",
+          "text": "48th"
+        },
+        {
+          "label": "4",
+          "text": "42nd"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question does not have a marked answer on the page."
+    },
+    {
+      "question_number": 123,
+      "section": null,
+      "question_text_full": "Match the books in List 1 with their authors in List 2.\nList 1 (Books) List 2 (Authors)\nA. The Philosophy of the Bomb 1. Sachindranath Sanyal\nB. Bandi Jiwan 2. Bankim Chandra Chattopadhyay\nC. Pather Dabi 3. Bhagwati Charan Vohra\nD. Anandmath 4. Sarat Chandra Chattopadhyay",
+      "options": [
+        {
+          "label": "1",
+          "text": "A-3, B-1, C-4, D-2"
+        },
+        {
+          "label": "2",
+          "text": "A-4, B-3, C-2, D-1"
+        },
+        {
+          "label": "3",
+          "text": "A-3, B-1, C-2, D-4"
+        },
+        {
+          "label": "4",
+          "text": "A-1, B-3, C-4, D-2"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question does not have a marked answer on the page."
+    }
+  ],
+  "warnings": [
+    "No correct answer marks (green ticks) were found on the page for any questions."
+  ]
+}

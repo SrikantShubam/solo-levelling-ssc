@@ -1,0 +1,126 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. When this extra water vapour condenses into precipitation, it results in heavier rain — or, if it's cold enough, heavier snow.\nB. The atmosphere can store an additional 4% of water vapour for every additional 1°F of warming.\nC. More water evaporates from soils, plants, lakes and seas as the atmosphere warms.\nD. One of the most obvious indications of climate change is heavier rainfall.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CBDA"
+        },
+        {
+          "label": "2",
+          "text": "DCBA"
+        },
+        {
+          "label": "3",
+          "text": "ACDB"
+        },
+        {
+          "label": "4",
+          "text": "BCAD"
+        }
+      ],
+      "question_id": "26433093048",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "DCBA",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "Select the correct indirect form of the given sentence.\nShe said, “I am in no mood to work now.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "She said that she has been in no mood to work then."
+        },
+        {
+          "label": "2",
+          "text": "She said that she was in no mood to work now."
+        },
+        {
+          "label": "3",
+          "text": "She said that she was in no mood to work then."
+        },
+        {
+          "label": "4",
+          "text": "She said that she has been in no mood to work now."
+        }
+      ],
+      "question_id": "264330104623",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "She said that she was in no mood to work then.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Select the correct passive form of the given sentence.\nManu will tell her later.",
+      "options": [
+        {
+          "label": "1",
+          "text": "She will be tell later by Manu."
+        },
+        {
+          "label": "2",
+          "text": "She will tell later by Manu."
+        },
+        {
+          "label": "3",
+          "text": "She will be told later by Manu."
+        },
+        {
+          "label": "4",
+          "text": "She will be tell later."
+        }
+      ],
+      "question_id": "264330104553",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "She will be told later by Manu.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Select the correct active form of the given sentence.\nHas the villa been occupied by them?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Did they occupied the villa?"
+        },
+        {
+          "label": "2",
+          "text": "Had they occupied the villa?"
+        },
+        {
+          "label": "3",
+          "text": "Have they occupied the villa?"
+        },
+        {
+          "label": "4",
+          "text": "Do they occupied the villa?"
+        }
+      ],
+      "question_id": "264330104577",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Have they occupied the villa?",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

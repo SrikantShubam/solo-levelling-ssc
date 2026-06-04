@@ -1,0 +1,126 @@
+{
+  "page": 64,
+  "questions": [
+    {
+      "question_number": 121,
+      "section": null,
+      "question_text_full": "Select the word which means the same as the group of words given. person who moves from one place to another, with intentions of finding work and settling, permanently or temporarily, at a new location",
+      "options": [
+        {
+          "label": "1",
+          "text": "Nomad"
+        },
+        {
+          "label": "2",
+          "text": "Migrant"
+        },
+        {
+          "label": "3",
+          "text": "Tramp"
+        },
+        {
+          "label": "4",
+          "text": "Vagrant"
+        }
+      ],
+      "question_id": "26433083500",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "Migrant",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 122,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech. The judge asked the prisoner if he had anything to say for himself.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The judge said to the prisoner, “Does he have anything to say for himself?”"
+        },
+        {
+          "label": "2",
+          "text": "The judge said to the prisoner, “If you have anything to say for yourself?”"
+        },
+        {
+          "label": "3",
+          "text": "The judge said to the prisoner, “Did he had anything to say for himself?”"
+        },
+        {
+          "label": "4",
+          "text": "The judge said to the prisoner, “Do you have anything to say for yourself?”"
+        }
+      ],
+      "question_id": "26433083213",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "The judge said to the prisoner, “Do you have anything to say for yourself?”",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 123,
+      "section": null,
+      "question_text_full": "Select the most appropriate active form of the given sentence. Those who help themselves are helped by God.",
+      "options": [
+        {
+          "label": "1",
+          "text": "God helps those who help themselves."
+        },
+        {
+          "label": "2",
+          "text": "Help yourself and God will help you."
+        },
+        {
+          "label": "3",
+          "text": "God is helping those who are helping others."
+        },
+        {
+          "label": "4",
+          "text": "If you help yourself, God will help you."
+        }
+      ],
+      "question_id": "26433083391",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "God helps those who help themselves.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 124,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to improve the underlined segment in the given sentence. If there is no need to improve it, select ‘no improvement required’. Mr. Fogg thought that it is possible to a man to go round the world in eighty days.",
+      "options": [
+        {
+          "label": "1",
+          "text": "no improvement required"
+        },
+        {
+          "label": "2",
+          "text": "it was possible to the man"
+        },
+        {
+          "label": "3",
+          "text": "it is possible to a man"
+        },
+        {
+          "label": "4",
+          "text": "it was possible for a man"
+        }
+      ],
+      "question_id": "26433083367",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "it was possible for a man",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,11 @@
+{
+  "page": 28,
+  "questions": [],
+  "warnings": [
+    "ERROR JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "**Page 28 of SSC Exam**\n\n**Questions:**\n\n*   **Q.24**\n    *   **Question Number:** 24\n    *   **Section:** Not specified\n    *   **Question Text:**\n        *   In the following passage some words have been deleted. Fill in the blanks with the help of the alternatives given. Select the most appropriate option for each number.\n        *   Human life is (1) ______________________ a unique blessing, which in turn depends on the (2) ______________________ of the Self. He who is not aware of the Self can neither have peace nor can he foster peaceful co-existence. We have to link our soul with God and body with the physical world for substance. (3) ______________________ the formless God is invisible to the naked eye, our mind often wanders wherever it goes. (4) ______________________ we are unable to develop any love for the Divine. And religion like the white light of heavens (5) ______________________ multi-coloured fragmentations by the prisms of men and loses its gravity. Instead of uniting, it becomes a major dividing force. French philosopher Tail hard de Chardin, thinking deeply on meaning of our existence and relationship with the Divine, expounds, \"we are not human beings having a spiritual experience, we are spiritual beings having a human experience\".\n    *   **Options:**\n        *   **Option 1:** As a result\n        *   **Option 2:** As a reaction\n        *   **Option 3:** Causing\n        *   **Option 4:** As a reason\n    *   **Chosen Option:** 1\n    *   **Correct Option:** 1\n    *   **Is Complete on Page:** True\n    *   **Confidence:** High\n    *   **Notes:** Not specified\n*   **Q.25**\n    *   **Question Number:** 25\n    *   **Section:** Not specified\n    *   **Question Text:**\n        *   In the following passage some words have been deleted. Fill in the blanks with the help of the alternatives given. Select the most appropriate option for each number.\n        *   Human life is (1) ______________________ a unique blessing, which in turn depends on the (2) __"
+  ],
+  "page_status": "ERROR",
+  "provider": "nvidia_nim",
+  "model": "meta/llama-3.2-11b-vision-instruct"
+}

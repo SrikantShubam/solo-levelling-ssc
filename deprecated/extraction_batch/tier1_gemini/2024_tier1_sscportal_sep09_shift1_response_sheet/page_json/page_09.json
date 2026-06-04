@@ -1,0 +1,66 @@
+{
+  "page": 9,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Select the option that represents the letters that when placed from left to right in the blanks below will complete the letter series.\nL_P_QS_K_P_S_KP_Q_L_ _PQS",
+      "options": [
+        {
+          "label": "1",
+          "text": "KPLPLQLSPK"
+        },
+        {
+          "label": "2",
+          "text": "PKLPQPLSKP"
+        },
+        {
+          "label": "3",
+          "text": "KPLPQQLPSK"
+        },
+        {
+          "label": "4",
+          "text": "KPLPQLPSKP"
+        }
+      ],
+      "question_id": "630680417344",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "KPLPQLPSKP",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Identify the figure from the given options, which when put in place of the question mark (?), will logically complete the series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "630680309940",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

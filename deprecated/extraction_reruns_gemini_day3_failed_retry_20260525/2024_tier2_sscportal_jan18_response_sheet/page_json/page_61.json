@@ -1,0 +1,104 @@
+{
+  "page": 61,
+  "questions": [
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Which of the following is an example of a type of ROM that can be electronically erased and reprogrammed multiple times?",
+      "options": [
+        {
+          "label": "1",
+          "text": "EEPROM"
+        },
+        {
+          "label": "2",
+          "text": "PROM"
+        },
+        {
+          "label": "3",
+          "text": "EPROM"
+        },
+        {
+          "label": "4",
+          "text": "Mask ROM"
+        }
+      ],
+      "question_id": "630680990676",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "EEPROM",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Match the file locating features in column A with their corresponding functionalities in column B.\nColumn A\n1. Search Bar\n2. Quick Access\n3. Wildcards\n4. File Sorting\nColumn B\na) Displays files and folders recently accessed\nb) Allows grouping and sorting of files by attributes\nc) Refines searches for files with partial names\nd) Locates files and folders by typing keywords",
+      "options": [
+        {
+          "label": "1",
+          "text": "1-b, 2-d, 3-a, 4-c"
+        },
+        {
+          "label": "2",
+          "text": "1-a, 2-c, 3-b, 4-d"
+        },
+        {
+          "label": "3",
+          "text": "1-c, 2-b, 3-a, 4-d"
+        },
+        {
+          "label": "4",
+          "text": "1-d, 2-a, 3-c, 4-b"
+        }
+      ],
+      "question_id": "6306801316608",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "1-d, 2-a, 3-c, 4-b",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "What is the maximum length of characters that can be accommodated in a column in MS Excel 2003?",
+      "options": [
+        {
+          "label": "1",
+          "text": "512 characters"
+        },
+        {
+          "label": "2",
+          "text": "65536 characters"
+        },
+        {
+          "label": "3",
+          "text": "1064 characters"
+        },
+        {
+          "label": "4",
+          "text": "255 characters"
+        }
+      ],
+      "question_id": "630680994662",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "255 characters",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

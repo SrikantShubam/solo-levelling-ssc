@@ -1,0 +1,104 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": null,
+      "question_text_full": "A statement is followed by four conclusions. Which of the conclusions is/are true based on the given statement?\nStatement:\nI < M < F ≤ D ≤ S = J\nConclusions:\nI) S < M\nII) F = S\nIII) I > J\nIV) M < D",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion IV is true."
+        },
+        {
+          "label": "2",
+          "text": "Conclusions I and III are true."
+        },
+        {
+          "label": "3",
+          "text": "Only conclusion II is true."
+        },
+        {
+          "label": "4",
+          "text": "Conclusions IV and II are true."
+        }
+      ],
+      "question_id": "264330171840",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Only conclusion IV is true.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "Given below is a statement followed by two possible reasons numbered I and II. Read the statement carefully and decide which of the two explain(s) the event/observation/information given in the statement.\nstatement:\nIn India, large cities have attracted migrant population from across rural parts of the country. According to 2011 census, in India's six largest metros (Delhi, Mumbai, Chennai, Bengaluru, Kolkata and Hyderabad), approximately 48% of the residents were migrants.\nreasons:\nI) Migration happens due to availability of better career and economic prospects in cities.\nII) Migration happens because people like travelling and exploring new cities.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only I is a possible reason."
+        },
+        {
+          "label": "2",
+          "text": "Neither I nor II is a possible reason."
+        },
+        {
+          "label": "3",
+          "text": "Both I and II are possible reasons."
+        },
+        {
+          "label": "4",
+          "text": "Only II is a possible reason."
+        }
+      ],
+      "question_id": "264330163769",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Only I is a possible reason.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "What should come in place of the question mark (?) in the given series?\n18, 74, 298, 1194, 4778, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "19116"
+        },
+        {
+          "label": "2",
+          "text": "19112"
+        },
+        {
+          "label": "3",
+          "text": "19114"
+        },
+        {
+          "label": "4",
+          "text": "19110"
+        }
+      ],
+      "question_id": "264330171936",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "19114",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,126 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 33,
+      "section": null,
+      "question_text_full": "A spherical metallic shell with 6 cm external radius weighs 6688 g. What is the thickness of the shell if the density of metal is 10.5 g per cm³? (Take π = 22/7)",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 cm"
+        },
+        {
+          "label": "2",
+          "text": "4 cm"
+        },
+        {
+          "label": "3",
+          "text": "2 1/2 cm"
+        },
+        {
+          "label": "4",
+          "text": "3 cm"
+        }
+      ],
+      "question_id": "8161615354",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "2 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 34,
+      "section": null,
+      "question_text_full": "Two positive numbers differ by 1280. When the greater number is divided by the smaller number, the quotient is 7 and the remainder is 50. The greater number is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1585"
+        },
+        {
+          "label": "2",
+          "text": "1458"
+        },
+        {
+          "label": "3",
+          "text": "1558"
+        },
+        {
+          "label": "4",
+          "text": "1485"
+        }
+      ],
+      "question_id": "8161615281",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "1485",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 35,
+      "section": null,
+      "question_text_full": "A can do a piece of work in 15 days. B is 25% more efficient than A, and C is 40% more efficient than B. A and C work together for 3 days and then C leaves. A and B together will complete the remaining work in:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 1/2 days"
+        },
+        {
+          "label": "2",
+          "text": "3 1/2 days"
+        },
+        {
+          "label": "3",
+          "text": "4 days"
+        },
+        {
+          "label": "4",
+          "text": "3 days"
+        }
+      ],
+      "question_id": "8161615324",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "3 days",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 36,
+      "section": null,
+      "question_text_full": "The base of a right prism is a regular hexagon of side 5 cm. If its height is 12√3 cm, then its volume (in cm³) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1800"
+        },
+        {
+          "label": "2",
+          "text": "900"
+        },
+        {
+          "label": "3",
+          "text": "1350"
+        },
+        {
+          "label": "4",
+          "text": "675"
+        }
+      ],
+      "question_id": "8161615348",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1350",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

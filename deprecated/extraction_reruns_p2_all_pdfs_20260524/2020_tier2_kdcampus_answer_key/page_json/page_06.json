@@ -1,0 +1,246 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 33,
+      "section": null,
+      "question_text_full": "Which of the following statements is FALSE?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Blind Opera is one of its kind in the world."
+        },
+        {
+          "label": "2",
+          "text": "Calcutta audiences have lauded Blind Opera."
+        },
+        {
+          "label": "3",
+          "text": "The blind can see in their own way."
+        },
+        {
+          "label": "4",
+          "text": "Blind Opera was launched in 1996."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 34,
+      "section": null,
+      "question_text_full": "Which of the following statements contradicts the writer's view?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Blind children should enter the mainstream from the beginning."
+        },
+        {
+          "label": "2",
+          "text": "The blind dream in colour despite their disability."
+        },
+        {
+          "label": "3",
+          "text": "As a united community, the disabled can demand better facilities."
+        },
+        {
+          "label": "4",
+          "text": "The actors of Blind Opera imitate others easily."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 35,
+      "section": null,
+      "question_text_full": "How do the actors of Blind Opera ascertain they are on stage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "By the cheering of the audience"
+        },
+        {
+          "label": "2",
+          "text": "By their sense of smell and touch"
+        },
+        {
+          "label": "3",
+          "text": "By their familiarity with the stage"
+        },
+        {
+          "label": "4",
+          "text": "By the ropes used to demarcate the area"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 36,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in blank no.1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "receive"
+        },
+        {
+          "label": "2",
+          "text": "grasp"
+        },
+        {
+          "label": "3",
+          "text": "become"
+        },
+        {
+          "label": "4",
+          "text": "assume"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 37,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in blank no.2.",
+      "options": [
+        {
+          "label": "1",
+          "text": "countable"
+        },
+        {
+          "label": "2",
+          "text": "containable"
+        },
+        {
+          "label": "3",
+          "text": "credible"
+        },
+        {
+          "label": "4",
+          "text": "attainable"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 38,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in blank no.3.",
+      "options": [
+        {
+          "label": "1",
+          "text": "paltry"
+        },
+        {
+          "label": "2",
+          "text": "habitual"
+        },
+        {
+          "label": "3",
+          "text": "commonplace"
+        },
+        {
+          "label": "4",
+          "text": "spectacular"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 39,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in blank no.4.",
+      "options": [
+        {
+          "label": "1",
+          "text": "whose"
+        },
+        {
+          "label": "2",
+          "text": "whom"
+        },
+        {
+          "label": "3",
+          "text": "who"
+        },
+        {
+          "label": "4",
+          "text": "which"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 40,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in blank no.5.",
+      "options": [
+        {
+          "label": "1",
+          "text": "interact"
+        },
+        {
+          "label": "2",
+          "text": "encounter"
+        },
+        {
+          "label": "3",
+          "text": "derive"
+        },
+        {
+          "label": "4",
+          "text": "undergo"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": []
+}

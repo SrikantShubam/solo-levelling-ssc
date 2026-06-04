@@ -1,0 +1,96 @@
+{
+  "page": 60,
+  "questions": [
+    {
+      "question_number": 107,
+      "section": null,
+      "question_text_full": "Select the most appropriate one word to substitute the given group of words.\none who speaks for others",
+      "options": [
+        {
+          "label": "1",
+          "text": "spokesperson"
+        },
+        {
+          "label": "2",
+          "text": "orator"
+        },
+        {
+          "label": "3",
+          "text": "verbose"
+        },
+        {
+          "label": "4",
+          "text": "talkative"
+        }
+      ],
+      "question_id": "26433083292",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "spokesperson",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 108,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order forming a meaningful and coherent paragraph.\nA. Gopu was not allowed into the main temple shrine.\nB. But Gopu did not mind his work.\nC. Pandit Ji had given him a little room in the courtyard of the temple and this was the only place he could call his own.\nD. He would sit every evening outside the temple to look after the shoes and slippers of the devotees.",
+      "options": [
+        {
+          "label": "1",
+          "text": "DACB"
+        },
+        {
+          "label": "2",
+          "text": "CBDA"
+        },
+        {
+          "label": "3",
+          "text": "ADBC"
+        },
+        {
+          "label": "4",
+          "text": "ABCD"
+        }
+      ],
+      "question_id": "26433083470",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "ADBC",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 109,
+      "section": null,
+      "question_text_full": "Select the most appropriate passive form of the given sentence.\nPlease do not pluck any flowers from the temple compound.",
+      "options": [
+        {
+          "label": "1",
+          "text": "You are requested not to pluck any flowers from the temple compound."
+        },
+        {
+          "label": "2",
+          "text": "No flowers can be plucked from the temple compound."
+        },
+        {
+          "label": "3",
+          "text": "How can any flowers be plucked from the temple compound?"
+        },
+        {
+          "label": "4",
+          "text": "Let any flowers not to be plucked from the temple compound."
+        }
+      ],
+      "question_id": "26433083397",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "You are requested not to pluck any flowers from the temple compound.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

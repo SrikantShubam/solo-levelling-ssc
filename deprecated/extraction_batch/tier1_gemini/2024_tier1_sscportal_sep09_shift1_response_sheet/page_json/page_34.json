@@ -1,0 +1,96 @@
+{
+  "page": 34,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank. Vinod had a ________ escape in the car accident.",
+      "options": [
+        {
+          "label": "1",
+          "text": "comfortable"
+        },
+        {
+          "label": "2",
+          "text": "full"
+        },
+        {
+          "label": "3",
+          "text": "narrow"
+        },
+        {
+          "label": "4",
+          "text": "wide"
+        }
+      ],
+      "question_id": "630680360831",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "narrow",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given phrase. A short interesting story about a real person or event",
+      "options": [
+        {
+          "label": "1",
+          "text": "Anecdote"
+        },
+        {
+          "label": "2",
+          "text": "Sketch"
+        },
+        {
+          "label": "3",
+          "text": "Poem"
+        },
+        {
+          "label": "4",
+          "text": "Narrative"
+        }
+      ],
+      "question_id": "630680353988",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Anecdote",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the word in bold. We’d better watch our step and not give him any excuse to harass us further.",
+      "options": [
+        {
+          "label": "1",
+          "text": "betray"
+        },
+        {
+          "label": "2",
+          "text": "intimidate"
+        },
+        {
+          "label": "3",
+          "text": "relish"
+        },
+        {
+          "label": "4",
+          "text": "soothe"
+        }
+      ],
+      "question_id": "630680319157",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "intimidate",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

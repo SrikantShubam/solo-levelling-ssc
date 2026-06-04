@@ -1,0 +1,13 @@
+# Extraction Review Worklist
+
+Only rows with canonical review reasons are listed. Chosen-option-only rows are non-blocking for corpus/archetype extraction.
+
+| Global Q | Section Q | Page | Modality | Correct | Evidence | Reasons | Page asset | Short text |
+|---:|---:|---:|---|---|---|---|---|---|
+| 1 | 34 | 15 | table_di | None | BLOCKED | malformed_options, correct_option_unresolved_or_conflict, chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2024_tier2_prepp_paper1\page_images\page_15.png | Given below is a statement (Cause) followed by possible effects numbered I, II, and III. Read the ‘Cause’ carefully and  |
+| 2 | 35 | 15 | text_only | None | BLOCKED | malformed_options, correct_option_unresolved_or_conflict, chosen_option_missing, low_confidence | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2024_tier2_prepp_paper1\page_images\page_15.png | In a certain code language, 'POSE' is coded as '3517' and 'SILK' is coded as '4638'. What is the code for 'S' in the giv |
+| 3 | 119 | 60 | math_formula | None | BLOCKED | malformed_options, correct_option_unresolved_or_conflict, chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2024_tier2_prepp_paper1\page_images\page_60.png | Who among the following was the first Home Minister of Independent India? |
+| 4 | 120 | 60 | text_only | None | BLOCKED | malformed_options, correct_option_unresolved_or_conflict, chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2024_tier2_prepp_paper1\page_images\page_60.png | What was the status of the agricultural sector in India before the Green Revolution? |
+| 5 | 121 | 60 | visual_options | None | BLOCKED | malformed_options, correct_option_unresolved_or_conflict, chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2024_tier2_prepp_paper1\page_images\page_60.png | In which year did Walter Fleming stain the chromosomes to see them clearly and describe the entire process of mitosis? |
+| 6 | 122 | 61 | text_only | None | BLOCKED | malformed_options, correct_option_unresolved_or_conflict, chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2024_tier2_prepp_paper1\page_images\page_61.png | Which of the following Constitutional Amendment Acts made the president bound by the advice of the council of ministers  |
+| 7 | 123 | 61 | text_only | None | BLOCKED | malformed_options, correct_option_unresolved_or_conflict, chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2024_tier2_prepp_paper1\page_images\page_61.png | Match the books in List 1 with their authors in List 2. List 1 (Books) List 2 (Authors) A. The Philosophy of the Bomb 1. |

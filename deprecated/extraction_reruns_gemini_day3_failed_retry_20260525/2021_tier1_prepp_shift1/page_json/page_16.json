@@ -1,0 +1,106 @@
+{
+  "page": 16,
+  "questions": [
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "Which of the following is also known as the ‘White Mountain’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cho Oyu"
+        },
+        {
+          "label": "2",
+          "text": "Lhotse"
+        },
+        {
+          "label": "3",
+          "text": "Dhaulagiri I"
+        },
+        {
+          "label": "4",
+          "text": "Makalu"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 30,
+      "section": null,
+      "question_text_full": "Pneumatophores are specialised _______ in hydrophytes.",
+      "options": [
+        {
+          "label": "1",
+          "text": "fruits"
+        },
+        {
+          "label": "2",
+          "text": "roots"
+        },
+        {
+          "label": "3",
+          "text": "flowers"
+        },
+        {
+          "label": "4",
+          "text": "seeds"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 31,
+      "section": null,
+      "question_text_full": "Which of the following is an Indirect Tax in India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Goods and Services Tax"
+        },
+        {
+          "label": "2",
+          "text": "Corporation Tax"
+        },
+        {
+          "label": "3",
+          "text": "Income Tax"
+        },
+        {
+          "label": "4",
+          "text": "Capital Gains Tax"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    }
+  ],
+  "warnings": [
+    "Question 32 is incomplete on the page (missing options)."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

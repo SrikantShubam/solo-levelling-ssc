@@ -1,0 +1,106 @@
+{
+  "page": 26,
+  "questions": [
+    {
+      "question_number": 60,
+      "section": null,
+      "question_text_full": "A can finish a piece of the work in 16 days and B can finish it in 12 days. They worked together for 4 days and then A left. B finished the remaining work. For how many total number of days did B work to finish the work completely?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "9"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 61,
+      "section": null,
+      "question_text_full": "The value of: sin 23° cos 67° + sec 52° sin 38° + cos 23° sin 67° + cosec 52° cos 38° / cosec² 20° - tan² 70°",
+      "options": [
+        {
+          "label": "1",
+          "text": "0"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 62,
+      "section": null,
+      "question_text_full": "LCM of two numbers is 56 times their HCF, with the sum of their HCF and LCM being 1710. If one of the two numbers is 240, then what is the other number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "210"
+        },
+        {
+          "label": "2",
+          "text": "171"
+        },
+        {
+          "label": "3",
+          "text": "57"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4 (Missing in source)"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Only 3 options are visible for question 62."
+    }
+  ],
+  "warnings": [
+    "Question 62 is incomplete on the page; only 3 options are visible."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

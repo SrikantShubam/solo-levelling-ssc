@@ -1,0 +1,21 @@
+PDF: 2024_tier1_prepp_shift1
+Page: 39
+Question Number: 91
+Global Q#: 87
+Section: None
+Modality: table_di
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Select the most appropriate meaning of the underlined idiom in the following sentence:
+
+In my new office, all employees were different, so I felt like a fish out of water.
+
+--- Options ---
+  (1) Uncomfortable
+  (2) Not provided
+  (3) Not provided
+  (4) Not provided

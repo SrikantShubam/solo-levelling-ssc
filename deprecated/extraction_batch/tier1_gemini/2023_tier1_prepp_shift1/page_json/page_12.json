@@ -1,0 +1,156 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Which of the following is used as a cooling medium for the Large Hadron Collider (LHC) and the superconducting magnets in MRI scanners and NMR spectrometers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Neon"
+        },
+        {
+          "label": "2",
+          "text": "Chlorine"
+        },
+        {
+          "label": "3",
+          "text": "Argon"
+        },
+        {
+          "label": "4",
+          "text": "Helium"
+        }
+      ],
+      "question_id": "264330109906",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Helium",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "In 2018, Google Doodle celebrated the 100th birthday of Mrinalini Sarabhai. She is an exponent of which of the following dance forms?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bharatanatyam and Kathakali"
+        },
+        {
+          "label": "2",
+          "text": "Odissi and Kathak"
+        },
+        {
+          "label": "3",
+          "text": "Kuchipudi and Bharatanatyam"
+        },
+        {
+          "label": "4",
+          "text": "Yakshagana"
+        }
+      ],
+      "question_id": "26433064791",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "Bharatanatyam and Kathakali",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Bharatanatyam expresses South Indian religious themes and spiritual ideas of ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sufism"
+        },
+        {
+          "label": "2",
+          "text": "Shaivism"
+        },
+        {
+          "label": "3",
+          "text": "Buddhism"
+        },
+        {
+          "label": "4",
+          "text": "Jainism"
+        }
+      ],
+      "question_id": "264330109264",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Shaivism",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Who among the following musicians is popular for his mastery over the musical instrument Sitar?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ali Akbar Khan"
+        },
+        {
+          "label": "2",
+          "text": "Vilayat Khan"
+        },
+        {
+          "label": "3",
+          "text": "Bahadur Khan"
+        },
+        {
+          "label": "4",
+          "text": "Amjad Ali Khan"
+        }
+      ],
+      "question_id": "264330131305",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "Vilayat Khan",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Which of the following countries was the host of AFC Women's Asia Cup Football-2022?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Japan"
+        },
+        {
+          "label": "2",
+          "text": "Bangladesh"
+        },
+        {
+          "label": "3",
+          "text": "India"
+        },
+        {
+          "label": "4",
+          "text": "China"
+        }
+      ],
+      "question_id": "26433054689",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "India",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

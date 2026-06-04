@@ -1,0 +1,47 @@
+Answer these 12 SSC CGL questions from '2024_tier2_sscportal_jan20_response_sheet':
+
+Q4: Select the most appropriate ANTONYM of the given word.
+Thrifty
+1. Extravagant | 2. Thankful | 3. Intolerant | 4. Indifferent
+
+Q5: Select the most appropriate idiom to fill in the blank.
+A lot of people are still ______ over the GDP issue.
+1. over the fence | 2. sitting on the fence | 3. by the fence | 4. breaking a leg
+
+Q10: Parts of a sentence are given below in jumbled order. Arrange the parts in the correct order to form a meaningful sentence.
+
+Through the dense forest,
+1. Through the dense forest for hours trekked the hikers before | 2. The hikers trekked for hours through the dense forest before | 3. Before reaching the mountain peak, the hikers through the de | 4. The hikers for hours through the dense forest trekked before
+
+Q11: Select the option that can be used as a one-word substitute for the given group of words.
+
+Someone who walks on foot
+1. Pedestrian | 2. Auditor | 3. Decanter | 4. Stalker
+
+Q17: Select the option that expresses the following sentence in passive voice.
+After we come to power at the Centre, we will conduct a countrywide caste ce
+1. A countrywide caste census should be conducted by us when we | 2. A countrywide caste census will be conducted by us as and wh | 3. A countrywide caste census will be conducted by us after we  | 4. A countrywide caste census will have been conducted by us af
+
+Q20: Select the option that expresses the given sentence in passive voice.
+Scientists have recently discovered a new species of marine life in the unexplor
+1. A new species of marine life was recently being discovered i | 2. A new species of marine life has recently been discovered in | 3. A new species of marine life had recently been discovered in | 4. A new species of marine life was recently discovered in the 
+
+Q44: Select the option that provides an accurate summary of the main points discussed in the passage.
+1. Engaging in regular physical activity positively impacts men | 2. The passage discusses the negative effects of technology on  | 3. Exercise requires intense workouts for mental health benefit | 4. Exercise only impacts physical well-being, not mental health
+
+Q14: Which substance is commonly used as an acid-base indicator, which turns red in acidic solutions and blue in basic solutions?
+1. Litmus paper | 2. Methyl orange | 3. Phenol | 4. Bromothymol blue
+
+Q15: In which of the following years did Mahatma Gandhi lead the Satyagraha and hunger strike for the first time in India?
+1. 1917 | 2. 1919 | 3. 1918 | 4. 1920
+
+Q24: Which of the following best defines liberalisation?
+1. The process of maintaining existing government regulations a | 2. The process of reducing or removing government regulations a | 3. The process of increasing government regulations and restric | 4. The process of enforcing strict government control over econ
+
+Q10: Which option in MS Word allows a user to align text within a document to the left, center, right, or justify it across the page?
+1. Font Style: Changes the appearance of text but does not affe | 2. Paragraph Alignment: Adjusts the alignment of text to the le | 3. Line Spacing: Adjusts the space between lines of text but do | 4. Text Direction: Changes the orientation of the text, such as
+
+Q13: Why do desktop and laptop operating systems require more advanced memory management techniques than embedded systems?
+1. They utilise more hardware resources and need dynamic memory | 2. Memory management is not necessary for desktop and laptop op | 3. They run only one application at a time, simplifying memory  | 4. They rely on static memory allocation due to limited hardwar
+
+Return ONLY a JSON array: [{"question_number": INTEGER, "correct_option_label": "1"|"2"|"3"|"4"}]

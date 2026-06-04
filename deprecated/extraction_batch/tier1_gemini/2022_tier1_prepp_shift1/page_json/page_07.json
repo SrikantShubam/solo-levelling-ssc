@@ -1,0 +1,66 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Which figure should replace the question mark (?) if the series were to be continued?\n\n4 B V V T O O 6 6 2 V\nI 6 4 9\n2 T O 4 B 2 B 2 V T O B",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1 (2 V 9 / T / O B 6)"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2 (B 6 2 / V / 9 T O)"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3 (V O B / 2 / 6 9 T)"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4 (T 9 6 / O / B 2 V)"
+        }
+      ],
+      "question_id": "26433076646",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1 (2 V 9 / T / O B 6)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are visual grids. Option 1 is marked correct."
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.\n19 : 324 :: 25 : 576 :: 9 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "64"
+        },
+        {
+          "label": "3",
+          "text": "88"
+        },
+        {
+          "label": "4",
+          "text": "72"
+        }
+      ],
+      "question_id": "26433067647",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "64",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,126 @@
+{
+  "page": 50,
+  "questions": [
+    {
+      "question_number": 77,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nOn the spur of the moment",
+      "options": [
+        {
+          "label": "1",
+          "text": "deciding after a lot of thinking"
+        },
+        {
+          "label": "2",
+          "text": "acting impulsively without thinking"
+        },
+        {
+          "label": "3",
+          "text": "waiting nervously for something"
+        },
+        {
+          "label": "4",
+          "text": "being extremely careful"
+        }
+      ],
+      "question_id": "8161615662",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "acting impulsively without thinking",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 78,
+      "section": null,
+      "question_text_full": "Select the correct passive form of the given sentence.\nHe was eating a large pizza.",
+      "options": [
+        {
+          "label": "1",
+          "text": "A large pizza was eating him."
+        },
+        {
+          "label": "2",
+          "text": "A large pizza has been eaten by him."
+        },
+        {
+          "label": "3",
+          "text": "A large pizza was being eaten by him."
+        },
+        {
+          "label": "4",
+          "text": "A large pizza was eaten by him."
+        }
+      ],
+      "question_id": "8161615589",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "A large pizza was being eaten by him.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 79,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order.\nA. The young woman was looking deathly pale and very frightened.\nB. I felt sorry for her as I looked into her eyes.\nC. Without saying a word she gave me a ring.\nD. Then she ran out of the shop as if the place was on fire.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CADB"
+        },
+        {
+          "label": "2",
+          "text": "ABCD"
+        },
+        {
+          "label": "3",
+          "text": "CDAB"
+        },
+        {
+          "label": "4",
+          "text": "ADBC"
+        }
+      ],
+      "question_id": "8161615644",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "ABCD",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 80,
+      "section": null,
+      "question_text_full": "Select the most appropriate word for the given group of words.\nA person who eats the flesh of other human beings.",
+      "options": [
+        {
+          "label": "1",
+          "text": "cannibal"
+        },
+        {
+          "label": "2",
+          "text": "savage"
+        },
+        {
+          "label": "3",
+          "text": "tribal"
+        },
+        {
+          "label": "4",
+          "text": "aborigine"
+        }
+      ],
+      "question_id": "8161615676",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "cannibal",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

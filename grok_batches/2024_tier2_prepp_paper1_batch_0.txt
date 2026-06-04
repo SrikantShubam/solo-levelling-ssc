@@ -1,0 +1,49 @@
+You are processing PDF: 2024_tier2_prepp_paper1
+You need to read 15 page images and extract the correct option label for each question.
+
+For EACH page image, read it and determine:
+1. Which questions are on that page
+2. Which option (1/2/3/4) has the GREEN tick mark (this is the correct answer)
+3. Which option has the CHOSEN/response-sheet mark (if visible)
+
+Return a JSON object with this structure:
+{
+  "pages": [
+    {
+      "page": INTEGER,
+      "questions": [
+        {
+          "question_number": INTEGER,
+          "correct_option_label": "1"|"2"|"3"|"4"|null,
+          "chosen_option_label": "1"|"2"|"3"|"4"|null,
+          "confidence": "high"|"medium"|"low"
+        }
+      ]
+    }
+  ]
+}
+
+CRITICAL: Each question must have correct_option_label set to the GREEN-ticked option.
+Rules:
+- Correct option is the GREEN tick/check-marked option
+- Red cross is NOT correct
+- Chosen Option is the response-sheet field (may not exist on all pages)
+- Return ONLY the raw JSON object
+- Read ALL images listed below. Do not skip any.
+
+Page images to process:
+- Page 03 (questions 1,2,3): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_03.png
+- Page 04 (questions 4,5,6): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_04.png
+- Page 05 (questions 7,8,9): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_05.png
+- Page 06 (questions 10,11,12): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_06.png
+- Page 07 (questions 13,14,15,16): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_07.png
+- Page 08 (questions 17,18,19): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_08.png
+- Page 09 (questions 20,21,22): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_09.png
+- Page 10 (questions 23,24,25): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_10.png
+- Page 11 (questions 26,27,28): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_11.png
+- Page 12 (questions 29,30): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_12.png
+- Page 13 (questions 32): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_13.png
+- Page 14 (questions 33): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_14.png
+- Page 15 (questions 34,35): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_15.png
+- Page 16 (questions 36,37): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_16.png
+- Page 17 (questions 38): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_17.png

@@ -28,6 +28,8 @@ from .model_compare import (
 from .reporting_compare import build_phase_comparison, write_phase_comparison
 from .storage import initialize_workspace
 
+from . import ai_review
+
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="ssc-corpus")
@@ -78,6 +80,19 @@ def build_parser() -> argparse.ArgumentParser:
     compare_phase_parser = subparsers.add_parser("compare-phases")
     compare_phase_parser.add_argument("--out-md", required=True, type=Path)
     compare_phase_parser.add_argument("--out-json", required=True, type=Path)
+
+    ai_review_parser = subparsers.add_parser("ai-review")
+    ai_review_parser.add_argument("--pipeline-root", default="pipeline_output/p2_gemini", type=Path)
+    ai_review_parser.add_argument("--scan", action="store_true",
+                                   help="Scan and report flagged questions")
+    ai_review_parser.add_argument("--manifest", default=None, type=Path,
+                                   help="Generate work manifest JSON at this path")
+    ai_review_parser.add_argument("--merge", default=None, type=Path,
+                                   help="Merge Grok results from this JSON file")
+    ai_review_parser.add_argument("--report", default=None, type=Path,
+                                   help="Write merge report to this path")
+    ai_review_parser.add_argument("--delta", action="store_true",
+                                   help="Show current practice-ready counts")
     return parser
 
 
@@ -229,6 +244,43 @@ def main(argv: list[str] | None = None) -> int:
         write_phase_comparison(report, args.out_md.resolve(), args.out_json.resolve())
         print(f"report={args.out_md.resolve()}")
         return 0
+    if args.command == "ai-review":
+        pipeline_root = args.pipeline_root.resolve()
+        if args.scan:
+            report = ai_review.generate_mainfest_report(pipeline_root)
+            print(f"Flagged questions: {report['total_flagged_questions']}")
+            print(f"Unique pages: {report['unique_pages']}")
+            print("Pages by PDF:")
+            for pdf, count in sorted(report['pages_by_pdf'].items(), key=lambda x: -x[1]):
+                print(f"  {pdf}: {count}")
+            return 0
+        if args.manifest:
+            ai_review.build_work_manifest(pipeline_root, args.manifest)
+            data = json.loads(args.manifest.read_text(encoding="utf-8"))
+            print(f"Work manifest written to {args.manifest}")
+            print(f"  Flagged questions: {data['total_items']}")
+            print(f"  Unique pages: {data['unique_pages']}")
+            return 0
+        if args.merge:
+            if not args.merge.exists():
+                print(f"Results file not found: {args.merge}")
+                return 1
+            stats = ai_review.merge_grok_results(args.merge, args.report)
+            print(f"Merged {stats['questions_updated']} question updates from {stats['pages_with_results']} pages")
+            print(f"  Correct labels fixed: {stats['correct_labels_fixed']}")
+            print(f"  Chosen labels fixed: {stats['chosen_labels_fixed']}")
+            print(f"  Confidence fixed: {stats['confidence_fixed']}")
+            print(f"  Options fixed: {stats['options_fixed']}")
+            return 0
+        if args.delta:
+            delta = ai_review.compute_delta(pipeline_root)
+            print(f"Total questions: {delta['total_questions']}")
+            print(f"Practice-ready:  {delta['practice_ready']}")
+            print(f"AI-reviewed:     {delta['ai_reviewed']}")
+            print(f"Needs review:    {delta['needs_review']}")
+            return 0
+        parser.error("ai-review requires --scan, --manifest, --merge, or --delta")
+        return 2
     parser.error(f"Unknown command: {args.command}")
     return 2
 

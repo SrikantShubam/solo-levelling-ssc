@@ -1,0 +1,36 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Why is the bottom of the volcano called ‘nature’s art studio’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "the walls are covered with patterns in bright hues"
+        },
+        {
+          "label": "2",
+          "text": "the rocks sparkle with a divine light"
+        },
+        {
+          "label": "3",
+          "text": "the entrance is vast and ethereal"
+        },
+        {
+          "label": "4",
+          "text": "it looks like a cathedral"
+        }
+      ],
+      "question_id": "26433083322",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "the walls are covered with patterns in bright hues",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

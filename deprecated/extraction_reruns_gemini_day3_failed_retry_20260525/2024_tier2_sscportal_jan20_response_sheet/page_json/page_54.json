@@ -1,0 +1,134 @@
+{
+  "page": 54,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Which option in MS Word allows a user to align text within a document to the left, center, right, or justify it across the page?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Font Style: Changes the appearance of text but does not affect its alignment"
+        },
+        {
+          "label": "2",
+          "text": "Paragraph Alignment: Adjusts the alignment of text to the left, center, right, or justifies it"
+        },
+        {
+          "label": "3",
+          "text": "Line Spacing: Adjusts the space between lines of text but does not affect text alignment"
+        },
+        {
+          "label": "4",
+          "text": "Text Direction: Changes the orientation of the text, such as vertical or horizontal, but not its alignment"
+        }
+      ],
+      "question_id": "630680994002",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Paragraph Alignment: Adjusts the alignment of text to the left, center, right, or justifies it",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "What type of media is commonly used for WAN communication?",
+      "options": [
+        {
+          "label": "1",
+          "text": "HDMI Cable"
+        },
+        {
+          "label": "2",
+          "text": "Twisted Pair Cable"
+        },
+        {
+          "label": "3",
+          "text": "Fiber Optic Cable"
+        },
+        {
+          "label": "4",
+          "text": "Coaxial Cable"
+        }
+      ],
+      "question_id": "6306801308865",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Fiber Optic Cable",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "What happens when a user inserts a new row into an MS Excel worksheet?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The existing rows are shifted to the right."
+        },
+        {
+          "label": "2",
+          "text": "The existing data in the row is overwritten."
+        },
+        {
+          "label": "3",
+          "text": "The existing rows are shifted down."
+        },
+        {
+          "label": "4",
+          "text": "The new row is added at the bottom of the worksheet."
+        }
+      ],
+      "question_id": "630680992589",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "The existing rows are shifted down.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Why do desktop and laptop operating systems require more advanced memory management techniques than embedded systems?",
+      "options": [
+        {
+          "label": "1",
+          "text": "They utilise more hardware resources and need dynamic memory allocation."
+        },
+        {
+          "label": "2",
+          "text": "Memory management is not necessary for desktop and laptop operating systems."
+        },
+        {
+          "label": "3",
+          "text": "They run only one application at a time, simplifying memory management."
+        },
+        {
+          "label": "4",
+          "text": "They rely on static memory allocation due to limited hardware resources."
+        }
+      ],
+      "question_id": "6306801313221",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "They utilise more hardware resources and need dynamic memory allocation.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

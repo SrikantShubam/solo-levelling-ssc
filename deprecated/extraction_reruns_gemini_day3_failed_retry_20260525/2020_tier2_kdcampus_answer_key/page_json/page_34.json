@@ -1,0 +1,15 @@
+{
+  "page": 34,
+  "questions": [],
+  "warnings": [
+    "The provided image is an answer key document containing only question numbers and their corresponding correct option indices. It does not contain any actual question text or multiple-choice options for extraction."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

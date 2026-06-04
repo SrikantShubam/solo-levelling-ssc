@@ -1,0 +1,36 @@
+{
+  "page": 39,
+  "questions": [
+    {
+      "question_number": 49,
+      "section": null,
+      "question_text_full": "According to the UN report, fertility rate in 1950 stood at how many average births per woman?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2.3 births per woman"
+        },
+        {
+          "label": "2",
+          "text": "2.1 births per woman"
+        },
+        {
+          "label": "3",
+          "text": "3 births per woman"
+        },
+        {
+          "label": "4",
+          "text": "5 births per woman"
+        }
+      ],
+      "question_id": "26433083539",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "5 births per woman",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question text mentions 1950, but the passage text provided in the image does not explicitly state the 1950 fertility rate, though the question asks for it based on the report."
+    }
+  ],
+  "warnings": []
+}

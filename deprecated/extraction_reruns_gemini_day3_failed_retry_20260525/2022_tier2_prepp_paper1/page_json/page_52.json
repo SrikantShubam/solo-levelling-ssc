@@ -1,0 +1,134 @@
+{
+  "page": 52,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Which among the following statements is incorrect?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Trojan looks like a legitimate software."
+        },
+        {
+          "label": "2",
+          "text": "Some Trojans create backdoors to give malicious users access to the system."
+        },
+        {
+          "label": "3",
+          "text": "Trojan self-replicate and infects other files."
+        },
+        {
+          "label": "4",
+          "text": "Trojan spreads through user interaction such as opening an email attachment or downloading and executing a file from the Internet."
+        }
+      ],
+      "question_id": "264330128774",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "Trojan self-replicate and infects other files.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "The memory unit that communicates directly with the CPU is called ______ memory.",
+      "options": [
+        {
+          "label": "1",
+          "text": "cache"
+        },
+        {
+          "label": "2",
+          "text": "backup"
+        },
+        {
+          "label": "3",
+          "text": "main"
+        },
+        {
+          "label": "4",
+          "text": "auxiliary"
+        }
+      ],
+      "question_id": "264330128765",
+      "chosen_option_label": "4",
+      "correct_option_label": "3",
+      "correct_option_text": "main",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "The instruction that is not to be executed immediately is placed in the ______.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Current Instruction Register (CIR)"
+        },
+        {
+          "label": "2",
+          "text": "Memory Address Register (MAR)"
+        },
+        {
+          "label": "3",
+          "text": "Program Counter (PC)"
+        },
+        {
+          "label": "4",
+          "text": "Instruction Buffer Register (IBR)"
+        }
+      ],
+      "question_id": "264330128779",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Instruction Buffer Register (IBR)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Video Graphics Array connectors are those which connect the monitor to a computer's video card and has ______ holes.",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "question_id": "264330128766",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "15",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

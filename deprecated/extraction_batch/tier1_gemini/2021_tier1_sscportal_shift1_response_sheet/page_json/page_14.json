@@ -1,0 +1,156 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "_______ was an important port city in ancient India.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Tamralipti"
+        },
+        {
+          "label": "2",
+          "text": "Shravasti"
+        },
+        {
+          "label": "3",
+          "text": "Ahichhatra"
+        },
+        {
+          "label": "4",
+          "text": "Champa"
+        }
+      ],
+      "question_id": "65497842403",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Tamralipti",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "_______ is reducing the degree or intensity of, or eliminating, pollution.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Abatement"
+        },
+        {
+          "label": "2",
+          "text": "Aerosol"
+        },
+        {
+          "label": "3",
+          "text": "Absorption"
+        },
+        {
+          "label": "4",
+          "text": "Aeration"
+        }
+      ],
+      "question_id": "65497843104",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Abatement",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Which of the following teams won the Indian Super League 2020-21?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Kerala Blasters FC"
+        },
+        {
+          "label": "2",
+          "text": "NorthEast United FC"
+        },
+        {
+          "label": "3",
+          "text": "ATK Mohun Bagan"
+        },
+        {
+          "label": "4",
+          "text": "Mumbai City FC"
+        }
+      ],
+      "question_id": "65497842411",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Mumbai City FC",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "The former Spanish footballer, Antonio Lopez Habas, was the coach at the Hero ISL 2020-21 of which of the following football teams?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ATK Mohun Bagan"
+        },
+        {
+          "label": "2",
+          "text": "Kerala Blasters"
+        },
+        {
+          "label": "3",
+          "text": "FC Goa"
+        },
+        {
+          "label": "4",
+          "text": "SC East Bengal"
+        }
+      ],
+      "question_id": "65497843725",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "ATK Mohun Bagan",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Which of the following is also known as the ‘White Mountain’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cho Oyu"
+        },
+        {
+          "label": "2",
+          "text": "Makalu"
+        },
+        {
+          "label": "3",
+          "text": "Dhaulagiri I"
+        },
+        {
+          "label": "4",
+          "text": "Lhotse"
+        }
+      ],
+      "question_id": "65497842400",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Dhaulagiri I",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

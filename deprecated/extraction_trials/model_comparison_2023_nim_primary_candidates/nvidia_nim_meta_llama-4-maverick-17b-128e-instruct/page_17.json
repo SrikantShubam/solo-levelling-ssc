@@ -1,0 +1,136 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Two concentric circles are of radii 10 cm and 6 cm. Find the length of the chord of the larger circle which touches the smaller circle.",
+      "options": [
+        {
+          "label": "1",
+          "text": "8 cm"
+        },
+        {
+          "label": "2",
+          "text": "16 cm"
+        },
+        {
+          "label": "3",
+          "text": "12 cm"
+        },
+        {
+          "label": "4",
+          "text": "9 cm"
+        }
+      ],
+      "question_id": "264330143604",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "16 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "If sin (a + b) = 1 and cos (a - b) = \\frac{1}{2}, then find a.",
+      "options": [
+        {
+          "label": "1",
+          "text": "75°"
+        },
+        {
+          "label": "2",
+          "text": "30°"
+        },
+        {
+          "label": "3",
+          "text": "15°"
+        },
+        {
+          "label": "4",
+          "text": "45°"
+        }
+      ],
+      "question_id": "264330126616",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "75°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "A train 900 m long is running at 108 km/h. How long will it take to clear a 900 m long platform completely?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60 s"
+        },
+        {
+          "label": "2",
+          "text": "45 s"
+        },
+        {
+          "label": "3",
+          "text": "30 s"
+        },
+        {
+          "label": "4",
+          "text": "18 s"
+        }
+      ],
+      "question_id": "26433097578",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "60 s",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "If 7b - \\frac{1}{4b} = 7, then what is the value of 16b^2 + \\frac{1}{49b^2}?",
+      "options": [
+        {
+          "label": "1",
+          "text": "\\frac{80}{49}"
+        },
+        {
+          "label": "2",
+          "text": "\\frac{104}{7}"
+        },
+        {
+          "label": "3",
+          "text": "\\frac{120}{7}"
+        },
+        {
+          "label": "4",
+          "text": "\\frac{7}{2}"
+        }
+      ],
+      "question_id": "264330130312",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "\\frac{120}{7}",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "nvidia_nim",
+  "model": "meta/llama-4-maverick-17b-128e-instruct",
+  "usage": {
+    "prompt_tokens": 2642,
+    "total_tokens": 3181,
+    "completion_tokens": 539,
+    "prompt_tokens_details": null
+  }
+}

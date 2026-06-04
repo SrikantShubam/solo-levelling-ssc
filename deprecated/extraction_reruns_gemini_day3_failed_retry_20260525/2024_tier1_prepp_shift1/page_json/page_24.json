@@ -1,0 +1,106 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 51,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "Which digits should come in place * and $, respectively, if the number 72864*$ is divisible by both 8 and 5?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4 and 0"
+        },
+        {
+          "label": "2",
+          "text": "2 and 0"
+        },
+        {
+          "label": "3",
+          "text": "2 and 5"
+        },
+        {
+          "label": "4",
+          "text": "4 and 5"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 52,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "The given table shows the number of soaps sold by four different companies in 4 different months. The total no. of soaps sold by companies Q and S together in May is what percentage more than the no. of soaps sold by company P in July?",
+      "options": [
+        {
+          "label": "1",
+          "text": "75%"
+        },
+        {
+          "label": "2",
+          "text": "90%"
+        },
+        {
+          "label": "3",
+          "text": "65%"
+        },
+        {
+          "label": "4",
+          "text": "80%"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 53,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "In a triangle PQR, S is a point on the side QR such that PS⊥QR. Then which of the following options is true?",
+      "options": [
+        {
+          "label": "1",
+          "text": "PS² + PR² = PQ² + QR²"
+        },
+        {
+          "label": "2",
+          "text": "PR² + QS² = PQ² + SR²"
+        },
+        {
+          "label": "3",
+          "text": "PQ² + PR² = QS² + SR²"
+        },
+        {
+          "label": "4",
+          "text": "Not provided in image"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Only 3 options are visible in the image for question 53."
+    }
+  ],
+  "warnings": [
+    "Question 53 is incomplete as it only shows 3 options in the source image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

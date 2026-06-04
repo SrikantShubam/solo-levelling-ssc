@@ -1,0 +1,74 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(55, 11, 25)\n(64,16, 16)\n(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is NOT allowed)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(33, 11, 9)"
+        },
+        {
+          "label": "2",
+          "text": "(33, 11, 22)"
+        },
+        {
+          "label": "3",
+          "text": "(33, 11, 3)"
+        },
+        {
+          "label": "4",
+          "text": "(33, 11, 10)"
+        }
+      ],
+      "question_id": "26433087188",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "(33, 11, 9)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Select the option that is related to the sixth letter-cluster in the same way as the first letter-cluster is related to the second letter-cluster and the third letter-cluster is related to the fourth letter-cluster.\nHMD : KOE : : BNQ : EPR : : ? : FLV",
+      "options": [
+        {
+          "label": "1",
+          "text": "SJE"
+        },
+        {
+          "label": "2",
+          "text": "UJC"
+        },
+        {
+          "label": "3",
+          "text": "EJS"
+        },
+        {
+          "label": "4",
+          "text": "CJU"
+        }
+      ],
+      "question_id": "264330102977",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "CJU",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

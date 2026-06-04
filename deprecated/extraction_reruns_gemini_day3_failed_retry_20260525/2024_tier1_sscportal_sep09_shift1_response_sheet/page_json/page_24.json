@@ -1,0 +1,104 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Which of the following can be the value of ‘k’ so that the number 217924k is divisible by 6?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "question_id": "630680119849",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "In an election between two candidates, y% of the voters did not vote. 10% of the votes cast were declared invalid, while all the valid votes were cast in favour of either of the two candidates. The candidate who got 59.375% of the valid votes cast was declared elected by 2484 votes. If the number of people eligible to vote in that election was 16,000, what is the value of y?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "7.5"
+        },
+        {
+          "label": "4",
+          "text": "7.2"
+        }
+      ],
+      "question_id": "630680406568",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "8",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "An article is marked at ₹550. If it is sold at a discount of 40%, then the selling price becomes 10% more than its cost price. What is the cost price (in ₹)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "330"
+        },
+        {
+          "label": "2",
+          "text": "220"
+        },
+        {
+          "label": "3",
+          "text": "300"
+        },
+        {
+          "label": "4",
+          "text": "200"
+        }
+      ],
+      "question_id": "630680395408",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "300",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

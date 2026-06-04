@@ -1,0 +1,96 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 40,
+      "section": null,
+      "question_text_full": "Study the given graph and answer the question that follows. The total revenue in 2015 and 2017 is what per cent of the total expenditure of the company in 2016, 2018 and 2019 (correct to one decimal place)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "86.3"
+        },
+        {
+          "label": "2",
+          "text": "88.2"
+        },
+        {
+          "label": "3",
+          "text": "86.5"
+        },
+        {
+          "label": "4",
+          "text": "89.1"
+        }
+      ],
+      "question_id": "8161615374",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "88.2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 41,
+      "section": null,
+      "question_text_full": "In ΔABC, ∠C = 90°. Points P and Q are on the sides AC and BC, respectively, such that AP : PC = BQ : QC = 1 : 2. Then, (AQ^2 + BP^2) / AB^2 is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "4/9"
+        },
+        {
+          "label": "2",
+          "text": "8/3"
+        },
+        {
+          "label": "3",
+          "text": "4/3"
+        },
+        {
+          "label": "4",
+          "text": "13/9"
+        }
+      ],
+      "question_id": "8161615334",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "13/9",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 42,
+      "section": null,
+      "question_text_full": "The marked price of an article is 40% above its cost price. If its selling price is 73 1/2% of the marked price, then the profit percentage is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3.1%"
+        },
+        {
+          "label": "2",
+          "text": "2.4%"
+        },
+        {
+          "label": "3",
+          "text": "2.7%"
+        },
+        {
+          "label": "4",
+          "text": "2.9%"
+        }
+      ],
+      "question_id": "8161615310",
+      "chosen_option_label": "3",
+      "correct_option_label": "4",
+      "correct_option_text": "2.9%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

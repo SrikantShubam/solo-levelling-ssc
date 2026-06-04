@@ -1,0 +1,98 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 71,
+      "section": null,
+      "question_text_full": "An item costs Rs. 400. During a festival sale, a company offers a sale discount that offers x% off on its regular price along with a discount coupon of 10%. The price of the item after using both the sale discount and the discount coupon, is Rs. 216. What is the value of x?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30"
+        },
+        {
+          "label": "2",
+          "text": "40"
+        },
+        {
+          "label": "3",
+          "text": "35"
+        },
+        {
+          "label": "4",
+          "text": "25"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 72,
+      "section": null,
+      "question_text_full": "If x + y + 3 = 0, then find the value of x³ + y³ - 9xy + 9.",
+      "options": [
+        {
+          "label": "1",
+          "text": "-36"
+        },
+        {
+          "label": "2",
+          "text": "-18"
+        },
+        {
+          "label": "3",
+          "text": "36"
+        },
+        {
+          "label": "4",
+          "text": "18"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 73,
+      "section": null,
+      "question_text_full": "AB is a diameter of a circle with centre O. A tangent is drawn at point A. C is a point on the circle such that BC produced meets the tangent at P. If ∠APC = 62°, then find the measure of the minor arc AC.",
+      "options": [
+        {
+          "label": "1",
+          "text": "31°"
+        },
+        {
+          "label": "2",
+          "text": "Not visible"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question is incomplete on the page; only one option is visible."
+    }
+  ],
+  "warnings": [
+    "Question 73 is incomplete on the page and lacks the required four options."
+  ]
+}

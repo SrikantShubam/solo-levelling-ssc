@@ -1,0 +1,156 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "In December 2020, the Ministry of Home Affairs declared the entire State of ______ as a ‘disturbed area’ for six more months under the Armed Forces (Special Powers) Act, 1958 (AFSPA).",
+      "options": [
+        {
+          "label": "1",
+          "text": "Punjab"
+        },
+        {
+          "label": "2",
+          "text": "Jharkhand"
+        },
+        {
+          "label": "3",
+          "text": "Nagaland"
+        },
+        {
+          "label": "4",
+          "text": "West Bengal"
+        }
+      ],
+      "question_id": "81616113867",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Nagaland",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "For which of the following franchise teams did AB de Villiers play in IPL 2020?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Delhi Capitals"
+        },
+        {
+          "label": "2",
+          "text": "Kolkata Knight Riders"
+        },
+        {
+          "label": "3",
+          "text": "Mumbai Indians"
+        },
+        {
+          "label": "4",
+          "text": "Royal Challengers Bangalore"
+        }
+      ],
+      "question_id": "81616113863",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Royal Challengers Bangalore",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "In Leh, the first ever ice climbing festival was celebrated in ______ valley in January 2021.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Dras"
+        },
+        {
+          "label": "2",
+          "text": "Ripchar"
+        },
+        {
+          "label": "3",
+          "text": "Markha"
+        },
+        {
+          "label": "4",
+          "text": "Nubra"
+        }
+      ],
+      "question_id": "81616113035",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Nubra",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Which of the following is a process in which hot, less dense materials rise upward and are replaced by colder, more dense materials?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Conduction"
+        },
+        {
+          "label": "2",
+          "text": "Radiation"
+        },
+        {
+          "label": "3",
+          "text": "Condensation"
+        },
+        {
+          "label": "4",
+          "text": "Convection"
+        }
+      ],
+      "question_id": "81616113346",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Convection",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Baghmara Pitcher Plant Sanctuary is located in which of the following states?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Assam"
+        },
+        {
+          "label": "2",
+          "text": "Goa"
+        },
+        {
+          "label": "3",
+          "text": "Karnataka"
+        },
+        {
+          "label": "4",
+          "text": "Meghalaya"
+        }
+      ],
+      "question_id": "81616113348",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "Meghalaya",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

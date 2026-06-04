@@ -1,0 +1,234 @@
+{
+  "task_id": 3,
+  "data": {
+    "pdf_name": "2021_tier1_prepp_shift1",
+    "batch_start": 76,
+    "batch_end": 91,
+    "questions": [
+      {
+        "global_question_number": 76,
+        "question_number": 84,
+        "source_page": 37,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\n\nThe study of earthquakes",
+        "options": {
+          "1": "Geography",
+          "2": "Seismology",
+          "3": "Topography",
+          "4": "Geology"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 77,
+        "question_number": 85,
+        "source_page": 37,
+        "question_text_full": "Select the most appropriate option to fill in the blank.\n\nThe increasing concerns about climate change point to the need for enhanced efforts towards ________ sustained growth.",
+        "options": {
+          "1": "to achieve",
+          "2": "achieve",
+          "3": "achieved",
+          "4": "achieving"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 78,
+        "question_number": 86,
+        "source_page": 37,
+        "question_text_full": "Select the INCORRECTLY spelt word.",
+        "options": {
+          "1": "Circuit",
+          "2": "Genuine",
+          "3": "Manners",
+          "4": "Tution"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 79,
+        "question_number": 87,
+        "source_page": 38,
+        "question_text_full": "Select the most appropriate ANTONYM of the given word. Raze",
+        "options": {
+          "1": "Comfort",
+          "2": "Ease",
+          "3": "Ruin",
+          "4": "Build"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 80,
+        "question_number": 88,
+        "source_page": 38,
+        "question_text_full": "Select the most appropriate synonym of the given word. Retaliate",
+        "options": {
+          "1": "Facilitate",
+          "2": "Rotate",
+          "3": "Clap",
+          "4": "React"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 81,
+        "question_number": 89,
+        "source_page": 38,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words. To walk aimlessly",
+        "options": {
+          "1": "Wander",
+          "2": "Sprint",
+          "3": "Crawl",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 82,
+        "question_number": 90,
+        "source_page": 39,
+        "question_text_full": "Select the option that expresses the given sentence in passive voice.\nShe handles all tasks efficiently.",
+        "options": {
+          "1": "All tasks are handled efficiently by her.",
+          "2": "All tasks were handled efficiently by her.",
+          "3": "All tasks have been handled efficiently by her.",
+          "4": "All tasks are being handled efficiently by her."
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 83,
+        "question_number": 91,
+        "source_page": 39,
+        "question_text_full": "Select the most appropriate ANTONYM of the given word.\nModest",
+        "options": {
+          "1": "Unhappy",
+          "2": "Conceited",
+          "3": "Sullen",
+          "4": "Glum"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 84,
+        "question_number": 92,
+        "source_page": 39,
+        "question_text_full": "Select the most appropriate meaning of the given idiom.\nIn the same breath",
+        "options": {
+          "1": "Try and hold your breath",
+          "2": "Practice breathing exercises",
+          "3": "Say two contradictory things at the same time",
+          "4": "Figure 1"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 85,
+        "question_number": 93,
+        "source_page": 40,
+        "question_text_full": "Select the most appropriate synonym of the given word. ostentatious",
+        "options": {
+          "1": "showy",
+          "2": "tasteful",
+          "3": "quick",
+          "4": "sudden"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 86,
+        "question_number": 94,
+        "source_page": 40,
+        "question_text_full": "Select the option that expresses the given sentence in active voice. All weapons were surrendered by them.",
+        "options": {
+          "1": "They had surrendered all weapons.",
+          "2": "They surrendered all weapons.",
+          "3": "They are surrendering all weapons.",
+          "4": "They have surrendered all weapons."
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 87,
+        "question_number": 95,
+        "source_page": 40,
+        "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select \u2018No substitution required.\u2019 A tigress has given birth to a cub in the Ranthambore Tiger Reserve, taking the big cat population to 78.",
+        "options": {
+          "1": "was birthed",
+          "2": "Not visible",
+          "3": "Not visible",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 88,
+        "question_number": 96,
+        "source_page": 41,
+        "question_text_full": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The rise in the Irrawaddy dolphin (1) ______ in Chilika can be attributed to the eviction of (2) ______ fish enclosures. After thousands of hectares of Chilika lake were made (3) ______ free, Irrawaddy dolphins found unobstructed area for movement. (4) ______, due to the COVID-19 lockdown last year, there were comparatively fewer tourist boats on Chilika lake, which made it (5) ______ for dolphins to move from one part of the lake to another. Select the most appropriate option to fill in blank no.1.",
+        "options": {
+          "1": "natives",
+          "2": "inhabitants",
+          "3": "population",
+          "4": "clan"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 89,
+        "question_number": 98,
+        "source_page": 42,
+        "question_text_full": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The rise in the Irrawaddy dolphin (1) ______ in Chilika can be attributed to the eviction of (2) ______ fish enclosures. After thousands of hectares of Chilika lake were made (3) ______ free, Irrawaddy dolphins found unobstructed area for movement. (4) ______, due to the COVID-19 lockdown last year, there were comparatively fewer tourist boats on Chilika lake, which made it (5) ______ for dolphins to move from one part of the lake to another. Select the most appropriate option to fill in blank no.3.",
+        "options": {
+          "1": "intervention",
+          "2": "trespass",
+          "3": "confiscation",
+          "4": "encroachment"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 90,
+        "question_number": 99,
+        "source_page": 43,
+        "question_text_full": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The rise in the Irrawaddy dolphin (1) ______ in Chilika can be attributed to the eviction of (2) ______ fish enclosures. After thousands of hectares of Chilika lake were made (3) ______ free, Irrawaddy dolphins found unobstructed area for movement. (4) ______, due to the COVID-19 lockdown last year, there were comparatively fewer tourist boats on Chilika lake, which made it (5) ______ for dolphins to move from one part of the lake to another. Select the most appropriate option to fill in blank no.4.",
+        "options": {
+          "1": "Nevertheless",
+          "2": "Whereas",
+          "3": "However",
+          "4": "Moreover"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 91,
+        "question_number": 100,
+        "source_page": 43,
+        "question_text_full": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The rise in the Irrawaddy dolphin (1) ______ in Chilika can be attributed to the eviction of (2) ______ fish enclosures. After thousands of hectares of Chilika lake were made (3) ______ free, Irrawaddy dolphins found unobstructed area for movement. (4) ______, due to the COVID-19 lockdown last year, there were comparatively fewer tourist boats on Chilika lake, which made it (5) ______ for dolphins to move from one part of the lake to another. Select the most appropriate option to fill in blank no.5.",
+        "options": {
+          "1": "Not visible",
+          "2": "Not visible",
+          "3": "Not visible",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      }
+    ]
+  }
+}

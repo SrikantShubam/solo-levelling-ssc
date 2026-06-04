@@ -1,0 +1,36 @@
+{
+  "page": 18,
+  "questions": [
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "“Some fires are also started deliberately”. ‘Deliberately’ here means:",
+      "options": [
+        {
+          "label": "1",
+          "text": "inadvertently"
+        },
+        {
+          "label": "2",
+          "text": "accidentally"
+        },
+        {
+          "label": "3",
+          "text": "unknowingly"
+        },
+        {
+          "label": "4",
+          "text": "purposely"
+        }
+      ],
+      "question_id": "8161615514",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "purposely",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,29 @@
+{
+  "batch": 5,
+  "pages": [
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 48,
+      "merged_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_48.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 50,
+      "merged_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_50.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 52,
+      "merged_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_52.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 54,
+      "merged_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_54.png"
+    }
+  ]
+}

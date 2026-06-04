@@ -1,0 +1,66 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Select the figure that will replace the question mark (?) in the following figure series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330143831",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "Figure 3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are represented as visual figures."
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing ‘1’.",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "question_id": "26433069064",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,54 @@
+Answer these 15 SSC CGL questions from '2024_tier2_prepp_paper1':
+
+Q48: In a certain code language
+A + B means 'A is the mother of B',
+A - B means 'A is the brother of B',
+A x B means 'A is the wife of B' and
+A ÷ B means '
+1. Figure 1 | 2. Figure 2 | 3. Figure 3 | 4. Figure 4
+
+Q49: Four of the following five figures are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group?
+1. C | 2. D | 3. B | 4. A
+
+Q50: Identify the figure given in the options which when put in place of the question mark (?) will logically complete the series.
+1. Figure 1 | 2. Figure 2 | 3. Figure 3 | 4. Figure 4
+
+Q51: In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. In three of the four pai
+1. Figure 1 | 2. Figure 2 | 3. Figure 3 | 4. Figure 4
+
+Q59: Read the given statements and conclusions carefully. Assuming that the information given in the statement(s) is true, even if it appears to be at vari
+1. Figure 1 | 2. Figure 2 | 3. Figure 3 | 4. Figure 4
+
+Q60: In a certain code language, 'she gardens daily' is coded as 'ak jb mp' and 'where is she' is coded as 'mp pt kt'. How is 'she' coded in the given lang
+1. mp | 2. pt | 3. ak | 4. kt
+
+Q61: Select the correct spelling of the incorrectly spelt word in the given sentence. The trainer tried to guage the learners' understanding of the subject
+1. Gaage | 2. Gaaug | 3. Gaugg | 4. Gauge
+
+Q62: Select the most appropriate meaning of the underlined word. "He walked leisurely towards the entrance."
+1. without haste | 2. reassuringly | 3. with a kickstart | 4. hastily
+
+Q63: Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. Sen
+1. Not provided | 2. Not provided | 3. Not provided | 4. Not provided
+
+Q64: Parts of a sentence are given below in jumbled order. Select the option that gives the correct logical sequence to form a meaningful sentence.
+a. it r
+1. a, b, c, d | 2. b, a, d, c | 3. c, d, a, b | 4. d, c, b, a
+
+Q65: Select the most appropriate option to fill in the blank. No other book in the series captivated readers as ______ as the final installment.
+1. many | 2. more | 3. most | 4. much
+
+Q66: A sentence has been split up into segments and given below in jumbled order. While the first and the last segments of the sentence (1 and 6) are in th
+1. P, S, Q, R | 2. Q, S, R, P | 3. R, Q, S, P | 4. S, R, Q, P
+
+Q67: Select the option that expresses the given sentence in reported speech.
+Direct Speech: 'I am determined to publish my findings,' the scientist asserte
+1. The scientist confidently asserted that she is determined to | 2. The scientist confidently asserted that she had determined t | 3. The scientist confidently asserted that she would be determi | 4. The scientist confidently asserted that she was determined t
+
+Q68: Select the option that can be used as a one-word substitute for the given group of words. One who cannot make a mistake
+1. Impregnable | 2. Inevitable | 3. Inimitable | 4. Infallible
+
+Q69: Select the most appropriate homophone from the options to fill in the blank. We should ______ away all prejudices to live in harmony.
+1. caste | 2. coast | 3. cast | 4. cost
+
+Return ONLY a JSON array: [{"question_number": INTEGER, "correct_option_label": "1"|"2"|"3"|"4"}]

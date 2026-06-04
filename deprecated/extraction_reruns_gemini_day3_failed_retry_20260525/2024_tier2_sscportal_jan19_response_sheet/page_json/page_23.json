@@ -1,0 +1,104 @@
+{
+  "page": 23,
+  "questions": [
+    {
+      "question_number": 61,
+      "section": null,
+      "question_text_full": "If the values of Bowley's coefficient of skewness, third quartile and first quartile are 0.5, 10 and 5, respectively, then the value of the second quartile is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "6/4"
+        },
+        {
+          "label": "2",
+          "text": "7/3"
+        },
+        {
+          "label": "3",
+          "text": "3/4"
+        },
+        {
+          "label": "4",
+          "text": "25/4"
+        }
+      ],
+      "question_id": "6306801352819",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "25/4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 62,
+      "section": null,
+      "question_text_full": "Which of the following components of time series reflect the general tendency of the data to increase or decrease during a long period of time?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Trend"
+        },
+        {
+          "label": "2",
+          "text": "Seasonal"
+        },
+        {
+          "label": "3",
+          "text": "Irregular"
+        },
+        {
+          "label": "4",
+          "text": "Cyclical"
+        }
+      ],
+      "question_id": "6306801352871",
+      "chosen_option_label": "4",
+      "correct_option_label": "1",
+      "correct_option_text": "Trend",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 63,
+      "section": null,
+      "question_text_full": "In a completely randomized design, with 4 treatments replicated 5 times, the following information is obtained. SST=26234.95, SSE=11558.80, the Fcal is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "12.11"
+        },
+        {
+          "label": "3",
+          "text": "14.89"
+        },
+        {
+          "label": "4",
+          "text": "15.6"
+        }
+      ],
+      "question_id": "6306801352858",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "12.11",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

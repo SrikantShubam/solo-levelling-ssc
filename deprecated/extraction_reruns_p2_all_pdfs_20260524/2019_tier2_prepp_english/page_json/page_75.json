@@ -1,0 +1,126 @@
+{
+  "page": 75,
+  "questions": [
+    {
+      "question_number": 169,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’. The song was so moving as all eyes became wet.",
+      "options": [
+        {
+          "label": "1",
+          "text": "then"
+        },
+        {
+          "label": "2",
+          "text": "when"
+        },
+        {
+          "label": "3",
+          "text": "that"
+        },
+        {
+          "label": "4",
+          "text": "No substitution required"
+        }
+      ],
+      "question_id": "8161615579",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "that",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 170,
+      "section": null,
+      "question_text_full": "Select the correct active form of the given sentence. The audience was surprised by the ending of the play.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The ending of the play was surprising for the audience."
+        },
+        {
+          "label": "2",
+          "text": "The ending of the play surprised the audience."
+        },
+        {
+          "label": "3",
+          "text": "The ending of the play has surprised the audience."
+        },
+        {
+          "label": "4",
+          "text": "The audience surprised the ending of the play."
+        }
+      ],
+      "question_id": "8161615597",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "The ending of the play surprised the audience.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 171,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom. A fair weather friend",
+      "options": [
+        {
+          "label": "1",
+          "text": "an unreliable friend"
+        },
+        {
+          "label": "2",
+          "text": "a dependable friend"
+        },
+        {
+          "label": "3",
+          "text": "a friend turned into an enemy"
+        },
+        {
+          "label": "4",
+          "text": "a jealous friend"
+        }
+      ],
+      "question_id": "8161615666",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "an unreliable friend",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 172,
+      "section": null,
+      "question_text_full": "Select the correctly spelt word.",
+      "options": [
+        {
+          "label": "1",
+          "text": "contamporary"
+        },
+        {
+          "label": "2",
+          "text": "contemporary"
+        },
+        {
+          "label": "3",
+          "text": "contemporary"
+        },
+        {
+          "label": "4",
+          "text": "contemporery"
+        }
+      ],
+      "question_id": "8161615684",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "contemporary",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

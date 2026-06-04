@@ -1,0 +1,11 @@
+{
+  "page": 5,
+  "questions": [],
+  "warnings": [
+    "ERROR JSONDecodeError: Expecting ',' delimiter: line 68 column 5 (char 2985)",
+    "[\n\n    {\n        \"page\": 5,\n        \"questions\": [\n            {\n                \"question_number\": 11,\n                \"section\": null,\n                \"question_text_full\": \"Select the set in which the numbers are related in the same way as are the numbers of the following sets. (55, 11, 25) (64, 16, 36) (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is NOT allowed) Ans 1. (33, 11, 9) 2. (33, 11, 22) 3. (33, 11, 3) 4. (33, 11, 10) Question ID : 26433087188 Status : Answered Chosen Option : 1\",\n                \"options\": [\n                    {\n                        \"label\": \"1\",\n                        \"text\": \"(33, 11, 9)\"\n                    },\n                    {\n                        \"label\": \"2\",\n                        \"text\": \"(33, 11, 22)\"\n                    },\n                    {\n                        \"label\": \"3\",\n                        \"text\": \"(33, 11, 3)\"\n                    },\n                    {\n                        \"label\": \"4\",\n                        \"text\": \"(33, 11, 10)\"\n                    }\n                ],\n                \"question_id\": \"26433087188\",\n                \"chosen_option_label\": \"1\",\n                \"correct_option_label\": \"1\",\n                \"correct_option_text\": \"(33, 11, 9)\",\n                \"is_complete_on_page\": true,\n                \"confidence\": \"high\",\n                \"notes\": \"\"\n            },\n            {\n                \"question_number\": 12,\n                \"section\": null,\n                \"question_text_full\": \"Select the option that is related to the sixth letter-cluster in the same way as the first letter-cluster is related to the second letter-cluster and the third letter-cluster is related to the fourth letter-cluster. HMD : KOE : BNQ : EPR"
+  ],
+  "page_status": "ERROR",
+  "provider": "nvidia_nim",
+  "model": "meta/llama-3.2-11b-vision-instruct"
+}

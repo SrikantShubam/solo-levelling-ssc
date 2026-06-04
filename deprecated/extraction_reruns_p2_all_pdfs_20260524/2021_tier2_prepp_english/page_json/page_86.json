@@ -1,0 +1,126 @@
+{
+  "page": 86,
+  "questions": [
+    {
+      "question_number": 195,
+      "section": null,
+      "question_text_full": "Select the word which means the same as the group of words given. an animal or person that eats a variety of food of both plant and animal origin.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Omnivore"
+        },
+        {
+          "label": "2",
+          "text": "Herbivore"
+        },
+        {
+          "label": "3",
+          "text": "Carnivore"
+        },
+        {
+          "label": "4",
+          "text": "Cannibal"
+        }
+      ],
+      "question_id": "26433083502",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Omnivore",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 196,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice. India is exporting handicrafts to several countries.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Handicrafts were exported to several countries by India."
+        },
+        {
+          "label": "2",
+          "text": "Handicrafts are exported to several countries by India."
+        },
+        {
+          "label": "3",
+          "text": "Handicrafts have been exported to several countries by India."
+        },
+        {
+          "label": "4",
+          "text": "Handicrafts are being exported to several countries by India."
+        }
+      ],
+      "question_id": "26433083177",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Handicrafts are being exported to several countries by India.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 197,
+      "section": null,
+      "question_text_full": "Identify the segment that contains a grammatical error. If there is no error, select ‘No error’. The most talented of these three boys are my friend’s son.",
+      "options": [
+        {
+          "label": "1",
+          "text": "of these three boys"
+        },
+        {
+          "label": "2",
+          "text": "No error"
+        },
+        {
+          "label": "3",
+          "text": "The most talented"
+        },
+        {
+          "label": "4",
+          "text": "are my friend’s son"
+        }
+      ],
+      "question_id": "26433083151",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "are my friend’s son",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 198,
+      "section": null,
+      "question_text_full": "Identify the segment that contains a grammatical error. As soon the gun shot was heard, people ran out in panic.",
+      "options": [
+        {
+          "label": "1",
+          "text": "As soon the"
+        },
+        {
+          "label": "2",
+          "text": "in panic"
+        },
+        {
+          "label": "3",
+          "text": "people ran out"
+        },
+        {
+          "label": "4",
+          "text": "gun shot was heard"
+        }
+      ],
+      "question_id": "26433083141",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "As soon the",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,164 @@
+{
+  "page": 29,
+  "questions": [
+    {
+      "question_number": 170,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nTo rise like a phoenix",
+      "options": [
+        {
+          "label": "1",
+          "text": "To be modest"
+        },
+        {
+          "label": "2",
+          "text": "To set on fire"
+        },
+        {
+          "label": "3",
+          "text": "To emerge with a new life"
+        },
+        {
+          "label": "4",
+          "text": "To behave like a royal"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 171,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nThe doors and windows will have painted by afternoon.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No improvement required"
+        },
+        {
+          "label": "2",
+          "text": "will be painting"
+        },
+        {
+          "label": "3",
+          "text": "would been painted"
+        },
+        {
+          "label": "4",
+          "text": "will have been painted"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 172,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. I felt embarrassed as if I was somehow responsible for the fire in our home.\nB. In my case, it was no different.\nC. It always happens that bad news travels quickly.\nD. Everyone in high school was aware of my plight.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CDAB"
+        },
+        {
+          "label": "2",
+          "text": "ABCD"
+        },
+        {
+          "label": "3",
+          "text": "ADBC"
+        },
+        {
+          "label": "4",
+          "text": "CBDA"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 173,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. The promotion of congenial relationship at all levels of the staff leads to prosperity of the organisation.\nB. Better skills increase the working capacity of employees by promoting better work habits.\nC. This includes multiplication of knowledge and development of their skills.\nD. Efficient management aims at qualitative improvement of its employees.",
+      "options": [
+        {
+          "label": "1",
+          "text": "DABC"
+        },
+        {
+          "label": "2",
+          "text": "DCAB"
+        },
+        {
+          "label": "3",
+          "text": "DCBA"
+        },
+        {
+          "label": "4",
+          "text": "DBAC"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 174,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nHe was unable / to help me because / he had been failed / to arrange the money.",
+      "options": [
+        {
+          "label": "1",
+          "text": "to help me because"
+        },
+        {
+          "label": "2",
+          "text": "to arrange the money"
+        },
+        {
+          "label": "3",
+          "text": "he had been failed"
+        },
+        {
+          "label": "4",
+          "text": "He was unable"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

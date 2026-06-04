@@ -1,0 +1,106 @@
+{
+  "page": 62,
+  "questions": [
+    {
+      "question_number": 124,
+      "section": null,
+      "question_text_full": "The rotating columns of air that occur over water bodies and are generally less severe than land tornadoes are known as:",
+      "options": [
+        {
+          "label": "1",
+          "text": "hurricanes"
+        },
+        {
+          "label": "2",
+          "text": "waterspouts"
+        },
+        {
+          "label": "3",
+          "text": "squalls"
+        },
+        {
+          "label": "4",
+          "text": "typhoons"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 125,
+      "section": null,
+      "question_text_full": "In which of the following cases did the Supreme Court direct that, 'the Parliament cannot take away or abridge any of the fundamental rights for the Implementation of Directive Principles'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Minerva Mills Case, 1980"
+        },
+        {
+          "label": "2",
+          "text": "Keshvanand Bharti Case, 1973"
+        },
+        {
+          "label": "3",
+          "text": "Indira Sawhney Case, 1992"
+        },
+        {
+          "label": "4",
+          "text": "Golak Nath Case, 1967"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 126,
+      "section": null,
+      "question_text_full": "Who urged political parties to engage in discussions that inspire unity rather than division and promote ideas instead of personal attacks in the address on the eve of National Voters Day in January 2024?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Prime Minister Narendra Modi"
+        },
+        {
+          "label": "2",
+          "text": "Union Home Minister Amit Shah"
+        },
+        {
+          "label": "3",
+          "text": "Chief Election Commissioner Rajiv Kumar"
+        },
+        {
+          "label": "4",
+          "text": "President Droupadi Murmu"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    }
+  ],
+  "warnings": [
+    "No answer keys (green ticks) were present on the provided page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

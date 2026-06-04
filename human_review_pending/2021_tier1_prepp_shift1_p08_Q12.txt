@@ -1,0 +1,19 @@
+PDF: 2021_tier1_prepp_shift1
+Page: 8
+Question Number: 12
+Global Q#: 11
+Section: None
+Modality: visual_options
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 2
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Select the figure from among the given options that can replace the question mark (?) in the following series.
+
+--- Options ---
+  (1) Figure a
+  (2) Figure b
+  (3) Figure c
+  (4) Figure d

@@ -1,0 +1,66 @@
+{
+  "page": 20,
+  "questions": [
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "In the following question, the statement is followed by two conclusions. Which of the two conclusions is/are true?\nStatement: M < K > I < J > H = G ≤ F\nConclusions: I. H= F\nII. J > G",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion I is true"
+        },
+        {
+          "label": "2",
+          "text": "Both conclusions I and II are true"
+        },
+        {
+          "label": "3",
+          "text": "Only conclusion II is true"
+        },
+        {
+          "label": "4",
+          "text": "Neither conclusion I nor II is true"
+        }
+      ],
+      "question_id": "26433057325",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "Only conclusion II is true",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "Select the figure from among the given options that can replace the question mark (?) in the following series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330101258",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

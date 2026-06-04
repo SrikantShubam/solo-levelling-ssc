@@ -1,0 +1,96 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "The pie chart given below shows the number of truck sold by 8 different companies. The total number of truck sold by all these 8 companies are 4000. Number of truck sold by a particular company is shown as a percent of total number of truck sold by all these 8 companies. The number of trucks sold by B, C, F and H is how much percent less than the number of trucks sold by all these 8 companies?",
+      "options": [
+        {
+          "label": "1",
+          "text": "46 percent"
+        },
+        {
+          "label": "2",
+          "text": "22 percent"
+        },
+        {
+          "label": "3",
+          "text": "34 percent"
+        },
+        {
+          "label": "4",
+          "text": "14 percent"
+        }
+      ],
+      "question_id": "264330105771",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "34 percent",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "If x^2 - 5x + 1 = 0, then the value of (x^6 + x^4 + x^2 + 1) / 5x^3 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "23"
+        },
+        {
+          "label": "4",
+          "text": "28"
+        }
+      ],
+      "question_id": "26433066342",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "23",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "In a right-angled triangle PQR, right-angled at Q, the length of the side PR is 17 units, length of the base QR is 8 units, and length of the side PQ is 15 units. If ∠RPQ = α, then sinα + cosα is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "18/17"
+        },
+        {
+          "label": "2",
+          "text": "23/17"
+        },
+        {
+          "label": "3",
+          "text": "21/17"
+        },
+        {
+          "label": "4",
+          "text": "15/17"
+        }
+      ],
+      "question_id": "26433058440",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "23/17",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,104 @@
+{
+  "page": 30,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Parts of a sentence are given below in jumbled order. Arrange the parts in the correct order to form a meaningful sentence.\n\nThrough the dense forest, / the hikers / trekked / for hours / before reaching / the mountain peak.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Through the dense forest for hours trekked the hikers before reaching the mountain peak."
+        },
+        {
+          "label": "2",
+          "text": "The hikers trekked for hours through the dense forest before reaching the mountain peak."
+        },
+        {
+          "label": "3",
+          "text": "Before reaching the mountain peak, the hikers through the dense forest trekked for hours."
+        },
+        {
+          "label": "4",
+          "text": "The hikers for hours through the dense forest trekked before reaching the mountain peak."
+        }
+      ],
+      "question_id": "630680745625",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "The hikers trekked for hours through the dense forest before reaching the mountain peak.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\n\nSomeone who walks on foot",
+      "options": [
+        {
+          "label": "1",
+          "text": "Pedestrian"
+        },
+        {
+          "label": "2",
+          "text": "Auditor"
+        },
+        {
+          "label": "3",
+          "text": "Decanter"
+        },
+        {
+          "label": "4",
+          "text": "Stalker"
+        }
+      ],
+      "question_id": "630680105687",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Pedestrian",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Select the INCORRECTLY spelt word.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Apparent"
+        },
+        {
+          "label": "2",
+          "text": "Practitionaire"
+        },
+        {
+          "label": "3",
+          "text": "Recommend"
+        },
+        {
+          "label": "4",
+          "text": "Memento"
+        }
+      ],
+      "question_id": "6306801320329",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "Practitionaire",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

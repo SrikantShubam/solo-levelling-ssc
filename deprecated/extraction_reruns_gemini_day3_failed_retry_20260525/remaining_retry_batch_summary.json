@@ -1,0 +1,62 @@
+[
+  {
+    "pdf": "2024_tier1_sscportal_sep09_shift1_response_sheet.pdf",
+    "source_pdf": "C:\\experiments\\ssc\\answer_key_candidates_staging\\2024_tier1_sscportal_sep09_shift1_response_sheet.pdf",
+    "expected_questions": 100,
+    "question_count": 0,
+    "qc_passed": false,
+    "qc_status": "FAIL",
+    "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier1_sscportal_sep09_shift1_response_sheet",
+    "started_at": "2026-05-24T11:35:15.700228Z",
+    "completed_at": "2026-05-24T11:43:47.738708Z",
+    "error": null
+  },
+  {
+    "pdf": "2024_tier2_prepp_paper1.pdf",
+    "source_pdf": "C:\\experiments\\ssc\\answer_key_candidates_staging\\2024_tier2_prepp_paper1.pdf",
+    "expected_questions": null,
+    "question_count": 7,
+    "qc_passed": false,
+    "qc_status": "FAIL",
+    "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_prepp_paper1",
+    "started_at": "2026-05-24T11:43:47.740960Z",
+    "completed_at": "2026-05-24T11:59:47.725830Z",
+    "error": null
+  },
+  {
+    "pdf": "2024_tier2_sscportal_jan18_response_sheet.pdf",
+    "source_pdf": "C:\\experiments\\ssc\\answer_key_candidates_staging\\2024_tier2_sscportal_jan18_response_sheet.pdf",
+    "expected_questions": null,
+    "question_count": 0,
+    "qc_passed": false,
+    "qc_status": "FAIL",
+    "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan18_response_sheet",
+    "started_at": "2026-05-24T11:59:47.729853Z",
+    "completed_at": "2026-05-24T12:13:56.175036Z",
+    "error": null
+  },
+  {
+    "pdf": "2024_tier2_sscportal_jan19_response_sheet.pdf",
+    "source_pdf": "C:\\experiments\\ssc\\answer_key_candidates_staging\\2024_tier2_sscportal_jan19_response_sheet.pdf",
+    "expected_questions": null,
+    "question_count": 0,
+    "qc_passed": false,
+    "qc_status": "FAIL",
+    "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan19_response_sheet",
+    "started_at": "2026-05-24T12:13:56.176542Z",
+    "completed_at": "2026-05-24T12:22:25.366049Z",
+    "error": null
+  },
+  {
+    "pdf": "2024_tier2_sscportal_jan20_response_sheet.pdf",
+    "source_pdf": "C:\\experiments\\ssc\\answer_key_candidates_staging\\2024_tier2_sscportal_jan20_response_sheet.pdf",
+    "expected_questions": null,
+    "question_count": 9,
+    "qc_passed": false,
+    "qc_status": "FAIL",
+    "output_dir": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet",
+    "started_at": "2026-05-24T12:22:25.369266Z",
+    "completed_at": "2026-05-24T12:35:52.344001Z",
+    "error": null
+  }
+]

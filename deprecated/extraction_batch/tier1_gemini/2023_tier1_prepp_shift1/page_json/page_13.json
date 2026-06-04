@@ -1,0 +1,156 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Ms Bhakti Pradip Kulkarni was conferred with the Arjuna Award 2022 for her outstanding contribution in which of the following sports?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Table Tennis"
+        },
+        {
+          "label": "2",
+          "text": "Chess"
+        },
+        {
+          "label": "3",
+          "text": "Badminton"
+        },
+        {
+          "label": "4",
+          "text": "Wrestling"
+        }
+      ],
+      "question_id": "264330130856",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Chess",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Who among the following was the founder of 'Tiger Legion' or 'Free India Legion'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Vinayak Damodar Savarkar"
+        },
+        {
+          "label": "2",
+          "text": "Subhas Chandra Bose"
+        },
+        {
+          "label": "3",
+          "text": "Sohan Singh Bhakhna"
+        },
+        {
+          "label": "4",
+          "text": "Lala Hardayal"
+        }
+      ],
+      "question_id": "264330141521",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "Subhas Chandra Bose",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Name a reproductive strategy in which parasites take advantage of the care of other individuals of the same species or different species to raise their young.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Brood parasitism"
+        },
+        {
+          "label": "2",
+          "text": "Sexual parasitism"
+        },
+        {
+          "label": "3",
+          "text": "Klepto parasitism"
+        },
+        {
+          "label": "4",
+          "text": "Competitive parasitism"
+        }
+      ],
+      "question_id": "264330113482",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Brood parasitism",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "On the basis of tribal population (2011), identify the option that arranges the following states in ascending order.\nA. Madhya Pradesh\nB. Maharashtra\nC. Odisha",
+      "options": [
+        {
+          "label": "1",
+          "text": "(C), (B), (A)"
+        },
+        {
+          "label": "2",
+          "text": "(B), (A), (C)"
+        },
+        {
+          "label": "3",
+          "text": "(C), (A), (B)"
+        },
+        {
+          "label": "4",
+          "text": "(B), (C), (A)"
+        }
+      ],
+      "question_id": "264330132744",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "(C), (B), (A)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "In which industrial policy was the investment limit for tiny industry/unit increased to ₹2 lakh?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1977"
+        },
+        {
+          "label": "2",
+          "text": "1991"
+        },
+        {
+          "label": "3",
+          "text": "1980"
+        },
+        {
+          "label": "4",
+          "text": "1956"
+        }
+      ],
+      "question_id": "264330109392",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "1980",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

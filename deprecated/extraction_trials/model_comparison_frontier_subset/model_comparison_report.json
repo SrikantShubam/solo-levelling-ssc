@@ -1,0 +1,214 @@
+{
+  "pages": [
+    1,
+    5,
+    17,
+    28
+  ],
+  "results": [
+    {
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "status": "PASS",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "question_count": 2,
+          "reference_question_count": 2,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 2,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 0.9682274247491639,
+          "issues": []
+        },
+        {
+          "page": 5,
+          "status": "PASS",
+          "question_count": 4,
+          "reference_question_count": 4,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 4,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 0.9918300653594772,
+          "issues": []
+        },
+        {
+          "page": 17,
+          "status": "PASS",
+          "question_count": 4,
+          "reference_question_count": 4,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 3,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 0.9769938650306749,
+          "issues": []
+        },
+        {
+          "page": 28,
+          "status": "PASS",
+          "question_count": 1,
+          "reference_question_count": 1,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 1.0,
+          "issues": []
+        }
+      ],
+      "mean_correct_accuracy": 1.0,
+      "mean_chosen_accuracy": 0.75,
+      "fills_reference_missing_chosen": 0,
+      "mean_option_shape_accuracy": 1.0,
+      "mean_text_similarity": 0.984262838784829
+    },
+    {
+      "provider": "nvidia_nim",
+      "model": "meta/llama-4-maverick-17b-128e-instruct",
+      "status": "PASS",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "question_count": 2,
+          "reference_question_count": 2,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 2,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 0.9965034965034965,
+          "issues": []
+        },
+        {
+          "page": 5,
+          "status": "PASS",
+          "question_count": 4,
+          "reference_question_count": 4,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 4,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 0.9873949579831933,
+          "issues": []
+        },
+        {
+          "page": 17,
+          "status": "PASS",
+          "question_count": 4,
+          "reference_question_count": 4,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 3,
+          "fills_reference_missing_chosen": 1,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 0.9451023391812865,
+          "issues": []
+        },
+        {
+          "page": 28,
+          "status": "PASS",
+          "question_count": 1,
+          "reference_question_count": 1,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 1.0,
+          "issues": []
+        }
+      ],
+      "mean_correct_accuracy": 1.0,
+      "mean_chosen_accuracy": 0.75,
+      "fills_reference_missing_chosen": 1,
+      "mean_option_shape_accuracy": 1.0,
+      "mean_text_similarity": 0.982250198416994
+    },
+    {
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-large-3-675b-instruct-2512",
+      "status": "FAIL",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "question_count": 2,
+          "reference_question_count": 2,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 2,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 0.9795918367346939,
+          "issues": []
+        },
+        {
+          "page": 5,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 4,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        },
+        {
+          "page": 17,
+          "status": "PASS",
+          "question_count": 4,
+          "reference_question_count": 4,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 3,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 0.9423811352313515,
+          "issues": []
+        },
+        {
+          "page": 28,
+          "status": "PASS",
+          "question_count": 1,
+          "reference_question_count": 1,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 1.0,
+          "issues": []
+        }
+      ],
+      "mean_correct_accuracy": 0.75,
+      "mean_chosen_accuracy": 0.5,
+      "fills_reference_missing_chosen": 0,
+      "mean_option_shape_accuracy": 0.75,
+      "mean_text_similarity": 0.7304932429915113
+    }
+  ]
+}

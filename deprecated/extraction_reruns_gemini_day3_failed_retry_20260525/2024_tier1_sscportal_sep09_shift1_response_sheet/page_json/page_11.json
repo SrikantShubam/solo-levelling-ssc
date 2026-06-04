@@ -1,0 +1,74 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Three statements are given followed by three conclusions numbered I, II and III.\nAssuming the statements to be true, even if they seem to be at variance with\ncommonly known facts, decide which of the conclusions logically follow(s) from the\nstatements.\n\nStatements:\n\nSome tears are drops.\nSome drops are streams.\nAll streams are rivers.\n\nConclusions:\n\nI. All tears can never be rivers.\nII. Some drops are rivers.\nIII. All tears being streams is a possibility.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion I follows"
+        },
+        {
+          "label": "2",
+          "text": "Both II and III conclusion follow"
+        },
+        {
+          "label": "3",
+          "text": "Only conclusion III follows"
+        },
+        {
+          "label": "4",
+          "text": "Both I and II conclusion follow"
+        }
+      ],
+      "question_id": "630680416206",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Both II and III conclusion follow",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Which of the following terms will replace the question mark (?) in the given series?\nYZUW, ?, QTQU, MQOT, INMS",
+      "options": [
+        {
+          "label": "1",
+          "text": "UWSV"
+        },
+        {
+          "label": "2",
+          "text": "UWVS"
+        },
+        {
+          "label": "3",
+          "text": "USWV"
+        },
+        {
+          "label": "4",
+          "text": "WUSV"
+        }
+      ],
+      "question_id": "630680417059",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "UWSV",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

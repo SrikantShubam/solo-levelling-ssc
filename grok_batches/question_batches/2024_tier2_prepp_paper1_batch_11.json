@@ -1,0 +1,360 @@
+{
+  "task_id": 11,
+  "data": {
+    "pdf_name": "2024_tier2_prepp_paper1",
+    "batch_start": 101,
+    "batch_end": 125,
+    "questions": [
+      {
+        "global_question_number": 101,
+        "question_number": 106,
+        "source_page": 55,
+        "question_text_full": "Which of the following sentences is/are true?\n\ni. All isoclines are expansion paths but all expansion paths are not isoclines.\nii. Short-run production functions involve adjusting all inputs, including fixed inputs like land or capital, to affect output.\niii. Stock resources are the resources which are not used in one period of production but can be stored for a later period.",
+        "options": {
+          "1": "Only ii",
+          "2": "Only i",
+          "3": "Only iii",
+          "4": "Only ii and iii"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 102,
+        "question_number": 107,
+        "source_page": 56,
+        "question_text_full": "Which of the following is a monoatomic gas?",
+        "options": {
+          "1": "Chlorin",
+          "2": "Hydrogen",
+          "3": "Xenon",
+          "4": "Oxygen"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 103,
+        "question_number": 108,
+        "source_page": 56,
+        "question_text_full": "Select the most appropriate answer from the options given below regarding Census 2011.\n\nStatement 1. The population of India has increased by more than 181 million during the decade 2001-2011.\n\nStatement 2. The percentage decadal growth during 2001-2011 has registered the sharpest decline since Independence.",
+        "options": {
+          "1": "Only statement 1 is correct.",
+          "2": "Only statement 2 is correct.",
+          "3": "Both statements 1 and 2 are not correct.",
+          "4": "Both statements 1 and 2 are correct."
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 104,
+        "question_number": 109,
+        "source_page": 56,
+        "question_text_full": "What is the name of the ion with a charge of -1?",
+        "options": {
+          "1": "Cation",
+          "2": "Monovalent ion",
+          "3": "Polyvalent ion",
+          "4": "Figure 4 (Missing in source)"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 105,
+        "question_number": 110,
+        "source_page": 57,
+        "question_text_full": "In December 1991, which act was amended to bring public enterprises under the purview of the Board for Industrial and Financial Reconstruction (BIFR) as part of the country's economic reforms program?",
+        "options": {
+          "1": "Industries Act",
+          "2": "Companies Act",
+          "3": "Financial Rehabilitation Act",
+          "4": "Sick Industrial Companies Act"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 106,
+        "question_number": 111,
+        "source_page": 57,
+        "question_text_full": "Which theory, independently introduced in 1923, led to the concept of acid-base conjugate pairs?",
+        "options": {
+          "1": "Br\u00f8nsted-Lowry theory",
+          "2": "Arrhenius theory",
+          "3": "Davy's theory",
+          "4": "Low's theory"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 107,
+        "question_number": 112,
+        "source_page": 57,
+        "question_text_full": "Who mentioned ecosystem as 'the basic unit in ecology' in 1956?",
+        "options": {
+          "1": "Aldo Leopold",
+          "2": "Rachel Carson",
+          "3": "John Harper",
+          "4": "Francis Evans"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 108,
+        "question_number": 113,
+        "source_page": 58,
+        "question_text_full": "Identify the naturally occurring aluminum oxide mineral that usually forms hexagonal barrel-shaped prisms.",
+        "options": {
+          "1": "Corundum",
+          "2": "Dolomite",
+          "3": "Olivine",
+          "4": "Chalcopyrite"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 109,
+        "question_number": 114,
+        "source_page": 58,
+        "question_text_full": "The Bharatmala project of the Government of India comes under which of the following Ministries of India?",
+        "options": {
+          "1": "Ministry of Ports Shipping and Waterways",
+          "2": "Ministry of Environment and Forest and Climate Change",
+          "3": "Ministry of Home Affairs",
+          "4": "Ministry of Road Transport and Highways"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 110,
+        "question_number": 115,
+        "source_page": 58,
+        "question_text_full": "Mathura was the second capital of ______ dynasty.",
+        "options": {
+          "1": "Gupta",
+          "2": "Maurya",
+          "3": "Kushana",
+          "4": "Maukhri"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 111,
+        "question_number": 116,
+        "source_page": 58,
+        "question_text_full": "Which of the following statements is/are correct?",
+        "options": {
+          "1": "Not visible",
+          "2": "Not visible",
+          "3": "Not visible",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 112,
+        "question_number": 117,
+        "source_page": 59,
+        "question_text_full": "Charcot-Marie-Tooth disease is caused by duplication of the peripheral myelin protein-22 (PMP22) gene on which chromosome?",
+        "options": {
+          "1": "chromosome 21",
+          "2": "chromosome 15",
+          "3": "chromosome 8",
+          "4": "chromosome 17"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 113,
+        "question_number": 118,
+        "source_page": 59,
+        "question_text_full": "Which portal allowed stakeholders seamless access to information related to funding, documentation, project monitoring, and approval through four efficient ways of logging in for monitoring the implementation of Centrally Sponsored Schemes in 2023?",
+        "options": {
+          "1": "Digits India Portal",
+          "2": "Viksit Bharat Portal",
+          "3": "Not visible",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 114,
+        "question_number": 119,
+        "source_page": 60,
+        "question_text_full": "Who among the following was the first Home Minister of Independent India?",
+        "options": {
+          "1": "Sardar Vallabh Bhai Patel",
+          "2": "Humayun Kabir",
+          "3": "Maulana Abdul Kalam Azad",
+          "4": "Baldev Singh"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 115,
+        "question_number": 120,
+        "source_page": 60,
+        "question_text_full": "What was the status of the agricultural sector in India before the Green Revolution?",
+        "options": {
+          "1": "Use of old technology and the absence of required infrastructure",
+          "2": "Use of advanced technology and high productivity",
+          "3": "Use of advanced technology and dependency on rainfall",
+          "4": "Use of traditional technology and the abundance of required infrastructure"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 116,
+        "question_number": 121,
+        "source_page": 60,
+        "question_text_full": "In which year did Walter Fleming stain the chromosomes to see them clearly and describe the entire process of mitosis?",
+        "options": {
+          "1": "1780",
+          "2": "1901",
+          "3": "1882",
+          "4": "Figure 4 (Not visible)"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 117,
+        "question_number": 122,
+        "source_page": 61,
+        "question_text_full": "Which of the following Constitutional Amendment Acts made the president bound by the advice of the council of ministers headed by the prime minister?",
+        "options": {
+          "1": "40th",
+          "2": "46th",
+          "3": "48th",
+          "4": "42nd"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 118,
+        "question_number": 123,
+        "source_page": 61,
+        "question_text_full": "Match the books in List 1 with their authors in List 2.\nList 1 (Books) List 2 (Authors)\nA. The Philosophy of the Bomb 1. Sachindranath Sanyal\nB. Bandi Jiwan 2. Bankim Chandra Chattopadhyay\nC. Pather Dabi 3. Bhagwati Charan Vohra\nD. Anandmath 4. Sarat Chandra Chattopadhyay",
+        "options": {
+          "1": "A-3, B-1, C-4, D-2",
+          "2": "A-4, B-3, C-2, D-1",
+          "3": "A-3, B-1, C-2, D-4",
+          "4": "A-1, B-3, C-4, D-2"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 119,
+        "question_number": 124,
+        "source_page": 62,
+        "question_text_full": "The rotating columns of air that occur over water bodies and are generally less severe than land tornadoes are known as:",
+        "options": {
+          "1": "hurricanes",
+          "2": "waterspouts",
+          "3": "squalls",
+          "4": "typhoons"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 120,
+        "question_number": 125,
+        "source_page": 62,
+        "question_text_full": "In which of the following cases did the Supreme Court direct that, 'the Parliament cannot take away or abridge any of the fundamental rights for the Implementation of Directive Principles'?",
+        "options": {
+          "1": "Minerva Mills Case, 1980",
+          "2": "Keshvanand Bharti Case, 1973",
+          "3": "Indira Sawhney Case, 1992",
+          "4": "Golak Nath Case, 1967"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 121,
+        "question_number": 126,
+        "source_page": 62,
+        "question_text_full": "Who urged political parties to engage in discussions that inspire unity rather than division and promote ideas instead of personal attacks in the address on the eve of National Voters Day in January 2024?",
+        "options": {
+          "1": "Prime Minister Narendra Modi",
+          "2": "Union Home Minister Amit Shah",
+          "3": "Chief Election Commissioner Rajiv Kumar",
+          "4": "President Droupadi Murmu"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 122,
+        "question_number": 127,
+        "source_page": 63,
+        "question_text_full": "Who won the title at the World Chess Armageddon Asia & Oceania event in April 2023?",
+        "options": {
+          "1": "D Gukesh",
+          "2": "P Harikrishna",
+          "3": "Koneru Humpy",
+          "4": "Viswanathan Anand"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 123,
+        "question_number": 128,
+        "source_page": 63,
+        "question_text_full": "Select the option that is true regarding the following two statements labelled Assertion (A) and Reason (R).\nA. The first battle of Panipat was one of the decisive battles of India.\nR. It brought into power a new band of invaders called Mughals.",
+        "options": {
+          "1": "Statements A and R are true, but R is not the correct explanation of A.",
+          "2": "Statements A and R are true, and R is the correct explanation of A.",
+          "3": "R is true, but A is false.",
+          "4": "A is true, but R is false."
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 124,
+        "question_number": 129,
+        "source_page": 63,
+        "question_text_full": "In the year 2020, National Digital Health Mission was launched on which of the following occasions?",
+        "options": {
+          "1": "Independence Day",
+          "2": "Republic Day",
+          "3": "Gandhi Jayanti",
+          "4": "Not visible in image"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 125,
+        "question_number": 130,
+        "source_page": 64,
+        "question_text_full": "Which Indian city experiences the LEAST difference in average temperature between its hottest and coldest months?",
+        "options": {
+          "1": "Mumbai",
+          "2": "Srinagar",
+          "3": "Bhopal",
+          "4": "Delhi"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      }
+    ]
+  }
+}

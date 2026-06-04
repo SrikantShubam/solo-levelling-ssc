@@ -1,0 +1,76 @@
+{
+  "page": 30,
+  "questions": [
+    {
+      "question_number": 69,
+      "section": null,
+      "question_text_full": "A solid cube of side 8 cm is dropped into a rectangular container of length 16 cm, breadth 8 cm and height 15 cm which is partly filled with water. If the cube is completely submerged, then the rise of water level (in cm) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "2"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 70,
+      "section": null,
+      "question_text_full": "The number of cars passing the road near a colony from 6 am to 12 noon has been shown in the following histogram. What is the ratio of the number of cars passed between 6 am and 8 am to the number of cars passed between 9 am and 11 am?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7 : 4"
+        },
+        {
+          "label": "2",
+          "text": "Not enough options visible"
+        },
+        {
+          "label": "3",
+          "text": "Not enough options visible"
+        },
+        {
+          "label": "4",
+          "text": "Not enough options visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Only one option is visible on the page."
+    }
+  ],
+  "warnings": [
+    "Question 70 is incomplete as only one option is visible on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

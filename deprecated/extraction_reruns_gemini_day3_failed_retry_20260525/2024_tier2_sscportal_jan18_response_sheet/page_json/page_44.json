@@ -1,0 +1,74 @@
+{
+  "page": 44,
+  "questions": [
+    {
+      "question_number": 40,
+      "section": "Comprehension",
+      "question_text_full": "According to the passage, which is the main pigment in algae for photosynthesis?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Chlorophyll"
+        },
+        {
+          "label": "2",
+          "text": "Melanin"
+        },
+        {
+          "label": "3",
+          "text": "Xanthophyll"
+        },
+        {
+          "label": "4",
+          "text": "Carotenoid"
+        }
+      ],
+      "question_id": "630680545645",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Chlorophyll",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 41,
+      "section": "Comprehension",
+      "question_text_full": "What is the central theme of the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The prokaryotic nature of blue-green algae"
+        },
+        {
+          "label": "2",
+          "text": "The anatomy of vascular plants"
+        },
+        {
+          "label": "3",
+          "text": "The symbiotic relationship between algae and fungi"
+        },
+        {
+          "label": "4",
+          "text": "The diversity and characteristics of algae"
+        }
+      ],
+      "question_id": "630680545638",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "The diversity and characteristics of algae",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

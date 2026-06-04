@@ -1,0 +1,104 @@
+{
+  "page": 25,
+  "questions": [
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in indirect speech.\nHe said, “Two and two make four.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "He says that two and two make four."
+        },
+        {
+          "label": "2",
+          "text": "He said that two and two make four."
+        },
+        {
+          "label": "3",
+          "text": "He says that two and two make four."
+        },
+        {
+          "label": "4",
+          "text": "He said that two and two made four."
+        }
+      ],
+      "question_id": "264330167397",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "He said that two and two make four.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice.\nThe award was presented to her by the director.",
+      "options": [
+        {
+          "label": "1",
+          "text": "She presented the award to the director."
+        },
+        {
+          "label": "2",
+          "text": "The award presented to her by the director."
+        },
+        {
+          "label": "3",
+          "text": "The director presented the award to her."
+        },
+        {
+          "label": "4",
+          "text": "She was presenting the award to the director."
+        }
+      ],
+      "question_id": "264330167316",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "The director presented the award to her.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Read the given sentence carefully and fill in the blank by selecting the correct synonym of the word given in the brackets.\nThe authority refused to pay any heed to the ________ demands made by the workers. (Trivial)",
+      "options": [
+        {
+          "label": "1",
+          "text": "conceited"
+        },
+        {
+          "label": "2",
+          "text": "idiotic"
+        },
+        {
+          "label": "3",
+          "text": "insignificant"
+        },
+        {
+          "label": "4",
+          "text": "majestic"
+        }
+      ],
+      "question_id": "264330171641",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "insignificant",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

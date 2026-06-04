@@ -1,0 +1,96 @@
+{
+  "page": 76,
+  "questions": [
+    {
+      "question_number": 163,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order forming a meaningful and coherent paragraph.\nA. I had reached the most exciting part of my Agatha Christie novel.\nB. He was presently gruelling the Duchess seated in the arm chair.\nC. Hercule Poirot had managed to get together all his suspects in one room and in his great style was cornering them into confession.\nD. She had become extremely nervous and was on the verge of a breakdown.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CDAB"
+        },
+        {
+          "label": "2",
+          "text": "CBAD"
+        },
+        {
+          "label": "3",
+          "text": "ADBC"
+        },
+        {
+          "label": "4",
+          "text": "ACBD"
+        }
+      ],
+      "question_id": "26433083478",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "ACBD",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 164,
+      "section": null,
+      "question_text_full": "Select the most appropriate antonym of the given word.\nindolent",
+      "options": [
+        {
+          "label": "1",
+          "text": "energetic"
+        },
+        {
+          "label": "2",
+          "text": "listless"
+        },
+        {
+          "label": "3",
+          "text": "torpid"
+        },
+        {
+          "label": "4",
+          "text": "languid"
+        }
+      ],
+      "question_id": "26433083280",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "energetic",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 165,
+      "section": null,
+      "question_text_full": "Select the word which means the same as the group of words given.\na doctor who specializes in heart diseases",
+      "options": [
+        {
+          "label": "1",
+          "text": "Urologist"
+        },
+        {
+          "label": "2",
+          "text": "Cardiologist"
+        },
+        {
+          "label": "3",
+          "text": "Nephrologist"
+        },
+        {
+          "label": "4",
+          "text": "Dermatologist"
+        }
+      ],
+      "question_id": "26433083498",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Cardiologist",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

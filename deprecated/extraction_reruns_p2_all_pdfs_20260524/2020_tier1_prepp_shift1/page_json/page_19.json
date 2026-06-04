@@ -1,0 +1,126 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Find the value of cot 25° cot 35° cot 45° cot 55° cot 65°.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/√3"
+        },
+        {
+          "label": "2",
+          "text": "√3"
+        },
+        {
+          "label": "3",
+          "text": "√3/2"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "question_id": "81616112777",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Some fruits are bought at 15 for ₹140 and an equal number of fruits at 10 for ₹120. If all the fruits are sold at ₹132 per dozen, then what is the profit percent in the entire transaction?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 1/8"
+        },
+        {
+          "label": "2",
+          "text": "4 1/2"
+        },
+        {
+          "label": "3",
+          "text": "2 1/4"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "question_id": "81616113873",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "3 1/8",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "What is the compound interest (in ₹) on a sum of ₹8192 for 1 1/4 years at 15% per annum, if interest is compounded 5-monthly?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1634"
+        },
+        {
+          "label": "2",
+          "text": "1740"
+        },
+        {
+          "label": "3",
+          "text": "1735"
+        },
+        {
+          "label": "4",
+          "text": "1640"
+        }
+      ],
+      "question_id": "81616113976",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "1634",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "To do a certain work, A and B work on alternate days with B beginning the work on the first day. A alone can complete the same work in 24 days. If the work gets completed in 11 1/3 days, then B alone can complete 7/9 th part of the original work in:",
+      "options": [
+        {
+          "label": "1",
+          "text": "4 1/2 days"
+        },
+        {
+          "label": "2",
+          "text": "6 days"
+        },
+        {
+          "label": "3",
+          "text": "5 1/2 days"
+        },
+        {
+          "label": "4",
+          "text": "4 days"
+        }
+      ],
+      "question_id": "81616113977",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "6 days",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

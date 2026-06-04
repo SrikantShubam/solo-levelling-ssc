@@ -1,0 +1,360 @@
+{
+  "task_id": 0,
+  "data": {
+    "pdf_name": "2021_tier1_prepp_shift1",
+    "batch_start": 1,
+    "batch_end": 25,
+    "questions": [
+      {
+        "global_question_number": 1,
+        "question_number": 1,
+        "source_page": 3,
+        "question_text_full": "Select the correct option that indicates the arrangement of the given words in the order in which they appear in an English dictionary\n1. Petitionary\n2. Petitioning\n3. Petition\n4. Petitioners\n5. Petitioned",
+        "options": {
+          "1": "3, 1, 4, 5, 2",
+          "2": "3, 1, 5, 4, 2",
+          "3": "4, 1, 2, 3, 5",
+          "4": "1, 2, 3, 4, 5"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 2,
+        "question_number": 2,
+        "source_page": 3,
+        "question_text_full": "Six letters and symbols, H, h, I, @, % and $, are written on the different faces of a dice. Two position of this dice are shown. Select the letter or symbol that will be on the opposite to the one having 'H'.",
+        "options": {
+          "1": "@",
+          "2": "$",
+          "3": "%",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 3,
+        "question_number": 3,
+        "source_page": 4,
+        "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series.\n5, 18, 70, 278, ?",
+        "options": {
+          "1": "328",
+          "2": "298",
+          "3": "592",
+          "4": "1110"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 4,
+        "question_number": 4,
+        "source_page": 4,
+        "question_text_full": "Select the option that is related to the third term in the same way as the second term is related to the first term.\nBACTERIA : EXFWBUFX :: WOUNDS : ?",
+        "options": {
+          "1": "ZLSQFW",
+          "2": "ZLRQGV",
+          "3": "YLRQFV",
+          "4": "ZRXQGV"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 5,
+        "question_number": 5,
+        "source_page": 4,
+        "question_text_full": "If '@' means 'addition', '%' means 'multiplication', '$' means 'division' and '#' means 'subtraction', then find the value of the following expression.\n29 @ 128 $ 16 % 7 # 22",
+        "options": {
+          "1": "47",
+          "2": "Not visible",
+          "3": "Not visible",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 6,
+        "question_number": 6,
+        "source_page": 5,
+        "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series.\n237, 196, 155, 114, ?",
+        "options": {
+          "1": "98",
+          "2": "73",
+          "3": "64",
+          "4": "47"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 7,
+        "question_number": 7,
+        "source_page": 5,
+        "question_text_full": "In a certain language, CHHAPAK is coded as DJKEUGR. How will MALANGA be coded in that language?",
+        "options": {
+          "1": "NCEOSMC",
+          "2": "NCOCMSC",
+          "3": "NCOCSMC",
+          "4": "NCOESMH"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 8,
+        "question_number": 9,
+        "source_page": 6,
+        "question_text_full": "Select the option in which the given figure is embedded (rotation is NOT allowed).",
+        "options": {
+          "1": "Figure a",
+          "2": "Figure b",
+          "3": "Figure c",
+          "4": "Figure d"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 9,
+        "question_number": 10,
+        "source_page": 7,
+        "question_text_full": "The sequence of folding of paper and the manner in which the folded paper has been cut is shown in the following figures. How would this paper look when unfolded?",
+        "options": {
+          "1": "Figure a",
+          "2": "Figure b",
+          "3": "Figure c",
+          "4": "Figure d"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 10,
+        "question_number": 11,
+        "source_page": 7,
+        "question_text_full": "Study the given pattern carefully and select the number from among the given options that can replace the question mark (?) in it.",
+        "options": {
+          "1": "Not visible",
+          "2": "Not visible",
+          "3": "Not visible",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 11,
+        "question_number": 12,
+        "source_page": 8,
+        "question_text_full": "Select the figure from among the given options that can replace the question mark (?) in the following series.",
+        "options": {
+          "1": "Figure a",
+          "2": "Figure b",
+          "3": "Figure c",
+          "4": "Figure d"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 12,
+        "question_number": 13,
+        "source_page": 9,
+        "question_text_full": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the letter-cluster that is different.",
+        "options": {
+          "1": "PMN",
+          "2": "GTQ",
+          "3": "SPK",
+          "4": "JGT"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 13,
+        "question_number": 14,
+        "source_page": 9,
+        "question_text_full": "Mohit and Sudesh bought pens and notebooks from the same shop. Mohit bought 3 pens and 6 notebooks by paying an amount of Rs. 180. Sudesh bought 5 pens and 2 notebooks by paying an amount of Rs. 116. How much did Mohit spend on buying notebooks?",
+        "options": {
+          "1": "Rs. 84",
+          "2": "Rs. 115",
+          "3": "Rs. 138",
+          "4": "Rs. 122"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 14,
+        "question_number": 16,
+        "source_page": 10,
+        "question_text_full": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.\n\nStatements:\nAll flowers are beautiful.\nVaidehi is beautiful.\n\nConclusions:\nI. Vaidehi is a flower.\nII. Some beautiful are flowers.",
+        "options": {
+          "1": "Only conclusion I follows.",
+          "2": "Only conclusion II follows.",
+          "3": "Both the conclusions follow.",
+          "4": "Either conclusion I or II follows."
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 15,
+        "question_number": 17,
+        "source_page": 11,
+        "question_text_full": "Saloni is the daughter of the only son of Kartik. Nirupama is the mother of Deepak. Yamini's only son, Ankit, is married to Nirupama. Kartik is the paternal grandfather of Deepak. How is Kartik related to Ankit?",
+        "options": {
+          "1": "Brother",
+          "2": "Son",
+          "3": "Father",
+          "4": "Paternal uncle"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 16,
+        "question_number": 18,
+        "source_page": 11,
+        "question_text_full": "Gaurav exits from the backdoor of his north-facing house and walks 25 m straight, then he takes a left turn and walks 36 m, then he turns left and walks 47 m. He turns left again and walks 36 m. How far and in which direction is he from his house now?",
+        "options": {
+          "1": "22 m, North",
+          "2": "11 m, North",
+          "3": "22 m, South",
+          "4": "11 m, South"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 17,
+        "question_number": 19,
+        "source_page": 11,
+        "question_text_full": "Select the correct water image of the given combination of letters. DFNZSR",
+        "options": {
+          "1": "Figure 1",
+          "2": "Figure 2",
+          "3": "Figure 3",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 18,
+        "question_number": 20,
+        "source_page": 12,
+        "question_text_full": "Select the set of classes the relationship among which is best illustrated by the following Venn diagram. [Figure: Concentric circles]",
+        "options": {
+          "1": "Fathers, Brothers, Males",
+          "2": "Mothers, Aunts, Doctors",
+          "3": "Literates, Engineers, Farmers",
+          "4": "Grandfathers, Fathers, Males"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 19,
+        "question_number": 21,
+        "source_page": 12,
+        "question_text_full": "Select the combination of letters that when sequentially placed in the blanks of the given series will complete the series. _ Z _ C _ L Z _ C _ L _ X _ V L _ _ _ V",
+        "options": {
+          "1": "L, X, V, V, X, C, X, Z, Z",
+          "2": "L, X, C, X, V, C, Z, C, Z, C",
+          "3": "X, Z, L, X, V, Z, C, C, C, L",
+          "4": "L, X, V, X, V, Z, C, Z, X, C"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 20,
+        "question_number": 23,
+        "source_page": 13,
+        "question_text_full": "Amit, Gaurav, Hatim, Varun, Yukti and Zaid are sitting in a straight line, all facing the north. Gaurav is fourth to the left of Amit. Yukti is sitting at one corner. Hatim is fourth to the left of Yukti. Zaid is third to the right of Gaurav. Who is sitting at the second place to the left of Zaid?",
+        "options": {
+          "1": "Yukti",
+          "2": "Varun",
+          "3": "Hatim",
+          "4": "Amit"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 21,
+        "question_number": 24,
+        "source_page": 13,
+        "question_text_full": "In a certain code language, \u2018CROWD\u2019 is coded as 23415924 and \u2018TRHICK\u2019 is coded as 162491997. How will \u2018FRUGAL\u2019 be coded in that language?",
+        "options": {
+          "1": "1221021186",
+          "2": "1226761821",
+          "3": "1521012291",
+          "4": "1512021921"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 22,
+        "question_number": 25,
+        "source_page": 14,
+        "question_text_full": "In a certain code language, 6219 means \u2018Sachin is a cricketer\u2019 and 2646 means \u2018He played from Mumbai\u2019. Which of the following is the code for \u2018Mumbai is very famous\u2019?",
+        "options": {
+          "1": "7945",
+          "2": "2458",
+          "3": "6246",
+          "4": "6285"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 23,
+        "question_number": 26,
+        "source_page": 15,
+        "question_text_full": "The British East India Company captured Pondicherry (Puducherry) from the French in the year ______.",
+        "options": {
+          "1": "1674",
+          "2": "1699",
+          "3": "1738",
+          "4": "1761"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 24,
+        "question_number": 27,
+        "source_page": 15,
+        "question_text_full": "Who among the following Rajput rulers defeated Muhammad Ghori in the First Battle of Tarain in 1191 AD?",
+        "options": {
+          "1": "Maldeo Rathore",
+          "2": "Rana Kumbha",
+          "3": "Prithviraj Chauhan",
+          "4": "Bappa Rawal"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 25,
+        "question_number": 28,
+        "source_page": 15,
+        "question_text_full": "The allocation towards health and well-being was increased by ______ over the previous year in Union Budget 2021-22.",
+        "options": {
+          "1": "140%",
+          "2": "125%",
+          "3": "137%",
+          "4": "100%"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      }
+    ]
+  }
+}

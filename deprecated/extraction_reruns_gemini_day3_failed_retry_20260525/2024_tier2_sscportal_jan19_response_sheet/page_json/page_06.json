@@ -1,0 +1,104 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "For a monthly data, the link relative for any month is given by:",
+      "options": [
+        {
+          "label": "1",
+          "text": "(Current month's Value - Previous month value) / 2 * 100"
+        },
+        {
+          "label": "2",
+          "text": "(Current month's Value + Previous month value) / 2 * 100"
+        },
+        {
+          "label": "3",
+          "text": "(Previous month's Value / Current month's value) * 100"
+        },
+        {
+          "label": "4",
+          "text": "(Current month's Value / Previous month's value) * 100"
+        }
+      ],
+      "question_id": "6306801352875",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "(Current month's Value / Previous month's value) * 100",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "On fitting of a trend line Y = a + bt on a time series (with year as a unit of time), the monthly increment/decrement is given by",
+      "options": [
+        {
+          "label": "1",
+          "text": "b/12"
+        },
+        {
+          "label": "2",
+          "text": "a/12"
+        },
+        {
+          "label": "3",
+          "text": "a"
+        },
+        {
+          "label": "4",
+          "text": "b"
+        }
+      ],
+      "question_id": "6306801352873",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "b/12",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "If M: Mean, Md: Median, Mo: Mode, Q1: First Quartile and Q3: Third Quartile, then which of the following is an absolute measure of skewness?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(Q1 - Q3)/Md"
+        },
+        {
+          "label": "2",
+          "text": "M - Md"
+        },
+        {
+          "label": "3",
+          "text": "M + Mo"
+        },
+        {
+          "label": "4",
+          "text": "(Q3 + Q1 - 2Md) / (Q3 - Q1)"
+        }
+      ],
+      "question_id": "6306801352910",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "M - Md",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

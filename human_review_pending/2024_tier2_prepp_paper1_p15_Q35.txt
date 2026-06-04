@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 15
+Question Number: 35
+Global Q#: 34
+Section: None
+Modality: text_only
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+In a certain code language, 'POSE' is coded as '3517' and 'SILK' is coded as '4638'. What is the code for 'S' in the given code language?
+
+--- Options ---
+  (1) 4
+  (2) 1
+  (3) 8
+  (4) Not enough options provided in the source image to complete the set of 4.

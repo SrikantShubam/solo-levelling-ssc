@@ -1,0 +1,66 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 58,
+      "section": null,
+      "question_text_full": "Study the given graph and answer the question that follows. Break up for distribution (degree wise) of the employees working in five departments (A, B, C, D and E) in a company. Total number of employees = 3000. The total number of employees working in departments A and C exceeds the total number of employees working in departments B and D by x. The value of x lies between:",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 and 28"
+        },
+        {
+          "label": "2",
+          "text": "44 and 52"
+        },
+        {
+          "label": "3",
+          "text": "28 and 36"
+        },
+        {
+          "label": "4",
+          "text": "36 and 44"
+        }
+      ],
+      "question_id": "8161615375",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "44 and 52",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 59,
+      "section": null,
+      "question_text_full": "Study the given graph and answer the question that follows. Break up for distribution (degree wise) of the employees working in five departments (A, B, C, D and E) in a company. Total number of employees = 3000. If 20% of the employees working in department E are transferred to department A, then the difference between the number of employees in A and 124% of the employees working in department C is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "50"
+        },
+        {
+          "label": "2",
+          "text": "64"
+        },
+        {
+          "label": "3",
+          "text": "60"
+        },
+        {
+          "label": "4",
+          "text": "54"
+        }
+      ],
+      "question_id": "8161615377",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "54",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

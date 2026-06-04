@@ -1,0 +1,38 @@
+{
+  "pages": [
+    1,
+    5
+  ],
+  "results": [
+    {
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "status": "SKIPPED",
+      "reason": "model_marked_text_only_not_valid_for_page_image_ocr"
+    },
+    {
+      "provider": "nvidia_nim",
+      "model": "google/paligemma",
+      "status": "SKIPPED",
+      "reason": "missing_key_any_of_NVIDIA_API_KEY,NIM_API_KEY,NVIDIA_NIM_API_KEY,nvidia_nim_api_key"
+    },
+    {
+      "provider": "nvidia_nim",
+      "model": "microsoft/phi-4-multimodal-instruct",
+      "status": "SKIPPED",
+      "reason": "missing_key_any_of_NVIDIA_API_KEY,NIM_API_KEY,NVIDIA_NIM_API_KEY,nvidia_nim_api_key"
+    },
+    {
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3-instruct",
+      "status": "SKIPPED",
+      "reason": "missing_key_any_of_NVIDIA_API_KEY,NIM_API_KEY,NVIDIA_NIM_API_KEY,nvidia_nim_api_key"
+    },
+    {
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-large-3-675b-instruct-2512",
+      "status": "SKIPPED",
+      "reason": "missing_key_any_of_NVIDIA_API_KEY,NIM_API_KEY,NVIDIA_NIM_API_KEY,nvidia_nim_api_key"
+    }
+  ]
+}

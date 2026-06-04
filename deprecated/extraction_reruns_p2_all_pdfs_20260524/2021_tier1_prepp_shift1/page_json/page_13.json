@@ -1,0 +1,69 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Amit, Gaurav, Hatim, Varun, Yukti and Zaid are sitting in a straight line, all facing the north. Gaurav is fourth to the left of Amit. Yukti is sitting at one corner. Hatim is fourth to the left of Yukti. Zaid is third to the right of Gaurav. Who is sitting at the second place to the left of Zaid?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Yukti"
+        },
+        {
+          "label": "2",
+          "text": "Varun"
+        },
+        {
+          "label": "3",
+          "text": "Hatim"
+        },
+        {
+          "label": "4",
+          "text": "Amit"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘CROWD’ is coded as 23415924 and ‘TRHICK’ is coded as 162491997. How will ‘FRUGAL’ be coded in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1221021186"
+        },
+        {
+          "label": "2",
+          "text": "1226761821"
+        },
+        {
+          "label": "3",
+          "text": "1521012291"
+        },
+        {
+          "label": "4",
+          "text": "1512021921"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 23 and 24 options were labeled a, b, c, d in the source; mapped to 1, 2, 3, 4 for schema compliance.",
+    "The first block of text (60 * 48 * 36 * 6 * 15 * 53) is an incomplete question stem without a question number or clear answer options, so it was excluded."
+  ]
+}

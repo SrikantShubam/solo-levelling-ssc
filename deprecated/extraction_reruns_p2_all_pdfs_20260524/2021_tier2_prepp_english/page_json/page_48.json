@@ -1,0 +1,126 @@
+{
+  "page": 48,
+  "questions": [
+    {
+      "question_number": 68,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nabandon",
+      "options": [
+        {
+          "label": "1",
+          "text": "leave"
+        },
+        {
+          "label": "2",
+          "text": "start"
+        },
+        {
+          "label": "3",
+          "text": "adopt"
+        },
+        {
+          "label": "4",
+          "text": "allow"
+        }
+      ],
+      "question_id": "26433083276",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "leave",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 69,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the sentence. In case no improvement is needed, select ‘No Improvement’.\nShe is as good if not better than her sister.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No Improvement"
+        },
+        {
+          "label": "2",
+          "text": "as good as"
+        },
+        {
+          "label": "3",
+          "text": "good as"
+        },
+        {
+          "label": "4",
+          "text": "more good"
+        }
+      ],
+      "question_id": "26433083167",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "good as",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 70,
+      "section": null,
+      "question_text_full": "Select the most appropriate active form of the given sentence.\nRani's car is twelve years old but it has not been used much.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rani's car is twelve years old but she isn't using it much."
+        },
+        {
+          "label": "2",
+          "text": "Rani's car is twelve years old but she hasn't used it much."
+        },
+        {
+          "label": "3",
+          "text": "Rani's car is twelve years old but she didn't use it much."
+        },
+        {
+          "label": "4",
+          "text": "Rani's car is twelve years old but it hasn't used her much."
+        }
+      ],
+      "question_id": "26433083399",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Rani's car is twelve years old but she hasn't used it much.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 71,
+      "section": null,
+      "question_text_full": "Select the wrongly spelt word.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Parallel"
+        },
+        {
+          "label": "2",
+          "text": "Premium"
+        },
+        {
+          "label": "3",
+          "text": "Penalty"
+        },
+        {
+          "label": "4",
+          "text": "Passage"
+        }
+      ],
+      "question_id": "26433083510",
+      "chosen_option_label": "4",
+      "correct_option_label": "1",
+      "correct_option_text": "Parallel",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

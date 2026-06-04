@@ -1,0 +1,360 @@
+{
+  "task_id": 8,
+  "data": {
+    "pdf_name": "2024_tier2_prepp_paper1",
+    "batch_start": 26,
+    "batch_end": 50,
+    "questions": [
+      {
+        "global_question_number": 26,
+        "question_number": 26,
+        "source_page": 11,
+        "question_text_full": "A man buys 10 identical articles for a total of \u20b915. If he sells each of them for \u20b91.7, then his profit percentage will be ____ % (rounded off to two decimal place).",
+        "options": {
+          "1": "14.33",
+          "2": "13.33",
+          "3": "12.76",
+          "4": "11.76"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 27,
+        "question_number": 27,
+        "source_page": 11,
+        "question_text_full": "Find the median of the following data. (Rounded off to 2 decimal places.)\nClass interval 0-5 5-10 10-15 15-20 20-25 25-30 30-35\nFrequency 3 5 4 2 7 6 5",
+        "options": {
+          "1": "18.64",
+          "2": "20.53",
+          "3": "21.43",
+          "4": "23.40"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 28,
+        "question_number": 28,
+        "source_page": 11,
+        "question_text_full": "Let ABC be a right-angled triangle with a right angle at B. If tan A = \u221a3, then find the value of sin A cos C + cos A sin C and cos A cos C - sin A sin C.",
+        "options": {
+          "1": "Figure 1",
+          "2": "Figure 2",
+          "3": "Figure 3",
+          "4": "Figure 4"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 29,
+        "question_number": 29,
+        "source_page": 12,
+        "question_text_full": "Simplify (5z - 12y)\u00b2 + (12z + 5y)\u00b2 - 144z\u00b2",
+        "options": {
+          "1": "25z\u00b2 + 169y\u00b2",
+          "2": "23z\u00b2 + 177y\u00b2",
+          "3": "23z\u00b2 + 174y\u00b2",
+          "4": "30z\u00b2 + 170y\u00b2"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 30,
+        "question_number": 30,
+        "source_page": 12,
+        "question_text_full": "The value of 4\u00b3 - 0\u00b2 + (22/2)\u00b2 - 8 + 7 \u00d7 6 = ______",
+        "options": {
+          "1": "218",
+          "2": "224",
+          "3": "219",
+          "4": "229"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 31,
+        "question_number": 32,
+        "source_page": 13,
+        "question_text_full": "A question is given, followed by two statements labelled I and II. Identify which of the statements is/are sufficient/necessary to answer the question.\n\nQuestion:\nIn a certain code language, 'fire in mountain' is coded as 'si ph bo'. What is the code for 'fire'?\n\nStatements:\n(I) 'mountain' is coded as 'bo'.\n(II) 'ice and fire' is coded as 'si yu ca'.",
+        "options": {
+          "1": "Data in Statements I and II together is sufficient to answer the question",
+          "2": "Data in Statements I and II together is not sufficient to answer the question",
+          "3": "Data in Statement I alone is sufficient to answer the question while data in Statement II is not",
+          "4": "Data in Statement II alone is sufficient to answer the question while data in Statement I is not"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 32,
+        "question_number": 33,
+        "source_page": 14,
+        "question_text_full": "Select the option figure in which the given figure is embedded as its part (rotation is NOT allowed).",
+        "options": {
+          "1": "Figure a",
+          "2": "Figure b",
+          "3": "Figure c",
+          "4": "Figure d"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 33,
+        "question_number": 34,
+        "source_page": 15,
+        "question_text_full": "Given below is a statement (Cause) followed by possible effects numbered I, II, and III. Read the \u2018Cause\u2019 carefully and decide which of the three can be a possible effect/s.\n\nCause: Many people in City X have reported receiving two electricity bills this month, instead of one.\n\nEffects:\nEffect I \u2013 The Electricity Board has published the details of areas where power shutdowns are expected tomorrow in City X.\nEffect II \u2013 The municipal commissioner of City X has clarified that the technical glitch which led to multiple electricity bills being generated would be resolved within 48 hours.\nEffect III \u2013 Long queues were seen outside the electricity board offices in many localities.",
+        "options": {
+          "1": "Only II is a possible effect.",
+          "2": "Both I and II are possible effects.",
+          "3": "Only I is a possible effect.",
+          "4": "Both II and III are possible effects."
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 34,
+        "question_number": 35,
+        "source_page": 15,
+        "question_text_full": "In a certain code language, 'POSE' is coded as '3517' and 'SILK' is coded as '4638'. What is the code for 'S' in the given code language?",
+        "options": {
+          "1": "4",
+          "2": "1",
+          "3": "8",
+          "4": "Not enough options provided in the source image to complete the set of 4."
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 35,
+        "question_number": 36,
+        "source_page": 16,
+        "question_text_full": "Select the correct mirror image of the given combination when the mirror is placed at line MN as shown.",
+        "options": {
+          "1": "Figure a",
+          "2": "Figure b",
+          "3": "Figure c",
+          "4": "Figure d"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 36,
+        "question_number": 37,
+        "source_page": 16,
+        "question_text_full": "Figure A is related to B in a certain pattern. Following the same pattern, figure C is related to D. Study the pattern and select the figure which should be in place of D.",
+        "options": {
+          "1": "Figure a",
+          "2": "Figure b",
+          "3": "Figure c",
+          "4": "Figure d"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 37,
+        "question_number": 38,
+        "source_page": 17,
+        "question_text_full": "Select the option figure that will replace the question mark (?) in the figure given below to complete the pattern.",
+        "options": {
+          "1": "Figure a (implied by context of missing options)",
+          "2": "Figure b",
+          "3": "Figure c",
+          "4": "Figure d"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 38,
+        "question_number": 39,
+        "source_page": 18,
+        "question_text_full": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)\n(215, 185, 135)\n(276, 246, 196)",
+        "options": {
+          "1": "(255, 235, 205)",
+          "2": "Figure 2",
+          "3": "Figure 3",
+          "4": "Figure 4"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 39,
+        "question_number": 40,
+        "source_page": 19,
+        "question_text_full": "How many meaningful English words can be formed using first, third, sixth, and seventh letters of the word RECOGNIZE (when counted from left to right) using all the letters but each letter only once in each word?",
+        "options": {
+          "1": "One",
+          "2": "Two",
+          "3": "Three",
+          "4": "None"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 40,
+        "question_number": 41,
+        "source_page": 19,
+        "question_text_full": "The following contains two pairs of words which are related to each other in a certain way. Three of the following four word-pairs are alike as these have the same relationship and thus form a group. Which word-pair does NOT belong to that group? (The words must be considered as meaningful English words and must not be grouped based on the number of letters/number of consonants/vowels in the word.)",
+        "options": {
+          "1": "Park - Swim",
+          "2": "Restaurant - Dinner",
+          "3": "Temple - Pray",
+          "4": "Theatre - Movies"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 41,
+        "question_number": 43,
+        "source_page": 20,
+        "question_text_full": "U is the father of N. N is the sister of T. T is the wife of I. I is son of L. How is U related to L?",
+        "options": {
+          "1": "Son's wife's father",
+          "2": "Son's wife",
+          "3": "Son's wife's sister",
+          "4": "Son's wife's mother"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 42,
+        "question_number": 44,
+        "source_page": 21,
+        "question_text_full": "Select the correct option that indicates the arrangement of the following words in a logical and meaningful order.\n1. Design 2. Test 3. Conceptualize 4. Develop 5. Implement",
+        "options": {
+          "1": "3, 5, 2, 4, 1",
+          "2": "1, 4, 5, 3, 2",
+          "3": "3, 1, 4, 2, 5",
+          "4": "4, 3, 1, 5, 4, 2"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 43,
+        "question_number": 45,
+        "source_page": 21,
+        "question_text_full": "Select the correct option that indicates the arrangement of the following words in a logical and meaningful order.\n1. Delivery\n2. Finished Paper\n3. Dry\n4. Pulp\n5. Press",
+        "options": {
+          "1": "1, 4, 5, 3, 2, 1",
+          "2": "4, 1, 2, 5, 3",
+          "3": "2, 5, 4, 3, 1",
+          "4": "5, 4, 2, 3, 1"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 44,
+        "question_number": 46,
+        "source_page": 21,
+        "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series.",
+        "options": {
+          "1": "Not provided",
+          "2": "Not provided",
+          "3": "Not provided",
+          "4": "Not provided"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 45,
+        "question_number": null,
+        "source_page": 22,
+        "question_text_full": "9, 5, 6, 10.5, 23, ?",
+        "options": {
+          "1": "90",
+          "2": "80",
+          "3": "60",
+          "4": "50"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 46,
+        "question_number": 47,
+        "source_page": 22,
+        "question_text_full": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. Q has the exam on Saturday. Only two people have exams between S and Q. R has the exam before S, but after P. U has the exam immediately after T. On which of the following days does V have the exam?",
+        "options": {
+          "1": "Saturday",
+          "2": "Thursday",
+          "3": "Sunday",
+          "4": "Friday"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 47,
+        "question_number": 48,
+        "source_page": 22,
+        "question_text_full": "In a certain code language\nA + B means 'A is the mother of B',\nA - B means 'A is the brother of B',\nA x B means 'A is the wife of B' and\nA \u00f7 B means 'A is the father of B'.\nBased on the above, how is U related to Z if 'U + V + W - Y x Z'?",
+        "options": {
+          "1": "Figure 1",
+          "2": "Figure 2",
+          "3": "Figure 3",
+          "4": "Figure 4"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 48,
+        "question_number": 49,
+        "source_page": 23,
+        "question_text_full": "Four of the following five figures are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group?",
+        "options": {
+          "1": "C",
+          "2": "D",
+          "3": "B",
+          "4": "A"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 49,
+        "question_number": 50,
+        "source_page": 23,
+        "question_text_full": "Identify the figure given in the options which when put in place of the question mark (?) will logically complete the series.",
+        "options": {
+          "1": "Figure 1",
+          "2": "Figure 2",
+          "3": "Figure 3",
+          "4": "Figure 4"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 50,
+        "question_number": 51,
+        "source_page": 24,
+        "question_text_full": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. In three of the four pairs, the same pattern is applied and hence they form a group. Select the number-pair that does NOT belong to this group.",
+        "options": {
+          "1": "Figure 1",
+          "2": "Figure 2",
+          "3": "Figure 3",
+          "4": "Figure 4"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      }
+    ]
+  }
+}

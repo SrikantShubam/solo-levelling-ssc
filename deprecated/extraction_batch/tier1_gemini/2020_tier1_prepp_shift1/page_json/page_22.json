@@ -1,0 +1,126 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in indirect speech.\n\n“Everything is going to be alright,” said the doctor.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The doctor said that everything is going to be alright."
+        },
+        {
+          "label": "2",
+          "text": "The doctor said that everything are going to be alright."
+        },
+        {
+          "label": "3",
+          "text": "The doctor said that everything was going to be alright."
+        },
+        {
+          "label": "4",
+          "text": "The doctor said that everything will be alright."
+        }
+      ],
+      "question_id": "81616113391",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "The doctor said that everything was going to be alright.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\n\nA herd or flock of animals being driven in a body",
+      "options": [
+        {
+          "label": "1",
+          "text": "Drove"
+        },
+        {
+          "label": "2",
+          "text": "Crowd"
+        },
+        {
+          "label": "3",
+          "text": "Cluster"
+        },
+        {
+          "label": "4",
+          "text": "Throng"
+        }
+      ],
+      "question_id": "81616114015",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "Drove",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the given word.\n\nGradual",
+      "options": [
+        {
+          "label": "1",
+          "text": "Gentle"
+        },
+        {
+          "label": "2",
+          "text": "Abrupt"
+        },
+        {
+          "label": "3",
+          "text": "Regular"
+        },
+        {
+          "label": "4",
+          "text": "Slow"
+        }
+      ],
+      "question_id": "81616113102",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Abrupt",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\n\nIndia is formally moving ahead to ________ 21 MIG-29 and 12 Sukhoi-30MKI fighters from Russia along with upgrades of their existing fleets.",
+      "options": [
+        {
+          "label": "1",
+          "text": "advance"
+        },
+        {
+          "label": "2",
+          "text": "accomplish"
+        },
+        {
+          "label": "3",
+          "text": "achieve"
+        },
+        {
+          "label": "4",
+          "text": "procure"
+        }
+      ],
+      "question_id": "81616113413",
+      "chosen_option_label": "3",
+      "correct_option_label": "4",
+      "correct_option_text": "procure",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

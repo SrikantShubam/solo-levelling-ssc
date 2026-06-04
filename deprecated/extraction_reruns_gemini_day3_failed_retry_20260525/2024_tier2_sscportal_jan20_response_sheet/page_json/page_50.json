@@ -1,0 +1,104 @@
+{
+  "page": 50,
+  "questions": [
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Who among the following was the President of India when India launched its first Nuclear test in Pokhran?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Dr APJ Abdul Kalam"
+        },
+        {
+          "label": "2",
+          "text": "Giani Zail Singh"
+        },
+        {
+          "label": "3",
+          "text": "VV Giri"
+        },
+        {
+          "label": "4",
+          "text": "Fakhruddin ali Ahmed"
+        }
+      ],
+      "question_id": "630680761432",
+      "chosen_option_label": "4",
+      "correct_option_label": "3",
+      "correct_option_text": "VV Giri",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Who discovered the laws of levers and pulleys, which allow us to move heavy objects using small forces?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Archimedes"
+        },
+        {
+          "label": "2",
+          "text": "Pythagoras"
+        },
+        {
+          "label": "3",
+          "text": "Eudoxus"
+        },
+        {
+          "label": "4",
+          "text": "Democritus"
+        }
+      ],
+      "question_id": "630680618160",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "Archimedes",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "The productivity of which of the following crops had initially increased due to the Green Revolution?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rice and cotton"
+        },
+        {
+          "label": "2",
+          "text": "Wheat and sugarcane"
+        },
+        {
+          "label": "3",
+          "text": "Rice and pulses"
+        },
+        {
+          "label": "4",
+          "text": "Wheat and rice"
+        }
+      ],
+      "question_id": "630680607909",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Wheat and rice",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

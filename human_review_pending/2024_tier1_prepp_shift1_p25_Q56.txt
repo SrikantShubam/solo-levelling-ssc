@@ -1,0 +1,19 @@
+PDF: 2024_tier1_prepp_shift1
+Page: 25
+Question Number: 56
+Global Q#: 54
+Section: None
+Modality: table_di
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+The classification of 100 students based on the marks obtained by them in English and Mathematics in an examination is given in the table below. Study the table and answer the question that follows:
+
+--- Options ---
+  (1) Not visible
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible

@@ -1,0 +1,46 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 51,
+      "section": null,
+      "question_text_full": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. In three of the four pairs, the same pattern is applied and hence they form a group. Select the number-pair that does NOT belong to this group.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The question text refers to number-pairs, but the provided image only shows four figures (a, b, c, d) and no actual answer options (1-4) or number-pair data. The question appears to be incomplete or mismatched with the provided visual content."
+    }
+  ],
+  "warnings": [
+    "The question text mentions 'number-pairs' but the image displays four figures labeled a, b, c, d. No actual answer options (1-4) are visible on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

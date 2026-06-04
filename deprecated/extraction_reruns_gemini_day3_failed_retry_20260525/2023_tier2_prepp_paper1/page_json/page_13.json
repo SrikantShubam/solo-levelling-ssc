@@ -1,0 +1,104 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g., 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)\n(5, 5, 25)\n(2, 5, 10)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(3, 3, 9)"
+        },
+        {
+          "label": "2",
+          "text": "(4, 4, 20)"
+        },
+        {
+          "label": "3",
+          "text": "(7, 3, 14)"
+        },
+        {
+          "label": "4",
+          "text": "(9, 3, 26)"
+        }
+      ],
+      "question_id": "264330170859",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "(3, 3, 9)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the correct option that indicates the arrangement of the given words in a logical and meaningful order.\n1. Shirt piece\n2.Thread\n3. Fabric\n4. Shirt\n5. Cotton",
+      "options": [
+        {
+          "label": "1",
+          "text": "5, 2, 3, 1, 4"
+        },
+        {
+          "label": "2",
+          "text": "2, 3, 5, 1, 2, 4"
+        },
+        {
+          "label": "3",
+          "text": "5, 3, 1, 2, 4"
+        },
+        {
+          "label": "4",
+          "text": "3, 1, 2, 4, 5"
+        }
+      ],
+      "question_id": "264330166334",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "5, 2, 3, 1, 4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Select the combination of letters that when sequentially placed in the blanks of the given series will complete the series.\nA_DF GI_L MOP__UVX YA_D",
+      "options": [
+        {
+          "label": "1",
+          "text": "BJQRB"
+        },
+        {
+          "label": "2",
+          "text": "CJRSB"
+        },
+        {
+          "label": "3",
+          "text": "BJRSB"
+        },
+        {
+          "label": "4",
+          "text": "CJQRB"
+        }
+      ],
+      "question_id": "264330163998",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "CJRSB",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

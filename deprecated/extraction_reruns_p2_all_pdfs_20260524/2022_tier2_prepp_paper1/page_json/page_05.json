@@ -1,0 +1,126 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "If radius of a sphere is decreased by 48%, then by what percent does its surface area decrease?",
+      "options": [
+        {
+          "label": "1",
+          "text": "82.91%"
+        },
+        {
+          "label": "2",
+          "text": "72.96%"
+        },
+        {
+          "label": "3",
+          "text": "78.98%"
+        },
+        {
+          "label": "4",
+          "text": "86.26%"
+        }
+      ],
+      "question_id": "264330121658",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "72.96%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "The product of the two numbers is 1500 and their HCF is 10. The number of such possible pairs is/are:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "question_id": "26433090276",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "A man buys a machine for Rs.5,000. After one year, he sells it for Rs.6000. After two years, again he buys the same machine at Rs.8,000 and sells it for Rs.10,000. Find his overall profit percentage for both the transactions.",
+      "options": [
+        {
+          "label": "1",
+          "text": "20.23%"
+        },
+        {
+          "label": "2",
+          "text": "23.08%"
+        },
+        {
+          "label": "3",
+          "text": "18.75%"
+        },
+        {
+          "label": "4",
+          "text": "15.23%"
+        }
+      ],
+      "question_id": "26433058403",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "23.08%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Evaluate the following.\nsin 25° sin 65° – cos 25° cos 65°.",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "40"
+        }
+      ],
+      "question_id": "264330126427",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "0",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

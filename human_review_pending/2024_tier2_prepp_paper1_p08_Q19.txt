@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 8
+Question Number: 19
+Global Q#: 19
+Section: None
+Modality: math_formula
+Blocking Reasons: ['low_confidence', 'math_parse_lossy']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+If (secθ - tanθ) ÷ (secθ + tanθ) = 1 / 9, θ lies in the first quadrant, then the value of secθ is:
+
+--- Options ---
+  (1) -13 / 27
+  (2) Not enough options visible
+  (3) Not enough options visible
+  (4) Not enough options visible

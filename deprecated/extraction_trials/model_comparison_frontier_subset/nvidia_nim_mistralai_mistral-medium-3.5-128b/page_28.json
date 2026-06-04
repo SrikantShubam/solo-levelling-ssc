@@ -1,0 +1,36 @@
+{
+  "page": 28,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Select the correct antonym of the given word. Quiescent",
+      "options": [
+        {
+          "label": "1",
+          "text": "Peaceful"
+        },
+        {
+          "label": "2",
+          "text": "Dejected"
+        },
+        {
+          "label": "3",
+          "text": "Indifferent"
+        },
+        {
+          "label": "4",
+          "text": "Active"
+        }
+      ],
+      "question_id": "12356893",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Active",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

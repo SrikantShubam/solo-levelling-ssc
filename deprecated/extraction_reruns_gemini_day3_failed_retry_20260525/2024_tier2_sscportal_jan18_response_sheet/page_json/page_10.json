@@ -1,0 +1,104 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Anil and Beena are friends, and the difference between their ages is 5 years. Anil's father Dinesh is three times as old as Anil, and Beena is twice as old as her sister Charu. The ages of Dinesh and Charu differ by 45 years. If Beena is older than Anil, then find the sum of the present ages of both Dinesh and Charu.",
+      "options": [
+        {
+          "label": "1",
+          "text": "100 years"
+        },
+        {
+          "label": "2",
+          "text": "91 years"
+        },
+        {
+          "label": "3",
+          "text": "69 years"
+        },
+        {
+          "label": "4",
+          "text": "78 years"
+        }
+      ],
+      "question_id": "630680545553",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "69 years",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "The height of a right circular cone is 63 cm and the area of its curved surface is five times the area of its base. What is the volume (in cm³) of the cone? (Use π = 22/7)",
+      "options": [
+        {
+          "label": "1",
+          "text": "12589.10"
+        },
+        {
+          "label": "2",
+          "text": "11234.65"
+        },
+        {
+          "label": "3",
+          "text": "10914.75"
+        },
+        {
+          "label": "4",
+          "text": "13540.25"
+        }
+      ],
+      "question_id": "630680671173",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "10914.75",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "A man buys 10 identical articles for a total of ₹15. If he sells each of them for ₹1.7, then his profit percentage will be ______% (rounded off to two decimal place).",
+      "options": [
+        {
+          "label": "1",
+          "text": "14.33"
+        },
+        {
+          "label": "2",
+          "text": "13.33"
+        },
+        {
+          "label": "3",
+          "text": "12.76"
+        },
+        {
+          "label": "4",
+          "text": "11.76"
+        }
+      ],
+      "question_id": "630680661950",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "13.33",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

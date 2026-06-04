@@ -1543,8 +1543,8 @@
       ],
       "question_id": "630680464555",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "11680",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": null,
@@ -1592,25 +1592,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_03.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_03.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_03.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_03.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 6,
@@ -1693,7 +1691,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p04_q006_question.png",
       "crop_metadata": [
@@ -1879,7 +1877,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p04_q007_question.png",
       "crop_metadata": [
@@ -2618,7 +2616,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p05_q011_question.png",
       "crop_metadata": [
@@ -3170,7 +3168,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p06_q014_question.png",
       "crop_metadata": [
@@ -3357,7 +3355,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p07_q015_question.png",
       "crop_metadata": [
@@ -3486,8 +3484,8 @@
       ],
       "question_id": "630680543904",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "₹4,500",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -3533,20 +3531,16 @@
       "visual_required": false,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "rgb_hsv_option_crop",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": "2",
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "correct_option_conflict"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p07_q016_question.png",
       "crop_metadata": [
         {
@@ -3647,7 +3641,9 @@
           "green_fraction": 0.0
         }
       },
-      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_07.png"
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_07.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 17,
@@ -3673,8 +3669,8 @@
       ],
       "question_id": "630680764495",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "1",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -3724,25 +3720,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_07.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_07.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_07.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_07.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 18,
@@ -3829,7 +3823,7 @@
       "canonical_review_reasons": [
         "chosen_option_missing"
       ],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p08_q018_question.png",
       "crop_metadata": [
@@ -4015,7 +4009,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p08_q019_question.png",
       "crop_metadata": [
@@ -4327,8 +4321,8 @@
       ],
       "question_id": "630680668031",
       "chosen_option_label": "3",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "40",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -4374,20 +4368,16 @@
       "visual_required": false,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "rgb_hsv_option_crop",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": "1",
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "correct_option_conflict"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p09_q021_question.png",
       "crop_metadata": [
         {
@@ -4488,7 +4478,9 @@
           "green_fraction": 0.0
         }
       },
-      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_09.png"
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_09.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 22,
@@ -4514,8 +4506,8 @@
       ],
       "question_id": "630680630972",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "24 years",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -4563,20 +4555,16 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "rgb_hsv_option_crop",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": "2",
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "correct_option_conflict"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p09_q022_question.png",
       "crop_metadata": [
         {
@@ -4678,7 +4666,9 @@
         }
       },
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_09.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_09.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_09.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 23,
@@ -5213,7 +5203,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p10_q026_question.png",
       "crop_metadata": [
@@ -5586,7 +5576,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p11_q028_question.png",
       "crop_metadata": [
@@ -5772,7 +5762,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p11_q029_question.png",
       "crop_metadata": [
@@ -5962,7 +5952,7 @@
       "canonical_review_reasons": [
         "chosen_option_missing"
       ],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p12_q030_question.png",
       "crop_metadata": [
@@ -6457,8 +6447,8 @@
       ],
       "question_id": "630680629191",
       "chosen_option_label": "3",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Figure 3",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -6507,20 +6497,16 @@
       "visual_required": true,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p13_q033_question.png",
       "crop_metadata": [
         {
@@ -6622,7 +6608,9 @@
         }
       },
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_13.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_13.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_13.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 4,
@@ -6705,7 +6693,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p14_q034_question.png",
       "crop_metadata": [
@@ -7074,7 +7062,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p15_q036_question.png",
       "crop_metadata": [
@@ -7203,8 +7191,8 @@
       ],
       "question_id": "630680564855",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "The question involves visual pattern matching. The options are represented as figures.",
@@ -7252,20 +7240,16 @@
       "visual_required": true,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p16_q037_question.png",
       "crop_metadata": [
         {
@@ -7367,7 +7351,9 @@
         }
       },
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_16.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_16.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_16.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 8,
@@ -7450,7 +7436,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p17_q038_question.png",
       "crop_metadata": [
@@ -7636,7 +7622,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p17_q039_question.png",
       "crop_metadata": [
@@ -7822,7 +7808,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p18_q040_question.png",
       "crop_metadata": [
@@ -8195,7 +8181,7 @@
       "canonical_review_reasons": [
         "chosen_option_missing"
       ],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p18_q042_question.png",
       "crop_metadata": [
@@ -9479,7 +9465,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p21_q049_question.png",
       "crop_metadata": [
@@ -9665,7 +9651,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p22_q050_question.png",
       "crop_metadata": [
@@ -9851,7 +9837,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p23_q051_question.png",
       "crop_metadata": [
@@ -9980,8 +9966,8 @@
       ],
       "question_id": "630680561104",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Data in Statement II alone is sufficient to answer the question while data in Statement I is not",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -10029,20 +10015,16 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "ambiguous_rgb_hsv_option_crop",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": "AMBIGUOUS",
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "correct_option_ambiguous_deterministic_evidence"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p23_q052_question.png",
       "crop_metadata": [
         {
@@ -10144,7 +10126,9 @@
         }
       },
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_23.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_23.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_23.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 23,
@@ -10227,7 +10211,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p24_q053_question.png",
       "crop_metadata": [
@@ -10414,7 +10398,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p24_q054_question.png",
       "crop_metadata": [
@@ -10783,7 +10767,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p25_q056_question.png",
       "crop_metadata": [
@@ -11152,7 +11136,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p25_q058_question.png",
       "crop_metadata": [
@@ -11704,7 +11688,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p27_q061_question.png",
       "crop_metadata": [
@@ -11833,8 +11817,8 @@
       ],
       "question_id": "630680112405",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "without haste",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": null,
@@ -11880,20 +11864,16 @@
       "visual_required": false,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "rgb_hsv_option_crop",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": "4",
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "correct_option_conflict"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p28_q062_question.png",
       "crop_metadata": [
         {
@@ -11994,7 +11974,9 @@
           "green_fraction": 0.010266760266760266
         }
       },
-      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_28.png"
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_28.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 3,
@@ -12020,8 +12002,8 @@
       ],
       "question_id": "630680617332",
       "chosen_option_label": "3",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "4",
+      "correct_option_text": "CDAB",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": null,
@@ -12069,20 +12051,16 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "rgb_hsv_option_crop",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": "2",
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "correct_option_conflict"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "4",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p28_q063_question.png",
       "crop_metadata": [
         {
@@ -12184,7 +12162,9 @@
         }
       },
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_28.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_28.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_28.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 4,
@@ -12210,8 +12190,8 @@
       ],
       "question_id": "630680171759",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "b, a, d, c",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": null,
@@ -12259,25 +12239,23 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_28.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_28.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_28.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_28.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 5,
@@ -12909,7 +12887,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p30_q068_question.png",
       "crop_metadata": [
@@ -13095,7 +13073,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p30_q069_question.png",
       "crop_metadata": [
@@ -13224,8 +13202,8 @@
       ],
       "question_id": "630680628235",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "BCDAE",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -13273,25 +13251,23 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_30.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_30.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_30.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_30.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 11,
@@ -13740,7 +13716,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p31_q073_question.png",
       "crop_metadata": [
@@ -14601,8 +14577,8 @@
       ],
       "question_id": "630680616655",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "His speech surprised everyone.",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -14650,20 +14626,16 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "rgb_hsv_option_crop",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": "2",
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "correct_option_conflict"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p33_q078_question.png",
       "crop_metadata": [
         {
@@ -14765,7 +14737,9 @@
         }
       },
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_33.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_33.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_33.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 19,
@@ -14791,8 +14765,8 @@
       ],
       "question_id": "630680333139",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "cold feet",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -14840,25 +14814,23 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_33.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_33.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_33.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_33.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 20,
@@ -15124,7 +15096,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p34_q081_question.png",
       "crop_metadata": [
@@ -15985,8 +15957,8 @@
       ],
       "question_id": "630680570739",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Selfish",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -16032,20 +16004,16 @@
       "visual_required": false,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "rgb_hsv_option_crop",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": "2",
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "correct_option_conflict"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p36_q086_question.png",
       "crop_metadata": [
         {
@@ -16146,7 +16114,9 @@
           "green_fraction": 0.0
         }
       },
-      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_36.png"
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_36.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 27,
@@ -16258,8 +16228,8 @@
       ],
       "question_id": "630680158944",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "his",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -16307,25 +16277,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_36.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_36.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_36.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_36.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 29,
@@ -16591,7 +16559,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p37_q090_question.png",
       "crop_metadata": [
@@ -17144,7 +17112,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p39_q093_question.png",
       "crop_metadata": [
@@ -18697,7 +18665,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p45_q102_question.png",
       "crop_metadata": [
@@ -18883,7 +18851,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p45_q103_question.png",
       "crop_metadata": [
@@ -19252,7 +19220,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p46_q105_question.png",
       "crop_metadata": [
@@ -19808,7 +19776,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p47_q108_question.png",
       "crop_metadata": [
@@ -20543,7 +20511,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p48_q112_question.png",
       "crop_metadata": [
@@ -21282,7 +21250,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p50_q116_question.png",
       "crop_metadata": [
@@ -21838,7 +21806,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p51_q119_question.png",
       "crop_metadata": [
@@ -22760,7 +22728,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p52_q124_question.png",
       "crop_metadata": [
@@ -23866,7 +23834,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p55_q131_question.png",
       "crop_metadata": [
@@ -24426,7 +24394,7 @@
       "canonical_review_reasons": [
         "chosen_option_missing"
       ],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p56_q134_question.png",
       "crop_metadata": [
@@ -24738,8 +24706,8 @@
       ],
       "question_id": "6306801261653",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Patch management software",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -24785,20 +24753,16 @@
       "visual_required": false,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "rgb_hsv_option_crop",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": "4",
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "correct_option_conflict"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p56_q136_question.png",
       "crop_metadata": [
         {
@@ -24899,7 +24863,9 @@
           "green_fraction": 0.013655948438557134
         }
       },
-      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_56.png"
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_56.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 7,
@@ -25629,7 +25595,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p57_q141_question.png",
       "crop_metadata": [
@@ -25815,7 +25781,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p58_q142_question.png",
       "crop_metadata": [
@@ -26030,8 +25996,8 @@
       ],
       "question_id": "6306801316628",
       "chosen_option_label": "3",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "1-d, 2-b, 3-a, 4-c",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -26079,25 +26045,23 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_58.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_58.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_58.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_58.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 15,
@@ -26181,7 +26145,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p59_q145_question.png",
       "crop_metadata": [
@@ -26550,7 +26514,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p59_q147_question.png",
       "crop_metadata": [
@@ -26923,7 +26887,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p61_q149_question.png",
       "crop_metadata": [
@@ -27113,7 +27077,7 @@
       "canonical_review_reasons": [
         "chosen_option_missing"
       ],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan18_response_sheet_p61_q150_question.png",
       "crop_metadata": [
@@ -27219,7 +27183,7 @@
       "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\gemini_retry_20260527\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_61.png"
     }
   ],
-  "canonical_review_count": 39,
-  "blocking_review_count": 18,
+  "canonical_review_count": 21,
+  "blocking_review_count": 0,
   "asset_evidence_attached": true
 }

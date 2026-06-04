@@ -1,0 +1,104 @@
+{
+  "page": 49,
+  "questions": [
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Identify the naturally occurring aluminum oxide mineral that usually forms hexagonal barrel-shaped prisms.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Corundum"
+        },
+        {
+          "label": "2",
+          "text": "Dolomite"
+        },
+        {
+          "label": "3",
+          "text": "Olivine"
+        },
+        {
+          "label": "4",
+          "text": "Chalcopyrite"
+        }
+      ],
+      "question_id": "630680618207",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Corundum",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "The Bharatmala project of the Government of India comes under which of the following Ministries of India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ministry of Ports Shipping and Waterways"
+        },
+        {
+          "label": "2",
+          "text": "Ministry of Environment and Forest and Climate Change"
+        },
+        {
+          "label": "3",
+          "text": "Ministry of Home Affairs"
+        },
+        {
+          "label": "4",
+          "text": "Ministry of Road Transport and Highways"
+        }
+      ],
+      "question_id": "630680656502",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Ministry of Road Transport and Highways",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Mathura was the second capital of _________ dynasty.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Gupta"
+        },
+        {
+          "label": "2",
+          "text": "Maurya"
+        },
+        {
+          "label": "3",
+          "text": "Kushana"
+        },
+        {
+          "label": "4",
+          "text": "Maukhri"
+        }
+      ],
+      "question_id": "630680511491",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Kushana",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

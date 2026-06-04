@@ -1,0 +1,58 @@
+Answer these 15 SSC CGL questions from '2024_tier2_prepp_paper1':
+
+Q70: Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.
+
+A.
+1. BCDAE | 2. CDAEB | 3. DCABE | 4. ADECB
+
+Q72: Select the option that expresses the given sentence in direct speech.
+"The teacher informed that the exam had been postponed."
+1. The teacher informs, "The exam had been postponed." | 2. The teacher informed, "The exam was being postponed." | 3. The teacher informs, "The exam has been postponed." | 4. The teacher informed, "The exam has been postponed."
+
+Q73: Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.
+A. 
+1. Figure 1 | 2. Figure 2 | 3. Figure 3 | 4. Figure 4
+
+Q74: Select the most appropriate option to fill in the blank.
+"Rashid was not able to _____ the pain after the accident."
+1. beer | 2. buyer | 3. bear | 4. bare
+
+Q75: Select the option that expresses the given sentence in passive voice.
+"Did you hear that noise?"
+1. Was that noise heard by you? | 2. Is that noise heard by you? | 3. Wasn't that noise heard by you? | 4. Has that noise been heard by you?
+
+Q76: Select the option that expresses the given sentence in direct speech.
+
+"The District Magistrate ordered the police to work all night and put an end to
+1. The District Magistrate told the police, "Work all night and | 2. The District Magistrate told the police, "Work all night and | 3. The District Magistrate told the police, "Work all night and | 4. The District Magistrate told the police, "Work all night to 
+
+Q77: Select the most appropriate meaning of the underlined idiom.
+
+"The team decided to pull out all the stops for their upcoming presentation."
+1. Keep things simple and straightforward | 2. Wait patiently for a more favourable time | 3. Give up easily and without thinking much | 4. To do everything to make something successful
+
+Q87: Parts of the following sentence have been given as options. Select the option that contains an error. It takes me an hour to get to work at the moment
+1. but when the new road is finished | 2. it be much quicker | 3. at the moment | 4. It takes me an hour to get to work
+
+Q88: Select the most appropriate pronoun to fill in the blank. Mr. Amit Kumar, Proprietor of Xyling Pens is known for ______ honesty and decent behaviour i
+1. his | 2. they | 3. it | 4. her
+
+Q90: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. Clima
+1. will pose | 2. poses | 3. will be posing | 4. posed
+
+Q92: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. Clima
+1. widen | 2. maximise | 3. mitigate | 4. inflate
+
+QNone: Select the most appropriate option to fill in blank number 3.
+1. must | 2. could | 3. would | 4. might
+
+Q93: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. Clima
+1. backward nations | 2. generations | 3. businessmen | 4. poor people
+
+Q94: Read the given passage and answer the questions that follow. Subhas Chandra Bose, a prominent Indian nationalist leader, was convinced that India coul
+1. They believed in India's right to self-determination. | 2. Not provided in the image | 3. Not provided in the image | 4. Not provided in the image
+
+QNone: What ultimately undermined the INA's efforts to free India from British rule?
+1. Gandhi's death | 2. The Japanese surrender in 1945 | 3. The inferior military tactics of the British forces | 4. The lack of support from the Indian and British people
+
+Return ONLY a JSON array: [{"question_number": INTEGER, "correct_option_label": "1"|"2"|"3"|"4"}]

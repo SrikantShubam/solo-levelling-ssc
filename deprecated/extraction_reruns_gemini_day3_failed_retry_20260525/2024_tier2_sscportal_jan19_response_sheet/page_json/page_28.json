@@ -1,0 +1,74 @@
+{
+  "page": 28,
+  "questions": [
+    {
+      "question_number": 77,
+      "section": null,
+      "question_text_full": "For a completely randomised design with k treatments, let\nx_ij = i^th observation corresponding to j^th treatment,\ni = 1,2,...,n_j, j = 1,2,...,k\nT = total of all observations,\nx_bar_j = mean of j^th treatment,\nx_bar = T/N where N = Σ_{j=1}^k n_j.\nThe formula for finding the sum of squares due to error (SSE) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Σ_{j=1}^k (x_bar_j - x_bar)"
+        },
+        {
+          "label": "2",
+          "text": "Σ_{j=1}^k n_j(x_bar_j - x_bar)^2"
+        },
+        {
+          "label": "3",
+          "text": "Σ_{j=1}^k Σ_{i=1}^{n_j}(x_ij - x_bar_j)^2"
+        },
+        {
+          "label": "4",
+          "text": "Σ_{j=1}^k Σ_{i=1}^{n_j}(x_ij - x_bar)^2"
+        }
+      ],
+      "question_id": "6306801352935",
+      "chosen_option_label": "4",
+      "correct_option_label": "3",
+      "correct_option_text": "Σ_{j=1}^k Σ_{i=1}^{n_j}(x_ij - x_bar_j)^2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 78,
+      "section": null,
+      "question_text_full": "If (X, Y) has a bivariate normal distribution, then X, Y are independent if and only if X, Y are:",
+      "options": [
+        {
+          "label": "1",
+          "text": "ρ (X, Y) ≠ 0"
+        },
+        {
+          "label": "2",
+          "text": "Uncorrelated"
+        },
+        {
+          "label": "3",
+          "text": "Correlated"
+        },
+        {
+          "label": "4",
+          "text": "cov (X, Y) ≠ 0"
+        }
+      ],
+      "question_id": "6306801324604",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "Uncorrelated",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

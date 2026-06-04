@@ -1,0 +1,104 @@
+{
+  "page": 25,
+  "questions": [
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘he enjoys music’ is coded as ‘lo po jo’ and ‘music and dance’ is coded as ‘kb jo fk’. How is ‘music’ coded in the given language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "jo"
+        },
+        {
+          "label": "2",
+          "text": "po"
+        },
+        {
+          "label": "3",
+          "text": "lo"
+        },
+        {
+          "label": "4",
+          "text": "fk"
+        }
+      ],
+      "question_id": "630680644316",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "jo",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "Select the correct option that indicates the arrangement of the following words in a logical and meaningful order.\n1. Plant\n2. Pollination\n3. Seed\n4. Seedling\n5. Fruit",
+      "options": [
+        {
+          "label": "1",
+          "text": "3, 4, 1, 2, 5"
+        },
+        {
+          "label": "2",
+          "text": "3, 4, 1, 5, 2"
+        },
+        {
+          "label": "3",
+          "text": "4, 1, 2, 5, 3"
+        },
+        {
+          "label": "4",
+          "text": "4, 3, 1, 2, 5"
+        }
+      ],
+      "question_id": "630680523399",
+      "chosen_option_label": "4",
+      "correct_option_label": "1",
+      "correct_option_text": "3, 4, 1, 2, 5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 30,
+      "section": null,
+      "question_text_full": "M, N, O, X, Y and Z are sitting around a circular table facing the centre (but not necessarily in the same order). O is an immediate neighbour of Y. Z sits second to the right of O. X is the immediate neighbour of both M and N. M is not an immediate neighbour of O. Who sits to the immediate left of Y?",
+      "options": [
+        {
+          "label": "1",
+          "text": "X"
+        },
+        {
+          "label": "2",
+          "text": "O"
+        },
+        {
+          "label": "3",
+          "text": "N"
+        },
+        {
+          "label": "4",
+          "text": "M"
+        }
+      ],
+      "question_id": "630680416780",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "O",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

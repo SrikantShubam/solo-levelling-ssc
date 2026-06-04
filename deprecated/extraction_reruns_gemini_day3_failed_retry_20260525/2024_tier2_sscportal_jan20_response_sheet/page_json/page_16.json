@@ -1,0 +1,74 @@
+{
+  "page": 16,
+  "questions": [
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the option figure in which the given figure is embedded as its part (rotation is NOT allowed).",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "630680629189",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "What will come in the place of the question mark (?) in the following equation, if '+' and '-' are interchanged and 'x' and '÷' are interchanged? 98 ÷ 7 + 288 × 2 - 144 × 3 - 152 ÷ 2 + 120 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "774"
+        },
+        {
+          "label": "2",
+          "text": "671"
+        },
+        {
+          "label": "3",
+          "text": "632"
+        },
+        {
+          "label": "4",
+          "text": "743"
+        }
+      ],
+      "question_id": "6306801081307",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "774",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

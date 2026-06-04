@@ -1,0 +1,46 @@
+{
+  "page": 54,
+  "questions": [
+    {
+      "question_number": 104,
+      "section": null,
+      "question_text_full": "Read the given passage and answer the questions that follow. The French Revolution is a revolutionary movement that occurred in France between 1787 and 1799 and reached to its (1) ______ in 1789. This revolution had many causes but the most important of all was (2) ______ of bourgeoisie, who were merchants, manufacturers and professionals. The peasants, many of them landowners, wanted to get rid of the practices of absolute monarchy and feudalism. Another factor was an increase in population due to decreased mortality rates. It was followed by economic predicament and minor revolts were common. This led to a clarion call for social reforms. Intellectuals like Rene Descartes wrote about new things about political, social and economic matters. A fundamental political and societal change was to occur. The French Revolution played a critical role in shaping modern nations by showing the world the power inherent in the will of the people.\n\nSelect the most appropriate option to fill in blank no. 1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "fall"
+        },
+        {
+          "label": "2",
+          "text": "pinnacle"
+        },
+        {
+          "label": "3",
+          "text": "foundation"
+        },
+        {
+          "label": "4",
+          "text": "middle"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, but mapped to 1, 2, 3, 4 as per instructions."
+    }
+  ],
+  "warnings": [
+    "Question 105 is incomplete on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

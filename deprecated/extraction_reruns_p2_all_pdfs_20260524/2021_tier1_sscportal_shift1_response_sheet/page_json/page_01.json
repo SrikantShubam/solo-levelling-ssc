@@ -1,0 +1,96 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "In a certain language, CHHAPAK is coded as DJKEUGR. How will MALANGA be coded in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "NCEOSMC"
+        },
+        {
+          "label": "2",
+          "text": "NCOCSMC"
+        },
+        {
+          "label": "3",
+          "text": "NCOESMH"
+        },
+        {
+          "label": "4",
+          "text": "NCOCMSC"
+        }
+      ],
+      "question_id": "65497844600",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "NCOESMH",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "Amit, Gaurav, Hatim, Varun, Yukti and Zaid are sitting in a straight line, all facing the north. Gaurav is fourth to the left of Amit. Yukti is sitting at one corner. Hatim is fourth to the left of Yukti. Zaid is third to the right of Gaurav. Who is sitting at the second place to the left of Zaid?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Varun"
+        },
+        {
+          "label": "2",
+          "text": "Yukti"
+        },
+        {
+          "label": "3",
+          "text": "Hatim"
+        },
+        {
+          "label": "4",
+          "text": "Amit"
+        }
+      ],
+      "question_id": "65497843079",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Hatim",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "Select the correct combination of mathematical signs that can sequentially replace the * signs and balance the given equation.\n60 * 48 * 36 * 6 * 15 * 53",
+      "options": [
+        {
+          "label": "1",
+          "text": "+, ÷, −, ×, ="
+        },
+        {
+          "label": "2",
+          "text": "+, ÷, ×, −, ="
+        },
+        {
+          "label": "3",
+          "text": "÷, +, ×, −, ="
+        },
+        {
+          "label": "4",
+          "text": "×, ÷, +, −, ="
+        }
+      ],
+      "question_id": "65497843086",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "+, ÷, ×, −, =",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

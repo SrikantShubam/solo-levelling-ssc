@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 21
+Question Number: 46
+Global Q#: 44
+Section: None
+Modality: text_only
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Select the number from among the given options that can replace the question mark (?) in the following series.
+
+--- Options ---
+  (1) Not provided
+  (2) Not provided
+  (3) Not provided
+  (4) Not provided

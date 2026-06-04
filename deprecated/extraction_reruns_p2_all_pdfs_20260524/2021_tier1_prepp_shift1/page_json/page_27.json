@@ -1,0 +1,68 @@
+{
+  "page": 27,
+  "questions": [
+    {
+      "question_number": 63,
+      "section": null,
+      "question_text_full": "The following bar graph shows exports of cars of type A and B (in Rs. millions) from 2014 to 2018. What is the ratio of the total exports of cars of type A in 2014 and 2017 to the total exports of cars of type B in 2015 and 2016?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 : 6"
+        },
+        {
+          "label": "2",
+          "text": "3 : 2"
+        },
+        {
+          "label": "3",
+          "text": "10 : 9"
+        },
+        {
+          "label": "4",
+          "text": "11 : 10"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 64,
+      "section": null,
+      "question_text_full": "A certain sum is deposited for 4 years at a rate of 10% per annum on compound interest compounded annually. The difference between the interest at the end of 2 years and that at the end of 4 years is Rs. 5,082. Find the sum (in Rs.).",
+      "options": [
+        {
+          "label": "1",
+          "text": "20,000"
+        },
+        {
+          "label": "2",
+          "text": "Not enough options provided in the source image to complete the set of 4."
+        },
+        {
+          "label": "3",
+          "text": "Not enough options provided in the source image to complete the set of 4."
+        },
+        {
+          "label": "4",
+          "text": "Not enough options provided in the source image to complete the set of 4."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Only one option (a. 20,000) is visible for this question."
+    }
+  ],
+  "warnings": [
+    "Question 64 is incomplete as it only shows one option (a) instead of four."
+  ]
+}

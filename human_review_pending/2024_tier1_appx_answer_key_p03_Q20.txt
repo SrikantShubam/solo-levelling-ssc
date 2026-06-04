@@ -1,0 +1,15 @@
+PDF: 2024_tier1_appx_answer_key
+Page: 3
+Question Number: 20
+Global Q#: 21
+Section: Number Classification
+Modality: math_formula
+Blocking Reasons: ['malformed_options']
+Has Correct Label: True
+Current Label: 4
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+20. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then
+
+--- Options ---

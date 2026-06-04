@@ -1,0 +1,104 @@
+{
+  "page": 35,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nThe explosion caused serious damage in Ukraine.",
+      "options": [
+        {
+          "label": "1",
+          "text": "In Ukraine, serious damage had been caused by the explosion."
+        },
+        {
+          "label": "2",
+          "text": "Serious damage has been caused by the explosion in Ukraine."
+        },
+        {
+          "label": "3",
+          "text": "Serious damage in Ukraine has been caused by the explosion."
+        },
+        {
+          "label": "4",
+          "text": "Serious damage was caused by the explosion in Ukraine."
+        }
+      ],
+      "question_id": "630680182484",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Serious damage was caused by the explosion in Ukraine.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the word given below.\nEnhance",
+      "options": [
+        {
+          "label": "1",
+          "text": "Enrich"
+        },
+        {
+          "label": "2",
+          "text": "Miracle"
+        },
+        {
+          "label": "3",
+          "text": "Impair"
+        },
+        {
+          "label": "4",
+          "text": "Relevance"
+        }
+      ],
+      "question_id": "630680166476",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "Impair",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nA sudden and violent change or upheaval",
+      "options": [
+        {
+          "label": "1",
+          "text": "Tranquility"
+        },
+        {
+          "label": "2",
+          "text": "Serenity"
+        },
+        {
+          "label": "3",
+          "text": "Equanimity"
+        },
+        {
+          "label": "4",
+          "text": "Turbulence"
+        }
+      ],
+      "question_id": "6306801047562",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Turbulence",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

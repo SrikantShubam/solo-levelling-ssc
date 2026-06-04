@@ -1,0 +1,228 @@
+{
+  "pages": [
+    1,
+    5,
+    17,
+    28
+  ],
+  "results": [
+    {
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "status": "FAIL",
+      "pages": [
+        {
+          "page": 1,
+          "status": "FAIL",
+          "question_count": 1,
+          "reference_question_count": 1,
+          "count_match": true,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 1,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 1.0,
+          "issues": [
+            "q1_correct_mismatch"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 2,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        },
+        {
+          "page": 17,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 4,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        },
+        {
+          "page": 28,
+          "status": "FAIL",
+          "question_count": 2,
+          "reference_question_count": 2,
+          "count_match": true,
+          "correct_accuracy": 0.5,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 2,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 1.0,
+          "issues": [
+            "q1_correct_mismatch"
+          ]
+        }
+      ],
+      "mean_correct_accuracy": 0.125,
+      "mean_chosen_accuracy": 0.5,
+      "fills_reference_missing_chosen": 0,
+      "mean_option_shape_accuracy": 0.5,
+      "mean_text_similarity": 0.5
+    },
+    {
+      "provider": "nvidia_nim",
+      "model": "meta/llama-4-maverick-17b-128e-instruct",
+      "status": "FAIL",
+      "pages": [
+        {
+          "page": 1,
+          "status": "FAIL",
+          "question_count": 1,
+          "reference_question_count": 1,
+          "count_match": true,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 1,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 1.0,
+          "issues": [
+            "q1_correct_mismatch"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "PASS",
+          "question_count": 2,
+          "reference_question_count": 2,
+          "count_match": true,
+          "correct_accuracy": 1.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 2,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 0.9988938053097345,
+          "issues": []
+        },
+        {
+          "page": 17,
+          "status": "FAIL",
+          "question_count": 4,
+          "reference_question_count": 4,
+          "count_match": true,
+          "correct_accuracy": 0.5,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 3,
+          "fills_reference_missing_chosen": 1,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 0.941683569979716,
+          "issues": [
+            "q2_correct_mismatch",
+            "q4_correct_mismatch"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "FAIL",
+          "question_count": 2,
+          "reference_question_count": 2,
+          "count_match": true,
+          "correct_accuracy": 0.5,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 2,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 1.0,
+          "mean_text_similarity": 1.0,
+          "issues": [
+            "q1_correct_mismatch"
+          ]
+        }
+      ],
+      "mean_correct_accuracy": 0.5,
+      "mean_chosen_accuracy": 1.0,
+      "fills_reference_missing_chosen": 1,
+      "mean_option_shape_accuracy": 1.0,
+      "mean_text_similarity": 0.9851443438223626
+    },
+    {
+      "provider": "nvidia_nim",
+      "model": "google/gemma-3n-e4b-it",
+      "status": "FAIL",
+      "pages": [
+        {
+          "page": 1,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 1,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        },
+        {
+          "page": 5,
+          "status": "FAIL",
+          "question_count": 1,
+          "reference_question_count": 2,
+          "count_match": false,
+          "correct_accuracy": 0.5,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 1,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.5,
+          "mean_text_similarity": 0.41450777202072536,
+          "issues": []
+        },
+        {
+          "page": 17,
+          "status": "FAIL",
+          "question_count": 1,
+          "reference_question_count": 4,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 1.0,
+          "chosen_reference_count": 1,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 1.0,
+          "issues": [
+            "q1_correct_mismatch",
+            "q1_option_shape_bad"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 2,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        }
+      ],
+      "mean_correct_accuracy": 0.125,
+      "mean_chosen_accuracy": 0.5,
+      "fills_reference_missing_chosen": 0,
+      "mean_option_shape_accuracy": 0.125,
+      "mean_text_similarity": 0.3536269430051813
+    }
+  ]
+}

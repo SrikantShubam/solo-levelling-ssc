@@ -1,0 +1,22 @@
+PDF: 2024_tier1_prepp_shift1
+Page: 37
+Question Number: 86
+Global Q#: 82
+Section: None
+Modality: graph_chart
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 2
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph:
+A. The genuine beliefs, though not unconsciously acquired by most children; and even if they depart from these beliefs in later life
+B. Something of them remains deeply implanted, ready to emerge in a time of stress or crisis
+C. The importance of education in forming character and opinion is very great and well recognized by all
+
+--- Options ---
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4

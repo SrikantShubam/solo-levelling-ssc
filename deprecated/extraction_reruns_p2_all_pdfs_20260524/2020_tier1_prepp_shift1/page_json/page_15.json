@@ -1,0 +1,126 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "If (cos^2 θ)/(cot^2 θ + sin^2 θ - 1) = 3, 0° < θ < 90°, then the value of (tan θ + cosec θ) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "(5√3)/3"
+        },
+        {
+          "label": "2",
+          "text": "3√3"
+        },
+        {
+          "label": "3",
+          "text": "2√3"
+        },
+        {
+          "label": "4",
+          "text": "(4√3)/3"
+        }
+      ],
+      "question_id": "81616113987",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "(5√3)/3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "If 8(x + y)^3 - 27(x - y)^3 = (5y - x)(Ax^2 + By^2 + Cxy) , then what is the value of (A + B - C)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16"
+        },
+        {
+          "label": "2",
+          "text": "36"
+        },
+        {
+          "label": "3",
+          "text": "-26"
+        },
+        {
+          "label": "4",
+          "text": "-16"
+        }
+      ],
+      "question_id": "81616113072",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "36",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "If x + y = 4 and 1/x + 1/y = 16/15, then what is the value of (x^3 + y^3)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "19"
+        },
+        {
+          "label": "4",
+          "text": "21"
+        }
+      ],
+      "question_id": "81616113879",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "19",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Δ ABC ~ Δ PQR. The areas of Δ ABC and Δ PQR are 64 cm^2 and 81 cm^2, respectively and AD and PT are the medians of Δ ABC and Δ PQR, respectively. If PT = 10.8 cm, then AD = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "8.4 cm"
+        },
+        {
+          "label": "2",
+          "text": "9 cm"
+        },
+        {
+          "label": "3",
+          "text": "9.6 cm"
+        },
+        {
+          "label": "4",
+          "text": "12 cm"
+        }
+      ],
+      "question_id": "81616113884",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "9.6 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

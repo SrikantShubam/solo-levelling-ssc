@@ -1,0 +1,126 @@
+{
+  "page": 62,
+  "questions": [
+    {
+      "question_number": 121,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’. Four people were injured after a car suddenly came for a halt in outer Delhi.",
+      "options": [
+        {
+          "label": "1",
+          "text": "came to a halt"
+        },
+        {
+          "label": "2",
+          "text": "came for the halt"
+        },
+        {
+          "label": "3",
+          "text": "come to a halt"
+        },
+        {
+          "label": "4",
+          "text": "No substitution required"
+        }
+      ],
+      "question_id": "8161615573",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "came to a halt",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 122,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order. A. Beyond the iron gate were the playing fields and the school building. B. Everything had changed about the school. C. After about a ten-minute drive we reached the local school. D. We got down from the car and stood in front of the gate.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BDCA"
+        },
+        {
+          "label": "2",
+          "text": "DCBA"
+        },
+        {
+          "label": "3",
+          "text": "CDAB"
+        },
+        {
+          "label": "4",
+          "text": "CBAD"
+        }
+      ],
+      "question_id": "8161615643",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "CDAB",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 123,
+      "section": null,
+      "question_text_full": "Select the correctly spelt word.",
+      "options": [
+        {
+          "label": "1",
+          "text": "perallel"
+        },
+        {
+          "label": "2",
+          "text": "parellel"
+        },
+        {
+          "label": "3",
+          "text": "parrallel"
+        },
+        {
+          "label": "4",
+          "text": "parallel"
+        }
+      ],
+      "question_id": "8161615682",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "parallel",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 124,
+      "section": null,
+      "question_text_full": "Select the correct passive form of the given sentence. Our advocate is arguing the case very effectively.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The case has been argued very effectively by our advocate."
+        },
+        {
+          "label": "2",
+          "text": "The case is arguing very effectively by our advocate."
+        },
+        {
+          "label": "3",
+          "text": "The advocate is being argued very effectively by our case."
+        },
+        {
+          "label": "4",
+          "text": "The case is being argued very effectively by our advocate."
+        }
+      ],
+      "question_id": "8161615585",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "The case is being argued very effectively by our advocate.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

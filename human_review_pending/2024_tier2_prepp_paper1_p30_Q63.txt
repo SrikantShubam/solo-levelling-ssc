@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 30
+Question Number: 63
+Global Q#: 62
+Section: English and GA
+Modality: graph_chart
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. Sentences: A. It consists of a terracotta army of approximately 8000 life-sized men and horses.
+
+--- Options ---
+  (1) Not provided
+  (2) Not provided
+  (3) Not provided
+  (4) Not provided

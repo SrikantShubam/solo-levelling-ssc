@@ -1,0 +1,104 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Select the correct mirror image of the given combination when the mirror is placed at line MN as shown.\n47F29M8",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "630680619808",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual representations of mirror images."
+    },
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "17 is related to 159 following a certain logic. Following the same logic, 11 is related to 105. To which of the following is 13 related, following the same logic?\n(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "116"
+        },
+        {
+          "label": "2",
+          "text": "103"
+        },
+        {
+          "label": "3",
+          "text": "123"
+        },
+        {
+          "label": "4",
+          "text": "109"
+        }
+      ],
+      "question_id": "630680913344",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "123",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Four of the following five figures are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group?\n[Figure A, B, C, D, E]",
+      "options": [
+        {
+          "label": "1",
+          "text": "D"
+        },
+        {
+          "label": "2",
+          "text": "B"
+        },
+        {
+          "label": "3",
+          "text": "A"
+        },
+        {
+          "label": "4",
+          "text": "E"
+        }
+      ],
+      "question_id": "630680653551",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "E",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,74 @@
+{
+  "page": 18,
+  "questions": [
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Seven people, A, B, C, D, E, F and G are sitting in a straight line, facing north. Only three people sit to the left of D. Only two people sit between D and A. B sits fifth to the right of C. G sits to the immediate right of E but somewhere to the left of A. Who sits to the extreme right?",
+      "options": [
+        {
+          "label": "1",
+          "text": "B"
+        },
+        {
+          "label": "2",
+          "text": "A"
+        },
+        {
+          "label": "3",
+          "text": "E"
+        },
+        {
+          "label": "4",
+          "text": "G"
+        }
+      ],
+      "question_id": "264330172003",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "A",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Select the combination of letters that when sequentially placed in the blanks of the given series will make it logically complete.\n\nP R _ Y _ _ R A _ Z P _ A _ Z",
+      "options": [
+        {
+          "label": "1",
+          "text": "AZYZRY"
+        },
+        {
+          "label": "2",
+          "text": "APYZZY"
+        },
+        {
+          "label": "3",
+          "text": "AZPYRY"
+        },
+        {
+          "label": "4",
+          "text": "APYZRY"
+        }
+      ],
+      "question_id": "264330166307",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "AZPYRY",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

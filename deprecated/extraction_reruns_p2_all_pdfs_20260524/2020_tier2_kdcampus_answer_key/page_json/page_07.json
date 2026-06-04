@@ -1,0 +1,66 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 41,
+      "section": null,
+      "question_text_full": "Traditional ways of recreation, such as puppetry, are dying because:",
+      "options": [
+        {
+          "label": "1",
+          "text": "they do not provide relaxation from stress"
+        },
+        {
+          "label": "2",
+          "text": "they do not get the support of patrons"
+        },
+        {
+          "label": "3",
+          "text": "the performers lack skill and training"
+        },
+        {
+          "label": "4",
+          "text": "the performances are no longer interesting"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 42,
+      "section": null,
+      "question_text_full": "Which of the following statements testifies that puppetry was popular in artistic circles?",
+      "options": [
+        {
+          "label": "1",
+          "text": "People spent a huge sum of money to see puppet shows."
+        },
+        {
+          "label": "2",
+          "text": "Puppeteers were trained to give performances."
+        },
+        {
+          "label": "3",
+          "text": "Puppets became more sophisticated in appearance."
+        },
+        {
+          "label": "4",
+          "text": "Puppetry finds a mention in literature."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "page": 9,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘FACED’ is written as ‘GZDDE’ and ‘VACAY’ is written as ‘WZDZZ’. How will ‘LABOR’ be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "MZCNS"
+        },
+        {
+          "label": "2",
+          "text": "MBCPS"
+        },
+        {
+          "label": "3",
+          "text": "MBDPS"
+        },
+        {
+          "label": "4",
+          "text": "MADMS"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain the 'Ans' block with green/red marks for these questions."
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Which two signs should be interchanged to make the following equation correct?\n247 ÷ 13 + 16 × 3 - 148 = 119",
+      "options": [
+        {
+          "label": "1",
+          "text": "+ and ×"
+        },
+        {
+          "label": "2",
+          "text": "- and +"
+        },
+        {
+          "label": "3",
+          "text": "- and ×"
+        },
+        {
+          "label": "4",
+          "text": "÷ and ×"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain the 'Ans' block with green/red marks for these questions."
+    }
+  ],
+  "warnings": [
+    "No answer key (green/red marks) present on the page for any questions."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

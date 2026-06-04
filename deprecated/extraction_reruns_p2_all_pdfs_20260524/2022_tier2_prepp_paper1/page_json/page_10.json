@@ -1,0 +1,96 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Select the correct mirror image of the given combination when the mirror is placed at 'PQ' as shown below. mS5aT7rakr",
+      "options": [
+        {
+          "label": "1",
+          "text": "mS5aT7raKr"
+        },
+        {
+          "label": "2",
+          "text": "rʞɒɿTɒƧm"
+        },
+        {
+          "label": "3",
+          "text": "ʞɒɿTɒƧm"
+        },
+        {
+          "label": "4",
+          "text": "wƨƨɒT7ɿɒʞ"
+        }
+      ],
+      "question_id": "264330126296",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "rʞɒɿTɒƧm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are visual representations of mirror images."
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "In this question, a statement is followed by two courses of action, numbered I and II. You must assume everything in the statement to be true and on the basis of the information given in the statement, decide which course of action/s logically follows for pursuing. Statement: A large number of the people of the city are diagnosed to be suffering from Malaria disease. Course of Action: I. The city municipal authorities should take immediate steps to carry out extensive fumigation in the city. II. The people in the area should be advised to take steps to avoid mosquito bites.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Both I and II follow"
+        },
+        {
+          "label": "2",
+          "text": "Only II follows"
+        },
+        {
+          "label": "3",
+          "text": "Only I follows"
+        },
+        {
+          "label": "4",
+          "text": "Neither I nor II follows"
+        }
+      ],
+      "question_id": "264330123207",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Both I and II follow",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Given below is a question followed by two statements I and II. Read both the statements carefully to decide which one of them is sufficient to answer the question. Six people - K, M, N, P, Q and R are sitting around a circular table facing the centre. Who sits to the immediate right of K? (I) K sits third to the left of M. Only one person sits between K and N. R sits to the immediate left of N. (II) K sits second to the right of Q. Only two people sit between K and M. P sits second to the left of R.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Data in statement I alone is sufficient to answer the question while data in statement II is not."
+        },
+        {
+          "label": "2",
+          "text": "Either data in statement I or statement II is sufficient to answer the question."
+        },
+        {
+          "label": "3",
+          "text": "Data in statements I and II together are sufficient to answer the question."
+        },
+        {
+          "label": "4",
+          "text": "Data in statement II alone is sufficient to answer the question while data in statement I is not."
+        }
+      ],
+      "question_id": "264330121435",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "Either data in statement I or statement II is sufficient to answer the question.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,104 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Duncan's Multiple Range Test makes use of which statistical measure?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Standard Error of the Means"
+        },
+        {
+          "label": "2",
+          "text": "Regression Coefficient"
+        },
+        {
+          "label": "3",
+          "text": "Range Statistic (R)"
+        },
+        {
+          "label": "4",
+          "text": "F-statistic"
+        }
+      ],
+      "question_id": "6306801294827",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Range Statistic (R)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "For three random variables X1, X2 and X3, the correlation coefficients between pairs of random variables are r12 = r13 = r23 = r ≠ 1. For R1.23 (multiple correlation coefficient), 1 - R²1.23 is written as:",
+      "options": [
+        {
+          "label": "1",
+          "text": "(1 + r)(1 + 2r) / (1 - r)"
+        },
+        {
+          "label": "2",
+          "text": "(1 + 2r) / (1 + r)"
+        },
+        {
+          "label": "3",
+          "text": "(1 - r)(1 + 2r) / (1 + r)"
+        },
+        {
+          "label": "4",
+          "text": "(1 + r)(1 - 2r) / (1 + r)"
+        }
+      ],
+      "question_id": "6306801352945",
+      "chosen_option_label": "4",
+      "correct_option_label": "3",
+      "correct_option_text": "(1 - r)(1 + 2r) / (1 + r)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "What is the primary challenge in using the free-hand curve method for trend estimation?",
+      "options": [
+        {
+          "label": "1",
+          "text": "It is time-consuming and computationally intensive."
+        },
+        {
+          "label": "2",
+          "text": "It is subjective and may lead to inconsistent results."
+        },
+        {
+          "label": "3",
+          "text": "It cannot identify cyclical patterns."
+        },
+        {
+          "label": "4",
+          "text": "It requires advanced statistical knowledge."
+        }
+      ],
+      "question_id": "6306801302260",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "It is subjective and may lead to inconsistent results.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

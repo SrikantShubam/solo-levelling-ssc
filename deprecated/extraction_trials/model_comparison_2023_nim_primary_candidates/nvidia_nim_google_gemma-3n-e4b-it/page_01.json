@@ -1,0 +1,11 @@
+{
+  "page": 1,
+  "questions": [],
+  "warnings": [
+    "ERROR JSONDecodeError: Expecting ',' delimiter: line 1 column 456 (char 455)",
+    "{\"page\":1,\"questions\":[{\"question_number\":1,\"section\":\"General Intelligence and Reasoning\",\"question_text_full\":\"Select the option figure which is embedded in the given figure. (Rotation is NOT allowed).\",\"options\":[{\"label\":\"1\",\"text\":\"1.\"}, {\"label\":\"2\",\"text\":\"2.\"}, {\"label\":\"3\",\"text\":\"3.\"}, {\"label\":\"4\",\"text\":\"4.\"}],\"question_id\":\"26433089778\",\"chosen_option_label\":\"2\",\"correct_option_label\":\"1\",\"correct_option_text\":\"1.\"}, \"is_complete_on_page\":true,\"confidence\":\"high\",\"notes\":\"\"}],\"warnings\":[]}"
+  ],
+  "page_status": "ERROR",
+  "provider": "nvidia_nim",
+  "model": "google/gemma-3n-e4b-it"
+}

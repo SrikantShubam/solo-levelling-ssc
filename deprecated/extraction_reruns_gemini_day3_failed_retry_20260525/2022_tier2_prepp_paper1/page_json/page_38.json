@@ -1,0 +1,44 @@
+{
+  "page": 38,
+  "questions": [
+    {
+      "question_number": 41,
+      "section": "Comprehension",
+      "question_text_full": "What is the protagonist wearing in the bus?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A dhoti"
+        },
+        {
+          "label": "2",
+          "text": "Trousers"
+        },
+        {
+          "label": "3",
+          "text": "A pair of shorts"
+        },
+        {
+          "label": "4",
+          "text": "Long sleeved shirt"
+        }
+      ],
+      "question_id": "264330128930",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "A pair of shorts",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,104 @@
+{
+  "page": 27,
+  "questions": [
+    {
+      "question_number": 58,
+      "section": null,
+      "question_text_full": "Two pipes, A and B, can fill a tank in 10 minutes and 20 minutes, respectively. The pipe C can empty the tank in 30 minutes. All three pipes are opened at the beginning, but pipe C is closed 2 minutes before the tank is filled. In what time will the tank be full (in minutes)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options were labeled a, b, c, d in the image; mapped to 1, 2, 3, 4."
+    },
+    {
+      "question_number": 59,
+      "section": null,
+      "question_text_full": "A payment of ₹120 is made with ₹10, ₹5, and ₹2 coins. A total of 25 coins are used. Which of the following is the number of ₹10 coins used in the payment?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options were labeled a, b, c, d in the image; mapped to 1, 2, 3, 4."
+    },
+    {
+      "question_number": 60,
+      "section": null,
+      "question_text_full": "If 28.9 : x :: x : 36.1, and x > 0, then find the value of x.",
+      "options": [
+        {
+          "label": "1",
+          "text": "38.3"
+        },
+        {
+          "label": "2",
+          "text": "30.4"
+        },
+        {
+          "label": "3",
+          "text": "32.3"
+        },
+        {
+          "label": "4",
+          "text": "35"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options were labeled a, b, c, d in the image; mapped to 1, 2, 3, 4."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

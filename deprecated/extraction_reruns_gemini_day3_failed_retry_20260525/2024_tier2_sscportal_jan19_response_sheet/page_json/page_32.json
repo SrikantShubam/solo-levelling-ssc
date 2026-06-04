@@ -1,0 +1,104 @@
+{
+  "page": 32,
+  "questions": [
+    {
+      "question_number": 88,
+      "section": null,
+      "question_text_full": "In a one-way ANOVA, which of the following would indicate a violation of the normality assumption?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Equal variances across groups"
+        },
+        {
+          "label": "2",
+          "text": "Residuals showing a skewed distribution"
+        },
+        {
+          "label": "3",
+          "text": "Residuals randomly distributed"
+        },
+        {
+          "label": "4",
+          "text": "Independent observations"
+        }
+      ],
+      "question_id": "6306801294764",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "Residuals showing a skewed distribution",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 89,
+      "section": null,
+      "question_text_full": "What is the main assumption of the ratio-to-moving-averages method?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Seasonal effects are multiplicative."
+        },
+        {
+          "label": "2",
+          "text": "Random components dominate the time series."
+        },
+        {
+          "label": "3",
+          "text": "The trend is constant over time."
+        },
+        {
+          "label": "4",
+          "text": "The seasonal component is additive."
+        }
+      ],
+      "question_id": "6306801302293",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "The seasonal component is additive.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 90,
+      "section": null,
+      "question_text_full": "For an experiment with sample space S, the events Ai, i = 1, 2, 3, .... are mutually exclusive and exhaustive if:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ui Ai = S"
+        },
+        {
+          "label": "2",
+          "text": "Ai ∩ Aj = Ø for i ≠ j"
+        },
+        {
+          "label": "3",
+          "text": "Ui Ai = S and Ai ∪ Aj = Ø for i ≠ j"
+        },
+        {
+          "label": "4",
+          "text": "Ui Ai = S and Ai ∩ Aj = Ø for i ≠ j"
+        }
+      ],
+      "question_id": "6306801352926",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Ui Ai = S and Ai ∩ Aj = Ø for i ≠ j",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

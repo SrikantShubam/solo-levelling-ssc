@@ -1,0 +1,44 @@
+{
+  "page": 56,
+  "questions": [
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Which of the following is an example of the input device in a computer?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Monitor"
+        },
+        {
+          "label": "2",
+          "text": "Touchscreen"
+        },
+        {
+          "label": "3",
+          "text": "Printer"
+        },
+        {
+          "label": "4",
+          "text": "Speaker"
+        }
+      ],
+      "question_id": "264330183371",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Touchscreen",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

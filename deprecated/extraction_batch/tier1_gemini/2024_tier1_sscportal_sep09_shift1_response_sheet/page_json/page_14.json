@@ -1,0 +1,126 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "__________ is an industry association and self-regulatory organisation (SRO) whose primary objective is to work towards the robust development of the microfinance sector.",
+      "options": [
+        {
+          "label": "1",
+          "text": "NABARD"
+        },
+        {
+          "label": "2",
+          "text": "Self-help Group Association"
+        },
+        {
+          "label": "3",
+          "text": "Microfinance and Investments Regulatory Authority"
+        },
+        {
+          "label": "4",
+          "text": "Microfinance Institutions Network"
+        }
+      ],
+      "question_id": "630680145289",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "Microfinance Institutions Network",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Which article has a similar provision to that of Article 32 and deals with writ jurisdiction?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Article 228"
+        },
+        {
+          "label": "2",
+          "text": "Article 227"
+        },
+        {
+          "label": "3",
+          "text": "Article 226"
+        },
+        {
+          "label": "4",
+          "text": "Article 225"
+        }
+      ],
+      "question_id": "630680229954",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Article 226",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Which of the following is NOT a condition for the President's office in India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "He shall not hold any office of profit."
+        },
+        {
+          "label": "2",
+          "text": "The allowances shall not be diminished during his term of office."
+        },
+        {
+          "label": "3",
+          "text": "He shall not be entitled, without payment of rent, to use his official residence."
+        },
+        {
+          "label": "4",
+          "text": "He shall not be a member of either House of the Parliament."
+        }
+      ],
+      "question_id": "630680302219",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "He shall not be entitled, without payment of rent, to use his official residence.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Which of the following statements best defines the monoecious?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A flower with gynoecium only"
+        },
+        {
+          "label": "2",
+          "text": "A flower with androecium only"
+        },
+        {
+          "label": "3",
+          "text": "A flower with both androecium and gynoecium"
+        },
+        {
+          "label": "4",
+          "text": "A flower with dithecous"
+        }
+      ],
+      "question_id": "630680210518",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "A flower with both androecium and gynoecium",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

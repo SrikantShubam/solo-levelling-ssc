@@ -1,0 +1,96 @@
+{
+  "page": 23,
+  "questions": [
+    {
+      "question_number": 7,
+      "section": "Comprehension",
+      "question_text_full": "In the following passage some words have been deleted. Fill in the blanks with the help of the alternatives given. Select the most appropriate option for each blank. Communication plays a (1)______ role in the overall development of man. It can be learnt by our (2)______ efforts. Today, success in our professional life depends on our (3)______ to read, write and speak well which results in effective communication. Barriers (4)______ communication hinder the communication process. It is very important to (5)______ these barriers so that the transmission of the message can be smooth. Select the most appropriate option for blank No. 1",
+      "options": [
+        {
+          "label": "1",
+          "text": "better"
+        },
+        {
+          "label": "2",
+          "text": "vital"
+        },
+        {
+          "label": "3",
+          "text": "total"
+        },
+        {
+          "label": "4",
+          "text": "lifeless"
+        }
+      ],
+      "question_id": "12356883",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "vital",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 8,
+      "section": "Comprehension",
+      "question_text_full": "In the following passage some words have been deleted. Fill in the blanks with the help of the alternatives given. Select the most appropriate option for each blank. Communication plays a (1)______ role in the overall development of man. It can be learnt by our (2)______ efforts. Today, success in our professional life depends on our (3)______ to read, write and speak well which results in effective communication. Barriers (4)______ communication hinder the communication process. It is very important to (5)______ these barriers so that the transmission of the message can be smooth. Select the most appropriate option for blank No. 2",
+      "options": [
+        {
+          "label": "1",
+          "text": "contradictory"
+        },
+        {
+          "label": "2",
+          "text": "unclear"
+        },
+        {
+          "label": "3",
+          "text": "important"
+        },
+        {
+          "label": "4",
+          "text": "conscious"
+        }
+      ],
+      "question_id": "12356884",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "conscious",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 9,
+      "section": "Comprehension",
+      "question_text_full": "In the following passage some words have been deleted. Fill in the blanks with the help of the alternatives given. Select the most appropriate option for each blank. Communication plays a (1)______ role in the overall development of man. It can be learnt by our (2)______ efforts. Today, success in our professional life depends on our (3)______ to read, write and speak well which results in effective communication. Barriers (4)______ communication hinder the communication process. It is very important to (5)______ these barriers so that the transmission of the message can be smooth. Select the most appropriate option for blank No. 3",
+      "options": [
+        {
+          "label": "1",
+          "text": "variety"
+        },
+        {
+          "label": "2",
+          "text": "agility"
+        },
+        {
+          "label": "3",
+          "text": "ability"
+        },
+        {
+          "label": "4",
+          "text": "facility"
+        }
+      ],
+      "question_id": "12356885",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "ability",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

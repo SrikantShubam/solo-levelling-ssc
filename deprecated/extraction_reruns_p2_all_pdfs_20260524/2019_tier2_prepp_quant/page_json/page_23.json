@@ -1,0 +1,126 @@
+{
+  "page": 23,
+  "questions": [
+    {
+      "question_number": 80,
+      "section": null,
+      "question_text_full": "Study the given graph and answer the question that follows. Break up for distribution (degree wise) of the employees working in five departments (A, B, C, D and E) in a company. Total number of employees = 3000. The number of employees in department B is what per cent of the total number of employees working in departments D and E?",
+      "options": [
+        {
+          "label": "1",
+          "text": "48.6"
+        },
+        {
+          "label": "2",
+          "text": "45.8"
+        },
+        {
+          "label": "3",
+          "text": "50.4"
+        },
+        {
+          "label": "4",
+          "text": "49.2"
+        }
+      ],
+      "question_id": "8161615376",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "49.2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 81,
+      "section": null,
+      "question_text_full": "If the 5-digit number 535ab is divisible by 3, 7 and 11, then what is the value of ( a^2 - b^2 + ab )?",
+      "options": [
+        {
+          "label": "1",
+          "text": "83"
+        },
+        {
+          "label": "2",
+          "text": "89"
+        },
+        {
+          "label": "3",
+          "text": "95"
+        },
+        {
+          "label": "4",
+          "text": "77"
+        }
+      ],
+      "question_id": "8161615280",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "95",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 82,
+      "section": null,
+      "question_text_full": "If the radius of the base of a right circular cylinder is increased by 20% and the height is decreased by 30%, then what is the percentage increase/decrease in the volume?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Decrease 0.8%"
+        },
+        {
+          "label": "2",
+          "text": "Increase 2%"
+        },
+        {
+          "label": "3",
+          "text": "Increase 0.8%"
+        },
+        {
+          "label": "4",
+          "text": "Decrease 2%"
+        }
+      ],
+      "question_id": "8161615356",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Increase 0.8%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 83,
+      "section": null,
+      "question_text_full": "The area (in sq. units) of the triangle formed by the graphs of 8x + 3y = 24, 2x + 8 = y and the x-axis is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "14"
+        },
+        {
+          "label": "2",
+          "text": "28"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "24"
+        }
+      ],
+      "question_id": "8161615333",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "28",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

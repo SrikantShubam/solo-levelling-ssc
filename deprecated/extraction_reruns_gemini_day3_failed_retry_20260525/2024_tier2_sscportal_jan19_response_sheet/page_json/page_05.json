@@ -1,0 +1,104 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Let X and Y be two independent Poisson variates with rate 5 and 10, respectively, then the E(XY=2) is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.5"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "question_id": "6306801352810",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "The mean of a residual error in a one way classified data analysis is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "-1"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "question_id": "6306801352853",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "0",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "If the angle between two lines of regression is 90°, then correlation coefficient is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1"
+        },
+        {
+          "label": "2",
+          "text": "1/2"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "-1"
+        }
+      ],
+      "question_id": "6306801352944",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "0",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

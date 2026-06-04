@@ -1,0 +1,156 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "When was ‘Vayudoot’ airline setup in India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1981"
+        },
+        {
+          "label": "2",
+          "text": "1991"
+        },
+        {
+          "label": "3",
+          "text": "1971"
+        },
+        {
+          "label": "4",
+          "text": "1969"
+        }
+      ],
+      "question_id": "26433089226",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "1981",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Wearing away of landscape by different agents like water, wind and ice is called ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Weathering"
+        },
+        {
+          "label": "2",
+          "text": "Erosion"
+        },
+        {
+          "label": "3",
+          "text": "Metamorphosis"
+        },
+        {
+          "label": "4",
+          "text": "Sedimentation"
+        }
+      ],
+      "question_id": "264330105645",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Erosion",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Who has been appointed as the new chairman of the Central Board of Direct Taxes in June 2022?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Nitin Gupta"
+        },
+        {
+          "label": "2",
+          "text": "Nidhi Chibber"
+        },
+        {
+          "label": "3",
+          "text": "Ashish Jha"
+        },
+        {
+          "label": "4",
+          "text": "M Jagadesh Kumar"
+        }
+      ],
+      "question_id": "264330105322",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Nitin Gupta",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Who among the following is known as ‘Sarod Samrat’ in Indian Classical Music?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Pandit Ravishankar Prasad"
+        },
+        {
+          "label": "2",
+          "text": "Aamir Ali Khan"
+        },
+        {
+          "label": "3",
+          "text": "Amjad Ali Khan"
+        },
+        {
+          "label": "4",
+          "text": "Kishan Maharaj"
+        }
+      ],
+      "question_id": "26433074115",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Amjad Ali Khan",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Which of the following is NOT one of the methods of national income estimation?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Banking method"
+        },
+        {
+          "label": "2",
+          "text": "Expenditure method"
+        },
+        {
+          "label": "3",
+          "text": "Product method"
+        },
+        {
+          "label": "4",
+          "text": "Income method"
+        }
+      ],
+      "question_id": "264330105359",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Banking method",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

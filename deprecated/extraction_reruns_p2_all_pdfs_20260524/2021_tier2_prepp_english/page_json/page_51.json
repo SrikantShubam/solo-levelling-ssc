@@ -1,0 +1,96 @@
+{
+  "page": 51,
+  "questions": [
+    {
+      "question_number": 79,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice.\nNothing can be achieved without hard work.",
+      "options": [
+        {
+          "label": "1",
+          "text": "One has achieved nothing without hard work."
+        },
+        {
+          "label": "2",
+          "text": "One will achieve nothing without hard work."
+        },
+        {
+          "label": "3",
+          "text": "One could achieve nothing without hard work."
+        },
+        {
+          "label": "4",
+          "text": "One can achieve nothing without hard work."
+        }
+      ],
+      "question_id": "26433083187",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "One can achieve nothing without hard work.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 80,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order forming a meaningful and coherent paragraph.\nA. And every time I stood under the shower, she shouted, “Don't waste water.”\nB. She had poisoned my mind with the lectures on social awareness, equal rights for the poor, India's socio-ecological problems.\nC. Every time I was about to take my first bite of a hot buttered Roti she reminded me of the starving millions in our country and in the whole wide world.\nD. It was Priyanka's fault - that stupid sister of mine- the social activist.",
+      "options": [
+        {
+          "label": "1",
+          "text": "DBCA"
+        },
+        {
+          "label": "2",
+          "text": "DACB"
+        },
+        {
+          "label": "3",
+          "text": "ADBC"
+        },
+        {
+          "label": "4",
+          "text": "CDAB"
+        }
+      ],
+      "question_id": "26433083480",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "DBCA",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 81,
+      "section": null,
+      "question_text_full": "Select the word which means the same as the group of words given.\na book or set of books giving information on many subjects or on many aspects of one subject and typically arranged alphabetically.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Glossary"
+        },
+        {
+          "label": "2",
+          "text": "Dictionary"
+        },
+        {
+          "label": "3",
+          "text": "Encyclopedia"
+        },
+        {
+          "label": "4",
+          "text": "Thesaurus"
+        }
+      ],
+      "question_id": "26433083508",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Encyclopedia",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

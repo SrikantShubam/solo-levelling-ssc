@@ -1,0 +1,96 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Six numbers 21, 22, 23, 24, 25 and 26 are written on different faces of a dice. Three positions of this dice are shown in the figure. Find the number on the face opposite to 24.",
+      "options": [
+        {
+          "label": "1",
+          "text": "26"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "22"
+        },
+        {
+          "label": "4",
+          "text": "21"
+        }
+      ],
+      "question_id": "630680296580",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "21",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "How many triangles are there in the given figure?",
+      "options": [
+        {
+          "label": "1",
+          "text": "21"
+        },
+        {
+          "label": "2",
+          "text": "20"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "19"
+        }
+      ],
+      "question_id": "630680182735",
+      "chosen_option_label": "2",
+      "correct_option_label": "1",
+      "correct_option_text": "21",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘what where how’ is written as ‘aa dd ff’; ‘where there that’ is written as ‘dd zz pp’ and ‘which what here’ is written as ‘ff kk ll’. How is ‘how’ written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "aa"
+        },
+        {
+          "label": "2",
+          "text": "kk"
+        },
+        {
+          "label": "3",
+          "text": "zz"
+        },
+        {
+          "label": "4",
+          "text": "ff"
+        }
+      ],
+      "question_id": "630680189110",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "aa",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

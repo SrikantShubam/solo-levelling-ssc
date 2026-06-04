@@ -1,0 +1,106 @@
+{
+  "page": 16,
+  "questions": [
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "Match the following -\nInstitutes\na. Asiatic Society of Bengal\nb. Sanskrit College of Benaras\nc. Fort William College\nd. Calcutta Madrasa\nTheir respective founder\n- i. Warren Hastings\n- ii. Lord Wellesley\n- iii. Jonathan Duncan\n- iv. Sir William Jones",
+      "options": [
+        {
+          "label": "1",
+          "text": "a-ii, b-i, c-iv, d-iii"
+        },
+        {
+          "label": "2",
+          "text": "a-iii, b-iv, c-i, d-ii"
+        },
+        {
+          "label": "3",
+          "text": "a-iv, b-iii, c-ii, d-i"
+        },
+        {
+          "label": "4",
+          "text": "a-i, b-ii, c-iii, d-iv"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, but mapped to 1, 2, 3, 4 for the schema."
+    },
+    {
+      "question_number": 30,
+      "section": null,
+      "question_text_full": "Kathakali, one of the classical dances of India, is predominantly performed in which of the following states of India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Assam"
+        },
+        {
+          "label": "2",
+          "text": "Manipur"
+        },
+        {
+          "label": "3",
+          "text": "Uttar Pradesh"
+        },
+        {
+          "label": "4",
+          "text": "Kerala"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, but mapped to 1, 2, 3, 4 for the schema."
+    },
+    {
+      "question_number": 31,
+      "section": null,
+      "question_text_full": "Identify the oldest iron and steel company of India from the following options.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Tata Iron & Steel Company (TISCO)"
+        },
+        {
+          "label": "2",
+          "text": "Visvesvaraya Iron & Steel Works"
+        },
+        {
+          "label": "3",
+          "text": "Indian Iron & Steel Company (IISCO)"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Only three options are visible; the fourth is missing from the page."
+    }
+  ],
+  "warnings": [
+    "Question 31 is incomplete as it only shows three options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

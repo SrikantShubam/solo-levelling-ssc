@@ -1,0 +1,156 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Who among the following is the author of the book ‘The Secret of the Veda’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sri Aurobindo"
+        },
+        {
+          "label": "2",
+          "text": "Annie Besant"
+        },
+        {
+          "label": "3",
+          "text": "Swami Vivekananda"
+        },
+        {
+          "label": "4",
+          "text": "J Krishnamurti"
+        }
+      ],
+      "question_id": "65497843517",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "Sri Aurobindo",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Pneumatophores are specialised ______ in hydrophytes.",
+      "options": [
+        {
+          "label": "1",
+          "text": "seeds"
+        },
+        {
+          "label": "2",
+          "text": "roots"
+        },
+        {
+          "label": "3",
+          "text": "fruits"
+        },
+        {
+          "label": "4",
+          "text": "flowers"
+        }
+      ],
+      "question_id": "65497842293",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "roots",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Which of the following days is celebrated as ‘World Water Day’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "22 March"
+        },
+        {
+          "label": "2",
+          "text": "29 March"
+        },
+        {
+          "label": "3",
+          "text": "18 February"
+        },
+        {
+          "label": "4",
+          "text": "5 April"
+        }
+      ],
+      "question_id": "65497843106",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "22 March",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Who among the following Rajput rulers defeated Muhammad Ghori in the First Battle of Tarain in 1191 AD?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rana Kumbha"
+        },
+        {
+          "label": "2",
+          "text": "Maldeo Rathore"
+        },
+        {
+          "label": "3",
+          "text": "Prithviraj Chauhan"
+        },
+        {
+          "label": "4",
+          "text": "Bappa Rawal"
+        }
+      ],
+      "question_id": "65497843515",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Prithviraj Chauhan",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "In which year was the ‘Lotteries Regulation Act’ passed?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1998"
+        },
+        {
+          "label": "2",
+          "text": "1993"
+        },
+        {
+          "label": "3",
+          "text": "1999"
+        },
+        {
+          "label": "4",
+          "text": "1991"
+        }
+      ],
+      "question_id": "65497843116",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "1998",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

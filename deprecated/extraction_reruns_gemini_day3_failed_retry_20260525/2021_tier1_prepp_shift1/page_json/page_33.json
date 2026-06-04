@@ -1,0 +1,15 @@
+{
+  "page": 33,
+  "questions": [],
+  "warnings": [
+    "No valid SSC question structure found on the provided page. The page contains only a list of mathematical values (a, b, c, d) and branding elements, lacking a question stem, answer options block, or selection indicators."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

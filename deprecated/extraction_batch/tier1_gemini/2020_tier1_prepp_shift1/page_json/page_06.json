@@ -1,0 +1,126 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Out of the total number of players, 100/3 % are in hotel X and the remaining are in hotel Y. If 20 players from hotel Y are shifted to hotel X, then the number of players in hotel X becomes 50% of the total number of players. If 20 players from hotel X are shifted to hotel Y, then the number of players in hotel X becomes what per cent of the total number of players?",
+      "options": [
+        {
+          "label": "1",
+          "text": "16.67%"
+        },
+        {
+          "label": "2",
+          "text": "20.67%"
+        },
+        {
+          "label": "3",
+          "text": "12.75%"
+        },
+        {
+          "label": "4",
+          "text": "26.34%"
+        }
+      ],
+      "question_id": "81616113330",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "16.67%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the option that is related to the third word in the same way as the second word is related to the first word.\nDepression : Mood :: Insomnia : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Dreams"
+        },
+        {
+          "label": "2",
+          "text": "Night"
+        },
+        {
+          "label": "3",
+          "text": "Thinking"
+        },
+        {
+          "label": "4",
+          "text": "Sleep"
+        }
+      ],
+      "question_id": "81616113822",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Sleep",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "How many triangles are there in the given figure?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "11"
+        },
+        {
+          "label": "4",
+          "text": "13"
+        }
+      ],
+      "question_id": "81616113938",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "11",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\nPNNA, RPPE, TRRI, VTTO, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "YVVU"
+        },
+        {
+          "label": "2",
+          "text": "XWWU"
+        },
+        {
+          "label": "3",
+          "text": "YUUV"
+        },
+        {
+          "label": "4",
+          "text": "XVVU"
+        }
+      ],
+      "question_id": "81616113313",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "XVVU",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

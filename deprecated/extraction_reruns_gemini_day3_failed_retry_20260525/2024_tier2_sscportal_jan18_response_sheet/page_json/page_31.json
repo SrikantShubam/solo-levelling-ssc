@@ -1,0 +1,104 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Select the correct spelling of the incorrectly spelt word in the given sentence.\nAll criminal attitudes must be niped at the bud.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Niiped"
+        },
+        {
+          "label": "2",
+          "text": "Nipped"
+        },
+        {
+          "label": "3",
+          "text": "Nipeed"
+        },
+        {
+          "label": "4",
+          "text": "Nipedd"
+        }
+      ],
+      "question_id": "6306801309320",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Nipped",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech.\nThe teacher informed that the exam had been postponed.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The teacher informs, “The exam had been postponed.”"
+        },
+        {
+          "label": "2",
+          "text": "The teacher informed, “The exam was being postponed.”"
+        },
+        {
+          "label": "3",
+          "text": "The teacher informs, “The exam has been postponed.”"
+        },
+        {
+          "label": "4",
+          "text": "The teacher informed, “The exam has been postponed.”"
+        }
+      ],
+      "question_id": "630680628022",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "The teacher informed, “The exam has been postponed.”",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Psychotherapy is a voluntary relationship between the one seeking treatment or the client and the one who treats or the therapist.\nB. The relationship is conducive for building the trust of the client so that problems may be freely discussed.\nC. The purpose of the relationship is to help the client to solve the psychological problems being faced by her or him.\nD. Psychotherapies aim at changing the maladaptive behaviours, decreasing the sense of personal distress and helping the client to adapt better to her/his environment.\nE. Inadequate marital, occupational and social adjustment also requires that major changes be made in an individual's personal environment.",
+      "options": [
+        {
+          "label": "1",
+          "text": "DCABE"
+        },
+        {
+          "label": "2",
+          "text": "EDACB"
+        },
+        {
+          "label": "3",
+          "text": "ACBDE"
+        },
+        {
+          "label": "4",
+          "text": "CDEBA"
+        }
+      ],
+      "question_id": "630680628213",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "ACBDE",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

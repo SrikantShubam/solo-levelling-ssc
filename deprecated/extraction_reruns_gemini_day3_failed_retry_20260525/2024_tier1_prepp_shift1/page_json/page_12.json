@@ -1,0 +1,106 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "In a certain code language, 'FIVE' is written as '12184410' and 'FOUR' is written as '12304236'. How will 'THREE' be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4016361110"
+        },
+        {
+          "label": "2",
+          "text": "4016361310"
+        },
+        {
+          "label": "3",
+          "text": "4016361212"
+        },
+        {
+          "label": "4",
+          "text": "4016361010"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure a"
+        },
+        {
+          "label": "2",
+          "text": "Figure b"
+        },
+        {
+          "label": "3",
+          "text": "Figure c"
+        },
+        {
+          "label": "4",
+          "text": "Figure d"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "In the following series, only one letter-cluster is incorrect. Select the incorrect letter-cluster: YCG, IMQ, SVZ, CGK, MQU",
+      "options": [
+        {
+          "label": "1",
+          "text": "SVZ"
+        },
+        {
+          "label": "2",
+          "text": "MQU"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Only two options are visible on the page."
+    }
+  ],
+  "warnings": [
+    "Question 22 is incomplete as only two options are visible on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

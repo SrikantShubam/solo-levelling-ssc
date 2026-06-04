@@ -1,0 +1,104 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "80 litres of a mixture of spirit and water in the ratio 7 : 9 is present in a container A. 20 litres of the mixture is transferred to another container B. Then the container A is filled with 20 litres of water. Then 32 litres of the mixture is again transferred to container B. The ratio of water to spirit of the mixture in container B is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "41 : 87"
+        },
+        {
+          "label": "2",
+          "text": "87 : 41"
+        },
+        {
+          "label": "3",
+          "text": "131 : 77"
+        },
+        {
+          "label": "4",
+          "text": "77 : 131"
+        }
+      ],
+      "question_id": "264330172343",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "131 : 77",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "A solid cube, whose each edge is of length 48 cm, is melted. Identical solid cubes, each of volume 64 cm³, are made out of this molten cube, without any wastage. How many such small cubes are obtained?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1728"
+        },
+        {
+          "label": "2",
+          "text": "1718"
+        },
+        {
+          "label": "3",
+          "text": "1748"
+        },
+        {
+          "label": "4",
+          "text": "1738"
+        }
+      ],
+      "question_id": "264330171148",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "1728",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "What is the value of [1/8 + {1/6 × (36/45 ÷ 24/25) - (12/21 × 14/15 ÷ 24/45)} + 27/36]?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1/36"
+        },
+        {
+          "label": "2",
+          "text": "1/72"
+        },
+        {
+          "label": "3",
+          "text": "1/108"
+        },
+        {
+          "label": "4",
+          "text": "1/27"
+        }
+      ],
+      "question_id": "264330172610",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "1/72",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

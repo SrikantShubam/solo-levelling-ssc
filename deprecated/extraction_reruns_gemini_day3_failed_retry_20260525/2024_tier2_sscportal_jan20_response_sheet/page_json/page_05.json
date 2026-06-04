@@ -1,0 +1,104 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Let PQR be a right angled triangle, right-angled at R. Let PQ = 29 cm, QR = 21 cm and ∠Q = θ. Find the value of cos ² θ – sin ² θ.",
+      "options": [
+        {
+          "label": "1",
+          "text": "41/841"
+        },
+        {
+          "label": "2",
+          "text": "841/41"
+        },
+        {
+          "label": "3",
+          "text": "840/40"
+        },
+        {
+          "label": "4",
+          "text": "40/840"
+        }
+      ],
+      "question_id": "630680526625",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "41/841",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "(a⁵ × b³ × c⁷) / (a⁴ × b⁸ × c⁹) in simplified form is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "(a⁻¹) × (b⁴) × (c⁻⁵)"
+        },
+        {
+          "label": "2",
+          "text": "(a¹) × (b⁻⁵) × (c⁻²)"
+        },
+        {
+          "label": "3",
+          "text": "(a⁻³) × (b⁻¹⁰) × (c⁻⁴)"
+        },
+        {
+          "label": "4",
+          "text": "(a⁶) × (b⁶) × (c⁻⁴)"
+        }
+      ],
+      "question_id": "630680677918",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "(a¹) × (b⁻⁵) × (c⁻²)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Which number among 38211, 38121, 32118, and 31128 is divisible by 24?",
+      "options": [
+        {
+          "label": "1",
+          "text": "32118"
+        },
+        {
+          "label": "2",
+          "text": "38121"
+        },
+        {
+          "label": "3",
+          "text": "38211"
+        },
+        {
+          "label": "4",
+          "text": "31128"
+        }
+      ],
+      "question_id": "630680650350",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "31128",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

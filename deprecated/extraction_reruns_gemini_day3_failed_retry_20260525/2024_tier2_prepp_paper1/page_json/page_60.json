@@ -1,0 +1,106 @@
+{
+  "page": 60,
+  "questions": [
+    {
+      "question_number": 119,
+      "section": null,
+      "question_text_full": "Who among the following was the first Home Minister of Independent India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sardar Vallabh Bhai Patel"
+        },
+        {
+          "label": "2",
+          "text": "Humayun Kabir"
+        },
+        {
+          "label": "3",
+          "text": "Maulana Abdul Kalam Azad"
+        },
+        {
+          "label": "4",
+          "text": "Baldev Singh"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 120,
+      "section": null,
+      "question_text_full": "What was the status of the agricultural sector in India before the Green Revolution?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Use of old technology and the absence of required infrastructure"
+        },
+        {
+          "label": "2",
+          "text": "Use of advanced technology and high productivity"
+        },
+        {
+          "label": "3",
+          "text": "Use of advanced technology and dependency on rainfall"
+        },
+        {
+          "label": "4",
+          "text": "Use of traditional technology and the abundance of required infrastructure"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 121,
+      "section": null,
+      "question_text_full": "In which year did Walter Fleming stain the chromosomes to see them clearly and describe the entire process of mitosis?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1780"
+        },
+        {
+          "label": "2",
+          "text": "1901"
+        },
+        {
+          "label": "3",
+          "text": "1882"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4 (Not visible)"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Only three options are visible in the image for question 121."
+    }
+  ],
+  "warnings": [
+    "Question 121 is incomplete as it only shows three options in the provided image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

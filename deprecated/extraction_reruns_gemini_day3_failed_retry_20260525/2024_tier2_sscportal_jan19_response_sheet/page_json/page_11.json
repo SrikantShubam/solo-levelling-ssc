@@ -1,0 +1,104 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "For a normal distribution, the mean deviation is minimum when deviations are taken from:",
+      "options": [
+        {
+          "label": "1",
+          "text": "mode"
+        },
+        {
+          "label": "2",
+          "text": "median"
+        },
+        {
+          "label": "3",
+          "text": "Geometric mean"
+        },
+        {
+          "label": "4",
+          "text": "mean"
+        }
+      ],
+      "question_id": "6306801352822",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "median",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "Which definition of probability is NOT applicable if the events of a random experiment are not equally likely?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Empirical definition"
+        },
+        {
+          "label": "2",
+          "text": "Axiomatic definition"
+        },
+        {
+          "label": "3",
+          "text": "Classical definition"
+        },
+        {
+          "label": "4",
+          "text": "Bayesian definition"
+        }
+      ],
+      "question_id": "6306801352844",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "Classical definition",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 30,
+      "section": null,
+      "question_text_full": "If the joint distribution of two random variables X1 and X2 is f(x1,x2) = {x1 + x2; 0 < x1,x2 < 1 {0, otherwise , then P(0 < X2 < 0.5) is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3/8"
+        },
+        {
+          "label": "2",
+          "text": "1/2"
+        },
+        {
+          "label": "3",
+          "text": "3/4"
+        },
+        {
+          "label": "4",
+          "text": "1/4"
+        }
+      ],
+      "question_id": "6306801352807",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "3/8",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

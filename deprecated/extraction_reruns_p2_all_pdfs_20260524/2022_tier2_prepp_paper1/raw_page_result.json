@@ -1,0 +1,2777 @@
+[
+  {
+    "page": 1,
+    "questions": [
+      {
+        "question_number": 1,
+        "section": "Mathematical Abilities",
+        "question_text_full": "There are three taps of diameter 2 cm, 3 cm and 4 cm, respectively. The ratio of the water flowing through them is equal to the ratio of the square of their diameters. The biggest tap can fill an empty tank alone in 81 min. If all the taps are opened simultaneously, then how long will the tank take (in min) to be filled?",
+        "options": [
+          {
+            "label": "1",
+            "text": "34 20/29"
+          },
+          {
+            "label": "2",
+            "text": "64 20/29"
+          },
+          {
+            "label": "3",
+            "text": "54 20/29"
+          },
+          {
+            "label": "4",
+            "text": "44 20/29"
+          }
+        ],
+        "question_id": "264330122816",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "44 20/29",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 2,
+        "section": "Mathematical Abilities",
+        "question_text_full": "Two numbers are, respectively, 10% and 25% more than the third number. The ratio of the two numbers is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "22 : 25"
+          },
+          {
+            "label": "2",
+            "text": "19 : 25"
+          },
+          {
+            "label": "3",
+            "text": "23 : 25"
+          },
+          {
+            "label": "4",
+            "text": "18 : 25"
+          }
+        ],
+        "question_id": "26433056318",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "22 : 25",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 3,
+        "section": "Mathematical Abilities",
+        "question_text_full": "A, B and C did certain investments and the ratio of their time periods is 3 : 2 : 7 respectively. Ratio of the profits of A, B and C is 4 : 3 : 14 respectively. What is the ratio of the investments of A, B and C?",
+        "options": [
+          {
+            "label": "1",
+            "text": "1:3:4"
+          },
+          {
+            "label": "2",
+            "text": "7:9:11"
+          },
+          {
+            "label": "3",
+            "text": "8:9:12"
+          },
+          {
+            "label": "4",
+            "text": "2:3:11"
+          }
+        ],
+        "question_id": "264330121715",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "8:9:12",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 2,
+    "questions": [
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "A bike is sold for ₹87,500 by allowing a discount of 44% on its marked price. The marked price (in ₹) of the bike is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "1,56,100"
+          },
+          {
+            "label": "2",
+            "text": "1,58,225"
+          },
+          {
+            "label": "3",
+            "text": "1,56,250"
+          },
+          {
+            "label": "4",
+            "text": "1,55,500"
+          }
+        ],
+        "question_id": "264330121708",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "1,56,250",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "A,B, C are three points such that AB = 9 cm, BC = 11 cm and AC = 20 cm. The number of circles passing through points A,B,C is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "2"
+          },
+          {
+            "label": "2",
+            "text": "0"
+          },
+          {
+            "label": "3",
+            "text": "1"
+          },
+          {
+            "label": "4",
+            "text": "3"
+          }
+        ],
+        "question_id": "264330126437",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "0",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "A glass jar contains 6 white, 8 black, 4 red and 3 blue marbles. If a single marble is chosen at random from the jar, what is the probability that it is black or blue?",
+        "options": [
+          {
+            "label": "1",
+            "text": "8/21"
+          },
+          {
+            "label": "2",
+            "text": "11/21"
+          },
+          {
+            "label": "3",
+            "text": "5/21"
+          },
+          {
+            "label": "4",
+            "text": "1/7"
+          }
+        ],
+        "question_id": "264330121737",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "11/21",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 3,
+    "questions": [
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Find the mode for the given distribution (rounded off to two decimal places).\nClass Interval: 5-10, 10-15, 15-20, 20-25, 25-30, 30-35\nFrequency: 8, 7, 6, 9, 11, 10",
+        "options": [
+          {
+            "label": "1",
+            "text": "35.25"
+          },
+          {
+            "label": "2",
+            "text": "40.25"
+          },
+          {
+            "label": "3",
+            "text": "30.33"
+          },
+          {
+            "label": "4",
+            "text": "28.33"
+          }
+        ],
+        "question_id": "264330121734",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "28.33",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "If interest be compounded half-yearly, then find the compound interest on ₹8,000 at the rate of 20% per annum for 1 year.",
+        "options": [
+          {
+            "label": "1",
+            "text": "₹1,675"
+          },
+          {
+            "label": "2",
+            "text": "₹1,690"
+          },
+          {
+            "label": "3",
+            "text": "₹1,685"
+          },
+          {
+            "label": "4",
+            "text": "₹1,680"
+          }
+        ],
+        "question_id": "264330126383",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "₹1,680",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "A basket contains 350 eggs. If 12% of the eggs are rotten, how many eggs are good enough to be sold?",
+        "options": [
+          {
+            "label": "1",
+            "text": "408"
+          },
+          {
+            "label": "2",
+            "text": "310"
+          },
+          {
+            "label": "3",
+            "text": "308"
+          },
+          {
+            "label": "4",
+            "text": "410"
+          }
+        ],
+        "question_id": "26433066357",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "308",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "A circle touches all four sides of a quadrilateral ABCD. If AB = 18 cm, BC = 21 cm and AD = 15 cm, then length CD is:",
+        "options": [
+          {
+            "label": "1",
+            "text": "16 cm"
+          },
+          {
+            "label": "2",
+            "text": "14 cm"
+          },
+          {
+            "label": "3",
+            "text": "12 cm"
+          },
+          {
+            "label": "4",
+            "text": "18 cm"
+          }
+        ],
+        "question_id": "264330121661",
+        "chosen_option_label": "3",
+        "correct_option_label": "4",
+        "correct_option_text": "18 cm",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 4,
+    "questions": [
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "What is the volume of the largest sphere that can be carved out of a wooden cube of sides 21 cm? (π = 22/7)",
+        "options": [
+          {
+            "label": "1",
+            "text": "3851 cm³"
+          },
+          {
+            "label": "2",
+            "text": "6858 cm³"
+          },
+          {
+            "label": "3",
+            "text": "4851 cm³"
+          },
+          {
+            "label": "4",
+            "text": "5821 cm³"
+          }
+        ],
+        "question_id": "264330123009",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "4851 cm³",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "Find the value of the given expression. √8 + √1681",
+        "options": [
+          {
+            "label": "1",
+            "text": "5"
+          },
+          {
+            "label": "2",
+            "text": "6"
+          },
+          {
+            "label": "3",
+            "text": "4"
+          },
+          {
+            "label": "4",
+            "text": "7"
+          }
+        ],
+        "question_id": "264330121642",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "7",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Find the value of given expression. 30 - [40 - {56 - (25 - 13 - 12)}]",
+        "options": [
+          {
+            "label": "1",
+            "text": "38"
+          },
+          {
+            "label": "2",
+            "text": "22"
+          },
+          {
+            "label": "3",
+            "text": "14"
+          },
+          {
+            "label": "4",
+            "text": "46"
+          }
+        ],
+        "question_id": "264330122828",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "46",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "The ratio of the incomes of two employees is 7 : 4, and the ratio of their expenditures is 3 : 1. If each of them manages to save ₹4,800 per month, find the sum of their monthly incomes (in ₹).",
+        "options": [
+          {
+            "label": "1",
+            "text": "21120"
+          },
+          {
+            "label": "2",
+            "text": "20120"
+          },
+          {
+            "label": "3",
+            "text": "21150"
+          },
+          {
+            "label": "4",
+            "text": "18150"
+          }
+        ],
+        "question_id": "264330121745",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "21120",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 5,
+    "questions": [
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "If radius of a sphere is decreased by 48%, then by what percent does its surface area decrease?",
+        "options": [
+          {
+            "label": "1",
+            "text": "82.91%"
+          },
+          {
+            "label": "2",
+            "text": "72.96%"
+          },
+          {
+            "label": "3",
+            "text": "78.98%"
+          },
+          {
+            "label": "4",
+            "text": "86.26%"
+          }
+        ],
+        "question_id": "264330121658",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "72.96%",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "The product of the two numbers is 1500 and their HCF is 10. The number of such possible pairs is/are:",
+        "options": [
+          {
+            "label": "1",
+            "text": "1"
+          },
+          {
+            "label": "2",
+            "text": "3"
+          },
+          {
+            "label": "3",
+            "text": "4"
+          },
+          {
+            "label": "4",
+            "text": "2"
+          }
+        ],
+        "question_id": "26433090276",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "A man buys a machine for Rs.5,000. After one year, he sells it for Rs.6000. After two years, again he buys the same machine at Rs.8,000 and sells it for Rs.10,000. Find his overall profit percentage for both the transactions.",
+        "options": [
+          {
+            "label": "1",
+            "text": "20.23%"
+          },
+          {
+            "label": "2",
+            "text": "23.08%"
+          },
+          {
+            "label": "3",
+            "text": "18.75%"
+          },
+          {
+            "label": "4",
+            "text": "15.23%"
+          }
+        ],
+        "question_id": "26433058403",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "23.08%",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "Evaluate the following.\nsin 25° sin 65° – cos 25° cos 65°.",
+        "options": [
+          {
+            "label": "1",
+            "text": "4"
+          },
+          {
+            "label": "2",
+            "text": "1"
+          },
+          {
+            "label": "3",
+            "text": "0"
+          },
+          {
+            "label": "4",
+            "text": "40"
+          }
+        ],
+        "question_id": "264330126427",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "0",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 6,
+    "questions": [
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "In ΔPQR,PQ=QR and O is an interior point of ΔPQR such that ∠OPR=∠ORP.\nConsider the following statements:\n(i) ΔPQR is an isosceles triangle.\n(ii) O is the centroid of ΔPQR.\n(iii) ΔPQO is congruent to ΔRQO.\nWhich of the above statements are correct?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Only (i) and (ii)"
+          },
+          {
+            "label": "2",
+            "text": "Only (i) and (iii)"
+          },
+          {
+            "label": "3",
+            "text": "Only (ii) and (iii)"
+          },
+          {
+            "label": "4",
+            "text": "Only (ii)"
+          }
+        ],
+        "question_id": "264330121758",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Only (i) and (iii)",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "A man can row 10 km/h in still water. When the river is running at a speed of 4.5 km/h, then it takes him 2 h to row to a place and comes back to the initial point . How far is the place (in km) (rounded off to two decimal places)?",
+        "options": [
+          {
+            "label": "1",
+            "text": "5.50"
+          },
+          {
+            "label": "2",
+            "text": "8.98"
+          },
+          {
+            "label": "3",
+            "text": "7.98"
+          },
+          {
+            "label": "4",
+            "text": "6.25"
+          }
+        ],
+        "question_id": "264330121725",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "7.98",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "Find the average of the cubes of the first five natural numbers.",
+        "options": [
+          {
+            "label": "1",
+            "text": "35"
+          },
+          {
+            "label": "2",
+            "text": "40"
+          },
+          {
+            "label": "3",
+            "text": "45"
+          },
+          {
+            "label": "4",
+            "text": "50"
+          }
+        ],
+        "question_id": "26433073075",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "45",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "For what value of m will the system of equations 17x+my+102=0 and 23x+299y+138=0 have infinite number of solutions?",
+        "options": [
+          {
+            "label": "1",
+            "text": "221"
+          },
+          {
+            "label": "2",
+            "text": "223"
+          },
+          {
+            "label": "3",
+            "text": "220"
+          },
+          {
+            "label": "4",
+            "text": "219"
+          }
+        ],
+        "question_id": "264330121748",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "221",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 7,
+    "questions": [
+      {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "A rectangular park is 120 m long and 104 m wide. A 1-m wide path runs along the boundary of the park, remaining completely inside the park area. Thus, the outside edges of the path run along the boundary wall of the park. The inside edges of the path are marked with a white line of negligible thickness. If it costs ₹2.50 to mark each metre with the white line, then how much would it cost (in ₹) to fully mark the inside edges of the path?",
+        "options": [
+          {
+            "label": "1",
+            "text": "1090"
+          },
+          {
+            "label": "2",
+            "text": "1080"
+          },
+          {
+            "label": "3",
+            "text": "1120"
+          },
+          {
+            "label": "4",
+            "text": "1100"
+          }
+        ],
+        "question_id": "264330122873",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "1100",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "40 litres of milk are kept in a container. 4 litres of milk were removed from this container and replaced with water. This procedure was performed two more times. How much milk does the container now hold?",
+        "options": [
+          {
+            "label": "1",
+            "text": "30 litres"
+          },
+          {
+            "label": "2",
+            "text": "34.23 litres"
+          },
+          {
+            "label": "3",
+            "text": "29.16 litres"
+          },
+          {
+            "label": "4",
+            "text": "32 litres"
+          }
+        ],
+        "question_id": "26433057120",
+        "chosen_option_label": "4",
+        "correct_option_label": "3",
+        "correct_option_text": "29.16 litres",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 25,
+        "section": null,
+        "question_text_full": "The difference of simple interest from two banks on ₹8,000 in 3 years is ₹800. If the rate of interest per annum in two banks are R1 and R2, then what is the value of R1 - R2? (Where R1 > R2)",
+        "options": [
+          {
+            "label": "1",
+            "text": "5 1/3 %"
+          },
+          {
+            "label": "2",
+            "text": "3 1/3 %"
+          },
+          {
+            "label": "3",
+            "text": "1 1/3 %"
+          },
+          {
+            "label": "4",
+            "text": "2 1/3 %"
+          }
+        ],
+        "question_id": "264330121648",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "3 1/3 %",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 8,
+    "questions": [
+      {
+        "question_number": 26,
+        "section": null,
+        "question_text_full": "If tan(A + B) = √3 and tan(A - B) = 1/√3; 0° < (A + B) < 90°; A > B, then the values of A and B are ________, respectively.",
+        "options": [
+          {
+            "label": "1",
+            "text": "45° and 15°"
+          },
+          {
+            "label": "2",
+            "text": "15° and 45°"
+          },
+          {
+            "label": "3",
+            "text": "30° and 30°"
+          },
+          {
+            "label": "4",
+            "text": "60° and 30°"
+          }
+        ],
+        "question_id": "264330126431",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "45° and 15°",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 27,
+        "section": null,
+        "question_text_full": "Two ships are on the opposite of a light house such that all three of them are collinear. The angles of depression of the two ships from the top of the light house are 30° and 60°. If the ships are 230√3 m apart, then find the height of the light house (in m).",
+        "options": [
+          {
+            "label": "1",
+            "text": "175.4"
+          },
+          {
+            "label": "2",
+            "text": "165.2"
+          },
+          {
+            "label": "3",
+            "text": "172.5"
+          },
+          {
+            "label": "4",
+            "text": "180.5"
+          }
+        ],
+        "question_id": "264330122824",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "172.5",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 28,
+        "section": null,
+        "question_text_full": "The arithmetic mean of the following data is ________. 23, 17,20,19,21",
+        "options": [
+          {
+            "label": "1",
+            "text": "20"
+          },
+          {
+            "label": "2",
+            "text": "19"
+          },
+          {
+            "label": "3",
+            "text": "23"
+          },
+          {
+            "label": "4",
+            "text": "21"
+          }
+        ],
+        "question_id": "264330126395",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "20",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 29,
+        "section": null,
+        "question_text_full": "The number 5769116 is divisible by which of the following numbers?",
+        "options": [
+          {
+            "label": "1",
+            "text": "4"
+          },
+          {
+            "label": "2",
+            "text": "5"
+          },
+          {
+            "label": "3",
+            "text": "12"
+          },
+          {
+            "label": "4",
+            "text": "8"
+          }
+        ],
+        "question_id": "264330126419",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 9,
+    "questions": [
+      {
+        "question_number": 30,
+        "section": null,
+        "question_text_full": "If 1/x + x = 4, then find 1/x^2 + x^2.",
+        "options": [
+          {
+            "label": "1",
+            "text": "14"
+          },
+          {
+            "label": "2",
+            "text": "5"
+          },
+          {
+            "label": "3",
+            "text": "7"
+          },
+          {
+            "label": "4",
+            "text": "15"
+          }
+        ],
+        "question_id": "26433074357",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "14",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 1,
+        "section": "Reasoning and General Intelligence",
+        "question_text_full": "'A # B' means 'A is the brother of B'.\n'A @ B' means 'A is the daughter of B'.\n'A & B' means 'A is the husband of B'.\n'A % B' means 'A is the wife of B'.\nIf D @ N @ H & Y @ F % V, then how is N related to F?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Son's wife"
+          },
+          {
+            "label": "2",
+            "text": "Daughter"
+          },
+          {
+            "label": "3",
+            "text": "Daughter's daughter"
+          },
+          {
+            "label": "4",
+            "text": "Sister's daughter"
+          }
+        ],
+        "question_id": "264330126287",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Daughter's daughter",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 2,
+        "section": "Reasoning and General Intelligence",
+        "question_text_full": "The second number in the given number-pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) is/are followed in all the number-pairs except one. Find that odd number-pair.",
+        "options": [
+          {
+            "label": "1",
+            "text": "5 : 128"
+          },
+          {
+            "label": "2",
+            "text": "3 : 30"
+          },
+          {
+            "label": "3",
+            "text": "7 : 352"
+          },
+          {
+            "label": "4",
+            "text": "1 : 4"
+          }
+        ],
+        "question_id": "264330126254",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "7 : 352",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 3,
+        "section": "Reasoning and General Intelligence",
+        "question_text_full": "Six friends A, B, C, D, E and F are standing in a circle facing the centre. B is between F and C, A is between E and D, and F is to the immediate left of D. Who is between A and F?",
+        "options": [
+          {
+            "label": "1",
+            "text": "D"
+          },
+          {
+            "label": "2",
+            "text": "E"
+          },
+          {
+            "label": "3",
+            "text": "C"
+          },
+          {
+            "label": "4",
+            "text": "B"
+          }
+        ],
+        "question_id": "26433081996",
+        "chosen_option_label": "2",
+        "correct_option_label": "1",
+        "correct_option_text": "D",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 10,
+    "questions": [
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "Select the correct mirror image of the given combination when the mirror is placed at 'PQ' as shown below. mS5aT7rakr",
+        "options": [
+          {
+            "label": "1",
+            "text": "mS5aT7raKr"
+          },
+          {
+            "label": "2",
+            "text": "rʞɒɿTɒƧm"
+          },
+          {
+            "label": "3",
+            "text": "ʞɒɿTɒƧm"
+          },
+          {
+            "label": "4",
+            "text": "wƨƨɒT7ɿɒʞ"
+          }
+        ],
+        "question_id": "264330126296",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "rʞɒɿTɒƧm",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "The options are visual representations of mirror images."
+      },
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "In this question, a statement is followed by two courses of action, numbered I and II. You must assume everything in the statement to be true and on the basis of the information given in the statement, decide which course of action/s logically follows for pursuing. Statement: A large number of the people of the city are diagnosed to be suffering from Malaria disease. Course of Action: I. The city municipal authorities should take immediate steps to carry out extensive fumigation in the city. II. The people in the area should be advised to take steps to avoid mosquito bites.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Both I and II follow"
+          },
+          {
+            "label": "2",
+            "text": "Only II follows"
+          },
+          {
+            "label": "3",
+            "text": "Only I follows"
+          },
+          {
+            "label": "4",
+            "text": "Neither I nor II follows"
+          }
+        ],
+        "question_id": "264330123207",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Both I and II follow",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "Given below is a question followed by two statements I and II. Read both the statements carefully to decide which one of them is sufficient to answer the question. Six people - K, M, N, P, Q and R are sitting around a circular table facing the centre. Who sits to the immediate right of K? (I) K sits third to the left of M. Only one person sits between K and N. R sits to the immediate left of N. (II) K sits second to the right of Q. Only two people sit between K and M. P sits second to the left of R.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Data in statement I alone is sufficient to answer the question while data in statement II is not."
+          },
+          {
+            "label": "2",
+            "text": "Either data in statement I or statement II is sufficient to answer the question."
+          },
+          {
+            "label": "3",
+            "text": "Data in statements I and II together are sufficient to answer the question."
+          },
+          {
+            "label": "4",
+            "text": "Data in statement II alone is sufficient to answer the question while data in statement I is not."
+          }
+        ],
+        "question_id": "264330121435",
+        "chosen_option_label": "1",
+        "correct_option_label": "2",
+        "correct_option_text": "Either data in statement I or statement II is sufficient to answer the question.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 11,
+    "questions": [
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "If + means –, – means ×, × means ÷, and ÷ means +, what will be the value of the following expression?\n5 ÷ 5 + 5 – 10 × 10 = ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "15"
+          },
+          {
+            "label": "2",
+            "text": "4"
+          },
+          {
+            "label": "3",
+            "text": "5"
+          },
+          {
+            "label": "4",
+            "text": "10"
+          }
+        ],
+        "question_id": "26433068611",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "5",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "A question is given, followed by two statements numbered (I) and (II). You have to decide whether the data provided in the statements is sufficient to answer the question. Read both the statements and select the appropriate answer.\nQuestion: Six people sit in two parallel rows. In Row 1 - J, K and L sit facing towards north, and in Row 2 - F, G and H sit facing towards south. Each person in a row faces a person in the other row. Who faces G?\nStatements:\n(I) H faces K; L faces an immediate neighbour of H.\n(II) G sits at one of the extreme ends of the row; J sits to the immediate left of L.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Data in statements I and II together is sufficient to answer the question"
+          },
+          {
+            "label": "2",
+            "text": "Data in statement II alone is sufficient to answer the question while data in statement I is not"
+          },
+          {
+            "label": "3",
+            "text": "Data in statement I alone is sufficient to answer the question while data in statement II is not"
+          },
+          {
+            "label": "4",
+            "text": "Data in either statement I alone or statement II alone is sufficient to answer the question"
+          }
+        ],
+        "question_id": "264330121195",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Data in statements I and II together is sufficient to answer the question",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series.\n58, 179, ?, 492, 688",
+        "options": [
+          {
+            "label": "1",
+            "text": "300"
+          },
+          {
+            "label": "2",
+            "text": "269"
+          },
+          {
+            "label": "3",
+            "text": "313"
+          },
+          {
+            "label": "4",
+            "text": "323"
+          }
+        ],
+        "question_id": "26433074538",
+        "chosen_option_label": null,
+        "correct_option_label": "4",
+        "correct_option_text": "323",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 12,
+    "questions": [
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "Three of the following words are alike in some manner and hence form a group. Which word does NOT belong to that group? (The words must be considered as meaningful English words and must not be grouped based on the number of letters/number of consonants/vowels in the word)",
+        "options": [
+          {
+            "label": "1",
+            "text": "Excel"
+          },
+          {
+            "label": "2",
+            "text": "Keynote"
+          },
+          {
+            "label": "3",
+            "text": "PowerPoint"
+          },
+          {
+            "label": "4",
+            "text": "Word"
+          }
+        ],
+        "question_id": "26433065633",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Keynote",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "In a certain code language, ‘PAINT’ is written as ‘80’ and ‘DROP’ is written as ‘59’. How will ‘MARKET’ be written in that language?",
+        "options": [
+          {
+            "label": "1",
+            "text": "100"
+          },
+          {
+            "label": "2",
+            "text": "85"
+          },
+          {
+            "label": "3",
+            "text": "95"
+          },
+          {
+            "label": "4",
+            "text": "90"
+          }
+        ],
+        "question_id": "264330126266",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "100",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "A number has been denoted to each of the given letters. Select the option from the following four possible arrangements of these numbers that forms a meaningful word. E = 1, Z = 2, L = 3, P = 4, U = 5, Z = 6",
+        "options": [
+          {
+            "label": "1",
+            "text": "4,5,1,6,2,3"
+          },
+          {
+            "label": "2",
+            "text": "6,1,4,3,5,2"
+          },
+          {
+            "label": "3",
+            "text": "1,5,3,4,2,6"
+          },
+          {
+            "label": "4",
+            "text": "4,5,6,2,3,1"
+          }
+        ],
+        "question_id": "264330121088",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "4,5,6,2,3,1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 13,
+    "questions": [
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Select the figure from the options that can replace the question mark (?) and complete the pattern.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "26433068218",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Figure 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Options are visual figures."
+      },
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "Select the option that represents the letters that, when placed from left to right in the following blanks, will complete the letter-series.\nQ W _ R T Q _ F R _ Q W _ _ T _ _ H R T",
+        "options": [
+          {
+            "label": "1",
+            "text": "F W T G R Q X"
+          },
+          {
+            "label": "2",
+            "text": "E X T G R Q X"
+          },
+          {
+            "label": "3",
+            "text": "E W T G R Q W"
+          },
+          {
+            "label": "4",
+            "text": "E W T H S Q W"
+          }
+        ],
+        "question_id": "264330126276",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "E W T G R Q W",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "Select the correct combination of mathematical signs to sequentially replace the * signs and balance the given equation.\n21 * 3 * 36 * 2 * 23 = 68",
+        "options": [
+          {
+            "label": "1",
+            "text": "÷ - × +"
+          },
+          {
+            "label": "2",
+            "text": "÷ × + -"
+          },
+          {
+            "label": "3",
+            "text": "+ × - ÷"
+          },
+          {
+            "label": "4",
+            "text": "× - ÷ +"
+          }
+        ],
+        "question_id": "26433068105",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "× - ÷ +",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 14,
+    "questions": [
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "The sequence of folding a piece of paper and the manner in which the folded paper has been cut is shown below. Choose a figure which would most closely resemble the unfolded form of the paper.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330126303",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Figure 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Options are visual figures."
+      },
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::? # : DKR :: PCL: %",
+        "options": [
+          {
+            "label": "1",
+            "text": "# = BNQ, % = NFM"
+          },
+          {
+            "label": "2",
+            "text": "# = FHT, % = NFJ"
+          },
+          {
+            "label": "3",
+            "text": "# = COQ, % = OGH"
+          },
+          {
+            "label": "4",
+            "text": "# = BNP, % = NFJ"
+          }
+        ],
+        "question_id": "264330121405",
+        "chosen_option_label": "4",
+        "correct_option_label": "2",
+        "correct_option_text": "# = FHT, % = NFJ",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "All 32 students in a class are standing in a row facing north. Akash is 12th from the right end while Priya is 18th from the left end. How many people are standing between Akash and Priya?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Two"
+          },
+          {
+            "label": "2",
+            "text": "Four"
+          },
+          {
+            "label": "3",
+            "text": "Three"
+          },
+          {
+            "label": "4",
+            "text": "Five"
+          }
+        ],
+        "question_id": "264330121142",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Two",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 15,
+    "questions": [
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "Select the option in which the following figure is embedded. (Rotation is NOT allowed)",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330121391",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Figure 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "The question asks to identify the embedded figure. Option 1 is marked with a green tick."
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 16,
+    "questions": [
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "Three Statements are given followed by four conclusions numbered 1, 2, 3,and 4. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusions logically does NOT follow(s) from the statements.\nStatements:\nAll P are G.\nSome G are B.\nAll B are C.\nConclusions:\n1) All P being C is a possibility.\n2) Some P are B.\n3) Some C are G.\n4) Some G are P.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Only 3 does not follow."
+          },
+          {
+            "label": "2",
+            "text": "Only 4 does not follow."
+          },
+          {
+            "label": "3",
+            "text": "Only 2 does not follow."
+          },
+          {
+            "label": "4",
+            "text": "Only 1 does not follow."
+          }
+        ],
+        "question_id": "26433069182",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Only 2 does not follow.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "In this question, two statements I and II have been given. These statements may be independent causes or effects of independent causes or a common cause. One of the statements maybe the effect of the other statement. Read both statements and select the correct answer.\nI. This year College X reduced the cut-off marks to 50 from 60 for the entrance exam.\nII. In the last two years, the Students Union in College X has been actively negotiating with the college administration regarding the Quality of food and Health and Hygiene standards at the College Canteen.",
+        "options": [
+          {
+            "label": "1",
+            "text": "II is the cause and I is its possible effect"
+          },
+          {
+            "label": "2",
+            "text": "I is the cause and II is its possible effect"
+          },
+          {
+            "label": "3",
+            "text": "Both I and II are effects of independent causes"
+          },
+          {
+            "label": "4",
+            "text": "Both I and II are independent causes"
+          }
+        ],
+        "question_id": "264330121453",
+        "chosen_option_label": "4",
+        "correct_option_label": "3",
+        "correct_option_text": "Both I and II are effects of independent causes",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "‘A # B’ means ‘A is the brother of B’.\n‘A @ B’ means ‘A is the daughter of B’.\n‘A & B’ means ‘A is the husband of B’.\n‘A % B’ means ‘A is the wife of B’.\nIf W % D # G @ B & M @ I, then how is D related to M?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Father's father"
+          },
+          {
+            "label": "2",
+            "text": "Father"
+          },
+          {
+            "label": "3",
+            "text": "Grandson"
+          },
+          {
+            "label": "4",
+            "text": "Son"
+          }
+        ],
+        "question_id": "264330126292",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Son",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 17,
+    "questions": [
+      {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "Out of the following five figures, four are alike in some manner and one differs from these in that manner. Select the odd figure.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330128895",
+        "chosen_option_label": null,
+        "correct_option_label": "1",
+        "correct_option_text": "Figure 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "The options are represented by the four figures shown in the answer block."
+      },
+      {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is NOT allowed) (11, 33, 17), (18, 44, 21)",
+        "options": [
+          {
+            "label": "1",
+            "text": "(12, 40, 18)"
+          },
+          {
+            "label": "2",
+            "text": "(7, 32, 9)"
+          },
+          {
+            "label": "3",
+            "text": "(16, 43, 22)"
+          },
+          {
+            "label": "4",
+            "text": "(15, 34, 19)"
+          }
+        ],
+        "question_id": "264330126247",
+        "chosen_option_label": null,
+        "correct_option_label": "3",
+        "correct_option_text": "(16, 43, 22)",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 18,
+    "questions": [
+      {
+        "question_number": 25,
+        "section": null,
+        "question_text_full": "Out of the following five figures, four are alike in some manner and one differs from these in that manner. Select the odd figure.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330128889",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Figure 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "The options are represented by the four face figures provided in the answer block."
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 19,
+    "questions": [
+      {
+        "question_number": 26,
+        "section": null,
+        "question_text_full": "Figure A is related to B in a certain pattern. Following the same pattern, figure C is related to D. Study the pattern and select the figure which should be placed in place of D.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330121471",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Figure 2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "Options are visual figures."
+      },
+      {
+        "question_number": 27,
+        "section": null,
+        "question_text_full": "In a certain language, the word CLOCK is written as 4 – 13 – 17 – 4 – 12. How will you write PHONE in the same language?",
+        "options": [
+          {
+            "label": "1",
+            "text": "17 – 10 – 16 – 15 – 6"
+          },
+          {
+            "label": "2",
+            "text": "17 – 9 – 16 – 17 – 6"
+          },
+          {
+            "label": "3",
+            "text": "17 – 9 – 17 – 15 – 6"
+          },
+          {
+            "label": "4",
+            "text": "16 – 9 – 15 – 16 – 5"
+          }
+        ],
+        "question_id": "26433078842",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "17 – 9 – 17 – 15 – 6",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 20,
+    "questions": [
+      {
+        "question_number": 28,
+        "section": null,
+        "question_text_full": "In the following question, the statement is followed by two conclusions. Which of the two conclusions is/are true?\nStatement: M < K > I < J > H = G ≤ F\nConclusions: I. H= F\nII. J > G",
+        "options": [
+          {
+            "label": "1",
+            "text": "Only conclusion I is true"
+          },
+          {
+            "label": "2",
+            "text": "Both conclusions I and II are true"
+          },
+          {
+            "label": "3",
+            "text": "Only conclusion II is true"
+          },
+          {
+            "label": "4",
+            "text": "Neither conclusion I nor II is true"
+          }
+        ],
+        "question_id": "26433057325",
+        "chosen_option_label": "2",
+        "correct_option_label": "3",
+        "correct_option_text": "Only conclusion II is true",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 29,
+        "section": null,
+        "question_text_full": "Select the figure from among the given options that can replace the question mark (?) in the following series.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330101258",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Figure 2",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 21,
+    "questions": [
+      {
+        "question_number": 30,
+        "section": null,
+        "question_text_full": "Directions: A statement is given followed by two inferences I and II. You have to consider the statement to be true even if it seems to be at variance with commonly known facts. You have to decide which of the given inferences, if any, follow from the given statement.\n\nStatement:\nNational Expressway-A is the widest expressway and is used by few people. When people find an empty and wide road, people drive at high speed, which leads to accidents.\n\nInference:\nI. All accidents happen due to over speeding.\nII. High speed increases the risk of accident.",
+        "options": [
+          {
+            "label": "1",
+            "text": "If only I follows"
+          },
+          {
+            "label": "2",
+            "text": "If both I and II follow"
+          },
+          {
+            "label": "3",
+            "text": "If only II follows"
+          },
+          {
+            "label": "4",
+            "text": "If neither I nor II follows"
+          }
+        ],
+        "question_id": "264330128900",
+        "chosen_option_label": "2",
+        "correct_option_label": "3",
+        "correct_option_text": "If only II follows",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 1,
+        "section": "English Language and Comprehension",
+        "question_text_full": "Select the most appropriate ANTONYM of the underlined word.\n\nThe colossal building stood amidst the ruins bearing signs of Victorian architecture.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Enormous"
+          },
+          {
+            "label": "2",
+            "text": "Extraordinary"
+          },
+          {
+            "label": "3",
+            "text": "Quaint"
+          },
+          {
+            "label": "4",
+            "text": "Tiny"
+          }
+        ],
+        "question_id": "26433070537",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Tiny",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 2,
+        "section": "English Language and Comprehension",
+        "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\n\nWillful destruction",
+        "options": [
+          {
+            "label": "1",
+            "text": "Disaster"
+          },
+          {
+            "label": "2",
+            "text": "Combustion"
+          },
+          {
+            "label": "3",
+            "text": "Calamity"
+          },
+          {
+            "label": "4",
+            "text": "Sabotage"
+          }
+        ],
+        "question_id": "26433072320",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "Sabotage",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 22,
+    "questions": [
+      {
+        "question_number": 3,
+        "section": null,
+        "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Tigers are the largest members of the cat family. They are found in many parts of Asia.\nB. They mostly live in dark forests and sleep during the day. They come out for hunting pigs and deer by night.\nC. It is assumed that, probably, around 3,000 tigers live in the wild. This species looks spectacular and grand and they are very graceful in their movements.\nD. It is almost impossible for us to see them against a jungle background, especially when they are standing still, because of their striped coats. Unlike, most cats, the tiger likes bathing very much.",
+        "options": [
+          {
+            "label": "1",
+            "text": "ABCD"
+          },
+          {
+            "label": "2",
+            "text": "CDBA"
+          },
+          {
+            "label": "3",
+            "text": "ACBD"
+          },
+          {
+            "label": "4",
+            "text": "ADBC"
+          }
+        ],
+        "question_id": "26433070701",
+        "chosen_option_label": "1",
+        "correct_option_label": "3",
+        "correct_option_text": "ACBD",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 4,
+        "section": null,
+        "question_text_full": "Select the most appropriate option to fill in the blank.\nA good leader should be ready to ________ criticism.",
+        "options": [
+          {
+            "label": "1",
+            "text": "settle"
+          },
+          {
+            "label": "2",
+            "text": "meet"
+          },
+          {
+            "label": "3",
+            "text": "face"
+          },
+          {
+            "label": "4",
+            "text": "carry"
+          }
+        ],
+        "question_id": "26433058502",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "face",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "Select the most appropriate meaning of the highlighted idiom.\nThe youth involved in the accident escaped by the skin of his teeth.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Barely managed to escape"
+          },
+          {
+            "label": "2",
+            "text": "Very arrogant"
+          },
+          {
+            "label": "3",
+            "text": "Always taking calculated decisions"
+          },
+          {
+            "label": "4",
+            "text": "Deficiency of funds"
+          }
+        ],
+        "question_id": "264330120744",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Barely managed to escape",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "Select the correct homonym from the given options to fill in the blank.\nWhich________does the minister take to reach the Assembly?",
+        "options": [
+          {
+            "label": "1",
+            "text": "root"
+          },
+          {
+            "label": "2",
+            "text": "rot"
+          },
+          {
+            "label": "3",
+            "text": "route"
+          },
+          {
+            "label": "4",
+            "text": "riot"
+          }
+        ],
+        "question_id": "264330120788",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "route",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 23,
+    "questions": [
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "For the four-sentence (S1 to S4) paragraph below, sentences S1 and S4 are given. From the options P, Q, R and S select the appropriate sentences for S2 and S3, respectively.\n\n(S1) The men and women took their places after the initial mingling, and immediately a surge of conversation filled the room.\n(S2)\n(S3)\n(S4) One or two of the women were actually bouncing up and down on the sofa cushions.\n\n(P) So, the two parties had to lean forward, their elbows on their knees.\n(Q) At the beginning they mingled awkwardly, clutching their drinks, and walking here and there.\n(R) Several people made a last-minute dash to the bathroom before the conversation could start.\n(S) The men's chairs were far enough away from the women's couches.",
+        "options": [
+          {
+            "label": "1",
+            "text": "P, R"
+          },
+          {
+            "label": "2",
+            "text": "R, Q"
+          },
+          {
+            "label": "3",
+            "text": "Q, S"
+          },
+          {
+            "label": "4",
+            "text": "S, P"
+          }
+        ],
+        "question_id": "26433065209",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "S, P",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error from the given options. If you don't find any error, mark 'No error' as your answer.\n\nHe lived close to / the train station, / yet travelled by bus.",
+        "options": [
+          {
+            "label": "1",
+            "text": "yet travelled by bus"
+          },
+          {
+            "label": "2",
+            "text": "No error"
+          },
+          {
+            "label": "3",
+            "text": "He lived close to"
+          },
+          {
+            "label": "4",
+            "text": "the train station"
+          }
+        ],
+        "question_id": "26433061471",
+        "chosen_option_label": "1",
+        "correct_option_label": "2",
+        "correct_option_text": "No error",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "Select the most appropriate option to fill in the blank.\nVishal is going to read the story _________.",
+        "options": [
+          {
+            "label": "1",
+            "text": "load"
+          },
+          {
+            "label": "2",
+            "text": "allow"
+          },
+          {
+            "label": "3",
+            "text": "aloud"
+          },
+          {
+            "label": "4",
+            "text": "allowed"
+          }
+        ],
+        "question_id": "264330123032",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "aloud",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 24,
+    "questions": [
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nMy father give up / smoking when / I was twelve / years old.",
+        "options": [
+          {
+            "label": "1",
+            "text": "My father give up"
+          },
+          {
+            "label": "2",
+            "text": "smoking when"
+          },
+          {
+            "label": "3",
+            "text": "I was twelve"
+          },
+          {
+            "label": "4",
+            "text": "years old"
+          }
+        ],
+        "question_id": "264330123923",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "My father give up",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "Select the INCORRECTLY spelt word.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Descendant"
+          },
+          {
+            "label": "2",
+            "text": "Deceased"
+          },
+          {
+            "label": "3",
+            "text": "Decimate"
+          },
+          {
+            "label": "4",
+            "text": "Desedent"
+          }
+        ],
+        "question_id": "26433060474",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Desedent",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in reported speech.\nRaghav said to Meera, “Are you upset with me?”",
+        "options": [
+          {
+            "label": "1",
+            "text": "Raghav asked Meera if she was upset with her."
+          },
+          {
+            "label": "2",
+            "text": "Raghav asked Meera if she was upset with him."
+          },
+          {
+            "label": "3",
+            "text": "Raghav asked Meera if she was upset with me."
+          },
+          {
+            "label": "4",
+            "text": "Raghav asked Meera why she was upset with him."
+          }
+        ],
+        "question_id": "26433059501",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Raghav asked Meera if she was upset with him.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in active voice.\nThe task has been completed.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Someone has completed the task."
+          },
+          {
+            "label": "2",
+            "text": "Someone has been completing the task."
+          },
+          {
+            "label": "3",
+            "text": "Someone will be completing the task."
+          },
+          {
+            "label": "4",
+            "text": "Someone completes the task."
+          }
+        ],
+        "question_id": "264330123913",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Someone has completed the task.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 25,
+    "questions": [
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in passive voice.\nWe can buy books online from Amazon.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Books were to be bought online from Amazon."
+          },
+          {
+            "label": "2",
+            "text": "Books are bought online from Amazon."
+          },
+          {
+            "label": "3",
+            "text": "Books can be bought online from Amazon."
+          },
+          {
+            "label": "4",
+            "text": "Books could be bought online from Amazon."
+          }
+        ],
+        "question_id": "26433059195",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Books can be bought online from Amazon.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "Select the most appropriate option that can substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’.\nEdward II is tragic than some other plays by the dramatist.",
+        "options": [
+          {
+            "label": "1",
+            "text": "as least tragic as"
+          },
+          {
+            "label": "2",
+            "text": "No substitution required"
+          },
+          {
+            "label": "3",
+            "text": "the most tragic"
+          },
+          {
+            "label": "4",
+            "text": "less tragic than"
+          }
+        ],
+        "question_id": "26433058620",
+        "chosen_option_label": "1",
+        "correct_option_label": "4",
+        "correct_option_text": "less tragic than",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\na. Many fitness trainers encourage their clients to include these foods in their diet to build muscle.\nb. Power foods can be included in your everyday diet in a variety of ways.\nc. The secret to getting the most out of power foods is, of course, knowing how to cook them properly, buying seasonal produce and recognising your preferred flavour profile.\nd. Power foods are high in nutrients such as fibre, potassium and minerals.",
+        "options": [
+          {
+            "label": "1",
+            "text": "d, b, c, a"
+          },
+          {
+            "label": "2",
+            "text": "d, a, b, c"
+          },
+          {
+            "label": "3",
+            "text": "b, c, a, d"
+          },
+          {
+            "label": "4",
+            "text": "a, d, b, c"
+          }
+        ],
+        "question_id": "264330123664",
+        "chosen_option_label": "1",
+        "correct_option_label": "2",
+        "correct_option_text": "d, a, b, c",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "Select the most appropriate ANTONYM of the underlined word.\nThe new Principal of the school is stern, yet he understands the needs of his subordinates.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Flippant"
+          },
+          {
+            "label": "2",
+            "text": "Lenient"
+          },
+          {
+            "label": "3",
+            "text": "Desolate"
+          },
+          {
+            "label": "4",
+            "text": "Noxious"
+          }
+        ],
+        "question_id": "26433070532",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Lenient",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 26,
+    "questions": [
+      {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "Select the most appropriate option to fill in the blank.\nThe friends decided to play cards to _________ time while waiting for the cab.",
+        "options": [
+          {
+            "label": "1",
+            "text": "ignore"
+          },
+          {
+            "label": "2",
+            "text": "kill"
+          },
+          {
+            "label": "3",
+            "text": "move"
+          },
+          {
+            "label": "4",
+            "text": "ease"
+          }
+        ],
+        "question_id": "26433058504",
+        "chosen_option_label": "4",
+        "correct_option_label": "2",
+        "correct_option_text": "kill",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\n\nA) Healthy, strong trees act as carbon sinks, offsetting carbon and reducing the effects of climate change.\nB) Trees help to clean the air we breathe. Through their leaves and bark, they absorb harmful pollutants and release clean oxygen for us to breathe.\nC) Increasing levels of carbon dioxide caused by deforestation and fossil fuel combustion trap heat in the atmosphere.\nD) In urban environments, trees absorb pollutant gases like nitrogen oxides, ozone, and carbon monoxide, and sweep up particles like dust and smoke.",
+        "options": [
+          {
+            "label": "1",
+            "text": "BDCA"
+          },
+          {
+            "label": "2",
+            "text": "DBAC"
+          },
+          {
+            "label": "3",
+            "text": "CDAB"
+          },
+          {
+            "label": "4",
+            "text": "ABCD"
+          }
+        ],
+        "question_id": "26433065239",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "BDCA",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in reported speech.\nShikha said, “The heavy rain this week has spoiled all my travel plans.”",
+        "options": [
+          {
+            "label": "1",
+            "text": "Shikha said that the heavy rain that week had spoiled all her travel plans."
+          },
+          {
+            "label": "2",
+            "text": "Shikha told me that the heavy rain that week had spoiled all her travel plans."
+          },
+          {
+            "label": "3",
+            "text": "Shikha said that the heavy rain that week has spoiled all her travel plans."
+          },
+          {
+            "label": "4",
+            "text": "Shikha said that the heavy rain this week had spoiled all her travel plans."
+          }
+        ],
+        "question_id": "26433059496",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Shikha said that the heavy rain that week had spoiled all her travel plans.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nA person who admires himself or herself too much, especially their appearance",
+        "options": [
+          {
+            "label": "1",
+            "text": "Narcissist"
+          },
+          {
+            "label": "2",
+            "text": "Egoist"
+          },
+          {
+            "label": "3",
+            "text": "Selfish"
+          },
+          {
+            "label": "4",
+            "text": "Dictator"
+          }
+        ],
+        "question_id": "26433060822",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Narcissist",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": 27,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 37.600892348s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 37\n}\n]"
+    ]
+  },
+  {
+    "page": 28,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 24.068953342s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 24\n}\n]"
+    ]
+  },
+  {
+    "page": 29,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 11.776096033s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 11\n}\n]"
+    ]
+  },
+  {
+    "page": 30,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 59.327652164s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+    ]
+  },
+  {
+    "page": 31,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 46.908000773s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 46\n}\n]"
+    ]
+  },
+  {
+    "page": 32,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 33.044938061s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 33\n}\n]"
+    ]
+  },
+  {
+    "page": 33,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 20.482951588s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 20\n}\n]"
+    ]
+  },
+  {
+    "page": 34,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 7.619118667s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 7\n}\n]"
+    ]
+  },
+  {
+    "page": 35,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 54.132776685s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+    ]
+  },
+  {
+    "page": 36,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 41.398287241s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 41\n}\n]"
+    ]
+  },
+  {
+    "page": 37,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 28.716180614s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 28\n}\n]"
+    ]
+  },
+  {
+    "page": 38,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 15.664273965s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 15\n}\n]"
+    ]
+  },
+  {
+    "page": 39,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 3.077851627s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 3\n}\n]"
+    ]
+  },
+  {
+    "page": 40,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 50.502351546s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 50\n}\n]"
+    ]
+  },
+  {
+    "page": 41,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 38.01639448s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 38\n}\n]"
+    ]
+  },
+  {
+    "page": 42,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 25.41978701s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 25\n}\n]"
+    ]
+  },
+  {
+    "page": 43,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 12.638706267s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 12\n}\n]"
+    ]
+  },
+  {
+    "page": 44,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 59.719437905s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+    ]
+  },
+  {
+    "page": 45,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 46.253448755s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 46\n}\n]"
+    ]
+  },
+  {
+    "page": 46,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 33.640428683s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 33\n}\n]"
+    ]
+  },
+  {
+    "page": 47,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 20.789839682s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 20\n}\n]"
+    ]
+  },
+  {
+    "page": 48,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 8.562507257s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 8\n}\n]"
+    ]
+  },
+  {
+    "page": 49,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 55.586930223s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+    ]
+  },
+  {
+    "page": 50,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 42.923217925s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 42\n}\n]"
+    ]
+  },
+  {
+    "page": 51,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 30.602862399s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 30\n}\n]"
+    ]
+  },
+  {
+    "page": 52,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 17.646336839s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 17\n}\n]"
+    ]
+  },
+  {
+    "page": 53,
+    "questions": [],
+    "warnings": [
+      "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 5.40507214s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 5\n}\n]"
+    ]
+  }
+]

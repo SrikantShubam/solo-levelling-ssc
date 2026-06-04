@@ -1,0 +1,156 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Select the most appropriate option that can substitute the underlined word in the given sentence.\nShe had an ability to persuade others.",
+      "options": [
+        {
+          "label": "1",
+          "text": "halt"
+        },
+        {
+          "label": "2",
+          "text": "suppress"
+        },
+        {
+          "label": "3",
+          "text": "outrage"
+        },
+        {
+          "label": "4",
+          "text": "impress"
+        }
+      ],
+      "question_id": "26433092066",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "impress",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nWe must remember that what we teach our children is what we inculcate in them.",
+      "options": [
+        {
+          "label": "1",
+          "text": "endanger"
+        },
+        {
+          "label": "2",
+          "text": "inspire"
+        },
+        {
+          "label": "3",
+          "text": "instil"
+        },
+        {
+          "label": "4",
+          "text": "import"
+        }
+      ],
+      "question_id": "26433098909",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "instil",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nHe won't receive any better choice than this from anywhere.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Any better choice won't be received by him than this from anywhere."
+        },
+        {
+          "label": "2",
+          "text": "Any better choice wouldn't have received by him than this from anywhere."
+        },
+        {
+          "label": "3",
+          "text": "Any better choice shouldn't be received by him than this from anywhere."
+        },
+        {
+          "label": "4",
+          "text": "Any better choice won't have been be received by him than this from anywhere."
+        }
+      ],
+      "question_id": "26433094755",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Any better choice won't be received by him than this from anywhere.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nFeeble",
+      "options": [
+        {
+          "label": "1",
+          "text": "Unheedful"
+        },
+        {
+          "label": "2",
+          "text": "Strong"
+        },
+        {
+          "label": "3",
+          "text": "Weak"
+        },
+        {
+          "label": "4",
+          "text": "Baneful"
+        }
+      ],
+      "question_id": "26433099870",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Weak",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the correct spelling of the underline word.\nThey denied having any associasion with the terrorists.",
+      "options": [
+        {
+          "label": "1",
+          "text": "asociation"
+        },
+        {
+          "label": "2",
+          "text": "asocciation"
+        },
+        {
+          "label": "3",
+          "text": "assosiation"
+        },
+        {
+          "label": "4",
+          "text": "association"
+        }
+      ],
+      "question_id": "26433094772",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "association",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,29 @@
+{
+  "batch": 11,
+  "pages": [
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 22,
+      "merged_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 23,
+      "merged_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 26,
+      "merged_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 27,
+      "merged_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_27.png"
+    }
+  ]
+}

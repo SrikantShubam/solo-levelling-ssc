@@ -1,0 +1,194 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 140,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. She hugged my mom and almost screamed when she saw me.\nB. It was a long ride before we finally reached.\nC. A plump, over excited woman greeted us at the door.\nD. Apparently, she had seen me as a baby and behaved as if she didn't expect me to grow up!",
+      "options": [
+        {
+          "label": "1",
+          "text": "ADBC"
+        },
+        {
+          "label": "2",
+          "text": "CABD"
+        },
+        {
+          "label": "3",
+          "text": "BCAD"
+        },
+        {
+          "label": "4",
+          "text": "DACB"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 141,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the given word.\nRemorse",
+      "options": [
+        {
+          "label": "1",
+          "text": "Empathy"
+        },
+        {
+          "label": "2",
+          "text": "Regret"
+        },
+        {
+          "label": "3",
+          "text": "Sorrow"
+        },
+        {
+          "label": "4",
+          "text": "Satisfaction"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 142,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. \"How do you manage to complete so much work?\" he asked the student.\nB. Looking at the huge pile of books on a student's desk, a man said, \"What a burden, my son! I pity you.\"\nC. \"I focus on only one lesson at a time,\" the student further added.\nD. \"I don't think of all the work I have to do,\" answered the student.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ACDB"
+        },
+        {
+          "label": "2",
+          "text": "BADC"
+        },
+        {
+          "label": "3",
+          "text": "ACBD"
+        },
+        {
+          "label": "4",
+          "text": "BDAC"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 143,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. The sand is so hot that you cannot walk over it in the day time.\nB. Here, there is nothing but sand and rock.\nC. A great part of Arabia is a desert.\nD. However, there are springs of water but these are few and far apart.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CBAD"
+        },
+        {
+          "label": "2",
+          "text": "BDCA"
+        },
+        {
+          "label": "3",
+          "text": "CABD"
+        },
+        {
+          "label": "4",
+          "text": "ACDB"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 144,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nWhat did you do to help the migrant labourers during the pandemic?",
+      "options": [
+        {
+          "label": "1",
+          "text": "What is done by you to help the migrant labourers during the pandemic?"
+        },
+        {
+          "label": "2",
+          "text": "What was being done by you to help the migrant labourers during the pandemic?"
+        },
+        {
+          "label": "3",
+          "text": "What was done by you to help the migrant labourers during the pandemic?"
+        },
+        {
+          "label": "4",
+          "text": "What has been done by you to help the migrant labourers during the pandemic?"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 145,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nOne who possesses several talents",
+      "options": [
+        {
+          "label": "1",
+          "text": "Versatile"
+        },
+        {
+          "label": "2",
+          "text": "Verbose"
+        },
+        {
+          "label": "3",
+          "text": "Virtuous"
+        },
+        {
+          "label": "4",
+          "text": "Virtual"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

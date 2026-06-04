@@ -1,0 +1,74 @@
+{
+  "page": 41,
+  "questions": [
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "Match the following\nCharacteristics/Other Name Name of River\nA. Area of Badland topography 1. Godavari\nB. Vridh Ganga 2. Brahmaputra\nC. Tsangpo 3. Kosi\nD. Sorrow of Bihar 4. Chambal",
+      "options": [
+        {
+          "label": "1",
+          "text": "A-4, B-1, C-3, D-2"
+        },
+        {
+          "label": "2",
+          "text": "A-1, B-4, C-2, D-3"
+        },
+        {
+          "label": "3",
+          "text": "A-4, B-2, C-1, D-3"
+        },
+        {
+          "label": "4",
+          "text": "A-4, B-1, C-2, D-3"
+        }
+      ],
+      "question_id": "264330172292",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "A-4, B-1, C-2, D-3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Which of the following options represents the total income earned by individuals from all the sources before deduction of personal income taxes?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Disposable income"
+        },
+        {
+          "label": "2",
+          "text": "Personal income"
+        },
+        {
+          "label": "3",
+          "text": "Gross income"
+        },
+        {
+          "label": "4",
+          "text": "National income"
+        }
+      ],
+      "question_id": "264330172912",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "Personal income",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

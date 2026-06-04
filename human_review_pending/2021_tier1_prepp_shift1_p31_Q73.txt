@@ -1,0 +1,19 @@
+PDF: 2021_tier1_prepp_shift1
+Page: 31
+Question Number: 73
+Global Q#: 67
+Section: None
+Modality: math_formula
+Blocking Reasons: ['low_confidence', 'math_parse_lossy']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+AB is a diameter of a circle with centre O. A tangent is drawn at point A. C is a point on the circle such that BC produced meets the tangent at P. If ∠APC = 62°, then find the measure of the minor arc AC.
+
+--- Options ---
+  (1) 31°
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible

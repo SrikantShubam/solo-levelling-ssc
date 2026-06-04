@@ -1,0 +1,643 @@
+{
+  "source_pdf": "C:\\experiments\\ssc\\answer_key_candidates_staging\\2023_tier1_prepp_shift1.pdf",
+  "extraction_method": "openrouter deepseek/deepseek-v4-flash:free page-by-page visual PNG extraction, merged in page/visual order",
+  "page_count": 28,
+  "question_count": 0,
+  "expected_question_count": 100,
+  "is_complete_question_trial": false,
+  "qc_passed": false,
+  "qc_status": "QUARANTINE",
+  "structural_status": "QUARANTINE",
+  "structural_failure_reasons": [
+    "layout_class_unsupported",
+    "expected_question_count_mismatch"
+  ],
+  "page_counts": [
+    {
+      "page": 1,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 2,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 3,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 4,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 5,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 6,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 7,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 8,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 9,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 10,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 11,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 12,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 13,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 14,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 15,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 16,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 17,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 18,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 19,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 20,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 21,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 22,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 23,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 24,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 25,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 26,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 27,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 28,
+      "count": 0,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash:free",
+      "fallback_attempted": false,
+      "fallback_used": false
+    }
+  ],
+  "load_errors": [
+    {
+      "page": 1,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 2,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 3,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 4,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 5,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 6,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 7,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 8,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 9,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 10,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 11,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 12,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 13,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 14,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 15,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 16,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 17,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 18,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 19,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 20,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 21,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 22,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 23,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 24,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 25,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 26,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 27,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 28,
+      "warnings": [
+        "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    }
+  ],
+  "option_or_correct_answer_issue_global_questions": [],
+  "missing_or_invalid_chosen_option_global_questions": [],
+  "low_confidence_global_questions": [],
+  "manual_review_count": 0,
+  "questions": [],
+  "canonical_review_count": 0,
+  "blocking_review_count": 0,
+  "asset_evidence_attached": true
+}

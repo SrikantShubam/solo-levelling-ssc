@@ -1,0 +1,126 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 43,
+      "section": null,
+      "question_text_full": "ABCD is a cyclic quadrilateral. Diagonals BD and AC intersect each other at E. If ∠BEC = 128° and ∠ECD = 25°, then what is the measure of ∠BAC?",
+      "options": [
+        {
+          "label": "1",
+          "text": "52°"
+        },
+        {
+          "label": "2",
+          "text": "103°"
+        },
+        {
+          "label": "3",
+          "text": "93°"
+        },
+        {
+          "label": "4",
+          "text": "98°"
+        }
+      ],
+      "question_id": "8161615344",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "103°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 44,
+      "section": null,
+      "question_text_full": "A certain sum amounts to ₹15,500 in 2 years at 12% p.a. simple interest. The same sum will amount to what in 1 1/2 years at 10% p.a., if the interest is compounded half yearly (nearest to ₹1)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹14,470"
+        },
+        {
+          "label": "2",
+          "text": "₹15,125"
+        },
+        {
+          "label": "3",
+          "text": "₹14,360"
+        },
+        {
+          "label": "4",
+          "text": "₹13,460"
+        }
+      ],
+      "question_id": "8161615303",
+      "chosen_option_label": "4",
+      "correct_option_label": "1",
+      "correct_option_text": "₹14,470",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 45,
+      "section": null,
+      "question_text_full": "A and B start moving towards each other from places X and Y, respectively, at the same time on the same day. The speed of A is 20% more than that of B. After meeting on the way, A and B take p hours and 7 1/5 hours, respectively, to reach Y and X, respectively. What is the value of p?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5.5"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "4.5"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        }
+      ],
+      "question_id": "8161615320",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 46,
+      "section": null,
+      "question_text_full": "If secθ = a/b, b ≠ 0, then (1-tan²θ)/(2-sin²θ) = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "(b²(2b² - a²))/(a²(a² + b²))"
+        },
+        {
+          "label": "2",
+          "text": "(a²(2b² + a²))/(b²(a² + b²))"
+        },
+        {
+          "label": "3",
+          "text": "(a²(2b² - a²))/(b²(a² + b²))"
+        },
+        {
+          "label": "4",
+          "text": "(a²(2b² + a²))/(b²(a² - b²))"
+        }
+      ],
+      "question_id": "8161615365",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "(a²(2b² - a²))/(b²(a² + b²))",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

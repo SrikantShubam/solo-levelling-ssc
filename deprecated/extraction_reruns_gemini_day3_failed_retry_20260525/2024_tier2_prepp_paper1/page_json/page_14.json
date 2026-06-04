@@ -1,0 +1,46 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 33,
+      "section": null,
+      "question_text_full": "Select the option figure in which the given figure is embedded as its part (rotation is NOT allowed).",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure a"
+        },
+        {
+          "label": "2",
+          "text": "Figure b"
+        },
+        {
+          "label": "3",
+          "text": "Figure c"
+        },
+        {
+          "label": "4",
+          "text": "Figure d"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question provides options labeled a, b, c, d. These have been mapped to 1, 2, 3, 4 respectively for the schema requirement."
+    }
+  ],
+  "warnings": [
+    "The original image uses labels 'a', 'b', 'c', 'd' for options. These were mapped to '1', '2', '3', '4' to satisfy the schema requirements."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

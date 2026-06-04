@@ -1,0 +1,19 @@
+PDF: 2021_tier1_prepp_shift1
+Page: 43
+Question Number: 100
+Global Q#: 91
+Section: None
+Modality: text_only
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The rise in the Irrawaddy dolphin (1) ______ in Chilika can be attributed to the eviction of (2) ______ fish enclosures. After thousands of hectares of Chilika lake were made (3) ______ free, Irrawaddy dolphins found unobstructed area for movement. (4) ______, due to the COVID-19 lockdown last year, there were comparatively fewer tourist boats on Chilika lake, which made it (5) ______ for dolphins to move from one part of the lake to another. Select the most appropriate option to fill in blank no.5.
+
+--- Options ---
+  (1) Not visible
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible

@@ -1,0 +1,15 @@
+{
+  "page": 7,
+  "questions": [],
+  "warnings": [
+    "ERROR HTTP 404: {\"error\":{\"message\":\"No endpoints found that support image input\",\"code\":404}}"
+  ],
+  "page_status": "ERROR",
+  "failure_type": "layout_class_unsupported",
+  "provider": "openrouter",
+  "model": "deepseek/deepseek-v4-flash:free",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "openrouter_page_image"
+}

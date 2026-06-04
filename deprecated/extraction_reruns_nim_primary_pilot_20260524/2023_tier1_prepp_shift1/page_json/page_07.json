@@ -1,0 +1,104 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the Venn diagram that best illustrates the relationship between the following classes. Ticket, Aeroplane, Rail",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330145436",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter-cluster.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BFJN"
+        },
+        {
+          "label": "2",
+          "text": "DHLP"
+        },
+        {
+          "label": "3",
+          "text": "HJKP"
+        },
+        {
+          "label": "4",
+          "text": "JNRV"
+        }
+      ],
+      "question_id": "264330143768",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "HJKP",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number. 5 : 45 :: 3 : 3 :: 6 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "90"
+        },
+        {
+          "label": "2",
+          "text": "106"
+        },
+        {
+          "label": "3",
+          "text": "110"
+        },
+        {
+          "label": "4",
+          "text": "96"
+        }
+      ],
+      "question_id": "264330143716",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "96",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "nvidia_nim",
+  "model": "mistralai/mistral-medium-3.5-128b",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "nvidia_nim_page_image"
+}

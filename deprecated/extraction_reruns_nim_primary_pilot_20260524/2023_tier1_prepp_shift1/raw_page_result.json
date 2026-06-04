@@ -1,0 +1,986 @@
+[
+  {
+    "page": 1,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 2,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 3,
+    "questions": [
+      {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "Ganesh was taking a walk with his mother’s brother’s father’s granddaughter. Who was he walking with?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Daughter"
+          },
+          {
+            "label": "2",
+            "text": "Mother"
+          },
+          {
+            "label": "3",
+            "text": "Cousin"
+          },
+          {
+            "label": "4",
+            "text": "Granddaughter"
+          }
+        ],
+        "question_id": "264330118669",
+        "chosen_option_label": "1",
+        "correct_option_label": "3",
+        "correct_option_text": "Cousin",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below.\nTe29EKP\nM ______ N",
+        "options": [
+          {
+            "label": "1",
+            "text": "T 6 2 9 E K b"
+          },
+          {
+            "label": "2",
+            "text": "T 6 5 2 E K b"
+          },
+          {
+            "label": "3",
+            "text": "p K E E 2 9 T"
+          },
+          {
+            "label": "4",
+            "text": "T 6 5 2 E K b"
+          }
+        ],
+        "question_id": "26433091689",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "T 6 5 2 E K b",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Which of the following letter-clusters will replace the question mark (?) in the given series?\nUV, OY, IB, EE, ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "ZK"
+          },
+          {
+            "label": "2",
+            "text": "AH"
+          },
+          {
+            "label": "3",
+            "text": "BI"
+          },
+          {
+            "label": "4",
+            "text": "BH"
+          }
+        ],
+        "question_id": "26433057186",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "AH",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "The second number in the given number-pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) is/are followed in all the number-pairs except one. Find that odd number-pair.",
+        "options": [
+          {
+            "label": "1",
+            "text": "20 : 11"
+          },
+          {
+            "label": "2",
+            "text": "6 : 4"
+          },
+          {
+            "label": "3",
+            "text": "15 : 9"
+          },
+          {
+            "label": "4",
+            "text": "12 : 7"
+          }
+        ],
+        "question_id": "264330143704",
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "nvidia_nim_page_image"
+  },
+  {
+    "page": 4,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 5,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 6,
+    "questions": [
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Select the figure from the options that can replace the question mark (?) and complete the given pattern.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "26433085797",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "Figure 4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "The correct answer is marked with a green tick (Figure 4)."
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "nvidia_nim_page_image"
+  },
+  {
+    "page": 7,
+    "questions": [
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "Select the Venn diagram that best illustrates the relationship between the following classes. Ticket, Aeroplane, Rail",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330145436",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Figure 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter-cluster.",
+        "options": [
+          {
+            "label": "1",
+            "text": "BFJN"
+          },
+          {
+            "label": "2",
+            "text": "DHLP"
+          },
+          {
+            "label": "3",
+            "text": "HJKP"
+          },
+          {
+            "label": "4",
+            "text": "JNRV"
+          }
+        ],
+        "question_id": "264330143768",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "HJKP",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number. 5 : 45 :: 3 : 3 :: 6 : ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "90"
+          },
+          {
+            "label": "2",
+            "text": "106"
+          },
+          {
+            "label": "3",
+            "text": "110"
+          },
+          {
+            "label": "4",
+            "text": "96"
+          }
+        ],
+        "question_id": "264330143716",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "96",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "nvidia_nim_page_image"
+  },
+  {
+    "page": 8,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 9,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 10,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 11,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 12,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 13,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 14,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 15,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 16,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 17,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 18,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 19,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 20,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 21,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 22,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 23,
+    "questions": [
+      {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "Select the most appropriate ANTONYM of the underlined word in the given sentence. Henry is so servile that other people take advantage of him.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Arrogant"
+          },
+          {
+            "label": "2",
+            "text": "Sheepish"
+          },
+          {
+            "label": "3",
+            "text": "Bickering"
+          },
+          {
+            "label": "4",
+            "text": "Cunning"
+          }
+        ],
+        "question_id": "26433087923",
+        "chosen_option_label": "4",
+        "correct_option_label": "1",
+        "correct_option_text": "Arrogant",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words. A thing fit to eat.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Eligible"
+          },
+          {
+            "label": "2",
+            "text": "Digestible"
+          },
+          {
+            "label": "3",
+            "text": "Curable"
+          },
+          {
+            "label": "4",
+            "text": "Edible"
+          }
+        ],
+        "question_id": "26433086366",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Edible",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "Select the most appropriate meaning of the given idiom. Lily-livered",
+        "options": [
+          {
+            "label": "1",
+            "text": "Brave"
+          },
+          {
+            "label": "2",
+            "text": "Comical"
+          },
+          {
+            "label": "3",
+            "text": "Not brave"
+          },
+          {
+            "label": "4",
+            "text": "Naughty"
+          }
+        ],
+        "question_id": "26433089007",
+        "chosen_option_label": null,
+        "correct_option_label": "3",
+        "correct_option_text": "Not brave",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "Select the most appropriate synonym of the given word. Zealous",
+        "options": [
+          {
+            "label": "1",
+            "text": "Enthusiastic"
+          },
+          {
+            "label": "2",
+            "text": "Detached"
+          },
+          {
+            "label": "3",
+            "text": "Apathetic"
+          },
+          {
+            "label": "4",
+            "text": "Indifferent"
+          }
+        ],
+        "question_id": "26433073693",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "Enthusiastic",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "nvidia_nim_page_image"
+  },
+  {
+    "page": 24,
+    "questions": [
+      {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "Select the most appropriate option that can substitute the underlined word in the given sentence. She had an ability to persuade others.",
+        "options": [
+          {
+            "label": "1",
+            "text": "halt"
+          },
+          {
+            "label": "2",
+            "text": "suppress"
+          },
+          {
+            "label": "3",
+            "text": "outrage"
+          },
+          {
+            "label": "4",
+            "text": "impress"
+          }
+        ],
+        "question_id": "26433092066",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "impress",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "Select the most appropriate option that can substitute the underlined segment in the given sentence. We must remember that what we teach our children is what we inculcate in them.",
+        "options": [
+          {
+            "label": "1",
+            "text": "endanger"
+          },
+          {
+            "label": "2",
+            "text": "inspire"
+          },
+          {
+            "label": "3",
+            "text": "instil"
+          },
+          {
+            "label": "4",
+            "text": "import"
+          }
+        ],
+        "question_id": "26433098909",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "instil",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in passive voice. He won’t receive any better choice than this from anywhere.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Any better choice won’t be received by him than this from anywhere."
+          },
+          {
+            "label": "2",
+            "text": "Any better choice wouldn’t have received by him than this from anywhere."
+          },
+          {
+            "label": "3",
+            "text": "Any better choice shouldn’t be received by him than this from anywhere."
+          },
+          {
+            "label": "4",
+            "text": "Any better choice won’t have been be received by him than this from anywhere."
+          }
+        ],
+        "question_id": "26433094755",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Any better choice won’t be received by him than this from anywhere.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Select the most appropriate synonym of the given word. Feeble",
+        "options": [
+          {
+            "label": "1",
+            "text": "Unheardful"
+          },
+          {
+            "label": "2",
+            "text": "Strong"
+          },
+          {
+            "label": "3",
+            "text": "Weak"
+          },
+          {
+            "label": "4",
+            "text": "Baneful"
+          }
+        ],
+        "question_id": "26433099870",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Weak",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "Select the correct spelling of the underline word. They denied having any association with the terrorists.",
+        "options": [
+          {
+            "label": "1",
+            "text": "asociation"
+          },
+          {
+            "label": "2",
+            "text": "asoccation"
+          },
+          {
+            "label": "3",
+            "text": "assossiation"
+          },
+          {
+            "label": "4",
+            "text": "association"
+          }
+        ],
+        "question_id": "26433094772",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "association",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "nvidia_nim_page_image"
+  },
+  {
+    "page": 25,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 26,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 27,
+    "questions": [],
+    "warnings": [
+      "ERROR TimeoutError: The read operation timed out"
+    ],
+    "page_status": "ERROR",
+    "failure_type": "layout_class_unsupported",
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "gemini_page_image"
+  },
+  {
+    "page": 28,
+    "questions": [
+      {
+        "question_number": 24,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no. 4.",
+        "options": [
+          {
+            "label": "1",
+            "text": "As a result"
+          },
+          {
+            "label": "2",
+            "text": "As a reaction"
+          },
+          {
+            "label": "3",
+            "text": "Causing"
+          },
+          {
+            "label": "4",
+            "text": "As a reason"
+          }
+        ],
+        "question_id": "264330139177",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "As a result",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "question_number": 25,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no. 5.",
+        "options": [
+          {
+            "label": "1",
+            "text": "break into"
+          },
+          {
+            "label": "2",
+            "text": "breaks to"
+          },
+          {
+            "label": "3",
+            "text": "break from"
+          },
+          {
+            "label": "4",
+            "text": "breaks into"
+          }
+        ],
+        "question_id": "264330139178",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "breaks into",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "warnings": [],
+    "page_status": "OK",
+    "failure_type": null,
+    "provider": "nvidia_nim",
+    "model": "mistralai/mistral-medium-3.5-128b",
+    "retryable": false,
+    "fallback_attempted": false,
+    "fallback_used": false,
+    "carrier_used": "nvidia_nim_page_image"
+  }
+]

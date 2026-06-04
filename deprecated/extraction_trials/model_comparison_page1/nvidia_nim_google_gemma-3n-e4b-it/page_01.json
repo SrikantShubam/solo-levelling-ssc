@@ -1,0 +1,36 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "Select the set of letters that when sequentially placed in the blanks of the given letter series will complete the series. k_lml_mk_mmk_l_",
+      "options": [
+        {
+          "label": "1",
+          "text": "k, l, m, k, l"
+        },
+        {
+          "label": "2",
+          "text": "k, l, m, k, k"
+        },
+        {
+          "label": "3",
+          "text": "k, l, m, k, k"
+        },
+        {
+          "label": "4",
+          "text": "k, l, k, l, m"
+        }
+      ],
+      "question_id": "1235689",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "k, l, k, l, m",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

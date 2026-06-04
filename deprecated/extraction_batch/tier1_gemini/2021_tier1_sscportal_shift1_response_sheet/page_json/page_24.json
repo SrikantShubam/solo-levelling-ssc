@@ -1,0 +1,96 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Find the value of the following expression: 372 ÷ 56 × 7 - 5 + 2",
+      "options": [
+        {
+          "label": "1",
+          "text": "58"
+        },
+        {
+          "label": "2",
+          "text": "-2 95/98"
+        },
+        {
+          "label": "3",
+          "text": "43 1/2"
+        },
+        {
+          "label": "4",
+          "text": "2 93/98"
+        }
+      ],
+      "question_id": "65497843728",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "43 1/2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "LCM of two numbers is 56 times their HCF, with the sum of their HCF and LCM being 1710. If one of the two numbers is 240, then what is the other number?",
+      "options": [
+        {
+          "label": "1",
+          "text": "57"
+        },
+        {
+          "label": "2",
+          "text": "171"
+        },
+        {
+          "label": "3",
+          "text": "1680"
+        },
+        {
+          "label": "4",
+          "text": "210"
+        }
+      ],
+      "question_id": "65497843727",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "210",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Some students (only boys and girls) from different schools appeared for an Olympiad exam. 20% of the boys and 15% of the girls failed the exam. The number of boys who passed the exam was 70 more than that of the girls who passed the exam. A total of 90 students failed. Find the number of students that appeared for the exam.",
+      "options": [
+        {
+          "label": "1",
+          "text": "420"
+        },
+        {
+          "label": "2",
+          "text": "400"
+        },
+        {
+          "label": "3",
+          "text": "500"
+        },
+        {
+          "label": "4",
+          "text": "350"
+        }
+      ],
+      "question_id": "65497842418",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "500",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

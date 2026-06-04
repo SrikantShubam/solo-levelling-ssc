@@ -1,0 +1,47 @@
+{
+  "page": 20,
+  "questions": [
+    {
+      "question_number": 43,
+      "section": null,
+      "question_text_full": "U is the father of N. N is the sister of T. T is the wife of I. I is son of L. How is U related to L?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Son's wife's father"
+        },
+        {
+          "label": "2",
+          "text": "Son's wife"
+        },
+        {
+          "label": "3",
+          "text": "Son's wife's sister"
+        },
+        {
+          "label": "4",
+          "text": "Son's wife's mother"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question uses a, b, c, d labels instead of 1, 2, 3, 4. Mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "The first block of text is a logical reasoning problem but lacks explicit answer options (a, b, c, d) or a question number, so it was excluded from the questions list.",
+    "Question 43 uses a, b, c, d labels; these were mapped to 1, 2, 3, 4 for the schema."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

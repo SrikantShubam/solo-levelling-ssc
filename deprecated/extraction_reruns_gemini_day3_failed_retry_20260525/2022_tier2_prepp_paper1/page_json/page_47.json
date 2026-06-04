@@ -1,0 +1,134 @@
+{
+  "page": 47,
+  "questions": [
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Which option correctly represents the countries in decreasing order of HDI, as released in September 2022?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Switzerland – Denmark – Japan – Niger"
+        },
+        {
+          "label": "2",
+          "text": "Japan – Switzerland – Denmark – Niger"
+        },
+        {
+          "label": "3",
+          "text": "Niger – Japan – Denmark – Switzerland"
+        },
+        {
+          "label": "4",
+          "text": "Denmark – Japan – Switzerland – Niger"
+        }
+      ],
+      "question_id": "264330121483",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "Switzerland – Denmark – Japan – Niger",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Identify which of the following statements about agriculture in India are correct.\n1. Rabi crops are sown in India from October to December and harvested from April to June.\n2. Important crops grown during Rabi in India are paddy, maize, gram, soyabean and mustard.\n3. Aus, Aman and Boro are three crops of paddy in Assam, West Bengal and Odisha.",
+      "options": [
+        {
+          "label": "1",
+          "text": "1, 2 and 3"
+        },
+        {
+          "label": "2",
+          "text": "1 and 3 only"
+        },
+        {
+          "label": "3",
+          "text": "2 and 3 only"
+        },
+        {
+          "label": "4",
+          "text": "1 and 2 only"
+        }
+      ],
+      "question_id": "264330121513",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "1 and 3 only",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Which state recorded the lowest literacy rate in the 2011 census?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bihar"
+        },
+        {
+          "label": "2",
+          "text": "Maharashtra"
+        },
+        {
+          "label": "3",
+          "text": "Arunachal Pradesh"
+        },
+        {
+          "label": "4",
+          "text": "Kerala"
+        }
+      ],
+      "question_id": "264330109506",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Bihar",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Deficiency of which of the following vitamins causes excessive bleeding from wounds?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Vitamin D"
+        },
+        {
+          "label": "2",
+          "text": "Vitamin E"
+        },
+        {
+          "label": "3",
+          "text": "Vitamin A"
+        },
+        {
+          "label": "4",
+          "text": "Vitamin K"
+        }
+      ],
+      "question_id": "26433064115",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Vitamin K",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

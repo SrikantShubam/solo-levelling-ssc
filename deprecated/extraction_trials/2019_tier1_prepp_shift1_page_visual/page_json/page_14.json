@@ -1,0 +1,126 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Name the author who won the Sahitya Akademi Award 2019 for his book - An Era of Darkness: The British Empire in India.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Shashi Tharoor"
+        },
+        {
+          "label": "2",
+          "text": "Romila Thapar"
+        },
+        {
+          "label": "3",
+          "text": "Vikram Seth"
+        },
+        {
+          "label": "4",
+          "text": "Ramchandra Guha"
+        }
+      ],
+      "question_id": "12356842",
+      "chosen_option_label": "4",
+      "correct_option_label": "1",
+      "correct_option_text": "Shashi Tharoor",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Veteran freedom fighter, social reformer and feminist Savithribai Phule hailed from which of the following states of India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Odisha"
+        },
+        {
+          "label": "2",
+          "text": "Rajasthan"
+        },
+        {
+          "label": "3",
+          "text": "Maharashtra"
+        },
+        {
+          "label": "4",
+          "text": "Gujarat"
+        }
+      ],
+      "question_id": "12356839",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Maharashtra",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Sultan Qaboos bin Said of ________, the Arab world's longest-serving ruler and with a reputation for quiet diplomacy passed away recently (2020).",
+      "options": [
+        {
+          "label": "1",
+          "text": "Abu Dhabi"
+        },
+        {
+          "label": "2",
+          "text": "Kuwait"
+        },
+        {
+          "label": "3",
+          "text": "Dubai"
+        },
+        {
+          "label": "4",
+          "text": "Oman"
+        }
+      ],
+      "question_id": "12356850",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Oman",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "The area of Δ ABC is 44 cm². If D is the midpoint of BC and E is the midpoint of AB, then the area (in cm²) of ΔBDE is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "5.5"
+        },
+        {
+          "label": "2",
+          "text": "11"
+        },
+        {
+          "label": "3",
+          "text": "44"
+        },
+        {
+          "label": "4",
+          "text": "22"
+        }
+      ],
+      "question_id": "12356867",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "11",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

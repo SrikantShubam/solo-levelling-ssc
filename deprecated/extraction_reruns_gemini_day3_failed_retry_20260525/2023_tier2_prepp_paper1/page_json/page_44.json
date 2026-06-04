@@ -1,0 +1,104 @@
+{
+  "page": 44,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Which of the following are some regions in the world, known for their thriving citrus fruit production?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Africa"
+        },
+        {
+          "label": "2",
+          "text": "Equatorial regions"
+        },
+        {
+          "label": "3",
+          "text": "Caribbean"
+        },
+        {
+          "label": "4",
+          "text": "Mediterranean regions"
+        }
+      ],
+      "question_id": "264330167795",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Mediterranean regions",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Based on current scientific knowledge, it is currently postulated that the Earth has an estimated age of:",
+      "options": [
+        {
+          "label": "1",
+          "text": "about 4,50,00,00,000 years"
+        },
+        {
+          "label": "2",
+          "text": "about 95,00,00, 00 years"
+        },
+        {
+          "label": "3",
+          "text": "about 45,00,000 years"
+        },
+        {
+          "label": "4",
+          "text": "about 65,00,000 years"
+        }
+      ],
+      "question_id": "264330167796",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "about 4,50,00,00,000 years",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "What kind of energy is associated with falling coconuts, speeding cars, rolling stones and flying aircraft?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Potential energy"
+        },
+        {
+          "label": "2",
+          "text": "Kinetic Energy"
+        },
+        {
+          "label": "3",
+          "text": "Radiant energy"
+        },
+        {
+          "label": "4",
+          "text": "Elastic energy"
+        }
+      ],
+      "question_id": "264330172096",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Kinetic Energy",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

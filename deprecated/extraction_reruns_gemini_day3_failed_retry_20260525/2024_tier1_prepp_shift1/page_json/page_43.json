@@ -1,0 +1,77 @@
+{
+  "page": 43,
+  "questions": [
+    {
+      "question_number": null,
+      "section": "English Language",
+      "question_text_full": "The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)_____ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henry’s treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos. Select the most appropriate option to fill in blank number 3:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Supervision"
+        },
+        {
+          "label": "2",
+          "text": "Condition"
+        },
+        {
+          "label": "3",
+          "text": "Dimension"
+        },
+        {
+          "label": "4",
+          "text": "Infection"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "This question appears to be a continuation or a standalone snippet from a comprehension passage. The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4."
+    },
+    {
+      "question_number": 99,
+      "section": "English Language",
+      "question_text_full": "Comprehension: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The beginning of the story is (1)______ in its presentation but (2)______ the style eases out and becomes haunting in its simplicity. The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)______ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henry’s treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos. Select the most appropriate option to fill in blank number 4:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Through"
+        },
+        {
+          "label": "2",
+          "text": "Though"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The question is incomplete as only two options are visible on the page."
+    }
+  ],
+  "warnings": [
+    "Question 99 is incomplete on the page; only two options are visible.",
+    "The first question lacks explicit answer key markings (green/red) on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

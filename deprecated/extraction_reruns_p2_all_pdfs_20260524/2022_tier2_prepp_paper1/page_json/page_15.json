@@ -1,0 +1,36 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Select the option in which the following figure is embedded. (Rotation is NOT allowed)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330121391",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question asks to identify the embedded figure. Option 1 is marked with a green tick."
+    }
+  ],
+  "warnings": []
+}

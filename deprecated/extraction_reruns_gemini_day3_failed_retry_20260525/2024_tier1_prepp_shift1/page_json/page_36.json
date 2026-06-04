@@ -1,0 +1,76 @@
+{
+  "page": 36,
+  "questions": [
+    {
+      "question_number": 82,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym for the underlined word in the given sentence:\n\nHis ambition in life is to become a happy and satisfied man.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Apathy"
+        },
+        {
+          "label": "2",
+          "text": "Satisfaction"
+        },
+        {
+          "label": "3",
+          "text": "Eagerness"
+        },
+        {
+          "label": "4",
+          "text": "Amend"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question does not have a marked answer on the page."
+    },
+    {
+      "question_number": 83,
+      "section": null,
+      "question_text_full": "Read the sentence carefully and select the most suitable idiom to fill in the blank:\n\nThe renowned publisher decided to withdraw a book from the market. No one was interested in the book as the arguments presented were -----------.",
+      "options": [
+        {
+          "label": "1",
+          "text": "high and mighty"
+        },
+        {
+          "label": "2",
+          "text": "out of the woods"
+        },
+        {
+          "label": "3",
+          "text": "beside the mark"
+        },
+        {
+          "label": "4",
+          "text": "under the rose"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question does not have a marked answer on the page."
+    }
+  ],
+  "warnings": [
+    "No answer keys (green ticks) are present on this page for any questions."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,126 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "A Ghatam is a ______.",
+      "options": [
+        {
+          "label": "1",
+          "text": "large, narrow-mouthed earthenware pot used as a percussion instrument"
+        },
+        {
+          "label": "2",
+          "text": "small handheld drum that resembles a tambourine"
+        },
+        {
+          "label": "3",
+          "text": "wind instrument made of wood and metal"
+        },
+        {
+          "label": "4",
+          "text": "percussion instrument made of leather and jackwood"
+        }
+      ],
+      "question_id": "65497842287",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "large, narrow-mouthed earthenware pot used as a percussion instrument",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Which of the following is an Indirect Tax in India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Goods and Services Tax"
+        },
+        {
+          "label": "2",
+          "text": "Income Tax"
+        },
+        {
+          "label": "3",
+          "text": "Corporation Tax"
+        },
+        {
+          "label": "4",
+          "text": "Capital Gains Tax"
+        }
+      ],
+      "question_id": "65497843501",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Goods and Services Tax",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Tribes of the Nicobar Islands pay their respects to the departed soul of the head of the family during the ______.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ossuary Feast"
+        },
+        {
+          "label": "2",
+          "text": "Jagaddhatri Puja"
+        },
+        {
+          "label": "3",
+          "text": "Ganjan Festival"
+        },
+        {
+          "label": "4",
+          "text": "Kalpataru Utsav"
+        }
+      ],
+      "question_id": "65497842389",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Ossuary Feast",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Which of the following statements is/are correct?\nI.Only marketed goods are considered while estimating Gross Domestic Product (GDP).\nII. The work done by a woman at her home is outside the purview of Gross Domestic Product.\nIII. In estimating GDP, only final goods and services are considered.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only II and III"
+        },
+        {
+          "label": "2",
+          "text": "I, II and III"
+        },
+        {
+          "label": "3",
+          "text": "Only I and III"
+        },
+        {
+          "label": "4",
+          "text": "Only II"
+        }
+      ],
+      "question_id": "65497843704",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "I, II and III",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

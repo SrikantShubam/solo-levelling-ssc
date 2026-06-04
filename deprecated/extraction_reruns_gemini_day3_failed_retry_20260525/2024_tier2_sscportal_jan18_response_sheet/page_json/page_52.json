@@ -1,0 +1,104 @@
+{
+  "page": 52,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Which of the following Constitutional Amendment Acts made the president bound by the advice of the council of ministers headed by the prime minister?",
+      "options": [
+        {
+          "label": "1",
+          "text": "40th"
+        },
+        {
+          "label": "2",
+          "text": "46th"
+        },
+        {
+          "label": "3",
+          "text": "48th"
+        },
+        {
+          "label": "4",
+          "text": "42nd"
+        }
+      ],
+      "question_id": "630680615237",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "42nd",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Match the books in List 1 with their authors in List 2.\nList 1 List 2\nA. The Philosophy of the Bomb 1. Sachindranath Sanyal\nB. Bandi Jiwan 2. Bankim Chandra Chattopadhyay\nC. Pather Dabi 3. Bhagwati Charan Vohra\nD. Anandmath 4. Sarat Chandra Chattopadhyay",
+      "options": [
+        {
+          "label": "1",
+          "text": "A-3, B-1, C-4, D-2"
+        },
+        {
+          "label": "2",
+          "text": "A-4, B-3, C-2, D-1"
+        },
+        {
+          "label": "3",
+          "text": "A-3, B-1, C-2, D-4"
+        },
+        {
+          "label": "4",
+          "text": "A-1, B-3, C-4, D-2"
+        }
+      ],
+      "question_id": "6306801102055",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "A-3, B-1, C-4, D-2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "The rotating columns of air that occur over water bodies and are generally less severe than land tornadoes are known as:",
+      "options": [
+        {
+          "label": "1",
+          "text": "hurricanes"
+        },
+        {
+          "label": "2",
+          "text": "waterspouts"
+        },
+        {
+          "label": "3",
+          "text": "squalls"
+        },
+        {
+          "label": "4",
+          "text": "typhoons"
+        }
+      ],
+      "question_id": "630680616023",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "waterspouts",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

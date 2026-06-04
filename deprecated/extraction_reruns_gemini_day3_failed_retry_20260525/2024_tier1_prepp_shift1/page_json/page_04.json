@@ -1,0 +1,77 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "In a certain code language:\n\n'A + B' means 'A is the mother of B';\n'A - B' means 'A is the brother of B';\n'A × B' means 'A is the wife of B';\n'A ÷ B' means 'A is the father of B'.\n\nBased on the above, how is 4 related to 2 if '4 + 3 ÷ 2 ÷ 1 - 5'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father's father"
+        },
+        {
+          "label": "2",
+          "text": "Mother's mother"
+        },
+        {
+          "label": "3",
+          "text": "Mother's father"
+        },
+        {
+          "label": "4",
+          "text": "Father's mother"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Identify the figure given in the options which when put in place of '?' will logically complete the series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure a"
+        },
+        {
+          "label": "2",
+          "text": "Figure b"
+        },
+        {
+          "label": "3",
+          "text": "Figure c"
+        },
+        {
+          "label": "4",
+          "text": "Not enough information"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "medium",
+      "notes": "The question provides figures a, b, c as options. Option 4 is inferred as missing/not provided."
+    }
+  ],
+  "warnings": [
+    "Question 3 options were labeled a, b, c, d; mapped to 1, 2, 3, 4.",
+    "Question 4 options were provided as figures a, b, c; option 4 is missing from the source image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

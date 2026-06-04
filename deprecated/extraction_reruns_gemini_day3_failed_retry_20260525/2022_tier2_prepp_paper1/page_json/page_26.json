@@ -1,0 +1,134 @@
+{
+  "page": 26,
+  "questions": [
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nThe friends decided to play cards to _________ time while waiting for the cab.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ignore"
+        },
+        {
+          "label": "2",
+          "text": "kill"
+        },
+        {
+          "label": "3",
+          "text": "move"
+        },
+        {
+          "label": "4",
+          "text": "ease"
+        }
+      ],
+      "question_id": "26433058504",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "kill",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\n\nA) Healthy, strong trees act as carbon sinks, offsetting carbon and reducing the effects of climate change.\nB) Trees help to clean the air we breathe. Through their leaves and bark, they absorb harmful pollutants and release clean oxygen for us to breathe.\nC) Increasing levels of carbon dioxide caused by deforestation and fossil fuel combustion trap heat in the atmosphere.\nD) In urban environments, trees absorb pollutant gases like nitrogen oxides, ozone, and carbon monoxide, and sweep up particles like dust and smoke.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BDCA"
+        },
+        {
+          "label": "2",
+          "text": "DBAC"
+        },
+        {
+          "label": "3",
+          "text": "CDAB"
+        },
+        {
+          "label": "4",
+          "text": "ABCD"
+        }
+      ],
+      "question_id": "26433065239",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "BDCA",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\nShikha said, “The heavy rain this week has spoiled all my travel plans.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "Shikha said that the heavy rain that week had spoiled all her travel plans."
+        },
+        {
+          "label": "2",
+          "text": "Shikha told me that the heavy rain that week had spoiled all her travel plans."
+        },
+        {
+          "label": "3",
+          "text": "Shikha said that the heavy rain that week has spoiled all her travel plans."
+        },
+        {
+          "label": "4",
+          "text": "Shikha said that the heavy rain this week had spoiled all her travel plans."
+        }
+      ],
+      "question_id": "26433059496",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Shikha said that the heavy rain that week had spoiled all her travel plans.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nA person who admires himself or herself too much, especially their appearance",
+      "options": [
+        {
+          "label": "1",
+          "text": "Narcissist"
+        },
+        {
+          "label": "2",
+          "text": "Egoist"
+        },
+        {
+          "label": "3",
+          "text": "Selfish"
+        },
+        {
+          "label": "4",
+          "text": "Dictator"
+        }
+      ],
+      "question_id": "26433060822",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Narcissist",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

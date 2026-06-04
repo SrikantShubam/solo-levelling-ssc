@@ -1,0 +1,156 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "The foremost right among rights to freedom is _________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Right to life and personal liberty"
+        },
+        {
+          "label": "2",
+          "text": "Preventive detention"
+        },
+        {
+          "label": "3",
+          "text": "Freedom to assemble"
+        },
+        {
+          "label": "4",
+          "text": "Right to freedom of speech and expression"
+        }
+      ],
+      "question_id": "26433064828",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Right to life and personal liberty",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "A dishonest merchant sells goods at a 12.5% loss on the cost price, but uses 28 g weight instead of 36 g. What is his percentage profit or loss?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6.25% loss"
+        },
+        {
+          "label": "2",
+          "text": "12.5% gain"
+        },
+        {
+          "label": "3",
+          "text": "18.75% gain"
+        },
+        {
+          "label": "4",
+          "text": "10.5% loss"
+        }
+      ],
+      "question_id": "26433065071",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "12.5% gain",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "The HCF of two numbers is 12. Which one of the following can never be their LCM?",
+      "options": [
+        {
+          "label": "1",
+          "text": "72"
+        },
+        {
+          "label": "2",
+          "text": "60"
+        },
+        {
+          "label": "3",
+          "text": "90"
+        },
+        {
+          "label": "4",
+          "text": "84"
+        }
+      ],
+      "question_id": "26433074260",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "90",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "Two circles touch each other externally at P. AB is a direct common tangent to the two circles, A and B are points of contact, and ∠PAB = 40° . The measure of ∠ABP is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "45°"
+        },
+        {
+          "label": "2",
+          "text": "55°"
+        },
+        {
+          "label": "3",
+          "text": "50°"
+        },
+        {
+          "label": "4",
+          "text": "40°"
+        }
+      ],
+      "question_id": "26433062666",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "50°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "The mean proportion of 169 and 144 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "156"
+        },
+        {
+          "label": "2",
+          "text": "147"
+        },
+        {
+          "label": "3",
+          "text": "126"
+        },
+        {
+          "label": "4",
+          "text": "165"
+        }
+      ],
+      "question_id": "26433073018",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "156",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

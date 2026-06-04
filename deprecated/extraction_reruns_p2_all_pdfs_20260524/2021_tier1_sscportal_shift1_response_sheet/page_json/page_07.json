@@ -1,0 +1,96 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Six letters and symbols, H, h, I, @, % and S, are written on the different faces of a dice. Two positions of this dice are shown. Select the letter or symbol that will be on the face opposite to the one having ‘H’.",
+      "options": [
+        {
+          "label": "1",
+          "text": "S"
+        },
+        {
+          "label": "2",
+          "text": "%"
+        },
+        {
+          "label": "3",
+          "text": "h"
+        },
+        {
+          "label": "4",
+          "text": "@"
+        }
+      ],
+      "question_id": "65497842383",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "@",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the option that is related to the third number in the same way as the second number is related to the first number.\n223 : 350 :: 519 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "736"
+        },
+        {
+          "label": "2",
+          "text": "645"
+        },
+        {
+          "label": "3",
+          "text": "687"
+        },
+        {
+          "label": "4",
+          "text": "654"
+        }
+      ],
+      "question_id": "65497843487",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "736",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the letter-cluster that is different.",
+      "options": [
+        {
+          "label": "1",
+          "text": "SPK"
+        },
+        {
+          "label": "2",
+          "text": "JGT"
+        },
+        {
+          "label": "3",
+          "text": "PMN"
+        },
+        {
+          "label": "4",
+          "text": "GTQ"
+        }
+      ],
+      "question_id": "65497842264",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "GTQ",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

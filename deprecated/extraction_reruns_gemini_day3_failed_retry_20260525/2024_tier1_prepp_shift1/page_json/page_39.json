@@ -1,0 +1,106 @@
+{
+  "page": 39,
+  "questions": [
+    {
+      "question_number": 89,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the bracketed word in the following sentence to fill in the blank:\n\nDuring Covid times, many organizations made ________(sentimental) appeals to raise funds for migrant workers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mawkish"
+        },
+        {
+          "label": "2",
+          "text": "Sincere"
+        },
+        {
+          "label": "3",
+          "text": "Cynical"
+        },
+        {
+          "label": "4",
+          "text": "Practical"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The source text uses a, b, c, d labels; mapped to 1, 2, 3, 4 as per instructions."
+    },
+    {
+      "question_number": 90,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the underlined word in the given sentence:\n\nHe is an atheist, although he respects everyone's belief.",
+      "options": [
+        {
+          "label": "1",
+          "text": "One who believes in God"
+        },
+        {
+          "label": "2",
+          "text": "One who believes in nature"
+        },
+        {
+          "label": "3",
+          "text": "One who is extremist"
+        },
+        {
+          "label": "4",
+          "text": "One who does not believe in God"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The source text uses a, b, c, d labels; mapped to 1, 2, 3, 4 as per instructions."
+    },
+    {
+      "question_number": 91,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the underlined idiom in the following sentence:\n\nIn my new office, all employees were different, so I felt like a fish out of water.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Uncomfortable"
+        },
+        {
+          "label": "2",
+          "text": "Not provided"
+        },
+        {
+          "label": "3",
+          "text": "Not provided"
+        },
+        {
+          "label": "4",
+          "text": "Not provided"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question 91 is incomplete on the page; only one option is visible."
+    }
+  ],
+  "warnings": [
+    "Question 91 is incomplete on the page and lacks the required four options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,15 @@
+{
+  "page": 60,
+  "questions": [],
+  "warnings": [
+    "No questions found on this page. The page contains promotional material for SSC CGL study notes."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

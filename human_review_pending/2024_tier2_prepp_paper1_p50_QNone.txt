@@ -1,0 +1,18 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 50
+Question Number: None
+Global Q#: 94
+Section: None
+Modality: text_only
+Blocking Reasons: ['correct_option_unresolved_or_conflict']
+Has Correct Label: False
+Evidence Source: unavailable
+
+--- Question Text ---
+What does the term 'multiphyletic group' mean in the context of algae?
+
+--- Options ---
+  (1) Having a common ancestor
+  (2) Being closely related species
+  (3) No common ancestor, not closely related
+  (4) Having diverse morphoanatomical characteristics

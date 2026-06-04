@@ -1,0 +1,194 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 182,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nGive her a 50% raise in salary.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Let her being given a 50% raise in salary."
+        },
+        {
+          "label": "2",
+          "text": "She should give a 50% raise in salary."
+        },
+        {
+          "label": "3",
+          "text": "She should have given a 50% raise in salary."
+        },
+        {
+          "label": "4",
+          "text": "Let her be given a 50% raise in salary."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 183,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. The first is far more real than the second.\nB. But, a person who enjoys long distance popularity succeeds in creating a favourable notion of himself among unknown people.\nC. An intimately popular person is liked by those who know him.\nD. There are two kinds of popularity - intimate and long distance popularity.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CBDA"
+        },
+        {
+          "label": "2",
+          "text": "DACB"
+        },
+        {
+          "label": "3",
+          "text": "CABD"
+        },
+        {
+          "label": "4",
+          "text": "DCAB"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 184,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\nThe captain announced, \"The flight will be delayed due to bad weather.\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "The captain announced that the flight will be delayed due to bad weather."
+        },
+        {
+          "label": "2",
+          "text": "The captain announced that the fight was delayed due to bad weather."
+        },
+        {
+          "label": "3",
+          "text": "The captain announced that the flight would be delayed due to bad weather."
+        },
+        {
+          "label": "4",
+          "text": "The captain announced that the flight would be delay due to bad weather."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 185,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nHave you ________________ with the difficulties you might have to face?",
+      "options": [
+        {
+          "label": "1",
+          "text": "considered"
+        },
+        {
+          "label": "2",
+          "text": "reckoned"
+        },
+        {
+          "label": "3",
+          "text": "discussed"
+        },
+        {
+          "label": "4",
+          "text": "pondered"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 186,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\nThe children said to the nurse, \"Reema slipped and fell from the stairs.\"",
+      "options": [
+        {
+          "label": "1",
+          "text": "The children told the nurse that Reema had slipped and fallen from the stairs."
+        },
+        {
+          "label": "2",
+          "text": "The children told to the nurse that Reema slipped and fallen from the stairs."
+        },
+        {
+          "label": "3",
+          "text": "The children told the nurse Reema has slipped and fallen from the stairs."
+        },
+        {
+          "label": "4",
+          "text": "The children told the nurse that Reema slipped and fell from the stairs."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 187,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nHave you placed an order for a cake?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Have an order for a cake been placed by you?"
+        },
+        {
+          "label": "2",
+          "text": "Was an order for a cake placed by you?"
+        },
+        {
+          "label": "3",
+          "text": "Has an order for a cake been placed by you?"
+        },
+        {
+          "label": "4",
+          "text": "Is an order for a cake being placed by you?"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,126 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "If tan(A + B) = √3 and tan(A - B) = 1/√3; 0° < (A + B) < 90°; A > B, then the values of A and B are ________, respectively.",
+      "options": [
+        {
+          "label": "1",
+          "text": "45° and 15°"
+        },
+        {
+          "label": "2",
+          "text": "15° and 45°"
+        },
+        {
+          "label": "3",
+          "text": "30° and 30°"
+        },
+        {
+          "label": "4",
+          "text": "60° and 30°"
+        }
+      ],
+      "question_id": "264330126431",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "45° and 15°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Two ships are on the opposite of a light house such that all three of them are collinear. The angles of depression of the two ships from the top of the light house are 30° and 60°. If the ships are 230√3 m apart, then find the height of the light house (in m).",
+      "options": [
+        {
+          "label": "1",
+          "text": "175.4"
+        },
+        {
+          "label": "2",
+          "text": "165.2"
+        },
+        {
+          "label": "3",
+          "text": "172.5"
+        },
+        {
+          "label": "4",
+          "text": "180.5"
+        }
+      ],
+      "question_id": "264330122824",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "172.5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "The arithmetic mean of the following data is ________. 23, 17,20,19,21",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "19"
+        },
+        {
+          "label": "3",
+          "text": "23"
+        },
+        {
+          "label": "4",
+          "text": "21"
+        }
+      ],
+      "question_id": "264330126395",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "20",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "The number 5769116 is divisible by which of the following numbers?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "12"
+        },
+        {
+          "label": "4",
+          "text": "8"
+        }
+      ],
+      "question_id": "264330126419",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

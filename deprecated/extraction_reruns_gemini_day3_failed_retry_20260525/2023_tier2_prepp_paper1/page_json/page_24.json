@@ -1,0 +1,104 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "The given sentence has an error which has been underlined. The underlined word is given as options with some changes. Select the option that rectifies the error. She vaccillates a lot while making any decision.",
+      "options": [
+        {
+          "label": "1",
+          "text": "vasillates"
+        },
+        {
+          "label": "2",
+          "text": "vacillattes"
+        },
+        {
+          "label": "3",
+          "text": "vacillates"
+        },
+        {
+          "label": "4",
+          "text": "vacilates"
+        }
+      ],
+      "question_id": "264330170950",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "vacillates",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank. By this time tomorrow, I ________ the work assigned to me.",
+      "options": [
+        {
+          "label": "1",
+          "text": "will have did"
+        },
+        {
+          "label": "2",
+          "text": "will do"
+        },
+        {
+          "label": "3",
+          "text": "will have done"
+        },
+        {
+          "label": "4",
+          "text": "will be done"
+        }
+      ],
+      "question_id": "264330166088",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "will have done",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the most appropriate phrasal verb to fill in the blank. . ________ that thought. It will be a great idea someday.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Hold onto"
+        },
+        {
+          "label": "2",
+          "text": "Hold to"
+        },
+        {
+          "label": "3",
+          "text": "Hold on"
+        },
+        {
+          "label": "4",
+          "text": "Hold against"
+        }
+      ],
+      "question_id": "264330162645",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Hold onto",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

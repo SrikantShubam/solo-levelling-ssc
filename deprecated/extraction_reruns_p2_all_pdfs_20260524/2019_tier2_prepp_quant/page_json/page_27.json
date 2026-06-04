@@ -1,0 +1,126 @@
+{
+  "page": 27,
+  "questions": [
+    {
+      "question_number": 96,
+      "section": null,
+      "question_text_full": "Surekha borrowed a sum of money and returned it in two equal annual instalments of ₹5,547 each. If the rate of interest was 7 1/2 % p.a. compounded yearly, then the total interest paid by her was:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹1,134"
+        },
+        {
+          "label": "2",
+          "text": "₹1,144"
+        },
+        {
+          "label": "3",
+          "text": "₹1,126"
+        },
+        {
+          "label": "4",
+          "text": "₹1,096"
+        }
+      ],
+      "question_id": "8161615305",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "₹1,134",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 97,
+      "section": null,
+      "question_text_full": "The graphs of the equations 3x - 20y - 2 = 0 and 11x - 5y + 61 = 0 intersect at P(a,b). What is the value of (a² + b² - ab)/(a² - b² + ab)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "41/31"
+        },
+        {
+          "label": "2",
+          "text": "31/41"
+        },
+        {
+          "label": "3",
+          "text": "37/35"
+        },
+        {
+          "label": "4",
+          "text": "5/7"
+        }
+      ],
+      "question_id": "8161615332",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "31/41",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 98,
+      "section": null,
+      "question_text_full": "If (10 a³ + 4b³) : (11a³ - 15b³) = 7 : 5, then (3a + 5b) : (9a - 2b) = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 : 2"
+        },
+        {
+          "label": "2",
+          "text": "10 : 13"
+        },
+        {
+          "label": "3",
+          "text": "8 : 7"
+        },
+        {
+          "label": "4",
+          "text": "5 : 4"
+        }
+      ],
+      "question_id": "8161615298",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "10 : 13",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 99,
+      "section": null,
+      "question_text_full": "In ΔABC, ∠A - ∠B = 33°, ∠B - ∠C = 18°. What is the sum of the smallest and the largest angles of the triangle?",
+      "options": [
+        {
+          "label": "1",
+          "text": "92°"
+        },
+        {
+          "label": "2",
+          "text": "143°"
+        },
+        {
+          "label": "3",
+          "text": "125°"
+        },
+        {
+          "label": "4",
+          "text": "108°"
+        }
+      ],
+      "question_id": "8161615336",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "125°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

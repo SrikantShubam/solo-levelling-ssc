@@ -1,0 +1,104 @@
+{
+  "page": 46,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Match the following Prime Ministers of India with the Five-Year Plans they initiated.\nList-1 (Prime Ministers)\ni : Jawaharlal Nehru\nii: Manmohan Singh\niii: Atal Bihari Vajpayee\nList-2 (Five-Year Plans)\na) Second Five-Year Plan\nb) Tenth Five-Year Plan\nc) Eleventh Five-Year Plan",
+      "options": [
+        {
+          "label": "1",
+          "text": "i-b, ii-c, iii-a"
+        },
+        {
+          "label": "2",
+          "text": "i-c, ii-b, iii-a"
+        },
+        {
+          "label": "3",
+          "text": "i-b, ii-a, iii-c"
+        },
+        {
+          "label": "4",
+          "text": "i-a, ii-c, iii-b"
+        }
+      ],
+      "question_id": "264330172916",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "i-a, ii-c, iii-b",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Which Committee had suggested a penalty or punishment for the non-performance of Fundamental Duties?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Indira Gandhi Committee"
+        },
+        {
+          "label": "2",
+          "text": "Morarji Desai Committee"
+        },
+        {
+          "label": "3",
+          "text": "Verma Committee"
+        },
+        {
+          "label": "4",
+          "text": "Swaran Singh Committee"
+        }
+      ],
+      "question_id": "264330171898",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Swaran Singh Committee",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Among the choices listed, which one is NOT a form of cancer?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Glaucoma"
+        },
+        {
+          "label": "2",
+          "text": "Carcinoma"
+        },
+        {
+          "label": "3",
+          "text": "Lymphoma"
+        },
+        {
+          "label": "4",
+          "text": "Sarcoma"
+        }
+      ],
+      "question_id": "264330166349",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Glaucoma",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

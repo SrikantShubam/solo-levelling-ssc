@@ -1,0 +1,96 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "In a certain code language,\n‘A + B’ means ‘A is the mother of B’,\n‘A – B’ means ‘A is the father of B’,\n‘A $ B’ means ‘A is the son of B’,\n‘A % B’ means ‘A is the sister of B’,\n‘A / B’ means ‘A is the wife of B’ and\n‘A = B’ means ‘A is the brother of B’.\n\nWhich of the following means A is the daughter of K?\ni. A + K / J – P = D\nii. J % P = K + A = D\niii. K + A / P – D % J\niv. D + K = A / P – J",
+      "options": [
+        {
+          "label": "1",
+          "text": "i"
+        },
+        {
+          "label": "2",
+          "text": "iii"
+        },
+        {
+          "label": "3",
+          "text": "ii"
+        },
+        {
+          "label": "4",
+          "text": "iv"
+        }
+      ],
+      "question_id": "630680797014",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "iii",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled i, ii, iii, iv in the text, mapped to 1, 2, 3, 4 respectively based on the visual order of the Ans block."
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "19 is related to 209 following a certain logic. Following the same logic, 27 is related to 297. To which of the following is 61 related, following the same logic?\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)",
+      "options": [
+        {
+          "label": "1",
+          "text": "653"
+        },
+        {
+          "label": "2",
+          "text": "600"
+        },
+        {
+          "label": "3",
+          "text": "571"
+        },
+        {
+          "label": "4",
+          "text": "671"
+        }
+      ],
+      "question_id": "630680344653",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "671",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Which of the following numbers will replace the question mark (?) in the given series?\n1, 3, 10, 41, ?, 1237",
+      "options": [
+        {
+          "label": "1",
+          "text": "202"
+        },
+        {
+          "label": "2",
+          "text": "210"
+        },
+        {
+          "label": "3",
+          "text": "200"
+        },
+        {
+          "label": "4",
+          "text": "206"
+        }
+      ],
+      "question_id": "630680411880",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "206",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

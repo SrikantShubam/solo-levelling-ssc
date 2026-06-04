@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "task_id": "2019_tier1_prepp_shift1/p02",
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_02.png",
+      "merged_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\merged_questions_global_order.json"
+    },
+    {
+      "task_id": "2019_tier1_prepp_shift1/p03",
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_03.png",
+      "merged_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\merged_questions_global_order.json"
+    },
+    {
+      "task_id": "2019_tier1_prepp_shift1/p04",
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_04.png",
+      "merged_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\merged_questions_global_order.json"
+    },
+    {
+      "task_id": "2019_tier1_prepp_shift1/p05",
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_05.png",
+      "merged_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\merged_questions_global_order.json"
+    },
+    {
+      "task_id": "2019_tier1_prepp_shift1/p06",
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_06.png",
+      "merged_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\merged_questions_global_order.json"
+    },
+    {
+      "task_id": "2019_tier1_prepp_shift1/p07",
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_07.png",
+      "merged_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\merged_questions_global_order.json"
+    }
+  ]
+}

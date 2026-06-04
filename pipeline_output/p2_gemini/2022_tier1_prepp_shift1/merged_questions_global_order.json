@@ -6,7 +6,7 @@
   "expected_question_count": 100,
   "is_complete_question_trial": true,
   "qc_passed": true,
-  "qc_status": "BLOCKED",
+  "qc_status": "PASS_WITH_MANUAL_REVIEW",
   "page_counts": [
     {
       "page": 1,
@@ -194,8 +194,8 @@
       ],
       "question_id": "264330105153",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "−26, −29",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -243,25 +243,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_01.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_01.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_01.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_01.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 2,
@@ -545,8 +543,8 @@
       ],
       "question_id": "26433068296",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -595,25 +593,23 @@
       "visual_required": true,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_02.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_02.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_02.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_02.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 6,
@@ -639,8 +635,8 @@
       ],
       "question_id": "26433087136",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "×, −, ÷, +",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -688,25 +684,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_02.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_02.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_02.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_02.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 7,
@@ -818,8 +812,8 @@
       ],
       "question_id": "26433069234",
       "chosen_option_label": null,
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "4",
+      "correct_option_text": "(8, 260, 2)",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -869,26 +863,25 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
+      "canonical_correct_option_label": "4",
       "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict",
         "chosen_option_missing"
       ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_03.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_03.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_03.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_03.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 9,
@@ -914,8 +907,8 @@
       ],
       "question_id": "26433068564",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "+, ×, ÷, =",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -963,25 +956,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_03.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_03.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_03.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_03.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 10,
@@ -1265,8 +1256,8 @@
       ],
       "question_id": "26433067828",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "Options are visual figures representing mirror images.",
@@ -1314,25 +1305,23 @@
       "visual_required": true,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_04.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_04.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_04.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_04.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 14,
@@ -1358,8 +1347,8 @@
       ],
       "question_id": "26433065983",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "Options are visual figures.",
@@ -1408,25 +1397,23 @@
       "visual_required": true,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_05.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_05.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_05.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_05.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 15,
@@ -1710,8 +1697,8 @@
       ],
       "question_id": "264330104833",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "NCXC",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -1759,25 +1746,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_06.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_06.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_06.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_06.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 19,
@@ -1803,8 +1788,8 @@
       ],
       "question_id": "26433076646",
       "chosen_option_label": null,
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1 (2 V 9 / T / O B 6)",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "The options are visual grids. Option 1 is marked correct.",
@@ -1854,26 +1839,25 @@
       "visual_required": true,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
+      "canonical_correct_option_label": "1",
       "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict",
         "chosen_option_missing"
       ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_07.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_07.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_07.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_07.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 20,
@@ -2071,8 +2055,8 @@
       ],
       "question_id": "26433070236",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "(65, 9, 4)",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -2120,25 +2104,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_08.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_08.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_08.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_08.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 23,
@@ -2336,8 +2318,8 @@
       ],
       "question_id": "264330105092",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "(7 – 343 – 331)",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -2385,25 +2367,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_09.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_09.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_09.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_09.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 1,
@@ -4255,8 +4235,8 @@
       ],
       "question_id": "26433054473",
       "chosen_option_label": null,
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Ricky Kej",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -4306,26 +4286,25 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
+      "canonical_correct_option_label": "4",
       "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict",
         "chosen_option_missing"
       ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_13.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_13.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_13.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_13.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 23,
@@ -4613,8 +4592,8 @@
       ],
       "question_id": "26433065071",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "18.75% gain",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -4663,25 +4642,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_14.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_14.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_14.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_14.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 2,
@@ -4793,8 +4770,8 @@
       ],
       "question_id": "26433062666",
       "chosen_option_label": null,
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "55°",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -4844,26 +4821,25 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
+      "canonical_correct_option_label": "2",
       "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict",
         "chosen_option_missing"
       ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_14.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_14.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_14.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_14.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 4,
@@ -4975,8 +4951,8 @@
       ],
       "question_id": "26433063382",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "15.4%",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -5025,25 +5001,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 6,
@@ -5069,8 +5043,8 @@
       ],
       "question_id": "26433082925",
       "chosen_option_label": "4",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "(3√2 - √6) / 8",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -5120,25 +5094,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 7,
@@ -5254,8 +5226,8 @@
       ],
       "question_id": "26433075243",
       "chosen_option_label": null,
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "217.50 m",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -5305,26 +5277,25 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
+      "canonical_correct_option_label": "1",
       "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict",
         "chosen_option_missing"
       ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_15.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 9,
@@ -5436,8 +5407,8 @@
       ],
       "question_id": "26433082992",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "196",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -5485,25 +5456,23 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_16.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_16.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_16.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_16.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 11,
@@ -5705,8 +5674,8 @@
       ],
       "question_id": "264330105771",
       "chosen_option_label": "3",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "34 percent",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": null,
@@ -5755,25 +5724,23 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_ai_review",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_ai_review"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok"
     },
     {
       "question_number": 14,
@@ -5799,8 +5766,8 @@
       ],
       "question_id": "26433066342",
       "chosen_option_label": null,
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "23",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": null,
@@ -5850,26 +5817,25 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
+      "canonical_correct_option_label": "3",
       "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict",
         "chosen_option_missing"
       ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 15,
@@ -5895,8 +5861,8 @@
       ],
       "question_id": "26433058440",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "23/17",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": null,
@@ -5945,25 +5911,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_17.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 16,
@@ -5989,8 +5953,8 @@
       ],
       "question_id": "264330105926",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "119",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -6038,25 +6002,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_18.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_18.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_18.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_18.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 17,
@@ -6258,8 +6220,8 @@
       ],
       "question_id": "26433065018",
       "chosen_option_label": null,
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "1",
+      "correct_option_text": "920",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -6309,26 +6271,25 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
+      "canonical_correct_option_label": "1",
       "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict",
         "chosen_option_missing"
       ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_18.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_18.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_18.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_18.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 20,
@@ -6354,8 +6315,8 @@
       ],
       "question_id": "264330105713",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "4 : 1",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": null,
@@ -6403,25 +6364,23 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 21,
@@ -6447,8 +6406,8 @@
       ],
       "question_id": "26433075333",
       "chosen_option_label": null,
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "4",
+      "correct_option_text": "11.13 cm",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": null,
@@ -6498,26 +6457,25 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_reason_vision",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_reason_vision"
       ],
-      "canonical_correct_option_label": null,
+      "canonical_correct_option_label": "4",
       "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict",
         "chosen_option_missing"
       ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_reason"
     },
     {
       "question_number": 22,
@@ -6543,8 +6501,8 @@
       ],
       "question_id": "26433072981",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "4",
+      "correct_option_text": "1/2",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": null,
@@ -6594,25 +6552,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "4",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_19.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 23,
@@ -6638,8 +6594,8 @@
       ],
       "question_id": "26433082417",
       "chosen_option_label": null,
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "4",
+      "correct_option_text": "7 : 9",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -6690,26 +6646,25 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_reason_vision",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_reason_vision"
       ],
-      "canonical_correct_option_label": null,
+      "canonical_correct_option_label": "4",
       "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict",
         "chosen_option_missing"
       ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_20.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_20.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_20.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_20.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_reason"
     },
     {
       "question_number": 24,
@@ -6735,8 +6690,8 @@
       ],
       "question_id": "264330105963",
       "chosen_option_label": "3",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "119",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -6784,25 +6739,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_reason_vision",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_reason_vision"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_20.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_20.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_20.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_20.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_reason"
     },
     {
       "question_number": 25,
@@ -6914,8 +6867,8 @@
       ],
       "question_id": "26433093048",
       "chosen_option_label": "4",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "ACDB",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -6963,25 +6916,23 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_21.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_21.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_21.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_21.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 2,
@@ -7351,8 +7302,8 @@
       ],
       "question_id": "26433060703",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Parade",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -7400,25 +7351,23 @@
       "visual_required": true,
       "table_required": false,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_22.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_22.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_22.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_22.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 7,
@@ -7874,8 +7823,8 @@
       ],
       "question_id": "26433096152",
       "chosen_option_label": "1",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "During an earthquake,",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -7923,25 +7872,23 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_23.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_23.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_23.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_23.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 13,
@@ -8397,8 +8344,8 @@
       ],
       "question_id": "26433059716",
       "chosen_option_label": "2",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Loyalty",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -8446,25 +8393,23 @@
       "visual_required": false,
       "table_required": false,
       "math_required": true,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_25.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_25.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_25.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_25.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 19,
@@ -8576,8 +8521,8 @@
       ],
       "question_id": "26433073884",
       "chosen_option_label": "3",
-      "correct_option_label": null,
-      "correct_option_text": null,
+      "correct_option_label": "3",
+      "correct_option_text": "He does his work carefully.",
       "is_complete_on_page": true,
       "confidence": "high",
       "notes": "",
@@ -8625,25 +8570,23 @@
       "visual_required": true,
       "table_required": true,
       "math_required": false,
-      "correct_evidence_source": "unavailable",
+      "correct_evidence_source": "grok_massive_answer",
       "deterministic_correct_option_label": null,
-      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_status": "PASS_WITH_EVIDENCE",
       "evidence_reasons": [
-        "llm_only_visual_or_complex"
+        "grok_massive_batch"
       ],
-      "canonical_correct_option_label": null,
-      "canonical_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
-      "practice_ready": false,
-      "blocking_review_reasons": [
-        "correct_option_unresolved_or_conflict"
-      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
       "option_crop_paths": [],
       "crop_metadata": [],
       "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_25.png",
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_25.png",
-      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_25.png"
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_25.png",
+      "ai_reviewed": true,
+      "ai_review_source": "grok_massive"
     },
     {
       "question_number": 21,
@@ -9080,7 +9023,7 @@
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2022_tier1_prepp_shift1\\page_images\\page_27.png"
     }
   ],
-  "canonical_review_count": 43,
-  "blocking_review_count": 33,
+  "canonical_review_count": 19,
+  "blocking_review_count": 0,
   "asset_evidence_attached": true
 }

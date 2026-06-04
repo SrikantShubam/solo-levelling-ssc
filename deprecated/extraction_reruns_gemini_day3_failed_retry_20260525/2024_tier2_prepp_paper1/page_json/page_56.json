@@ -1,0 +1,107 @@
+{
+  "page": 56,
+  "questions": [
+    {
+      "question_number": 107,
+      "section": null,
+      "question_text_full": "Which of the following is a monoatomic gas?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Chlorin"
+        },
+        {
+          "label": "2",
+          "text": "Hydrogen"
+        },
+        {
+          "label": "3",
+          "text": "Xenon"
+        },
+        {
+          "label": "4",
+          "text": "Oxygen"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for these questions."
+    },
+    {
+      "question_number": 108,
+      "section": null,
+      "question_text_full": "Select the most appropriate answer from the options given below regarding Census 2011.\n\nStatement 1. The population of India has increased by more than 181 million during the decade 2001-2011.\n\nStatement 2. The percentage decadal growth during 2001-2011 has registered the sharpest decline since Independence.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only statement 1 is correct."
+        },
+        {
+          "label": "2",
+          "text": "Only statement 2 is correct."
+        },
+        {
+          "label": "3",
+          "text": "Both statements 1 and 2 are not correct."
+        },
+        {
+          "label": "4",
+          "text": "Both statements 1 and 2 are correct."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain answer keys (green/red marks) for these questions."
+    },
+    {
+      "question_number": 109,
+      "section": null,
+      "question_text_full": "What is the name of the ion with a charge of -1?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cation"
+        },
+        {
+          "label": "2",
+          "text": "Monovalent ion"
+        },
+        {
+          "label": "3",
+          "text": "Polyvalent ion"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4 (Missing in source)"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Question 109 is incomplete on the page; only 3 options are visible."
+    }
+  ],
+  "warnings": [
+    "Question 109 is incomplete on the page and missing the 4th option.",
+    "No answer keys (green/red marks) are present on this page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

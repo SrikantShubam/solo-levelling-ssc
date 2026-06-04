@@ -1,0 +1,134 @@
+{
+  "page": 48,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Which of the following is NOT an antecedent river in India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ganga"
+        },
+        {
+          "label": "2",
+          "text": "Yamuna"
+        },
+        {
+          "label": "3",
+          "text": "Kosi"
+        },
+        {
+          "label": "4",
+          "text": "Indus"
+        }
+      ],
+      "question_id": "630680644612",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "Yamuna",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Which substance is commonly used as an acid-base indicator, which turns red in acidic solutions and blue in basic solutions?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Litmus paper"
+        },
+        {
+          "label": "2",
+          "text": "Methyl orange"
+        },
+        {
+          "label": "3",
+          "text": "Phenol"
+        },
+        {
+          "label": "4",
+          "text": "Bromothymol blue"
+        }
+      ],
+      "question_id": "630680572262",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Litmus paper",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "In which of the following years did Mahatma Gandhi lead the Satyagraha and hunger strike for the first time in India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1917"
+        },
+        {
+          "label": "2",
+          "text": "1919"
+        },
+        {
+          "label": "3",
+          "text": "1918"
+        },
+        {
+          "label": "4",
+          "text": "1920"
+        }
+      ],
+      "question_id": "6306801162474",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "1918",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "In which of the following cases did the Supreme court of India give a ruling that, 'in case of any conflict between the fundamental rights and the directive principles, the former would prevail'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Champakam Doraijan Case, 1951"
+        },
+        {
+          "label": "2",
+          "text": "Keshvananda Bharti Case, 1973"
+        },
+        {
+          "label": "3",
+          "text": "Golaknath Case. 1967"
+        },
+        {
+          "label": "4",
+          "text": "Minerva Mills Case, 1980"
+        }
+      ],
+      "question_id": "630680758985",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "Champakam Doraijan Case, 1951",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

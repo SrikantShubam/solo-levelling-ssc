@@ -1,0 +1,74 @@
+{
+  "page": 38,
+  "questions": [
+    {
+      "question_number": 41,
+      "section": null,
+      "question_text_full": "Based on the given passage, which of the following inferences can be made?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The discovery of the Sapphire-winged Warbler has sparked global interest in birdwatching."
+        },
+        {
+          "label": "2",
+          "text": "The Sapphire-winged Warbler is an aggressive and territorial bird species."
+        },
+        {
+          "label": "3",
+          "text": "Conservation efforts are solely focused on protecting the Sapphire-winged Warbler."
+        },
+        {
+          "label": "4",
+          "text": "The scientific community has lost interest in studying avian species."
+        }
+      ],
+      "question_id": "264330171943",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "The discovery of the Sapphire-winged Warbler has sparked global interest in birdwatching.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 42,
+      "section": null,
+      "question_text_full": "What does the fermentation process do?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Turns grapes into raisins"
+        },
+        {
+          "label": "2",
+          "text": "Makes grapes larger"
+        },
+        {
+          "label": "3",
+          "text": "Crushes the grapes"
+        },
+        {
+          "label": "4",
+          "text": "Turns grapes into wine"
+        }
+      ],
+      "question_id": "264330168528",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Turns grapes into wine",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

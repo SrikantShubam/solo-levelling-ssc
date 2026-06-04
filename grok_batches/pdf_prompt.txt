@@ -1,0 +1,50 @@
+You are processing PDF: 2020_tier1_prepp_shift1
+You need to read 17 page images and extract the correct option label for each question.
+
+For EACH page image, read it and determine:
+1. Which questions are on that page
+2. Which option (1/2/3/4) has the GREEN tick mark (this is the correct answer)
+3. Which option has the CHOSEN/response-sheet mark (if visible)
+
+Return a JSON object with this structure:
+{
+  "pages": [
+    {
+      "page": INTEGER,
+      "questions": [
+        {
+          "question_number": INTEGER,
+          "correct_option_label": "1"|"2"|"3"|"4"|null,
+          "chosen_option_label": "1"|"2"|"3"|"4"|null,
+          "confidence": "high"|"medium"|"low"
+        }
+      ]
+    }
+  ]
+}
+
+CRITICAL: Each question must have correct_option_label set to the GREEN-ticked option.
+Rules:
+- Correct option is the GREEN tick/check-marked option
+- Red cross is NOT correct
+- Chosen Option is the response-sheet field (may not exist on all pages)
+- Return ONLY the raw JSON object
+
+Page images to process:
+- Page 02 (questions 3): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_02.png
+- Page 04 (questions 10,11): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_04.png
+- Page 06 (questions 14,15,16): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_06.png
+- Page 08 (questions 21,22,23): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_08.png
+- Page 09 (questions 25,2,3,4): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_09.png
+- Page 10 (questions 5,6,7): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_10.png
+- Page 11 (questions 10,11,13): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_11.png
+- Page 12 (questions 15): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_12.png
+- Page 13 (questions 20,21,23): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_13.png
+- Page 14 (questions 1): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_14.png
+- Page 21 (questions 2): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_21.png
+- Page 22 (questions 4,5,6): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_22.png
+- Page 23 (questions 9,10,11): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_23.png
+- Page 24 (questions 13,14): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_24.png
+- Page 25 (questions 16,17): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_25.png
+- Page 26 (questions 20,21): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_26.png
+- Page 27 (questions 23,24): pipeline_output\p2_gemini\2020_tier1_prepp_shift1\page_images\page_27.png

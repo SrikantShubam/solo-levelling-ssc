@@ -1,0 +1,104 @@
+{
+  "page": 20,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "In a certain code language,\nA + B means ‘A is the mother of B’,\nA – B means ‘A is the brother of B’,\nA x B means ‘A is the wife of B’ and\nA ÷ B means ‘A is the father of B’.\nBased on the above, how is U related to Z if ‘U – V x W ÷ Y + Z’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mother's father's father"
+        },
+        {
+          "label": "2",
+          "text": "Mother's father's brother"
+        },
+        {
+          "label": "3",
+          "text": "Mother's mother's brother"
+        },
+        {
+          "label": "4",
+          "text": "Mother's mother's father"
+        }
+      ],
+      "question_id": "630680681073",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Mother's mother's brother",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the correct mirror image of the given combination when the mirror is placed at line MN as shown.\n4BvGF72",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "630680619813",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Figure 4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual figures representing mirror images."
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Seven people A, B, C, D, E, F and G, scored different marks (out of 100) in an exam. G scored the lowest marks. B scored second highest marks, which were 80. A scored 72. E scored more than F but less than C. Marks scored by C were a multiple of 11 and less than 70. The sum of marks scored by C and F was 120. What is the score of F?",
+      "options": [
+        {
+          "label": "1",
+          "text": "56"
+        },
+        {
+          "label": "2",
+          "text": "50"
+        },
+        {
+          "label": "3",
+          "text": "54"
+        },
+        {
+          "label": "4",
+          "text": "55"
+        }
+      ],
+      "question_id": "630680416338",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "54",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

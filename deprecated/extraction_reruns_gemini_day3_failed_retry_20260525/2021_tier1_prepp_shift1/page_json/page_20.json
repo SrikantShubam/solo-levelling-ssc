@@ -1,0 +1,77 @@
+{
+  "page": 20,
+  "questions": [
+    {
+      "question_number": 42,
+      "section": null,
+      "question_text_full": "A Ghatam is a ______.",
+      "options": [
+        {
+          "label": "1",
+          "text": "small handheld drum that resembles a tambourine"
+        },
+        {
+          "label": "2",
+          "text": "percussion instrument made of leather and jackwood"
+        },
+        {
+          "label": "3",
+          "text": "large, narrow-mouthed earthenware pot used as a percussion instrument"
+        },
+        {
+          "label": "4",
+          "text": "wind instrument made of wood and metal"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 43,
+      "section": null,
+      "question_text_full": "Tribes of the Nicobar Islands pay their respects to the departed soul of the head of the family during the ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ossuary Feast"
+        },
+        {
+          "label": "2",
+          "text": "Jagaddhatri Puja"
+        },
+        {
+          "label": "3",
+          "text": "Kalpataru Utsav"
+        },
+        {
+          "label": "4",
+          "text": "Gajan Festival"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 44 is incomplete on the page (only the question text and one option are visible).",
+    "The first set of options at the top of the page does not have an associated question number or text visible."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

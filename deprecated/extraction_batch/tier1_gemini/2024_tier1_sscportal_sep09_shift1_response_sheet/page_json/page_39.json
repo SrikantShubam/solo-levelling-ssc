@@ -1,0 +1,36 @@
+{
+  "page": 39,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": "Comprehension",
+      "question_text_full": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. There is a saying that coming events cast their shadows before. (1)________, it is not universally true. Something can happen within a second, and one may not (2)________ it. (3)________, some instances show that predictions based on certain signs have gone wrong. People generally say that natural calamities can be predicted by observing the animals. But what if animals are suffering from some disease and don't show any signs before the event appears? They may fail to make peculiar sounds or actions about the events which are going to take place. (4)________, some unnatural calamities that are likely to appear may forecast their shadows by some bad omens. (5)________, we should not completely cancel out the possibilities that animals can sense certain unnatural happenings. Select the most appropriate option to fill in blank number 5.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Therefore"
+        },
+        {
+          "label": "2",
+          "text": "However"
+        },
+        {
+          "label": "3",
+          "text": "Nevertheless"
+        },
+        {
+          "label": "4",
+          "text": "Moreover"
+        }
+      ],
+      "question_id": "630680164759",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Therefore",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 58
+Question Number: 116
+Global Q#: 111
+Section: None
+Modality: text_only
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Which of the following statements is/are correct?
+
+--- Options ---
+  (1) Not visible
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible

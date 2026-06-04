@@ -1,0 +1,126 @@
+{
+  "page": 46,
+  "questions": [
+    {
+      "question_number": 61,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’. A team of biologists have been discovered four new species of horned frogs in the North Eastern region of India.",
+      "options": [
+        {
+          "label": "1",
+          "text": "has been discovered"
+        },
+        {
+          "label": "2",
+          "text": "has been discovering"
+        },
+        {
+          "label": "3",
+          "text": "has discovered"
+        },
+        {
+          "label": "4",
+          "text": "No substitution required"
+        }
+      ],
+      "question_id": "8161615563",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "has discovered",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 62,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank. ________ he became a minister, he didn’t allow any of his relatives to live with him.",
+      "options": [
+        {
+          "label": "1",
+          "text": "As long as"
+        },
+        {
+          "label": "2",
+          "text": "In case"
+        },
+        {
+          "label": "3",
+          "text": "As soon as"
+        },
+        {
+          "label": "4",
+          "text": "In order that"
+        }
+      ],
+      "question_id": "8161615633",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "As soon as",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 63,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’. Hardly had we stepped out of the building then we get drenched.",
+      "options": [
+        {
+          "label": "1",
+          "text": "that we are getting"
+        },
+        {
+          "label": "2",
+          "text": "No substitution required"
+        },
+        {
+          "label": "3",
+          "text": "than we got"
+        },
+        {
+          "label": "4",
+          "text": "when we got"
+        }
+      ],
+      "question_id": "8161615581",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "when we got",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 64,
+      "section": null,
+      "question_text_full": "Select the most appropriate direct form of the given sentence. The salesman said that he had verified all the bills while the goods were being packed.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The salesman said, “He had verified all the bills while the goods was being packed.”"
+        },
+        {
+          "label": "2",
+          "text": "The salesman said, “I am verifying all the bills while the goods are being packed.”"
+        },
+        {
+          "label": "3",
+          "text": "The salesman said, “I have verified all the bills while the goods are packed.”"
+        },
+        {
+          "label": "4",
+          "text": "The salesman said, “I verified all the bills while the goods were being packed.”"
+        }
+      ],
+      "question_id": "8161615624",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "The salesman said, “I verified all the bills while the goods were being packed.”",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

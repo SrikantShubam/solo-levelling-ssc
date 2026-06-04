@@ -1,0 +1,11 @@
+{
+  "page": 28,
+  "questions": [],
+  "warnings": [
+    "ERROR JSONDecodeError: Expecting ',' delimiter: line 34 column 2 (char 2897)",
+    "[\n    {\n        \"question_number\": 24,\n        \"section\": \"Comprehension\",\n        \"question_text_full\": \"In the following passage some words have been deleted. Fill in the blanks with the help of the alternatives given. Select the most appropriate option for each number.\",\n        \"options\": [\n            {\n                \"label\": \"1\",\n                \"text\": \"Human life is (1) ______ a unique blessing, which in turn depends on the (2) ______ of the Self. He who is not aware of the Self can neither have peace nor can he foster peaceful co-existence. We have to link our soul with God and body with the physical world for substance. (3) ______ the formless God is invisible to the naked eye, our mind often wanders wherever it goes. (4) ______ , we are unable to develop any love for the Divine. And religion like the white light of heavens (5) ______ multi-coloured fragmentations by the prisms of men and loses its gravity. Instead of uniting, it becomes a major dividing force. French philosopher Tail hard de Chardin, thinking deeply on meaning of our existence and relationship with the Divine, expounds, \\u201cwe are not human beings having a spiritual experience\\u201d.\",\n                \"question_id\": \"264330139177\",\n                \"chosen_option_label\": \"1\",\n                \"correct_option_label\": \"4\",\n        \"correct_option_text\": \"As a reason\",\n        \"is_complete_on_page\": true,\n        \"confidence\": \"high\",\n        \"notes\": \"\"\n    },\n    {\n        \"question_number\": 25,\n        \"section\": \"Comprehension\",\n        \"question_text_full\": \"In the following passage some words have been deleted. Fill in the blanks with the help of the alternatives given. Select the most appropriate option for each number.\",\n        \"options\": [\n            {\n                \"label\": \"1\",\n                \"text\": \"Human life is (1) ______ a unique blessing, which in turn depends on the (2) ______ of the Self. He who is not aware of the Self can neither have peace nor can he foster peace"
+  ],
+  "page_status": "ERROR",
+  "provider": "nvidia_nim",
+  "model": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1"
+}

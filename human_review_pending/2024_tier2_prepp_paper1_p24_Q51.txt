@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 24
+Question Number: 51
+Global Q#: 50
+Section: None
+Modality: visual_options
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 3
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. In three of the four pairs, the same pattern is applied and hence they form a group. Select the number-pair that does NOT belong to this group.
+
+--- Options ---
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4

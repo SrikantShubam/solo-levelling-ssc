@@ -1,0 +1,74 @@
+{
+  "page": 39,
+  "questions": [
+    {
+      "question_number": 43,
+      "section": "Comprehension",
+      "question_text_full": "Based on your reading of the passage, select the most appropriate word which best describes ‘luscious’.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Smooth"
+        },
+        {
+          "label": "2",
+          "text": "Soft"
+        },
+        {
+          "label": "3",
+          "text": "Juicy"
+        },
+        {
+          "label": "4",
+          "text": "Large"
+        }
+      ],
+      "question_id": "264330168530",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Juicy",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 44,
+      "section": "Comprehension",
+      "question_text_full": "In which region do grapes ripen in August?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Chile"
+        },
+        {
+          "label": "2",
+          "text": "California"
+        },
+        {
+          "label": "3",
+          "text": "France"
+        },
+        {
+          "label": "4",
+          "text": "Australia"
+        }
+      ],
+      "question_id": "264330168527",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "California",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

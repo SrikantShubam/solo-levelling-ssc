@@ -1,0 +1,134 @@
+{
+  "page": 16,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Who among the following formed the Bihar Provincial Kisan Sabha in 1929?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Jayprakash Narayan"
+        },
+        {
+          "label": "2",
+          "text": "JM Sengupta"
+        },
+        {
+          "label": "3",
+          "text": "Kunwar Singh"
+        },
+        {
+          "label": "4",
+          "text": "Swami Sahajanand Saraswati"
+        }
+      ],
+      "question_id": "630680412319",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Swami Sahajanand Saraswati",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Which plateaus are very fertile because they are rich in black soil that is very good for farming?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Deccan lava plateau"
+        },
+        {
+          "label": "2",
+          "text": "African plateau"
+        },
+        {
+          "label": "3",
+          "text": "Ethiopian plateau"
+        },
+        {
+          "label": "4",
+          "text": "Katanga plateau"
+        }
+      ],
+      "question_id": "63068094185",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Deccan lava plateau",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Which of the following is a correct order of basicity?",
+      "options": [
+        {
+          "label": "1",
+          "text": "LiOH>NaOH>KOH>CsOH"
+        },
+        {
+          "label": "2",
+          "text": "KOH>CsOH>NaOH>LiOH"
+        },
+        {
+          "label": "3",
+          "text": "LiOH>KOH>CsOH>NaOH"
+        },
+        {
+          "label": "4",
+          "text": "CsOH>KOH>NaOH>LiOH"
+        }
+      ],
+      "question_id": "63068089701",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "CsOH>KOH>NaOH>LiOH",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Which of the following pairs is INCORRECT regarding the grade of organisation and its example?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cell-tissue grade organisation - Jellyfish"
+        },
+        {
+          "label": "2",
+          "text": "Cellular grade organisation - Sycon"
+        },
+        {
+          "label": "3",
+          "text": "Protoplasmic grade organisation - Paramecium"
+        },
+        {
+          "label": "4",
+          "text": "Tissue-organ grade organisation - Euplectella"
+        }
+      ],
+      "question_id": "630680133787",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Tissue-organ grade organisation - Euplectella",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

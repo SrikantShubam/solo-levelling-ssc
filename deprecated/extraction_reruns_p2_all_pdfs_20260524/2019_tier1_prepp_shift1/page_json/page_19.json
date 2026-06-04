@@ -1,0 +1,126 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "If A + B = 45°, then the value of 2(1 + tanA)(1 + tanB) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "0"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "question_id": "12356869",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "A train crosses a pole in 12 sec, and a bridge of length 170 m in 36 sec. Then the speed of the train is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "30.75 km/h"
+        },
+        {
+          "label": "2",
+          "text": "10.8 km/h"
+        },
+        {
+          "label": "3",
+          "text": "25.5 km/h"
+        },
+        {
+          "label": "4",
+          "text": "32.45 km/h"
+        }
+      ],
+      "question_id": "12356860",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "25.5 km/h",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "The ratio of the number of boys to the number of girls in a school of 640 students, is 5 : 3. If 30 more girls are admitted in the school, then how many more boys should be admitted so that the ratio of boys to that of the girls, becomes 14 : 9.",
+      "options": [
+        {
+          "label": "1",
+          "text": "20"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "question_id": "12356857",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "20",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "In Δ ABC, MN || BC, the area of quadrilateral MBCN=130 sqcm. If AN : NC=4 : 5, then the area of Δ MAN is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "45 cm²"
+        },
+        {
+          "label": "2",
+          "text": "32 cm²"
+        },
+        {
+          "label": "3",
+          "text": "65 cm²"
+        },
+        {
+          "label": "4",
+          "text": "40 cm²"
+        }
+      ],
+      "question_id": "12356868",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "32 cm²",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

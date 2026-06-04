@@ -1,0 +1,76 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "Select the correct option that indicates the arrangement of the given words in the order in which they appear in an English dictionary\n1. Petitionary\n2. Petitioning\n3. Petition\n4. Petitioners\n5. Petitioned",
+      "options": [
+        {
+          "label": "1",
+          "text": "3, 1, 4, 5, 2"
+        },
+        {
+          "label": "2",
+          "text": "3, 1, 5, 4, 2"
+        },
+        {
+          "label": "3",
+          "text": "4, 1, 2, 3, 5"
+        },
+        {
+          "label": "4",
+          "text": "1, 2, 3, 4, 5"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 2,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "Six letters and symbols, H, h, I, @, % and $, are written on the different faces of a dice. Two position of this dice are shown. Select the letter or symbol that will be on the opposite to the one having 'H'.",
+      "options": [
+        {
+          "label": "1",
+          "text": "@"
+        },
+        {
+          "label": "2",
+          "text": "$"
+        },
+        {
+          "label": "3",
+          "text": "%"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Only three options (a, b, c) are visible in the image. Option 4 is missing."
+    }
+  ],
+  "warnings": [
+    "Question 2 is incomplete as it only shows three options (a, b, c) and lacks the fourth option."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

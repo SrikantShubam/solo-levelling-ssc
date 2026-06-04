@@ -1,0 +1,98 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the number from the given options to complete the series: 25, 30, 40, 55, 75, ___",
+      "options": [
+        {
+          "label": "1",
+          "text": "105"
+        },
+        {
+          "label": "2",
+          "text": "85"
+        },
+        {
+          "label": "3",
+          "text": "80"
+        },
+        {
+          "label": "4",
+          "text": "100"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "The position(s) of how many letters will remain unchanged if all the letters in the word ‘ENTOMB’ are arranged in English alphabetical order?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Two"
+        },
+        {
+          "label": "2",
+          "text": "None"
+        },
+        {
+          "label": "3",
+          "text": "One"
+        },
+        {
+          "label": "4",
+          "text": "Three"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Six words Eat, Cry, Play, Sleep, Run and Bath are written on different faces of a dice. Three positions of this dice are shown in the figure. Find the word on the face opposite to Eat.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Play"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Only option 'a' (Play) is visible. The question is incomplete as options 2, 3, and 4 are missing from the provided image."
+    }
+  ],
+  "warnings": [
+    "Question 9 is incomplete; only one option is visible."
+  ]
+}

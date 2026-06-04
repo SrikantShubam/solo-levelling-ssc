@@ -1,0 +1,372 @@
+{
+  "source_file": "ssc_cgl_2019_tier1_03032020_shift1.pdf",
+  "exam": "ssc_cgl",
+  "year": "2019",
+  "tier": "Tier-I",
+  "shift": "10:00 AM - 11:00 AM",
+  "date": "03/03/2020",
+  "answer_marking_style_observed": "Green checkmark indicates correct option",
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "Select the set of letters that when sequentially placed in the blanks of the given letter series will complete the series. k_lmml_mk_mmk_lkkl_m",
+      "options": [
+        {
+          "label": "1",
+          "text": "k, m, m, k, l"
+        },
+        {
+          "label": "2",
+          "text": "l, k, m, k, k"
+        },
+        {
+          "label": "3",
+          "text": "k, l, m, k, k"
+        },
+        {
+          "label": "4",
+          "text": "k, l, k, l, m"
+        }
+      ],
+      "correct_option_label": "4",
+      "correct_option_text": "k, l, k, l, m",
+      "question_id": "1235689",
+      "option_ids": null,
+      "chosen_option": "1",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (1) is marked with a red cross, while the correct option (4) is marked with a green checkmark."
+    },
+    {
+      "question_number": 2,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "Arrange the following words in the order in which they appear in an English dictionary. 1. Rightly 2. Rigidly 3. Righteous 4. Rigour 5. Rights",
+      "options": [
+        {
+          "label": "1",
+          "text": "1, 3, 5, 2, 4"
+        },
+        {
+          "label": "2",
+          "text": "3, 5, 1, 4, 2"
+        },
+        {
+          "label": "3",
+          "text": "3, 1, 5, 4, 2"
+        },
+        {
+          "label": "4",
+          "text": "3, 1, 5, 2, 4"
+        }
+      ],
+      "correct_option_label": "4",
+      "correct_option_text": "3, 1, 5, 2, 4",
+      "question_id": "1235682",
+      "option_ids": null,
+      "chosen_option": "4",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (4) is marked with a green checkmark."
+    },
+    {
+      "question_number": 3,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "Select the figure that can replace the question mark (?) in the following series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "correct_option_label": "3",
+      "correct_option_text": "Figure 3",
+      "question_id": "12356819",
+      "option_ids": null,
+      "chosen_option": "3",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (3) is marked with a green checkmark."
+    },
+    {
+      "question_number": 4,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "Study the given pattern carefully and select the number that can replace the question mark (?) in it. 6 21 14 / 40 500 ? / 8 25 7",
+      "options": [
+        {
+          "label": "1",
+          "text": "91"
+        },
+        {
+          "label": "2",
+          "text": "84"
+        },
+        {
+          "label": "3",
+          "text": "98"
+        },
+        {
+          "label": "4",
+          "text": "78"
+        }
+      ],
+      "correct_option_label": "1",
+      "correct_option_text": "91",
+      "question_id": "12356816",
+      "option_ids": null,
+      "chosen_option": "1",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (1) is marked with a green checkmark."
+    },
+    {
+      "question_number": 5,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "Four words have been given, out of which three are alike in some manner, while one is different. Select the odd word.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ferry"
+        },
+        {
+          "label": "2",
+          "text": "Ship"
+        },
+        {
+          "label": "3",
+          "text": "Yacht"
+        },
+        {
+          "label": "4",
+          "text": "Submarine"
+        }
+      ],
+      "correct_option_label": "4",
+      "correct_option_text": "Submarine",
+      "question_id": "1235684",
+      "option_ids": null,
+      "chosen_option": "1",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (1) is marked with a red cross, while the correct option (4) is marked with a green checkmark."
+    },
+    {
+      "question_number": 6,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "The sequence of folding a piece of paper and the manner in which the folded paper has been cut is shown in the following figures. How would this paper look when unfolded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
+      "question_id": "12356824",
+      "option_ids": null,
+      "chosen_option": "1",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (1) is marked with a green checkmark."
+    },
+    {
+      "question_number": 7,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number. 12 : 72 :: 18 : ? :: 22 : 242",
+      "options": [
+        {
+          "label": "1",
+          "text": "164"
+        },
+        {
+          "label": "2",
+          "text": "140"
+        },
+        {
+          "label": "3",
+          "text": "162"
+        },
+        {
+          "label": "4",
+          "text": "160"
+        }
+      ],
+      "correct_option_label": "3",
+      "correct_option_text": "162",
+      "question_id": "12356813",
+      "option_ids": null,
+      "chosen_option": "3",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (3) is marked with a green checkmark."
+    },
+    {
+      "question_number": 8,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "The given Venn diagram represents employees in an organisation: The triangle represents executives, the circle represents females, the rectangle represents MBAs and the square represents technical staff. The numbers given in the diagram represent the number of persons in that particular category. How many female executives are there in the organisation?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "11"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "correct_option_label": "1",
+      "correct_option_text": "5",
+      "question_id": "12356825",
+      "option_ids": null,
+      "chosen_option": "1",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (1) is marked with a green checkmark."
+    },
+    {
+      "question_number": 9,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "Which two numbers should be interchanged to make the given equation correct? 9 + 7 x 5 - 18 ÷ 2 = 3 x 4 - 10 + 45 ÷ 5",
+      "options": [
+        {
+          "label": "1",
+          "text": "9 and 3"
+        },
+        {
+          "label": "2",
+          "text": "18 and 45"
+        },
+        {
+          "label": "3",
+          "text": "7 and 4"
+        },
+        {
+          "label": "4",
+          "text": "2 and 5"
+        }
+      ],
+      "correct_option_label": "3",
+      "correct_option_text": "7 and 4",
+      "question_id": "12356814",
+      "option_ids": null,
+      "chosen_option": "3",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (3) is marked with a green checkmark."
+    },
+    {
+      "question_number": 10,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "Which of the option figures is the exact mirror image of the given figure when the mirror is held at the right side? RST2PK9LOX",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "correct_option_label": "4",
+      "correct_option_text": "Figure 4",
+      "question_id": "12356823",
+      "option_ids": null,
+      "chosen_option": "4",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (4) is marked with a green checkmark."
+    },
+    {
+      "question_number": 11,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "Two positions of the same dice are shown. Select the number that will be on the face opposite to the one showing 6.",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "correct_option_label": "4",
+      "correct_option_text": "1",
+      "question_id": "12356821",
+      "option_ids": null,
+      "chosen_option": "3",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (3) is marked with a red cross, while the correct option (4) is marked with a green checkmark."
+    },
+    {
+      "question_number": 12,
+      "section": "General Intelligence and Reasoning",
+      "question_text": "The ratio of the present ages of Asha and Lata is 5 : 6. If the difference between their ages is 6 years, then what will be Lata's age will be after 5 years?",
+      "options": [
+        {
+          "label": "1",
+          "text": "41"
+        },
+        {
+          "label": "2",
+          "text": "35"
+        },
+        {
+          "label": "3",
+          "text": "40"
+        },
+        {
+          "label": "4",
+          "text": "45"
+        }
+      ],
+      "correct_option_label": "1",
+      "correct_option_text": "41",
+      "question_id": "12356818",
+      "option_ids": null,
+      "chosen_option": "1",
+      "confidence": "high",
+      "extraction_notes": "The chosen option (1) is marked with a green checkmark."
+    }
+  ],
+  "warnings": []
+}

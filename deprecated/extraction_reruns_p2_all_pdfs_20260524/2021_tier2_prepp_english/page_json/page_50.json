@@ -1,0 +1,96 @@
+{
+  "page": 50,
+  "questions": [
+    {
+      "question_number": 76,
+      "section": null,
+      "question_text_full": "Select the most appropriate indirect form of the given sentence.\nJayesh said to Diwakar, “ You can top the class if you want to.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "Jayesh told Diwakar that he would top the class if he wants to."
+        },
+        {
+          "label": "2",
+          "text": "Jayesh told Diwakar that he could top the class if he wanted to."
+        },
+        {
+          "label": "3",
+          "text": "Jayesh told Diwakar that you could top the class if you wanted to."
+        },
+        {
+          "label": "4",
+          "text": "Jayesh told Diwakar that you can top the class if you want to."
+        }
+      ],
+      "question_id": "26433083403",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Jayesh told Diwakar that he could top the class if he wanted to.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 77,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nfight shy of",
+      "options": [
+        {
+          "label": "1",
+          "text": "to invite"
+        },
+        {
+          "label": "2",
+          "text": "to avoid"
+        },
+        {
+          "label": "3",
+          "text": "to challenge"
+        },
+        {
+          "label": "4",
+          "text": "to perform"
+        }
+      ],
+      "question_id": "26433083290",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "to avoid",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 78,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order forming a meaningful and coherent paragraph.\nA. He had agreed to feed him, pay him twelve rupees a month, and find him somewhere to stay.\nB. A month’s salary was paid in advance.\nC. Fotik had learned to handle his job quite well in the last five days.\nD. Upen Babu was a good man which had helped a lot.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ADBC"
+        },
+        {
+          "label": "2",
+          "text": "CDAB"
+        },
+        {
+          "label": "3",
+          "text": "CBDA"
+        },
+        {
+          "label": "4",
+          "text": "DACB"
+        }
+      ],
+      "question_id": "26433083464",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "CDAB",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

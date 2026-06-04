@@ -1,0 +1,76 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "The sequence of folding of paper and the manner in which the folded paper has been cut is shown in the following figures. How would this paper look when unfolded?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure a"
+        },
+        {
+          "label": "2",
+          "text": "Figure b"
+        },
+        {
+          "label": "3",
+          "text": "Figure c"
+        },
+        {
+          "label": "4",
+          "text": "Figure d"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "medium",
+      "notes": "The question provides options labeled a, b, c, d which correspond to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Study the given pattern carefully and select the number from among the given options that can replace the question mark (?) in it.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Not visible"
+        },
+        {
+          "label": "2",
+          "text": "Not visible"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The question stem is present but the visual pattern and the answer options are not visible on this page."
+    }
+  ],
+  "warnings": [
+    "Question 11 is incomplete as the pattern and options are missing from the provided image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

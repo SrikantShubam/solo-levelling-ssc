@@ -1,0 +1,104 @@
+{
+  "page": 50,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Which of the following statements is/are correct?\nStatements:\n1) Ampere's Law describes the relationship between electric current and the magnetic field it produces.\n2) Maxwell's equations are a set of four fundamental equations governing electric and magnetic fields in the absence of charges and currents.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Statement 2"
+        },
+        {
+          "label": "2",
+          "text": "Neither Statement 1 nor 2"
+        },
+        {
+          "label": "3",
+          "text": "Both Statements 1 and 2"
+        },
+        {
+          "label": "4",
+          "text": "Only Statement 1"
+        }
+      ],
+      "question_id": "630680593999",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Only Statement 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Charcot-Marie-Tooth disease is caused by duplication of the peripheral myelin protein-22 (PMP22) gene on which chromosome?",
+      "options": [
+        {
+          "label": "1",
+          "text": "chromosome 21"
+        },
+        {
+          "label": "2",
+          "text": "chromosome 15"
+        },
+        {
+          "label": "3",
+          "text": "chromosome 8"
+        },
+        {
+          "label": "4",
+          "text": "chromosome 17"
+        }
+      ],
+      "question_id": "630680618495",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "chromosome 17",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Which portal allowed stakeholders seamless access to information related to funding, documentation, project monitoring, and approval through four efficient ways of logging in for monitoring the implementation of Centrally Sponsored Schemes in 2023?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Digital India Portal"
+        },
+        {
+          "label": "2",
+          "text": "Viksit Bharat Portal"
+        },
+        {
+          "label": "3",
+          "text": "Nyaya Vikas Portal"
+        },
+        {
+          "label": "4",
+          "text": "Pradhan Mantri Jan bhagidari Yojana Portal"
+        }
+      ],
+      "question_id": "630680579878",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "Nyaya Vikas Portal",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

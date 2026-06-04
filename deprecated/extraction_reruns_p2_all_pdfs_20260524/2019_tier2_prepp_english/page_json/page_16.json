@@ -1,0 +1,36 @@
+{
+  "page": 16,
+  "questions": [
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "What is the long lasting damage that the bush fires have caused to the wildlife in Australia?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The fires have not only killed animals directly, but also destroyed their habitat."
+        },
+        {
+          "label": "2",
+          "text": "Many animals in the zoos have been killed."
+        },
+        {
+          "label": "3",
+          "text": "Half a billion animals have died in New South Wales alone."
+        },
+        {
+          "label": "4",
+          "text": "More than 100,000 cows and sheep may have been lost."
+        }
+      ],
+      "question_id": "8161615513",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "The fires have not only killed animals directly, but also destroyed their habitat.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

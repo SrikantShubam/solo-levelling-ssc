@@ -1,0 +1,104 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "A rectangular park is 120 m long and 104 m wide. A 1-m wide path runs along the boundary of the park, remaining completely inside the park area. Thus, the outside edges of the path run along the boundary wall of the park. The inside edges of the path are marked with a white line of negligible thickness. If it costs ₹2.50 to mark each metre with the white line, then how much would it cost (in ₹) to fully mark the inside edges of the path?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1090"
+        },
+        {
+          "label": "2",
+          "text": "1080"
+        },
+        {
+          "label": "3",
+          "text": "1120"
+        },
+        {
+          "label": "4",
+          "text": "1100"
+        }
+      ],
+      "question_id": "264330122873",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "1100",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "40 litres of milk are kept in a container. 4 litres of milk were removed from this container and replaced with water. This procedure was performed two more times. How much milk does the container now hold?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30 litres"
+        },
+        {
+          "label": "2",
+          "text": "34.23 litres"
+        },
+        {
+          "label": "3",
+          "text": "29.16 litres"
+        },
+        {
+          "label": "4",
+          "text": "32 litres"
+        }
+      ],
+      "question_id": "26433057120",
+      "chosen_option_label": "4",
+      "correct_option_label": "3",
+      "correct_option_text": "29.16 litres",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "The difference of simple interest from two banks on ₹8,000 in 3 years is ₹800. If the rate of interest per annum in two banks are R1 and R2, then what is the value of R1 - R2? (Where R1 > R2)",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 1/3 %"
+        },
+        {
+          "label": "2",
+          "text": "3 1/3 %"
+        },
+        {
+          "label": "3",
+          "text": "1 1/3 %"
+        },
+        {
+          "label": "4",
+          "text": "2 1/3 %"
+        }
+      ],
+      "question_id": "264330121648",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "3 1/3 %",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

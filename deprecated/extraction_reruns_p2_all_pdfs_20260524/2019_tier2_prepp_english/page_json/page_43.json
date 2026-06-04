@@ -1,0 +1,36 @@
+{
+  "page": 43,
+  "questions": [
+    {
+      "question_number": 54,
+      "section": null,
+      "question_text_full": "The purpose of this passage is to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "suggest measures for improving the farmers' lot"
+        },
+        {
+          "label": "2",
+          "text": "talk about the consequences of the green revolution"
+        },
+        {
+          "label": "3",
+          "text": "compare Indian agriculture with that of other countries"
+        },
+        {
+          "label": "4",
+          "text": "express the anguish of the farmers"
+        }
+      ],
+      "question_id": "8161615538",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "talk about the consequences of the green revolution",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,106 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 47,
+      "section": null,
+      "question_text_full": "A javelin thrown by an athlete is in ________ motion.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Oscillatory"
+        },
+        {
+          "label": "2",
+          "text": "Periodic"
+        },
+        {
+          "label": "3",
+          "text": "Rectilinear"
+        },
+        {
+          "label": "4",
+          "text": "Curvilinear"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 48,
+      "section": null,
+      "question_text_full": "The green revolution technology resulted in an increase in the production of cereal crops from 72.4 million tons in 1965-66 to ________ million tons in 1978-79.",
+      "options": [
+        {
+          "label": "1",
+          "text": "150.8"
+        },
+        {
+          "label": "2",
+          "text": "165.9"
+        },
+        {
+          "label": "3",
+          "text": "131.9"
+        },
+        {
+          "label": "4",
+          "text": "141.2"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 49,
+      "section": null,
+      "question_text_full": "Calculate the oxidation number of ‘S’ in H2S2O7.",
+      "options": [
+        {
+          "label": "1",
+          "text": "3"
+        },
+        {
+          "label": "2",
+          "text": "7"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Question is incomplete as options 3 and 4 are missing from the page."
+    }
+  ],
+  "warnings": [
+    "Question 49 is incomplete on the page; options 3 and 4 are missing."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

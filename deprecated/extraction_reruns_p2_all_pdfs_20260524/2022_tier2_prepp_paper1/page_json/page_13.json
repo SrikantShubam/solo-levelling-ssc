@@ -1,0 +1,96 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the figure from the options that can replace the question mark (?) and complete the pattern.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "26433068218",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual figures."
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the option that represents the letters that, when placed from left to right in the following blanks, will complete the letter-series.\nQ W _ R T Q _ F R _ Q W _ _ T _ _ H R T",
+      "options": [
+        {
+          "label": "1",
+          "text": "F W T G R Q X"
+        },
+        {
+          "label": "2",
+          "text": "E X T G R Q X"
+        },
+        {
+          "label": "3",
+          "text": "E W T G R Q W"
+        },
+        {
+          "label": "4",
+          "text": "E W T H S Q W"
+        }
+      ],
+      "question_id": "264330126276",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "E W T G R Q W",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the correct combination of mathematical signs to sequentially replace the * signs and balance the given equation.\n21 * 3 * 36 * 2 * 23 = 68",
+      "options": [
+        {
+          "label": "1",
+          "text": "÷ - × +"
+        },
+        {
+          "label": "2",
+          "text": "÷ × + -"
+        },
+        {
+          "label": "3",
+          "text": "+ × - ÷"
+        },
+        {
+          "label": "4",
+          "text": "× - ÷ +"
+        }
+      ],
+      "question_id": "26433068105",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "× - ÷ +",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

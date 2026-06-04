@@ -1,0 +1,106 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "A man buys 10 identical articles for a total of ₹15. If he sells each of them for ₹1.7, then his profit percentage will be ____ % (rounded off to two decimal place).",
+      "options": [
+        {
+          "label": "1",
+          "text": "14.33"
+        },
+        {
+          "label": "2",
+          "text": "13.33"
+        },
+        {
+          "label": "3",
+          "text": "12.76"
+        },
+        {
+          "label": "4",
+          "text": "11.76"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Find the median of the following data. (Rounded off to 2 decimal places.)\nClass interval 0-5 5-10 10-15 15-20 20-25 25-30 30-35\nFrequency 3 5 4 2 7 6 5",
+      "options": [
+        {
+          "label": "1",
+          "text": "18.64"
+        },
+        {
+          "label": "2",
+          "text": "20.53"
+        },
+        {
+          "label": "3",
+          "text": "21.43"
+        },
+        {
+          "label": "4",
+          "text": "23.40"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "Let ABC be a right-angled triangle with a right angle at B. If tan A = √3, then find the value of sin A cos C + cos A sin C and cos A cos C - sin A sin C.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question is incomplete as options are missing from the page."
+    }
+  ],
+  "warnings": [
+    "Question 28 is incomplete on the page and lacks visible options; placeholder figures used."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

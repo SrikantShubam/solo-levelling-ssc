@@ -1,0 +1,22 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 18
+Question Number: 39
+Global Q#: 38
+Section: None
+Modality: visual_options
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Select the set in which the numbers are related in the same way as are the numbers of the following sets.
+(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)
+(215, 185, 135)
+(276, 246, 196)
+
+--- Options ---
+  (1) (255, 235, 205)
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4

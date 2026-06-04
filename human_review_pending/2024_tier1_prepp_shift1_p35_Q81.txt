@@ -1,0 +1,20 @@
+PDF: 2024_tier1_prepp_shift1
+Page: 35
+Question Number: 81
+Global Q#: 77
+Section: None
+Modality: visual_options
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 4
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Select the option that can be used as a one-word substitute for the given group of words:
+That which cannot be conquered
+
+--- Options ---
+  (1) Invisible
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4

@@ -1,0 +1,46 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "Select the option figure which is embedded in the given figure. (Rotation is NOT allowed).",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "26433089778",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "nvidia_nim",
+  "model": "meta/llama-4-maverick-17b-128e-instruct",
+  "usage": {
+    "prompt_tokens": 2642,
+    "total_tokens": 2774,
+    "completion_tokens": 132,
+    "prompt_tokens_details": null
+  }
+}

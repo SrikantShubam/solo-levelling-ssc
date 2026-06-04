@@ -1,0 +1,224 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "Which of the following is NOT a key element inherent to any theatre?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sense of touch"
+        },
+        {
+          "label": "2",
+          "text": "Sense of hearing"
+        },
+        {
+          "label": "3",
+          "text": "Sense of taste"
+        },
+        {
+          "label": "4",
+          "text": "Sense of smell"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "The visually impaired do NOT feel secluded in the Blind Opera group because they can:",
+      "options": [
+        {
+          "label": "1",
+          "text": "relate to their fellow performers"
+        },
+        {
+          "label": "2",
+          "text": "become economically independent"
+        },
+        {
+          "label": "3",
+          "text": "express their creativity freely"
+        },
+        {
+          "label": "4",
+          "text": "play musical instruments together"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "What is the biggest problem in presenting the troupe on stage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Space management"
+        },
+        {
+          "label": "2",
+          "text": "Time management"
+        },
+        {
+          "label": "3",
+          "text": "Communication"
+        },
+        {
+          "label": "4",
+          "text": "Spontaneity"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "The members of Blind Opera demonstrate that:",
+      "options": [
+        {
+          "label": "1",
+          "text": "blindness is a great hindrance"
+        },
+        {
+          "label": "2",
+          "text": "their talent cannot be tapped"
+        },
+        {
+          "label": "3",
+          "text": "the visually challenged lack expression"
+        },
+        {
+          "label": "4",
+          "text": "physical disability is not an obstacle"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 30,
+      "section": null,
+      "question_text_full": "What is the happy occasion mentioned in the beginning of the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A birthday"
+        },
+        {
+          "label": "2",
+          "text": "A musical show"
+        },
+        {
+          "label": "3",
+          "text": "A wedding"
+        },
+        {
+          "label": "4",
+          "text": "A laughter show"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 31,
+      "section": null,
+      "question_text_full": "What is the binding factor for the members of Blind Opera?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Their diverse backgrounds"
+        },
+        {
+          "label": "2",
+          "text": "Their talent for acting"
+        },
+        {
+          "label": "3",
+          "text": "Visual impairment"
+        },
+        {
+          "label": "4",
+          "text": "Their love for plays of Tagore"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 32,
+      "section": null,
+      "question_text_full": "The greater intent behind Blind Opera is to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "popularise the plays of Rabindranath Tagore"
+        },
+        {
+          "label": "2",
+          "text": "showcase the talent of the visually challenged"
+        },
+        {
+          "label": "3",
+          "text": "bring the disabled into the mainstream"
+        },
+        {
+          "label": "4",
+          "text": "establish a drama school on the lines of Shantiniketan"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

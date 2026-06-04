@@ -1,0 +1,104 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 58,
+      "section": null,
+      "question_text_full": "For the set of numbers 2, 3, 7, 8 and 10, the second order moment about the origin 4 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "13.2"
+        },
+        {
+          "label": "2",
+          "text": "12.6"
+        },
+        {
+          "label": "3",
+          "text": "15"
+        },
+        {
+          "label": "4",
+          "text": "10.5"
+        }
+      ],
+      "question_id": "6306801352906",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "13.2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 59,
+      "section": null,
+      "question_text_full": "In a data set, let the first and third quartiles be 268.25 and 290.75, respectively. The quartile deviation is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "12"
+        },
+        {
+          "label": "2",
+          "text": "11.25"
+        },
+        {
+          "label": "3",
+          "text": "18.5"
+        },
+        {
+          "label": "4",
+          "text": "15"
+        }
+      ],
+      "question_id": "6306801352899",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "11.25",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 60,
+      "section": null,
+      "question_text_full": "It has been found that 2% of the tools produced by a certain machine are defective. What is the probability that in a shipment of 400 such tools, 3% or more will be defective? (Probability that the normal variate lies between 0 and 1.43 is 0.4236.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "0.0764"
+        },
+        {
+          "label": "2",
+          "text": "0.50"
+        },
+        {
+          "label": "3",
+          "text": "0.4236"
+        },
+        {
+          "label": "4",
+          "text": "1.43"
+        }
+      ],
+      "question_id": "6306801300075",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "0.0764",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

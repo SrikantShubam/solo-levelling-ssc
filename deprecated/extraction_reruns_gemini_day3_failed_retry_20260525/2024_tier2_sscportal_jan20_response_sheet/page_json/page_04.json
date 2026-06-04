@@ -1,0 +1,104 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "If cos27° = p/q, then find the value of cosec27° - cos63°.",
+      "options": [
+        {
+          "label": "1",
+          "text": "p / (q * sqrt(q^2 - p^2))"
+        },
+        {
+          "label": "2",
+          "text": "p^2 / (q * sqrt(q^2 - p^2))"
+        },
+        {
+          "label": "3",
+          "text": "q / (p * sqrt(q^2 - p^2))"
+        },
+        {
+          "label": "4",
+          "text": "q^2 / (p * sqrt(q^2 - p^2))"
+        }
+      ],
+      "question_id": "630680764496",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "p^2 / (q * sqrt(q^2 - p^2))",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "The average of first 92 even numbers is",
+      "options": [
+        {
+          "label": "1",
+          "text": "94"
+        },
+        {
+          "label": "2",
+          "text": "92"
+        },
+        {
+          "label": "3",
+          "text": "93"
+        },
+        {
+          "label": "4",
+          "text": "91"
+        }
+      ],
+      "question_id": "630680657227",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "93",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Simplify (5z - 7y)^2 + (7z + 5y)^2 - 49z^2",
+      "options": [
+        {
+          "label": "1",
+          "text": "30z^2 + 83y^2"
+        },
+        {
+          "label": "2",
+          "text": "35z^2 + 70y^2"
+        },
+        {
+          "label": "3",
+          "text": "26z^2 + 82y^2"
+        },
+        {
+          "label": "4",
+          "text": "25z^2 + 74y^2"
+        }
+      ],
+      "question_id": "630680674735",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "25z^2 + 74y^2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

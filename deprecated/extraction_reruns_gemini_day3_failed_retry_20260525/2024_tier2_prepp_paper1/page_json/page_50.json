@@ -1,0 +1,77 @@
+{
+  "page": 50,
+  "questions": [
+    {
+      "question_number": null,
+      "section": null,
+      "question_text_full": "What does the term 'multiphyletic group' mean in the context of algae?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Having a common ancestor"
+        },
+        {
+          "label": "2",
+          "text": "Being closely related species"
+        },
+        {
+          "label": "3",
+          "text": "No common ancestor, not closely related"
+        },
+        {
+          "label": "4",
+          "text": "Having diverse morphoanatomical characteristics"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "This appears to be a standalone question or part of a passage not fully rendered with answer keys."
+    },
+    {
+      "question_number": 99,
+      "section": null,
+      "question_text_full": "Algae are photosynthetic creatures that have pigments that aid in photosynthesis, such as chlorophyll. They do not, however, have the actual stems, roots or leaves found in vascular plants. While some of them have many cells, others are unicellular. They might establish colonies as well. The majority of algae are aquatic. Some are terrestrial, and they can be found on rocks, trees and moist soil. Certain algae species coexist well with other living things. For instance, lichens are a symbiotic relationship between green (and often blue-green) algae and fungi. Algae are members of a polyphyletic group. This indicates that there is no common ancestor and that the species in this category are not necessarily closely related. They do not have other morphoanatomical characteristics typical of vascular plants, but they do have one thing in common: they are eukaryotes with the principal pigment being chlorophyll, which allows them to perform photosynthesis. Phycology is the scientific name for the study of algae. The blue-green algae is one example of a reference. But some sources do not classify them as algae because they are prokaryotes.\n\nWhich statement accurately describes vascular plants based on the information in the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Vascular plants lack stems, roots and leaves."
+        },
+        {
+          "label": "2",
+          "text": "Vascular plants are unicellular in structure."
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "The options for question 99 are incomplete in the provided image; only options 'a' and 'b' (mapped to 1 and 2) are visible."
+    }
+  ],
+  "warnings": [
+    "Question 99 options are incomplete in the source image.",
+    "Question 99 options 3 and 4 are missing from the source image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

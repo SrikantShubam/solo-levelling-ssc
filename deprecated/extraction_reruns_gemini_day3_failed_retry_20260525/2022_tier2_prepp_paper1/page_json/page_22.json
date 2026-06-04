@@ -1,0 +1,134 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Tigers are the largest members of the cat family. They are found in many parts of Asia.\nB. They mostly live in dark forests and sleep during the day. They come out for hunting pigs and deer by night.\nC. It is assumed that, probably, around 3,000 tigers live in the wild. This species looks spectacular and grand and they are very graceful in their movements.\nD. It is almost impossible for us to see them against a jungle background, especially when they are standing still, because of their striped coats. Unlike, most cats, the tiger likes bathing very much.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ABCD"
+        },
+        {
+          "label": "2",
+          "text": "CDBA"
+        },
+        {
+          "label": "3",
+          "text": "ACBD"
+        },
+        {
+          "label": "4",
+          "text": "ADBC"
+        }
+      ],
+      "question_id": "26433070701",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "ACBD",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nA good leader should be ready to ________ criticism.",
+      "options": [
+        {
+          "label": "1",
+          "text": "settle"
+        },
+        {
+          "label": "2",
+          "text": "meet"
+        },
+        {
+          "label": "3",
+          "text": "face"
+        },
+        {
+          "label": "4",
+          "text": "carry"
+        }
+      ],
+      "question_id": "26433058502",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "face",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the highlighted idiom.\nThe youth involved in the accident escaped by the skin of his teeth.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Barely managed to escape"
+        },
+        {
+          "label": "2",
+          "text": "Very arrogant"
+        },
+        {
+          "label": "3",
+          "text": "Always taking calculated decisions"
+        },
+        {
+          "label": "4",
+          "text": "Deficiency of funds"
+        }
+      ],
+      "question_id": "264330120744",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Barely managed to escape",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Select the correct homonym from the given options to fill in the blank.\nWhich________does the minister take to reach the Assembly?",
+      "options": [
+        {
+          "label": "1",
+          "text": "root"
+        },
+        {
+          "label": "2",
+          "text": "rot"
+        },
+        {
+          "label": "3",
+          "text": "route"
+        },
+        {
+          "label": "4",
+          "text": "riot"
+        }
+      ],
+      "question_id": "264330120788",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "route",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

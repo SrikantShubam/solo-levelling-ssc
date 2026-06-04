@@ -1,0 +1,360 @@
+{
+  "task_id": 9,
+  "data": {
+    "pdf_name": "2024_tier2_prepp_paper1",
+    "batch_start": 51,
+    "batch_end": 75,
+    "questions": [
+      {
+        "global_question_number": 51,
+        "question_number": 52,
+        "source_page": 25,
+        "question_text_full": "A question is given, followed by two statements labelled I and II. Identify which of the statements is/are sufficient/necessary to answer the question. Question: Arvind has blue, green and white marbles. What is the percentage of white marbles out of all the marbles he has? Statements: (I) The sum of blue and green marbles he has is 7. (II) He has 3 white marbles out of 10 marbles.",
+        "options": {
+          "1": "Data in Statement II alone is sufficient to answer the question while data in Statement I is not",
+          "2": "Data in Statement I alone is sufficient to answer the question while data in Statement II is not",
+          "3": "Data in Statements I and II together is sufficient to answer the question",
+          "4": "Data in Statements I and II together is not sufficient to answer the question"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 52,
+        "question_number": 53,
+        "source_page": 26,
+        "question_text_full": "Six letters P, Q, S, T, U and V are written on different faces of a dice. Two positions of this dice are shown in the figure. Find the letter on the face opposite to T.",
+        "options": {
+          "1": "S",
+          "2": "U",
+          "3": "V",
+          "4": "P"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 53,
+        "question_number": 54,
+        "source_page": 26,
+        "question_text_full": "If 'A' stands for ', 'B' stands for 'x', 'C' stands for '+' and 'D' stands for '-', what will be come in place of the question mark (?) in the following equation? 55 B 5 D 13 B 2 C 14 A 7 D 15 B 5 C 102 A 2 C 15 = ?",
+        "options": {
+          "1": "203",
+          "2": "242",
+          "3": "291",
+          "4": "177"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 54,
+        "question_number": 55,
+        "source_page": 27,
+        "question_text_full": "Each of the digits in the number 5238641 is arranged in ascending order from left to right. The position(s) of how many digits will remain unchanged as compared to that/those in the original number?",
+        "options": {
+          "1": "None",
+          "2": "Two",
+          "3": "Three",
+          "4": "One"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 55,
+        "question_number": 56,
+        "source_page": 27,
+        "question_text_full": "A statement is followed by two arguments I and II. Read the statement and the arguments carefully and select the appropriate answer from the given options.\n\nStatement: Hydroelectricity is a cleaner and greener energy than other forms of power generation.\nArguments:\n(I) Hydroelectric plants almost have nil CO2 emissions.\n(II) Hydroelectric power projects submerge huge amounts under water thereby affecting local flora and fauna.",
+        "options": {
+          "1": "Both I and II weaken the statement.",
+          "2": "II weakens while I strengthens the statement.",
+          "3": "Both I and II strengthen the statement.",
+          "4": "I weakens while II strengthens the statement."
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 56,
+        "question_number": 57,
+        "source_page": 28,
+        "question_text_full": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?\n\n#: XAF :: SVA: %",
+        "options": {
+          "1": "# = BEJ % = QRW",
+          "2": "# = BEJ % = ORW",
+          "3": "# = BEJ % = ORP",
+          "4": "# = BBJ% = ORW"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 57,
+        "question_number": 58,
+        "source_page": 28,
+        "question_text_full": "O, P, Q, R, S and T are sitting around a circular table facing the centre(but not necessarily in the same order). P sits second to the left of T. S sits third to the right of Q. Q is not an immediate neighbour of P. O sits second to the right of S. Which of the following represents the position of O with respect of R?",
+        "options": {
+          "1": "Third to the left",
+          "2": "Second to the left",
+          "3": "Immediate right",
+          "4": "Third to the right"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 58,
+        "question_number": 59,
+        "source_page": 28,
+        "question_text_full": "Read the given statements and conclusions carefully. Assuming that the information given in the statement(s) is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s).\n\nStatements:",
+        "options": {
+          "1": "Figure 1",
+          "2": "Figure 2",
+          "3": "Figure 3",
+          "4": "Figure 4"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 59,
+        "question_number": 60,
+        "source_page": 29,
+        "question_text_full": "In a certain code language, 'she gardens daily' is coded as 'ak jb mp' and 'where is she' is coded as 'mp pt kt'. How is 'she' coded in the given language?",
+        "options": {
+          "1": "mp",
+          "2": "pt",
+          "3": "ak",
+          "4": "kt"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 60,
+        "question_number": 61,
+        "source_page": 30,
+        "question_text_full": "Select the correct spelling of the incorrectly spelt word in the given sentence. The trainer tried to guage the learners' understanding of the subject by asking several new questions.",
+        "options": {
+          "1": "Gaage",
+          "2": "Gaaug",
+          "3": "Gaugg",
+          "4": "Gauge"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 61,
+        "question_number": 62,
+        "source_page": 30,
+        "question_text_full": "Select the most appropriate meaning of the underlined word. \"He walked leisurely towards the entrance.\"",
+        "options": {
+          "1": "without haste",
+          "2": "reassuringly",
+          "3": "with a kickstart",
+          "4": "hastily"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 62,
+        "question_number": 63,
+        "source_page": 30,
+        "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. Sentences: A. It consists of a terracotta army of approximately 8000 life-sized men and horses.",
+        "options": {
+          "1": "Not provided",
+          "2": "Not provided",
+          "3": "Not provided",
+          "4": "Not provided"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 63,
+        "question_number": 64,
+        "source_page": 31,
+        "question_text_full": "Parts of a sentence are given below in jumbled order. Select the option that gives the correct logical sequence to form a meaningful sentence.\na. it requires constant sustenance\nb. in order for life to be liveable\nc. that enable it to grow and develop\nd. and favourable circumstances",
+        "options": {
+          "1": "a, b, c, d",
+          "2": "b, a, d, c",
+          "3": "c, d, a, b",
+          "4": "d, c, b, a"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 64,
+        "question_number": 65,
+        "source_page": 32,
+        "question_text_full": "Select the most appropriate option to fill in the blank. No other book in the series captivated readers as ______ as the final installment.",
+        "options": {
+          "1": "many",
+          "2": "more",
+          "3": "most",
+          "4": "much"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 65,
+        "question_number": 66,
+        "source_page": 32,
+        "question_text_full": "A sentence has been split up into segments and given below in jumbled order. While the first and the last segments of the sentence (1 and 6) are in the correct order, the segments in between are jumbled up. Arrange the segments in the correct order to form a meaningful and coherent sentence.\n1) India has been a land\nP) and the learned man has been held in higher esteem\nQ) of learning through the ages\nR) but in the sense that learning has always been very highly valued\nS) not indeed in the sense that education has been universal\n6) than the warrior or the administrator.",
+        "options": {
+          "1": "P, S, Q, R",
+          "2": "Q, S, R, P",
+          "3": "R, Q, S, P",
+          "4": "S, R, Q, P"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 66,
+        "question_number": 67,
+        "source_page": 33,
+        "question_text_full": "Select the option that expresses the given sentence in reported speech.\nDirect Speech: 'I am determined to publish my findings,' the scientist asserted confidently.",
+        "options": {
+          "1": "The scientist confidently asserted that she is determined to publish her findings.",
+          "2": "The scientist confidently asserted that she had determined to publish her findings.",
+          "3": "The scientist confidently asserted that she would be determined to publish her findings.",
+          "4": "The scientist confidently asserted that she was determined to publish her findings."
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 67,
+        "question_number": 68,
+        "source_page": 33,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words. One who cannot make a mistake",
+        "options": {
+          "1": "Impregnable",
+          "2": "Inevitable",
+          "3": "Inimitable",
+          "4": "Infallible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 68,
+        "question_number": 69,
+        "source_page": 33,
+        "question_text_full": "Select the most appropriate homophone from the options to fill in the blank. We should ______ away all prejudices to live in harmony.",
+        "options": {
+          "1": "caste",
+          "2": "coast",
+          "3": "cast",
+          "4": "cost"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 69,
+        "question_number": 70,
+        "source_page": 34,
+        "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\n\nA. As cost of raw materials cannot be reduced, exporters try to cut labour costs.\n\nB. Large MNCs in the garment industry in Europe and America order their products from Indian exporters.\n\nC. These large MNCs with worldwide network look for the cheapest goods in order to maximise their profits.\n\nD. To get these large orders, Indian garment exporters try hard to cut their own costs.\n\nE. Where earlier a factory used to employ workers on a permanent basis, now they employ workers only on a temporary basis so that they do not have to pay workers for the whole year.",
+        "options": {
+          "1": "BCDAE",
+          "2": "CDAEB",
+          "3": "DCABE",
+          "4": "ADECB"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 70,
+        "question_number": 72,
+        "source_page": 35,
+        "question_text_full": "Select the option that expresses the given sentence in direct speech.\n\"The teacher informed that the exam had been postponed.\"",
+        "options": {
+          "1": "The teacher informs, \"The exam had been postponed.\"",
+          "2": "The teacher informed, \"The exam was being postponed.\"",
+          "3": "The teacher informs, \"The exam has been postponed.\"",
+          "4": "The teacher informed, \"The exam has been postponed.\""
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 71,
+        "question_number": 73,
+        "source_page": 35,
+        "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Psychotherapy is a voluntary relationship between the one seeking treatment or the client and the one who treats or the therapist.\nB. The relationship is conducive for building the trust of the client so that problems may be freely discussed.\nC. The purpose of the relationship is to help the client to solve the psychological problems being faced by him or her.\nD. Psychotherapy aims at changing the maladaptive behaviours, decreasing the sense of personal distress and helping the client to adapt to the healthier environment.",
+        "options": {
+          "1": "Figure 1",
+          "2": "Figure 2",
+          "3": "Figure 3",
+          "4": "Figure 4"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 72,
+        "question_number": 74,
+        "source_page": 36,
+        "question_text_full": "Select the most appropriate option to fill in the blank.\n\"Rashid was not able to _____ the pain after the accident.\"",
+        "options": {
+          "1": "beer",
+          "2": "buyer",
+          "3": "bear",
+          "4": "bare"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 73,
+        "question_number": 75,
+        "source_page": 36,
+        "question_text_full": "Select the option that expresses the given sentence in passive voice.\n\"Did you hear that noise?\"",
+        "options": {
+          "1": "Was that noise heard by you?",
+          "2": "Is that noise heard by you?",
+          "3": "Wasn't that noise heard by you?",
+          "4": "Has that noise been heard by you?"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 74,
+        "question_number": 76,
+        "source_page": 37,
+        "question_text_full": "Select the option that expresses the given sentence in direct speech.\n\n\"The District Magistrate ordered the police to work all night and put an end to those riots.\"",
+        "options": {
+          "1": "The District Magistrate told the police, \"Work all night and put to end these riots.\"",
+          "2": "The District Magistrate told the police, \"Work all night and put an end to these riots.\"",
+          "3": "The District Magistrate told the police, \"Work all night and put an end to their riots.\"",
+          "4": "The District Magistrate told the police, \"Work all night to put an end these riots.\""
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      },
+      {
+        "global_question_number": 75,
+        "question_number": 77,
+        "source_page": 37,
+        "question_text_full": "Select the most appropriate meaning of the underlined idiom.\n\n\"The team decided to pull out all the stops for their upcoming presentation.\"",
+        "options": {
+          "1": "Keep things simple and straightforward",
+          "2": "Wait patiently for a more favourable time",
+          "3": "Give up easily and without thinking much",
+          "4": "To do everything to make something successful"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier2_prepp_paper1"
+      }
+    ]
+  }
+}

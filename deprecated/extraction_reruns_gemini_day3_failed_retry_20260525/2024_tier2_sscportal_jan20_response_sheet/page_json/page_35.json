@@ -1,0 +1,104 @@
+{
+  "page": 35,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nDon't park your car here.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Let your car be parked here."
+        },
+        {
+          "label": "2",
+          "text": "Let not your car be parked here."
+        },
+        {
+          "label": "3",
+          "text": "Let your car not be parked here."
+        },
+        {
+          "label": "4",
+          "text": "Have not your car be parked here."
+        }
+      ],
+      "question_id": "630680627574",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Let your car not be parked here.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nThis is the __________ book that I have read till now.",
+      "options": [
+        {
+          "label": "1",
+          "text": "most interesting"
+        },
+        {
+          "label": "2",
+          "text": "more interesting"
+        },
+        {
+          "label": "3",
+          "text": "interesting"
+        },
+        {
+          "label": "4",
+          "text": "better interest"
+        }
+      ],
+      "question_id": "630680617607",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "most interesting",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Select the most appropriate article to fill in the blank.\nRabindranath Tagore, __________ poet, was famous for his poetical work, Gitanjali.",
+      "options": [
+        {
+          "label": "1",
+          "text": "a"
+        },
+        {
+          "label": "2",
+          "text": "the"
+        },
+        {
+          "label": "3",
+          "text": "an"
+        },
+        {
+          "label": "4",
+          "text": "no article required"
+        }
+      ],
+      "question_id": "630680166149",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "the",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

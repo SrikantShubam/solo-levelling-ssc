@@ -1,0 +1,18 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 22
+Question Number: None
+Global Q#: 45
+Section: None
+Modality: text_only
+Blocking Reasons: ['correct_option_unresolved_or_conflict']
+Has Correct Label: False
+Evidence Source: unavailable
+
+--- Question Text ---
+9, 5, 6, 10.5, 23, ?
+
+--- Options ---
+  (1) 90
+  (2) 80
+  (3) 60
+  (4) 50

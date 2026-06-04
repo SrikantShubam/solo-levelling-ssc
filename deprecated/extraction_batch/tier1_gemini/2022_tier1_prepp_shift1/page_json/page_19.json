@@ -1,0 +1,96 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "The table given below shows the number of spoon manufactured by five factories.\nFactory | Spoon\nP | 100\nQ | 200\nR | 150\nS | 50\nT | 250\nWhat are the ratio of number of spoon manufactured by P to the number of spoon manufactured by R?",
+      "options": [
+        {
+          "label": "1",
+          "text": "3 : 2"
+        },
+        {
+          "label": "2",
+          "text": "2 : 3"
+        },
+        {
+          "label": "3",
+          "text": "4 : 1"
+        },
+        {
+          "label": "4",
+          "text": "1 : 3"
+        }
+      ],
+      "question_id": "264330105713",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "2 : 3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "In the triangle ABC, AB = 12 cm and AC = 10 cm, and ∠BAC = 60°. What is the value of the length of the side BC?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 cm"
+        },
+        {
+          "label": "2",
+          "text": "7.13 cm"
+        },
+        {
+          "label": "3",
+          "text": "13.20 cm"
+        },
+        {
+          "label": "4",
+          "text": "11.13 cm"
+        }
+      ],
+      "question_id": "26433075333",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "11.13 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "The value of tan² θ + cot² θ − sec² θ cosec² θ is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "-2"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "1/2"
+        }
+      ],
+      "question_id": "26433072981",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "-2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

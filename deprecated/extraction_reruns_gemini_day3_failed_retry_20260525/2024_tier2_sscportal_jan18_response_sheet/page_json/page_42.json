@@ -1,0 +1,44 @@
+{
+  "page": 42,
+  "questions": [
+    {
+      "question_number": 37,
+      "section": "Comprehension",
+      "question_text_full": "How did Subhas Chandra Bose view India's fight for independence?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Through political negotiations"
+        },
+        {
+          "label": "2",
+          "text": "Through economic sanctions"
+        },
+        {
+          "label": "3",
+          "text": "Through non-violent means"
+        },
+        {
+          "label": "4",
+          "text": "Through military campaigns"
+        }
+      ],
+      "question_id": "630680513124",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Through military campaigns",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

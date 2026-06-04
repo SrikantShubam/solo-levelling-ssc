@@ -1,0 +1,52 @@
+Answer these 15 SSC CGL questions from '2024_tier2_prepp_paper1':
+
+Q120: What was the status of the agricultural sector in India before the Green Revolution?
+1. Use of old technology and the absence of required infrastruc | 2. Use of advanced technology and high productivity | 3. Use of advanced technology and dependency on rainfall | 4. Use of traditional technology and the abundance of required 
+
+Q121: In which year did Walter Fleming stain the chromosomes to see them clearly and describe the entire process of mitosis?
+1. 1780 | 2. 1901 | 3. 1882 | 4. Figure 4 (Not visible)
+
+Q122: Which of the following Constitutional Amendment Acts made the president bound by the advice of the council of ministers headed by the prime minister?
+1. 40th | 2. 46th | 3. 48th | 4. 42nd
+
+Q123: Match the books in List 1 with their authors in List 2.
+List 1 (Books) List 2 (Authors)
+A. The Philosophy of the Bomb 1. Sachindranath Sanyal
+B. Bandi
+1. A-3, B-1, C-4, D-2 | 2. A-4, B-3, C-2, D-1 | 3. A-3, B-1, C-2, D-4 | 4. A-1, B-3, C-4, D-2
+
+Q124: The rotating columns of air that occur over water bodies and are generally less severe than land tornadoes are known as:
+1. hurricanes | 2. waterspouts | 3. squalls | 4. typhoons
+
+Q125: In which of the following cases did the Supreme Court direct that, 'the Parliament cannot take away or abridge any of the fundamental rights for the I
+1. Minerva Mills Case, 1980 | 2. Keshvanand Bharti Case, 1973 | 3. Indira Sawhney Case, 1992 | 4. Golak Nath Case, 1967
+
+Q126: Who urged political parties to engage in discussions that inspire unity rather than division and promote ideas instead of personal attacks in the addr
+1. Prime Minister Narendra Modi | 2. Union Home Minister Amit Shah | 3. Chief Election Commissioner Rajiv Kumar | 4. President Droupadi Murmu
+
+Q127: Who won the title at the World Chess Armageddon Asia & Oceania event in April 2023?
+1. D Gukesh | 2. P Harikrishna | 3. Koneru Humpy | 4. Viswanathan Anand
+
+Q128: Select the option that is true regarding the following two statements labelled Assertion (A) and Reason (R).
+A. The first battle of Panipat was one of
+1. Statements A and R are true, but R is not the correct explan | 2. Statements A and R are true, and R is the correct explanatio | 3. R is true, but A is false. | 4. A is true, but R is false.
+
+Q129: In the year 2020, National Digital Health Mission was launched on which of the following occasions?
+1. Independence Day | 2. Republic Day | 3. Gandhi Jayanti | 4. Not visible in image
+
+Q130: Which Indian city experiences the LEAST difference in average temperature between its hottest and coldest months?
+1. Mumbai | 2. Srinagar | 3. Bhopal | 4. Delhi
+
+Q138: Which device is commonly used to connect computers within a LAN?
+1. Modem | 2. Router | 3. Switch | 4. Repeater
+
+Q139: What is the primary reason DRAM needs to be refreshed periodically?
+1. To prevent data corruption caused by magnetic fields | 2. To recharge the capacitors storing data bits | 3. To clear unused data | 4. To allow the CPU to access new data
+
+Q141: Which feature in MS Word allows the user to apply a consistent look across text elements such as headings, titles and subtitles?
+1. Template | 2. Styles | 3. Table | 4. Macros
+
+Q142: What is the main purpose of using a template when creating a presentation in MS PowerPoint?
+1. To ensure consistency and professionalism | 2. To automatically insert multimedia content | 3. To add complex animations easily | 4. To create interactive quizzes within slides
+
+Return ONLY a JSON array: [{"question_number": INTEGER, "correct_option_label": "1"|"2"|"3"|"4"}]

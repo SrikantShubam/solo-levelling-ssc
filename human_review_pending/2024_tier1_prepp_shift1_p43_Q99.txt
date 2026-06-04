@@ -1,0 +1,19 @@
+PDF: 2024_tier1_prepp_shift1
+Page: 43
+Question Number: 99
+Global Q#: 93
+Section: English Language
+Modality: text_only
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 2
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Comprehension: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The beginning of the story is (1)______ in its presentation but (2)______ the style eases out and becomes haunting in its simplicity. The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)______ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henryâ€™s treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos. Select the most appropriate option to fill in blank number 4:
+
+--- Options ---
+  (1) Through
+  (2) Though
+  (3) Not visible
+  (4) Not visible

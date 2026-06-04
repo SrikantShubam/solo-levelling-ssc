@@ -1,0 +1,36 @@
+{
+  "page": 38,
+  "questions": [
+    {
+      "question_number": 48,
+      "section": null,
+      "question_text_full": "Which statement is NOT correct according to the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Since 1950, world population was growing at its slowest speed."
+        },
+        {
+          "label": "2",
+          "text": "The countries of Asia will contribute more than half of the increase anticipated through 2050."
+        },
+        {
+          "label": "3",
+          "text": "The population of 61 countries will decrease by 1% or more between 2022 and 2050."
+        },
+        {
+          "label": "4",
+          "text": "World population is estimated to reach 10.4 billion in 2100."
+        }
+      ],
+      "question_id": "26433083541",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "The countries of Asia will contribute more than half of the increase anticipated through 2050.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question asks for the statement that is NOT correct. However, the provided answer key marks option 2 as correct. Based on the passage text, option 2 is factually incorrect (the passage mentions African countries, not Asian countries), which aligns with the question asking for the incorrect statement."
+    }
+  ],
+  "warnings": []
+}

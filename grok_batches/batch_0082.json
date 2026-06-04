@@ -1,0 +1,11 @@
+{
+  "batch": 82,
+  "pages": [
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 54,
+      "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_54.png"
+    }
+  ]
+}

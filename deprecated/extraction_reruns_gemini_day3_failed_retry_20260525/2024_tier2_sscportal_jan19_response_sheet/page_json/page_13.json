@@ -1,0 +1,16 @@
+{
+  "page": 13,
+  "questions": [],
+  "warnings": [
+    "ERROR JSONDecodeError: Expecting ':' delimiter: line 80 column 9 (char 1892)",
+    "{\n  \"page\": 13,\n  \"questions\": [\n    {\n      \"question_number\": 34,\n      \"section\": null,\n      \"question_text_full\": \"Level of significance is:\",\n      \"options\": [\n        {\n          \"label\": \"1\",\n          \"text\": \"Probability of Type I Error\"\n        },\n        {\n          \"label\": \"2\",\n          \"text\": \"1 - Probability of Type I Error\"\n        },\n        {\n          \"label\": \"3\",\n          \"text\": \"1 - Probability of Type II Error\"\n        },\n        {\n          \"label\": \"4\",\n          \"text\": \"Probability of Type II Error\"\n        }\n      ],\n      \"question_id\": \"6306801307996\",\n      \"chosen_option_label\": \"3\",\n      \"correct_option_label\": \"1\",\n      \"correct_option_text\": \"Probability of Type I Error\",\n      \"is_complete_on_page\": true,\n      \"confidence\": \"high\",\n      \"notes\": \"\"\n    },\n    {\n      \"question_number\": 35,\n      \"section\": null,\n      \"question_text_full\": \"Let X follow Poisson distribution with mean λ. If P(X = 2) = 1/2 P(X = 3), then the value of λ is:\",\n      \"options\": [\n        {\n          \"label\": \"1\",\n          \"text\": \"4\"\n        },\n        {\n          \"label\": \"2\",\n          \"text\": \"6\"\n        },\n        {\n          \"label\": \"3\",\n          \"text\": \"7\"\n        },\n        {\n          \"label\": \"4\",\n          \"text\": \"2\"\n        }\n      ],\n      \"question_id\": \"6306801352881\",\n      \"chosen_option_label\": \"2\",\n      \"correct_option_label\": \"2\",\n      \"correct_option_text\": \"6\",\n      \"is_complete_on_page\": true,\n      \"confidence\": \"high\",\n      \"notes\": \"\"\n    },\n    {\n      \"question_number\": 36,\n      \"section\": null,\n      \"question_text_full\": \"Which of the following is the relative measure of skewness?\",\n      \"options\": [\n        {\n          \"label\": \"1\",\n          \"text\": \"β2\"\n        },\n        {\n          \"label\": \"2\",\n          \"text\": \"β1\"\n        },\n        {\n          \"label\": \"3\",\n          \"(X - μ)/σ\"\n        },\n        {\n          \"label\": \"4\",\n          \"(Q3 - 2Q2 + Q1) / (Q3 - Q1)\"\n        }\n      ],\n      \"quest"
+  ],
+  "page_status": "ERROR",
+  "failure_type": "json_or_schema_failure",
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": true,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "google_ai_studio_page_image"
+}

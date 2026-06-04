@@ -1,0 +1,3822 @@
+{
+  "source_pdf": "C:\\experiments\\ssc\\answer_key_candidates_staging\\2023_tier1_prepp_shift1.pdf",
+  "extraction_method": "nvidia_nim mistralai/mistral-medium-3.5-128b page-by-page visual PNG extraction, merged in page/visual order",
+  "page_count": 28,
+  "question_count": 19,
+  "expected_question_count": 100,
+  "is_complete_question_trial": false,
+  "qc_passed": false,
+  "qc_status": "FAIL",
+  "structural_status": "FAIL",
+  "structural_failure_reasons": [
+    "layout_class_unsupported",
+    "expected_question_count_mismatch",
+    "malformed_options_or_correct_answer"
+  ],
+  "page_counts": [
+    {
+      "page": 1,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 2,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 3,
+      "count": 4,
+      "warnings": [],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 4,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 5,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 6,
+      "count": 1,
+      "warnings": [],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 7,
+      "count": 3,
+      "warnings": [],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 8,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 9,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 10,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 11,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 12,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 13,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 14,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 15,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 16,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 17,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 18,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 19,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 20,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 21,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 22,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 23,
+      "count": 4,
+      "warnings": [],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 24,
+      "count": 5,
+      "warnings": [],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 25,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 26,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 27,
+      "count": 0,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "page_status": "ERROR",
+      "failure_type": "layout_class_unsupported",
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    },
+    {
+      "page": 28,
+      "count": 2,
+      "warnings": [],
+      "page_status": "OK",
+      "failure_type": null,
+      "retryable": false,
+      "provider": "nvidia_nim",
+      "model": "mistralai/mistral-medium-3.5-128b",
+      "fallback_attempted": false,
+      "fallback_used": false
+    }
+  ],
+  "load_errors": [
+    {
+      "page": 1,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 2,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 4,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 5,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 8,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 9,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 10,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 11,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 12,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 13,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 14,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 15,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 16,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 17,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 18,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 19,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 20,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 21,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 22,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 25,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 26,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    },
+    {
+      "page": 27,
+      "warnings": [
+        "ERROR TimeoutError: The read operation timed out"
+      ],
+      "failure_type": "layout_class_unsupported",
+      "retryable": false
+    }
+  ],
+  "option_or_correct_answer_issue_global_questions": [
+    4
+  ],
+  "missing_or_invalid_chosen_option_global_questions": [
+    4,
+    11
+  ],
+  "low_confidence_global_questions": [],
+  "manual_review_count": 2,
+  "questions": [
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Ganesh was taking a walk with his mother’s brother’s father’s granddaughter. Who was he walking with?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Daughter"
+        },
+        {
+          "label": "2",
+          "text": "Mother"
+        },
+        {
+          "label": "3",
+          "text": "Cousin"
+        },
+        {
+          "label": "4",
+          "text": "Granddaughter"
+        }
+      ],
+      "question_id": "264330118669",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "Cousin",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 5,
+        "section": null,
+        "question_text_full": "Ganesh was taking a walk with his mother’s brother’s father’s granddaughter. Who was he walking with?",
+        "options": [
+          {
+            "label": "1",
+            "text": "Daughter"
+          },
+          {
+            "label": "2",
+            "text": "Mother"
+          },
+          {
+            "label": "3",
+            "text": "Cousin"
+          },
+          {
+            "label": "4",
+            "text": "Granddaughter"
+          }
+        ],
+        "question_id": "264330118669",
+        "chosen_option_label": "1",
+        "correct_option_label": "3",
+        "correct_option_text": "Cousin",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 3,
+      "section_local_question_number": 5,
+      "global_question_number": 1,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "3",
+      "raw_gemini_correct_option_text": "Cousin",
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "sin"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "3",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": false,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q001_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 3,
+          "question_number": 1,
+          "option_label": null,
+          "bbox": [
+            43,
+            87,
+            1461,
+            458
+          ],
+          "image_width": 1418,
+          "image_height": 371
+        },
+        {
+          "page_number": 3,
+          "question_number": 1,
+          "option_label": "1",
+          "bbox": [
+            111,
+            132,
+            925,
+            192
+          ],
+          "image_width": 814,
+          "image_height": 60
+        },
+        {
+          "page_number": 3,
+          "question_number": 1,
+          "option_label": "2",
+          "bbox": [
+            111,
+            188,
+            925,
+            232
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 3,
+          "question_number": 1,
+          "option_label": "3",
+          "bbox": [
+            111,
+            228,
+            925,
+            271
+          ],
+          "image_width": 814,
+          "image_height": 43
+        },
+        {
+          "page_number": 3,
+          "question_number": 1,
+          "option_label": "4",
+          "bbox": [
+            111,
+            267,
+            925,
+            337
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q001_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q001_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q001_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q001_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998976248976249,
+          "green_fraction": 0.00010237510237510238
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998603975876703,
+          "green_fraction": 0.00013960241232968505
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.01662762127878407
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998946998946999,
+          "green_fraction": 0.0001053001053001053
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_03.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_03.png"
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below.\nTe29EKP\nM ______ N",
+      "options": [
+        {
+          "label": "1",
+          "text": "T 6 2 9 E K b"
+        },
+        {
+          "label": "2",
+          "text": "T 6 5 2 E K b"
+        },
+        {
+          "label": "3",
+          "text": "p K E E 2 9 T"
+        },
+        {
+          "label": "4",
+          "text": "T 6 5 2 E K b"
+        }
+      ],
+      "question_id": "26433091689",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "T 6 5 2 E K b",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below.\nTe29EKP\nM ______ N",
+        "options": [
+          {
+            "label": "1",
+            "text": "T 6 2 9 E K b"
+          },
+          {
+            "label": "2",
+            "text": "T 6 5 2 E K b"
+          },
+          {
+            "label": "3",
+            "text": "p K E E 2 9 T"
+          },
+          {
+            "label": "4",
+            "text": "T 6 5 2 E K b"
+          }
+        ],
+        "question_id": "26433091689",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "T 6 5 2 E K b",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 3,
+      "section_local_question_number": 6,
+      "global_question_number": 2,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "4",
+      "raw_gemini_correct_option_text": "T 6 5 2 E K b",
+      "question_modality": "visual_options",
+      "question_modality_keywords": [
+        "mirror"
+      ],
+      "visual_required": true,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "4",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "4",
+      "canonical_review_reasons": [],
+      "practice_ready": false,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q002_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 3,
+          "question_number": 2,
+          "option_label": null,
+          "bbox": [
+            43,
+            449,
+            1461,
+            1148
+          ],
+          "image_width": 1418,
+          "image_height": 699
+        },
+        {
+          "page_number": 3,
+          "question_number": 2,
+          "option_label": "1",
+          "bbox": [
+            111,
+            658,
+            925,
+            739
+          ],
+          "image_width": 814,
+          "image_height": 81
+        },
+        {
+          "page_number": 3,
+          "question_number": 2,
+          "option_label": "2",
+          "bbox": [
+            111,
+            735,
+            925,
+            825
+          ],
+          "image_width": 814,
+          "image_height": 90
+        },
+        {
+          "page_number": 3,
+          "question_number": 2,
+          "option_label": "3",
+          "bbox": [
+            111,
+            821,
+            925,
+            914
+          ],
+          "image_width": 814,
+          "image_height": 93
+        },
+        {
+          "page_number": 3,
+          "question_number": 2,
+          "option_label": "4",
+          "bbox": [
+            111,
+            910,
+            925,
+            1006
+          ],
+          "image_width": 814,
+          "image_height": 96
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q002_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q002_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q002_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q002_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9994994994994995,
+          "green_fraction": 0.0005005005005005005
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998771498771499,
+          "green_fraction": 0.00012285012285012285
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998018546405644,
+          "green_fraction": 0.000198145359435682
+        },
+        "4": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 0.6957923832923834,
+          "green_fraction": 0.003915847665847666
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_03.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_03.png"
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Which of the following letter-clusters will replace the question mark (?) in the given series?\nUV, OY, IB, EE, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ZK"
+        },
+        {
+          "label": "2",
+          "text": "AH"
+        },
+        {
+          "label": "3",
+          "text": "BI"
+        },
+        {
+          "label": "4",
+          "text": "BH"
+        }
+      ],
+      "question_id": "26433057186",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "AH",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Which of the following letter-clusters will replace the question mark (?) in the given series?\nUV, OY, IB, EE, ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "ZK"
+          },
+          {
+            "label": "2",
+            "text": "AH"
+          },
+          {
+            "label": "3",
+            "text": "BI"
+          },
+          {
+            "label": "4",
+            "text": "BH"
+          }
+        ],
+        "question_id": "26433057186",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "AH",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 3,
+      "section_local_question_number": 7,
+      "global_question_number": 3,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "2",
+      "raw_gemini_correct_option_text": "AH",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "2",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q003_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 3,
+          "question_number": 3,
+          "option_label": null,
+          "bbox": [
+            43,
+            1139,
+            1461,
+            1532
+          ],
+          "image_width": 1418,
+          "image_height": 393
+        },
+        {
+          "page_number": 3,
+          "question_number": 3,
+          "option_label": "1",
+          "bbox": [
+            111,
+            1206,
+            925,
+            1265
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 3,
+          "question_number": 3,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1261,
+            925,
+            1305
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 3,
+          "question_number": 3,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1301,
+            925,
+            1345
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 3,
+          "question_number": 3,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1341,
+            925,
+            1411
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q003_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q003_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q003_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q003_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998750676716779,
+          "green_fraction": 0.00012493232832215884
+        },
+        "2": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.01234085324994416
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998603975876703,
+          "green_fraction": 0.00013960241232968505
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999122499122499,
+          "green_fraction": 8.775008775008775e-05
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_03.png"
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "The second number in the given number-pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) is/are followed in all the number-pairs except one. Find that odd number-pair.",
+      "options": [
+        {
+          "label": "1",
+          "text": "20 : 11"
+        },
+        {
+          "label": "2",
+          "text": "6 : 4"
+        },
+        {
+          "label": "3",
+          "text": "15 : 9"
+        },
+        {
+          "label": "4",
+          "text": "12 : 7"
+        }
+      ],
+      "question_id": "264330143704",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "15 : 9",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "The second number in the given number-pairs is obtained by performing certain mathematical operation(s) on the first number. The same operation(s) is/are followed in all the number-pairs except one. Find that odd number-pair.",
+        "options": [
+          {
+            "label": "1",
+            "text": "20 : 11"
+          },
+          {
+            "label": "2",
+            "text": "6 : 4"
+          },
+          {
+            "label": "3",
+            "text": "15 : 9"
+          },
+          {
+            "label": "4",
+            "text": "12 : 7"
+          }
+        ],
+        "question_id": "264330143704",
+        "chosen_option_label": null,
+        "correct_option_label": null,
+        "correct_option_text": null,
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 3,
+      "section_local_question_number": 8,
+      "global_question_number": 4,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": null,
+      "raw_gemini_correct_option_text": null,
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "ratio"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "3",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "deterministic_only"
+      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [
+        "malformed_options",
+        "chosen_option_missing"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "malformed_options"
+      ],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q004_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 3,
+          "question_number": 4,
+          "option_label": null,
+          "bbox": [
+            43,
+            1523,
+            1461,
+            2097
+          ],
+          "image_width": 1418,
+          "image_height": 574
+        },
+        {
+          "page_number": 3,
+          "question_number": 4,
+          "option_label": "1",
+          "bbox": [
+            111,
+            1590,
+            925,
+            1649
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 3,
+          "question_number": 4,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1645,
+            925,
+            1689
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 3,
+          "question_number": 4,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1685,
+            925,
+            1729
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 3,
+          "question_number": 4,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1725,
+            925,
+            1795
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q004_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q004_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q004_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p03_q004_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998750676716779,
+          "green_fraction": 0.00012493232832215884
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999162385526021,
+          "green_fraction": 8.376144739781103e-05
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.013234308688854144
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999122499122499,
+          "green_fraction": 8.775008775008775e-05
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_03.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_03.png"
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the figure from the options that can replace the question mark (?) and complete the given pattern.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "26433085797",
+      "chosen_option_label": "2",
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The correct answer is marked with a green tick (Figure 4).",
+      "raw_gemini_record": {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Select the figure from the options that can replace the question mark (?) and complete the given pattern.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "26433085797",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "Figure 4",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": "The correct answer is marked with a green tick (Figure 4)."
+      },
+      "source_page": 6,
+      "section_local_question_number": 13,
+      "global_question_number": 5,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "4",
+      "raw_gemini_correct_option_text": "Figure 4",
+      "question_modality": "visual_options",
+      "question_modality_keywords": [
+        "figure"
+      ],
+      "visual_required": true,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_reasons": [
+        "llm_only_visual_or_complex"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p06_q005_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 6,
+          "question_number": 5,
+          "option_label": null,
+          "bbox": [
+            43,
+            87,
+            1461,
+            2097
+          ],
+          "image_width": 1418,
+          "image_height": 2010
+        },
+        {
+          "page_number": 6,
+          "question_number": 5,
+          "option_label": "1",
+          "bbox": [
+            111,
+            428,
+            925,
+            625
+          ],
+          "image_width": 814,
+          "image_height": 197
+        },
+        {
+          "page_number": 6,
+          "question_number": 5,
+          "option_label": "2",
+          "bbox": [
+            111,
+            621,
+            925,
+            938
+          ],
+          "image_width": 814,
+          "image_height": 317
+        },
+        {
+          "page_number": 6,
+          "question_number": 5,
+          "option_label": "3",
+          "bbox": [
+            111,
+            934,
+            925,
+            1248
+          ],
+          "image_width": 814,
+          "image_height": 314
+        },
+        {
+          "page_number": 6,
+          "question_number": 5,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1244,
+            925,
+            1446
+          ],
+          "image_width": 814,
+          "image_height": 202
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p06_q005_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p06_q005_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p06_q005_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p06_q005_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999625837189289,
+          "green_fraction": 3.7416281071103406e-05
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999806230090141,
+          "green_fraction": 1.9376990985823792e-05
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999765254542324,
+          "green_fraction": 2.3474545767539396e-05
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9981694115357481,
+          "green_fraction": 0.0018305884642518305
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_06.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_06.png"
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the Venn diagram that best illustrates the relationship between the following classes. Ticket, Aeroplane, Rail",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330145436",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "Select the Venn diagram that best illustrates the relationship between the following classes. Ticket, Aeroplane, Rail",
+        "options": [
+          {
+            "label": "1",
+            "text": "Figure 1"
+          },
+          {
+            "label": "2",
+            "text": "Figure 2"
+          },
+          {
+            "label": "3",
+            "text": "Figure 3"
+          },
+          {
+            "label": "4",
+            "text": "Figure 4"
+          }
+        ],
+        "question_id": "264330145436",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Figure 1",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 7,
+      "section_local_question_number": 14,
+      "global_question_number": 6,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "1",
+      "raw_gemini_correct_option_text": "Figure 1",
+      "question_modality": "visual_stimulus",
+      "question_modality_keywords": [
+        "venn",
+        "venn diagram"
+      ],
+      "visual_required": true,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "1",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": false,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q006_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 7,
+          "question_number": 6,
+          "option_label": null,
+          "bbox": [
+            43,
+            87,
+            1461,
+            1068
+          ],
+          "image_width": 1418,
+          "image_height": 981
+        },
+        {
+          "page_number": 7,
+          "question_number": 6,
+          "option_label": "1",
+          "bbox": [
+            111,
+            213,
+            925,
+            331
+          ],
+          "image_width": 814,
+          "image_height": 118
+        },
+        {
+          "page_number": 7,
+          "question_number": 6,
+          "option_label": "2",
+          "bbox": [
+            111,
+            327,
+            925,
+            498
+          ],
+          "image_width": 814,
+          "image_height": 171
+        },
+        {
+          "page_number": 7,
+          "question_number": 6,
+          "option_label": "3",
+          "bbox": [
+            111,
+            494,
+            925,
+            696
+          ],
+          "image_width": 814,
+          "image_height": 202
+        },
+        {
+          "page_number": 7,
+          "question_number": 6,
+          "option_label": "4",
+          "bbox": [
+            111,
+            692,
+            925,
+            850
+          ],
+          "image_width": 814,
+          "image_height": 158
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q006_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q006_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q006_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q006_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 0.6405488693624287,
+          "green_fraction": 0.0028109773872485736
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999640789114473,
+          "green_fraction": 3.59210885526675e-05
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.99996959155375,
+          "green_fraction": 3.040844625003041e-05
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999533480546139,
+          "green_fraction": 4.66519453861226e-05
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_07.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_07.png"
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter-cluster.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BFJN"
+        },
+        {
+          "label": "2",
+          "text": "DHLP"
+        },
+        {
+          "label": "3",
+          "text": "HJKP"
+        },
+        {
+          "label": "4",
+          "text": "JNRV"
+        }
+      ],
+      "question_id": "264330143768",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "HJKP",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 15,
+        "section": null,
+        "question_text_full": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter-cluster.",
+        "options": [
+          {
+            "label": "1",
+            "text": "BFJN"
+          },
+          {
+            "label": "2",
+            "text": "DHLP"
+          },
+          {
+            "label": "3",
+            "text": "HJKP"
+          },
+          {
+            "label": "4",
+            "text": "JNRV"
+          }
+        ],
+        "question_id": "264330143768",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "HJKP",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 7,
+      "section_local_question_number": 15,
+      "global_question_number": 7,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "3",
+      "raw_gemini_correct_option_text": "HJKP",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "3",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q007_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 7,
+          "question_number": 7,
+          "option_label": null,
+          "bbox": [
+            43,
+            1059,
+            1461,
+            1430
+          ],
+          "image_width": 1418,
+          "image_height": 371
+        },
+        {
+          "page_number": 7,
+          "question_number": 7,
+          "option_label": "1",
+          "bbox": [
+            111,
+            1104,
+            925,
+            1163
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 7,
+          "question_number": 7,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1159,
+            925,
+            1203
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 7,
+          "question_number": 7,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1199,
+            925,
+            1243
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 7,
+          "question_number": 7,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1239,
+            925,
+            1309
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q007_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q007_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q007_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q007_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998750676716779,
+          "green_fraction": 0.00012493232832215884
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999162385526021,
+          "green_fraction": 8.376144739781103e-05
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.014965378601742237
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999122499122499,
+          "green_fraction": 8.775008775008775e-05
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_07.png"
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number. 5 : 45 :: 3 : 3 :: 6 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "90"
+        },
+        {
+          "label": "2",
+          "text": "106"
+        },
+        {
+          "label": "3",
+          "text": "110"
+        },
+        {
+          "label": "4",
+          "text": "96"
+        }
+      ],
+      "question_id": "264330143716",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "96",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number. 5 : 45 :: 3 : 3 :: 6 : ?",
+        "options": [
+          {
+            "label": "1",
+            "text": "90"
+          },
+          {
+            "label": "2",
+            "text": "106"
+          },
+          {
+            "label": "3",
+            "text": "110"
+          },
+          {
+            "label": "4",
+            "text": "96"
+          }
+        ],
+        "question_id": "264330143716",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "96",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 7,
+      "section_local_question_number": 16,
+      "global_question_number": 8,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "4",
+      "raw_gemini_correct_option_text": "96",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "4",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "4",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q008_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 7,
+          "question_number": 8,
+          "option_label": null,
+          "bbox": [
+            43,
+            1421,
+            1461,
+            2097
+          ],
+          "image_width": 1418,
+          "image_height": 676
+        },
+        {
+          "page_number": 7,
+          "question_number": 8,
+          "option_label": "1",
+          "bbox": [
+            111,
+            1510,
+            925,
+            1570
+          ],
+          "image_width": 814,
+          "image_height": 60
+        },
+        {
+          "page_number": 7,
+          "question_number": 8,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1566,
+            925,
+            1610
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 7,
+          "question_number": 8,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1606,
+            925,
+            1650
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 7,
+          "question_number": 8,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1646,
+            925,
+            1715
+          ],
+          "image_width": 814,
+          "image_height": 69
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q008_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q008_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q008_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p07_q008_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998976248976249,
+          "green_fraction": 0.00010237510237510238
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998324771052044,
+          "green_fraction": 0.00016752289479562206
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998324771052044,
+          "green_fraction": 0.00016752289479562206
+        },
+        "4": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 0.8899156073069117,
+          "green_fraction": 0.007798312146138233
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_07.png"
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the underlined word in the given sentence. Henry is so servile that other people take advantage of him.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Arrogant"
+        },
+        {
+          "label": "2",
+          "text": "Sheepish"
+        },
+        {
+          "label": "3",
+          "text": "Bickering"
+        },
+        {
+          "label": "4",
+          "text": "Cunning"
+        }
+      ],
+      "question_id": "26433087923",
+      "chosen_option_label": "4",
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 6,
+        "section": null,
+        "question_text_full": "Select the most appropriate ANTONYM of the underlined word in the given sentence. Henry is so servile that other people take advantage of him.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Arrogant"
+          },
+          {
+            "label": "2",
+            "text": "Sheepish"
+          },
+          {
+            "label": "3",
+            "text": "Bickering"
+          },
+          {
+            "label": "4",
+            "text": "Cunning"
+          }
+        ],
+        "question_id": "26433087923",
+        "chosen_option_label": "4",
+        "correct_option_label": "1",
+        "correct_option_text": "Arrogant",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 23,
+      "section_local_question_number": 6,
+      "global_question_number": 9,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "1",
+      "raw_gemini_correct_option_text": "Arrogant",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "4",
+      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_reasons": [
+        "correct_option_conflict"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p23_q009_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 23,
+          "question_number": 9,
+          "option_label": null,
+          "bbox": [
+            43,
+            472,
+            1461,
+            865
+          ],
+          "image_width": 1418,
+          "image_height": 393
+        },
+        {
+          "page_number": 23,
+          "question_number": 9,
+          "option_label": "1",
+          "bbox": [
+            111,
+            539,
+            925,
+            598
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 23,
+          "question_number": 9,
+          "option_label": "2",
+          "bbox": [
+            111,
+            594,
+            925,
+            638
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 23,
+          "question_number": 9,
+          "option_label": "3",
+          "bbox": [
+            111,
+            634,
+            925,
+            678
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 23,
+          "question_number": 9,
+          "option_label": "4",
+          "bbox": [
+            111,
+            674,
+            925,
+            744
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p23_q009_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p23_q009_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p23_q009_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p23_q009_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998750676716779,
+          "green_fraction": 0.00012493232832215884
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998324771052044,
+          "green_fraction": 0.00016752289479562206
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999162385526021,
+          "green_fraction": 8.376144739781103e-05
+        },
+        "4": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.010723060723060724
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_23.png"
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words. A thing fit to eat.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Eligible"
+        },
+        {
+          "label": "2",
+          "text": "Digestible"
+        },
+        {
+          "label": "3",
+          "text": "Curable"
+        },
+        {
+          "label": "4",
+          "text": "Edible"
+        }
+      ],
+      "question_id": "26433086366",
+      "chosen_option_label": "4",
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 7,
+        "section": null,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words. A thing fit to eat.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Eligible"
+          },
+          {
+            "label": "2",
+            "text": "Digestible"
+          },
+          {
+            "label": "3",
+            "text": "Curable"
+          },
+          {
+            "label": "4",
+            "text": "Edible"
+          }
+        ],
+        "question_id": "26433086366",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Edible",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 23,
+      "section_local_question_number": 7,
+      "global_question_number": 10,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "4",
+      "raw_gemini_correct_option_text": "Edible",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "3",
+      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_reasons": [
+        "correct_option_conflict"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p23_q010_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 23,
+          "question_number": 10,
+          "option_label": null,
+          "bbox": [
+            43,
+            856,
+            1461,
+            1249
+          ],
+          "image_width": 1418,
+          "image_height": 393
+        },
+        {
+          "page_number": 23,
+          "question_number": 10,
+          "option_label": "1",
+          "bbox": [
+            111,
+            923,
+            925,
+            982
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 23,
+          "question_number": 10,
+          "option_label": "2",
+          "bbox": [
+            111,
+            978,
+            925,
+            1022
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 23,
+          "question_number": 10,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1018,
+            925,
+            1062
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 23,
+          "question_number": 10,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1058,
+            925,
+            1128
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p23_q010_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p23_q010_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p23_q010_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p23_q010_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998750676716779,
+          "green_fraction": 0.00012493232832215884
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998324771052044,
+          "green_fraction": 0.00016752289479562206
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.01962809917355372
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999122499122499,
+          "green_fraction": 8.775008775008775e-05
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_23.png"
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom. Lily-livered",
+      "options": [
+        {
+          "label": "1",
+          "text": "Brave"
+        },
+        {
+          "label": "2",
+          "text": "Comical"
+        },
+        {
+          "label": "3",
+          "text": "Not brave"
+        },
+        {
+          "label": "4",
+          "text": "Naughty"
+        }
+      ],
+      "question_id": "26433089007",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Not brave",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 8,
+        "section": null,
+        "question_text_full": "Select the most appropriate meaning of the given idiom. Lily-livered",
+        "options": [
+          {
+            "label": "1",
+            "text": "Brave"
+          },
+          {
+            "label": "2",
+            "text": "Comical"
+          },
+          {
+            "label": "3",
+            "text": "Not brave"
+          },
+          {
+            "label": "4",
+            "text": "Naughty"
+          }
+        ],
+        "question_id": "26433089007",
+        "chosen_option_label": null,
+        "correct_option_label": "3",
+        "correct_option_text": "Not brave",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 23,
+      "section_local_question_number": 8,
+      "global_question_number": 11,
+      "manual_review": true,
+      "manual_review_reasons": [
+        "missing_or_invalid_chosen_option"
+      ],
+      "raw_gemini_correct_option_label": "3",
+      "raw_gemini_correct_option_text": "Not brave",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "PASS_LLM_ONLY",
+      "evidence_reasons": [
+        "llm_only_text"
+      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [
+        "chosen_option_missing"
+      ],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_23.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_23.png"
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word. Zealous",
+      "options": [
+        {
+          "label": "1",
+          "text": "Enthusiastic"
+        },
+        {
+          "label": "2",
+          "text": "Detached"
+        },
+        {
+          "label": "3",
+          "text": "Apathetic"
+        },
+        {
+          "label": "4",
+          "text": "Indifferent"
+        }
+      ],
+      "question_id": "26433073693",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "Enthusiastic",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 9,
+        "section": null,
+        "question_text_full": "Select the most appropriate synonym of the given word. Zealous",
+        "options": [
+          {
+            "label": "1",
+            "text": "Enthusiastic"
+          },
+          {
+            "label": "2",
+            "text": "Detached"
+          },
+          {
+            "label": "3",
+            "text": "Apathetic"
+          },
+          {
+            "label": "4",
+            "text": "Indifferent"
+          }
+        ],
+        "question_id": "26433073693",
+        "chosen_option_label": "3",
+        "correct_option_label": "1",
+        "correct_option_text": "Enthusiastic",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 23,
+      "section_local_question_number": 9,
+      "global_question_number": 12,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "1",
+      "raw_gemini_correct_option_text": "Enthusiastic",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "PASS_LLM_ONLY",
+      "evidence_reasons": [
+        "llm_only_text"
+      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_23.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_23.png"
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Select the most appropriate option that can substitute the underlined word in the given sentence. She had an ability to persuade others.",
+      "options": [
+        {
+          "label": "1",
+          "text": "halt"
+        },
+        {
+          "label": "2",
+          "text": "suppress"
+        },
+        {
+          "label": "3",
+          "text": "outrage"
+        },
+        {
+          "label": "4",
+          "text": "impress"
+        }
+      ],
+      "question_id": "26433092066",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "impress",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 10,
+        "section": null,
+        "question_text_full": "Select the most appropriate option that can substitute the underlined word in the given sentence. She had an ability to persuade others.",
+        "options": [
+          {
+            "label": "1",
+            "text": "halt"
+          },
+          {
+            "label": "2",
+            "text": "suppress"
+          },
+          {
+            "label": "3",
+            "text": "outrage"
+          },
+          {
+            "label": "4",
+            "text": "impress"
+          }
+        ],
+        "question_id": "26433092066",
+        "chosen_option_label": "2",
+        "correct_option_label": "4",
+        "correct_option_text": "impress",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 24,
+      "section_local_question_number": 10,
+      "global_question_number": 13,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "4",
+      "raw_gemini_correct_option_text": "impress",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "4",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "4",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q013_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 24,
+          "question_number": 13,
+          "option_label": null,
+          "bbox": [
+            43,
+            87,
+            1461,
+            503
+          ],
+          "image_width": 1418,
+          "image_height": 416
+        },
+        {
+          "page_number": 24,
+          "question_number": 13,
+          "option_label": "1",
+          "bbox": [
+            111,
+            177,
+            925,
+            236
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 24,
+          "question_number": 13,
+          "option_label": "2",
+          "bbox": [
+            111,
+            232,
+            925,
+            276
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 24,
+          "question_number": 13,
+          "option_label": "3",
+          "bbox": [
+            111,
+            272,
+            925,
+            316
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 24,
+          "question_number": 13,
+          "option_label": "4",
+          "bbox": [
+            111,
+            312,
+            925,
+            382
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q013_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q013_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q013_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q013_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998750676716779,
+          "green_fraction": 0.00012493232832215884
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998324771052044,
+          "green_fraction": 0.00016752289479562206
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998324771052044,
+          "green_fraction": 0.00016752289479562206
+        },
+        "4": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.011214461214461215
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_24.png"
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Select the most appropriate option that can substitute the underlined segment in the given sentence. We must remember that what we teach our children is what we inculcate in them.",
+      "options": [
+        {
+          "label": "1",
+          "text": "endanger"
+        },
+        {
+          "label": "2",
+          "text": "inspire"
+        },
+        {
+          "label": "3",
+          "text": "instil"
+        },
+        {
+          "label": "4",
+          "text": "import"
+        }
+      ],
+      "question_id": "26433098909",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "instil",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 11,
+        "section": null,
+        "question_text_full": "Select the most appropriate option that can substitute the underlined segment in the given sentence. We must remember that what we teach our children is what we inculcate in them.",
+        "options": [
+          {
+            "label": "1",
+            "text": "endanger"
+          },
+          {
+            "label": "2",
+            "text": "inspire"
+          },
+          {
+            "label": "3",
+            "text": "instil"
+          },
+          {
+            "label": "4",
+            "text": "import"
+          }
+        ],
+        "question_id": "26433098909",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "instil",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 24,
+      "section_local_question_number": 11,
+      "global_question_number": 14,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "3",
+      "raw_gemini_correct_option_text": "instil",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "3",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q014_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 24,
+          "question_number": 14,
+          "option_label": null,
+          "bbox": [
+            43,
+            494,
+            1461,
+            909
+          ],
+          "image_width": 1418,
+          "image_height": 415
+        },
+        {
+          "page_number": 24,
+          "question_number": 14,
+          "option_label": "1",
+          "bbox": [
+            111,
+            583,
+            925,
+            643
+          ],
+          "image_width": 814,
+          "image_height": 60
+        },
+        {
+          "page_number": 24,
+          "question_number": 14,
+          "option_label": "2",
+          "bbox": [
+            111,
+            639,
+            925,
+            683
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 24,
+          "question_number": 14,
+          "option_label": "3",
+          "bbox": [
+            111,
+            679,
+            925,
+            723
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 24,
+          "question_number": 14,
+          "option_label": "4",
+          "bbox": [
+            111,
+            719,
+            925,
+            788
+          ],
+          "image_width": 814,
+          "image_height": 69
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q014_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q014_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q014_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q014_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998976248976249,
+          "green_fraction": 0.00010237510237510238
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998603975876703,
+          "green_fraction": 0.00013960241232968505
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.014155684610230064
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999109781718477,
+          "green_fraction": 8.902182815226294e-05
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_24.png"
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice. He won’t receive any better choice than this from anywhere.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Any better choice won’t be received by him than this from anywhere."
+        },
+        {
+          "label": "2",
+          "text": "Any better choice wouldn’t have received by him than this from anywhere."
+        },
+        {
+          "label": "3",
+          "text": "Any better choice shouldn’t be received by him than this from anywhere."
+        },
+        {
+          "label": "4",
+          "text": "Any better choice won’t have been be received by him than this from anywhere."
+        }
+      ],
+      "question_id": "26433094755",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Any better choice won’t be received by him than this from anywhere.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 12,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in passive voice. He won’t receive any better choice than this from anywhere.",
+        "options": [
+          {
+            "label": "1",
+            "text": "Any better choice won’t be received by him than this from anywhere."
+          },
+          {
+            "label": "2",
+            "text": "Any better choice wouldn’t have received by him than this from anywhere."
+          },
+          {
+            "label": "3",
+            "text": "Any better choice shouldn’t be received by him than this from anywhere."
+          },
+          {
+            "label": "4",
+            "text": "Any better choice won’t have been be received by him than this from anywhere."
+          }
+        ],
+        "question_id": "26433094755",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "Any better choice won’t be received by him than this from anywhere.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 24,
+      "section_local_question_number": 12,
+      "global_question_number": 15,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "1",
+      "raw_gemini_correct_option_text": "Any better choice won’t be received by him than this from anywhere.",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "1",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "1",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q015_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 24,
+          "question_number": 15,
+          "option_label": null,
+          "bbox": [
+            43,
+            900,
+            1461,
+            1271
+          ],
+          "image_width": 1418,
+          "image_height": 371
+        },
+        {
+          "page_number": 24,
+          "question_number": 15,
+          "option_label": "1",
+          "bbox": [
+            111,
+            945,
+            925,
+            1005
+          ],
+          "image_width": 814,
+          "image_height": 60
+        },
+        {
+          "page_number": 24,
+          "question_number": 15,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1001,
+            925,
+            1045
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 24,
+          "question_number": 15,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1041,
+            925,
+            1085
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 24,
+          "question_number": 15,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1081,
+            925,
+            1150
+          ],
+          "image_width": 814,
+          "image_height": 69
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q015_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q015_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q015_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q015_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.06017608517608518
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998603975876703,
+          "green_fraction": 0.00013960241232968505
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998324771052044,
+          "green_fraction": 0.00016752289479562206
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998931738062173,
+          "green_fraction": 0.00010682619378271552
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_24.png"
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word. Feeble",
+      "options": [
+        {
+          "label": "1",
+          "text": "Unheardful"
+        },
+        {
+          "label": "2",
+          "text": "Strong"
+        },
+        {
+          "label": "3",
+          "text": "Weak"
+        },
+        {
+          "label": "4",
+          "text": "Baneful"
+        }
+      ],
+      "question_id": "26433099870",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Weak",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 13,
+        "section": null,
+        "question_text_full": "Select the most appropriate synonym of the given word. Feeble",
+        "options": [
+          {
+            "label": "1",
+            "text": "Unheardful"
+          },
+          {
+            "label": "2",
+            "text": "Strong"
+          },
+          {
+            "label": "3",
+            "text": "Weak"
+          },
+          {
+            "label": "4",
+            "text": "Baneful"
+          }
+        ],
+        "question_id": "26433099870",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Weak",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 24,
+      "section_local_question_number": 13,
+      "global_question_number": 16,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "3",
+      "raw_gemini_correct_option_text": "Weak",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "3",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q016_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 24,
+          "question_number": 16,
+          "option_label": null,
+          "bbox": [
+            43,
+            1262,
+            1461,
+            1633
+          ],
+          "image_width": 1418,
+          "image_height": 371
+        },
+        {
+          "page_number": 24,
+          "question_number": 16,
+          "option_label": "1",
+          "bbox": [
+            111,
+            1307,
+            925,
+            1366
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 24,
+          "question_number": 16,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1362,
+            925,
+            1406
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 24,
+          "question_number": 16,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1402,
+            925,
+            1446
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 24,
+          "question_number": 16,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1442,
+            925,
+            1512
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q016_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q016_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q016_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q016_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998750676716779,
+          "green_fraction": 0.00012493232832215884
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998324771052044,
+          "green_fraction": 0.00016752289479562206
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.016138038865311594
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9999122499122499,
+          "green_fraction": 8.775008775008775e-05
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_24.png"
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the correct spelling of the underline word. They denied having any association with the terrorists.",
+      "options": [
+        {
+          "label": "1",
+          "text": "asociation"
+        },
+        {
+          "label": "2",
+          "text": "asoccation"
+        },
+        {
+          "label": "3",
+          "text": "assossiation"
+        },
+        {
+          "label": "4",
+          "text": "association"
+        }
+      ],
+      "question_id": "26433094772",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "association",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 14,
+        "section": null,
+        "question_text_full": "Select the correct spelling of the underline word. They denied having any association with the terrorists.",
+        "options": [
+          {
+            "label": "1",
+            "text": "asociation"
+          },
+          {
+            "label": "2",
+            "text": "asoccation"
+          },
+          {
+            "label": "3",
+            "text": "assossiation"
+          },
+          {
+            "label": "4",
+            "text": "association"
+          }
+        ],
+        "question_id": "26433094772",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "association",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 24,
+      "section_local_question_number": 14,
+      "global_question_number": 17,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "4",
+      "raw_gemini_correct_option_text": "association",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "4",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "4",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q017_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 24,
+          "question_number": 17,
+          "option_label": null,
+          "bbox": [
+            43,
+            1624,
+            1461,
+            2097
+          ],
+          "image_width": 1418,
+          "image_height": 473
+        },
+        {
+          "page_number": 24,
+          "question_number": 17,
+          "option_label": "1",
+          "bbox": [
+            111,
+            1691,
+            925,
+            1751
+          ],
+          "image_width": 814,
+          "image_height": 60
+        },
+        {
+          "page_number": 24,
+          "question_number": 17,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1747,
+            925,
+            1791
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 24,
+          "question_number": 17,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1787,
+            925,
+            1830
+          ],
+          "image_width": 814,
+          "image_height": 43
+        },
+        {
+          "page_number": 24,
+          "question_number": 17,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1826,
+            925,
+            1896
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q017_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q017_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q017_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p24_q017_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998771498771499,
+          "green_fraction": 0.00012285012285012285
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998324771052044,
+          "green_fraction": 0.00016752289479562206
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.99982858122393,
+          "green_fraction": 0.00017141877606993887
+        },
+        "4": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.013724113724113723
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_24.png"
+    },
+    {
+      "question_number": 24,
+      "section": "Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no. 4.",
+      "options": [
+        {
+          "label": "1",
+          "text": "As a result"
+        },
+        {
+          "label": "2",
+          "text": "As a reaction"
+        },
+        {
+          "label": "3",
+          "text": "Causing"
+        },
+        {
+          "label": "4",
+          "text": "As a reason"
+        }
+      ],
+      "question_id": "264330139177",
+      "chosen_option_label": "1",
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 24,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no. 4.",
+        "options": [
+          {
+            "label": "1",
+            "text": "As a result"
+          },
+          {
+            "label": "2",
+            "text": "As a reaction"
+          },
+          {
+            "label": "3",
+            "text": "Causing"
+          },
+          {
+            "label": "4",
+            "text": "As a reason"
+          }
+        ],
+        "question_id": "264330139177",
+        "chosen_option_label": "1",
+        "correct_option_label": "1",
+        "correct_option_text": "As a result",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 28,
+      "section_local_question_number": 24,
+      "global_question_number": 18,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "1",
+      "raw_gemini_correct_option_text": "As a result",
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "sin"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "4",
+      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_reasons": [
+        "correct_option_conflict"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p28_q018_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 28,
+          "question_number": 18,
+          "option_label": null,
+          "bbox": [
+            43,
+            1173,
+            1461,
+            2097
+          ],
+          "image_width": 1418,
+          "image_height": 924
+        },
+        {
+          "page_number": 28,
+          "question_number": 18,
+          "option_label": "1",
+          "bbox": [
+            111,
+            1196,
+            925,
+            1256
+          ],
+          "image_width": 814,
+          "image_height": 60
+        },
+        {
+          "page_number": 28,
+          "question_number": 18,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1252,
+            925,
+            1296
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 28,
+          "question_number": 18,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1292,
+            925,
+            1336
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 28,
+          "question_number": 18,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1332,
+            925,
+            1401
+          ],
+          "image_width": 814,
+          "image_height": 69
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p28_q018_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p28_q018_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p28_q018_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\assets\\question_crops\\2023_tier1_prepp_shift1_p28_q018_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998976248976249,
+          "green_fraction": 0.00010237510237510238
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998603975876703,
+          "green_fraction": 0.00013960241232968505
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 0.9998603975876703,
+          "green_fraction": 0.00013960241232968505
+        },
+        "4": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.013673752804187587
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_28.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_28.png"
+    },
+    {
+      "question_number": 25,
+      "section": "Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no. 5.",
+      "options": [
+        {
+          "label": "1",
+          "text": "break into"
+        },
+        {
+          "label": "2",
+          "text": "breaks to"
+        },
+        {
+          "label": "3",
+          "text": "break from"
+        },
+        {
+          "label": "4",
+          "text": "breaks into"
+        }
+      ],
+      "question_id": "264330139178",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "breaks into",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 25,
+        "section": "Comprehension",
+        "question_text_full": "Select the most appropriate option to fill in blank no. 5.",
+        "options": [
+          {
+            "label": "1",
+            "text": "break into"
+          },
+          {
+            "label": "2",
+            "text": "breaks to"
+          },
+          {
+            "label": "3",
+            "text": "break from"
+          },
+          {
+            "label": "4",
+            "text": "breaks into"
+          }
+        ],
+        "question_id": "264330139178",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "breaks into",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 28,
+      "section_local_question_number": 25,
+      "global_question_number": 19,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "4",
+      "raw_gemini_correct_option_text": "breaks into",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "unavailable",
+      "deterministic_correct_option_label": null,
+      "evidence_status": "PASS_LLM_ONLY",
+      "evidence_reasons": [
+        "llm_only_text"
+      ],
+      "canonical_correct_option_label": "4",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "option_crop_paths": [],
+      "crop_metadata": [],
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_28.png",
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\nim_primary_pilot_20260524\\2023_tier1_prepp_shift1\\page_images\\page_28.png"
+    }
+  ],
+  "canonical_review_count": 6,
+  "blocking_review_count": 5,
+  "asset_evidence_attached": true
+}

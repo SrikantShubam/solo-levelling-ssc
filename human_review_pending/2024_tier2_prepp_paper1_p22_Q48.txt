@@ -1,0 +1,24 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 22
+Question Number: 48
+Global Q#: 47
+Section: None
+Modality: visual_options
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+In a certain code language
+A + B means 'A is the mother of B',
+A - B means 'A is the brother of B',
+A x B means 'A is the wife of B' and
+A ÷ B means 'A is the father of B'.
+Based on the above, how is U related to Z if 'U + V + W - Y x Z'?
+
+--- Options ---
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4

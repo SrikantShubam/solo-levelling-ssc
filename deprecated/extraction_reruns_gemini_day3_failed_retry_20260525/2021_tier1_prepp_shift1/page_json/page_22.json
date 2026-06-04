@@ -1,0 +1,104 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 48,
+      "section": null,
+      "question_text_full": "The former Spanish footballer, Antonio Lopez Habas, was the coach at the Hero ISL 2020-21 of which of the following football teams?",
+      "options": [
+        {
+          "label": "1",
+          "text": "FC Goa"
+        },
+        {
+          "label": "2",
+          "text": "ATK Mohun Bagan"
+        },
+        {
+          "label": "3",
+          "text": "Kerala Blasters"
+        },
+        {
+          "label": "4",
+          "text": "SC East Bengal"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 49,
+      "section": null,
+      "question_text_full": "On which day was the National Emblem of India adopted?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15th August 1947"
+        },
+        {
+          "label": "2",
+          "text": "26th January 1959"
+        },
+        {
+          "label": "3",
+          "text": "26th January 1950"
+        },
+        {
+          "label": "4",
+          "text": "15th August 1952"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 50,
+      "section": null,
+      "question_text_full": "________ is reducing the degree or intensity of, or eliminating, pollution.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Aeration"
+        },
+        {
+          "label": "2",
+          "text": "Aerosol"
+        },
+        {
+          "label": "3",
+          "text": "Absorption"
+        },
+        {
+          "label": "4",
+          "text": "Abatement"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

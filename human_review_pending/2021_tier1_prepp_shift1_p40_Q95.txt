@@ -1,0 +1,19 @@
+PDF: 2021_tier1_prepp_shift1
+Page: 40
+Question Number: 95
+Global Q#: 87
+Section: None
+Modality: text_only
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 4
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required.’ A tigress has given birth to a cub in the Ranthambore Tiger Reserve, taking the big cat population to 78.
+
+--- Options ---
+  (1) was birthed
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible

@@ -1,0 +1,156 @@
+{
+  "page": 9,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "In a certain code language, 'PERMIT' is written as 'VVLNOG'. How will 'INERTIA' be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "OMYIZRU"
+        },
+        {
+          "label": "2",
+          "text": "XOYHCZU"
+        },
+        {
+          "label": "3",
+          "text": "XYOHBCU"
+        },
+        {
+          "label": "4",
+          "text": "OHYXZCU"
+        }
+      ],
+      "question_id": "81616113016",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "OMYIZRU",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 1,
+      "section": "General Awareness",
+      "question_text_full": "Which of the following statements about Swami Dayanand Saraswati is INCORRECT?",
+      "options": [
+        {
+          "label": "1",
+          "text": "His birthplace was Gujarat."
+        },
+        {
+          "label": "2",
+          "text": "He authored the book 'Satyarth Prakash'."
+        },
+        {
+          "label": "3",
+          "text": "He was the founder of Brahmo Samaj."
+        },
+        {
+          "label": "4",
+          "text": "He was the founder of Arya Samaj."
+        }
+      ],
+      "question_id": "81616113957",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "He was the founder of Brahmo Samaj.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 2,
+      "section": "General Awareness",
+      "question_text_full": "Who among the following is a Padma Vibhushan awardee of 2021?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Tarlochan Singh"
+        },
+        {
+          "label": "2",
+          "text": "Mouma Das"
+        },
+        {
+          "label": "3",
+          "text": "Sudarshan Sahoo"
+        },
+        {
+          "label": "4",
+          "text": "Sumitra Mahajan"
+        }
+      ],
+      "question_id": "81616113859",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Sudarshan Sahoo",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 3,
+      "section": "General Awareness",
+      "question_text_full": "Who among the following was one of the founders of the Hindustan Republic Association?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ram Prasad Bismil"
+        },
+        {
+          "label": "2",
+          "text": "Lala Lajpat Rai"
+        },
+        {
+          "label": "3",
+          "text": "Jatindranath Mukherjee"
+        },
+        {
+          "label": "4",
+          "text": "Surya Sen"
+        }
+      ],
+      "question_id": "81616113352",
+      "chosen_option_label": "4",
+      "correct_option_label": "1",
+      "correct_option_text": "Ram Prasad Bismil",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 4,
+      "section": "General Awareness",
+      "question_text_full": "In which of the following years was the Second Round Table Conference in London held?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1925"
+        },
+        {
+          "label": "2",
+          "text": "1939"
+        },
+        {
+          "label": "3",
+          "text": "1931"
+        },
+        {
+          "label": "4",
+          "text": "1941"
+        }
+      ],
+      "question_id": "81616113047",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1931",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

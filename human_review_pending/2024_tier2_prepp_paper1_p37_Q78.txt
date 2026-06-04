@@ -1,0 +1,21 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 37
+Question Number: 78
+Global Q#: 76
+Section: None
+Modality: text_only
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Select the option that expresses the given sentence in passive voice.
+
+"Everyone was surprised at his speech."
+
+--- Options ---
+  (1) His speech surprised everyone.
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible

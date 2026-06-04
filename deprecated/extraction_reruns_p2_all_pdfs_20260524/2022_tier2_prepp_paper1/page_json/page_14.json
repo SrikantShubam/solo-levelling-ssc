@@ -1,0 +1,96 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "The sequence of folding a piece of paper and the manner in which the folded paper has been cut is shown below. Choose a figure which would most closely resemble the unfolded form of the paper.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330126303",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual figures."
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::? # : DKR :: PCL: %",
+      "options": [
+        {
+          "label": "1",
+          "text": "# = BNQ, % = NFM"
+        },
+        {
+          "label": "2",
+          "text": "# = FHT, % = NFJ"
+        },
+        {
+          "label": "3",
+          "text": "# = COQ, % = OGH"
+        },
+        {
+          "label": "4",
+          "text": "# = BNP, % = NFJ"
+        }
+      ],
+      "question_id": "264330121405",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "# = FHT, % = NFJ",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "All 32 students in a class are standing in a row facing north. Akash is 12th from the right end while Priya is 18th from the left end. How many people are standing between Akash and Priya?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Two"
+        },
+        {
+          "label": "2",
+          "text": "Four"
+        },
+        {
+          "label": "3",
+          "text": "Three"
+        },
+        {
+          "label": "4",
+          "text": "Five"
+        }
+      ],
+      "question_id": "264330121142",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Two",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

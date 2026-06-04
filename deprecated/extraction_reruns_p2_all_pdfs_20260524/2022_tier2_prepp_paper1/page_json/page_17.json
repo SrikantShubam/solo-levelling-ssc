@@ -1,0 +1,66 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Out of the following five figures, four are alike in some manner and one differs from these in that manner. Select the odd figure.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330128895",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are represented by the four figures shown in the answer block."
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is NOT allowed) (11, 33, 17), (18, 44, 21)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(12, 40, 18)"
+        },
+        {
+          "label": "2",
+          "text": "(7, 32, 9)"
+        },
+        {
+          "label": "3",
+          "text": "(16, 43, 22)"
+        },
+        {
+          "label": "4",
+          "text": "(15, 34, 19)"
+        }
+      ],
+      "question_id": "264330126247",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "(16, 43, 22)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

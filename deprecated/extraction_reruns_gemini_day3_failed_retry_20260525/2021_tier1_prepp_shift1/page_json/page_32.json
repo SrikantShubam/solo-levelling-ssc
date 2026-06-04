@@ -1,0 +1,47 @@
+{
+  "page": 32,
+  "questions": [
+    {
+      "question_number": 74,
+      "section": null,
+      "question_text_full": "Monthly expenditure of a family on different heads is shown in the following pie chart. The amount spent on Children Education, Transport and Rent is what percentage of the total earnings? Expenditure on different Heads",
+      "options": [
+        {
+          "label": "1",
+          "text": "50%"
+        },
+        {
+          "label": "2",
+          "text": "45%"
+        },
+        {
+          "label": "3",
+          "text": "55%"
+        },
+        {
+          "label": "4",
+          "text": "40%"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 75 is incomplete on the page (missing options).",
+    "Question 74 options were labeled a, b, c, d in the source; mapped to 1, 2, 3, 4 for schema compliance."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,46 @@
+{
+  "page": 69,
+  "questions": [
+    {
+      "question_number": 144,
+      "section": null,
+      "question_text_full": "Match the Task Manager tabs in column A with their respective functionalities in column B.\nColumn A Column B\n1. Processes usage a) Monitors overall CPU, memory, disk, and network\n2. Performance processes b) Displays active applications and background\n3. Startup c) Manages programs that run during system startup\n4. App History d) Shows resource usage for Windows Store apps",
+      "options": [
+        {
+          "label": "1",
+          "text": "1-d, 2-b, 3-a, 4-c"
+        },
+        {
+          "label": "2",
+          "text": "1-c, 2-b, 3-d, 4-a"
+        },
+        {
+          "label": "3",
+          "text": "1-a, 2-c, 3-b, 4-d"
+        },
+        {
+          "label": "4",
+          "text": "1-b, 2-a, 3-c, 4-d"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options provided in the image are labeled a, b, c, d. These have been mapped to 1, 2, 3, 4 respectively for the schema."
+    }
+  ],
+  "warnings": [
+    "Question 145 is incomplete on the page as it lacks answer options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

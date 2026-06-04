@@ -1,0 +1,104 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "If the areas of two similar triangles are in the ratio 121 : 225",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 : 13"
+        },
+        {
+          "label": "2",
+          "text": "11 : 15"
+        },
+        {
+          "label": "3",
+          "text": "9 : 11"
+        },
+        {
+          "label": "4",
+          "text": "11 : 13"
+        }
+      ],
+      "question_id": "630680674294",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "11 : 15",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Find the value of Y, if X- 2Y + 2Z = 16, X - Y + Z = 9 and 2X - 3Y - Z = 9.",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "-4"
+        },
+        {
+          "label": "4",
+          "text": "-3"
+        }
+      ],
+      "question_id": "630680553687",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "-3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Rani and Adya, working separately, can finish a task in 12 days and 16 hours, respectively. They work in stretches of one day alternately. If Rani starts working first, then the task will be completed in",
+      "options": [
+        {
+          "label": "1",
+          "text": "12 1/3 days"
+        },
+        {
+          "label": "2",
+          "text": "12 2/3 days"
+        },
+        {
+          "label": "3",
+          "text": "13 2/3 days"
+        },
+        {
+          "label": "4",
+          "text": "13 1/3 days"
+        }
+      ],
+      "question_id": "630680262118",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "13 2/3 days",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

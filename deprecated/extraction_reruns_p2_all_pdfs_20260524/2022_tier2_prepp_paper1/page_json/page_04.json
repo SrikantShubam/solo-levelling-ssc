@@ -1,0 +1,126 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "What is the volume of the largest sphere that can be carved out of a wooden cube of sides 21 cm? (π = 22/7)",
+      "options": [
+        {
+          "label": "1",
+          "text": "3851 cm³"
+        },
+        {
+          "label": "2",
+          "text": "6858 cm³"
+        },
+        {
+          "label": "3",
+          "text": "4851 cm³"
+        },
+        {
+          "label": "4",
+          "text": "5821 cm³"
+        }
+      ],
+      "question_id": "264330123009",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "4851 cm³",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Find the value of the given expression. √8 + √1681",
+      "options": [
+        {
+          "label": "1",
+          "text": "5"
+        },
+        {
+          "label": "2",
+          "text": "6"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "7"
+        }
+      ],
+      "question_id": "264330121642",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "7",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Find the value of given expression. 30 - [40 - {56 - (25 - 13 - 12)}]",
+      "options": [
+        {
+          "label": "1",
+          "text": "38"
+        },
+        {
+          "label": "2",
+          "text": "22"
+        },
+        {
+          "label": "3",
+          "text": "14"
+        },
+        {
+          "label": "4",
+          "text": "46"
+        }
+      ],
+      "question_id": "264330122828",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "46",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "The ratio of the incomes of two employees is 7 : 4, and the ratio of their expenditures is 3 : 1. If each of them manages to save ₹4,800 per month, find the sum of their monthly incomes (in ₹).",
+      "options": [
+        {
+          "label": "1",
+          "text": "21120"
+        },
+        {
+          "label": "2",
+          "text": "20120"
+        },
+        {
+          "label": "3",
+          "text": "21150"
+        },
+        {
+          "label": "4",
+          "text": "18150"
+        }
+      ],
+      "question_id": "264330121745",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "21120",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

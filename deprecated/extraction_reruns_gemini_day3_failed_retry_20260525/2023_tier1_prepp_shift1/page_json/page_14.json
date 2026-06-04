@@ -1,0 +1,134 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Which scientist thought of the concept of steady state of the universe?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Harold Jeffrey"
+        },
+        {
+          "label": "2",
+          "text": "Edwin Hubble"
+        },
+        {
+          "label": "3",
+          "text": "Fred Hoyle"
+        },
+        {
+          "label": "4",
+          "text": "Pierre-Simon Laplace"
+        }
+      ],
+      "question_id": "26433097111",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "Fred Hoyle",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Match the columns.\nColum-A (Class) Column-B (Common name)\ni. Chlorophyceae a. Brown algae\nii. Phaeophyceae b. Green algae\niii. Rhodophyceae c. Blue-green algae\niv. Cyanophyceae d. Red algae",
+      "options": [
+        {
+          "label": "1",
+          "text": "i-b, ii-c, iii-a, iv-d"
+        },
+        {
+          "label": "2",
+          "text": "i-b, ii-a, iii-d, iv-c"
+        },
+        {
+          "label": "3",
+          "text": "i-d, ii-c, iii-b, iv-a"
+        },
+        {
+          "label": "4",
+          "text": "i-a, ii-b, iii-c, iv-d"
+        }
+      ],
+      "question_id": "264330109913",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "i-b, ii-a, iii-d, iv-c",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Ryotwari system of revenue collection in India, introduced by the British, was based on the ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Smith's theory of rent"
+        },
+        {
+          "label": "2",
+          "text": "Ricardian theory of rent"
+        },
+        {
+          "label": "3",
+          "text": "Malthusian theory of rent"
+        },
+        {
+          "label": "4",
+          "text": "Marx's theory of rent"
+        }
+      ],
+      "question_id": "264330109818",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Ricardian theory of rent",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Who received the Nobel Prize in 1901 for ‘recognition of the extraordinary services rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Hermann Emil Fischer"
+        },
+        {
+          "label": "2",
+          "text": "Jacobus Henricus van 't Hoff"
+        },
+        {
+          "label": "3",
+          "text": "Svante August Arrhenius"
+        },
+        {
+          "label": "4",
+          "text": "Henri Moissan"
+        }
+      ],
+      "question_id": "264330144047",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Jacobus Henricus van 't Hoff",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

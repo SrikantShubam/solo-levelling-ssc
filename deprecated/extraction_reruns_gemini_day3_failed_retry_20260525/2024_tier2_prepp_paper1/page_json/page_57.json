@@ -1,0 +1,106 @@
+{
+  "page": 57,
+  "questions": [
+    {
+      "question_number": 110,
+      "section": null,
+      "question_text_full": "In December 1991, which act was amended to bring public enterprises under the purview of the Board for Industrial and Financial Reconstruction (BIFR) as part of the country's economic reforms program?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Industries Act"
+        },
+        {
+          "label": "2",
+          "text": "Companies Act"
+        },
+        {
+          "label": "3",
+          "text": "Financial Rehabilitation Act"
+        },
+        {
+          "label": "4",
+          "text": "Sick Industrial Companies Act"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 111,
+      "section": null,
+      "question_text_full": "Which theory, independently introduced in 1923, led to the concept of acid-base conjugate pairs?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Brønsted-Lowry theory"
+        },
+        {
+          "label": "2",
+          "text": "Arrhenius theory"
+        },
+        {
+          "label": "3",
+          "text": "Davy's theory"
+        },
+        {
+          "label": "4",
+          "text": "Low's theory"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 112,
+      "section": null,
+      "question_text_full": "Who mentioned ecosystem as 'the basic unit in ecology' in 1956?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Aldo Leopold"
+        },
+        {
+          "label": "2",
+          "text": "Rachel Carson"
+        },
+        {
+          "label": "3",
+          "text": "John Harper"
+        },
+        {
+          "label": "4",
+          "text": "Francis Evans"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "No answer keys (green ticks) were visible on the provided page for any of the questions."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

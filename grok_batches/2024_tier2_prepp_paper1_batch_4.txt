@@ -1,0 +1,42 @@
+You are processing PDF: 2024_tier2_prepp_paper1
+You need to read 8 page images and extract the correct option label for each question.
+
+For EACH page image, read it and determine:
+1. Which questions are on that page
+2. Which option (1/2/3/4) has the GREEN tick mark (this is the correct answer)
+3. Which option has the CHOSEN/response-sheet mark (if visible)
+
+Return a JSON object with this structure:
+{
+  "pages": [
+    {
+      "page": INTEGER,
+      "questions": [
+        {
+          "question_number": INTEGER,
+          "correct_option_label": "1"|"2"|"3"|"4"|null,
+          "chosen_option_label": "1"|"2"|"3"|"4"|null,
+          "confidence": "high"|"medium"|"low"
+        }
+      ]
+    }
+  ]
+}
+
+CRITICAL: Each question must have correct_option_label set to the GREEN-ticked option.
+Rules:
+- Correct option is the GREEN tick/check-marked option
+- Red cross is NOT correct
+- Chosen Option is the response-sheet field (may not exist on all pages)
+- Return ONLY the raw JSON object
+- Read ALL images listed below. Do not skip any.
+
+Page images to process:
+- Page 64 (questions 130): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_64.png
+- Page 65 (questions 131,132,133): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_65.png
+- Page 66 (questions 134,135,136): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_66.png
+- Page 67 (questions 137,138,139): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_67.png
+- Page 68 (questions 141,142,143): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_68.png
+- Page 69 (questions 144): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_69.png
+- Page 70 (questions 146,147): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_70.png
+- Page 71 (questions 149): C:\experiments\ssc\pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_71.png

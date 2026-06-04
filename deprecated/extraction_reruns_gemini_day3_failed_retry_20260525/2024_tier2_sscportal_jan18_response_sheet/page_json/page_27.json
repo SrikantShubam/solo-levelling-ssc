@@ -1,0 +1,104 @@
+{
+  "page": 27,
+  "questions": [
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "Read the given statements and conclusions carefully. Assuming that the information given in the statement(s) is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s).\n\nStatements:\nAll sheeps are cows.\nSome cows are horses.\nAll horses are jackals.\n\nConclusion:\n(I) Some jackals are cows.\n(II) Some horses are sheeps.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only Conclusion (II) follows."
+        },
+        {
+          "label": "2",
+          "text": "Both Conclusions (I) and (II) follow."
+        },
+        {
+          "label": "3",
+          "text": "Neither Conclusion (I) nor (II) follows."
+        },
+        {
+          "label": "4",
+          "text": "Only Conclusion (I) follows."
+        }
+      ],
+      "question_id": "630680571371",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Only Conclusion (I) follows.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 30,
+      "section": null,
+      "question_text_full": "In a certain code language, ‘she gardens daily’ is coded as ‘ak jb mp’ and ‘where is she’ is coded as ‘mp pt kt’. How is ‘she’ coded in the given language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "mp"
+        },
+        {
+          "label": "2",
+          "text": "pt"
+        },
+        {
+          "label": "3",
+          "text": "ak"
+        },
+        {
+          "label": "4",
+          "text": "kt"
+        }
+      ],
+      "question_id": "630680644318",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "mp",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Module I English Language and Comprehension",
+      "question_text_full": "Select the correct spelling of the incorrectly spelt word in the given sentence.\n\nThe trainer tried to guage the learners' understanding of the subject by asking several new questions.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Gaage"
+        },
+        {
+          "label": "2",
+          "text": "Gaaug"
+        },
+        {
+          "label": "3",
+          "text": "Gaugg"
+        },
+        {
+          "label": "4",
+          "text": "Gauge"
+        }
+      ],
+      "question_id": "6306801320360",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Gauge",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

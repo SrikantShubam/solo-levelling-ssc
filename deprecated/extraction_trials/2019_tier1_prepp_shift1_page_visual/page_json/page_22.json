@@ -1,0 +1,126 @@
+{
+  "page": 22,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Select the passive form of the given sentence. The manager keeps the work pending.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The work has been kept pending by the manager"
+        },
+        {
+          "label": "2",
+          "text": "The work was kept pending by the manager."
+        },
+        {
+          "label": "3",
+          "text": "The work is kept pending by the manager."
+        },
+        {
+          "label": "4",
+          "text": "The work are being kept pending by the manager."
+        }
+      ],
+      "question_id": "12356878",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "The work is kept pending by the manager.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "In the sentence identify the segment which contains the grammatical error. One of the boys from our school have been selected for National Badminton Championship.",
+      "options": [
+        {
+          "label": "1",
+          "text": "have been selected"
+        },
+        {
+          "label": "2",
+          "text": "from our school"
+        },
+        {
+          "label": "3",
+          "text": "for National Badminton Championship"
+        },
+        {
+          "label": "4",
+          "text": "One of the boys"
+        }
+      ],
+      "question_id": "12356877",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "have been selected",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Select the correct synonym of the given word. Obligatory",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mandatory"
+        },
+        {
+          "label": "2",
+          "text": "Reckless"
+        },
+        {
+          "label": "3",
+          "text": "Useless"
+        },
+        {
+          "label": "4",
+          "text": "Aggressive"
+        }
+      ],
+      "question_id": "12356890",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Mandatory",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If no substitution is required, select No improvement The Director will agree with the proposal if we do not exceed the budget.",
+      "options": [
+        {
+          "label": "1",
+          "text": "agreed by the proposal"
+        },
+        {
+          "label": "2",
+          "text": "agree on a proposal"
+        },
+        {
+          "label": "3",
+          "text": "No Improvement"
+        },
+        {
+          "label": "4",
+          "text": "agree to the proposal"
+        }
+      ],
+      "question_id": "12356881",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "agree to the proposal",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,29 @@
+{
+  "batch": 30,
+  "pages": [
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 26,
+      "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 27,
+      "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 28,
+      "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 29,
+      "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_29.png"
+    }
+  ]
+}

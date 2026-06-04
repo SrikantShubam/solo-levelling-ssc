@@ -1,0 +1,360 @@
+{
+  "task_id": 2,
+  "data": {
+    "pdf_name": "2021_tier1_prepp_shift1",
+    "batch_start": 51,
+    "batch_end": 75,
+    "questions": [
+      {
+        "global_question_number": 51,
+        "question_number": 57,
+        "source_page": 25,
+        "question_text_full": "Some students (only boys and girls) from different schools appeared for an Olympiad exam. 20% of the boys and 15% of the girls failed the exam. The number of boys who passed the exam was 70 more than that of the girls who passed the exam. A total of 90 students failed. Find the number of students that appeared for the exam.",
+        "options": {
+          "1": "350",
+          "2": "420",
+          "3": "400",
+          "4": "500"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 52,
+        "question_number": 58,
+        "source_page": 25,
+        "question_text_full": "If (x + 6y) = 8, and xy = 2, where x > 0, what is the value of (x 3+ 216y 3)?",
+        "options": {
+          "1": "476",
+          "2": "368",
+          "3": "224",
+          "4": "288"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 53,
+        "question_number": 59,
+        "source_page": 25,
+        "question_text_full": "In a \u0394ABC, points P, Q and R are taken on AB, BC and CA, respectively, such that BQ = PQ and QC = QR. If \u2220BAC = 75\u00b0, what is the measure of \u2220PQR (in degrees)?",
+        "options": {
+          "1": "75",
+          "2": "50",
+          "3": "30",
+          "4": "40"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 54,
+        "question_number": 60,
+        "source_page": 26,
+        "question_text_full": "A can finish a piece of the work in 16 days and B can finish it in 12 days. They worked together for 4 days and then A left. B finished the remaining work. For how many total number of days did B work to finish the work completely?",
+        "options": {
+          "1": "6",
+          "2": "4",
+          "3": "8",
+          "4": "9"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 55,
+        "question_number": 61,
+        "source_page": 26,
+        "question_text_full": "The value of: sin 23\u00b0 cos 67\u00b0 + sec 52\u00b0 sin 38\u00b0 + cos 23\u00b0 sin 67\u00b0 + cosec 52\u00b0 cos 38\u00b0 / cosec\u00b2 20\u00b0 - tan\u00b2 70\u00b0",
+        "options": {
+          "1": "0",
+          "2": "4",
+          "3": "3",
+          "4": "2"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 56,
+        "question_number": 62,
+        "source_page": 26,
+        "question_text_full": "LCM of two numbers is 56 times their HCF, with the sum of their HCF and LCM being 1710. If one of the two numbers is 240, then what is the other number?",
+        "options": {
+          "1": "210",
+          "2": "171",
+          "3": "57",
+          "4": "Figure 4 (Missing in source)"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 57,
+        "question_number": 63,
+        "source_page": 27,
+        "question_text_full": "The following bar graph shows exports of cars of type A and B (in Rs. millions) from 2014 to 2018. What is the ratio of the total exports of cars of type A in 2014 and 2017 to the total exports of cars of type B in 2015 and 2016?",
+        "options": {
+          "1": "5 : 6",
+          "2": "3 : 2",
+          "3": "10 : 9",
+          "4": "11 : 10"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 58,
+        "question_number": 64,
+        "source_page": 27,
+        "question_text_full": "A certain sum is deposited for 4 years at a rate of 10% per annum on compound interest compounded annually. The difference between the interest at the end of 2 years and that at the end of 4 years is Rs. 5,082. Find the sum (in Rs.).",
+        "options": {
+          "1": "20,000",
+          "2": "Not enough options provided in the source image to complete the set of 4.",
+          "3": "Not enough options provided in the source image to complete the set of 4.",
+          "4": "Not enough options provided in the source image to complete the set of 4."
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 59,
+        "question_number": 65,
+        "source_page": 28,
+        "question_text_full": "An equilateral triangle ABC is inscribed in a circle with centre O. D is a point on the minor arc BC and \u2220CBD = 40\u00b0. Find the measure of \u2220BCD.",
+        "options": {
+          "1": "40\u00b0",
+          "2": "30\u00b0",
+          "3": "50\u00b0",
+          "4": "20\u00b0"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 60,
+        "question_number": 66,
+        "source_page": 28,
+        "question_text_full": "The lengths of the three sides of a right-angled triangle are (x - 1) cm, (x + 1) cm and (x + 3) cm, respectively. The hypotenuse of the right-angled triangle (in cm) is:",
+        "options": {
+          "1": "6",
+          "2": "12",
+          "3": "7",
+          "4": "10"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 61,
+        "question_number": null,
+        "source_page": 29,
+        "question_text_full": "What is the ratio of the total number of students who scored 140 marks and above to the total number of students who scored marks between 60 to 120?",
+        "options": {
+          "1": "11 : 9",
+          "2": "9 : 11",
+          "3": "110 : 137",
+          "4": "137 : 110"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 62,
+        "question_number": 68,
+        "source_page": 29,
+        "question_text_full": "The ratio of the monthly incomes of A and B is 11 : 13 and the ratio of their expenditures is 9 : 11. If both of them manage to save Rs. 4,000 per month, then find the difference in their incomes (in Rs.)",
+        "options": {
+          "1": "4,000",
+          "2": "2,500",
+          "3": "3,000",
+          "4": "Data insufficient"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 63,
+        "question_number": 69,
+        "source_page": 30,
+        "question_text_full": "A solid cube of side 8 cm is dropped into a rectangular container of length 16 cm, breadth 8 cm and height 15 cm which is partly filled with water. If the cube is completely submerged, then the rise of water level (in cm) is:",
+        "options": {
+          "1": "6",
+          "2": "4",
+          "3": "2",
+          "4": "5"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 64,
+        "question_number": 70,
+        "source_page": 30,
+        "question_text_full": "The number of cars passing the road near a colony from 6 am to 12 noon has been shown in the following histogram. What is the ratio of the number of cars passed between 6 am and 8 am to the number of cars passed between 9 am and 11 am?",
+        "options": {
+          "1": "7 : 4",
+          "2": "Not enough options visible",
+          "3": "Not enough options visible",
+          "4": "Not enough options visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 65,
+        "question_number": 71,
+        "source_page": 31,
+        "question_text_full": "An item costs Rs. 400. During a festival sale, a company offers a sale discount that offers x% off on its regular price along with a discount coupon of 10%. The price of the item after using both the sale discount and the discount coupon, is Rs. 216. What is the value of x?",
+        "options": {
+          "1": "30",
+          "2": "40",
+          "3": "35",
+          "4": "25"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 66,
+        "question_number": 72,
+        "source_page": 31,
+        "question_text_full": "If x + y + 3 = 0, then find the value of x\u00b3 + y\u00b3 - 9xy + 9.",
+        "options": {
+          "1": "-36",
+          "2": "-18",
+          "3": "36",
+          "4": "18"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 67,
+        "question_number": 73,
+        "source_page": 31,
+        "question_text_full": "AB is a diameter of a circle with centre O. A tangent is drawn at point A. C is a point on the circle such that BC produced meets the tangent at P. If \u2220APC = 62\u00b0, then find the measure of the minor arc AC.",
+        "options": {
+          "1": "31\u00b0",
+          "2": "Not visible",
+          "3": "Not visible",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 68,
+        "question_number": 74,
+        "source_page": 32,
+        "question_text_full": "Monthly expenditure of a family on different heads is shown in the following pie chart. The amount spent on Children Education, Transport and Rent is what percentage of the total earnings? Expenditure on different Heads",
+        "options": {
+          "1": "50%",
+          "2": "45%",
+          "3": "55%",
+          "4": "40%"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 69,
+        "question_number": 76,
+        "source_page": 34,
+        "question_text_full": "Select the most appropriate meaning of the given idiom. Be hard up",
+        "options": {
+          "1": "Find it very difficult to wake up early",
+          "2": "Have very little money",
+          "3": "Unable to calculate",
+          "4": "Have difficulty in climbing stairs"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 70,
+        "question_number": 77,
+        "source_page": 34,
+        "question_text_full": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error from the given options. If you don't find any error, mark 'No error' as your answer. It was / the very well-directed film / and we enjoyed it.",
+        "options": {
+          "1": "It was",
+          "2": "No error",
+          "3": "the very well-directed film",
+          "4": "and we enjoyed it"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 71,
+        "question_number": 78,
+        "source_page": 34,
+        "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error. Every / curious child / want to / rip open a toy.",
+        "options": {
+          "1": "rip open a toy",
+          "2": "Every",
+          "3": "curious child",
+          "4": "want to"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 72,
+        "question_number": 79,
+        "source_page": 35,
+        "question_text_full": "Select the most appropriate synonym of the given word.\nAvert",
+        "options": {
+          "1": "Face",
+          "2": "Permit",
+          "3": "Confront",
+          "4": "Prevent"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 73,
+        "question_number": 80,
+        "source_page": 35,
+        "question_text_full": "Select the option that expresses the given sentence in direct speech.\nHe asked me when I had booked the flight tickets.",
+        "options": {
+          "1": "He said to me, \"When did you book the flight tickets?\"",
+          "2": "He said to me, \"When are you booking the flight tickets?\"",
+          "3": "He said to me, \"When do you book the flight tickets?\"",
+          "4": "He said to me, \"When you had book the flight tickets?\""
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 74,
+        "question_number": 82,
+        "source_page": 36,
+        "question_text_full": "The following sentence has been divided into parts. One of them may contain a grammatical error. Select the part that contains the error from the given options. If you don't find any error, mark 'No error' as your answer.\n\nIf the economy fails / this year it reflect badly / on the government.",
+        "options": {
+          "1": "No error",
+          "2": "on the government",
+          "3": "this year it reflect badly",
+          "4": "If the economy fails"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 75,
+        "question_number": 83,
+        "source_page": 36,
+        "question_text_full": "The following sentence has been split into segments. One of them may contain an error. Identify the segment that contains a grammatical error. If you don't find any error, mark 'No error' as your answer.\n\nNo one were / present when I / entered the hall.",
+        "options": {
+          "1": "present when I",
+          "2": "No one were",
+          "3": "No error",
+          "4": "entered the hall"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      }
+    ]
+  }
+}

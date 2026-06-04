@@ -1,0 +1,2407 @@
+{
+  "source_pdf": "C:\\experiments\\ssc\\answer_key_candidates_staging\\2024_tier2_sscportal_jan20_response_sheet.pdf",
+  "extraction_method": "Gemini page-by-page visual PNG extraction, merged in page/visual order",
+  "page_count": 57,
+  "question_count": 9,
+  "expected_question_count": null,
+  "is_complete_question_trial": true,
+  "qc_passed": false,
+  "qc_status": "FAIL",
+  "page_counts": [
+    {
+      "page": 1,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 10.392675331s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 10\n}\n]"
+      ]
+    },
+    {
+      "page": 2,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 55.960793965s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+      ]
+    },
+    {
+      "page": 3,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 42.156279592s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 42\n}\n]"
+      ]
+    },
+    {
+      "page": 4,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 29.251238425s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 29\n}\n]"
+      ]
+    },
+    {
+      "page": 5,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 16.138173939s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 16\n}\n]"
+      ]
+    },
+    {
+      "page": 6,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 1.870604993s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 1\n}\n]"
+      ]
+    },
+    {
+      "page": 7,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 47.77600405s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 47\n}\n]"
+      ]
+    },
+    {
+      "page": 8,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 35.361282278s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 35\n}\n]"
+      ]
+    },
+    {
+      "page": 9,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 21.957671895s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 21\n}\n]"
+      ]
+    },
+    {
+      "page": 10,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 8.415456702s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 8\n}\n]"
+      ]
+    },
+    {
+      "page": 11,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 54.403670788s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+      ]
+    },
+    {
+      "page": 12,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 40.21891731s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 40\n}\n]"
+      ]
+    },
+    {
+      "page": 13,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 27.826211611s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 27\n}\n]"
+      ]
+    },
+    {
+      "page": 14,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 13.860974319s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 13\n}\n]"
+      ]
+    },
+    {
+      "page": 15,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 59.390511429s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+      ]
+    },
+    {
+      "page": 16,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 44.545194349s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+      ]
+    },
+    {
+      "page": 17,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 31.082706264s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 31\n}\n]"
+      ]
+    },
+    {
+      "page": 18,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 17.351045859s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 17\n}\n]"
+      ]
+    },
+    {
+      "page": 19,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 2.559605504s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 2\n}\n]"
+      ]
+    },
+    {
+      "page": 20,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 48.914124127s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+      ]
+    },
+    {
+      "page": 21,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 34.265040167s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 34\n}\n]"
+      ]
+    },
+    {
+      "page": 22,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 20.226840385s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 20\n}\n]"
+      ]
+    },
+    {
+      "page": 23,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 6.583299009s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 6\n}\n]"
+      ]
+    },
+    {
+      "page": 24,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 52.501014102s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 52\n}\n]"
+      ]
+    },
+    {
+      "page": 25,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 37.235914857s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 37\n}\n]"
+      ]
+    },
+    {
+      "page": 26,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 23.520659053s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 23\n}\n]"
+      ]
+    },
+    {
+      "page": 27,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 9.829565291s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 9\n}\n]"
+      ]
+    },
+    {
+      "page": 28,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 55.16870765s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+      ]
+    },
+    {
+      "page": 29,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 42.599755036s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 42\n}\n]"
+      ]
+    },
+    {
+      "page": 30,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 29.244559915s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 29\n}\n]"
+      ]
+    },
+    {
+      "page": 31,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 15.538002169s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 15\n}\n]"
+      ]
+    },
+    {
+      "page": 32,
+      "count": 3,
+      "warnings": []
+    },
+    {
+      "page": 33,
+      "count": 3,
+      "warnings": []
+    },
+    {
+      "page": 34,
+      "count": 3,
+      "warnings": []
+    },
+    {
+      "page": 35,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 22.708338354s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 22\n}\n]"
+      ]
+    },
+    {
+      "page": 36,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 8.552393795s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 8\n}\n]"
+      ]
+    },
+    {
+      "page": 37,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 55.221529611s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+      ]
+    },
+    {
+      "page": 38,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 40.540212996s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 40\n}\n]"
+      ]
+    },
+    {
+      "page": 39,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 26.007563905s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 26\n}\n]"
+      ]
+    },
+    {
+      "page": 40,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 12.291230493s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 12\n}\n]"
+      ]
+    },
+    {
+      "page": 41,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 58.579591777s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+      ]
+    },
+    {
+      "page": 42,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 44.483907386s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+      ]
+    },
+    {
+      "page": 43,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 30.946257779s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 30\n}\n]"
+      ]
+    },
+    {
+      "page": 44,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 17.465503288s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 17\n}\n]"
+      ]
+    },
+    {
+      "page": 45,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 2.543463456s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 2\n}\n]"
+      ]
+    },
+    {
+      "page": 46,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 49.827870484s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+      ]
+    },
+    {
+      "page": 47,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 34.587481419s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 34\n}\n]"
+      ]
+    },
+    {
+      "page": 48,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 19.436473328s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 19\n}\n]"
+      ]
+    },
+    {
+      "page": 49,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 6.52163609s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 6\n}\n]"
+      ]
+    },
+    {
+      "page": 50,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 53.689661465s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+      ]
+    },
+    {
+      "page": 51,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 39.288245389s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 39\n}\n]"
+      ]
+    },
+    {
+      "page": 52,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 25.675529912s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 25\n}\n]"
+      ]
+    },
+    {
+      "page": 53,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 11.558316168s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 11\n}\n]"
+      ]
+    },
+    {
+      "page": 54,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 57.141152555s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 57\n}\n]"
+      ]
+    },
+    {
+      "page": 55,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 44.072568338s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+      ]
+    },
+    {
+      "page": 56,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 29.493566067s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 29\n}\n]"
+      ]
+    },
+    {
+      "page": 57,
+      "count": 0,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 16.199530132s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 16\n}\n]"
+      ]
+    }
+  ],
+  "load_errors": [
+    {
+      "page": 1,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 10.392675331s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 10\n}\n]"
+      ]
+    },
+    {
+      "page": 2,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 55.960793965s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+      ]
+    },
+    {
+      "page": 3,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 42.156279592s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 42\n}\n]"
+      ]
+    },
+    {
+      "page": 4,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 29.251238425s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 29\n}\n]"
+      ]
+    },
+    {
+      "page": 5,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 16.138173939s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 16\n}\n]"
+      ]
+    },
+    {
+      "page": 6,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 1.870604993s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 1\n}\n]"
+      ]
+    },
+    {
+      "page": 7,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 47.77600405s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 47\n}\n]"
+      ]
+    },
+    {
+      "page": 8,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 35.361282278s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 35\n}\n]"
+      ]
+    },
+    {
+      "page": 9,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 21.957671895s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 21\n}\n]"
+      ]
+    },
+    {
+      "page": 10,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 8.415456702s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 8\n}\n]"
+      ]
+    },
+    {
+      "page": 11,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 54.403670788s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+      ]
+    },
+    {
+      "page": 12,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 40.21891731s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 40\n}\n]"
+      ]
+    },
+    {
+      "page": 13,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 27.826211611s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 27\n}\n]"
+      ]
+    },
+    {
+      "page": 14,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 13.860974319s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 13\n}\n]"
+      ]
+    },
+    {
+      "page": 15,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 59.390511429s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+      ]
+    },
+    {
+      "page": 16,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 44.545194349s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+      ]
+    },
+    {
+      "page": 17,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 31.082706264s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 31\n}\n]"
+      ]
+    },
+    {
+      "page": 18,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 17.351045859s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 17\n}\n]"
+      ]
+    },
+    {
+      "page": 19,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 2.559605504s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 2\n}\n]"
+      ]
+    },
+    {
+      "page": 20,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 48.914124127s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+      ]
+    },
+    {
+      "page": 21,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 34.265040167s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 34\n}\n]"
+      ]
+    },
+    {
+      "page": 22,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 20.226840385s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 20\n}\n]"
+      ]
+    },
+    {
+      "page": 23,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 6.583299009s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 6\n}\n]"
+      ]
+    },
+    {
+      "page": 24,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 52.501014102s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 52\n}\n]"
+      ]
+    },
+    {
+      "page": 25,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 37.235914857s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 37\n}\n]"
+      ]
+    },
+    {
+      "page": 26,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 23.520659053s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 23\n}\n]"
+      ]
+    },
+    {
+      "page": 27,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 9.829565291s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 9\n}\n]"
+      ]
+    },
+    {
+      "page": 28,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 55.16870765s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+      ]
+    },
+    {
+      "page": 29,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 42.599755036s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 42\n}\n]"
+      ]
+    },
+    {
+      "page": 30,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 29.244559915s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 29\n}\n]"
+      ]
+    },
+    {
+      "page": 31,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 15.538002169s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 15\n}\n]"
+      ]
+    },
+    {
+      "page": 35,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 22.708338354s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 22\n}\n]"
+      ]
+    },
+    {
+      "page": 36,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 8.552393795s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 8\n}\n]"
+      ]
+    },
+    {
+      "page": 37,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 55.221529611s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+      ]
+    },
+    {
+      "page": 38,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 40.540212996s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 40\n}\n]"
+      ]
+    },
+    {
+      "page": 39,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 26.007563905s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 26\n}\n]"
+      ]
+    },
+    {
+      "page": 40,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 12.291230493s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 12\n}\n]"
+      ]
+    },
+    {
+      "page": 41,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 58.579591777s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+      ]
+    },
+    {
+      "page": 42,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 44.483907386s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+      ]
+    },
+    {
+      "page": 43,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 30.946257779s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 30\n}\n]"
+      ]
+    },
+    {
+      "page": 44,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 17.465503288s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 17\n}\n]"
+      ]
+    },
+    {
+      "page": 45,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 2.543463456s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 2\n}\n]"
+      ]
+    },
+    {
+      "page": 46,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 49.827870484s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+      ]
+    },
+    {
+      "page": 47,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 34.587481419s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 34\n}\n]"
+      ]
+    },
+    {
+      "page": 48,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 19.436473328s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 19\n}\n]"
+      ]
+    },
+    {
+      "page": 49,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 6.52163609s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 6\n}\n]"
+      ]
+    },
+    {
+      "page": 50,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 53.689661465s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+      ]
+    },
+    {
+      "page": 51,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 39.288245389s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 39\n}\n]"
+      ]
+    },
+    {
+      "page": 52,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 25.675529912s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 25\n}\n]"
+      ]
+    },
+    {
+      "page": 53,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 11.558316168s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 11\n}\n]"
+      ]
+    },
+    {
+      "page": 54,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 57.141152555s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 57\n}\n]"
+      ]
+    },
+    {
+      "page": 55,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 44.072568338s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+      ]
+    },
+    {
+      "page": 56,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 29.493566067s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 29\n}\n]"
+      ]
+    },
+    {
+      "page": 57,
+      "warnings": [
+        "ERROR API: ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.1-flash-lite\nPlease retry in 16.199530132s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-3.1-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 500\n}\n, retry_delay {\n  seconds: 16\n}\n]"
+      ]
+    }
+  ],
+  "option_or_correct_answer_issue_global_questions": [],
+  "missing_or_invalid_chosen_option_global_questions": [],
+  "low_confidence_global_questions": [],
+  "manual_review_count": 0,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nSpeaking disrespectfully about sacred or religious things",
+      "options": [
+        {
+          "label": "1",
+          "text": "Biped"
+        },
+        {
+          "label": "2",
+          "text": "Belligerent"
+        },
+        {
+          "label": "3",
+          "text": "Bigamy"
+        },
+        {
+          "label": "4",
+          "text": "Blasphemy"
+        }
+      ],
+      "question_id": "63068069342",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Blasphemy",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 16,
+        "section": null,
+        "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nSpeaking disrespectfully about sacred or religious things",
+        "options": [
+          {
+            "label": "1",
+            "text": "Biped"
+          },
+          {
+            "label": "2",
+            "text": "Belligerent"
+          },
+          {
+            "label": "3",
+            "text": "Bigamy"
+          },
+          {
+            "label": "4",
+            "text": "Blasphemy"
+          }
+        ],
+        "question_id": "63068069342",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "Blasphemy",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 32,
+      "section_local_question_number": 16,
+      "global_question_number": 1,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "4",
+      "raw_gemini_correct_option_text": "Blasphemy",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "4",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "4",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q001_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 32,
+          "question_number": 1,
+          "option_label": null,
+          "bbox": [
+            43,
+            87,
+            1461,
+            618
+          ],
+          "image_width": 1418,
+          "image_height": 531
+        },
+        {
+          "page_number": 32,
+          "question_number": 1,
+          "option_label": "1",
+          "bbox": [
+            111,
+            177,
+            925,
+            236
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 32,
+          "question_number": 1,
+          "option_label": "2",
+          "bbox": [
+            111,
+            232,
+            925,
+            276
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 32,
+          "question_number": 1,
+          "option_label": "3",
+          "bbox": [
+            111,
+            272,
+            925,
+            316
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 32,
+          "question_number": 1,
+          "option_label": "4",
+          "bbox": [
+            111,
+            312,
+            925,
+            382
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q001_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q001_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q001_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q001_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "4": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.013917163917163917
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_32.png"
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Select the option that expresses the following sentence in passive voice.\nAfter we come to power at the Centre, we will conduct a countrywide caste census.",
+      "options": [
+        {
+          "label": "1",
+          "text": "A countrywide caste census should be conducted by us when we come to power at the Centre."
+        },
+        {
+          "label": "2",
+          "text": "A countrywide caste census will be conducted by us as and when we come to power at the Centre."
+        },
+        {
+          "label": "3",
+          "text": "A countrywide caste census will be conducted by us after we come to power at the Centre."
+        },
+        {
+          "label": "4",
+          "text": "A countrywide caste census will have been conducted by us after we come to power at the Centre."
+        }
+      ],
+      "question_id": "630680607348",
+      "chosen_option_label": "3",
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 17,
+        "section": null,
+        "question_text_full": "Select the option that expresses the following sentence in passive voice.\nAfter we come to power at the Centre, we will conduct a countrywide caste census.",
+        "options": [
+          {
+            "label": "1",
+            "text": "A countrywide caste census should be conducted by us when we come to power at the Centre."
+          },
+          {
+            "label": "2",
+            "text": "A countrywide caste census will be conducted by us as and when we come to power at the Centre."
+          },
+          {
+            "label": "3",
+            "text": "A countrywide caste census will be conducted by us after we come to power at the Centre."
+          },
+          {
+            "label": "4",
+            "text": "A countrywide caste census will have been conducted by us after we come to power at the Centre."
+          }
+        ],
+        "question_id": "630680607348",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "A countrywide caste census will be conducted by us after we come to power at the Centre.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 32,
+      "section_local_question_number": 17,
+      "global_question_number": 2,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "3",
+      "raw_gemini_correct_option_text": "A countrywide caste census will be conducted by us after we come to power at the Centre.",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "ambiguous_rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "AMBIGUOUS",
+      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_reasons": [
+        "correct_option_ambiguous_deterministic_evidence"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q002_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 32,
+          "question_number": 2,
+          "option_label": null,
+          "bbox": [
+            43,
+            609,
+            1461,
+            1209
+          ],
+          "image_width": 1418,
+          "image_height": 600
+        },
+        {
+          "page_number": 32,
+          "question_number": 2,
+          "option_label": "1",
+          "bbox": [
+            111,
+            698,
+            925,
+            767
+          ],
+          "image_width": 814,
+          "image_height": 69
+        },
+        {
+          "page_number": 32,
+          "question_number": 2,
+          "option_label": "2",
+          "bbox": [
+            111,
+            763,
+            925,
+            824
+          ],
+          "image_width": 814,
+          "image_height": 61
+        },
+        {
+          "page_number": 32,
+          "question_number": 2,
+          "option_label": "3",
+          "bbox": [
+            111,
+            820,
+            925,
+            881
+          ],
+          "image_width": 814,
+          "image_height": 61
+        },
+        {
+          "page_number": 32,
+          "question_number": 2,
+          "option_label": "4",
+          "bbox": [
+            111,
+            877,
+            925,
+            956
+          ],
+          "image_width": 814,
+          "image_height": 79
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q002_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q002_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q002_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q002_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.07171627663430942
+        },
+        "4": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 0.6049668771187758,
+          "green_fraction": 0.002099337542375517
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_32.png"
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nI, you and she/ have been working happily/ in the same company and in the same branch/ for the last nine years.",
+      "options": [
+        {
+          "label": "1",
+          "text": "have been working happily"
+        },
+        {
+          "label": "2",
+          "text": "I, you and she"
+        },
+        {
+          "label": "3",
+          "text": "in the same company and in the same branch"
+        },
+        {
+          "label": "4",
+          "text": "for the last nine years"
+        }
+      ],
+      "question_id": "630680176556",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "I, you and she",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null,
+      "raw_gemini_record": {
+        "question_number": 18,
+        "section": null,
+        "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nI, you and she/ have been working happily/ in the same company and in the same branch/ for the last nine years.",
+        "options": [
+          {
+            "label": "1",
+            "text": "have been working happily"
+          },
+          {
+            "label": "2",
+            "text": "I, you and she"
+          },
+          {
+            "label": "3",
+            "text": "in the same company and in the same branch"
+          },
+          {
+            "label": "4",
+            "text": "for the last nine years"
+          }
+        ],
+        "question_id": "630680176556",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "I, you and she",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": null
+      },
+      "source_page": 32,
+      "section_local_question_number": 18,
+      "global_question_number": 3,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "2",
+      "raw_gemini_correct_option_text": "I, you and she",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "2",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q003_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 32,
+          "question_number": 3,
+          "option_label": null,
+          "bbox": [
+            43,
+            1200,
+            1461,
+            2097
+          ],
+          "image_width": 1418,
+          "image_height": 897
+        },
+        {
+          "page_number": 32,
+          "question_number": 3,
+          "option_label": "1",
+          "bbox": [
+            111,
+            1290,
+            925,
+            1349
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 32,
+          "question_number": 3,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1345,
+            925,
+            1389
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 32,
+          "question_number": 3,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1385,
+            925,
+            1429
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 32,
+          "question_number": 3,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1425,
+            925,
+            1495
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q003_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q003_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q003_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p32_q003_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "2": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.021889658253294617
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_32.png"
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nCharisma",
+      "options": [
+        {
+          "label": "1",
+          "text": "Reputation"
+        },
+        {
+          "label": "2",
+          "text": "Charm"
+        },
+        {
+          "label": "3",
+          "text": "Atmosphere"
+        },
+        {
+          "label": "4",
+          "text": "Influence"
+        }
+      ],
+      "question_id": "630680628622",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Charm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 19,
+        "section": null,
+        "question_text_full": "Select the most appropriate synonym of the given word.\nCharisma",
+        "options": [
+          {
+            "label": "1",
+            "text": "Reputation"
+          },
+          {
+            "label": "2",
+            "text": "Charm"
+          },
+          {
+            "label": "3",
+            "text": "Atmosphere"
+          },
+          {
+            "label": "4",
+            "text": "Influence"
+          }
+        ],
+        "question_id": "630680628622",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "Charm",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 33,
+      "section_local_question_number": 19,
+      "global_question_number": 4,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "2",
+      "raw_gemini_correct_option_text": "Charm",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "2",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "2",
+      "canonical_review_reasons": [],
+      "practice_ready": true,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q004_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 33,
+          "question_number": 4,
+          "option_label": null,
+          "bbox": [
+            43,
+            87,
+            1461,
+            595
+          ],
+          "image_width": 1418,
+          "image_height": 508
+        },
+        {
+          "page_number": 33,
+          "question_number": 4,
+          "option_label": "1",
+          "bbox": [
+            111,
+            154,
+            925,
+            214
+          ],
+          "image_width": 814,
+          "image_height": 60
+        },
+        {
+          "page_number": 33,
+          "question_number": 4,
+          "option_label": "2",
+          "bbox": [
+            111,
+            210,
+            925,
+            254
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 33,
+          "question_number": 4,
+          "option_label": "3",
+          "bbox": [
+            111,
+            250,
+            925,
+            294
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 33,
+          "question_number": 4,
+          "option_label": "4",
+          "bbox": [
+            111,
+            290,
+            925,
+            359
+          ],
+          "image_width": 814,
+          "image_height": 69
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q004_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q004_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q004_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q004_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "2": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.015579629215992853
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_33.png"
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nScientists have recently discovered a new species of marine life in the unexplored depths of the ocean.",
+      "options": [
+        {
+          "label": "1",
+          "text": "A new species of marine life was recently being discovered in the unexplored depths of the ocean by scientists."
+        },
+        {
+          "label": "2",
+          "text": "A new species of marine life has recently been discovered in the unexplored depths of the ocean by scientists."
+        },
+        {
+          "label": "3",
+          "text": "A new species of marine life had recently been discovered in the unexplored depths of the ocean by scientists."
+        },
+        {
+          "label": "4",
+          "text": "A new species of marine life was recently discovered in the unexplored depths of the ocean by scientists."
+        }
+      ],
+      "question_id": "630680607346",
+      "chosen_option_label": "2",
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 20,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in passive voice.\nScientists have recently discovered a new species of marine life in the unexplored depths of the ocean.",
+        "options": [
+          {
+            "label": "1",
+            "text": "A new species of marine life was recently being discovered in the unexplored depths of the ocean by scientists."
+          },
+          {
+            "label": "2",
+            "text": "A new species of marine life has recently been discovered in the unexplored depths of the ocean by scientists."
+          },
+          {
+            "label": "3",
+            "text": "A new species of marine life had recently been discovered in the unexplored depths of the ocean by scientists."
+          },
+          {
+            "label": "4",
+            "text": "A new species of marine life was recently discovered in the unexplored depths of the ocean by scientists."
+          }
+        ],
+        "question_id": "630680607346",
+        "chosen_option_label": "2",
+        "correct_option_label": "2",
+        "correct_option_text": "A new species of marine life has recently been discovered in the unexplored depths of the ocean by scientists.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 33,
+      "section_local_question_number": 20,
+      "global_question_number": 5,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "2",
+      "raw_gemini_correct_option_text": "A new species of marine life has recently been discovered in the unexplored depths of the ocean by scientists.",
+      "question_modality": "text_only",
+      "question_modality_keywords": [],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "ambiguous_rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "AMBIGUOUS",
+      "evidence_status": "PASS_WITH_MANUAL_REVIEW",
+      "evidence_reasons": [
+        "correct_option_ambiguous_deterministic_evidence"
+      ],
+      "canonical_correct_option_label": null,
+      "canonical_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "practice_ready": false,
+      "blocking_review_reasons": [
+        "correct_option_unresolved_or_conflict"
+      ],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q005_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 33,
+          "question_number": 5,
+          "option_label": null,
+          "bbox": [
+            43,
+            586,
+            1461,
+            1218
+          ],
+          "image_width": 1418,
+          "image_height": 632
+        },
+        {
+          "page_number": 33,
+          "question_number": 5,
+          "option_label": "1",
+          "bbox": [
+            111,
+            707,
+            925,
+            775
+          ],
+          "image_width": 814,
+          "image_height": 68
+        },
+        {
+          "page_number": 33,
+          "question_number": 5,
+          "option_label": "2",
+          "bbox": [
+            111,
+            771,
+            925,
+            833
+          ],
+          "image_width": 814,
+          "image_height": 62
+        },
+        {
+          "page_number": 33,
+          "question_number": 5,
+          "option_label": "3",
+          "bbox": [
+            111,
+            829,
+            925,
+            890
+          ],
+          "image_width": 814,
+          "image_height": 61
+        },
+        {
+          "page_number": 33,
+          "question_number": 5,
+          "option_label": "4",
+          "bbox": [
+            111,
+            886,
+            925,
+            965
+          ],
+          "image_width": 814,
+          "image_height": 79
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q005_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q005_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q005_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q005_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "2": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.08508361734168186
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 0.973275063438998,
+          "green_fraction": 0.009465501268779958
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_33.png"
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Select the most appropriate option that can substitute the underlined words in the given sentence.\nIn the makeshift place of activity, debate or conflict, there were hundreds of people with the queen's team of advisors and servants sitting within the ring against the wall.",
+      "options": [
+        {
+          "label": "1",
+          "text": "dormitory"
+        },
+        {
+          "label": "2",
+          "text": "casino"
+        },
+        {
+          "label": "3",
+          "text": "arena"
+        },
+        {
+          "label": "4",
+          "text": "aviary"
+        }
+      ],
+      "question_id": "630680669060",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "arena",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 21,
+        "section": null,
+        "question_text_full": "Select the most appropriate option that can substitute the underlined words in the given sentence.\nIn the makeshift place of activity, debate or conflict, there were hundreds of people with the queen's team of advisors and servants sitting within the ring against the wall.",
+        "options": [
+          {
+            "label": "1",
+            "text": "dormitory"
+          },
+          {
+            "label": "2",
+            "text": "casino"
+          },
+          {
+            "label": "3",
+            "text": "arena"
+          },
+          {
+            "label": "4",
+            "text": "aviary"
+          }
+        ],
+        "question_id": "630680669060",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "arena",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 33,
+      "section_local_question_number": 21,
+      "global_question_number": 6,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "3",
+      "raw_gemini_correct_option_text": "arena",
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "sin"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "3",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": false,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q006_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 33,
+          "question_number": 6,
+          "option_label": null,
+          "bbox": [
+            43,
+            1209,
+            1461,
+            2097
+          ],
+          "image_width": 1418,
+          "image_height": 888
+        },
+        {
+          "page_number": 33,
+          "question_number": 6,
+          "option_label": "1",
+          "bbox": [
+            111,
+            1343,
+            925,
+            1403
+          ],
+          "image_width": 814,
+          "image_height": 60
+        },
+        {
+          "page_number": 33,
+          "question_number": 6,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1399,
+            925,
+            1443
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 33,
+          "question_number": 6,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1439,
+            925,
+            1482
+          ],
+          "image_width": 814,
+          "image_height": 43
+        },
+        {
+          "page_number": 33,
+          "question_number": 6,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1478,
+            925,
+            1548
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q006_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q006_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q006_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p33_q006_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0147705845380264
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_33.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_33.png"
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nThe comedian's jokes were so funny that the entire audience erupted in ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "latter"
+        },
+        {
+          "label": "2",
+          "text": "later"
+        },
+        {
+          "label": "3",
+          "text": "loiter"
+        },
+        {
+          "label": "4",
+          "text": "laughter"
+        }
+      ],
+      "question_id": "630680539774",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "laughter",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 22,
+        "section": null,
+        "question_text_full": "Select the most appropriate option to fill in the blank.\nThe comedian's jokes were so funny that the entire audience erupted in ________.",
+        "options": [
+          {
+            "label": "1",
+            "text": "latter"
+          },
+          {
+            "label": "2",
+            "text": "later"
+          },
+          {
+            "label": "3",
+            "text": "loiter"
+          },
+          {
+            "label": "4",
+            "text": "laughter"
+          }
+        ],
+        "question_id": "630680539774",
+        "chosen_option_label": "4",
+        "correct_option_label": "4",
+        "correct_option_text": "laughter",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 34,
+      "section_local_question_number": 22,
+      "global_question_number": 7,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "4",
+      "raw_gemini_correct_option_text": "laughter",
+      "question_modality": "dice",
+      "question_modality_keywords": [
+        "die"
+      ],
+      "visual_required": true,
+      "table_required": false,
+      "math_required": false,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "4",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "4",
+      "canonical_review_reasons": [],
+      "practice_ready": false,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q007_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 34,
+          "question_number": 7,
+          "option_label": null,
+          "bbox": [
+            43,
+            87,
+            1461,
+            618
+          ],
+          "image_width": 1418,
+          "image_height": 531
+        },
+        {
+          "page_number": 34,
+          "question_number": 7,
+          "option_label": "1",
+          "bbox": [
+            111,
+            177,
+            925,
+            236
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 34,
+          "question_number": 7,
+          "option_label": "2",
+          "bbox": [
+            111,
+            232,
+            925,
+            276
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 34,
+          "question_number": 7,
+          "option_label": "3",
+          "bbox": [
+            111,
+            272,
+            925,
+            316
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 34,
+          "question_number": 7,
+          "option_label": "4",
+          "bbox": [
+            111,
+            312,
+            925,
+            382
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q007_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q007_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q007_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q007_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "3": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "4": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.011565461565461566
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_34.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_34.png"
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in indirect speech.\nKanhaiya said to me, “Do you want to sing?”",
+      "options": [
+        {
+          "label": "1",
+          "text": "Kanhaiya said that I would sing or not."
+        },
+        {
+          "label": "2",
+          "text": "Kanhaiya said that whether I would sing."
+        },
+        {
+          "label": "3",
+          "text": "Kanhaiya asked me if I wanted to sing."
+        },
+        {
+          "label": "4",
+          "text": "Kanhaiya enquires if I want to sing."
+        }
+      ],
+      "question_id": "630680628007",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Kanhaiya asked me if I wanted to sing.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 23,
+        "section": null,
+        "question_text_full": "Select the option that expresses the given sentence in indirect speech.\nKanhaiya said to me, “Do you want to sing?”",
+        "options": [
+          {
+            "label": "1",
+            "text": "Kanhaiya said that I would sing or not."
+          },
+          {
+            "label": "2",
+            "text": "Kanhaiya said that whether I would sing."
+          },
+          {
+            "label": "3",
+            "text": "Kanhaiya asked me if I wanted to sing."
+          },
+          {
+            "label": "4",
+            "text": "Kanhaiya enquires if I want to sing."
+          }
+        ],
+        "question_id": "630680628007",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "Kanhaiya asked me if I wanted to sing.",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 34,
+      "section_local_question_number": 23,
+      "global_question_number": 8,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "3",
+      "raw_gemini_correct_option_text": "Kanhaiya asked me if I wanted to sing.",
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "sin"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "3",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": false,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q008_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 34,
+          "question_number": 8,
+          "option_label": null,
+          "bbox": [
+            43,
+            609,
+            1461,
+            1117
+          ],
+          "image_width": 1418,
+          "image_height": 508
+        },
+        {
+          "page_number": 34,
+          "question_number": 8,
+          "option_label": "1",
+          "bbox": [
+            111,
+            676,
+            925,
+            735
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 34,
+          "question_number": 8,
+          "option_label": "2",
+          "bbox": [
+            111,
+            731,
+            925,
+            775
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 34,
+          "question_number": 8,
+          "option_label": "3",
+          "bbox": [
+            111,
+            771,
+            925,
+            815
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 34,
+          "question_number": 8,
+          "option_label": "4",
+          "bbox": [
+            111,
+            811,
+            925,
+            881
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q008_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q008_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q008_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q008_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.05048023229841412
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_34.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_34.png"
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Complete the dialogue for Person B using the correct idiom.\nPerson A: We are all going to the club this weekend. Do you want to come?\nPerson B: Thank you for asking. But I don't like clubs. It's ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "my cup of coffee"
+        },
+        {
+          "label": "2",
+          "text": "not my cup of coffee"
+        },
+        {
+          "label": "3",
+          "text": "not my cup of tea"
+        },
+        {
+          "label": "4",
+          "text": "not my cup, not my tea"
+        }
+      ],
+      "question_id": "630680333140",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "not my cup of tea",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "",
+      "raw_gemini_record": {
+        "question_number": 24,
+        "section": null,
+        "question_text_full": "Complete the dialogue for Person B using the correct idiom.\nPerson A: We are all going to the club this weekend. Do you want to come?\nPerson B: Thank you for asking. But I don't like clubs. It's ________.",
+        "options": [
+          {
+            "label": "1",
+            "text": "my cup of coffee"
+          },
+          {
+            "label": "2",
+            "text": "not my cup of coffee"
+          },
+          {
+            "label": "3",
+            "text": "not my cup of tea"
+          },
+          {
+            "label": "4",
+            "text": "not my cup, not my tea"
+          }
+        ],
+        "question_id": "630680333140",
+        "chosen_option_label": "3",
+        "correct_option_label": "3",
+        "correct_option_text": "not my cup of tea",
+        "is_complete_on_page": true,
+        "confidence": "high",
+        "notes": ""
+      },
+      "source_page": 34,
+      "section_local_question_number": 24,
+      "global_question_number": 9,
+      "manual_review": false,
+      "manual_review_reasons": [],
+      "raw_gemini_correct_option_label": "3",
+      "raw_gemini_correct_option_text": "not my cup of tea",
+      "question_modality": "math_formula",
+      "question_modality_keywords": [
+        "sin"
+      ],
+      "visual_required": false,
+      "table_required": false,
+      "math_required": true,
+      "correct_evidence_source": "rgb_hsv_option_crop",
+      "deterministic_correct_option_label": "3",
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "evidence_reasons": [
+        "labels_match"
+      ],
+      "canonical_correct_option_label": "3",
+      "canonical_review_reasons": [],
+      "practice_ready": false,
+      "blocking_review_reasons": [],
+      "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q009_question.png",
+      "crop_metadata": [
+        {
+          "page_number": 34,
+          "question_number": 9,
+          "option_label": null,
+          "bbox": [
+            43,
+            1108,
+            1461,
+            2097
+          ],
+          "image_width": 1418,
+          "image_height": 989
+        },
+        {
+          "page_number": 34,
+          "question_number": 9,
+          "option_label": "1",
+          "bbox": [
+            111,
+            1220,
+            925,
+            1279
+          ],
+          "image_width": 814,
+          "image_height": 59
+        },
+        {
+          "page_number": 34,
+          "question_number": 9,
+          "option_label": "2",
+          "bbox": [
+            111,
+            1275,
+            925,
+            1319
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 34,
+          "question_number": 9,
+          "option_label": "3",
+          "bbox": [
+            111,
+            1315,
+            925,
+            1359
+          ],
+          "image_width": 814,
+          "image_height": 44
+        },
+        {
+          "page_number": 34,
+          "question_number": 9,
+          "option_label": "4",
+          "bbox": [
+            111,
+            1355,
+            925,
+            1425
+          ],
+          "image_width": 814,
+          "image_height": 70
+        }
+      ],
+      "option_crop_paths": [
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q009_opt_1_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q009_opt_2_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q009_opt_3_option.png",
+        "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\assets\\question_crops\\2024_tier2_sscportal_jan20_response_sheet_p34_q009_opt_4_option.png"
+      ],
+      "deterministic_option_evidence": {
+        "1": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "2": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        },
+        "3": {
+          "label": "green_mark_present",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.025631002903730177
+        },
+        "4": {
+          "label": "no_green_mark",
+          "source": "rgb_hsv",
+          "confidence": 1.0,
+          "green_fraction": 0.0
+        }
+      },
+      "page_asset_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_34.png",
+      "stimulus_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_34.png"
+    }
+  ],
+  "canonical_review_count": 2,
+  "blocking_review_count": 2,
+  "asset_evidence_attached": true
+}

@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 23
+Question Number: 50
+Global Q#: 49
+Section: None
+Modality: visual_options
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 2
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Identify the figure given in the options which when put in place of the question mark (?) will logically complete the series.
+
+--- Options ---
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4

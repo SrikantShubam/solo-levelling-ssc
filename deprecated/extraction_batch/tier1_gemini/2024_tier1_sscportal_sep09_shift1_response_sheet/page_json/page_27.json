@@ -1,0 +1,96 @@
+{
+  "page": 27,
+  "questions": [
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Rajesh, in his printing press, got an order to print some books, out of which he completed 17/27 of the order in 34 days. In how many days did he complete the entire order of printing?",
+      "options": [
+        {
+          "label": "1",
+          "text": "54"
+        },
+        {
+          "label": "2",
+          "text": "60"
+        },
+        {
+          "label": "3",
+          "text": "56"
+        },
+        {
+          "label": "4",
+          "text": "20"
+        }
+      ],
+      "question_id": "630680524286",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "54",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Simplify (x^3 + 15x^2 + 75x + 125) / (x^2 - 25) * (x - 5).",
+      "options": [
+        {
+          "label": "1",
+          "text": "x^2 + 5x + 25"
+        },
+        {
+          "label": "2",
+          "text": "x^2 - 25"
+        },
+        {
+          "label": "3",
+          "text": "x^2 + 10x + 25"
+        },
+        {
+          "label": "4",
+          "text": "x^2 + 25"
+        }
+      ],
+      "question_id": "630680413492",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "x^2 + 10x + 25",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "If cosecθ = 5/3, then evaluate (sec^2θ - 1) * cot^2θ * (1 + cot^2θ).",
+      "options": [
+        {
+          "label": "1",
+          "text": "9/16"
+        },
+        {
+          "label": "2",
+          "text": "25/9"
+        },
+        {
+          "label": "3",
+          "text": "16/9"
+        },
+        {
+          "label": "4",
+          "text": "4/5"
+        }
+      ],
+      "question_id": "630680403310",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "25/9",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

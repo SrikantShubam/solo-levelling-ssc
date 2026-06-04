@@ -1,0 +1,126 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "A, B and C are three points on a circle such that the angles subtended by the chord AB and AC at the centre O are 110° and 130°, respectively. Then the value of ∠BAC is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "65°"
+        },
+        {
+          "label": "2",
+          "text": "75°"
+        },
+        {
+          "label": "3",
+          "text": "60°"
+        },
+        {
+          "label": "4",
+          "text": "70°"
+        }
+      ],
+      "question_id": "12356865",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "60°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "A, B and C can individually complete a piece of work in 24 days, 15 days and 12 days, respectively. B and C started the work and worked for 3 days and left. The number of days required by A alone to complete the remaining work, is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "18"
+        },
+        {
+          "label": "2",
+          "text": "15 1/2"
+        },
+        {
+          "label": "3",
+          "text": "13 1/5"
+        },
+        {
+          "label": "4",
+          "text": "11"
+        }
+      ],
+      "question_id": "12356859",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "13 1/5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 1,
+      "section": "English Comprehension",
+      "question_text_full": "Fill in the blank with the most appropriate word. We must ______ help to the homeless and physically disabled people.",
+      "options": [
+        {
+          "label": "1",
+          "text": "render"
+        },
+        {
+          "label": "2",
+          "text": "donate"
+        },
+        {
+          "label": "3",
+          "text": "exert"
+        },
+        {
+          "label": "4",
+          "text": "contribute"
+        }
+      ],
+      "question_id": "123568100",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "render",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 2,
+      "section": "English Comprehension",
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order A. However, the rate of population increase is another important factor to consider. B. This change can be expressed in two ways. C. Growth of population refers to the change in the number of inhabitants of a country. D. First, in terms of absolute numbers and second, in terms of percentage change.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BADC"
+        },
+        {
+          "label": "2",
+          "text": "BDCA"
+        },
+        {
+          "label": "3",
+          "text": "CBDA"
+        },
+        {
+          "label": "4",
+          "text": "CADB"
+        }
+      ],
+      "question_id": "12356889",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "CBDA",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

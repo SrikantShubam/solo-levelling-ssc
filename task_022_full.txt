@@ -1,0 +1,48 @@
+Answer these 15 SSC CGL questions from '2024_tier2_prepp_paper1':
+
+Q97: Read the given passage and answer the questions that follow. Subhas Chandra Bose, a prominent Indian nationalist leader, was convinced that India coul
+1. It symbolised the struggle against British colonialism. | 2. It was a call to arms for the Indian and British Army. | 3. It manifests the vision of selected communities. | 4. It represented Bose's vision of a capitalist India.
+
+Q98: Algae are photosynthetic creatures that have pigments that aid in photosynthesis, such as chlorophyll. They do not, however, have the actual stems, ro
+1. Not provided | 2. Not provided | 3. Not provided | 4. Not provided
+
+QNone: What does the term 'multiphyletic group' mean in the context of algae?
+1. Having a common ancestor | 2. Being closely related species | 3. No common ancestor, not closely related | 4. Having diverse morphoanatomical characteristics
+
+Q99: Algae are photosynthetic creatures that have pigments that aid in photosynthesis, such as chlorophyll. They do not, however, have the actual stems, ro
+1. Vascular plants lack stems, roots and leaves. | 2. Vascular plants are unicellular in structure. | 3. Figure 3 | 4. Figure 4
+
+Q100: Algae are photosynthetic creatures that have pigments that aid in photosynthesis, such as chlorophyll. They do not, however, have the actual stems, ro
+1. Chlorophyll | 2. Melanin | 3. Xanthophyll | 4. Carotenoid
+
+QNone: What is the central theme of the passage?
+1. The prokaryotic nature of blue-green algae | 2. The anatomy of vascular plants | 3. The symbiotic relationship between algae and fungi | 4. The diversity and characteristics of algae
+
+QNone: Select the most appropriate synonym of the word 'Inherent'.
+1. Artificial | 2. Borrowed | 3. Incited | 4. Natural
+
+Q103: Read the given passage and answer the questions that follow. The French Revolution is a revolutionary movement that occurred in France between 1787 an
+1. Declaration of war | 2. Beginning of a new phase | 3. Figure 3 | 4. Figure 4
+
+Q104: Read the given passage and answer the questions that follow. The French Revolution is a revolutionary movement that occurred in France between 1787 an
+1. fall | 2. pinnacle | 3. foundation | 4. middle
+
+Q114: The Bharatmala project of the Government of India comes under which of the following Ministries of India?
+1. Ministry of Ports Shipping and Waterways | 2. Ministry of Environment and Forest and Climate Change | 3. Ministry of Home Affairs | 4. Ministry of Road Transport and Highways
+
+Q115: Mathura was the second capital of ______ dynasty.
+1. Gupta | 2. Maurya | 3. Kushana | 4. Maukhri
+
+Q116: Which of the following statements is/are correct?
+1. Not visible | 2. Not visible | 3. Not visible | 4. Not visible
+
+Q117: Charcot-Marie-Tooth disease is caused by duplication of the peripheral myelin protein-22 (PMP22) gene on which chromosome?
+1. chromosome 21 | 2. chromosome 15 | 3. chromosome 8 | 4. chromosome 17
+
+Q118: Which portal allowed stakeholders seamless access to information related to funding, documentation, project monitoring, and approval through four effi
+1. Digits India Portal | 2. Viksit Bharat Portal | 3. Not visible | 4. Not visible
+
+Q119: Who among the following was the first Home Minister of Independent India?
+1. Sardar Vallabh Bhai Patel | 2. Humayun Kabir | 3. Maulana Abdul Kalam Azad | 4. Baldev Singh
+
+Return ONLY a JSON array: [{"question_number": INTEGER, "correct_option_label": "1"|"2"|"3"|"4"}]

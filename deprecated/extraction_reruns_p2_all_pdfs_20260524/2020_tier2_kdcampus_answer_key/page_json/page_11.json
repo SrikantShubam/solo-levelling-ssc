@@ -1,0 +1,158 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 62,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence. In case no improvement is needed, select ‘No improvement required’. Not only the workmen but also the supervisor was suspended for negligence.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No improvement required"
+        },
+        {
+          "label": "2",
+          "text": "have been suspended"
+        },
+        {
+          "label": "3",
+          "text": "were suspended"
+        },
+        {
+          "label": "4",
+          "text": "was suspend"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 63,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech. She said, “It is my birthday next week.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "She said that my birthday was next week."
+        },
+        {
+          "label": "2",
+          "text": "She said that next week was her birthday."
+        },
+        {
+          "label": "3",
+          "text": "She said that it was her birthday the following week."
+        },
+        {
+          "label": "4",
+          "text": "She said that it is my birthday the following week."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 64,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech. The commander ordered the soldiers to march ahead and not to think of their enemy’s large numbers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The commander said to the soldiers, “Please march ahead. Do not think of your enemy’s large numbers.”"
+        },
+        {
+          "label": "2",
+          "text": "The commander said to the soldiers, “March ahead. Do not think of your enemy’s large numbers.”"
+        },
+        {
+          "label": "3",
+          "text": "The commander said to the soldiers, “March ahead. Do not think of their enemy’s large numbers.”"
+        },
+        {
+          "label": "4",
+          "text": "The commander said to the soldiers, “March ahead and not think of their enemy’s large numbers.”"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 65,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. A. His role also includes the smooth flow of goods from farms and factories to the consumer. B. As the final link between the producer and the consumer, he plays a key role in the economy. C. It is he who promotes or impedes the sale of products. D. The retailer determines the final cost of a product.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BACD"
+        },
+        {
+          "label": "2",
+          "text": "CABD"
+        },
+        {
+          "label": "3",
+          "text": "DCBA"
+        },
+        {
+          "label": "4",
+          "text": "ABCD"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 66,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice. Walking zones have been demarcated using paints and cones by the municipal corporation.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Walking zones are demarcating the municipal corporation using paints and cones."
+        },
+        {
+          "label": "2",
+          "text": "The municipal corporation has demarcated walking zones using paints and cones."
+        },
+        {
+          "label": "3",
+          "text": "The municipal corporation will demarcate walking zones using paints and cones"
+        },
+        {
+          "label": "4",
+          "text": "The municipal corporation had demarcated walking zones using paints and cones."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "high",
+      "notes": "Option 4 text is inferred from context as it is cut off at the bottom of the page."
+    }
+  ],
+  "warnings": [
+    "Question 66 is incomplete on the page; option 4 text is partially cut off."
+  ]
+}

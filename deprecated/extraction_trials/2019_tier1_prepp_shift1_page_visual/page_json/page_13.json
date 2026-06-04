@@ -1,0 +1,156 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Prolific Indian painter Maqbool Fida Husain predominantly used which of these animals to depict a lively and free spirit in his paintings?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Tigers"
+        },
+        {
+          "label": "2",
+          "text": "Horses"
+        },
+        {
+          "label": "3",
+          "text": "Elephants"
+        },
+        {
+          "label": "4",
+          "text": "Cows"
+        }
+      ],
+      "question_id": "12356827",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Horses",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "The ruins of the ancient city of Hampi - capital of Vijayanagara - is located in which present day Indian state?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bihar"
+        },
+        {
+          "label": "2",
+          "text": "Telangana"
+        },
+        {
+          "label": "3",
+          "text": "Haryana"
+        },
+        {
+          "label": "4",
+          "text": "Karnataka"
+        }
+      ],
+      "question_id": "12356835",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "Karnataka",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "Who among the following played the leading lady in the film 'Mission Mangal' that tells the dramatic true story of the women behind India's first mission to Mars?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Kareena Kapoor"
+        },
+        {
+          "label": "2",
+          "text": "Deepika Padukone"
+        },
+        {
+          "label": "3",
+          "text": "Kajol"
+        },
+        {
+          "label": "4",
+          "text": "Vidya Balan"
+        }
+      ],
+      "question_id": "12356826",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Vidya Balan",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "Which of these institutions fixes the Repo Rate and the Reverse Repo Rate in India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ministry of Finance"
+        },
+        {
+          "label": "2",
+          "text": "State Bank of India"
+        },
+        {
+          "label": "3",
+          "text": "Comptroller and Auditor General of India"
+        },
+        {
+          "label": "4",
+          "text": "Reserve Bank of India"
+        }
+      ],
+      "question_id": "12356829",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Reserve Bank of India",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Red worms have a structure named ______ which helps them in grinding their food.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Crop"
+        },
+        {
+          "label": "2",
+          "text": "Gizzard"
+        },
+        {
+          "label": "3",
+          "text": "Esophagus"
+        },
+        {
+          "label": "4",
+          "text": "Intestine"
+        }
+      ],
+      "question_id": "12356831",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Gizzard",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

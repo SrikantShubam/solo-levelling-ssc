@@ -1,0 +1,134 @@
+{
+  "page": 57,
+  "questions": [
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Which device is commonly used to connect computers within a LAN?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Modem"
+        },
+        {
+          "label": "2",
+          "text": "Router"
+        },
+        {
+          "label": "3",
+          "text": "Switch"
+        },
+        {
+          "label": "4",
+          "text": "Repeater"
+        }
+      ],
+      "question_id": "630680994538",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Switch",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "What is the primary reason DRAM needs to be refreshed periodically?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To prevent data corruption caused by magnetic fields"
+        },
+        {
+          "label": "2",
+          "text": "To recharge the capacitors storing data bits"
+        },
+        {
+          "label": "3",
+          "text": "To clear unused data"
+        },
+        {
+          "label": "4",
+          "text": "To allow the CPU to access new data"
+        }
+      ],
+      "question_id": "6306801292136",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "To recharge the capacitors storing data bits",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Which type of virus infects the boot sector of floppy disks or the Master Boot Record (MBR) of hard disks?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Direct Action Virus"
+        },
+        {
+          "label": "2",
+          "text": "Resident Virus"
+        },
+        {
+          "label": "3",
+          "text": "Macro Virus"
+        },
+        {
+          "label": "4",
+          "text": "Boot Sector Virus"
+        }
+      ],
+      "question_id": "630680994654",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Boot Sector Virus",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Which feature in MS Word allows the user to apply a consistent look across text elements such as headings, titles and subtitles?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Template"
+        },
+        {
+          "label": "2",
+          "text": "Styles"
+        },
+        {
+          "label": "3",
+          "text": "Table"
+        },
+        {
+          "label": "4",
+          "text": "Macros"
+        }
+      ],
+      "question_id": "630680994687",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "Styles",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

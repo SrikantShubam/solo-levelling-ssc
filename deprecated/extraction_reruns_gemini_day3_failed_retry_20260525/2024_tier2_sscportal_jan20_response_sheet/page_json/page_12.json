@@ -1,0 +1,74 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 30,
+      "section": null,
+      "question_text_full": "The ratio between the length and the breadth of a rectangular park is 3 : 2, and the perimeter of the park is 120 m. Find the area (in m²) of the park.",
+      "options": [
+        {
+          "label": "1",
+          "text": "968"
+        },
+        {
+          "label": "2",
+          "text": "454"
+        },
+        {
+          "label": "3",
+          "text": "144"
+        },
+        {
+          "label": "4",
+          "text": "864"
+        }
+      ],
+      "question_id": "630680590901",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "864",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Module II Reasoning and General Intelligence",
+      "question_text_full": "Identify the figure given in the options which when put in place of the question mark (?) will logically complete the series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "630680542579",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

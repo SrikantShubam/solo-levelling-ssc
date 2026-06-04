@@ -1,0 +1,76 @@
+{
+  "page": 9,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the letter-cluster that is different.",
+      "options": [
+        {
+          "label": "1",
+          "text": "PMN"
+        },
+        {
+          "label": "2",
+          "text": "GTQ"
+        },
+        {
+          "label": "3",
+          "text": "SPK"
+        },
+        {
+          "label": "4",
+          "text": "JGT"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Mohit and Sudesh bought pens and notebooks from the same shop. Mohit bought 3 pens and 6 notebooks by paying an amount of Rs. 180. Sudesh bought 5 pens and 2 notebooks by paying an amount of Rs. 116. How much did Mohit spend on buying notebooks?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rs. 84"
+        },
+        {
+          "label": "2",
+          "text": "Rs. 115"
+        },
+        {
+          "label": "3",
+          "text": "Rs. 138"
+        },
+        {
+          "label": "4",
+          "text": "Rs. 122"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 15 is incomplete on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

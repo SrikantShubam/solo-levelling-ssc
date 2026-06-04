@@ -1,0 +1,98 @@
+{
+  "page": 23,
+  "questions": [
+    {
+      "question_number": 51,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "The average weight of P and his three friends is 55 kg. If P is 4 kg more than the average weight of his three friends, what is P's weight (in kg)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "60"
+        },
+        {
+          "label": "2",
+          "text": "54"
+        },
+        {
+          "label": "3",
+          "text": "58"
+        },
+        {
+          "label": "4",
+          "text": "62"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided in the image."
+    },
+    {
+      "question_number": 52,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "A sold a mobile phone to B at a gain of 25% and B sold it to C at a loss of 10%. If C paid Rs. 5,625 for it, how much did A pay (in Rs.) for the phone?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4,500"
+        },
+        {
+          "label": "2",
+          "text": "4,800"
+        },
+        {
+          "label": "3",
+          "text": "5,100"
+        },
+        {
+          "label": "4",
+          "text": "5,000"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided in the image."
+    },
+    {
+      "question_number": 53,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "The angle of elevation of the top of an unfinished tower at a point distant 78 m from its base is 30°. How much higher must the tower be raised (in m) so that the angle of elevation of the top of the finished tower at the same point will be 60°?",
+      "options": [
+        {
+          "label": "1",
+          "text": "52√3"
+        },
+        {
+          "label": "2",
+          "text": "26√3"
+        },
+        {
+          "label": "3",
+          "text": "80"
+        },
+        {
+          "label": "4",
+          "text": "78√3"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer key provided in the image."
+    }
+  ],
+  "warnings": [
+    "No answer key (green tick) is present on the provided page image for any of the questions."
+  ]
+}

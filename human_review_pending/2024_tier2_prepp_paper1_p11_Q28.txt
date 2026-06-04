@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 11
+Question Number: 28
+Global Q#: 28
+Section: None
+Modality: visual_options
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Let ABC be a right-angled triangle with a right angle at B. If tan A = √3, then find the value of sin A cos C + cos A sin C and cos A cos C - sin A sin C.
+
+--- Options ---
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4

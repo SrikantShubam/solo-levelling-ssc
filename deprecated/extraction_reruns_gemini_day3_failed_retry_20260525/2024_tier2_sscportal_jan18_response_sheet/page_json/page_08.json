@@ -1,0 +1,104 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Using empirical formula, calculate the mode for the following data. 17, 20, 21, 18, 25, 28, 24, 22, 16, 24, 25, 24",
+      "options": [
+        {
+          "label": "1",
+          "text": "25.8"
+        },
+        {
+          "label": "2",
+          "text": "30.6"
+        },
+        {
+          "label": "3",
+          "text": "25"
+        },
+        {
+          "label": "4",
+          "text": "32"
+        }
+      ],
+      "question_id": "630680531333",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "25",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "If (secθ - tanθ) / (secθ + tanθ) = 1/9, θ lies in the first quadrant, then the val",
+      "options": [
+        {
+          "label": "1",
+          "text": "-13/27"
+        },
+        {
+          "label": "2",
+          "text": "-13/27"
+        },
+        {
+          "label": "3",
+          "text": "-11/29"
+        },
+        {
+          "label": "4",
+          "text": "-11/29"
+        }
+      ],
+      "question_id": "630680671702",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "-11/29",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question text appears cut off at 'val'. Options 1/2 and 3/4 are identical in the source image."
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "(a⁷ × b⁸ × c⁷) / (a⁹ × b⁵ × c⁴) in simplified form is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "(a⁻⁵) × (b⁻⁸) × (c⁰)"
+        },
+        {
+          "label": "2",
+          "text": "(a⁻⁷) × (b²) × (c⁻⁴)"
+        },
+        {
+          "label": "3",
+          "text": "(a⁻²) × (b³) × (c³)"
+        },
+        {
+          "label": "4",
+          "text": "(a⁰) × (b²) × (c¹)"
+        }
+      ],
+      "question_id": "630680677919",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "(a⁻²) × (b³) × (c³)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

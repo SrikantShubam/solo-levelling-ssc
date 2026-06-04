@@ -1,0 +1,36 @@
+{
+  "page": 41,
+  "questions": [
+    {
+      "question_number": 52,
+      "section": "Comprehension",
+      "question_text_full": "Which statement is NOT true according to the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "High yielding seeds and fertilizers were a hallmark of green revolution."
+        },
+        {
+          "label": "2",
+          "text": "The rice yield in India is below that of China by 39%."
+        },
+        {
+          "label": "3",
+          "text": "The growth in productivity has stagnated today."
+        },
+        {
+          "label": "4",
+          "text": "In Northwest India, farmers get subsidies on rice, wheat and other crops."
+        }
+      ],
+      "question_id": "8161615539",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "The rice yield in India is below that of China by 39%.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,15 @@
+{
+  "page": 2,
+  "questions": [],
+  "warnings": [
+    "No questions found on this page. This page contains the exam title, instructions, and section breakdown."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "openrouter",
+  "model": "google/gemma-4-31b-it:free",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "openrouter_page_image"
+}

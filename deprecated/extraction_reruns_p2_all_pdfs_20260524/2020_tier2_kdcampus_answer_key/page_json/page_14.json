@@ -1,0 +1,186 @@
+{
+  "page": 14,
+  "questions": [
+    {
+      "question_number": 79,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nTo meet one's Waterloo",
+      "options": [
+        {
+          "label": "1",
+          "text": "To make a foolish choice"
+        },
+        {
+          "label": "2",
+          "text": "To experience defeat"
+        },
+        {
+          "label": "3",
+          "text": "To meet a friend"
+        },
+        {
+          "label": "4",
+          "text": "To win a match"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 80,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. My father is the only breadwinner in the family.\nB. My mother happily lends a helping hand in his hard work.\nC. I belong to a family where it is difficult to make both ends meet.\nD. He earns a rather meagre amount, working as a mason.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CADB"
+        },
+        {
+          "label": "2",
+          "text": "ACBD"
+        },
+        {
+          "label": "3",
+          "text": "ABCD"
+        },
+        {
+          "label": "4",
+          "text": "CBDA"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 81,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nAn entertainer who performs difficult physical feats",
+      "options": [
+        {
+          "label": "1",
+          "text": "Archer"
+        },
+        {
+          "label": "2",
+          "text": "Acrobat"
+        },
+        {
+          "label": "3",
+          "text": "Artist"
+        },
+        {
+          "label": "4",
+          "text": "Artisan"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 82,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nTo hit below the belt",
+      "options": [
+        {
+          "label": "1",
+          "text": "To attack after warning"
+        },
+        {
+          "label": "2",
+          "text": "To hit someone boldly"
+        },
+        {
+          "label": "3",
+          "text": "To hit off the mark"
+        },
+        {
+          "label": "4",
+          "text": "To attack in an unfair manner"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 83,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nIt is time for the factory to being closed.",
+      "options": [
+        {
+          "label": "1",
+          "text": "should be closed"
+        },
+        {
+          "label": "2",
+          "text": "No improvement required"
+        },
+        {
+          "label": "3",
+          "text": "to be closed"
+        },
+        {
+          "label": "4",
+          "text": "for closing"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 84,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nThe manager assured the employees that none of them will be dismiss.",
+      "options": [
+        {
+          "label": "1",
+          "text": "would be dismissed"
+        },
+        {
+          "label": "2",
+          "text": "is being dismiss"
+        },
+        {
+          "label": "3",
+          "text": "No improvement required"
+        },
+        {
+          "label": "4",
+          "text": "would have been dismissed"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": []
+}

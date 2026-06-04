@@ -1,0 +1,194 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 85,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Arrogance inflames prejudice and hatred, but humble speech soothes.\nB. Humility is the quality of being courteously respectful of others.\nC. It is the opposite of arrogance, aggressiveness and vanity.\nD. Thus, a humble demeanour is what is required to live in peace.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CADB"
+        },
+        {
+          "label": "2",
+          "text": "DACB"
+        },
+        {
+          "label": "3",
+          "text": "ACBD"
+        },
+        {
+          "label": "4",
+          "text": "BCAD"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 86,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech.\nFather told the children that there was some good news for them that day.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Father said to the children, “There is some good news for you today.”"
+        },
+        {
+          "label": "2",
+          "text": "Father said to the children, “There was some good news for you today.”"
+        },
+        {
+          "label": "3",
+          "text": "Father said to the children, “There had been some good news for them that day.”"
+        },
+        {
+          "label": "4",
+          "text": "Father said to the children, “There was some good news for them that day.”"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 87,
+      "section": null,
+      "question_text_full": "Select the option that will improve the underlined part of the given sentence.\nIn case no improvement is needed, select ‘No improvement required’.\nIs this the same book like our teacher recommended?",
+      "options": [
+        {
+          "label": "1",
+          "text": "No improvement required"
+        },
+        {
+          "label": "2",
+          "text": "same book who"
+        },
+        {
+          "label": "3",
+          "text": "similar book that"
+        },
+        {
+          "label": "4",
+          "text": "same book as"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 88,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nStrong dislike between two persons",
+      "options": [
+        {
+          "label": "1",
+          "text": "Antipathy"
+        },
+        {
+          "label": "2",
+          "text": "Rivalry"
+        },
+        {
+          "label": "3",
+          "text": "Tolerance"
+        },
+        {
+          "label": "4",
+          "text": "Adoration"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 89,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in reported speech.\nThe investigator asked me, “Did you see or hear anything in the dead of night?”",
+      "options": [
+        {
+          "label": "1",
+          "text": "The investigator asked me if I saw or heard anything in the dead of night."
+        },
+        {
+          "label": "2",
+          "text": "The investigator asked me if I see or hear anything in the dead of night."
+        },
+        {
+          "label": "3",
+          "text": "The investigator asked me if I had seen or heard anything in the dead of night."
+        },
+        {
+          "label": "4",
+          "text": "The investigator asked me that if I had seen or heard anything in the dead of night."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 90,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in direct speech.\nThe little boy asked his teacher if she had always been good as a child.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The little boy said to his teacher, “You have always been good as a child?”"
+        },
+        {
+          "label": "2",
+          "text": "The little boy said to his teacher, “Ma’am, always you were good as a child?”"
+        },
+        {
+          "label": "3",
+          "text": "The little boy said to his teacher, “Ma’am, were you always good as a child?”"
+        },
+        {
+          "label": "4",
+          "text": "The little boy said to his teacher, “Are you always good as a child?”"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

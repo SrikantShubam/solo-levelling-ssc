@@ -1,0 +1,104 @@
+{
+  "page": 33,
+  "questions": [
+    {
+      "question_number": 91,
+      "section": null,
+      "question_text_full": "Which of the following is NOT a secondary source of data?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Biography"
+        },
+        {
+          "label": "2",
+          "text": "Research Journals"
+        },
+        {
+          "label": "3",
+          "text": "Autobiography"
+        },
+        {
+          "label": "4",
+          "text": "Newspaper"
+        }
+      ],
+      "question_id": "6306801352813",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "Autobiography",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 92,
+      "section": null,
+      "question_text_full": "The points of inflection of a normal distribution N (5, 1) that exist at x is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2, 8"
+        },
+        {
+          "label": "2",
+          "text": "5, 1"
+        },
+        {
+          "label": "3",
+          "text": "1, 9"
+        },
+        {
+          "label": "4",
+          "text": "4, 6"
+        }
+      ],
+      "question_id": "6306801352804",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "4, 6",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 93,
+      "section": null,
+      "question_text_full": "From a population of a large number of workers with a standard deviation 5, a sample is drawn and the standard error is found to be 0.5. What is the sample size?",
+      "options": [
+        {
+          "label": "1",
+          "text": "50"
+        },
+        {
+          "label": "2",
+          "text": "1000"
+        },
+        {
+          "label": "3",
+          "text": "10"
+        },
+        {
+          "label": "4",
+          "text": "100"
+        }
+      ],
+      "question_id": "6306801297901",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "100",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

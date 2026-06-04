@@ -1,0 +1,76 @@
+{
+  "page": 7,
+  "questions": [
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Two different positions of the same dice with faces T, O, B, L, Y and V are shown below. Select the letter that will be on the face opposite to the one having L.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Y"
+        },
+        {
+          "label": "2",
+          "text": "B"
+        },
+        {
+          "label": "3",
+          "text": "O"
+        },
+        {
+          "label": "4",
+          "text": "V"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Select the word-pair that best represents a similar relationship to the one expressed in the pair of words given below.\n\nVirus : Parasite",
+      "options": [
+        {
+          "label": "1",
+          "text": "Fungus : Jasmine"
+        },
+        {
+          "label": "2",
+          "text": "Amaltas : Tree"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question is incomplete; only two options are visible."
+    }
+  ],
+  "warnings": [
+    "Question 11 is incomplete on the page; only two options are visible."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

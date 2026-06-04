@@ -1,0 +1,126 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Which of the following Articles of the Indian Constitution are related to citizenship?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Articles 15 to 21"
+        },
+        {
+          "label": "2",
+          "text": "Articles 5 to 11"
+        },
+        {
+          "label": "3",
+          "text": "Articles 2 to 4"
+        },
+        {
+          "label": "4",
+          "text": "Articles 25 to 31"
+        }
+      ],
+      "question_id": "264330144220",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Articles 5 to 11",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "If A is 95% of B, then what per cent of A is B?",
+      "options": [
+        {
+          "label": "1",
+          "text": "110 3/19 %"
+        },
+        {
+          "label": "2",
+          "text": "104 7/19 %"
+        },
+        {
+          "label": "3",
+          "text": "108 17/19 %"
+        },
+        {
+          "label": "4",
+          "text": "105 5/19 %"
+        }
+      ],
+      "question_id": "26433091507",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "105 5/19 %",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "The marked price of mustard oil is 25% more than its cost price. At what percentage less than the marked price should it be sold to have no profit and no loss?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15%"
+        },
+        {
+          "label": "2",
+          "text": "20%"
+        },
+        {
+          "label": "3",
+          "text": "18%"
+        },
+        {
+          "label": "4",
+          "text": "22%"
+        }
+      ],
+      "question_id": "26433082967",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "20%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "A can complete a piece of work in 25 days while B can complete the same work in 30 days. They work on alternate basis, starting with A. Both A and B follow this pattern for 5 days and then A leaves the work. In how many days will B finish the remaining work?",
+      "options": [
+        {
+          "label": "1",
+          "text": "24 2/5"
+        },
+        {
+          "label": "2",
+          "text": "5 2/5"
+        },
+        {
+          "label": "3",
+          "text": "5 3/5"
+        },
+        {
+          "label": "4",
+          "text": "24 3/5"
+        }
+      ],
+      "question_id": "264330108987",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "24 2/5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

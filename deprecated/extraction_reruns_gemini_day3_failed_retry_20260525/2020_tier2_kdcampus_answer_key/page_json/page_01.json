@@ -1,0 +1,284 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "English Language and Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "contract"
+        },
+        {
+          "label": "2",
+          "text": "promise"
+        },
+        {
+          "label": "3",
+          "text": "bond"
+        },
+        {
+          "label": "4",
+          "text": "plight"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 2,
+      "section": "English Language and Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.2.",
+      "options": [
+        {
+          "label": "1",
+          "text": "secures"
+        },
+        {
+          "label": "2",
+          "text": "completes"
+        },
+        {
+          "label": "3",
+          "text": "scores"
+        },
+        {
+          "label": "4",
+          "text": "attains"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 3,
+      "section": "English Language and Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.3.",
+      "options": [
+        {
+          "label": "1",
+          "text": "distributed"
+        },
+        {
+          "label": "2",
+          "text": "contributed"
+        },
+        {
+          "label": "3",
+          "text": "disposed"
+        },
+        {
+          "label": "4",
+          "text": "determined"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 4,
+      "section": "English Language and Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.4.",
+      "options": [
+        {
+          "label": "1",
+          "text": "finish"
+        },
+        {
+          "label": "2",
+          "text": "delete"
+        },
+        {
+          "label": "3",
+          "text": "efface"
+        },
+        {
+          "label": "4",
+          "text": "cancel"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 5,
+      "section": "English Language and Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.5.",
+      "options": [
+        {
+          "label": "1",
+          "text": "preparations"
+        },
+        {
+          "label": "2",
+          "text": "indications"
+        },
+        {
+          "label": "3",
+          "text": "suggestions"
+        },
+        {
+          "label": "4",
+          "text": "estimations"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 6,
+      "section": "English Language and Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.6.",
+      "options": [
+        {
+          "label": "1",
+          "text": "obstinate"
+        },
+        {
+          "label": "2",
+          "text": "rigid"
+        },
+        {
+          "label": "3",
+          "text": "sensible"
+        },
+        {
+          "label": "4",
+          "text": "impressionable"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 7,
+      "section": "English Language and Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.7.",
+      "options": [
+        {
+          "label": "1",
+          "text": "refines"
+        },
+        {
+          "label": "2",
+          "text": "precipitates"
+        },
+        {
+          "label": "3",
+          "text": "contracts"
+        },
+        {
+          "label": "4",
+          "text": "hardens"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 8,
+      "section": "English Language and Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.8.",
+      "options": [
+        {
+          "label": "1",
+          "text": "attitude"
+        },
+        {
+          "label": "2",
+          "text": "manipulation"
+        },
+        {
+          "label": "3",
+          "text": "conduct"
+        },
+        {
+          "label": "4",
+          "text": "tactics"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 9,
+      "section": "English Language and Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.9.",
+      "options": [
+        {
+          "label": "1",
+          "text": "are developed"
+        },
+        {
+          "label": "2",
+          "text": "is developing"
+        },
+        {
+          "label": "3",
+          "text": "develops"
+        },
+        {
+          "label": "4",
+          "text": "has developed"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,15 @@
+{
+  "page": 13,
+  "questions": [],
+  "warnings": [
+    "ERROR HTTP (retries exhausted): {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779926400000\"},\"provider_name\":null}},\"user_id\":\"user_39QZQtcFOHUVopqFT2XBm57xKSd\"}"
+  ],
+  "page_status": "ERROR",
+  "failure_type": "api_quota_or_rate_limit",
+  "provider": "openrouter",
+  "model": "google/gemma-4-31b-it:free",
+  "retryable": true,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "openrouter_page_image"
+}

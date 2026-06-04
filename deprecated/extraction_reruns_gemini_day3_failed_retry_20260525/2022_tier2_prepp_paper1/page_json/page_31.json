@@ -1,0 +1,44 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 34,
+      "section": null,
+      "question_text_full": "In 2019, how many Indian students went abroad?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5.17 lakh"
+        },
+        {
+          "label": "2",
+          "text": "4.54 lakh"
+        },
+        {
+          "label": "3",
+          "text": "5.86 lakh"
+        },
+        {
+          "label": "4",
+          "text": "4.44 lakh"
+        }
+      ],
+      "question_id": "264330128821",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "5.86 lakh",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

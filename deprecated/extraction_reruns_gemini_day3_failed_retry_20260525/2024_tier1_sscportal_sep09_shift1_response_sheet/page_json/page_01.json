@@ -1,0 +1,74 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "What will come in place of the question mark (?) in the following equation, if '+' and '-' are interchanged and 'x' and '÷' are interchanged?\n4515 × 5 – 431 ÷ 3 + 821 = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1335"
+        },
+        {
+          "label": "2",
+          "text": "1775"
+        },
+        {
+          "label": "3",
+          "text": "1575"
+        },
+        {
+          "label": "4",
+          "text": "1375"
+        }
+      ],
+      "question_id": "630680411715",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "1375",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "31 is related to 152 by certain logic. Following the same logic, 47 is related to 168. To which of the following is 66 related, following the same logic? (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "180"
+        },
+        {
+          "label": "2",
+          "text": "187"
+        },
+        {
+          "label": "3",
+          "text": "185"
+        },
+        {
+          "label": "4",
+          "text": "190"
+        }
+      ],
+      "question_id": "630680326557",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "187",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

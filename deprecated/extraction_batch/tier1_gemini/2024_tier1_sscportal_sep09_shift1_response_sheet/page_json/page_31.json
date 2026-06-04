@@ -1,0 +1,96 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Select the word which means the same as the group of words given.\nUnit of weight for precious stones",
+      "options": [
+        {
+          "label": "1",
+          "text": "Pure"
+        },
+        {
+          "label": "2",
+          "text": "Accurate"
+        },
+        {
+          "label": "3",
+          "text": "Reliable"
+        },
+        {
+          "label": "4",
+          "text": "Carat"
+        }
+      ],
+      "question_id": "630680414701",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Carat",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the underlined group of words.\nShe is proficient in speaking many languages.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Heterolinguistic"
+        },
+        {
+          "label": "2",
+          "text": "Bilingual"
+        },
+        {
+          "label": "3",
+          "text": "Multilingual"
+        },
+        {
+          "label": "4",
+          "text": "Monolithic"
+        }
+      ],
+      "question_id": "630680129378",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Multilingual",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in passive voice.\nIshika saw the tiger in the forest.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The tiger saw by Ishika in the forest."
+        },
+        {
+          "label": "2",
+          "text": "The tiger sees Ishika in the forest."
+        },
+        {
+          "label": "3",
+          "text": "The tiger was seen by Ishika in the forest."
+        },
+        {
+          "label": "4",
+          "text": "The tiger was seen by the forest in Ishika."
+        }
+      ],
+      "question_id": "630680374745",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "The tiger was seen by Ishika in the forest.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

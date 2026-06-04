@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 10
+Question Number: 25
+Global Q#: 25
+Section: None
+Modality: text_only
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+The height of a right circular cone is 63 cm and the area of its curved surface is five times the area of its base. What is the volume (in cm³) of the cone? (Use π = 22/7)
+
+--- Options ---
+  (1) 12589.10
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible

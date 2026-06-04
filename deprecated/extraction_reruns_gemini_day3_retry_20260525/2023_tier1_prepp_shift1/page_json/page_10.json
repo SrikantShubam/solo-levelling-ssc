@@ -1,0 +1,164 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": null,
+      "question_text_full": "The length of the badminton court for singles is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "13.44 m"
+        },
+        {
+          "label": "2",
+          "text": "13.55 m"
+        },
+        {
+          "label": "3",
+          "text": "14 m"
+        },
+        {
+          "label": "4",
+          "text": "13.40 m"
+        }
+      ],
+      "question_id": "264330112520",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "13.40 m",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "Who is the Administrative Head of the Indian Audit and Accounts Department?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Accountant General"
+        },
+        {
+          "label": "2",
+          "text": "Principal Accountant General"
+        },
+        {
+          "label": "3",
+          "text": "Director General"
+        },
+        {
+          "label": "4",
+          "text": "The Comptroller and Auditor General"
+        }
+      ],
+      "question_id": "264330112788",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "The Comptroller and Auditor General",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Which of the following is the largest pan-India scheme to strengthen health care infrastructure across the country with focus on primary, secondary and tertiary care services?",
+      "options": [
+        {
+          "label": "1",
+          "text": "LaQshya"
+        },
+        {
+          "label": "2",
+          "text": "AB-PMJAY"
+        },
+        {
+          "label": "3",
+          "text": "PM-ABHIM"
+        },
+        {
+          "label": "4",
+          "text": "PM-MI"
+        }
+      ],
+      "question_id": "264330111307",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "PM-ABHIM",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Which of the following festivals is associated with the term ‘ties of protection’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Baisakhi"
+        },
+        {
+          "label": "2",
+          "text": "Karwa Chauth"
+        },
+        {
+          "label": "3",
+          "text": "Chhath Pooja"
+        },
+        {
+          "label": "4",
+          "text": "Raksha Bandhan"
+        }
+      ],
+      "question_id": "264330111151",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Raksha Bandhan",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "In October 2021, 19-year-old ________ won the silver medal at the World Wrestling Championship.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Anshu Malik"
+        },
+        {
+          "label": "2",
+          "text": "Seema Bisla"
+        },
+        {
+          "label": "3",
+          "text": "Sanju Devi"
+        },
+        {
+          "label": "4",
+          "text": "Sonam Malik"
+        }
+      ],
+      "question_id": "26433086892",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Anshu Malik",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

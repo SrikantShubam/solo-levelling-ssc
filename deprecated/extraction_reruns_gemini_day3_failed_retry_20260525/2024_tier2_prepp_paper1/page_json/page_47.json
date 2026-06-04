@@ -1,0 +1,46 @@
+{
+  "page": 47,
+  "questions": [
+    {
+      "question_number": null,
+      "section": null,
+      "question_text_full": "What ultimately undermined the INA's efforts to free India from British rule?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Gandhi's death"
+        },
+        {
+          "label": "2",
+          "text": "The Japanese surrender in 1945"
+        },
+        {
+          "label": "3",
+          "text": "The inferior military tactics of the British forces"
+        },
+        {
+          "label": "4",
+          "text": "The lack of support from the Indian and British people"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "This question appears to be a comprehension question related to the passage below it, but it is presented as a standalone question block at the top of the page."
+    }
+  ],
+  "warnings": [
+    "Question 96 is a reading comprehension passage header but does not contain the actual question text or answer options on this page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

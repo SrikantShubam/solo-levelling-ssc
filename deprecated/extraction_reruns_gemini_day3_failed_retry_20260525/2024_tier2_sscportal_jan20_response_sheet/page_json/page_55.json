@@ -1,0 +1,104 @@
+{
+  "page": 55,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "What does the function COUNT() do in MS Excel 2010?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Prints the number of cells"
+        },
+        {
+          "label": "2",
+          "text": "Counts the number of cells"
+        },
+        {
+          "label": "3",
+          "text": "Duplicates the number of cells"
+        },
+        {
+          "label": "4",
+          "text": "Stores the number of cells"
+        }
+      ],
+      "question_id": "630680994774",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Counts the number of cells",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "In a Local Area Network (LAN), which of the following is most commonly used to ensure that data packets are efficiently forwarded to the correct device, based on its MAC address?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Router"
+        },
+        {
+          "label": "2",
+          "text": "Bridge"
+        },
+        {
+          "label": "3",
+          "text": "Hub"
+        },
+        {
+          "label": "4",
+          "text": "Layer 3 Switch"
+        }
+      ],
+      "question_id": "6306801301414",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Layer 3 Switch",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Which of the following statements about the Central Processing Unit (CPU) is/are correct?\nThe CPU is often referred to as the 'brain' of the computer.\nThe CPU consists of three main units: the control unit (CU), arithmetic logic unit (ALU), and cache memory.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Neither 1 nor 2"
+        },
+        {
+          "label": "2",
+          "text": "Only 2"
+        },
+        {
+          "label": "3",
+          "text": "Only 1"
+        },
+        {
+          "label": "4",
+          "text": "Both 1 and 2"
+        }
+      ],
+      "question_id": "6306801312610",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Only 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

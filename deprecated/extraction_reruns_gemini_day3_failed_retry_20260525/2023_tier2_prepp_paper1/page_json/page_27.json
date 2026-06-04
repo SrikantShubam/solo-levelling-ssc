@@ -1,0 +1,104 @@
+{
+  "page": 27,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the sentence which gives the most appropriate meaning of the given idiom.\nBite the bullet",
+      "options": [
+        {
+          "label": "1",
+          "text": "The children played in the park on a sunny day."
+        },
+        {
+          "label": "2",
+          "text": "Despite the pain, Sarah decided to go ahead with the surgery."
+        },
+        {
+          "label": "3",
+          "text": "The chef prepared a delicious meal for the guests."
+        },
+        {
+          "label": "4",
+          "text": "Jack and Jill went up the hill to fetch a pail of water."
+        }
+      ],
+      "question_id": "264330167830",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Despite the pain, Sarah decided to go ahead with the surgery.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the option that arranges the given words to form a grammatically correct and meaningful sentence.\nThe students eagerly their awaited results.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The students their eagerly awaited results."
+        },
+        {
+          "label": "2",
+          "text": "The awaited eagerly results their students."
+        },
+        {
+          "label": "3",
+          "text": "Eagerly awaited the students their results."
+        },
+        {
+          "label": "4",
+          "text": "The students eagerly awaited their results."
+        }
+      ],
+      "question_id": "264330166269",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "The students eagerly awaited their results.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nRobin watched as the smoke ________ steadily from the chimney.",
+      "options": [
+        {
+          "label": "1",
+          "text": "hung"
+        },
+        {
+          "label": "2",
+          "text": "rose"
+        },
+        {
+          "label": "3",
+          "text": "left"
+        },
+        {
+          "label": "4",
+          "text": "went"
+        }
+      ],
+      "question_id": "264330171636",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "rose",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

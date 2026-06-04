@@ -1,0 +1,96 @@
+{
+  "page": 18,
+  "questions": [
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Study the following table and answer the question:\nNumber of cars sold by dealers A, B, C, D & E during first six months of 2018.\n[Table Image]\nIn July 2018, if the sales of cars by the dealer D increases by the same percentage as in June 2018 over its previous month, then what is the number of cars sold by D in July 2018?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1020"
+        },
+        {
+          "label": "2",
+          "text": "959"
+        },
+        {
+          "label": "3",
+          "text": "1014"
+        },
+        {
+          "label": "4",
+          "text": "975"
+        }
+      ],
+      "question_id": "81616114194",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1014",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Sides AB and DC of a cyclic quadrilateral ABCD are produced to meet at E and sides AD and BC are produced to meet at F. If ∠ADC = 78° and ∠BEC = 52°, then the measure of ∠AFB is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "28°"
+        },
+        {
+          "label": "2",
+          "text": "26°"
+        },
+        {
+          "label": "3",
+          "text": "32°"
+        },
+        {
+          "label": "4",
+          "text": "30°"
+        }
+      ],
+      "question_id": "81616113984",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "28°",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Study the table and answer the question.\nIn the table, production and sale (in 1000 tonnes) of a certain product of a company over 5 years is given.\n[Table Image]\nIn which year(s) sale is more than 90% of the production?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2015, 2017, 2019"
+        },
+        {
+          "label": "2",
+          "text": "2017, 2018"
+        },
+        {
+          "label": "3",
+          "text": "2016, 2017"
+        },
+        {
+          "label": "4",
+          "text": "2016, 2018"
+        }
+      ],
+      "question_id": "81616112679",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "2016, 2018",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

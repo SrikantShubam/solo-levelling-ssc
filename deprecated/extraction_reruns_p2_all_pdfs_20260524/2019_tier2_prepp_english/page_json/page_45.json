@@ -1,0 +1,126 @@
+{
+  "page": 45,
+  "questions": [
+    {
+      "question_number": 57,
+      "section": null,
+      "question_text_full": "Parts of the following sentence are given as options. Identify the segment that contains a grammatical error.\nBhanu finished to read such a thick book in just two days.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bhanu finished"
+        },
+        {
+          "label": "2",
+          "text": "in just two day"
+        },
+        {
+          "label": "3",
+          "text": "such a thick book"
+        },
+        {
+          "label": "4",
+          "text": "to read"
+        }
+      ],
+      "question_id": "8161615553",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "to read",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 58,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’.\nThe hotels were heavy booked for the festival in Banaras.",
+      "options": [
+        {
+          "label": "1",
+          "text": "are heavy booked"
+        },
+        {
+          "label": "2",
+          "text": "were heavily booking"
+        },
+        {
+          "label": "3",
+          "text": "were heavily booked"
+        },
+        {
+          "label": "4",
+          "text": "No substitution required"
+        }
+      ],
+      "question_id": "8161615577",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "were heavily booked",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 59,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nEat one’s words",
+      "options": [
+        {
+          "label": "1",
+          "text": "forgive and forget"
+        },
+        {
+          "label": "2",
+          "text": "become less acceptable"
+        },
+        {
+          "label": "3",
+          "text": "retract what one has said"
+        },
+        {
+          "label": "4",
+          "text": "oppose sternly"
+        }
+      ],
+      "question_id": "8161615665",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "retract what one has said",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 60,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nESTIMATE",
+      "options": [
+        {
+          "label": "1",
+          "text": "assess"
+        },
+        {
+          "label": "2",
+          "text": "solve"
+        },
+        {
+          "label": "3",
+          "text": "discover"
+        },
+        {
+          "label": "4",
+          "text": "believe"
+        }
+      ],
+      "question_id": "8161615656",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "assess",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

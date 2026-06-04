@@ -1,0 +1,46 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": "General Intelligence",
+      "question_text_full": "Select the set in which the numbers are related in the same way as the numbers of the following sets. (55, 11, 16) (64, 12, 25)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(33, 11, 22"
+        },
+        {
+          "label": "2",
+          "text": "(33, 11, 12"
+        },
+        {
+          "label": "3",
+          "text": "(33, 11, 10"
+        },
+        {
+          "label": "4",
+          "text": "(33, 11, 11)"
+        }
+      ],
+      "question_id": "26433087188",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "(33, 11, 22)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "nvidia_nim",
+  "model": "google/gemma-3n-e4b-it",
+  "usage": {
+    "prompt_tokens": 614,
+    "total_tokens": 842,
+    "completion_tokens": 228,
+    "prompt_tokens_details": null
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "page": 53,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Which of the following is keyboard shortcut to reload the current page in Google search engine?",
+      "options": [
+        {
+          "label": "1",
+          "text": "F7"
+        },
+        {
+          "label": "2",
+          "text": "F5"
+        },
+        {
+          "label": "3",
+          "text": "F1"
+        },
+        {
+          "label": "4",
+          "text": "F3"
+        }
+      ],
+      "question_id": "264330128778",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "F5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Which among the following keyboard shortcuts is used to insert a hyperlink for the selected text in Microsoft Word?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ctrl + K"
+        },
+        {
+          "label": "2",
+          "text": "Ctrl + M"
+        },
+        {
+          "label": "3",
+          "text": "Ctrl + H"
+        },
+        {
+          "label": "4",
+          "text": "Ctrl + Z"
+        }
+      ],
+      "question_id": "264330128763",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Ctrl + K",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "_______ is a passage to connect two networks that may work on different networking models.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Router"
+        },
+        {
+          "label": "2",
+          "text": "Switch"
+        },
+        {
+          "label": "3",
+          "text": "Gateway"
+        },
+        {
+          "label": "4",
+          "text": "Hub"
+        }
+      ],
+      "question_id": "264330128767",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Gateway",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "_______ cookies track you and expose your privacy.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Persistent"
+        },
+        {
+          "label": "2",
+          "text": "Third-party"
+        },
+        {
+          "label": "3",
+          "text": "Zombi"
+        },
+        {
+          "label": "4",
+          "text": "Session"
+        }
+      ],
+      "question_id": "264330128757",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Third-party",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

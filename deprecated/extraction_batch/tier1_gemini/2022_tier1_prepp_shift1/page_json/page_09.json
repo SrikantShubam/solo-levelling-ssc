@@ -1,0 +1,156 @@
+{
+  "page": 9,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Select the odd group of numbers. (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g.13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(7 – 343 – 331)"
+        },
+        {
+          "label": "2",
+          "text": "(6 – 216 – 206)"
+        },
+        {
+          "label": "3",
+          "text": "(5 – 125 – 115)"
+        },
+        {
+          "label": "4",
+          "text": "(4 – 64 – 54)"
+        }
+      ],
+      "question_id": "264330105092",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "(7 – 343 – 331)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "General Awareness",
+      "question_text_full": "The term ‘Back-stick’ is used in which of the following games/sports?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Basketball"
+        },
+        {
+          "label": "2",
+          "text": "Badminton"
+        },
+        {
+          "label": "3",
+          "text": "Hockey"
+        },
+        {
+          "label": "4",
+          "text": "Volleyball"
+        }
+      ],
+      "question_id": "26433071565",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Hockey",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "General Awareness",
+      "question_text_full": "Which of the following festivals in Punjab is celebrated to commemorate the formation of the Khalsa Panth?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Lohri"
+        },
+        {
+          "label": "2",
+          "text": "Hola Mohalla"
+        },
+        {
+          "label": "3",
+          "text": "Teej"
+        },
+        {
+          "label": "4",
+          "text": "Baisakhi"
+        }
+      ],
+      "question_id": "26433071667",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Baisakhi",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": "General Awareness",
+      "question_text_full": "What theme was decided to celebrate the second ‘International Day of Yoga’ in India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Yoga for the achievement of the Sustainable Development Goals"
+        },
+        {
+          "label": "2",
+          "text": "Yoga for Peace"
+        },
+        {
+          "label": "3",
+          "text": "Yoga for Wellness"
+        },
+        {
+          "label": "4",
+          "text": "Yoga for Heart"
+        }
+      ],
+      "question_id": "26433059379",
+      "chosen_option_label": "2",
+      "correct_option_label": "1",
+      "correct_option_text": "Yoga for the achievement of the Sustainable Development Goals",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": "General Awareness",
+      "question_text_full": "Chemical formula of quick lime is ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CaO"
+        },
+        {
+          "label": "2",
+          "text": "CO2"
+        },
+        {
+          "label": "3",
+          "text": "CaCO3"
+        },
+        {
+          "label": "4",
+          "text": "Ca(OH)2"
+        }
+      ],
+      "question_id": "264330105473",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "CaO",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

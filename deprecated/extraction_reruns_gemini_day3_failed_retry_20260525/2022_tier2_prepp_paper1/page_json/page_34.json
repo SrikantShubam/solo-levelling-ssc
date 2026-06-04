@@ -1,0 +1,44 @@
+{
+  "page": 34,
+  "questions": [
+    {
+      "question_number": 37,
+      "section": null,
+      "question_text_full": "The passage is mainly about",
+      "options": [
+        {
+          "label": "1",
+          "text": "immigration of Indians to UK, US, and Australia"
+        },
+        {
+          "label": "2",
+          "text": "Indians enrolled in foreign universities"
+        },
+        {
+          "label": "3",
+          "text": "Indians going to America for higher studies"
+        },
+        {
+          "label": "4",
+          "text": "Indians going abroad for higher studies"
+        }
+      ],
+      "question_id": "264330128820",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Indians going abroad for higher studies",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

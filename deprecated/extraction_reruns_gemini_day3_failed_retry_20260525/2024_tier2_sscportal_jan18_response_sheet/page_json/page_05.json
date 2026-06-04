@@ -1,0 +1,104 @@
+{
+  "page": 5,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Let A and B be two players who are playing the game to hit the target. The probabilities of hitting the target by A and B is 2/3 and 3/4, respectively. What is the probability that exactly one of them hit the target?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7/12"
+        },
+        {
+          "label": "2",
+          "text": "1/4"
+        },
+        {
+          "label": "3",
+          "text": "5/12"
+        },
+        {
+          "label": "4",
+          "text": "1/12"
+        }
+      ],
+      "question_id": "630680543956",
+      "chosen_option_label": "4",
+      "correct_option_label": "3",
+      "correct_option_text": "5/12",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "On the occasion of Republic Day, a retail store offers a scheme where customers can avail a discount of 26% on their total purchase. If Manish buys items worth ₹2,050, how much money (in ₹) will he save through the scheme discount?",
+      "options": [
+        {
+          "label": "1",
+          "text": "522"
+        },
+        {
+          "label": "2",
+          "text": "511"
+        },
+        {
+          "label": "3",
+          "text": "533"
+        },
+        {
+          "label": "4",
+          "text": "544"
+        }
+      ],
+      "question_id": "630680653713",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "533",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Vessel A contains milk and water in the ratio 4 : 5. Vessel B contains milk and water in the ratio 2 : 1. If x litres mixture of A is mixed with y litres mixture of B, then the ratio of milk to water in the mixture becomes 8 : 5. Find the ratio x : y.",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 : 6"
+        },
+        {
+          "label": "2",
+          "text": "3 : 10"
+        },
+        {
+          "label": "3",
+          "text": "2 : 5"
+        },
+        {
+          "label": "4",
+          "text": "3 : 4"
+        }
+      ],
+      "question_id": "630680654960",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "3 : 10",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,126 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "General Awareness",
+      "question_text_full": "The numerical taxonomy of plants is based on which of the following?",
+      "options": [
+        {
+          "label": "1",
+          "text": "All observable characteristics"
+        },
+        {
+          "label": "2",
+          "text": "Chemical constituents"
+        },
+        {
+          "label": "3",
+          "text": "Structure"
+        },
+        {
+          "label": "4",
+          "text": "Chromosome number"
+        }
+      ],
+      "question_id": "65497843709",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "All observable characteristics",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "General Awareness",
+      "question_text_full": "On which day was the National Emblem of India adopted?",
+      "options": [
+        {
+          "label": "1",
+          "text": "15th August 1952"
+        },
+        {
+          "label": "2",
+          "text": "26th January 1950"
+        },
+        {
+          "label": "3",
+          "text": "15th August 1947"
+        },
+        {
+          "label": "4",
+          "text": "26th January 1959"
+        }
+      ],
+      "question_id": "65497842309",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "26th January 1950",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": "General Awareness",
+      "question_text_full": "Who among the following became the Chief Minister of Uttarakhand in March 2021?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Madan Kaushik"
+        },
+        {
+          "label": "2",
+          "text": "Tirath Singh Rawat"
+        },
+        {
+          "label": "3",
+          "text": "BC Khanduri"
+        },
+        {
+          "label": "4",
+          "text": "Dhan Singh Rawat"
+        }
+      ],
+      "question_id": "65497843112",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Tirath Singh Rawat",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": "General Awareness",
+      "question_text_full": "The allocation towards health and well-being was increased by ______ over the previous year in Union Budget 2021-22.",
+      "options": [
+        {
+          "label": "1",
+          "text": "125%"
+        },
+        {
+          "label": "2",
+          "text": "100%"
+        },
+        {
+          "label": "3",
+          "text": "140%"
+        },
+        {
+          "label": "4",
+          "text": "137%"
+        }
+      ],
+      "question_id": "65497843099",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "137%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

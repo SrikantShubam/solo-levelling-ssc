@@ -1,0 +1,104 @@
+{
+  "page": 2,
+  "questions": [
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "Select the option that represents the correct order of the given words as they would appear in an English dictionary.\n1. Warriors\n2. Warehouse\n3. Warcraft\n4. Warranty\n5. Wardrobe\n6. Wardenship",
+      "options": [
+        {
+          "label": "1",
+          "text": "3, 6, 5, 2, 1, 4"
+        },
+        {
+          "label": "2",
+          "text": "3, 5, 6, 2, 1, 4"
+        },
+        {
+          "label": "3",
+          "text": "3, 5, 6, 2, 4, 1"
+        },
+        {
+          "label": "4",
+          "text": "3, 6, 5, 2, 4, 1"
+        }
+      ],
+      "question_id": "264330132163",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "3, 6, 5, 2, 4, 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Three statements are given, followed by four conclusions numbered I, II, III and IV. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusions logically follow(s) from the statements.\nStatements:\nSome desks are trays.\nSome trays are plates.\nSome plates are desks.\nConclusions:\nI. All desks are plates.\nII. All plates are desks.\nIII. Some plates are trays.\nIV. All trays are desks.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only conclusion III follows"
+        },
+        {
+          "label": "2",
+          "text": "Only conclusion IV follows"
+        },
+        {
+          "label": "3",
+          "text": "Only conclusion II follows"
+        },
+        {
+          "label": "4",
+          "text": "Only conclusion I follows"
+        }
+      ],
+      "question_id": "26433085684",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Only conclusion III follows",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Select the option that is related to the third word in the same way as the second word is related to the first word.\n(The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word.)\nSkin : Touch :: Nose : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Smell"
+        },
+        {
+          "label": "2",
+          "text": "Taste"
+        },
+        {
+          "label": "3",
+          "text": "Nose ring"
+        },
+        {
+          "label": "4",
+          "text": "Sweat"
+        }
+      ],
+      "question_id": "26433087263",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Smell",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

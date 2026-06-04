@@ -1,0 +1,44 @@
+{
+  "page": 48,
+  "questions": [
+    {
+      "question_number": 97,
+      "section": null,
+      "question_text_full": "Read the given passage and answer the questions that follow. Subhas Chandra Bose, a prominent Indian nationalist leader, was convinced that India could not achieve independence without the use of force, and he believed that a military campaign was necessary to achieve this goal. In 1942, Bose formed the Indian National Army (INA) with the help of the Japanese. Bose travelled to Japan in 1941 to seek their support in the struggle against British rule in India. The Japanese were interested in having Bose's help in their own efforts to expand their influence in Southeast Asia. Bose's vision was to create a military force to fight against the British in India with the help of Japanese weapons and training. The INA was formed in Singapore in September 1942 with the slogan 'Jai Hind' (Victory to India). The INA consisted of soldiers who were primarily from the Indian community in Southeast Asia. They were trained by Japanese officers and were equipped with Japanese weapons. The INA fought alongside Japanese forces in Burma and other parts of Southeast Asia during World War II. Bose's leadership of the INA and his military campaigns against the British in India made him a popular figure among many Indians. The consequences of the formation of the INA were significant. The INA's campaigns against the British in India and the Indian soldiers' role in the Burma campaign had a struggle against British colonialism, and Bose's slogan of 'Jai Hind' became a rallying cry for the independence movement. However, the INA's military campaigns were not successful in achieving their goal of freeing India from British rule. The INA suffered significant losses in battles, and their efforts were undermined by the Japanese surrender in 1945. What was the significance of Bose's slogan 'Jai Hind'?",
+      "options": [
+        {
+          "label": "1",
+          "text": "It symbolised the struggle against British colonialism."
+        },
+        {
+          "label": "2",
+          "text": "It was a call to arms for the Indian and British Army."
+        },
+        {
+          "label": "3",
+          "text": "It manifests the vision of selected communities."
+        },
+        {
+          "label": "4",
+          "text": "It represented Bose's vision of a capitalist India."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "It symbolised the struggle against British colonialism.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question text includes the passage provided on the page. The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

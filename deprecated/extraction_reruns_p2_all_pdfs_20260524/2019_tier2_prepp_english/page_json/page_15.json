@@ -1,0 +1,36 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "“Authorities have to focus on just stopping the spread, rather than putting the fire out.” This means that the authorities:",
+      "options": [
+        {
+          "label": "1",
+          "text": "want only to slow down the spread of fire"
+        },
+        {
+          "label": "2",
+          "text": "do not want to put the fires out"
+        },
+        {
+          "label": "3",
+          "text": "want to stop the fires from spreading first and then put them out"
+        },
+        {
+          "label": "4",
+          "text": "want to put out the fires once and for all"
+        }
+      ],
+      "question_id": "8161615512",
+      "chosen_option_label": "2",
+      "correct_option_label": "3",
+      "correct_option_text": "want to stop the fires from spreading first and then put them out",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

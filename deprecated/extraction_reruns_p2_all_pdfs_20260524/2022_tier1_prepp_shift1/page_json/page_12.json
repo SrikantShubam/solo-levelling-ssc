@@ -1,0 +1,156 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "The term ‘Parliament’ refers to the ____________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rajya Sabha"
+        },
+        {
+          "label": "2",
+          "text": "Lok Sabha"
+        },
+        {
+          "label": "3",
+          "text": "State legislature"
+        },
+        {
+          "label": "4",
+          "text": "National legislature"
+        }
+      ],
+      "question_id": "26433064848",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "National legislature",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Chief Minister of which state has inaugurated a project of the Women and Child Development department to provide milk and eggs to children at all anganwadis in the state in a bid to improve their nutrition levels?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Andhra Pradesh"
+        },
+        {
+          "label": "2",
+          "text": "Kerala"
+        },
+        {
+          "label": "3",
+          "text": "Karnataka"
+        },
+        {
+          "label": "4",
+          "text": "Tamil Nadu"
+        }
+      ],
+      "question_id": "264330105318",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "Kerala",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "A 'Camel Protection and Development Policy' has been announced by the government of ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rajasthan"
+        },
+        {
+          "label": "2",
+          "text": "Punjab"
+        },
+        {
+          "label": "3",
+          "text": "Gujarat"
+        },
+        {
+          "label": "4",
+          "text": "Ladakh"
+        }
+      ],
+      "question_id": "264330105275",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Rajasthan",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Who among the following Presidents of India was also the deputy chairman of Planning Commission?",
+      "options": [
+        {
+          "label": "1",
+          "text": "V V Giri"
+        },
+        {
+          "label": "2",
+          "text": "K R Narayanan"
+        },
+        {
+          "label": "3",
+          "text": "Ramaswamy Venkataraman"
+        },
+        {
+          "label": "4",
+          "text": "Pranab Mukherjee"
+        }
+      ],
+      "question_id": "26433066618",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Pranab Mukherjee",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "In Golgi apparatus, the maturing face is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "spherical"
+        },
+        {
+          "label": "2",
+          "text": "convex"
+        },
+        {
+          "label": "3",
+          "text": "bi-concave"
+        },
+        {
+          "label": "4",
+          "text": "concave"
+        }
+      ],
+      "question_id": "26433086612",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "convex",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

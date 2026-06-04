@@ -1,0 +1,126 @@
+{
+  "page": 16,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "₹2,500, when invested for 8 years at a given rate of simple interest per year, amounted to ₹3,725 on maturity. What was the rate of simple interest that was paid per annum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6%"
+        },
+        {
+          "label": "2",
+          "text": "6.125%"
+        },
+        {
+          "label": "3",
+          "text": "6.25%"
+        },
+        {
+          "label": "4",
+          "text": "5.875%"
+        }
+      ],
+      "question_id": "26433075882",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "6.125%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "The following table shows the number of pages printed by 3 printers during 3 days.\n\nPrinters | X | Y | Z\nDays | | | \nMonday | 130 | 140 | 210\nTuesday | 110 | 145 | 160\nWednesday | 180 | 90 | 218\n\nWhat is the average number of pages printed by printer Z during the 3 days?",
+      "options": [
+        {
+          "label": "1",
+          "text": "196"
+        },
+        {
+          "label": "2",
+          "text": "194"
+        },
+        {
+          "label": "3",
+          "text": "192"
+        },
+        {
+          "label": "4",
+          "text": "190"
+        }
+      ],
+      "question_id": "26433082992",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "196",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "The batting average for 27 innings of a cricket player is 47 runs. His highest score in an innings exceeds his lowest score by 157 runs. If these two innings are excluded, the average score of the remaining 25 innings is 42 runs. Find his highest score in an innings.",
+      "options": [
+        {
+          "label": "1",
+          "text": "176"
+        },
+        {
+          "label": "2",
+          "text": "188"
+        },
+        {
+          "label": "3",
+          "text": "186"
+        },
+        {
+          "label": "4",
+          "text": "174"
+        }
+      ],
+      "question_id": "26433066295",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "188",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "P and Q can complete a project in 15 days and 10 days, respectively. They started doing the work together, but after 2 days, Q had to leave and P alone completed the remaining work. In how many days was the whole work completed?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "13"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "question_id": "26433075164",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "12",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

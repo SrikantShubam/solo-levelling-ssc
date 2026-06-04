@@ -1,0 +1,18 @@
+PDF: 2021_tier1_prepp_shift1
+Page: 29
+Question Number: None
+Global Q#: 61
+Section: None
+Modality: math_formula
+Blocking Reasons: ['correct_option_unresolved_or_conflict']
+Has Correct Label: False
+Evidence Source: unavailable
+
+--- Question Text ---
+What is the ratio of the total number of students who scored 140 marks and above to the total number of students who scored marks between 60 to 120?
+
+--- Options ---
+  (1) 11 : 9
+  (2) 9 : 11
+  (3) 110 : 137
+  (4) 137 : 110

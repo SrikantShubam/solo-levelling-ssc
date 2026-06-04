@@ -1,0 +1,104 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 49,
+      "section": null,
+      "question_text_full": "Which component of a time series represents short-term fluctuations due to seasonal factors?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Seasonal component"
+        },
+        {
+          "label": "2",
+          "text": "Irregular component"
+        },
+        {
+          "label": "3",
+          "text": "Cyclical component"
+        },
+        {
+          "label": "4",
+          "text": "Trend"
+        }
+      ],
+      "question_id": "6306801352952",
+      "chosen_option_label": "4",
+      "correct_option_label": "1",
+      "correct_option_text": "Seasonal component",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 50,
+      "section": null,
+      "question_text_full": "Type I error occurs when:",
+      "options": [
+        {
+          "label": "1",
+          "text": "a false null hypothesis is rejected"
+        },
+        {
+          "label": "2",
+          "text": "a true null hypothesis is rejected"
+        },
+        {
+          "label": "3",
+          "text": "a true null hypothesis is accepted"
+        },
+        {
+          "label": "4",
+          "text": "a false null hypothesis is accepted"
+        }
+      ],
+      "question_id": "6306801352959",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "a true null hypothesis is rejected",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 51,
+      "section": null,
+      "question_text_full": "Which of the following statements is FALSE?",
+      "options": [
+        {
+          "label": "1",
+          "text": "An alternative hypothesis is complementary to null hypothesis."
+        },
+        {
+          "label": "2",
+          "text": "The hypothesis for testing mu < mu0 is two sided / two tailed."
+        },
+        {
+          "label": "3",
+          "text": "The null hypothesis H0: mu = mu0 can be tested against the alternative H1: mu not equal to mu0."
+        },
+        {
+          "label": "4",
+          "text": "The hypothesis for testing mu > mu0 is one sided / right tailed."
+        }
+      ],
+      "question_id": "6306801308014",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "The hypothesis for testing mu < mu0 is two sided / two tailed.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

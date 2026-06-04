@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 17
+Question Number: 38
+Global Q#: 37
+Section: None
+Modality: visual_options
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 4
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Select the option figure that will replace the question mark (?) in the figure given below to complete the pattern.
+
+--- Options ---
+  (1) Figure a (implied by context of missing options)
+  (2) Figure b
+  (3) Figure c
+  (4) Figure d

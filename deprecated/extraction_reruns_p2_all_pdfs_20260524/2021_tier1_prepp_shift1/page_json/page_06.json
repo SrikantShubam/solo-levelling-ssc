@@ -1,0 +1,39 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Select the option in which the given figure is embedded (rotation is NOT allowed).",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure a"
+        },
+        {
+          "label": "2",
+          "text": "Figure b"
+        },
+        {
+          "label": "3",
+          "text": "Figure c"
+        },
+        {
+          "label": "4",
+          "text": "Figure d"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The page contains a standalone analogy question at the top and question 9. Neither question has an 'Ans' block with green/red marks, so correct/chosen options are null."
+    }
+  ],
+  "warnings": [
+    "The first question (223 : 350 :: 519 : ?) does not have a question number and lacks an 'Ans' block, but was included as it is a visible question on the page.",
+    "Question 9 does not have an 'Ans' block with green/red marks."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "page": 56,
+  "questions": [
+    {
+      "question_number": 95,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice.\nHas Rahul been declared fit to play the next match?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Did they declare Rahul fit to play the next match?"
+        },
+        {
+          "label": "2",
+          "text": "Has Rahul declared the next match fit to play?"
+        },
+        {
+          "label": "3",
+          "text": "Have they declared Rahul fit to play the next match?"
+        },
+        {
+          "label": "4",
+          "text": "Are they declaring Rahul fit to play the next match?"
+        }
+      ],
+      "question_id": "26433083179",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Have they declared Rahul fit to play the next match?",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 96,
+      "section": null,
+      "question_text_full": "Select the most appropriate one word to substitute the given group of words.\na case for keeping a sword",
+      "options": [
+        {
+          "label": "1",
+          "text": "sleeve"
+        },
+        {
+          "label": "2",
+          "text": "sheath"
+        },
+        {
+          "label": "3",
+          "text": "quiver"
+        },
+        {
+          "label": "4",
+          "text": "wrapper"
+        }
+      ],
+      "question_id": "26433083294",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "sheath",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 97,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order forming a meaningful and coherent paragraph.\nA. In 1943, sudden retrenchment from his office due to the war cost him his nine year old job.\nB. In 1934, Patol Babu gave up his factory job and came to Calcutta with his wife.\nC. Ever since, Patol Babu had struggled to make a living.\nD. The sailing was smooth for some years and Patol Babu was in his boss's good books.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ADBC"
+        },
+        {
+          "label": "2",
+          "text": "CBDA"
+        },
+        {
+          "label": "3",
+          "text": "DACB"
+        },
+        {
+          "label": "4",
+          "text": "BDAC"
+        }
+      ],
+      "question_id": "26433083482",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "BDAC",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

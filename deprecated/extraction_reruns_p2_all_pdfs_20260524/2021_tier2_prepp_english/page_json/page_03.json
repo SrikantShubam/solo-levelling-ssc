@@ -1,0 +1,36 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 2,
+      "section": "Comprehension",
+      "question_text_full": "How do tourists reach the base of the crater?",
+      "options": [
+        {
+          "label": "1",
+          "text": "They go through the tectonic plates"
+        },
+        {
+          "label": "2",
+          "text": "They go across lava fields"
+        },
+        {
+          "label": "3",
+          "text": "They walk down"
+        },
+        {
+          "label": "4",
+          "text": "They descend in a basket"
+        }
+      ],
+      "question_id": "26433083320",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "They descend in a basket",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

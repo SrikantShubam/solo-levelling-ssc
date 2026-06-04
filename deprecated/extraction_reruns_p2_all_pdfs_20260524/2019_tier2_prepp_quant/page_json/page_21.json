@@ -1,0 +1,156 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 71,
+      "section": null,
+      "question_text_full": "The sum of the radii of spheres A and B is 14 cm, the radius of A being larger than that of B. The difference between their surface areas is 112 π. What is the ratio of the volumes of A and B?",
+      "options": [
+        {
+          "label": "1",
+          "text": "64 : 27"
+        },
+        {
+          "label": "2",
+          "text": "8 : 1"
+        },
+        {
+          "label": "3",
+          "text": "27 : 8"
+        },
+        {
+          "label": "4",
+          "text": "125 : 64"
+        }
+      ],
+      "question_id": "8161615352",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "64 : 27",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 72,
+      "section": null,
+      "question_text_full": "The perimeters of ΔABC and ΔDEF are 43.2 cm and 28.8 cm, respectively, and ΔABC~ΔDEF. If DE = 12 cm, then the length of AB is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "18 cm"
+        },
+        {
+          "label": "2",
+          "text": "20 cm"
+        },
+        {
+          "label": "3",
+          "text": "18.4 cm"
+        },
+        {
+          "label": "4",
+          "text": "20.4 cm"
+        }
+      ],
+      "question_id": "8161615342",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "18 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 73,
+      "section": null,
+      "question_text_full": "If 27(x + y)³ - 8(x - y)³ = (x + 5y)(Ax² + By² + Cxy) , then what is the value of (A + B - C)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "13"
+        },
+        {
+          "label": "2",
+          "text": "16"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "11"
+        }
+      ],
+      "question_id": "8161615327",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "16",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 74,
+      "section": null,
+      "question_text_full": "When 1062, 1134 and 1182 are divided by the greatest number x, the remainder in each case is y. What is the value of (x - y)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "19"
+        },
+        {
+          "label": "2",
+          "text": "17"
+        },
+        {
+          "label": "3",
+          "text": "18"
+        },
+        {
+          "label": "4",
+          "text": "16"
+        }
+      ],
+      "question_id": "8161615282",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "18",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 75,
+      "section": null,
+      "question_text_full": "Pipes A and B can fill a tank in 43.2 minutes and 108 minutes, respectively. Pipe C can empty it at 3 litres/minute. When all the three pipes are opened together, they fill the tank in 54 minutes. The capacity (in litres) of the tank is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "160"
+        },
+        {
+          "label": "2",
+          "text": "216"
+        },
+        {
+          "label": "3",
+          "text": "200"
+        },
+        {
+          "label": "4",
+          "text": "180"
+        }
+      ],
+      "question_id": "8161615322",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "216",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

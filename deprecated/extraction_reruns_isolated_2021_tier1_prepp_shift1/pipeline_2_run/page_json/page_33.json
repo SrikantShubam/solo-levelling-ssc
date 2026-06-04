@@ -1,0 +1,7 @@
+{
+  "page": 33,
+  "questions": [],
+  "warnings": [
+    "No valid SSC question structure found on the provided page. The page contains only a list of mathematical values (a, b, c, d) and branding elements, lacking a question stem, answer options block, or selection indicators."
+  ]
+}

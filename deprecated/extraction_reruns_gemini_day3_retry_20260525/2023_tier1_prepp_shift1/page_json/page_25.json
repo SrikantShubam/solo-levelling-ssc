@@ -1,0 +1,134 @@
+{
+  "page": 25,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the underlined idiom in the given sentence. Pooja tried to explain the problem, but soon she tied herself up in knots.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Be forced to explain your actions and (probably) punished"
+        },
+        {
+          "label": "2",
+          "text": "Become very confused when you are trying to explain something"
+        },
+        {
+          "label": "3",
+          "text": "Make no progress in an argument or discussion"
+        },
+        {
+          "label": "4",
+          "text": "Won't modify an opinion or agree to even small changes that another person wants"
+        }
+      ],
+      "question_id": "26433091349",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Become very confused when you are trying to explain something",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. In Bihar and Central India, in particular, every district had smelters that used local deposits of ore to produce iron which was widely used for the manufacture of implements and tools of daily use.\nB. The smelting was done by men while women worked on the bellows, pumping air that kept the charcoal burning.\nC. But iron smelting in India was extremely common till the end of the nineteenth century.\nD. Production of Wootz steel required a highly specialised technique of refining iron.",
+      "options": [
+        {
+          "label": "1",
+          "text": "ACDB"
+        },
+        {
+          "label": "2",
+          "text": "DCAB"
+        },
+        {
+          "label": "3",
+          "text": "BCDA"
+        },
+        {
+          "label": "4",
+          "text": "CBDA"
+        }
+      ],
+      "question_id": "264330143864",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "DCAB",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. He repeated the experiment, increasing the amount until he had weighed up to a thousand pounds.\nB. During the spring of 1717, the iron foundries in a remote district were often visited by a thin, middle-aged man with a notebook.\nC. Three cauldrons were next prepared under his directions.\nD. He would weigh out two pounds of iron, have them heated till they were red-hot and then weigh them again.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BDAC"
+        },
+        {
+          "label": "2",
+          "text": "ABDC"
+        },
+        {
+          "label": "3",
+          "text": "BCAD"
+        },
+        {
+          "label": "4",
+          "text": "CABD"
+        }
+      ],
+      "question_id": "26433096974",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "BDAC",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank.\nShe is __________ a peacock in the blue satin saree.",
+      "options": [
+        {
+          "label": "1",
+          "text": "very beautiful as"
+        },
+        {
+          "label": "2",
+          "text": "so beautiful as"
+        },
+        {
+          "label": "3",
+          "text": "as beautiful as"
+        },
+        {
+          "label": "4",
+          "text": "beautiful like"
+        }
+      ],
+      "question_id": "26433072720",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "as beautiful as",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

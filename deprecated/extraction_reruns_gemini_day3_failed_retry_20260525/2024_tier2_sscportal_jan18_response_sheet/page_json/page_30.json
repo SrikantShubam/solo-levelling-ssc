@@ -1,0 +1,104 @@
+{
+  "page": 30,
+  "questions": [
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nOne who cannot make a mistake",
+      "options": [
+        {
+          "label": "1",
+          "text": "Impregnable"
+        },
+        {
+          "label": "2",
+          "text": "Inevitable"
+        },
+        {
+          "label": "3",
+          "text": "Inimitable"
+        },
+        {
+          "label": "4",
+          "text": "Infallible"
+        }
+      ],
+      "question_id": "63068069344",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Infallible",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Select the most appropriate homophone from the options to fill in the blank.\nWe should _________ away all prejudices to live in harmony.",
+      "options": [
+        {
+          "label": "1",
+          "text": "caste"
+        },
+        {
+          "label": "2",
+          "text": "coast"
+        },
+        {
+          "label": "3",
+          "text": "cast"
+        },
+        {
+          "label": "4",
+          "text": "cost"
+        }
+      ],
+      "question_id": "630680168552",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "cast",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. As cost of raw materials cannot be reduced, exporters try to cut labour costs.\nB. Large MNCs in the garment industry in Europe and America order their products from Indian exporters.\nC. These large MNCs with worldwide network look for the cheapest goods in order to maximise their profits.\nD. To get these large orders, Indian garment exporters try hard to cut their own costs.\nE. Where earlier a factory used to employ workers on a permanent basis, now they employ workers on a temporary basis so that they do not have to pay workers for the whole year.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BCDAE"
+        },
+        {
+          "label": "2",
+          "text": "CDAEB"
+        },
+        {
+          "label": "3",
+          "text": "DCABE"
+        },
+        {
+          "label": "4",
+          "text": "ADECB"
+        }
+      ],
+      "question_id": "630680628235",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "BCDAE",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

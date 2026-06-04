@@ -1,0 +1,104 @@
+{
+  "page": 3,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "If a : b = 2 : 3, b : c = 5 : 7, then find the ratio c : a.",
+      "options": [
+        {
+          "label": "1",
+          "text": "15 : 21"
+        },
+        {
+          "label": "2",
+          "text": "20 : 21"
+        },
+        {
+          "label": "3",
+          "text": "21 : 10"
+        },
+        {
+          "label": "4",
+          "text": "10 : 21"
+        }
+      ],
+      "question_id": "630680631026",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "21 : 10",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "In a circle centered at O, a diameter AB is extended to a point C outside the circle. CD is a tangent at point D on the circle. If CD = 7√3 cm and ∠DBC = 120°, then the length of the diameter of the circle is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "16 cm"
+        },
+        {
+          "label": "2",
+          "text": "20 cm"
+        },
+        {
+          "label": "3",
+          "text": "18 cm"
+        },
+        {
+          "label": "4",
+          "text": "14 cm"
+        }
+      ],
+      "question_id": "630680395271",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "14 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "If x = 4 + √6 and y= 4 - √6 then the value of x² + y² is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "51"
+        },
+        {
+          "label": "2",
+          "text": "42"
+        },
+        {
+          "label": "3",
+          "text": "44"
+        },
+        {
+          "label": "4",
+          "text": "43"
+        }
+      ],
+      "question_id": "630680677632",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "44",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

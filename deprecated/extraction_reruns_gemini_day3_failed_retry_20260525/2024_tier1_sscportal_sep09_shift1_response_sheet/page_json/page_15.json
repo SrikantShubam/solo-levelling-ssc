@@ -1,0 +1,134 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Mohan Veena player, Pandit Vishwa Mohan Bhatt won the __________ Award in the year 1994.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Grammy"
+        },
+        {
+          "label": "2",
+          "text": "Sangita Kalanidhi"
+        },
+        {
+          "label": "3",
+          "text": "Oscar"
+        },
+        {
+          "label": "4",
+          "text": "Sangeet Natak Akademi"
+        }
+      ],
+      "question_id": "630680415805",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Grammy",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Who is Union Minister of State (Independent Charge) for Science and Technology as of July 2023?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Dharmendra Pradhan"
+        },
+        {
+          "label": "2",
+          "text": "Jitendra Singh"
+        },
+        {
+          "label": "3",
+          "text": "Ashwini Vaishnaw"
+        },
+        {
+          "label": "4",
+          "text": "Ramesh Pokhriyal"
+        }
+      ],
+      "question_id": "630680413037",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Jitendra Singh",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Which of the following decomposition reactions is NOT a redox reaction?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Decomposition of sodium hydride"
+        },
+        {
+          "label": "2",
+          "text": "Decomposition of calcium carbonate"
+        },
+        {
+          "label": "3",
+          "text": "Decomposition of potassium chlorate"
+        },
+        {
+          "label": "4",
+          "text": "Decomposition of dihydrogen monoxide"
+        }
+      ],
+      "question_id": "63068052318",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Decomposition of calcium carbonate",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Who among the following has authored the play ‘Nil Darpan’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Chittaranjan Das"
+        },
+        {
+          "label": "2",
+          "text": "Motilal Nehru"
+        },
+        {
+          "label": "3",
+          "text": "Dinabandhu Mitra"
+        },
+        {
+          "label": "4",
+          "text": "Sarojini Naidu"
+        }
+      ],
+      "question_id": "630680511521",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Dinabandhu Mitra",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

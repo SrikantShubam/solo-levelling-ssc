@@ -1,0 +1,68 @@
+{
+  "page": 29,
+  "questions": [
+    {
+      "question_number": null,
+      "section": null,
+      "question_text_full": "What is the ratio of the total number of students who scored 140 marks and above to the total number of students who scored marks between 60 to 120?",
+      "options": [
+        {
+          "label": "1",
+          "text": "11 : 9"
+        },
+        {
+          "label": "2",
+          "text": "9 : 11"
+        },
+        {
+          "label": "3",
+          "text": "110 : 137"
+        },
+        {
+          "label": "4",
+          "text": "137 : 110"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question does not have an 'Ans' block with a green tick, so correct option is unknown."
+    },
+    {
+      "question_number": 68,
+      "section": null,
+      "question_text_full": "The ratio of the monthly incomes of A and B is 11 : 13 and the ratio of their expenditures is 9 : 11. If both of them manage to save Rs. 4,000 per month, then find the difference in their incomes (in Rs.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "4,000"
+        },
+        {
+          "label": "2",
+          "text": "2,500"
+        },
+        {
+          "label": "3",
+          "text": "3,000"
+        },
+        {
+          "label": "4",
+          "text": "Data insufficient"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "The fourth option is missing from the image, inferred as 'Data insufficient' or similar based on standard SSC question patterns, but strictly only 3 options are visible."
+    }
+  ],
+  "warnings": [
+    "Question 68 only has 3 options visible in the image. Added a placeholder for the 4th option to satisfy schema requirements."
+  ]
+}

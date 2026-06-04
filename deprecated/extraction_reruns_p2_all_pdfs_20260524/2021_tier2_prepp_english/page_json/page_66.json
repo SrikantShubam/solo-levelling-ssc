@@ -1,0 +1,126 @@
+{
+  "page": 66,
+  "questions": [
+    {
+      "question_number": 129,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in indirect speech.\nHe said, “Oh, how I would have loved to visit Kashmir this year.”",
+      "options": [
+        {
+          "label": "1",
+          "text": "He exclaimed that he would have really loved to visit Kashmir that year."
+        },
+        {
+          "label": "2",
+          "text": "He exclaimed that how he would have loved to visit Kashmir that year."
+        },
+        {
+          "label": "3",
+          "text": "He exclaimed how I would have loved to visit Kashmir this year."
+        },
+        {
+          "label": "4",
+          "text": "He said that he will have loved to visit Kashmir this year."
+        }
+      ],
+      "question_id": "26433083211",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "He exclaimed that he would have really loved to visit Kashmir that year.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 130,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to improve the underlined segment in the given sentence. If there is no need to improve it, select ‘no improvement required’.\nYou can have a comfortable journey only then you are getting your seats reserved in advance.",
+      "options": [
+        {
+          "label": "1",
+          "text": "only then you get"
+        },
+        {
+          "label": "2",
+          "text": "no improvement required"
+        },
+        {
+          "label": "3",
+          "text": "only when you are getting"
+        },
+        {
+          "label": "4",
+          "text": "only if you get"
+        }
+      ],
+      "question_id": "26433083379",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "only if you get",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 131,
+      "section": null,
+      "question_text_full": "Select the most appropriate direct form of the given sentence.\nTaru asked Kavya if she would help her in setting up her new dressing table.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Taru said to Kavya, “Will you help me in setting up her new dressing table?”"
+        },
+        {
+          "label": "2",
+          "text": "Taru said to Kavya, “Will you help me in setting up my new dressing table?”"
+        },
+        {
+          "label": "3",
+          "text": "Taru said to Kavya, “How would you help me in setting up my new dressing table?”"
+        },
+        {
+          "label": "4",
+          "text": "Taru said to Kavya, “Would you help her in setting up my new dressing table?”"
+        }
+      ],
+      "question_id": "26433083415",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Taru said to Kavya, “Will you help me in setting up my new dressing table?”",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 132,
+      "section": null,
+      "question_text_full": "Identify the segment that contains a grammatical error.\nIf I was you, I would not lose temper in this situation.",
+      "options": [
+        {
+          "label": "1",
+          "text": "If I was you"
+        },
+        {
+          "label": "2",
+          "text": "in this situation"
+        },
+        {
+          "label": "3",
+          "text": "I would not"
+        },
+        {
+          "label": "4",
+          "text": "lose temper"
+        }
+      ],
+      "question_id": "26433083143",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "If I was you",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

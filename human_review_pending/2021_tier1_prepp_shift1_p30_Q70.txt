@@ -1,0 +1,19 @@
+PDF: 2021_tier1_prepp_shift1
+Page: 30
+Question Number: 70
+Global Q#: 64
+Section: None
+Modality: graph_chart
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+The number of cars passing the road near a colony from 6 am to 12 noon has been shown in the following histogram. What is the ratio of the number of cars passed between 6 am and 8 am to the number of cars passed between 9 am and 11 am?
+
+--- Options ---
+  (1) 7 : 4
+  (2) Not enough options visible
+  (3) Not enough options visible
+  (4) Not enough options visible

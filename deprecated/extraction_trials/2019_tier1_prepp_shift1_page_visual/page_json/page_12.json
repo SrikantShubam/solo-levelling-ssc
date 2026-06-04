@@ -1,0 +1,156 @@
+{
+  "page": 12,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "What is the uniform GST rate that has been fixed up for lottery prizes by the GST Council?",
+      "options": [
+        {
+          "label": "1",
+          "text": "32 %"
+        },
+        {
+          "label": "2",
+          "text": "28 %"
+        },
+        {
+          "label": "3",
+          "text": "18 %"
+        },
+        {
+          "label": "4",
+          "text": "10 %"
+        }
+      ],
+      "question_id": "12356849",
+      "chosen_option_label": "1",
+      "correct_option_label": "2",
+      "correct_option_text": "28 %",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "From India, who inaugurated the Kartarpur Corridor and flagged off the first set of pilgrims to the final resting place of Sikhism founder Guru Nanak Dev?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ram Nath Kovind"
+        },
+        {
+          "label": "2",
+          "text": "Manmohan Singh"
+        },
+        {
+          "label": "3",
+          "text": "Narendra Modi"
+        },
+        {
+          "label": "4",
+          "text": "Amarinder Singh"
+        }
+      ],
+      "question_id": "12356848",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "Narendra Modi",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "In which year Sanchi was discovered after being abandoned for nearly 600 Years?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1816"
+        },
+        {
+          "label": "2",
+          "text": "1820"
+        },
+        {
+          "label": "3",
+          "text": "1818"
+        },
+        {
+          "label": "4",
+          "text": "1814"
+        }
+      ],
+      "question_id": "12356841",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "1818",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Which of these words refers to the scientific study of domestic dogs?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Chrematistics"
+        },
+        {
+          "label": "2",
+          "text": "Cynology"
+        },
+        {
+          "label": "3",
+          "text": "Craniology"
+        },
+        {
+          "label": "4",
+          "text": "Carpology"
+        }
+      ],
+      "question_id": "12356834",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "Cynology",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "The Araku Valley, a tourist resort, is located near which of these cities of South India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Visakhapatnam"
+        },
+        {
+          "label": "2",
+          "text": "Madurai"
+        },
+        {
+          "label": "3",
+          "text": "Mangalore"
+        },
+        {
+          "label": "4",
+          "text": "Kochi"
+        }
+      ],
+      "question_id": "12356837",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Visakhapatnam",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

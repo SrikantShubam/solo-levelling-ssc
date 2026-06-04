@@ -1,0 +1,21 @@
+PDF: 2024_tier1_prepp_shift1
+Page: 7
+Question Number: 11
+Global Q#: 11
+Section: None
+Modality: visual_options
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 2
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Select the word-pair that best represents a similar relationship to the one expressed in the pair of words given below.
+
+Virus : Parasite
+
+--- Options ---
+  (1) Fungus : Jasmine
+  (2) Amaltas : Tree
+  (3) Figure 3
+  (4) Figure 4

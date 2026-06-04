@@ -1,0 +1,134 @@
+{
+  "page": 23,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Select the most appropriate ANTONYM of the underlined word in the given sentence.\nHenry is so servile that other people take advantage of him.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Arrogant"
+        },
+        {
+          "label": "2",
+          "text": "Sheepish"
+        },
+        {
+          "label": "3",
+          "text": "Bickering"
+        },
+        {
+          "label": "4",
+          "text": "Cunning"
+        }
+      ],
+      "question_id": "26433087923",
+      "chosen_option_label": "4",
+      "correct_option_label": "1",
+      "correct_option_text": "Arrogant",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nA thing fit to eat.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Eligible"
+        },
+        {
+          "label": "2",
+          "text": "Digestible"
+        },
+        {
+          "label": "3",
+          "text": "Curable"
+        },
+        {
+          "label": "4",
+          "text": "Edible"
+        }
+      ],
+      "question_id": "26433086366",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Edible",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the given idiom.\nLily-livered",
+      "options": [
+        {
+          "label": "1",
+          "text": "Brave"
+        },
+        {
+          "label": "2",
+          "text": "Comical"
+        },
+        {
+          "label": "3",
+          "text": "Not brave"
+        },
+        {
+          "label": "4",
+          "text": "Naughty"
+        }
+      ],
+      "question_id": "26433089007",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Not brave",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nZealous",
+      "options": [
+        {
+          "label": "1",
+          "text": "Enthusiastic"
+        },
+        {
+          "label": "2",
+          "text": "Detached"
+        },
+        {
+          "label": "3",
+          "text": "Apathetic"
+        },
+        {
+          "label": "4",
+          "text": "Indifferent"
+        }
+      ],
+      "question_id": "26433073693",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "Enthusiastic",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

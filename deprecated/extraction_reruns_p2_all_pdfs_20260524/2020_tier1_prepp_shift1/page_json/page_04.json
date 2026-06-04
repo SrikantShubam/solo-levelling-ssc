@@ -1,0 +1,96 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the letter-cluster that is different.",
+      "options": [
+        {
+          "label": "1",
+          "text": "FBXT"
+        },
+        {
+          "label": "2",
+          "text": "TPLH"
+        },
+        {
+          "label": "3",
+          "text": "CYUQ"
+        },
+        {
+          "label": "4",
+          "text": "NJFA"
+        }
+      ],
+      "question_id": "81616113820",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "NJFA",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "P, L, T, B, N and D are six members of a business family. N is the son of B, who is not the mother of N. L is the brother of B. D and B are a married couple. T is the daughter of D, who is the sister of P. How is N related to T?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sister"
+        },
+        {
+          "label": "2",
+          "text": "Mother"
+        },
+        {
+          "label": "3",
+          "text": "Father"
+        },
+        {
+          "label": "4",
+          "text": "Brother"
+        }
+      ],
+      "question_id": "81616113322",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Brother",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Select the correct combination of mathematical signs that can sequentially replace the * signs and balance the given equation.\n42 * 7 * 64 * 11 * 6 *4",
+      "options": [
+        {
+          "label": "1",
+          "text": "÷, +, –, ×, ="
+        },
+        {
+          "label": "2",
+          "text": "×, +, –, ÷, ="
+        },
+        {
+          "label": "3",
+          "text": "÷, –, +, ×, ="
+        },
+        {
+          "label": "4",
+          "text": "×, –, +, ÷, ="
+        }
+      ],
+      "question_id": "81616113935",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "÷, +, –, ×, =",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

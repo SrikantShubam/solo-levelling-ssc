@@ -1,0 +1,106 @@
+{
+  "page": 29,
+  "questions": [
+    {
+      "question_number": 63,
+      "section": null,
+      "question_text_full": "Raj divides ₹1,200 in the ratio 2 : 1 : 3 among three of his friends. The amount equal to the sum of three times the largest share and two times the smallest share is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹2,400"
+        },
+        {
+          "label": "2",
+          "text": "₹1,800"
+        },
+        {
+          "label": "3",
+          "text": "₹2,200"
+        },
+        {
+          "label": "4",
+          "text": "₹2,000"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 64,
+      "section": null,
+      "question_text_full": "A shopkeeper marked an article at ₹5,000. The shopkeeper allows successive discounts of 20%, 15%, and 10%. The selling price of the article is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹2,750"
+        },
+        {
+          "label": "2",
+          "text": "₹3,000"
+        },
+        {
+          "label": "3",
+          "text": "₹2,800"
+        },
+        {
+          "label": "4",
+          "text": "₹3,060"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 65,
+      "section": null,
+      "question_text_full": "The average of 12 numbers is 48. The average of the first 5 numbers is 45, and the average of the next 4 numbers is 52. If the 10th number is 10 less than the 11th number and 5 more than the 12th number, then the average of the 11th and 12th numbers is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "50.5"
+        },
+        {
+          "label": "2",
+          "text": "46.5"
+        },
+        {
+          "label": "3",
+          "text": "47.5"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "medium",
+      "notes": "Only 3 options are visible in the image. Option 4 is missing."
+    }
+  ],
+  "warnings": [
+    "Question 65 is incomplete as it only shows 3 options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

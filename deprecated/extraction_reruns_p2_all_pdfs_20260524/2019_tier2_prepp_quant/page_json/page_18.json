@@ -1,0 +1,96 @@
+{
+  "page": 18,
+  "questions": [
+    {
+      "question_number": null,
+      "section": null,
+      "question_text_full": "If 1/(4-√8) + (3+2√2)/(3-2√2) - (3-2√2)/(3+2√2) = a + b√2, then what is the value of (3a + 4b)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "99 1/2"
+        },
+        {
+          "label": "2",
+          "text": "97"
+        },
+        {
+          "label": "3",
+          "text": "98 1/2"
+        },
+        {
+          "label": "4",
+          "text": "98"
+        }
+      ],
+      "question_id": "8161615291",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "98 1/2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 61,
+      "section": null,
+      "question_text_full": "Study the given graph and answer the question that follows. In how many years was the profit (Revenue - Expenditure) as a percentage of the revenue, more than 25%?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "1"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "question_id": "8161615373",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 62,
+      "section": null,
+      "question_text_full": "A and B are solutions of acid and water. The ratios of water and acid in A and B are 4 : 5 and 1 : 2, respectively. If x litres of A is mixed with y litres of B, then the ratio of water and acid in the mixture becomes 8 : 13. What is x : y?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 : 6"
+        },
+        {
+          "label": "2",
+          "text": "3 : 4"
+        },
+        {
+          "label": "3",
+          "text": "2 : 3"
+        },
+        {
+          "label": "4",
+          "text": "2 : 5"
+        }
+      ],
+      "question_id": "8161615316",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "3 : 4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

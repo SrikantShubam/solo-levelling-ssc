@@ -1,0 +1,46 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 64,
+      "section": null,
+      "question_text_full": "Parts of a sentence are given below in jumbled order. Select the option that gives the correct logical sequence to form a meaningful sentence.\na. it requires constant sustenance\nb. in order for life to be liveable\nc. that enable it to grow and develop\nd. and favourable circumstances",
+      "options": [
+        {
+          "label": "1",
+          "text": "a, b, c, d"
+        },
+        {
+          "label": "2",
+          "text": "b, a, d, c"
+        },
+        {
+          "label": "3",
+          "text": "c, d, a, b"
+        },
+        {
+          "label": "4",
+          "text": "d, c, b, a"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question asks for the correct sequence of parts a, b, c, d. The options provided are labeled a, b, c, d in the image, but mapped to 1, 2, 3, 4 for the schema."
+    }
+  ],
+  "warnings": [
+    "The question 64 options are labeled a, b, c, d in the source image, but mapped to 1, 2, 3, 4 to satisfy the schema requirement."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,146 @@
+{
+  "pages": [
+    1,
+    5,
+    17,
+    28
+  ],
+  "results": [
+    {
+      "provider": "nvidia_nim",
+      "model": "meta/llama-3.2-11b-vision-instruct",
+      "status": "FAIL",
+      "pages": [
+        {
+          "page": 1,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 1,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        },
+        {
+          "page": 5,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 2,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        },
+        {
+          "page": 17,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 4,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        },
+        {
+          "page": 28,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 2,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        }
+      ],
+      "mean_correct_accuracy": 0.0,
+      "mean_chosen_accuracy": 0.0,
+      "fills_reference_missing_chosen": 0,
+      "mean_option_shape_accuracy": 0.0,
+      "mean_text_similarity": 0.0
+    },
+    {
+      "provider": "nvidia_nim",
+      "model": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+      "status": "FAIL",
+      "pages": [
+        {
+          "page": 1,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 1,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        },
+        {
+          "page": 5,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 2,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        },
+        {
+          "page": 17,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 4,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        },
+        {
+          "page": 28,
+          "status": "FAIL",
+          "question_count": 0,
+          "reference_question_count": 2,
+          "count_match": false,
+          "correct_accuracy": 0.0,
+          "chosen_accuracy": 0.0,
+          "chosen_reference_count": 0,
+          "fills_reference_missing_chosen": 0,
+          "option_shape_accuracy": 0.0,
+          "mean_text_similarity": 0,
+          "issues": []
+        }
+      ],
+      "mean_correct_accuracy": 0.0,
+      "mean_chosen_accuracy": 0.0,
+      "fills_reference_missing_chosen": 0,
+      "mean_option_shape_accuracy": 0.0,
+      "mean_text_similarity": 0.0
+    }
+  ]
+}

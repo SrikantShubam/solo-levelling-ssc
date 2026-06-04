@@ -1,0 +1,11 @@
+{
+  "page": 1,
+  "questions": [],
+  "warnings": [
+    "ERROR Schema: expected object got list",
+    "[\n    {\n        \"question_number\": 1,\n        \"section\": \"General Intelligence and Reasoning\",\n        \"question_text_full\": \"Select the option figure which is embedded in the given figure. (Rotation is NOT allowed).\",\n        \"options\": [\n            {\n                \"label\": \"1\",\n                \"text\": \"Figure 1\"\n            },\n            {\n                \"label\": \"2\",\n                \"text\": \"Figure 2\"\n            },\n            {\n                \"label\": \"3\",\n                \"text\": \"Figure 3\"\n            },\n            {\n                \"label\": \"4\",\n                \"text\": \"Figure 4\"\n            }\n        ],\n        \"question_id\": \"26433089778\",\n        \"chosen_option_label\": \"2\",\n        \"correct_option_label\": \"2\",\n        \"correct_option_text\": \"Figure 2\",\n        \"is_complete_on_page\": true,\n        \"confidence\": \"high\",\n        \"notes\": \"\"\n    }\n]"
+  ],
+  "page_status": "ERROR",
+  "provider": "nvidia_nim",
+  "model": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1"
+}

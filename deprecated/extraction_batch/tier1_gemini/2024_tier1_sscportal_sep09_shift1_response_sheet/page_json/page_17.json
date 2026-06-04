@@ -1,0 +1,126 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "The head office of Board of Control for Cricket in India (BCCI) is located in ________.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Kolkata"
+        },
+        {
+          "label": "2",
+          "text": "Chennai"
+        },
+        {
+          "label": "3",
+          "text": "Mumbai"
+        },
+        {
+          "label": "4",
+          "text": "New Delhi"
+        }
+      ],
+      "question_id": "630680510747",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Mumbai",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "When the analysis of population density is done by calculating it through net cultivated area, then the measure is termed as:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Net density"
+        },
+        {
+          "label": "2",
+          "text": "Gross density"
+        },
+        {
+          "label": "3",
+          "text": "Agricultural density"
+        },
+        {
+          "label": "4",
+          "text": "Physiological density"
+        }
+      ],
+      "question_id": "630680409604",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Physiological density",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "Mahendravarman I was the ruler of which of the following dynasties?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Pallava"
+        },
+        {
+          "label": "2",
+          "text": "Pandya"
+        },
+        {
+          "label": "3",
+          "text": "Chalukya"
+        },
+        {
+          "label": "4",
+          "text": "Chola"
+        }
+      ],
+      "question_id": "630680412335",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "Pallava",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 20,
+      "section": null,
+      "question_text_full": "What challenge does foreign investment often face in India?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Excessive foreign competition"
+        },
+        {
+          "label": "2",
+          "text": "Lack of skilled labour"
+        },
+        {
+          "label": "3",
+          "text": "Lack of consumer base"
+        },
+        {
+          "label": "4",
+          "text": "Inconsistent regulatory environment"
+        }
+      ],
+      "question_id": "630680411080",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Inconsistent regulatory environment",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

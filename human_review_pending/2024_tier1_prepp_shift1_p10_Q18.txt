@@ -1,0 +1,19 @@
+PDF: 2024_tier1_prepp_shift1
+Page: 10
+Question Number: 18
+Global Q#: 17
+Section: None
+Modality: visual_options
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Select the correct mirror image of the given figure when the mirror is placed at MN.
+
+--- Options ---
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4

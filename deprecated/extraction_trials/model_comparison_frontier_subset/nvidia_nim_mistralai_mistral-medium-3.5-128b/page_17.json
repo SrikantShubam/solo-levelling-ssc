@@ -1,0 +1,126 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "The given table shows the number (in thousands) of cars of five different models A, B, C, D and E produced during Years 2012-2017. Study the table and answer the question that follow. The percentage increase in the total cars in 2016 over 2012, is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "33.33%"
+        },
+        {
+          "label": "2",
+          "text": "62.33%"
+        },
+        {
+          "label": "3",
+          "text": "50%"
+        },
+        {
+          "label": "4",
+          "text": "45%"
+        }
+      ],
+      "question_id": "12356872",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "50%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "If x^(2a) = y^(2b) = z^(2c) ≠ 0 and x^2 = yz, then the value of (ab + bc + ca)/(bc) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3ac"
+        },
+        {
+          "label": "2",
+          "text": "3bc"
+        },
+        {
+          "label": "3",
+          "text": "3ab"
+        },
+        {
+          "label": "4",
+          "text": "3"
+        }
+      ],
+      "question_id": "12356864",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "If x - y = 4 and xy = 45, then the value of x^3 - y^3 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "82"
+        },
+        {
+          "label": "2",
+          "text": "604"
+        },
+        {
+          "label": "3",
+          "text": "151"
+        },
+        {
+          "label": "4",
+          "text": "822"
+        }
+      ],
+      "question_id": "12356862",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "604",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "₹4,300 becomes ₹4,644 in 2 years at simple interest. Find the principle amount that will become ₹10,104 in 5 years at the same rate of interest.",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹7,200"
+        },
+        {
+          "label": "2",
+          "text": "₹9,260"
+        },
+        {
+          "label": "3",
+          "text": "₹8,420"
+        },
+        {
+          "label": "4",
+          "text": "₹5,710"
+        }
+      ],
+      "question_id": "12356858",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "₹8,420",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,19 @@
+PDF: 2021_tier1_prepp_shift1
+Page: 7
+Question Number: 11
+Global Q#: 10
+Section: None
+Modality: text_only
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 2
+Evidence Source: grok_ai_generated_answer
+
+--- Question Text ---
+Study the given pattern carefully and select the number from among the given options that can replace the question mark (?) in it.
+
+--- Options ---
+  (1) Not visible
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible

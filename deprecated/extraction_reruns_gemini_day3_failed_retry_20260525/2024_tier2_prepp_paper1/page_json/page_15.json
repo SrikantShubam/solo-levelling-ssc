@@ -1,0 +1,76 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 34,
+      "section": null,
+      "question_text_full": "Given below is a statement (Cause) followed by possible effects numbered I, II, and III. Read the ‘Cause’ carefully and decide which of the three can be a possible effect/s.\n\nCause: Many people in City X have reported receiving two electricity bills this month, instead of one.\n\nEffects:\nEffect I – The Electricity Board has published the details of areas where power shutdowns are expected tomorrow in City X.\nEffect II – The municipal commissioner of City X has clarified that the technical glitch which led to multiple electricity bills being generated would be resolved within 48 hours.\nEffect III – Long queues were seen outside the electricity board offices in many localities.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only II is a possible effect."
+        },
+        {
+          "label": "2",
+          "text": "Both I and II are possible effects."
+        },
+        {
+          "label": "3",
+          "text": "Only I is a possible effect."
+        },
+        {
+          "label": "4",
+          "text": "Both II and III are possible effects."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options provided in the image are labeled a, b, c, d. These have been mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 35,
+      "section": null,
+      "question_text_full": "In a certain code language, 'POSE' is coded as '3517' and 'SILK' is coded as '4638'. What is the code for 'S' in the given code language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "Not enough options provided in the source image to complete the set of 4."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The image only provides 3 options (a, b, c) for question 35. Per instructions, I have filled the 4th option as a placeholder."
+    }
+  ],
+  "warnings": [
+    "Question 35 is incomplete as it only lists 3 options in the source image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

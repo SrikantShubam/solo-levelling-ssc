@@ -1,0 +1,104 @@
+{
+  "page": 47,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": null,
+      "question_text_full": "Which of the following sentences is/are true?\ni. All isoclines are expansion paths but all expansion paths are not isoclines.\nii. Short-run production functions involve adjusting all inputs, including fixed inputs like land or capital, to affect output.\niii. Stock resources are the resources which are not used in one period of production but can be stored for a later period.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only ii"
+        },
+        {
+          "label": "2",
+          "text": "Only i"
+        },
+        {
+          "label": "3",
+          "text": "Only iii"
+        },
+        {
+          "label": "4",
+          "text": "Only ii and iii"
+        }
+      ],
+      "question_id": "630680618707",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Only iii",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "Which of the following is a monoatomic gas?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Chlorin"
+        },
+        {
+          "label": "2",
+          "text": "Hydrogen"
+        },
+        {
+          "label": "3",
+          "text": "Xenon"
+        },
+        {
+          "label": "4",
+          "text": "Oxygen"
+        }
+      ],
+      "question_id": "630680607661",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Xenon",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Select the most appropriate answer from the options given below regarding Census 2011.\nStatement 1. The population of India has increased by more than 181 million during the decade 2001-2011.\nStatement 2. The percentage decadal growth during 2001-2011 has registered the sharpest decline since Independence.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only statement 1 is correct."
+        },
+        {
+          "label": "2",
+          "text": "Only statement 2 is correct."
+        },
+        {
+          "label": "3",
+          "text": "Both statements 1 and 2 are not correct."
+        },
+        {
+          "label": "4",
+          "text": "Both statements 1 and 2 are correct."
+        }
+      ],
+      "question_id": "630680590848",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "Both statements 1 and 2 are correct.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

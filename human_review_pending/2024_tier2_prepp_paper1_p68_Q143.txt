@@ -1,0 +1,19 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 68
+Question Number: 143
+Global Q#: 137
+Section: None
+Modality: text_only
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Which of the following best describes Electronic Mail (E-mail)?
+
+--- Options ---
+  (1) A method of sending messages electronically over a computer network.
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible

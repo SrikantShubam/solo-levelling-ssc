@@ -1,0 +1,134 @@
+{
+  "page": 53,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Which keyboard shortcut is used to increase the indent in a paragraph in MS Word 2010?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ctrl + U"
+        },
+        {
+          "label": "2",
+          "text": "Ctrl + D"
+        },
+        {
+          "label": "3",
+          "text": "Ctrl + M"
+        },
+        {
+          "label": "4",
+          "text": "Ctrl + K"
+        }
+      ],
+      "question_id": "630680995382",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Ctrl + M",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "How can you exit a slide show and return to editing mode in MS PowerPoint?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Press Ctrl + S"
+        },
+        {
+          "label": "2",
+          "text": "Press Esc"
+        },
+        {
+          "label": "3",
+          "text": "Press Spacebar"
+        },
+        {
+          "label": "4",
+          "text": "Press Alt + Tab"
+        }
+      ],
+      "question_id": "630680978961",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Press Esc",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "The ________ method is commonly used to verify the integrity of data.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Hashing"
+        },
+        {
+          "label": "2",
+          "text": "Caching"
+        },
+        {
+          "label": "3",
+          "text": "Duplication"
+        },
+        {
+          "label": "4",
+          "text": "Compression"
+        }
+      ],
+      "question_id": "630680990659",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Hashing",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "What are the correct steps for creating a blank presentation in MS PowerPoint?",
+      "options": [
+        {
+          "label": "1",
+          "text": "File -> New -> Blank Presentation"
+        },
+        {
+          "label": "2",
+          "text": "File -> Blank Presentation -> New"
+        },
+        {
+          "label": "3",
+          "text": "New -> Blank Presentation -> File"
+        },
+        {
+          "label": "4",
+          "text": "Blank Presentation -> New -> File"
+        }
+      ],
+      "question_id": "630680993339",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "File -> New -> Blank Presentation",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

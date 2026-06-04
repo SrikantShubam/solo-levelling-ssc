@@ -1,0 +1,11 @@
+{
+  "page": 1,
+  "questions": [],
+  "warnings": [
+    "ERROR JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "**Extracted Questions:**\n\n1. **Question 1**\n\t* Section: General Intelligence and Reasoning\n\t* Question Text: Select the option figure which is embedded in the given figure. (Rotation is NOT allowed).\n\t* Options:\n\t\t+ 1. Figure 1\n\t\t+ 2. Figure 2\n\t\t+ 3. Figure 3\n\t\t+ 4. Figure 4\n\t* Chosen Option: 2\n\t* Correct Option: 2\n\t* Confidence: high\n\t* Notes: None\n\n2. **Question 2**\n\t* Section: General Intelligence and Reasoning\n\t* Question Text: Select the option figure which is embedded in the given figure. (Rotation is NOT allowed).\n\t* Options:\n\t\t+ 1. Figure 1\n\t\t+ 2. Figure 2\n\t\t+ 3. Figure 3\n\t\t+ 4. Figure 4\n\t* Chosen Option: 1\n\t* Correct Option: 1\n\t* Confidence: high\n\t* Notes: None\n\n3. **Question 3**\n\t* Section: General Intelligence and Reasoning\n\t* Question Text: Select the option figure which is embedded in the given figure. (Rotation is NOT allowed).\n\t* Options:\n\t\t+ 1. Figure 1\n\t\t+ 2. Figure 2\n\t\t+ 3. Figure 3\n\t\t+ 4. Figure 4\n\t* Chosen Option: 3\n\t* Correct Option: 3\n\t* Confidence: high\n\t* Notes: None\n\n4. **Question 4**\n\t* Section: General Intelligence and Reasoning\n\t* Question Text: Select the option figure which is embedded in the given figure. (Rotation is NOT allowed).\n\t* Options:\n\t\t+ 1. Figure 1\n\t\t+ 2. Figure 2\n\t\t+ 3. Figure 3\n\t\t+ 4. Figure 4\n\t* Chosen Option: 4\n\t* Correct Option: 4\n\t* Confidence: high\n\t* Notes: None\n\n**Warnings:** None"
+  ],
+  "page_status": "ERROR",
+  "provider": "nvidia_nim",
+  "model": "meta/llama-3.2-11b-vision-instruct"
+}

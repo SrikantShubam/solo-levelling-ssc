@@ -1,0 +1,68 @@
+{
+  "page": 28,
+  "questions": [
+    {
+      "question_number": 65,
+      "section": null,
+      "question_text_full": "An equilateral triangle ABC is inscribed in a circle with centre O. D is a point on the minor arc BC and ∠CBD = 40°. Find the measure of ∠BCD.",
+      "options": [
+        {
+          "label": "1",
+          "text": "40°"
+        },
+        {
+          "label": "2",
+          "text": "30°"
+        },
+        {
+          "label": "3",
+          "text": "50°"
+        },
+        {
+          "label": "4",
+          "text": "20°"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4."
+    },
+    {
+      "question_number": 66,
+      "section": null,
+      "question_text_full": "The lengths of the three sides of a right-angled triangle are (x - 1) cm, (x + 1) cm and (x + 3) cm, respectively. The hypotenuse of the right-angled triangle (in cm) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "12"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4."
+    }
+  ],
+  "warnings": [
+    "Question 67 is incomplete on the page as it lacks options and the associated graph."
+  ]
+}

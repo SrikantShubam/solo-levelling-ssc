@@ -1,0 +1,126 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "If the number 1005x4 is completely divisible by 8, then the smallest integer in place of x will be:",
+      "options": [
+        {
+          "label": "1",
+          "text": "0"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "2"
+        }
+      ],
+      "question_id": "12356851",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "0",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "If the base radius of 2 cylinders are in the ratio 3 : 4 and their heights are in the ratio 4 : 9, then the ratio of their volumes is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "1 : 2"
+        },
+        {
+          "label": "2",
+          "text": "2 : 1"
+        },
+        {
+          "label": "3",
+          "text": "1 : 4"
+        },
+        {
+          "label": "4",
+          "text": "4 : 1"
+        }
+      ],
+      "question_id": "12356861",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1 : 4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "If x, y, z are three integers such that x + y = 8, y + z = 13 and z + x = 17, then the value of x²/yz is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "7/5"
+        },
+        {
+          "label": "2",
+          "text": "18/11"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "question_id": "12356863",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "18/11",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "The given table shows the number (in thousands) of cars of five different models A, B, C, D and E produced during Years 2012-2017. Study the table and answer the question that follow.\n\n[Table Data]\n\nThe percentage decrease in the production of which type of car in 2017, with reference to 2016, was the maximum?",
+      "options": [
+        {
+          "label": "1",
+          "text": "D"
+        },
+        {
+          "label": "2",
+          "text": "A"
+        },
+        {
+          "label": "3",
+          "text": "C"
+        },
+        {
+          "label": "4",
+          "text": "E"
+        }
+      ],
+      "question_id": "12356875",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "A",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

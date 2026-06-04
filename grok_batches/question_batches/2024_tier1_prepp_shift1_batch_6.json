@@ -1,0 +1,150 @@
+{
+  "task_id": 6,
+  "data": {
+    "pdf_name": "2024_tier1_prepp_shift1",
+    "batch_start": 51,
+    "batch_end": 60,
+    "questions": [
+      {
+        "global_question_number": 85,
+        "question_number": 89,
+        "source_page": 39,
+        "question_text_full": "Select the most appropriate synonym of the bracketed word in the following sentence to fill in the blank:\n\nDuring Covid times, many organizations made ________(sentimental) appeals to raise funds for migrant workers.",
+        "options": {
+          "1": "Mawkish",
+          "2": "Sincere",
+          "3": "Cynical",
+          "4": "Practical"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 86,
+        "question_number": 90,
+        "source_page": 39,
+        "question_text_full": "Select the most appropriate meaning of the underlined word in the given sentence:\n\nHe is an atheist, although he respects everyone's belief.",
+        "options": {
+          "1": "One who believes in God",
+          "2": "One who believes in nature",
+          "3": "One who is extremist",
+          "4": "One who does not believe in God"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 87,
+        "question_number": 91,
+        "source_page": 39,
+        "question_text_full": "Select the most appropriate meaning of the underlined idiom in the following sentence:\n\nIn my new office, all employees were different, so I felt like a fish out of water.",
+        "options": {
+          "1": "Uncomfortable",
+          "2": "Not provided",
+          "3": "Not provided",
+          "4": "Not provided"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 88,
+        "question_number": 92,
+        "source_page": 40,
+        "question_text_full": "Select the INCORRECTLY spelt word:",
+        "options": {
+          "1": "Embarrass",
+          "2": "Occurrence",
+          "3": "Exhilerate",
+          "4": "Accommodate"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 89,
+        "question_number": 93,
+        "source_page": 40,
+        "question_text_full": "The following sentence has been divided into four segments. Identify the segment that contains an error:\nMrs. Sreelakshmi\u00e2\u20ac\u2122s / musical intelligence / is superior than / Mrs. Suma\u00e2\u20ac\u2122s.",
+        "options": {
+          "1": "Mrs. Suma\u00e2\u20ac\u2122s.",
+          "2": "musical intelligence",
+          "3": "is superior than",
+          "4": "Mrs. Sreelakshmi\u00e2\u20ac\u2122s"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 90,
+        "question_number": 95,
+        "source_page": 41,
+        "question_text_full": "Select the INCORRECTLY spelt word:",
+        "options": {
+          "1": "Exceed",
+          "2": "Proceed",
+          "3": "Succeed",
+          "4": "Preceed"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 91,
+        "question_number": 97,
+        "source_page": 42,
+        "question_text_full": "Comprehension: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The beginning of the story is (1)______ in its presentation but (2)______ the style eases out and becomes haunting in its simplicity. The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)_____ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henry's treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos. Select the most appropriate option to fill in blank number 2:",
+        "options": {
+          "1": "Hardly",
+          "2": "Recently",
+          "3": "Initially",
+          "4": "Gradually"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 92,
+        "question_number": null,
+        "source_page": 43,
+        "question_text_full": "The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)_____ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henry\u00e2\u20ac\u2122s treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos. Select the most appropriate option to fill in blank number 3:",
+        "options": {
+          "1": "Supervision",
+          "2": "Condition",
+          "3": "Dimension",
+          "4": "Infection"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 93,
+        "question_number": 99,
+        "source_page": 43,
+        "question_text_full": "Comprehension: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The beginning of the story is (1)______ in its presentation but (2)______ the style eases out and becomes haunting in its simplicity. The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)______ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henry\u00e2\u20ac\u2122s treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos. Select the most appropriate option to fill in blank number 4:",
+        "options": {
+          "1": "Through",
+          "2": "Though",
+          "3": "Not visible",
+          "4": "Not visible"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 94,
+        "question_number": 100,
+        "source_page": 44,
+        "question_text_full": "Comprehension: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The beginning of the story is (1)______ in its presentation but (2)______ the style eases out and becomes haunting in its simplicity. The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)______ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henry's treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos. Select the most appropriate option to fill in blank number 5:",
+        "options": {
+          "1": "Legend",
+          "2": "Ascend",
+          "3": "Blend",
+          "4": "Amend"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2024_tier1_prepp_shift1"
+      }
+    ]
+  }
+}

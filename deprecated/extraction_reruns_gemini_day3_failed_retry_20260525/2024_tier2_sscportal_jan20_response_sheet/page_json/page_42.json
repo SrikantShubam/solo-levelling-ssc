@@ -1,0 +1,74 @@
+{
+  "page": 42,
+  "questions": [
+    {
+      "question_number": 41,
+      "section": "Comprehension",
+      "question_text_full": "What is the central theme of the passage describing the extraction process of indigo dye from the Indigofera plant?",
+      "options": [
+        {
+          "label": "1",
+          "text": "The cultivation and growth cycle of the Indigofera plant"
+        },
+        {
+          "label": "2",
+          "text": "The various uses of indigo dye in different industries"
+        },
+        {
+          "label": "3",
+          "text": "The impact of lime and natural sugars on the indigo extraction process"
+        },
+        {
+          "label": "4",
+          "text": "The intricate process of harvesting and processing indigo leaves"
+        }
+      ],
+      "question_id": "630680545660",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "The intricate process of harvesting and processing indigo leaves",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 42,
+      "section": "Comprehension",
+      "question_text_full": "Which of the following is a fact mentioned in the passage?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Exercise releases endorphins, contributing to improved mental well-being."
+        },
+        {
+          "label": "2",
+          "text": "Exercise requires intense workouts for mental health benefits."
+        },
+        {
+          "label": "3",
+          "text": "Regular exercise has no impact on mental health."
+        },
+        {
+          "label": "4",
+          "text": "Only intense physical activities are linked to reduced anxiety and depression."
+        }
+      ],
+      "question_id": "630680549189",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Exercise releases endorphins, contributing to improved mental well-being.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

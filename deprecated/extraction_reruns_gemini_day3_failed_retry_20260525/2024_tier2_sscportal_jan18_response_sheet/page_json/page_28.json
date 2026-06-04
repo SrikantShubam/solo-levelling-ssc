@@ -1,0 +1,104 @@
+{
+  "page": 28,
+  "questions": [
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "Select the most appropriate meaning of the underlined word.\nHe walked leisurely towards the entrance.",
+      "options": [
+        {
+          "label": "1",
+          "text": "without haste"
+        },
+        {
+          "label": "2",
+          "text": "reassuringly"
+        },
+        {
+          "label": "3",
+          "text": "with a kickstart"
+        },
+        {
+          "label": "4",
+          "text": "hastily"
+        }
+      ],
+      "question_id": "630680112405",
+      "chosen_option_label": "2",
+      "correct_option_label": "1",
+      "correct_option_text": "without haste",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. It consists of a terracotta army of approximately 8000 life-sized men and horses.\nB. Each of the horses and men is individually sculpted by a 3-inch-thick terracotta clay and looks unique.\nC. Shi Huangdi was the founder of Qin Dynasty and was the first ruler of unified China in 221 BC.\nD. His mausoleum was recently discovered in 1974 by Chinese peasants who were drilling a well.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CADB"
+        },
+        {
+          "label": "2",
+          "text": "CABD"
+        },
+        {
+          "label": "3",
+          "text": "CBAD"
+        },
+        {
+          "label": "4",
+          "text": "CDAB"
+        }
+      ],
+      "question_id": "630680617332",
+      "chosen_option_label": "3",
+      "correct_option_label": "4",
+      "correct_option_text": "CDAB",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Parts of a sentence are given below in jumbled order. Select the option that gives their correct logical sequence to form a meaningful sentence.\na. it requires constant sustenance\nb. in order for life to be liveable,\nc. that enable it to grow and develop\nd. and favourable circumstances",
+      "options": [
+        {
+          "label": "1",
+          "text": "a, b, c, d"
+        },
+        {
+          "label": "2",
+          "text": "b, a, d, c"
+        },
+        {
+          "label": "3",
+          "text": "b, d, a, c"
+        },
+        {
+          "label": "4",
+          "text": "d, c, b, a"
+        }
+      ],
+      "question_id": "630680171759",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "b, a, d, c",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

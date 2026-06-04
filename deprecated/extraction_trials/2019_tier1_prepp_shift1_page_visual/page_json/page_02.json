@@ -1,0 +1,96 @@
+{
+  "page": 2,
+  "questions": [
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "Select the figure that can replace the question mark (?) in the following series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "12356819",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Figure 3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "Study the given pattern carefully and select the number that can replace the question mark (?) in it.\n6 21 14\n40 500 ?\n8 25 7",
+      "options": [
+        {
+          "label": "1",
+          "text": "91"
+        },
+        {
+          "label": "2",
+          "text": "84"
+        },
+        {
+          "label": "3",
+          "text": "98"
+        },
+        {
+          "label": "4",
+          "text": "78"
+        }
+      ],
+      "question_id": "12356816",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "91",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Four words have been given, out of which three are alike in some manner, while one is different. Select the odd word.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Ferry"
+        },
+        {
+          "label": "2",
+          "text": "Ship"
+        },
+        {
+          "label": "3",
+          "text": "Yacht"
+        },
+        {
+          "label": "4",
+          "text": "Submarine"
+        }
+      ],
+      "question_id": "1235684",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "Submarine",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

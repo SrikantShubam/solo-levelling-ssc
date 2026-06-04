@@ -1,0 +1,104 @@
+{
+  "page": 49,
+  "questions": [
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Identify the INCORRECTLY matched pair(s) of the British Governor-Generals of India and the events with which they are associated.\ni) Lord Dalhousie – Revolt of 1857\nii) Lord Auckland – First Afghan War\niii) Lord Canning – Wood’s Despatch 1854",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (ii) and (iii)"
+        },
+        {
+          "label": "2",
+          "text": "Only (ii)"
+        },
+        {
+          "label": "3",
+          "text": "Only (i) and (iii)"
+        },
+        {
+          "label": "4",
+          "text": "Only (i)"
+        }
+      ],
+      "question_id": "264330171925",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Only (i) and (iii)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Among the following diseases, which one is NOT inherited?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Down syndrome"
+        },
+        {
+          "label": "2",
+          "text": "Cystic fibrosis"
+        },
+        {
+          "label": "3",
+          "text": "Malaria"
+        },
+        {
+          "label": "4",
+          "text": "Muscular dystrophy"
+        }
+      ],
+      "question_id": "264330166353",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Malaria",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Computer Knowledge Module",
+      "question_text_full": "A/An ______ is an organisation that connects its subscriber’s computer using modem to the Internet.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Uniform Resource Locator"
+        },
+        {
+          "label": "2",
+          "text": "Web Browser"
+        },
+        {
+          "label": "3",
+          "text": "Web Server"
+        },
+        {
+          "label": "4",
+          "text": "Internet Service Provider"
+        }
+      ],
+      "question_id": "264330183365",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Internet Service Provider",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

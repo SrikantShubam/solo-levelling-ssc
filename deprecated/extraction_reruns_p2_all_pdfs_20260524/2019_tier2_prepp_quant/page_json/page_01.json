@@ -1,0 +1,96 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "Quantitative abilities",
+      "question_text_full": "The value of 3 ÷ 18 of 3 × 6 + 21 × 6 ÷ 18 - 3 ÷ 2 + 3 - 3 ÷ 9 of 3 × 9 is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "29/6"
+        },
+        {
+          "label": "2",
+          "text": "41/9"
+        },
+        {
+          "label": "3",
+          "text": "47/6"
+        },
+        {
+          "label": "4",
+          "text": "35/9"
+        }
+      ],
+      "question_id": "8161615279",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "47/6",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "Quantitative abilities",
+      "question_text_full": "In ΔABC, D and E are the mid points of sides BC and AC, respectively. If AD = 10.8 cm, BE = 14.4 cm and AD and BE intersect at G at a right angle, then the area (in cm²) of ΔABC is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "103.68"
+        },
+        {
+          "label": "2",
+          "text": "56.76"
+        },
+        {
+          "label": "3",
+          "text": "80.64"
+        },
+        {
+          "label": "4",
+          "text": "53.76"
+        }
+      ],
+      "question_id": "8161615338",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "103.68",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": "Quantitative abilities",
+      "question_text_full": "Rishu saves x% of her income. If her income increases by 26% and the expenditure increases by 20%, then her savings increase by 50%. What is the value of x?",
+      "options": [
+        {
+          "label": "1",
+          "text": "30"
+        },
+        {
+          "label": "2",
+          "text": "10"
+        },
+        {
+          "label": "3",
+          "text": "20"
+        },
+        {
+          "label": "4",
+          "text": "25"
+        }
+      ],
+      "question_id": "8161615296",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "20",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

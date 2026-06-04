@@ -1,0 +1,134 @@
+{
+  "page": 49,
+  "questions": [
+    {
+      "question_number": 2,
+      "section": null,
+      "question_text_full": "In MS-Excel 365 which of the following appears across the top of the screen and below the title bar and contains all the commands, formulas and features needed to create data-intense spreadsheets?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Scroll bars"
+        },
+        {
+          "label": "2",
+          "text": "Status bar"
+        },
+        {
+          "label": "3",
+          "text": "Ruler"
+        },
+        {
+          "label": "4",
+          "text": "Ribbon"
+        }
+      ],
+      "question_id": "264330128749",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "Ribbon",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": null,
+      "question_text_full": "________ is also known as electronic disk.",
+      "options": [
+        {
+          "label": "1",
+          "text": "USB Sticks"
+        },
+        {
+          "label": "2",
+          "text": "Network Storage Servers"
+        },
+        {
+          "label": "3",
+          "text": "Solid-State Drive"
+        },
+        {
+          "label": "4",
+          "text": "USB Hard Drives"
+        }
+      ],
+      "question_id": "264330128762",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Solid-State Drive",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 4,
+      "section": null,
+      "question_text_full": "________ is a high-speed device used in CPU that is utilised to store data temporarily during processing.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Arithmetic and Logic Unit (ALU)"
+        },
+        {
+          "label": "2",
+          "text": "Auxiliary Memory"
+        },
+        {
+          "label": "3",
+          "text": "Control Unit"
+        },
+        {
+          "label": "4",
+          "text": "Registers"
+        }
+      ],
+      "question_id": "264330128760",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "Registers",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "Which among the following statements is incorrect?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Cache memory keeps the programs that can be run in a short amount of time."
+        },
+        {
+          "label": "2",
+          "text": "Cache memory stores data in permanent use."
+        },
+        {
+          "label": "3",
+          "text": "Cache memory is faster than main memory."
+        },
+        {
+          "label": "4",
+          "text": "The size of cache is usually small."
+        }
+      ],
+      "question_id": "264330128761",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Cache memory stores data in permanent use.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

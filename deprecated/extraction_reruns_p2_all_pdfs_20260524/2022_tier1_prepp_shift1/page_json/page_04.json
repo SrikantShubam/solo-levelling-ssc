@@ -1,0 +1,96 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 11,
+      "section": null,
+      "question_text_full": "Select the option that is related to the third word in the same way as the second word is related to the first word. (The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word)\nPhone : Talk :: Television : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Remote"
+        },
+        {
+          "label": "2",
+          "text": "View"
+        },
+        {
+          "label": "3",
+          "text": "Read"
+        },
+        {
+          "label": "4",
+          "text": "Channel"
+        }
+      ],
+      "question_id": "26433067807",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "View",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Select the cube that can be formed by folding the given sheet along the lines.",
+      "options": [
+        {
+          "label": "1",
+          "text": "None are possible"
+        },
+        {
+          "label": "2",
+          "text": "Only A and B"
+        },
+        {
+          "label": "3",
+          "text": "Only C and D"
+        },
+        {
+          "label": "4",
+          "text": "Only A"
+        }
+      ],
+      "question_id": "26433070354",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Only A",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the correct mirror image of the given combination when the mirror is placed at 'PQ' as shown below.\nBLZK541M",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "26433067828",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Figure 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual figures representing mirror images."
+    }
+  ],
+  "warnings": []
+}

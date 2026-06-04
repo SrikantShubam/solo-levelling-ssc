@@ -1,0 +1,96 @@
+{
+  "page": 11,
+  "questions": [
+    {
+      "question_number": 37,
+      "section": null,
+      "question_text_full": "Let x = (sqrt(1875)/sqrt(3888) / sqrt(1200)/sqrt(768)) * sqrt(175)/sqrt(1792). Then sqrt(x) is equal to:",
+      "options": [
+        {
+          "label": "1",
+          "text": "4/9"
+        },
+        {
+          "label": "2",
+          "text": "5/9"
+        },
+        {
+          "label": "3",
+          "text": "5/12"
+        },
+        {
+          "label": "4",
+          "text": "7/12"
+        }
+      ],
+      "question_id": "8161615289",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "5/12",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 38,
+      "section": null,
+      "question_text_full": "The area of the base of a right circular cone is 81π cm² and its height is 12 cm. What is the curved surface area (in cm²) of the cone?",
+      "options": [
+        {
+          "label": "1",
+          "text": "144 π"
+        },
+        {
+          "label": "2",
+          "text": "108 π"
+        },
+        {
+          "label": "3",
+          "text": "126 π"
+        },
+        {
+          "label": "4",
+          "text": "135 π"
+        }
+      ],
+      "question_id": "8161615350",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "135 π",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 39,
+      "section": null,
+      "question_text_full": "The value of (2 sin² 38° sec² 52° + cos 64° sin 26° + sin² 64°) / (tan² 23° + cot² 23° - sec² 67° - cosec² 67°) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "3/2"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "-2"
+        },
+        {
+          "label": "4",
+          "text": "-3/2"
+        }
+      ],
+      "question_id": "8161615369",
+      "chosen_option_label": "1",
+      "correct_option_label": "4",
+      "correct_option_text": "-3/2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

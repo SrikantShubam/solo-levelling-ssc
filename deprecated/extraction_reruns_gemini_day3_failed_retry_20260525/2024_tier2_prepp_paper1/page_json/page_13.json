@@ -1,0 +1,46 @@
+{
+  "page": 13,
+  "questions": [
+    {
+      "question_number": 32,
+      "section": null,
+      "question_text_full": "A question is given, followed by two statements labelled I and II. Identify which of the statements is/are sufficient/necessary to answer the question.\n\nQuestion:\nIn a certain code language, 'fire in mountain' is coded as 'si ph bo'. What is the code for 'fire'?\n\nStatements:\n(I) 'mountain' is coded as 'bo'.\n(II) 'ice and fire' is coded as 'si yu ca'.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Data in Statements I and II together is sufficient to answer the question"
+        },
+        {
+          "label": "2",
+          "text": "Data in Statements I and II together is not sufficient to answer the question"
+        },
+        {
+          "label": "3",
+          "text": "Data in Statement I alone is sufficient to answer the question while data in Statement II is not"
+        },
+        {
+          "label": "4",
+          "text": "Data in Statement II alone is sufficient to answer the question while data in Statement I is not"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, but mapped to 1, 2, 3, 4 as per instructions."
+    }
+  ],
+  "warnings": [
+    "The provided image contains a logic question (32) but does not display the 'Ans' block with red/green marks, so correct_option_label and correct_option_text could not be determined."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

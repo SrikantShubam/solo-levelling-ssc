@@ -1,0 +1,96 @@
+{
+  "page": 20,
+  "questions": [
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Which Indian among the following has his name in Time Magazine’s list of ‘100 most influential people of 2021’?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Amit Shah"
+        },
+        {
+          "label": "2",
+          "text": "Narendra Modi"
+        },
+        {
+          "label": "3",
+          "text": "Neeraj Chopra"
+        },
+        {
+          "label": "4",
+          "text": "Virat Kohli"
+        }
+      ],
+      "question_id": "630680115309",
+      "chosen_option_label": "3",
+      "correct_option_label": "2",
+      "correct_option_text": "Narendra Modi",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "A grocer professes to sell rice at the cost price, but uses a fake weight of 870 g for 1 kg. Find his profit percentage (correct to two decimal places).",
+      "options": [
+        {
+          "label": "1",
+          "text": "11.11%"
+        },
+        {
+          "label": "2",
+          "text": "14.94%"
+        },
+        {
+          "label": "3",
+          "text": "15.11%"
+        },
+        {
+          "label": "4",
+          "text": "18.21%"
+        }
+      ],
+      "question_id": "630680428862",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "14.94%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "Quantitative Aptitude",
+      "question_text_full": "The value of cos²29° + cos²61° is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "√3/2"
+        },
+        {
+          "label": "2",
+          "text": "2"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "1"
+        }
+      ],
+      "question_id": "630680396993",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

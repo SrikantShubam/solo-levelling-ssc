@@ -1,0 +1,96 @@
+{
+  "page": 21,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "An item costs ₹400. During a festival sale, a company offers a sale discount that offers x% off on its regular price along with a discount coupon of 10%. The price of the item after using both the sale discount and the discount coupon, is ₹216. What is the value of x?",
+      "options": [
+        {
+          "label": "1",
+          "text": "25"
+        },
+        {
+          "label": "2",
+          "text": "40"
+        },
+        {
+          "label": "3",
+          "text": "30"
+        },
+        {
+          "label": "4",
+          "text": "35"
+        }
+      ],
+      "question_id": "65497843225",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "40",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "The number of cars passing the road near a colony from 6 am to 12 noon has been shown in the following histogram. What is the ratio of the number of cars passed between 6 am and 8 am to the number of cars passed between 9 am and 11 am?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 : 6"
+        },
+        {
+          "label": "2",
+          "text": "7 : 4"
+        },
+        {
+          "label": "3",
+          "text": "21 : 19"
+        },
+        {
+          "label": "4",
+          "text": "14 : 23"
+        }
+      ],
+      "question_id": "65497842336",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "5 : 6",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Monthly expenditure of a family on different heads is shown in the following pie chart. The amount spent on Children Education, Transport and Rent is what percentage of the total earnings?",
+      "options": [
+        {
+          "label": "1",
+          "text": "45%"
+        },
+        {
+          "label": "2",
+          "text": "55%"
+        },
+        {
+          "label": "3",
+          "text": "40%"
+        },
+        {
+          "label": "4",
+          "text": "50%"
+        }
+      ],
+      "question_id": "65497843748",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "50%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,269 @@
+You are an SSC CGL exam expert. I need you to read the following page images and determine the CORRECT answer option (1/2/3/4) for each question.
+
+For each page image listed below, open the file, look at the questions on that page, and determine which option is marked as correct (GREEN tick mark or answer indicator).
+
+Return a JSON array with ALL answers like this:
+[{"pdf_name": "PDF_NAME", "page": NUMBER, "question_number": NUMBER, "correct_option_label": "1"|"2"|"3"|"4"}, ...]
+
+IMPORTANT: Return the EXACT JSON array with every single question answered. Do not skip any question. Even if uncertain, give your best answer.
+
+Here are the pages to process:
+
+=== PDF: 2019_tier2_prepp_english ===
+
+Page 40 (Q51): pipeline_output\p2_gemini\2019_tier2_prepp_english\page_images\page_40.png
+  Question: As per the passage, which country has the highest yield of rice per hectare?
+  Options: 1. Vietnam | 2. Bangladesh | 3. China | 4. Indonesia
+
+Page 57 (Q104): pipeline_output\p2_gemini\2019_tier2_prepp_english\page_images\page_57.png
+  Question: Select the most appropriate direct form of the given sentence. Madhuri told me that I could stay in her flat whenever I was in Kolkata.
+  Options: 1. Madhuri said to me, “I could stay in her flat whenever I was in Kolkata.” | 2. Madhuri said to me, “You could stay in her flat whenever she was in Kolkata.” | 3. Madhuri said to me, “I can stay in my flat whenever I am in Kolkata.” | 4. Madhuri said to me, “You can stay in my flat whenever you are in Kolkata.”
+
+Page 65 (Q135): pipeline_output\p2_gemini\2019_tier2_prepp_english\page_images\page_65.png
+  Question: Given below are four jumbled sentences. Select the option that gives their correct order.
+A. Day in and day out he pondered to find out a foolproof pl
+  Options: 1. CBDA | 2. DCAB | 3. BACD | 4. BDCA
+
+Page 66 (Q139): pipeline_output\p2_gemini\2019_tier2_prepp_english\page_images\page_66.png
+  Question: Select the correct passive form of the given sentence. Somebody has already tipped the custom authorities about the drugs.
+  Options: 1. Custom authorities have already been tipped by the drugs. | 2. Custom authorities have already been tipped about the drugs. | 3. Custom authorities have already tipped someone about the drugs. | 4. Custom authorities were already tipped about the drugs.
+
+Page 67 (Q143): pipeline_output\p2_gemini\2019_tier2_prepp_english\page_images\page_67.png
+  Question: Parts of the following sentence are given as options. Identify the segment that contains a grammatical error.
+Each one of the children in a nursery cl
+  Options: 1. in a nursery class | 2. Each one | 3. of the children | 4. require individual attention
+
+Page 70 (Q154): pipeline_output\p2_gemini\2019_tier2_prepp_english\page_images\page_70.png
+  Question: Select the most appropriate indirect form of the given sentence.
+Our Principal says, “Rules are to be followed at any cost.”
+  Options: 1. Our Principal advised that rules need to be followed at any cost. | 2. Our Principal says that rules are to be followed at any cost. | 3. Our Principal told that rules are to be followed at any cost. | 4. Our Principal said that rules had to be followed at any cost.
+
+Page 79 (Q185): pipeline_output\p2_gemini\2019_tier2_prepp_english\page_images\page_79.png
+  Question: Parts of the following sentence are given as options. Identify the segment that contains a grammatical error.
+Two flyovers have been propose in the ne
+  Options: 1. to decongest | 2. have been propose | 3. in the new plan | 4. Two flyovers
+
+Page 82 (Q197): pipeline_output\p2_gemini\2019_tier2_prepp_english\page_images\page_82.png
+  Question: Select the most appropriate indirect form of the given sentence.
+I said to my friend, “Please help me arrange these books on the shelf.”
+  Options: 1. I asked my friend to help me arrange these books on the shelf. | 2. I requested my friend to help me arrange those books on the shelf. | 3. I ordered my friend to help me arrange those books on the shelf. | 4. I told to my friend to please help me arrange those books on the shelf.
+
+=== PDF: 2019_tier2_prepp_quant ===
+
+Page 14 (Q50): pipeline_output\p2_gemini\2019_tier2_prepp_quant\page_images\page_14.png
+  Question: अमित, अंकित मूल्य पर 12% छूट देने के बाद किसी वस्तु को ₹369.60 में बेचता है। यदि उसने कोई छूट नहीं दी होती तो उसे 20% का लाभ होता। वस्तु का क्रय मूल्य
+  Options: 1. ₹320 | 2. ₹400 | 3. ₹380 | 4. ₹350
+
+Page 16 (Q56): pipeline_output\p2_gemini\2019_tier2_prepp_quant\page_images\page_16.png
+  Question: The areas of three adjacent faces of a cuboidal tank are 3 m² , 12 m² and 16 m² . The capacity of the tank, in litres, is:
+  Options: 1. 48000 | 2. 72000 | 3. 24000 | 4. 36000
+
+Page 16 (Q57): pipeline_output\p2_gemini\2019_tier2_prepp_quant\page_images\page_16.png
+  Question: A train of length 287 m, running at 80 km/h, crosses another train moving in the opposite direction at 37 km/h in 18 seconds. What is the length of th
+  Options: 1. 285 m | 2. 300 m | 3. 298 m | 4. 289 m
+
+Page 18 (Q62): pipeline_output\p2_gemini\2019_tier2_prepp_quant\page_images\page_18.png
+  Question: A and B are solutions of acid and water. The ratios of water and acid in A and B are 4 : 5 and 1 : 2, respectively. If x litres of A is mixed with y l
+  Options: 1. 5 : 6 | 2. 3 : 4 | 3. 2 : 3 | 4. 2 : 5
+
+=== PDF: 2021_tier1_prepp_shift1 ===
+
+Page 29 (QNone): pipeline_output\p2_gemini\2021_tier1_prepp_shift1\page_images\page_29.png
+  Question: What is the ratio of the total number of students who scored 140 marks and above to the total number of students who scored marks between 60 to 120?
+  Options: 1. 11 : 9 | 2. 9 : 11 | 3. 110 : 137 | 4. 137 : 110
+
+Page 31 (Q71): pipeline_output\p2_gemini\2021_tier1_prepp_shift1\page_images\page_31.png
+  Question: An item costs Rs. 400. During a festival sale, a company offers a sale discount that offers x% off on its regular price along with a discount coupon o
+  Options: 1. 30 | 2. 40 | 3. 35 | 4. 25
+
+Page 31 (Q72): pipeline_output\p2_gemini\2021_tier1_prepp_shift1\page_images\page_31.png
+  Question: If x + y + 3 = 0, then find the value of x³ + y³ - 9xy + 9.
+  Options: 1. -36 | 2. -18 | 3. 36 | 4. 18
+
+Page 31 (Q73): pipeline_output\p2_gemini\2021_tier1_prepp_shift1\page_images\page_31.png
+  Question: AB is a diameter of a circle with centre O. A tangent is drawn at point A. C is a point on the circle such that BC produced meets the tangent at P. If
+  Options: 1. 31° | 2. Not visible | 3. Not visible | 4. Not visible
+
+=== PDF: 2021_tier2_prepp_english ===
+
+Page 70 (Q144): pipeline_output\p2_gemini\2021_tier2_prepp_english\page_images\page_70.png
+  Question: Given below are four sentences in jumbled order. Pick the option that gives their correct order. A. New research, however, has found that bilingual ch
+  Options: 1. BADC | 2. ACDB | 3. ABDC | 4. BDAC
+
+Page 71 (Q147): pipeline_output\p2_gemini\2021_tier2_prepp_english\page_images\page_71.png
+  Question: Select the wrongly spelt word.
+  Options: 1. Plantain | 2. Platinum | 3. Plataue | 4. Plaque
+
+Page 71 (Q149): pipeline_output\p2_gemini\2021_tier2_prepp_english\page_images\page_71.png
+  Question: Select the most appropriate synonym of the given word.
+INCUMBENT
+  Options: 1. Occupant | 2. Adventurer | 3. Contestant | 4. Prophet
+
+Page 79 (Q174): pipeline_output\p2_gemini\2021_tier2_prepp_english\page_images\page_79.png
+  Question: Select the most appropriate one word to substitute the given group of words.
+one who lives on others
+  Options: 1. hypocrite | 2. shrewd | 3. flatterer | 4. parasite
+
+Page 81 (Q179): pipeline_output\p2_gemini\2021_tier2_prepp_english\page_images\page_81.png
+  Question: Given below are four sentences in jumbled order. Pick the option that gives their correct order.
+A. Thus, Daphne cannot resist the opportunity to scol
+  Options: 1. CDAB | 2. CBDA | 3. BCAD | 4. BACD
+
+=== PDF: 2022_tier1_prepp_shift1 ===
+
+Page 19 (Q21): pipeline_output\p2_gemini\2022_tier1_prepp_shift1\page_images\page_19.png
+  Question: In the triangle ABC, AB = 12 cm and AC = 10 cm, and ∠BAC = 60°. What is the value of the length of the side BC?
+  Options: 1. 10 cm | 2. 7.13 cm | 3. 13.20 cm | 4. 11.13 cm
+
+Page 20 (Q23): pipeline_output\p2_gemini\2022_tier1_prepp_shift1\page_images\page_20.png
+  Question: The following bar graph shows the sales of books (in thousands) from six branches of a publishing company during two consecutive years 2018 and 2019. 
+  Options: 1. 4 : 3 | 2. 5 : 9 | 3. 8 : 11 | 4. 7 : 9
+
+Page 20 (Q24): pipeline_output\p2_gemini\2022_tier1_prepp_shift1\page_images\page_20.png
+  Question: If [4(17^3 - 7^3) / (17^2 + 7^2 + p)] = 40, then what is the value of p?
+  Options: 1. -119 | 2. -129 | 3. 119 | 4. 129
+
+=== PDF: 2023_tier1_prepp_shift1 ===
+
+Page 17 (Q11): pipeline_output\p2_gemini\2023_tier1_prepp_shift1\page_images\page_17.png
+  Question: If 7b - 1/4b = 7, then what is the value of 16b^2 + 1/49b^2?
+  Options: 1. 80/49 | 2. 104/7 | 3. 120/7 | 4. 7/2
+
+Page 19 (Q15): pipeline_output\p2_gemini\2023_tier1_prepp_shift1\page_images\page_19.png
+  Question: The following bar chart represents the gross amount (in ₹ lakhs) and total cost (in ₹ lakhs) of a firm.
+
+[Image of bar chart]
+
+In order to make a prof
+  Options: 1. 7800 | 2. 8000 | 3. 8250 | 4. 8125
+
+=== PDF: 2024_tier1_appx_answer_key ===
+
+Page 02 (QNone): pipeline_output\p2_gemini\2024_tier1_appx_answer_key\page_images\page_02.png
+  Question: constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and t
+  Options: 1. 128 : 16 | 2. 151 : 19 | 3. 135 : 17 | 4. 103 : 13
+
+Page 04 (QNone): pipeline_output\p2_gemini\2024_tier1_appx_answer_key\page_images\page_04.png
+  Question: ...performing mathematical operations on 1 and 3 is not allowed.) (18/09/2024 SHIFT-2)
+  Options: 1. 15 – 450 | 2. 11 – 363 | 3. 13 – 507 | 4. 9 – 243
+
+Page 05 (QNone): pipeline_output\p2_gemini\2024_tier1_appx_answer_key\page_images\page_05.png
+  Question: pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent
+  Options: 1. 21 – 462 | 2. 14 – 196 | 3. 12 – 156 | 4. 17 – 306
+
+=== PDF: 2024_tier1_prepp_shift1 ===
+
+Page 25 (Q56): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_25.png
+  Question: The classification of 100 students based on the marks obtained by them in English and Mathematics in an examination is given in the table below. Study
+  Options: 1. Not visible | 2. Not visible | 3. Not visible | 4. Not visible
+
+Page 26 (Q57): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_26.png
+  Question: In triangles ABC and DEF, AB = FD and âˆ A = âˆ D. The two triangles are congruent by SAS criterion if:
+  Options: 1. BC = DE | 2. AC = DE | 3. BC = EF | 4. AC = EF
+
+Page 27 (Q58): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_27.png
+  Question: Two pipes, A and B, can fill a tank in 10 minutes and 20 minutes, respectively. The pipe C can empty the tank in 30 minutes. All three pipes are opene
+  Options: 1. 12 | 2. 10 | 3. 8 | 4. 6
+
+Page 27 (Q59): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_27.png
+  Question: A payment of â‚¹120 is made with â‚¹10, â‚¹5, and â‚¹2 coins. A total of 25 coins are used. Which of the following is the number of â‚¹10 coins used i
+  Options: 1. 6 | 2. 8 | 3. 10 | 4. 4
+
+Page 27 (Q60): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_27.png
+  Question: If 28.9 : x :: x : 36.1, and x > 0, then find the value of x.
+  Options: 1. 38.3 | 2. 30.4 | 3. 32.3 | 4. 35
+
+Page 28 (Q61): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_28.png
+  Question: Study the given pie chart carefully and answer the question that follows. The given pie chart shows that the number of successful start-ups in differe
+  Options: 1. 698 | 2. 1048 | 3. 1074 | 4. 1047
+
+Page 37 (Q85): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_37.png
+  Question: Select the option that expresses the following sentence in passive voice: Sonam does not like bananas.
+  Options: 1. Banana is not liked by Sonam. | 2. Bananas have not been liked by Sonam. | 3. Bananas are not liked by Sonam. | 4. Bananas had not been liked by Sonam.
+
+Page 37 (Q86): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_37.png
+  Question: Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph:
+A. 
+  Options: 1. Figure 1 | 2. Figure 2 | 3. Figure 3 | 4. Figure 4
+
+Page 38 (Q87): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_38.png
+  Question: Select the option that can be used as a one-word substitute for the underlined group of words:
+
+In Indian mythology, most of the Asuras wish to be nev
+  Options: 1. Invincible | 2. Impervious | 3. Invisible | 4. Immortal
+
+Page 38 (Q88): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_38.png
+  Question: Select the option that expresses the given sentence in passive voice:
+
+Someone has taken my secret diary.
+  Options: 1. My secret diary had been taken by someone. | 2. My secret diary has to be taken by someone. | 3. My secret diary has been taken by someone. | 4. My secret diary will have been taken by someone.
+
+Page 43 (QNone): pipeline_output\p2_gemini\2024_tier1_prepp_shift1\page_images\page_43.png
+  Question: The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)_____ by the old artist who sho
+  Options: 1. Supervision | 2. Condition | 3. Dimension | 4. Infection
+
+=== PDF: 2024_tier2_prepp_paper1 ===
+
+Page 09 (Q21): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_09.png
+  Question: By how much is 60% of 75 greater than 1/5 of 25?
+  Options: 1. 37 | 2. 34 | 3. 40 | 4. 38
+
+Page 09 (Q22): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_09.png
+  Question: If the average age of three persons is 56 years and their ages are in the ratio 2:5:7, then find the age of the youngest person.
+  Options: 1. 24 years | 2. 20 years | 3. 22 years | 4. Not provided in image
+
+Page 10 (Q23): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_10.png
+  Question: A toy is in the form of a cone mounted on a hemisphere. The radius of the hemisphere and that of the cone is 36 cm and height of the cone is 105 cm. T
+  Options: 1. 6025 π | 2. 6588 π | 3. 5799 π | 4. 5240 π
+
+Page 10 (Q24): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_10.png
+  Question: Anil and Beena are friends, and the difference between their ages is 5 years. Anil's father Dinesh is three times as old as Anil, and Beena is twice a
+  Options: 1. 100 years | 2. 91 years | 3. 69 years | 4. 78 years
+
+Page 20 (Q43): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_20.png
+  Question: U is the father of N. N is the sister of T. T is the wife of I. I is son of L. How is U related to L?
+  Options: 1. Son's wife's father | 2. Son's wife | 3. Son's wife's sister | 4. Son's wife's mother
+
+Page 21 (Q44): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_21.png
+  Question: Select the correct option that indicates the arrangement of the following words in a logical and meaningful order.
+1. Design 2. Test 3. Conceptualize 
+  Options: 1. 3, 5, 2, 4, 1 | 2. 1, 4, 5, 3, 2 | 3. 3, 1, 4, 2, 5 | 4. 4, 3, 1, 5, 4, 2
+
+Page 21 (Q45): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_21.png
+  Question: Select the correct option that indicates the arrangement of the following words in a logical and meaningful order.
+1. Delivery
+2. Finished Paper
+3. Dr
+  Options: 1. 1, 4, 5, 3, 2, 1 | 2. 4, 1, 2, 5, 3 | 3. 2, 5, 4, 3, 1 | 4. 5, 4, 2, 3, 1
+
+Page 21 (Q46): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_21.png
+  Question: Select the number from among the given options that can replace the question mark (?) in the following series.
+  Options: 1. Not provided | 2. Not provided | 3. Not provided | 4. Not provided
+
+Page 22 (QNone): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_22.png
+  Question: 9, 5, 6, 10.5, 23, ?
+  Options: 1. 90 | 2. 80 | 3. 60 | 4. 50
+
+Page 22 (Q47): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_22.png
+  Question: Each of P, Q, R, S, T, U and V has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. Q has the exam on
+  Options: 1. Saturday | 2. Thursday | 3. Sunday | 4. Friday
+
+Page 44 (QNone): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_44.png
+  Question: Select the most appropriate option to fill in blank number 3.
+  Options: 1. must | 2. could | 3. would | 4. might
+
+Page 47 (QNone): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_47.png
+  Question: What ultimately undermined the INA's efforts to free India from British rule?
+  Options: 1. Gandhi's death | 2. The Japanese surrender in 1945 | 3. The inferior military tactics of the British forces | 4. The lack of support from the Indian and British people
+
+Page 50 (QNone): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_50.png
+  Question: What does the term 'multiphyletic group' mean in the context of algae?
+  Options: 1. Having a common ancestor | 2. Being closely related species | 3. No common ancestor, not closely related | 4. Having diverse morphoanatomical characteristics
+
+Page 52 (QNone): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_52.png
+  Question: What is the central theme of the passage?
+  Options: 1. The prokaryotic nature of blue-green algae | 2. The anatomy of vascular plants | 3. The symbiotic relationship between algae and fungi | 4. The diversity and characteristics of algae
+
+Page 53 (QNone): pipeline_output\p2_gemini\2024_tier2_prepp_paper1\page_images\page_53.png
+  Question: Select the most appropriate synonym of the word 'Inherent'.
+  Options: 1. Artificial | 2. Borrowed | 3. Incited | 4. Natural

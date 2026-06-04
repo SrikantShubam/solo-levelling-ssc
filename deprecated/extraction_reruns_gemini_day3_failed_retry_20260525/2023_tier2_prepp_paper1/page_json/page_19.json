@@ -1,0 +1,74 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Figure A is related to B in a certain pattern. Following the same pattern, figure C is related to D. Study the pattern and select the figure which should be placed in place of D.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "264330172907",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Figure 3",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual figures."
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "How many meaningful English words can be formed with the second, fourth, fifth, and sixth letters of the word HOCKEY (when counted from left to right) using each letter only once in each word?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Three"
+        },
+        {
+          "label": "2",
+          "text": "Two"
+        },
+        {
+          "label": "3",
+          "text": "Zero"
+        },
+        {
+          "label": "4",
+          "text": "One"
+        }
+      ],
+      "question_id": "264330171997",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "One",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

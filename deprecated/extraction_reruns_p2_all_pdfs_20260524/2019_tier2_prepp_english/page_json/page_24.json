@@ -1,0 +1,36 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 35,
+      "section": "Comprehension",
+      "question_text_full": "Where did the biggest fires burn in Australia?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Along the western and southern coasts"
+        },
+        {
+          "label": "2",
+          "text": "Along the eastern and northern coasts"
+        },
+        {
+          "label": "3",
+          "text": "Along the western and northern coasts"
+        },
+        {
+          "label": "4",
+          "text": "Along the eastern and southern coasts"
+        }
+      ],
+      "question_id": "8161615508",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Along the eastern and southern coasts",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

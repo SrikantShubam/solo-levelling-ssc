@@ -1,0 +1,46 @@
+{
+  "page": 64,
+  "questions": [
+    {
+      "question_number": 130,
+      "section": null,
+      "question_text_full": "Which Indian city experiences the LEAST difference in average temperature between its hottest and coldest months?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Mumbai"
+        },
+        {
+          "label": "2",
+          "text": "Srinagar"
+        },
+        {
+          "label": "3",
+          "text": "Bhopal"
+        },
+        {
+          "label": "4",
+          "text": "Delhi"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The question options are labeled a, b, c, d in the image, but mapped to 1, 2, 3, 4 as per instructions. No answer key is provided on this page."
+    }
+  ],
+  "warnings": [
+    "No answer key (green tick) is present on the provided page for question 130."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

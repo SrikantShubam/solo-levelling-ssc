@@ -1,0 +1,104 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "P and Q take part in 400 m race. P runs at 12 km/hr. P gives Q a start of 20 m and still beats him by 13 seconds. The speed of Q is: (Round up to two decimal places.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "10.87 km/hr"
+        },
+        {
+          "label": "2",
+          "text": "10.29 km/hr"
+        },
+        {
+          "label": "3",
+          "text": "11.38 km/hr"
+        },
+        {
+          "label": "4",
+          "text": "11.61 km/hr"
+        }
+      ],
+      "question_id": "630680528052",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "10.29 km/hr",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "The ratio of the ages of two friends is 4 : 3 which will become 6 : 5 after 4 years. What will be the sum of their ages (in years) after 22 years from now?",
+      "options": [
+        {
+          "label": "1",
+          "text": "50"
+        },
+        {
+          "label": "2",
+          "text": "52"
+        },
+        {
+          "label": "3",
+          "text": "56"
+        },
+        {
+          "label": "4",
+          "text": "58"
+        }
+      ],
+      "question_id": "630680641023",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "58",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "If sin A = 5/13, then find the value of (cos A - 2 tan A) / (sin A + 3 tan A).",
+      "options": [
+        {
+          "label": "1",
+          "text": "11/255"
+        },
+        {
+          "label": "2",
+          "text": "13/255"
+        },
+        {
+          "label": "3",
+          "text": "12/255"
+        },
+        {
+          "label": "4",
+          "text": "14/255"
+        }
+      ],
+      "question_id": "630680674270",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "14/255",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,66 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Select the option figure in which the given figure is embedded (rotation is NOT allowed).",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "12356822",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Figure 4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Four letter-clusters have been given, out of which three are alike in some manner, while one is different. Select the odd letter-cluster.",
+      "options": [
+        {
+          "label": "1",
+          "text": "DWIR"
+        },
+        {
+          "label": "2",
+          "text": "NMSH"
+        },
+        {
+          "label": "3",
+          "text": "FVKO"
+        },
+        {
+          "label": "4",
+          "text": "BYGT"
+        }
+      ],
+      "question_id": "1235683",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "FVKO",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

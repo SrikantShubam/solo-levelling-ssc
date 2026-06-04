@@ -1,0 +1,76 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 40,
+      "section": null,
+      "question_text_full": "How many meaningful English words can be formed using first, third, sixth, and seventh letters of the word RECOGNIZE (when counted from left to right) using all the letters but each letter only once in each word?",
+      "options": [
+        {
+          "label": "1",
+          "text": "One"
+        },
+        {
+          "label": "2",
+          "text": "Two"
+        },
+        {
+          "label": "3",
+          "text": "Three"
+        },
+        {
+          "label": "4",
+          "text": "None"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 41,
+      "section": null,
+      "question_text_full": "The following contains two pairs of words which are related to each other in a certain way. Three of the following four word-pairs are alike as these have the same relationship and thus form a group. Which word-pair does NOT belong to that group? (The words must be considered as meaningful English words and must not be grouped based on the number of letters/number of consonants/vowels in the word.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Park - Swim"
+        },
+        {
+          "label": "2",
+          "text": "Restaurant - Dinner"
+        },
+        {
+          "label": "3",
+          "text": "Temple - Pray"
+        },
+        {
+          "label": "4",
+          "text": "Theatre - Movies"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "Question 42 is incomplete on the page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

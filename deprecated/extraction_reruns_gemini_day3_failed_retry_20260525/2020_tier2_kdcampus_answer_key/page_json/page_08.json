@@ -1,0 +1,254 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 43,
+      "section": null,
+      "question_text_full": "The upper limbs of stick puppets are made of:",
+      "options": [
+        {
+          "label": "1",
+          "text": "straw"
+        },
+        {
+          "label": "2",
+          "text": "leather"
+        },
+        {
+          "label": "3",
+          "text": "paper"
+        },
+        {
+          "label": "4",
+          "text": "cloth"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 44,
+      "section": null,
+      "question_text_full": "Which of the following is NOT a benefit of the art of puppetry?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Messages can be propagated in a realistic manner."
+        },
+        {
+          "label": "2",
+          "text": "It is a good therapy for physically challenged people."
+        },
+        {
+          "label": "3",
+          "text": "It is entertaining for people of all ages."
+        },
+        {
+          "label": "4",
+          "text": "A puppeteer is required to manipulate the puppets."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 45,
+      "section": null,
+      "question_text_full": "Which of the following statements about string puppets is FALSE?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Puppets wear anklets while dancing."
+        },
+        {
+          "label": "2",
+          "text": "The main storyteller narrates the story."
+        },
+        {
+          "label": "3",
+          "text": "The show is performed on a stage."
+        },
+        {
+          "label": "4",
+          "text": "Six strings are used to manipulate puppets."
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 46,
+      "section": null,
+      "question_text_full": "Where did the art of puppetry first come into being?",
+      "options": [
+        {
+          "label": "1",
+          "text": "India"
+        },
+        {
+          "label": "2",
+          "text": "Bali"
+        },
+        {
+          "label": "3",
+          "text": "Cambodia"
+        },
+        {
+          "label": "4",
+          "text": "Japan"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 47,
+      "section": null,
+      "question_text_full": "Limbs of the puppets are loosely-jointed:",
+      "options": [
+        {
+          "label": "1",
+          "text": "to create the illusion of dancing"
+        },
+        {
+          "label": "2",
+          "text": "to allow movement of limbs separately"
+        },
+        {
+          "label": "3",
+          "text": "to move the entire body of the puppet"
+        },
+        {
+          "label": "4",
+          "text": "to make the movements aesthetic"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 48,
+      "section": null,
+      "question_text_full": "The word puppet is derived from the Latin word:",
+      "options": [
+        {
+          "label": "1",
+          "text": "rod"
+        },
+        {
+          "label": "2",
+          "text": "pupa"
+        },
+        {
+          "label": "3",
+          "text": "girl"
+        },
+        {
+          "label": "4",
+          "text": "doll"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 49,
+      "section": null,
+      "question_text_full": "The above passage is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "literary"
+        },
+        {
+          "label": "2",
+          "text": "narrative"
+        },
+        {
+          "label": "3",
+          "text": "factual"
+        },
+        {
+          "label": "4",
+          "text": "didactic"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    },
+    {
+      "question_number": 50,
+      "section": null,
+      "question_text_full": "A light source is placed behind the shadow puppets so that:",
+      "options": [
+        {
+          "label": "1",
+          "text": "the puppets can illuminate the screen"
+        },
+        {
+          "label": "2",
+          "text": "they are clearly visible in bright light"
+        },
+        {
+          "label": "3",
+          "text": "moving shadows can be created on the screen"
+        },
+        {
+          "label": "4",
+          "text": "the puppeteer is hidden from view"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on page."
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

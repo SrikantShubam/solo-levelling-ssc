@@ -1,0 +1,104 @@
+{
+  "page": 28,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to fill in the blank. The house they bought was__________spacious than their previous house.",
+      "options": [
+        {
+          "label": "1",
+          "text": "mostly"
+        },
+        {
+          "label": "2",
+          "text": "most"
+        },
+        {
+          "label": "3",
+          "text": "as"
+        },
+        {
+          "label": "4",
+          "text": "more"
+        }
+      ],
+      "question_id": "26433061505",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "more",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. The principles that emerged from those trials, known as the Nuremberg Code, are broadly applicable to many types of health-related research involving human participants, including clinical trials.\nB. The growing breadth and complexity of contemporary health challenges have produced a range of difficult questions that cannot always be adequately addressed by relying exclusively on existing policies, guidelines or codes of conduct.\nC. Recent formal efforts to articulate international standards of ethics applicable to health and health care can be traced to the Nuremberg trials of 1947, during which the horrors of Nazi medical experiments came to light.\nD. Ethical questions related to health, health care and public health cover topics as diverse as moral issues around reproduction, state obligations in the provision of health care services and appropriate measures to control infectious disease.",
+      "options": [
+        {
+          "label": "1",
+          "text": "DCAB"
+        },
+        {
+          "label": "2",
+          "text": "ACDB"
+        },
+        {
+          "label": "3",
+          "text": "DACB"
+        },
+        {
+          "label": "4",
+          "text": "DABC"
+        }
+      ],
+      "question_id": "26433060487",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "DCAB",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "Select the option that expresses the given sentence in active voice.\nMy request should be considered.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Please have consider my request."
+        },
+        {
+          "label": "2",
+          "text": "Please do consider mine request."
+        },
+        {
+          "label": "3",
+          "text": "Consider my request."
+        },
+        {
+          "label": "4",
+          "text": "Please consider my request."
+        }
+      ],
+      "question_id": "26433058534",
+      "chosen_option_label": "3",
+      "correct_option_label": "4",
+      "correct_option_text": "Please consider my request.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

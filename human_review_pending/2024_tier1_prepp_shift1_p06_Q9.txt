@@ -1,0 +1,19 @@
+PDF: 2024_tier1_prepp_shift1
+Page: 6
+Question Number: 9
+Global Q#: 9
+Section: None
+Modality: dice
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Six words Eat, Cry, Play, Sleep, Run and Bath are written on different faces of a dice. Three positions of this dice are shown in the figure. Find the word on the face opposite to Eat.
+
+--- Options ---
+  (1) Play
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4

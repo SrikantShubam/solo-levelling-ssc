@@ -1,0 +1,76 @@
+{
+  "page": 20,
+  "questions": [
+    {
+      "question_number": 42,
+      "section": null,
+      "question_text_full": "In August 2022, the Ministry of Social Justice and Empowerment launched the _______ scheme, with an aim to provide comprehensive rehabilitation services to people engaged in begging in 75 municipalities.",
+      "options": [
+        {
+          "label": "1",
+          "text": "TWINKLE-75"
+        },
+        {
+          "label": "2",
+          "text": "BEAM-75"
+        },
+        {
+          "label": "3",
+          "text": "SMILE-75"
+        },
+        {
+          "label": "4",
+          "text": "RISE-75"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain the 'Ans' block with green/red marks for these questions."
+    },
+    {
+      "question_number": 43,
+      "section": null,
+      "question_text_full": "Which is the National Mission for Financial Inclusion to ensure access to financial services, namely, a basic savings and deposits account, remittance, credit, insurance, pension in an affordable manner?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Deendayal Antyodaya Yojana"
+        },
+        {
+          "label": "2",
+          "text": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana"
+        },
+        {
+          "label": "3",
+          "text": "Swarnjayanti Gram Swarozgar Yojana"
+        },
+        {
+          "label": "4",
+          "text": "Pradhan Mantri Jan Dhan Yojana"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The provided image does not contain the 'Ans' block with green/red marks for these questions."
+    }
+  ],
+  "warnings": [
+    "No answer keys (green/red marks) were present in the provided image for any questions."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

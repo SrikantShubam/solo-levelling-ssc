@@ -1,0 +1,107 @@
+{
+  "page": 68,
+  "questions": [
+    {
+      "question_number": 141,
+      "section": null,
+      "question_text_full": "Which feature in MS Word allows the user to apply a consistent look across text elements such as headings, titles and subtitles?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Template"
+        },
+        {
+          "label": "2",
+          "text": "Styles"
+        },
+        {
+          "label": "3",
+          "text": "Table"
+        },
+        {
+          "label": "4",
+          "text": "Macros"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The answer key is not visible on the page."
+    },
+    {
+      "question_number": 142,
+      "section": null,
+      "question_text_full": "What is the main purpose of using a template when creating a presentation in MS PowerPoint?",
+      "options": [
+        {
+          "label": "1",
+          "text": "To ensure consistency and professionalism"
+        },
+        {
+          "label": "2",
+          "text": "To automatically insert multimedia content"
+        },
+        {
+          "label": "3",
+          "text": "To add complex animations easily"
+        },
+        {
+          "label": "4",
+          "text": "To create interactive quizzes within slides"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The answer key is not visible on the page."
+    },
+    {
+      "question_number": 143,
+      "section": null,
+      "question_text_full": "Which of the following best describes Electronic Mail (E-mail)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A method of sending messages electronically over a computer network."
+        },
+        {
+          "label": "2",
+          "text": "Not visible"
+        },
+        {
+          "label": "3",
+          "text": "Not visible"
+        },
+        {
+          "label": "4",
+          "text": "Not visible"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "Question is incomplete; only option 'a' (labeled 1) is visible."
+    }
+  ],
+  "warnings": [
+    "Question 143 is incomplete on the page.",
+    "Answer keys are not visible for any questions on this page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

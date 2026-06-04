@@ -1,0 +1,18 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 53
+Question Number: None
+Global Q#: 98
+Section: None
+Modality: table_di
+Blocking Reasons: ['correct_option_unresolved_or_conflict']
+Has Correct Label: False
+Evidence Source: unavailable
+
+--- Question Text ---
+Select the most appropriate synonym of the word 'Inherent'.
+
+--- Options ---
+  (1) Artificial
+  (2) Borrowed
+  (3) Incited
+  (4) Natural

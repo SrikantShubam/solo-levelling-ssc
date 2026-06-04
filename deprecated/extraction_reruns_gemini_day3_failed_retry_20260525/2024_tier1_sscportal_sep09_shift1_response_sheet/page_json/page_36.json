@@ -1,0 +1,74 @@
+{
+  "page": 36,
+  "questions": [
+    {
+      "question_number": 21,
+      "section": "Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank number 1.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Therefore"
+        },
+        {
+          "label": "2",
+          "text": "Furthermore"
+        },
+        {
+          "label": "3",
+          "text": "Moreover"
+        },
+        {
+          "label": "4",
+          "text": "However"
+        }
+      ],
+      "question_id": "630680164755",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "However",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": "Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank number 2.",
+      "options": [
+        {
+          "label": "1",
+          "text": "rescind"
+        },
+        {
+          "label": "2",
+          "text": "foresee"
+        },
+        {
+          "label": "3",
+          "text": "legalise"
+        },
+        {
+          "label": "4",
+          "text": "affect"
+        }
+      ],
+      "question_id": "630680164756",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "foresee",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

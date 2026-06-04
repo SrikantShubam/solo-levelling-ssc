@@ -1,0 +1,96 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "The following bar chart represents the gross amount (in ₹ lakhs) and total cost (in ₹ lakhs) of a firm.\n\n[Image of bar chart]\n\nIn order to make a profit of 25%, what should the gross amount have been (in ₹ crores) in 2019-2020, if the total cost remained the same?",
+      "options": [
+        {
+          "label": "1",
+          "text": "7800"
+        },
+        {
+          "label": "2",
+          "text": "8000"
+        },
+        {
+          "label": "3",
+          "text": "8250"
+        },
+        {
+          "label": "4",
+          "text": "8125"
+        }
+      ],
+      "question_id": "264330122696",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "8125",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "In what time will ₹10,000 at 4% per annum, produce the same interest as ₹8,000 does in 4 years at 5% simple interest?",
+      "options": [
+        {
+          "label": "1",
+          "text": "5 years"
+        },
+        {
+          "label": "2",
+          "text": "3 years"
+        },
+        {
+          "label": "3",
+          "text": "4 years"
+        },
+        {
+          "label": "4",
+          "text": "6 years"
+        }
+      ],
+      "question_id": "264330111476",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "4 years",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "A man, a boy and a woman can finish a work in 10 days, 15 days and 30 days, respectively. In how many days can the work be finished by a man, a woman and a boy when all of them work together?",
+      "options": [
+        {
+          "label": "1",
+          "text": "10"
+        },
+        {
+          "label": "2",
+          "text": "5"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "6"
+        }
+      ],
+      "question_id": "264330112114",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

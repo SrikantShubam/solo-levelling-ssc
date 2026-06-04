@@ -1,0 +1,134 @@
+{
+  "page": 50,
+  "questions": [
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Which of the following option of print settings is used to choose only specific pages in MS-Word 365?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Print All Pages"
+        },
+        {
+          "label": "2",
+          "text": "Print Current Page"
+        },
+        {
+          "label": "3",
+          "text": "Print Selection"
+        },
+        {
+          "label": "4",
+          "text": "Custom Print"
+        }
+      ],
+      "question_id": "264330128773",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Custom Print",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "_______ displays a list of utility configure the computer system and install software and hardware.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Control Panel"
+        },
+        {
+          "label": "2",
+          "text": "Help and Support"
+        },
+        {
+          "label": "3",
+          "text": "Taskbar"
+        },
+        {
+          "label": "4",
+          "text": "Run"
+        }
+      ],
+      "question_id": "264330128750",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Control Panel",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Which of the following is correct option in MS-Excel 365, if a value in a cell of column A and row 10 is to be referred in a function or formula?",
+      "options": [
+        {
+          "label": "1",
+          "text": "A -10"
+        },
+        {
+          "label": "2",
+          "text": "10A"
+        },
+        {
+          "label": "3",
+          "text": "A10"
+        },
+        {
+          "label": "4",
+          "text": "A :10"
+        }
+      ],
+      "question_id": "264330128751",
+      "chosen_option_label": "3",
+      "correct_option_label": "4",
+      "correct_option_text": "A :10",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "While _______, data transfers from the customers' machine to the server.",
+      "options": [
+        {
+          "label": "1",
+          "text": "browsing"
+        },
+        {
+          "label": "2",
+          "text": "uploading"
+        },
+        {
+          "label": "3",
+          "text": "forwarding"
+        },
+        {
+          "label": "4",
+          "text": "downloading"
+        }
+      ],
+      "question_id": "264330128752",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "uploading",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

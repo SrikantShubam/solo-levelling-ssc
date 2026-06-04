@@ -1,0 +1,104 @@
+{
+  "page": 33,
+  "questions": [
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Select the INCORRECTLY spelt word.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bureaucracy"
+        },
+        {
+          "label": "2",
+          "text": "Embarrass"
+        },
+        {
+          "label": "3",
+          "text": "Connoisseur"
+        },
+        {
+          "label": "4",
+          "text": "Relevent"
+        }
+      ],
+      "question_id": "630680377267",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "Relevent",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym to replace the underlined word in the given sentence.\nNo altruistic act is truly sincere.",
+      "options": [
+        {
+          "label": "1",
+          "text": "phenomenal"
+        },
+        {
+          "label": "2",
+          "text": "phonotypical"
+        },
+        {
+          "label": "3",
+          "text": "philanthropic"
+        },
+        {
+          "label": "4",
+          "text": "phantasmal"
+        }
+      ],
+      "question_id": "630680295693",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "philanthropic",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the most appropriate synonym of the given word.\nInnuendo",
+      "options": [
+        {
+          "label": "1",
+          "text": "Crude"
+        },
+        {
+          "label": "2",
+          "text": "Prose"
+        },
+        {
+          "label": "3",
+          "text": "Ragged"
+        },
+        {
+          "label": "4",
+          "text": "Insinuation"
+        }
+      ],
+      "question_id": "630680145489",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "Insinuation",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

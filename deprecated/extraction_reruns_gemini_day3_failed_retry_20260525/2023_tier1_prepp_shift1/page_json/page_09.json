@@ -1,0 +1,164 @@
+{
+  "page": 9,
+  "questions": [
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "In a certain code language, 'ASK' is written as '62' and 'BYE' is written as '64'. How will 'CRY' be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "68"
+        },
+        {
+          "label": "2",
+          "text": "72"
+        },
+        {
+          "label": "3",
+          "text": "86"
+        },
+        {
+          "label": "4",
+          "text": "92"
+        }
+      ],
+      "question_id": "26433082572",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "92",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Select the correct combination of mathematical signs that can sequentially replace the * signs and balance the given equation.\n256 * 4 * 9 * 3 * 14 = 51",
+      "options": [
+        {
+          "label": "1",
+          "text": "× + − ÷"
+        },
+        {
+          "label": "2",
+          "text": "÷ × − +"
+        },
+        {
+          "label": "3",
+          "text": "× + + −"
+        },
+        {
+          "label": "4",
+          "text": "÷ − × +"
+        }
+      ],
+      "question_id": "264330122474",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "÷ − × +",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Select the option that represents the letters that, when placed from left to right in the following blanks, will complete the letter-series.\nC L _ V E C _ _ W E C L O _ _ C _ O _ E",
+      "options": [
+        {
+          "label": "1",
+          "text": "O L P X E L Y"
+        },
+        {
+          "label": "2",
+          "text": "O L O Y E L Z"
+        },
+        {
+          "label": "3",
+          "text": "O L O X F M Y"
+        },
+        {
+          "label": "4",
+          "text": "O L O X E L Y"
+        }
+      ],
+      "question_id": "264330143756",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "O L O X E L Y",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "In a certain code language, 'TABLE' is coded as ELEAT and 'SWING' is coded as GNLWS. How will 'FRAME' be coded in the same language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "EMERF"
+        },
+        {
+          "label": "2",
+          "text": "EMDRF"
+        },
+        {
+          "label": "3",
+          "text": "ERMDF"
+        },
+        {
+          "label": "4",
+          "text": "MEDFR"
+        }
+      ],
+      "question_id": "264330129761",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "EMDRF",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Which two signs should be interchanged to make the given equation correct?\n588 ÷ 28 × 32 + 72 − 160 = 760",
+      "options": [
+        {
+          "label": "1",
+          "text": "− and +"
+        },
+        {
+          "label": "2",
+          "text": "÷ and −"
+        },
+        {
+          "label": "3",
+          "text": "+ and ×"
+        },
+        {
+          "label": "4",
+          "text": "÷ and +"
+        }
+      ],
+      "question_id": "264330132505",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "− and +",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,96 @@
+{
+  "page": 55,
+  "questions": [
+    {
+      "question_number": 96,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’.\n\nThe Ghats in Benaras were very crowded but we were able to watch the Ganga aarti clearly.",
+      "options": [
+        {
+          "label": "1",
+          "text": "No substitution required"
+        },
+        {
+          "label": "2",
+          "text": "but we was"
+        },
+        {
+          "label": "3",
+          "text": "but we are"
+        },
+        {
+          "label": "4",
+          "text": "so we were"
+        }
+      ],
+      "question_id": "8161615575",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "No substitution required",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 97,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required’.\n\nHe couldn’t believe it at first, so the most he thought about it, the more he decided it must be true.",
+      "options": [
+        {
+          "label": "1",
+          "text": "but a most"
+        },
+        {
+          "label": "2",
+          "text": "but the more"
+        },
+        {
+          "label": "3",
+          "text": "although the more"
+        },
+        {
+          "label": "4",
+          "text": "No substitution required"
+        }
+      ],
+      "question_id": "8161615567",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "but the more",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 98,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order.\n\nA. The guard escorted him to the front office.\nB. There the warden handed Jimmy his pardon, which had been signed by the Governor that morning.\nC. There Jimmy Valentine was carefully stitching the shoe uppers.\nD. A guard came to the prison shoe shop.",
+      "options": [
+        {
+          "label": "1",
+          "text": "BACD"
+        },
+        {
+          "label": "2",
+          "text": "DCAB"
+        },
+        {
+          "label": "3",
+          "text": "CBDA"
+        },
+        {
+          "label": "4",
+          "text": "BDCA"
+        }
+      ],
+      "question_id": "8161615639",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "DCAB",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

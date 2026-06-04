@@ -1,0 +1,48 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 12,
+      "section": null,
+      "question_text_full": "Select the figure from among the given options that can replace the question mark (?) in the following series.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure a"
+        },
+        {
+          "label": "2",
+          "text": "Figure b"
+        },
+        {
+          "label": "3",
+          "text": "Figure c"
+        },
+        {
+          "label": "4",
+          "text": "Figure d"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": false,
+      "confidence": "low",
+      "notes": "The page displays a question numbered 12, but the options provided in the image are labeled a, b, c, d instead of 1, 2, 3, 4. Additionally, the fourth option is missing from the visual layout."
+    }
+  ],
+  "warnings": [
+    "Question 12 options are labeled a, b, c, d in the source image, not 1, 2, 3, 4.",
+    "The fourth option for question 12 is not visible on the page.",
+    "The first puzzle at the top of the page lacks a question number and standard answer options."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

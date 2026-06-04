@@ -1,0 +1,104 @@
+{
+  "page": 29,
+  "questions": [
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Select the correct spelling of the incorrectly spelt word in the given sentence.\nGood characteristics are indispensible to succeed in life.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Indenspensable"
+        },
+        {
+          "label": "2",
+          "text": "Indespensible"
+        },
+        {
+          "label": "3",
+          "text": "Indispenscible"
+        },
+        {
+          "label": "4",
+          "text": "Indispensable"
+        }
+      ],
+      "question_id": "6306801320364",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Indispensable",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nSomeone who loves and admires himself the most",
+      "options": [
+        {
+          "label": "1",
+          "text": "Recluse"
+        },
+        {
+          "label": "2",
+          "text": "Narcissist"
+        },
+        {
+          "label": "3",
+          "text": "Altruist"
+        },
+        {
+          "label": "4",
+          "text": "Omniscient"
+        }
+      ],
+      "question_id": "63068086330",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Narcissist",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "A sentence has been split up into segments and given below in jumbled order. While the first and the last segments of the sentence (1 and 6) are in the correct order, the segments in between are jumbled up. Arrange the segments in the correct order to form a meaningful and coherent sentence.\n1) An outstanding feature of the 21st century has been\nP) greater security and education which\nQ) the improvement of the income and\nR) living conditions of the\nS) working man leading to\n6) has meant greater political power.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Q, R, S, P"
+        },
+        {
+          "label": "2",
+          "text": "S, P, Q, R"
+        },
+        {
+          "label": "3",
+          "text": "S, R, Q, P"
+        },
+        {
+          "label": "4",
+          "text": "P, R, Q, S"
+        }
+      ],
+      "question_id": "630680295270",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Q, R, S, P",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

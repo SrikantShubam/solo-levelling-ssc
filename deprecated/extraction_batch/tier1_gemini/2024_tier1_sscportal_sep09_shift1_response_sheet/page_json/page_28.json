@@ -1,0 +1,66 @@
+{
+  "page": 28,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Which of the following can be the value of k, if (88 ÷ 8 × k - 3 × 3) / (6^2 - 7 × 5 + k^2) = 1?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2, 7"
+        },
+        {
+          "label": "2",
+          "text": "4, 7"
+        },
+        {
+          "label": "3",
+          "text": "3, 10"
+        },
+        {
+          "label": "4",
+          "text": "1, 10"
+        }
+      ],
+      "question_id": "630680427977",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "1, 10",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Read the given information and answer the question that follows.\nThe following table gives the percentage of marks obtained by seven students in six different subjects in an examination.\nThe number in the brackets give the maximum marks in each subject.\n[Table provided in image]\nIf someone secured all the highest scores that have been obtained by some student or the other in the six subjects as given in the table above, what would be the exact overall percentage score obtained by that student?",
+      "options": [
+        {
+          "label": "1",
+          "text": "90 5/6%"
+        },
+        {
+          "label": "2",
+          "text": "91 1/6%"
+        },
+        {
+          "label": "3",
+          "text": "95.16%"
+        },
+        {
+          "label": "4",
+          "text": "91%"
+        }
+      ],
+      "question_id": "630680135826",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "91 1/6%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

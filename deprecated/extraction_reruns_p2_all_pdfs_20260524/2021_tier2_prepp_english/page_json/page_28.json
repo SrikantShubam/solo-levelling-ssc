@@ -1,0 +1,36 @@
+{
+  "page": 28,
+  "questions": [
+    {
+      "question_number": 35,
+      "section": null,
+      "question_text_full": "What helps an elephant fight its enemies?",
+      "options": [
+        {
+          "label": "1",
+          "text": "its legs and ears"
+        },
+        {
+          "label": "2",
+          "text": "its tusks and trunk"
+        },
+        {
+          "label": "3",
+          "text": "its size and strength"
+        },
+        {
+          "label": "4",
+          "text": "its neck and tail"
+        }
+      ],
+      "question_id": "26433083519",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "its tusks and trunk",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,14 @@
+# Extraction Review Worklist
+
+Only rows with canonical review reasons are listed. Chosen-option-only rows are non-blocking for corpus/archetype extraction.
+
+| Global Q | Section Q | Page | Modality | Correct | Evidence | Reasons | Page asset | Short text |
+|---:|---:|---:|---|---|---|---|---|---|
+| 7 | 7 | 3 | text_only | 4 | PASS_WITH_EVIDENCE | chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2022_tier2_prepp_paper1\page_images\page_03.png | Find the mode for the given distribution (rounded off to two decimal places). Class Interval: 5-10, 10-15, 15-20, 20-25, |
+| 35 | 5 | 10 | text_only | 1 | PASS_WITH_EVIDENCE | chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2022_tier2_prepp_paper1\page_images\page_10.png | In this question, a statement is followed by two courses of action, numbered I and II. You must assume everything in the |
+| 39 | 9 | 11 | text_only | 4 | PASS_WITH_EVIDENCE | chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2022_tier2_prepp_paper1\page_images\page_11.png | Select the number from among the given options that can replace the question mark (?) in the following series. 58, 179,  |
+| 41 | 11 | 12 | text_only | 1 | PASS_WITH_EVIDENCE | chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2022_tier2_prepp_paper1\page_images\page_12.png | In a certain code language, ‘PAINT’ is written as ‘80’ and ‘DROP’ is written as ‘59’. How will ‘MARKET’ be written in th |
+| 49 | 19 | 15 | visual_options | None | PASS_WITH_MANUAL_REVIEW | correct_option_unresolved_or_conflict | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2022_tier2_prepp_paper1\page_images\page_15.png | Select the option in which the following figure is embedded. (Rotation is NOT allowed) |
+| 53 | 23 | 17 | visual_options | None | PASS_WITH_MANUAL_REVIEW | correct_option_unresolved_or_conflict, chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2022_tier2_prepp_paper1\page_images\page_17.png | Out of the following five figures, four are alike in some manner and one differs from these in that manner. Select the o |
+| 54 | 24 | 17 | math_formula | 3 | PASS_WITH_EVIDENCE | chosen_option_missing | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2022_tier2_prepp_paper1\page_images\page_17.png | Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE : Operat |
+| 56 | 26 | 19 | visual_options | None | PASS_WITH_MANUAL_REVIEW | correct_option_unresolved_or_conflict | C:\experiments\ssc\extraction_reruns\p2_all_pdfs_20260524\2022_tier2_prepp_paper1\page_images\page_19.png | Figure A is related to B in a certain pattern. Following the same pattern, figure C is related to D. Study the pattern a |

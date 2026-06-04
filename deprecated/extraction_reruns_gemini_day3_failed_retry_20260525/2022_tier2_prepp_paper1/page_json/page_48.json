@@ -1,0 +1,134 @@
+{
+  "page": 48,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Which of the following statements is/are correct regarding changes to Atal Pension Yojana Scheme (APY) done in 2022?\nA. According to the new criteria, any citizen who is or has been an income-tax payer, shall not be eligible to join APY after 1 October 2022.\nB. Subscribers would receive the guaranteed minimum monthly pension of ₹1,000 or ₹2,000 or ₹3,000 or ₹5,000 at the age of 80 years.\nC. As per the new rules, subscribers can make contributions to APY on a monthly basis only.",
+      "options": [
+        {
+          "label": "1",
+          "text": "B and C only"
+        },
+        {
+          "label": "2",
+          "text": "A, B and C"
+        },
+        {
+          "label": "3",
+          "text": "A and C only"
+        },
+        {
+          "label": "4",
+          "text": "A only"
+        }
+      ],
+      "question_id": "264330122937",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "A only",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Which of the following is considered a capital expense?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Pension"
+        },
+        {
+          "label": "2",
+          "text": "Payment of salaries"
+        },
+        {
+          "label": "3",
+          "text": "Subsidies"
+        },
+        {
+          "label": "4",
+          "text": "Construction of school buildings"
+        }
+      ],
+      "question_id": "264330123883",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Construction of school buildings",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "A light bulb working on a 18 V battery draws a current of 3 A. What will be the resistance of the bulb?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6 Ω"
+        },
+        {
+          "label": "2",
+          "text": "2 Ω"
+        },
+        {
+          "label": "3",
+          "text": "4 Ω"
+        },
+        {
+          "label": "4",
+          "text": "3 Ω"
+        }
+      ],
+      "question_id": "264330109882",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "6 Ω",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "Computer Knowledge Module",
+      "question_text_full": "_______ is a type of malware that is often disguised as legitimate software.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Trojan"
+        },
+        {
+          "label": "2",
+          "text": "Ransomware"
+        },
+        {
+          "label": "3",
+          "text": "Roolkit"
+        },
+        {
+          "label": "4",
+          "text": "Keylogger"
+        }
+      ],
+      "question_id": "264330128728",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Trojan",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

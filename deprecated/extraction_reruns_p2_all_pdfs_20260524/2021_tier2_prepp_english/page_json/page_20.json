@@ -1,0 +1,36 @@
+{
+  "page": 20,
+  "questions": [
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "Why do Syrian refugees prefer to take shelter in Turkey? Select the main reason.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Turkey is a beautiful country."
+        },
+        {
+          "label": "2",
+          "text": "Turkey is the nearest hospitable country to Syria."
+        },
+        {
+          "label": "3",
+          "text": "Turkey is a hospitable country."
+        },
+        {
+          "label": "4",
+          "text": "Turkey provides the refugees with all amenities."
+        }
+      ],
+      "question_id": "26433083546",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Turkey is the nearest hospitable country to Syria.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

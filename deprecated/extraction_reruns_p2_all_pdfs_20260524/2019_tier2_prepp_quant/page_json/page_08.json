@@ -1,0 +1,126 @@
+{
+  "page": 8,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": null,
+      "question_text_full": "A person has to cover a distance of 160 km in 15 hours. If he covers 4/5 of the distance in 2/3 of the time, then what should be his speed (in km/h) to cover the remaining distance in the remaining time?",
+      "options": [
+        {
+          "label": "1",
+          "text": "6"
+        },
+        {
+          "label": "2",
+          "text": "8"
+        },
+        {
+          "label": "3",
+          "text": "6.5"
+        },
+        {
+          "label": "4",
+          "text": "6.4"
+        }
+      ],
+      "question_id": "8161615318",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "6.4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 27,
+      "section": null,
+      "question_text_full": "The height of a solid cylinder is 30 cm and the diameter of its base is 10 cm. Two identical conical holes each of radius 5 cm and height 12 cm are drilled out. What is the surface area (in cm²) of the remaining solid?",
+      "options": [
+        {
+          "label": "1",
+          "text": "430 π"
+        },
+        {
+          "label": "2",
+          "text": "120 π"
+        },
+        {
+          "label": "3",
+          "text": "330 π"
+        },
+        {
+          "label": "4",
+          "text": "230 π"
+        }
+      ],
+      "question_id": "8161615355",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "430 π",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "If 9x² + y² = 37 and xy = 2, x, y > 0, then the value of (27x³ + y³) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "259"
+        },
+        {
+          "label": "2",
+          "text": "301"
+        },
+        {
+          "label": "3",
+          "text": "207"
+        },
+        {
+          "label": "4",
+          "text": "217"
+        }
+      ],
+      "question_id": "8161615328",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "217",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "The value of (cosec² 30° sin² 45° + sec² 60°) / (tan 60° cosec² 45° - sec² 60° tan 45°) is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "-3(2 + √3)"
+        },
+        {
+          "label": "2",
+          "text": "2(√3 - 2)"
+        },
+        {
+          "label": "3",
+          "text": "3(2 + √3)"
+        },
+        {
+          "label": "4",
+          "text": "-2√3 - 2"
+        }
+      ],
+      "question_id": "8161615367",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "-3(2 + √3)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

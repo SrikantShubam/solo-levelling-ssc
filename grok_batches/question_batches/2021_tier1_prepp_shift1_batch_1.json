@@ -1,0 +1,360 @@
+{
+  "task_id": 1,
+  "data": {
+    "pdf_name": "2021_tier1_prepp_shift1",
+    "batch_start": 26,
+    "batch_end": 50,
+    "questions": [
+      {
+        "global_question_number": 26,
+        "question_number": 29,
+        "source_page": 16,
+        "question_text_full": "Which of the following is also known as the \u2018White Mountain\u2019?",
+        "options": {
+          "1": "Cho Oyu",
+          "2": "Lhotse",
+          "3": "Dhaulagiri I",
+          "4": "Makalu"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 27,
+        "question_number": 30,
+        "source_page": 16,
+        "question_text_full": "Pneumatophores are specialised _______ in hydrophytes.",
+        "options": {
+          "1": "fruits",
+          "2": "roots",
+          "3": "flowers",
+          "4": "seeds"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 28,
+        "question_number": 31,
+        "source_page": 16,
+        "question_text_full": "Which of the following is an Indirect Tax in India?",
+        "options": {
+          "1": "Goods and Services Tax",
+          "2": "Corporation Tax",
+          "3": "Income Tax",
+          "4": "Capital Gains Tax"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 29,
+        "question_number": 33,
+        "source_page": 17,
+        "question_text_full": "______ was an important port city in ancient India.",
+        "options": {
+          "1": "Tamralipti",
+          "2": "Ahichhatra",
+          "3": "Champa",
+          "4": "Shravasti"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 30,
+        "question_number": 34,
+        "source_page": 17,
+        "question_text_full": "With which of the following oceans would you associate the \u2018Ring of Fire\u2019?",
+        "options": {
+          "1": "Pacific",
+          "2": "Indian",
+          "3": "Atlantic",
+          "4": "Arctic"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 31,
+        "question_number": 35,
+        "source_page": 18,
+        "question_text_full": "Who among the following became the Chief Minister of Uttarakhand in March 2021?",
+        "options": {
+          "1": "Madan Kaushik",
+          "2": "Dhan Singh Rawat",
+          "3": "BC Khanduri",
+          "4": "Tirath Singh Rawat"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 32,
+        "question_number": 36,
+        "source_page": 18,
+        "question_text_full": "In which of the following states/union territories was an election NOT held during March-April 2021?",
+        "options": {
+          "1": "West Bengal",
+          "2": "Bihar",
+          "3": "Tamil Nadu",
+          "4": "Puducherry"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 33,
+        "question_number": 37,
+        "source_page": 18,
+        "question_text_full": "Who among the following is the author of the book \u2018The Secret of the Veda\u2019?",
+        "options": {
+          "1": "Swami Vivekananda",
+          "2": "Annie Besant",
+          "3": "Sri Aurobindo",
+          "4": "J Krishnamurti"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 34,
+        "question_number": 38,
+        "source_page": 19,
+        "question_text_full": "Which of the following teams won the Indian Super League 2020-21?",
+        "options": {
+          "1": "Kerala Blasters FC",
+          "2": "ATK Mohun Bagan",
+          "3": "Mumbai City FC",
+          "4": "NortEast United FC"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 35,
+        "question_number": 39,
+        "source_page": 19,
+        "question_text_full": "The theme for International Mother Earth Day, 2021 was '________'.",
+        "options": {
+          "1": "Climate Action",
+          "2": "Restore our Earth",
+          "3": "End Plastic Pollution",
+          "4": "Protect our Species"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 36,
+        "question_number": 40,
+        "source_page": 19,
+        "question_text_full": "Which of the following Amendments of the Constitution of India added a new fundamental duty under Article 51-A?",
+        "options": {
+          "1": "Eighty-Seventh Amendment Act, 2003",
+          "2": "Eighty-Eighth Amendment Act, 2003",
+          "3": "Eighty-Sixth Amendment Act, 2002",
+          "4": "Eighty-Fifth Amendment Act, 2001"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 37,
+        "question_number": 42,
+        "source_page": 20,
+        "question_text_full": "A Ghatam is a ______.",
+        "options": {
+          "1": "small handheld drum that resembles a tambourine",
+          "2": "percussion instrument made of leather and jackwood",
+          "3": "large, narrow-mouthed earthenware pot used as a percussion instrument",
+          "4": "wind instrument made of wood and metal"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 38,
+        "question_number": 43,
+        "source_page": 20,
+        "question_text_full": "Tribes of the Nicobar Islands pay their respects to the departed soul of the head of the family during the ________.",
+        "options": {
+          "1": "Ossuary Feast",
+          "2": "Jagaddhatri Puja",
+          "3": "Kalpataru Utsav",
+          "4": "Gajan Festival"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 39,
+        "question_number": 45,
+        "source_page": 21,
+        "question_text_full": "In which year was the \u2018Lotteries Regulation Act\u2019 passed?",
+        "options": {
+          "1": "1991",
+          "2": "1993",
+          "3": "1999",
+          "4": "1998"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 40,
+        "question_number": 46,
+        "source_page": 21,
+        "question_text_full": "The numerical taxonomy of plants is based on which of the following?",
+        "options": {
+          "1": "All observable characteristics",
+          "2": "Chemical constituents",
+          "3": "Structure",
+          "4": "Chromosome number"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 41,
+        "question_number": 47,
+        "source_page": 21,
+        "question_text_full": "According to Ramsar Convention, which of the following is World Wetlands Day?",
+        "options": {
+          "1": "2 nd February",
+          "2": "15 th January",
+          "3": "19 th December",
+          "4": "Not provided"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 42,
+        "question_number": 48,
+        "source_page": 22,
+        "question_text_full": "The former Spanish footballer, Antonio Lopez Habas, was the coach at the Hero ISL 2020-21 of which of the following football teams?",
+        "options": {
+          "1": "FC Goa",
+          "2": "ATK Mohun Bagan",
+          "3": "Kerala Blasters",
+          "4": "SC East Bengal"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 43,
+        "question_number": 49,
+        "source_page": 22,
+        "question_text_full": "On which day was the National Emblem of India adopted?",
+        "options": {
+          "1": "15th August 1947",
+          "2": "26th January 1959",
+          "3": "26th January 1950",
+          "4": "15th August 1952"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 44,
+        "question_number": 50,
+        "source_page": 22,
+        "question_text_full": "________ is reducing the degree or intensity of, or eliminating, pollution.",
+        "options": {
+          "1": "Aeration",
+          "2": "Aerosol",
+          "3": "Absorption",
+          "4": "Abatement"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 45,
+        "question_number": 51,
+        "source_page": 23,
+        "question_text_full": "The average weight of P and his three friends is 55 kg. If P is 4 kg more than the average weight of his three friends, what is P's weight (in kg)?",
+        "options": {
+          "1": "60",
+          "2": "54",
+          "3": "58",
+          "4": "62"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 46,
+        "question_number": 52,
+        "source_page": 23,
+        "question_text_full": "A sold a mobile phone to B at a gain of 25% and B sold it to C at a loss of 10%. If C paid Rs. 5,625 for it, how much did A pay (in Rs.) for the phone?",
+        "options": {
+          "1": "4,500",
+          "2": "4,800",
+          "3": "5,100",
+          "4": "5,000"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 47,
+        "question_number": 53,
+        "source_page": 23,
+        "question_text_full": "The angle of elevation of the top of an unfinished tower at a point distant 78 m from its base is 30\u00b0. How much higher must the tower be raised (in m) so that the angle of elevation of the top of the finished tower at the same point will be 60\u00b0?",
+        "options": {
+          "1": "52\u221a3",
+          "2": "26\u221a3",
+          "3": "80",
+          "4": "78\u221a3"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 48,
+        "question_number": 54,
+        "source_page": 24,
+        "question_text_full": "A motorboat whose speed is 20 km/h in still water takes 30 minutes more to go 24 km upstream than to cover the same distance downstream. If the speed of the boat in still water is increased by 2 km/h, then how much time will it take to go 39 km downstream and 30 km upstream?",
+        "options": {
+          "1": "2 h 50 m",
+          "2": "3 h 10 m",
+          "3": "3 h 40 m",
+          "4": "2 h 40 m"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 49,
+        "question_number": 55,
+        "source_page": 24,
+        "question_text_full": "If 4sin 2 \u03b8 = 3(1+ cos \u03b8), 0\u00b0 < \u03b8 < 90\u00b0, then what is the value of (2tan \u03b8 + 4sin \u03b8 - sec \u03b8)?",
+        "options": {
+          "1": "4\u221a15 - 3",
+          "2": "3\u221a15 - 4",
+          "3": "15\u221a3 + 3",
+          "4": "15\u221a3 - 4"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      },
+      {
+        "global_question_number": 50,
+        "question_number": 56,
+        "source_page": 24,
+        "question_text_full": "Find the greatest number 23a68b, which is divisible by 3 but NOT divisible by 9.",
+        "options": {
+          "1": "238689",
+          "2": "239685",
+          "3": "239688",
+          "4": "237687"
+        },
+        "merged_path": "pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\merged_questions_global_order.json",
+        "pdf_name": "2021_tier1_prepp_shift1"
+      }
+    ]
+  }
+}

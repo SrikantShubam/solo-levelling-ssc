@@ -1,0 +1,23 @@
+PDF: 2024_tier2_prepp_paper1
+Page: 35
+Question Number: 73
+Global Q#: 71
+Section: None
+Modality: graph_chart
+Blocking Reasons: ['low_confidence']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.
+A. Psychotherapy is a voluntary relationship between the one seeking treatment or the client and the one who treats or the therapist.
+B. The relationship is conducive for building the trust of the client so that problems may be freely discussed.
+C. The purpose of the relationship is to help the client to solve the psychological problems being faced by him or her.
+D. Psychotherapy aims at changing the maladaptive behaviours, decreasing the sense of personal distress and helping the client to adapt to the healthier environment.
+
+--- Options ---
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4

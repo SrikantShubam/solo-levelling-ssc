@@ -1,0 +1,104 @@
+{
+  "page": 19,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "U is the father of N. N is the sister of T. T is the wife of I. I is son of L. How is U related to L?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Son's wife's father"
+        },
+        {
+          "label": "2",
+          "text": "Son's wife"
+        },
+        {
+          "label": "3",
+          "text": "Son's wife's sister"
+        },
+        {
+          "label": "4",
+          "text": "Son's wife's mother"
+        }
+      ],
+      "question_id": "630680585641",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "Son's wife's father",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the correct option that indicates the arrangement of the following words in a logical and meaningful order.\n1. Design 2. Test 3. Conceptualize 4. Develop 5. Implement",
+      "options": [
+        {
+          "label": "1",
+          "text": "3, 5, 2, 4, 1"
+        },
+        {
+          "label": "2",
+          "text": "1, 4, 5, 3, 2"
+        },
+        {
+          "label": "3",
+          "text": "3, 1, 4, 2, 5"
+        },
+        {
+          "label": "4",
+          "text": "3, 1, 5, 4, 2"
+        }
+      ],
+      "question_id": "630680522653",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "3, 1, 4, 2, 5",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the correct option that indicates the arrangement of the following words in a logical and meaningful order.\n1. Delivery\n2. Finished Paper\n3. Dry\n4. Pulp\n5. Press",
+      "options": [
+        {
+          "label": "1",
+          "text": "4, 5, 3, 2, 1"
+        },
+        {
+          "label": "2",
+          "text": "4, 1, 2, 5, 3"
+        },
+        {
+          "label": "3",
+          "text": "2, 5, 4, 3, 1"
+        },
+        {
+          "label": "4",
+          "text": "5, 4, 2, 3, 1"
+        }
+      ],
+      "question_id": "630680523401",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "4, 5, 3, 2, 1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

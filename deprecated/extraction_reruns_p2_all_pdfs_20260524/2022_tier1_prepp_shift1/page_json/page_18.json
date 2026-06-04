@@ -1,0 +1,126 @@
+{
+  "page": 18,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "If (17^3 + 7^3) / (17^2 + 7^2 - k) = 24 , then what is the value of k?",
+      "options": [
+        {
+          "label": "1",
+          "text": "119"
+        },
+        {
+          "label": "2",
+          "text": "128"
+        },
+        {
+          "label": "3",
+          "text": "24"
+        },
+        {
+          "label": "4",
+          "text": "109"
+        }
+      ],
+      "question_id": "264330105926",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "119",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "The circumference of the two circles is 198 cm and 352 cm respectively. What is the difference between their radii?",
+      "options": [
+        {
+          "label": "1",
+          "text": "45 cm"
+        },
+        {
+          "label": "2",
+          "text": "16.5 cm"
+        },
+        {
+          "label": "3",
+          "text": "49.5 cm"
+        },
+        {
+          "label": "4",
+          "text": "24.5 cm"
+        }
+      ],
+      "question_id": "264330105853",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "24.5 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "Radius of a circle is 10 cm. Angle made by chord AB at the centre of this circle is 60 degree. What is the length of this chord?",
+      "options": [
+        {
+          "label": "1",
+          "text": "40 cm"
+        },
+        {
+          "label": "2",
+          "text": "20 cm"
+        },
+        {
+          "label": "3",
+          "text": "30 cm"
+        },
+        {
+          "label": "4",
+          "text": "10 cm"
+        }
+      ],
+      "question_id": "264330105841",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "10 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 19,
+      "section": null,
+      "question_text_full": "How many spherical lead shots each of diameter 8.4 cm can be obtained from a rectangular solid of lead with dimension 88 cm, 63 cm, 42 cm (take π = 22/7)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "920"
+        },
+        {
+          "label": "2",
+          "text": "750"
+        },
+        {
+          "label": "3",
+          "text": "650"
+        },
+        {
+          "label": "4",
+          "text": "860"
+        }
+      ],
+      "question_id": "26433065018",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "750",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

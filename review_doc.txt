@@ -1,0 +1,513 @@
+
+======================================================================
+  2021_tier1_prepp_shift1
+======================================================================
+
+#1 | Q5 (Global #5) | Page 4 | math_formula
+Blocking: low_confidence, math_parse_lossy
+Current: option 1 (via gemini_vision_review)
+Q: If '@' means 'addition', '%' means 'multiplication', '$' means 'division' and '#' means 'subtraction', then find the value of the following expression.
+29 @ 128 $ 16 % 7 # 22
+  (1) 47
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#2 | Q11 (Global #10) | Page 7 | text_only
+Blocking: low_confidence
+Current: option 2 (via grok_ai_generated_answer)
+Q: Study the given pattern carefully and select the number from among the given options that can replace the question mark (?) in it.
+  (1) Not visible
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#3 | Q12 (Global #11) | Page 8 | visual_options
+Blocking: low_confidence
+Current: option 2 (via gemini_vision_review)
+Q: Select the figure from among the given options that can replace the question mark (?) in the following series.
+  (1) Figure a
+  (2) Figure b
+  (3) Figure c
+  (4) Figure d
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#4 | Q64 (Global #58) | Page 27 | text_only
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: A certain sum is deposited for 4 years at a rate of 10% per annum on compound interest compounded annually. The difference between the interest at the end of 2 years and that at the end of 4 years is Rs. 5,082. Find the sum (in Rs.).
+  (1) 20,000
+  (2) Not enough options provided in the source image to complete the set of 4.
+  (3) Not enough options provided in the source image to complete the set of 4.
+  (4) Not enough options provided in the source image to complete the set of 4.
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#5 | QNone (Global #61) | Page 29 | math_formula
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: What is the ratio of the total number of students who scored 140 marks and above to the total number of students who scored marks between 60 to 120?
+  (1) 11 : 9
+  (2) 9 : 11
+  (3) 110 : 137
+  (4) 137 : 110
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#6 | Q70 (Global #64) | Page 30 | graph_chart
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: The number of cars passing the road near a colony from 6 am to 12 noon has been shown in the following histogram. What is the ratio of the number of cars passed between 6 am and 8 am to the number of cars passed between 9 am and 11 am?
+  (1) 7 : 4
+  (2) Not enough options visible
+  (3) Not enough options visible
+  (4) Not enough options visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#7 | Q73 (Global #67) | Page 31 | math_formula
+Blocking: low_confidence, math_parse_lossy
+Current: option 1 (via gemini_vision_review)
+Q: AB is a diameter of a circle with centre O. A tangent is drawn at point A. C is a point on the circle such that BC produced meets the tangent at P. If ∠APC = 62°, then find the measure of the minor arc AC.
+  (1) 31°
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#8 | Q95 (Global #87) | Page 40 | text_only
+Blocking: low_confidence
+Current: option 4 (via gemini_vision_review)
+Q: Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select ‘No substitution required.’ A tigress has given birth to a cub in the Ranthambore Tiger Reserve, taking the big cat population to 78.
+  (1) was birthed
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#9 | Q100 (Global #91) | Page 43 | text_only
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The rise in the Irrawaddy dolphin (1) ______ in Chilika can be attributed to the eviction of (2) ______ fish enclosures. After thousands of hectares of Chilika lake were made (3) ______ free, Irrawaddy dolphins found unobstructed area for movement. (4) __
+  (1) Not visible
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+
+======================================================================
+  2024_tier1_appx_answer_key
+======================================================================
+
+#10 | Q7 (Global #7) | Page 1 | math_formula
+Blocking: malformed_options
+Current: option 1 (via gemini_vision_review)
+Q: 7. The same operation(s) are followed in all the given number pairs except one. Find that odd number pair. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#11 | QNone (Global #8) | Page 2 | math_formula
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (11/09/2024 SHIFT-1)
+  (1) 128 : 16
+  (2) 151 : 19
+  (3) 135 : 17
+  (4) 103 : 13
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#12 | Q20 (Global #21) | Page 3 | math_formula
+Blocking: malformed_options
+Current: option 4 (via gemini_vision_review)
+Q: 20. Three of the following numbers are alike in a certain way and one is different. Pick the odd one out. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying etc., to 13 can be performed. Breaking down 13 into 1 and 3 and then
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#13 | QNone (Global #22) | Page 4 | math_formula
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: ...performing mathematical operations on 1 and 3 is not allowed.) (18/09/2024 SHIFT-2)
+  (1) 15 – 450
+  (2) 11 – 363
+  (3) 13 – 507
+  (4) 9 – 243
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#14 | QNone (Global #29) | Page 5 | math_formula
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: pair does not belong to that group? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (23/09/2024 SHIFT-3)
+  (1) 21 – 462
+  (2) 14 – 196
+  (3) 12 – 156
+  (4) 17 – 306
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+
+======================================================================
+  2024_tier1_prepp_shift1
+======================================================================
+
+#15 | Q9 (Global #9) | Page 6 | dice
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Six words Eat, Cry, Play, Sleep, Run and Bath are written on different faces of a dice. Three positions of this dice are shown in the figure. Find the word on the face opposite to Eat.
+  (1) Play
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#16 | Q11 (Global #11) | Page 7 | visual_options
+Blocking: low_confidence
+Current: option 2 (via gemini_vision_review)
+Q: Select the word-pair that best represents a similar relationship to the one expressed in the pair of words given below.
+
+Virus : Parasite
+  (1) Fungus : Jasmine
+  (2) Amaltas : Tree
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#17 | Q18 (Global #17) | Page 10 | visual_options
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Select the correct mirror image of the given figure when the mirror is placed at MN.
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#18 | Q56 (Global #54) | Page 25 | table_di
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: The classification of 100 students based on the marks obtained by them in English and Mathematics in an examination is given in the table below. Study the table and answer the question that follows:
+  (1) Not visible
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#19 | Q81 (Global #77) | Page 35 | visual_options
+Blocking: low_confidence
+Current: option 4 (via gemini_vision_review)
+Q: Select the option that can be used as a one-word substitute for the given group of words:
+That which cannot be conquered
+  (1) Invisible
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#20 | Q86 (Global #82) | Page 37 | graph_chart
+Blocking: low_confidence
+Current: option 2 (via gemini_vision_review)
+Q: Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph:
+A. The genuine beliefs, though not unconsciously acquired by most children; and even if they depart from these beliefs in later life
+B. Something of them remains deeply implanted, ready to emerge in a time of stress or crisis
+C. The importance of educat
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#21 | Q91 (Global #87) | Page 39 | table_di
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Select the most appropriate meaning of the underlined idiom in the following sentence:
+
+In my new office, all employees were different, so I felt like a fish out of water.
+  (1) Uncomfortable
+  (2) Not provided
+  (3) Not provided
+  (4) Not provided
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#22 | QNone (Global #92) | Page 43 | text_only
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)_____ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henryâ€™s treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos. Select the most appropriate option to fill in blank 
+  (1) Supervision
+  (2) Condition
+  (3) Dimension
+  (4) Infection
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#23 | Q99 (Global #93) | Page 43 | text_only
+Blocking: low_confidence
+Current: option 2 (via gemini_vision_review)
+Q: Comprehension: In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The beginning of the story is (1)______ in its presentation but (2)______ the style eases out and becomes haunting in its simplicity. The author brings out the human elements in his story. This common element of sympathy and sacrifice is gi
+  (1) Through
+  (2) Though
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+
+======================================================================
+  2024_tier2_prepp_paper1
+======================================================================
+
+#24 | Q16 (Global #16) | Page 7 | visual_options
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: A sum of money is to be distributed among 3 friends P, Q and R in the proportion of 5:3:4. If P gets ₹1,500 more than R, what is Q's share?
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#25 | Q19 (Global #19) | Page 8 | math_formula
+Blocking: low_confidence, math_parse_lossy
+Current: option 1 (via gemini_vision_review)
+Q: If (secθ - tanθ) ÷ (secθ + tanθ) = 1 / 9, θ lies in the first quadrant, then the value of secθ is:
+  (1) -13 / 27
+  (2) Not enough options visible
+  (3) Not enough options visible
+  (4) Not enough options visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#26 | Q25 (Global #25) | Page 10 | text_only
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: The height of a right circular cone is 63 cm and the area of its curved surface is five times the area of its base. What is the volume (in cm³) of the cone? (Use π = 22/7)
+  (1) 12589.10
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#27 | Q28 (Global #28) | Page 11 | visual_options
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Let ABC be a right-angled triangle with a right angle at B. If tan A = √3, then find the value of sin A cos C + cos A sin C and cos A cos C - sin A sin C.
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#28 | Q35 (Global #34) | Page 15 | text_only
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: In a certain code language, 'POSE' is coded as '3517' and 'SILK' is coded as '4638'. What is the code for 'S' in the given code language?
+  (1) 4
+  (2) 1
+  (3) 8
+  (4) Not enough options provided in the source image to complete the set of 4.
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#29 | Q38 (Global #37) | Page 17 | visual_options
+Blocking: low_confidence
+Current: option 4 (via gemini_vision_review)
+Q: Select the option figure that will replace the question mark (?) in the figure given below to complete the pattern.
+  (1) Figure a (implied by context of missing options)
+  (2) Figure b
+  (3) Figure c
+  (4) Figure d
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#30 | Q39 (Global #38) | Page 18 | visual_options
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Select the set in which the numbers are related in the same way as are the numbers of the following sets.
+(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operation
+  (1) (255, 235, 205)
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#31 | Q46 (Global #44) | Page 21 | text_only
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Select the number from among the given options that can replace the question mark (?) in the following series.
+  (1) Not provided
+  (2) Not provided
+  (3) Not provided
+  (4) Not provided
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#32 | QNone (Global #45) | Page 22 | text_only
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: 9, 5, 6, 10.5, 23, ?
+  (1) 90
+  (2) 80
+  (3) 60
+  (4) 50
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#33 | Q48 (Global #47) | Page 22 | visual_options
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: In a certain code language
+A + B means 'A is the mother of B',
+A - B means 'A is the brother of B',
+A x B means 'A is the wife of B' and
+A ÷ B means 'A is the father of B'.
+Based on the above, how is U related to Z if 'U + V + W - Y x Z'?
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#34 | Q50 (Global #49) | Page 23 | visual_options
+Blocking: low_confidence
+Current: option 2 (via gemini_vision_review)
+Q: Identify the figure given in the options which when put in place of the question mark (?) will logically complete the series.
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#35 | Q51 (Global #50) | Page 24 | visual_options
+Blocking: low_confidence
+Current: option 3 (via gemini_vision_review)
+Q: In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. In three of the four pairs, the same pattern is applied and hence they form a group. Select the number-pair that does NOT belong to this group.
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#36 | Q59 (Global #58) | Page 28 | visual_options
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Read the given statements and conclusions carefully. Assuming that the information given in the statement(s) is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s).
+
+Statements:
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#37 | Q63 (Global #62) | Page 30 | graph_chart
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. Sentences: A. It consists of a terracotta army of approximately 8000 life-sized men and horses.
+  (1) Not provided
+  (2) Not provided
+  (3) Not provided
+  (4) Not provided
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#38 | Q73 (Global #71) | Page 35 | graph_chart
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.
+A. Psychotherapy is a voluntary relationship between the one seeking treatment or the client and the one who treats or the therapist.
+B. The relationship is conducive for building the trust of the client so that problems may be freely discussed.
+C. The 
+  (1) Figure 1
+  (2) Figure 2
+  (3) Figure 3
+  (4) Figure 4
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#39 | Q78 (Global #76) | Page 37 | text_only
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Select the option that expresses the given sentence in passive voice.
+
+"Everyone was surprised at his speech."
+  (1) His speech surprised everyone.
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#40 | QNone (Global #88) | Page 44 | text_only
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: Select the most appropriate option to fill in blank number 3.
+  (1) must
+  (2) could
+  (3) would
+  (4) might
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#41 | Q94 (Global #90) | Page 45 | dice
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Read the given passage and answer the questions that follow. Subhas Chandra Bose, a prominent Indian nationalist leader, was convinced that India could not achieve independence without the use of force, and he believed that a military campaign was necessary to achieve this goal. In 1942, Bose formed the Indian National Army (INA) with the help of the Japanese. Bose travelled to Japan in 1941 to se
+  (1) They believed in India's right to self-determination.
+  (2) Not provided in the image
+  (3) Not provided in the image
+  (4) Not provided in the image
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#42 | QNone (Global #91) | Page 47 | text_only
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: What ultimately undermined the INA's efforts to free India from British rule?
+  (1) Gandhi's death
+  (2) The Japanese surrender in 1945
+  (3) The inferior military tactics of the British forces
+  (4) The lack of support from the Indian and British people
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#43 | Q98 (Global #93) | Page 49 | math_formula
+Blocking: low_confidence, math_parse_lossy
+Current: option 1 (via gemini_vision_review)
+Q: Algae are photosynthetic creatures that have pigments that aid in photosynthesis, such as chlorophyll. They do not, however, have the actual stems, roots or leaves found in vascular plants. While some of them have many cells, others are unicellular. They might establish colonies as well. The majority of algae are aquatic. Some are terrestrial, and they can be found on rocks, trees and moist soil. 
+  (1) Not provided
+  (2) Not provided
+  (3) Not provided
+  (4) Not provided
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#44 | QNone (Global #94) | Page 50 | text_only
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: What does the term 'multiphyletic group' mean in the context of algae?
+  (1) Having a common ancestor
+  (2) Being closely related species
+  (3) No common ancestor, not closely related
+  (4) Having diverse morphoanatomical characteristics
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#45 | QNone (Global #97) | Page 52 | text_only
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: What is the central theme of the passage?
+  (1) The prokaryotic nature of blue-green algae
+  (2) The anatomy of vascular plants
+  (3) The symbiotic relationship between algae and fungi
+  (4) The diversity and characteristics of algae
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#46 | QNone (Global #98) | Page 53 | table_di
+Blocking: correct_option_unresolved_or_conflict
+Current: NONE
+Q: Select the most appropriate synonym of the word 'Inherent'.
+  (1) Artificial
+  (2) Borrowed
+  (3) Incited
+  (4) Natural
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#47 | Q116 (Global #111) | Page 58 | text_only
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Which of the following statements is/are correct?
+  (1) Not visible
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___
+
+#48 | Q143 (Global #137) | Page 68 | text_only
+Blocking: low_confidence
+Current: option 1 (via gemini_vision_review)
+Q: Which of the following best describes Electronic Mail (E-mail)?
+  (1) A method of sending messages electronically over a computer network.
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible
+  [ ] YES - correct as-is    [ ] NO - correct option: ___

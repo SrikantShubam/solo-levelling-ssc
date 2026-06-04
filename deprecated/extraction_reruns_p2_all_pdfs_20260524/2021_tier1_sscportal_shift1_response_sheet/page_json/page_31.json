@@ -1,0 +1,66 @@
+{
+  "page": 31,
+  "questions": [
+    {
+      "question_number": 23,
+      "section": "Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.3.",
+      "options": [
+        {
+          "label": "1",
+          "text": "trespass"
+        },
+        {
+          "label": "2",
+          "text": "confiscation"
+        },
+        {
+          "label": "3",
+          "text": "intervention"
+        },
+        {
+          "label": "4",
+          "text": "encroachment"
+        }
+      ],
+      "question_id": "65497843154",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "encroachment",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 24,
+      "section": "Comprehension",
+      "question_text_full": "Select the most appropriate option to fill in blank no.4.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Whereas"
+        },
+        {
+          "label": "2",
+          "text": "Moreover"
+        },
+        {
+          "label": "3",
+          "text": "Nevertheless"
+        },
+        {
+          "label": "4",
+          "text": "However"
+        }
+      ],
+      "question_id": "65497843155",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "Moreover",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

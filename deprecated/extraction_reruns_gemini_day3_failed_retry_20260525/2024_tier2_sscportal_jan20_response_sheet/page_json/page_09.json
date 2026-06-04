@@ -1,0 +1,104 @@
+{
+  "page": 9,
+  "questions": [
+    {
+      "question_number": 21,
+      "section": null,
+      "question_text_full": "The LCM of 2³ × 9² × 13, 2² × 13² × 19 and 9³ × 13² × 19² is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2³ × 9³ × 13² × 19²"
+        },
+        {
+          "label": "2",
+          "text": "2² × 9³ × 13 × 19²"
+        },
+        {
+          "label": "3",
+          "text": "2² × 9² × 13² × 19³"
+        },
+        {
+          "label": "4",
+          "text": "2³ × 9² × 13² × 19"
+        }
+      ],
+      "question_id": "630680677308",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "2³ × 9³ × 13² × 19²",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "8 kg of maize costing ₹51 per kg, is mixed with 9 kg of maize costing ₹68 per kg. The average per kg price of mixed maize is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹60"
+        },
+        {
+          "label": "2",
+          "text": "₹61"
+        },
+        {
+          "label": "3",
+          "text": "₹59"
+        },
+        {
+          "label": "4",
+          "text": "₹58"
+        }
+      ],
+      "question_id": "630680669017",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "₹60",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Find the simple interest (in ₹) on ₹2000 at 6.5% per annum rate of interest for the period from 13 February 2023 to 27 April 2023",
+      "options": [
+        {
+          "label": "1",
+          "text": "24"
+        },
+        {
+          "label": "2",
+          "text": "25"
+        },
+        {
+          "label": "3",
+          "text": "26"
+        },
+        {
+          "label": "4",
+          "text": "27"
+        }
+      ],
+      "question_id": "630680666475",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "26",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

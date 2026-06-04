@@ -1,0 +1,106 @@
+{
+  "page": 24,
+  "questions": [
+    {
+      "question_number": 54,
+      "section": null,
+      "question_text_full": "A motorboat whose speed is 20 km/h in still water takes 30 minutes more to go 24 km upstream than to cover the same distance downstream. If the speed of the boat in still water is increased by 2 km/h, then how much time will it take to go 39 km downstream and 30 km upstream?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2 h 50 m"
+        },
+        {
+          "label": "2",
+          "text": "3 h 10 m"
+        },
+        {
+          "label": "3",
+          "text": "3 h 40 m"
+        },
+        {
+          "label": "4",
+          "text": "2 h 40 m"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 55,
+      "section": null,
+      "question_text_full": "If 4sin 2 θ = 3(1+ cos θ), 0° < θ < 90°, then what is the value of (2tan θ + 4sin θ - sec θ)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "4√15 - 3"
+        },
+        {
+          "label": "2",
+          "text": "3√15 - 4"
+        },
+        {
+          "label": "3",
+          "text": "15√3 + 3"
+        },
+        {
+          "label": "4",
+          "text": "15√3 - 4"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    },
+    {
+      "question_number": 56,
+      "section": null,
+      "question_text_full": "Find the greatest number 23a68b, which is divisible by 3 but NOT divisible by 9.",
+      "options": [
+        {
+          "label": "1",
+          "text": "238689"
+        },
+        {
+          "label": "2",
+          "text": "239685"
+        },
+        {
+          "label": "3",
+          "text": "239688"
+        },
+        {
+          "label": "4",
+          "text": "237687"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "The options are labeled a, b, c, d in the image, mapped to 1, 2, 3, 4 respectively."
+    }
+  ],
+  "warnings": [
+    "No correct option indicators (green ticks) were visible on the provided page image."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,18 @@
+{
+  "page": 5,
+  "questions": [],
+  "warnings": [
+    "ERROR HTTP 400: {\"status\":400,\"title\":\"Bad Request\",\"detail\":\"Function id '3afd112d-ad66-4d29-81b6-e7d6f8225e07': DEGRADED function cannot be invoked\"}"
+  ],
+  "page_status": "ERROR",
+  "provider": "nvidia_nim",
+  "model": "microsoft/phi-4-multimodal-instruct",
+  "fallback_parent_failure_type": "api_quota_or_rate_limit",
+  "fallback_parent_provider": "google_ai_studio",
+  "fallback_parent_model": "models/gemini-3.1-flash-lite",
+  "failure_type": null,
+  "retryable": false,
+  "fallback_attempted": true,
+  "fallback_used": false,
+  "carrier_used": "fallback_page_image"
+}

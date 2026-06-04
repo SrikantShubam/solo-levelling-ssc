@@ -1,0 +1,126 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 22,
+      "section": null,
+      "question_text_full": "Select the set of classes the relationship among which is best illustrated by the following Venn diagram. [Figure: Concentric circles]",
+      "options": [
+        {
+          "label": "1",
+          "text": "Fathers, Brothers, Males"
+        },
+        {
+          "label": "2",
+          "text": "Grandfathers, Fathers, Males"
+        },
+        {
+          "label": "3",
+          "text": "Literates, Engineers, Farmers"
+        },
+        {
+          "label": "4",
+          "text": "Mothers, Aunts, Doctors"
+        }
+      ],
+      "question_id": "65497843700",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Grandfathers, Fathers, Males",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 23,
+      "section": null,
+      "question_text_full": "Gaurav exits from the backdoor of his north-facing house and walks 25 m straight, then he takes a left turn and walks 36 m, then he turns left and walks 47 m. He turns left again and walks 36 m. How far and in which direction is he from his house now?",
+      "options": [
+        {
+          "label": "1",
+          "text": "22 m, North"
+        },
+        {
+          "label": "2",
+          "text": "11 m, North"
+        },
+        {
+          "label": "3",
+          "text": "22 m, South"
+        },
+        {
+          "label": "4",
+          "text": "11 m, South"
+        }
+      ],
+      "question_id": "65497843492",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "22 m, North",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "Mohit and Sudesh bought pens and notebooks from the same shop. Mohit bought 3 pens and 6 notebooks by paying an amount of ₹180. Sudesh bought 5 pens and 2 notebooks by paying an amount of ₹116. How much did Mohit spend on buying notebooks?",
+      "options": [
+        {
+          "label": "1",
+          "text": "₹84"
+        },
+        {
+          "label": "2",
+          "text": "₹138"
+        },
+        {
+          "label": "3",
+          "text": "₹122"
+        },
+        {
+          "label": "4",
+          "text": "₹115"
+        }
+      ],
+      "question_id": "65497843690",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "₹138",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Select the number from among the given options that can replace the question mark (?) in the following series. 5, 18, 70, 278, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "328"
+        },
+        {
+          "label": "2",
+          "text": "298"
+        },
+        {
+          "label": "3",
+          "text": "1110"
+        },
+        {
+          "label": "4",
+          "text": "592"
+        }
+      ],
+      "question_id": "65497842375",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "1110",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

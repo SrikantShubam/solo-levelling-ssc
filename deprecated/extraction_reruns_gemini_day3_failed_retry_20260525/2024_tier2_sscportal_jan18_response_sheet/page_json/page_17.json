@@ -1,0 +1,74 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Select the option figure that will replace the question mark (?) in the figure given below to complete the pattern.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "630680684116",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)\n(215, 185, 135)\n(276, 246, 196)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(255, 235, 205)"
+        },
+        {
+          "label": "2",
+          "text": "(294, 264, 224)"
+        },
+        {
+          "label": "3",
+          "text": "(269, 229, 199)"
+        },
+        {
+          "label": "4",
+          "text": "(238, 208, 158)"
+        }
+      ],
+      "question_id": "630680817143",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "(238, 208, 158)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

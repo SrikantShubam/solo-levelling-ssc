@@ -1,0 +1,106 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 26,
+      "section": "General Awareness",
+      "question_text_full": "Who among the following is the world-renowned exponent of the bamboo flute?",
+      "options": [
+        {
+          "label": "1",
+          "text": "MS Subbulakshmi"
+        },
+        {
+          "label": "2",
+          "text": "Ravi Shankar"
+        },
+        {
+          "label": "3",
+          "text": "Hariprasad Chaurasia"
+        },
+        {
+          "label": "4",
+          "text": "Bismillah Khan"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 27,
+      "section": "General Awareness",
+      "question_text_full": "What is net investment?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Sum of all the investments in a country"
+        },
+        {
+          "label": "2",
+          "text": "Gross investment + depreciation"
+        },
+        {
+          "label": "3",
+          "text": "Gross capital investment - indirect taxes"
+        },
+        {
+          "label": "4",
+          "text": "Gross investment - depreciation"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    },
+    {
+      "question_number": 28,
+      "section": "General Awareness",
+      "question_text_full": "India won the ICC Men Cricket World Cup for the first time in which of the following years?",
+      "options": [
+        {
+          "label": "1",
+          "text": "1996"
+        },
+        {
+          "label": "2",
+          "text": "1992"
+        },
+        {
+          "label": "3",
+          "text": "1987"
+        },
+        {
+          "label": "4",
+          "text": "1983"
+        }
+      ],
+      "question_id": null,
+      "chosen_option_label": null,
+      "correct_option_label": null,
+      "correct_option_text": null,
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "No answer marked on the page."
+    }
+  ],
+  "warnings": [
+    "No answer keys (green ticks) are visible on this page."
+  ],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

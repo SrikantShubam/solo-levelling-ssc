@@ -1,0 +1,104 @@
+{
+  "page": 10,
+  "questions": [
+    {
+      "question_number": 28,
+      "section": null,
+      "question_text_full": "If A = 58^2 - 25^2 / 46^2 - 37^2, B = 26^2 - 15^2 / 56^2 - 15^2, then the value of 1/B - 20/A is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "1"
+        },
+        {
+          "label": "3",
+          "text": "-1"
+        },
+        {
+          "label": "4",
+          "text": "0"
+        }
+      ],
+      "question_id": "264330171945",
+      "chosen_option_label": null,
+      "correct_option_label": "2",
+      "correct_option_text": "1",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 29,
+      "section": null,
+      "question_text_full": "The simple interest earned on ₹2,800 at a rate of 10% per annum for 3 years is ₹x and ₹1,736 is the simple interest earned on ₹6,200 at a rate of 14% for y years, then the value of x/y is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "140"
+        },
+        {
+          "label": "2",
+          "text": "380"
+        },
+        {
+          "label": "3",
+          "text": "550"
+        },
+        {
+          "label": "4",
+          "text": "420"
+        }
+      ],
+      "question_id": "264330171719",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "420",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 30,
+      "section": null,
+      "question_text_full": "One chord of a circle is given as 20.5 cm. Then the radius (r) of the circle must be:",
+      "options": [
+        {
+          "label": "1",
+          "text": "r = 10cm"
+        },
+        {
+          "label": "2",
+          "text": "r < 10.25"
+        },
+        {
+          "label": "3",
+          "text": "r > 10.25"
+        },
+        {
+          "label": "4",
+          "text": "r ≥ 10.25"
+        }
+      ],
+      "question_id": "264330172602",
+      "chosen_option_label": null,
+      "correct_option_label": "4",
+      "correct_option_text": "r ≥ 10.25",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

@@ -1,0 +1,126 @@
+{
+  "page": 15,
+  "questions": [
+    {
+      "question_number": 5,
+      "section": null,
+      "question_text_full": "The length and breadth of a rectangle are increased by 8% and 5%, respectively. By how much percentage will the area of the rectangle increase?",
+      "options": [
+        {
+          "label": "1",
+          "text": "13.4%"
+        },
+        {
+          "label": "2",
+          "text": "15.4%"
+        },
+        {
+          "label": "3",
+          "text": "12.4%"
+        },
+        {
+          "label": "4",
+          "text": "16.4%"
+        }
+      ],
+      "question_id": "26433063382",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "13.4%",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 6,
+      "section": null,
+      "question_text_full": "Simplify (cos 45°)/(sec 30° + cosec 30°)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(3√2 + √6) / 8"
+        },
+        {
+          "label": "2",
+          "text": "√3 / (2√2 - 2√6)"
+        },
+        {
+          "label": "3",
+          "text": "(3√2 - √6) / 8"
+        },
+        {
+          "label": "4",
+          "text": "√3 / (2√6 - 2√2)"
+        }
+      ],
+      "question_id": "26433082925",
+      "chosen_option_label": "4",
+      "correct_option_label": "3",
+      "correct_option_text": "(3√2 - √6) / 8",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 7,
+      "section": null,
+      "question_text_full": "Which of the following numbers is a divisor of (49^15 - 1)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "46"
+        },
+        {
+          "label": "2",
+          "text": "14"
+        },
+        {
+          "label": "3",
+          "text": "8"
+        },
+        {
+          "label": "4",
+          "text": "50"
+        }
+      ],
+      "question_id": "26433065261",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "8",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "In a 1500 m race, Anil beats Bakul by 150 m and in the same race Bakul beats Charles by 75 m. By what distance does Anil beat Charles?",
+      "options": [
+        {
+          "label": "1",
+          "text": "217.50 m"
+        },
+        {
+          "label": "2",
+          "text": "200.15 m"
+        },
+        {
+          "label": "3",
+          "text": "293.50 m"
+        },
+        {
+          "label": "4",
+          "text": "313.75 m"
+        }
+      ],
+      "question_id": "26433075243",
+      "chosen_option_label": null,
+      "correct_option_label": "1",
+      "correct_option_text": "217.50 m",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

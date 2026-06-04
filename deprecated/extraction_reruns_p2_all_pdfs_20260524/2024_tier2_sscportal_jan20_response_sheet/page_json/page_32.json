@@ -1,0 +1,96 @@
+{
+  "page": 32,
+  "questions": [
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Select the option that can be used as a one-word substitute for the given group of words.\nSpeaking disrespectfully about sacred or religious things",
+      "options": [
+        {
+          "label": "1",
+          "text": "Biped"
+        },
+        {
+          "label": "2",
+          "text": "Belligerent"
+        },
+        {
+          "label": "3",
+          "text": "Bigamy"
+        },
+        {
+          "label": "4",
+          "text": "Blasphemy"
+        }
+      ],
+      "question_id": "63068069342",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Blasphemy",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 17,
+      "section": null,
+      "question_text_full": "Select the option that expresses the following sentence in passive voice.\nAfter we come to power at the Centre, we will conduct a countrywide caste census.",
+      "options": [
+        {
+          "label": "1",
+          "text": "A countrywide caste census should be conducted by us when we come to power at the Centre."
+        },
+        {
+          "label": "2",
+          "text": "A countrywide caste census will be conducted by us as and when we come to power at the Centre."
+        },
+        {
+          "label": "3",
+          "text": "A countrywide caste census will be conducted by us after we come to power at the Centre."
+        },
+        {
+          "label": "4",
+          "text": "A countrywide caste census will have been conducted by us after we come to power at the Centre."
+        }
+      ],
+      "question_id": "630680607348",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "A countrywide caste census will be conducted by us after we come to power at the Centre.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 18,
+      "section": null,
+      "question_text_full": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nI, you and she/ have been working happily/ in the same company and in the same branch/ for the last nine years.",
+      "options": [
+        {
+          "label": "1",
+          "text": "have been working happily"
+        },
+        {
+          "label": "2",
+          "text": "I, you and she"
+        },
+        {
+          "label": "3",
+          "text": "in the same company and in the same branch"
+        },
+        {
+          "label": "4",
+          "text": "for the last nine years"
+        }
+      ],
+      "question_id": "630680176556",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "I, you and she",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

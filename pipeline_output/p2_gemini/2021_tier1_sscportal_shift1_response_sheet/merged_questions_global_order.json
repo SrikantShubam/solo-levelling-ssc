@@ -655,7 +655,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p01_q003_question.png",
       "crop_metadata": [
@@ -1207,7 +1207,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p02_q006_question.png",
       "crop_metadata": [
@@ -1394,7 +1394,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p03_q007_question.png",
       "crop_metadata": [
@@ -1581,7 +1581,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p04_q008_question.png",
       "crop_metadata": [
@@ -1950,7 +1950,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p05_q010_question.png",
       "crop_metadata": [
@@ -2868,7 +2868,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p06_q015_question.png",
       "crop_metadata": [
@@ -3237,7 +3237,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p07_q017_question.png",
       "crop_metadata": [
@@ -3793,7 +3793,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p08_q020_question.png",
       "crop_metadata": [
@@ -4163,7 +4163,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p10_q022_question.png",
       "crop_metadata": [
@@ -5268,7 +5268,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p11_q028_question.png",
       "crop_metadata": [
@@ -6568,7 +6568,7 @@
       "canonical_review_reasons": [
         "chosen_option_missing"
       ],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p13_q035_question.png",
       "crop_metadata": [
@@ -6754,7 +6754,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p13_q036_question.png",
       "crop_metadata": [
@@ -7318,7 +7318,7 @@
       "canonical_review_reasons": [
         "chosen_option_missing"
       ],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p14_q039_question.png",
       "crop_metadata": [
@@ -7508,7 +7508,7 @@
       "canonical_review_reasons": [
         "chosen_option_missing"
       ],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p14_q040_question.png",
       "crop_metadata": [
@@ -9742,7 +9742,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p17_q052_question.png",
       "crop_metadata": [
@@ -9928,7 +9928,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p17_q053_question.png",
       "crop_metadata": [
@@ -10114,7 +10114,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p17_q054_question.png",
       "crop_metadata": [
@@ -10483,7 +10483,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p18_q056_question.png",
       "crop_metadata": [
@@ -10669,7 +10669,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p18_q057_question.png",
       "crop_metadata": [
@@ -10856,7 +10856,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p18_q058_question.png",
       "crop_metadata": [
@@ -11229,7 +11229,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p19_q060_question.png",
       "crop_metadata": [
@@ -11783,7 +11783,7 @@
       ],
       "canonical_correct_option_label": "2",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p21_q063_question.png",
       "crop_metadata": [
@@ -11969,7 +11969,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p21_q064_question.png",
       "crop_metadata": [
@@ -12156,7 +12156,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p21_q065_question.png",
       "crop_metadata": [
@@ -12708,7 +12708,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p22_q068_question.png",
       "crop_metadata": [
@@ -13077,7 +13077,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p23_q070_question.png",
       "crop_metadata": [
@@ -13264,7 +13264,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p23_q071_question.png",
       "crop_metadata": [
@@ -13451,7 +13451,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p23_q072_question.png",
       "crop_metadata": [
@@ -13637,7 +13637,7 @@
       ],
       "canonical_correct_option_label": "3",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p24_q073_question.png",
       "crop_metadata": [
@@ -14925,7 +14925,7 @@
       ],
       "canonical_correct_option_label": "4",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p26_q080_question.png",
       "crop_metadata": [
@@ -16392,7 +16392,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p28_q088_question.png",
       "crop_metadata": [
@@ -17863,7 +17863,7 @@
       ],
       "canonical_correct_option_label": "1",
       "canonical_review_reasons": [],
-      "practice_ready": false,
+      "practice_ready": true,
       "blocking_review_reasons": [],
       "question_crop_path": "C:\\experiments\\ssc\\extraction_reruns\\p2_all_pdfs_20260524\\2021_tier1_sscportal_shift1_response_sheet\\assets\\question_crops\\2021_tier1_sscportal_shift1_response_sheet_p30_q096_question.png",
       "crop_metadata": [

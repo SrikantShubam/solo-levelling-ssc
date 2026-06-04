@@ -1,0 +1,29 @@
+{
+  "batch": 78,
+  "pages": [
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 29,
+      "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_29.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 3,
+      "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 9,
+      "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 12,
+      "merged_path": "pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\merged_questions_global_order.json",
+      "page_image_path": "pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_12.png"
+    }
+  ]
+}

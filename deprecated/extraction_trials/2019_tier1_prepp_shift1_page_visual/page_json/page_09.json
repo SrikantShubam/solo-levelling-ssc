@@ -1,0 +1,126 @@
+{
+  "page": 9,
+  "questions": [
+    {
+      "question_number": 24,
+      "section": null,
+      "question_text_full": "In a certain code language, WARDROBE is written as YXVYXHJV. How will ACCURATE be written as in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "BZHPXTBV"
+        },
+        {
+          "label": "2",
+          "text": "CZHPYTBV"
+        },
+        {
+          "label": "3",
+          "text": "CZGPXTBV"
+        },
+        {
+          "label": "4",
+          "text": "DZGPXTBV"
+        }
+      ],
+      "question_id": "1235687",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "CZGPXTBV",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 25,
+      "section": null,
+      "question_text_full": "Select the letter-cluster that can replace the question mark (?) in the following series.\nCXB, HUI, MRP, ROW, ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "WLD"
+        },
+        {
+          "label": "2",
+          "text": "VKD"
+        },
+        {
+          "label": "3",
+          "text": "WLZ"
+        },
+        {
+          "label": "4",
+          "text": "VKC"
+        }
+      ],
+      "question_id": "1235681",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "WLD",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 1,
+      "section": "General Awareness",
+      "question_text_full": "As of February 2020, who is the President of Sri Lanka?",
+      "options": [
+        {
+          "label": "1",
+          "text": "D.M. Jayaratne"
+        },
+        {
+          "label": "2",
+          "text": "Chandrika Kumaratunga"
+        },
+        {
+          "label": "3",
+          "text": "Maithripala Sirisena"
+        },
+        {
+          "label": "4",
+          "text": "Gotabaya Rajapaksa"
+        }
+      ],
+      "question_id": "12356844",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Gotabaya Rajapaksa",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 2,
+      "section": "General Awareness",
+      "question_text_full": "As on January 2020, Shri Bhupesh Baghel is the Chief Minister of which of the following states?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Odisha"
+        },
+        {
+          "label": "2",
+          "text": "Haryana"
+        },
+        {
+          "label": "3",
+          "text": "Chhattisgarh"
+        },
+        {
+          "label": "4",
+          "text": "Jharkhand"
+        }
+      ],
+      "question_id": "12356845",
+      "chosen_option_label": "1",
+      "correct_option_label": "3",
+      "correct_option_text": "Chhattisgarh",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

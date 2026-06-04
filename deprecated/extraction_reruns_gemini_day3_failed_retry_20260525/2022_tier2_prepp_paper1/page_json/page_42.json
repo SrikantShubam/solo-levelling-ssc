@@ -1,0 +1,104 @@
+{
+  "page": 42,
+  "questions": [
+    {
+      "question_number": 45,
+      "section": null,
+      "question_text_full": "The word 'contiguous' means",
+      "options": [
+        {
+          "label": "1",
+          "text": "adjoining"
+        },
+        {
+          "label": "2",
+          "text": "far off"
+        },
+        {
+          "label": "3",
+          "text": "spreading"
+        },
+        {
+          "label": "4",
+          "text": "separated"
+        }
+      ],
+      "question_id": "264330128806",
+      "chosen_option_label": "1",
+      "correct_option_label": "1",
+      "correct_option_text": "adjoining",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 1,
+      "section": "General Awareness",
+      "question_text_full": "Who composed Tabaqat-i-Nasiri in the Delhi Sultanate period?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Hasan Nizami"
+        },
+        {
+          "label": "2",
+          "text": "Amir Khusrau"
+        },
+        {
+          "label": "3",
+          "text": "Minhaj-us-Siraj"
+        },
+        {
+          "label": "4",
+          "text": "Ziauddin Barani"
+        }
+      ],
+      "question_id": "264330109013",
+      "chosen_option_label": null,
+      "correct_option_label": "3",
+      "correct_option_text": "Minhaj-us-Siraj",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "General Awareness",
+      "question_text_full": "Identify the correct statement.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Resistance of a wire depends on the length and density of the wire."
+        },
+        {
+          "label": "2",
+          "text": "Specific resistance is the same for all conductors."
+        },
+        {
+          "label": "3",
+          "text": "Resistance of a wire depends on the length and cross-section of the wire."
+        },
+        {
+          "label": "4",
+          "text": "Specific resistance is dependent on the cross-sectional area of the wire."
+        }
+      ],
+      "question_id": "264330109879",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "Resistance of a wire depends on the length and cross-section of the wire.",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "google_ai_studio",
+  "model": "models/gemini-3.1-flash-lite",
+  "retryable": false,
+  "fallback_attempted": false,
+  "fallback_used": false,
+  "carrier_used": "gemini_page_image"
+}

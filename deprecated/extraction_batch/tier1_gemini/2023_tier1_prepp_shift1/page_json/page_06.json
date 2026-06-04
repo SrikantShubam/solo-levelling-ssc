@@ -1,0 +1,36 @@
+{
+  "page": 6,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the figure from the options that can replace the question mark (?) and complete the given pattern.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "26433085797",
+      "chosen_option_label": "2",
+      "correct_option_label": "4",
+      "correct_option_text": "Figure 4",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}

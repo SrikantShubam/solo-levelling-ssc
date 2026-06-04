@@ -1,0 +1,126 @@
+{
+  "page": 25,
+  "questions": [
+    {
+      "question_number": 13,
+      "section": null,
+      "question_text_full": "Select the word, which means the same as the given group of words. Something that cannot be heard",
+      "options": [
+        {
+          "label": "1",
+          "text": "infallible"
+        },
+        {
+          "label": "2",
+          "text": "audible"
+        },
+        {
+          "label": "3",
+          "text": "inaudible"
+        },
+        {
+          "label": "4",
+          "text": "irrevocable"
+        }
+      ],
+      "question_id": "12356896",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "inaudible",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 14,
+      "section": null,
+      "question_text_full": "Select the most appropriate option to substitute the underlined segment in the given sentence. If no substitution is required, select No improvement The captain as well the players were responsible for winning the trophy.",
+      "options": [
+        {
+          "label": "1",
+          "text": "The captain also the players were"
+        },
+        {
+          "label": "2",
+          "text": "The captain as well as the players was"
+        },
+        {
+          "label": "3",
+          "text": "As The captain with the players were"
+        },
+        {
+          "label": "4",
+          "text": "No Improvement"
+        }
+      ],
+      "question_id": "12356880",
+      "chosen_option_label": "4",
+      "correct_option_label": "2",
+      "correct_option_text": "The captain as well as the players was",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 15,
+      "section": null,
+      "question_text_full": "Select the appropriate meaning of the given idiom. To take French leave",
+      "options": [
+        {
+          "label": "1",
+          "text": "Welcome the host"
+        },
+        {
+          "label": "2",
+          "text": "Acknowledge the host"
+        },
+        {
+          "label": "3",
+          "text": "Leave with written permission"
+        },
+        {
+          "label": "4",
+          "text": "Leave without any intimation"
+        }
+      ],
+      "question_id": "12356895",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "Leave without any intimation",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 16,
+      "section": null,
+      "question_text_full": "Given below are four jumbled sentences. Select the option that gives their correct order A. However, they ignore the truth that progress and success are proportional to the labor they put in. B. The general human tendency is to find faults in the policies framed by the government. C. They blame the government for their slow progress, expecting miracles and magical transformation in their life. D. So people openly criticize and condemn the policy makers.",
+      "options": [
+        {
+          "label": "1",
+          "text": "CDAB"
+        },
+        {
+          "label": "2",
+          "text": "DBAC"
+        },
+        {
+          "label": "3",
+          "text": "BDCA"
+        },
+        {
+          "label": "4",
+          "text": "ABCD"
+        }
+      ],
+      "question_id": "12356888",
+      "chosen_option_label": "3",
+      "correct_option_label": "3",
+      "correct_option_text": "BDCA",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    }
+  ],
+  "warnings": []
+}

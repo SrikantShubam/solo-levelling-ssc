@@ -1,0 +1,66 @@
+{
+  "page": 4,
+  "questions": [
+    {
+      "question_number": 9,
+      "section": null,
+      "question_text_full": "Select the option in which the numbers share the same relationship as that shared by the given pair of numbers.\n(149, 213)\n(168, 232)\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/deleting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "(162, 222)"
+        },
+        {
+          "label": "2",
+          "text": "(153, 217)"
+        },
+        {
+          "label": "3",
+          "text": "(137, 211)"
+        },
+        {
+          "label": "4",
+          "text": "(144, 198)"
+        }
+      ],
+      "question_id": "630680329199",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "(153, 217)",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "question_number": 10,
+      "section": null,
+      "question_text_full": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below.\nyTfr93n | N",
+      "options": [
+        {
+          "label": "1",
+          "text": "Figure 1"
+        },
+        {
+          "label": "2",
+          "text": "Figure 2"
+        },
+        {
+          "label": "3",
+          "text": "Figure 3"
+        },
+        {
+          "label": "4",
+          "text": "Figure 4"
+        }
+      ],
+      "question_id": "630680356669",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Figure 2",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": "Options are visual figures representing mirror images."
+    }
+  ],
+  "warnings": []
+}

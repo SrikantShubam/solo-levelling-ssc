@@ -1,0 +1,42 @@
+{
+  "page": 17,
+  "questions": [
+    {
+      "question_number": 8,
+      "section": null,
+      "question_text_full": "Two concentric circles are of radii 10 cm and 6 cm. Find the length of the chord of the larger circle which touches the smaller circle.",
+      "options": [
+        {
+          "label": "1",
+          "text": "2. 16 cm"
+        },
+        {
+          "label": "2",
+          "text": "3. 12 cm"
+        },
+        {
+          "label": "3",
+          "text": "4. 9 cm"
+        }
+      ],
+      "question_id": "264330143604",
+      "chosen_option_label": "3",
+      "correct_option_label": "1",
+      "correct_option_text": "2. 16 cm",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": [],
+  "page_status": "OK",
+  "failure_type": null,
+  "provider": "nvidia_nim",
+  "model": "google/gemma-3n-e4b-it",
+  "usage": {
+    "prompt_tokens": 615,
+    "total_tokens": 788,
+    "completion_tokens": 173,
+    "prompt_tokens_details": null
+  }
+}

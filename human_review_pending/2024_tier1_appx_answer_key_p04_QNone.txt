@@ -1,0 +1,18 @@
+PDF: 2024_tier1_appx_answer_key
+Page: 4
+Question Number: None
+Global Q#: 22
+Section: Reasoning
+Modality: math_formula
+Blocking Reasons: ['correct_option_unresolved_or_conflict']
+Has Correct Label: False
+Evidence Source: unavailable
+
+--- Question Text ---
+...performing mathematical operations on 1 and 3 is not allowed.) (18/09/2024 SHIFT-2)
+
+--- Options ---
+  (1) 15 – 450
+  (2) 11 – 363
+  (3) 13 – 507
+  (4) 9 – 243

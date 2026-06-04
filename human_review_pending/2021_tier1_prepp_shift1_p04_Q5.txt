@@ -1,0 +1,20 @@
+PDF: 2021_tier1_prepp_shift1
+Page: 4
+Question Number: 5
+Global Q#: 5
+Section: None
+Modality: math_formula
+Blocking Reasons: ['low_confidence', 'math_parse_lossy']
+Has Correct Label: True
+Current Label: 1
+Evidence Source: gemini_vision_review
+
+--- Question Text ---
+If '@' means 'addition', '%' means 'multiplication', '$' means 'division' and '#' means 'subtraction', then find the value of the following expression.
+29 @ 128 $ 16 % 7 # 22
+
+--- Options ---
+  (1) 47
+  (2) Not visible
+  (3) Not visible
+  (4) Not visible

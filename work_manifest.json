@@ -1,0 +1,3166 @@
+{
+  "total_items": 1282,
+  "unique_pages": 632,
+  "pages": [
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2019_tier1_prepp_shift1",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier1_prepp_shift1\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 30,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_30.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 36,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_36.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 39,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_39.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 40,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_40.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 41,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_41.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 42,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_42.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 44,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_44.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 45,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_45.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 46,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_46.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 47,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_47.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 48,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_48.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 50,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_50.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 51,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_51.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 52,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_52.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 53,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_53.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 54,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_54.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 55,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_55.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 56,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_56.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 57,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_57.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 58,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_58.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 65,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_65.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 66,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_66.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 67,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_67.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 68,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_68.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 70,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_70.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 72,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_72.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 73,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_73.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 74,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_74.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 75,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_75.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 77,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_77.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 78,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_78.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 79,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_79.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 80,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_80.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_english",
+      "page_number": 82,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_english\\page_images\\page_82.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2019_tier2_prepp_quant",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2019_tier2_prepp_quant\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2020_tier1_prepp_shift1",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier1_prepp_shift1\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 28,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 29,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_29.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 30,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_30.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 31,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_31.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 32,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_32.png"
+    },
+    {
+      "pdf_name": "2020_tier2_kdcampus_answer_key",
+      "page_number": 33,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2020_tier2_kdcampus_answer_key\\page_images\\page_33.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 28,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 29,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_29.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 30,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_30.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 31,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_31.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 32,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_32.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 34,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_34.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 35,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_35.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 36,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_36.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 37,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_37.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 38,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_38.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 39,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_39.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 40,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_40.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 41,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_41.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 42,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_42.png"
+    },
+    {
+      "pdf_name": "2021_tier1_prepp_shift1",
+      "page_number": 43,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_prepp_shift1\\page_images\\page_43.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 28,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2021_tier1_sscportal_shift1_response_sheet",
+      "page_number": 30,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier1_sscportal_shift1_response_sheet\\page_images\\page_30.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 31,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_31.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 36,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_36.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 37,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_37.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 38,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_38.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 46,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_46.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 47,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_47.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 48,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_48.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 50,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_50.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 51,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_51.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 52,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_52.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 53,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_53.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 55,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_55.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 56,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_56.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 58,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_58.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 59,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_59.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 60,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_60.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 62,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_62.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 63,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_63.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 65,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_65.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 66,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_66.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 67,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_67.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 68,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_68.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 70,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_70.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 71,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_71.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 74,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_74.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 76,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_76.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 79,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_79.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 80,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_80.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 81,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_81.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 83,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_83.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 85,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_85.png"
+    },
+    {
+      "pdf_name": "2021_tier2_prepp_english",
+      "page_number": 87,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2021_tier2_prepp_english\\page_images\\page_87.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier1_prepp_shift1\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 28,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 32,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_32.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 33,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_33.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 34,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_34.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 41,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_41.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 42,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_42.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 43,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_43.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 44,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_44.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 45,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_45.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 46,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_46.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 47,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_47.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 48,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_48.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 49,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_49.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 50,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_50.png"
+    },
+    {
+      "pdf_name": "2022_tier2_prepp_paper1",
+      "page_number": 52,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2022_tier2_prepp_paper1\\page_images\\page_52.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "page_number": 28,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier1_prepp_shift1\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 30,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_30.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 32,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_32.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 33,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_33.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 37,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_37.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 38,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_38.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 41,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_41.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 42,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_42.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 45,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_45.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 46,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_46.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 47,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_47.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 49,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_49.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 51,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_51.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 52,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_52.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 53,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_53.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 54,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_54.png"
+    },
+    {
+      "pdf_name": "2023_tier2_prepp_paper1",
+      "page_number": 55,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2023_tier2_prepp_paper1\\page_images\\page_55.png"
+    },
+    {
+      "pdf_name": "2024_tier1_appx_answer_key",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_appx_answer_key\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2024_tier1_appx_answer_key",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_appx_answer_key\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2024_tier1_appx_answer_key",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_appx_answer_key\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2024_tier1_appx_answer_key",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_appx_answer_key\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2024_tier1_appx_answer_key",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_appx_answer_key\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2024_tier1_appx_answer_key",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_appx_answer_key\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 28,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 29,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_29.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 30,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_30.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 31,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_31.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 32,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_32.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 33,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_33.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 34,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_34.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 35,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_35.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 36,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_36.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 37,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_37.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 38,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_38.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 39,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_39.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 40,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_40.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 41,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_41.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 42,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_42.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 43,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_43.png"
+    },
+    {
+      "pdf_name": "2024_tier1_prepp_shift1",
+      "page_number": 44,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_prepp_shift1\\page_images\\page_44.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 2,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_02.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 28,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 29,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_29.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 32,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_32.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 33,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_33.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 34,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_34.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 35,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_35.png"
+    },
+    {
+      "pdf_name": "2024_tier1_sscportal_sep09_shift1_response_sheet",
+      "page_number": 39,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier1_sscportal_sep09_shift1_response_sheet\\page_images\\page_39.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 28,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 29,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_29.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 30,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_30.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 31,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_31.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 32,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_32.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 33,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_33.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 34,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_34.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 35,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_35.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 36,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_36.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 37,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_37.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 38,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_38.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 39,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_39.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 40,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_40.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 41,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_41.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 42,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_42.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 43,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_43.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 44,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_44.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 45,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_45.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 47,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_47.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 48,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_48.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 49,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_49.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 50,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_50.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 51,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_51.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 52,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_52.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 53,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_53.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 54,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_54.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 55,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_55.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 56,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_56.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 57,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_57.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 58,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_58.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 59,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_59.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 60,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_60.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 61,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_61.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 62,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_62.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 63,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_63.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 64,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_64.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 65,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_65.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 66,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_66.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 67,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_67.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 68,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_68.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 69,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_69.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 70,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_70.png"
+    },
+    {
+      "pdf_name": "2024_tier2_prepp_paper1",
+      "page_number": 71,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_prepp_paper1\\page_images\\page_71.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 28,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 30,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_30.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 31,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_31.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 33,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_33.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 34,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_34.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 36,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_36.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 37,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_37.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 39,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_39.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 45,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_45.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 46,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_46.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 47,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_47.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 48,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_48.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 50,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_50.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 51,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_51.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 52,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_52.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 55,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_55.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 56,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_56.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 57,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_57.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 58,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_58.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 59,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_59.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan18_response_sheet",
+      "page_number": 61,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan18_response_sheet\\page_images\\page_61.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 19,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_19.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 21,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_21.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 26,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_26.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 29,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_29.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 30,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_30.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 31,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_31.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 32,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_32.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 33,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_33.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan19_response_sheet",
+      "page_number": 34,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan19_response_sheet\\page_images\\page_34.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 1,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_01.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 3,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_03.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 4,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_04.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 5,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_05.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 6,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_06.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 7,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_07.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 8,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_08.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 9,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_09.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 10,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_10.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 11,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_11.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 12,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_12.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 13,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_13.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 14,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_14.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 15,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_15.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 16,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_16.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 17,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_17.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 18,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_18.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 20,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_20.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 22,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_22.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 23,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_23.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 24,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_24.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 25,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_25.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 27,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_27.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 28,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_28.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 29,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_29.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 30,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_30.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 31,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_31.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 32,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_32.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 33,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_33.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 34,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_34.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 35,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_35.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 36,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_36.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 39,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_39.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 41,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_41.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 42,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_42.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 43,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_43.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 44,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_44.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 45,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_45.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 46,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_46.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 47,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_47.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 48,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_48.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 49,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_49.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 50,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_50.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 51,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_51.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 53,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_53.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 54,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_54.png"
+    },
+    {
+      "pdf_name": "2024_tier2_sscportal_jan20_response_sheet",
+      "page_number": 55,
+      "page_image_path": "C:\\experiments\\ssc\\pipeline_output\\p2_gemini\\2024_tier2_sscportal_jan20_response_sheet\\page_images\\page_55.png"
+    }
+  ]
+}

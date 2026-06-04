@@ -1,0 +1,96 @@
+{
+  "page": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "After interchanging the given two numbers and two signs what will be the values of equation (I) and (II) respectively?\n× and +, 3 and 9\nI. 7 × 9 − 8 ÷ 2 + 3\nII. 4 × 9 − 3 + 8 ÷ 2",
+      "options": [
+        {
+          "label": "1",
+          "text": "0, 1"
+        },
+        {
+          "label": "2",
+          "text": "−26, −29"
+        },
+        {
+          "label": "3",
+          "text": "6, 0"
+        },
+        {
+          "label": "4",
+          "text": "12, 13"
+        }
+      ],
+      "question_id": "264330105153",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "−26, −29",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 2,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "In a certain code language, 'BEHOLD' is written as 'BDEHLO' and 'INDEED' is written as 'DDEEIN'. How will 'COURSE' be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "CEROSU"
+        },
+        {
+          "label": "2",
+          "text": "CEORUS"
+        },
+        {
+          "label": "3",
+          "text": "CEOSUR"
+        },
+        {
+          "label": "4",
+          "text": "CEORSU"
+        }
+      ],
+      "question_id": "26433067302",
+      "chosen_option_label": "4",
+      "correct_option_label": "4",
+      "correct_option_text": "CEORSU",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "question_number": 3,
+      "section": "General Intelligence and Reasoning",
+      "question_text_full": "Select the option that is related to the third word in the same way as the second word is related to the first word.\n(The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word.)\nLibrary : Books :: Museum : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Building"
+        },
+        {
+          "label": "2",
+          "text": "Artefacts"
+        },
+        {
+          "label": "3",
+          "text": "People"
+        },
+        {
+          "label": "4",
+          "text": "Gallery"
+        }
+      ],
+      "question_id": "26433056807",
+      "chosen_option_label": "2",
+      "correct_option_label": "2",
+      "correct_option_text": "Artefacts",
+      "is_complete_on_page": true,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "warnings": []
+}
