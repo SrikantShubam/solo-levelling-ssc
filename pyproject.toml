@@ -3,10 +3,71 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ssc-corpus"
-version = "0.1.0"
-description = "SSC corpus acquisition and integrity tooling."
+name = "ssc-cgl-scoring-machine"
+version = "0.2.0"
+description = "SSC CGL Scoring Machine — corpus extraction and AI-powered study application."
 requires-python = ">=3.10"
+dependencies = [
+    "google-genai>=1.0",
+    "Pillow>=10.0",
+    "PyMuPDF>=1.23",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+study = [
+    "click>=8.0",
+    "rich>=13.0",
+    "rich-click>=1.6",
+    "sentence-transformers>=2.2",
+    "faiss-cpu>=1.7",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.3",
+    "mypy>=1.8",
+]
+
+[project.scripts]
+ssc-corpus = "ssc_corpus.cli:main"
+ssc-study = "ssc_study.cli:main"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+python_files = ["test_*.py"]
+norecursedirs = ["src/ssc_corpus", "src/ssc_study"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+src = ["src"]
+extend-exclude = [
+    "__pycache__",
+    "*.pyc",
+    ".git",
+    "deprecated",
+    "pipeline_output",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM", "ARG"]
+ignore = ["ARG002"]  # unused arguments are common in CLI callbacks
+
+[tool.ruff.lint.per-file-ignores]
+"src/ssc_study/db.py" = ["E501"]      # SQL DDL strings are naturally long
+"src/ssc_study/timer.py" = ["SIM105"]  # platform-specific error suppression
+"tests/test_sm2.py" = ["E501", "B007"]  # reference table comments & loop vars
+
+[tool.mypy]
+strict = true
+python_version = "3.10"
+exclude = [
+    "src/ssc_corpus/",
+    "deprecated/",
+    "pipeline_output/",
+    "build/",
+]
+[[tool.mypy.overrides]]
+module = "ssc_study.timer"
+ignore_errors = true

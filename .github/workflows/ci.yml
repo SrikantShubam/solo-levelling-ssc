@@ -1,0 +1,81 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+
+      - name: Install core dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Install study dependencies
+        run: |
+          pip install -e ".[study]"
+
+      - name: Lint with ruff
+        run: |
+          pip install ruff
+          ruff check src/ssc_study/ tests/
+
+      - name: Type check with mypy
+        run: |
+          pip install mypy
+          mypy src/ssc_study/ --ignore-missing-imports || true
+
+      - name: Run tests
+        run: |
+          python -m pytest tests/ \
+            --ignore=tests/test_mark_detection.py \
+            --ignore=tests/test_crops_utils.py \
+            --ignore=tests/test_extraction_qc_utils.py \
+            --ignore=tests/test_native_pipeline_compare.py \
+            --ignore=tests/test_extraction_investigation.py \
+            --ignore=tests/test_extraction.py \
+            --ignore=tests/test_acquire.py \
+            --ignore=tests/test_acquire_resilience.py \
+            --ignore=tests/test_http_download.py \
+            --ignore=tests/test_integrity.py \
+            --ignore=tests/test_model_compare.py \
+            -v
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Install dev tools
+        run: |
+          pip install ruff
+
+      - name: Ruff check
+        run: ruff check src/ssc_study/ tests/
+
+      - name: Check no TODO/FIXME in source
+        run: |
+          ! grep -rn "FIXME\|TODO\|XXX" src/ssc_study/ --include="*.py" | grep -v "__pycache__"

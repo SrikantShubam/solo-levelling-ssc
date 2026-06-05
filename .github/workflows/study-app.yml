@@ -1,0 +1,72 @@
+name: Study App CI
+
+on:
+  push:
+    paths:
+      - 'src/ssc_study/**'
+      - 'tests/**'
+      - 'pyproject.toml'
+  pull_request:
+    paths:
+      - 'src/ssc_study/**'
+      - 'tests/**'
+
+jobs:
+  lint:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install dev tools
+        run: pip install ruff mypy
+      - name: Ruff check
+        run: ruff check src/ssc_study/ tests/
+      - name: Mypy type check
+        run: mypy src/ssc_study/ --strict
+
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.10", "3.12"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install package with study extras
+        run: pip install -e ".[study,dev]"
+      - name: Run tests
+        run: pytest tests/test_sm2.py tests/test_db.py tests/test_loader.py -v --cov=src/ssc_study --cov-report=term-missing
+
+  data-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install package
+        run: pip install -e ".[study,dev]"
+      - name: Import corpus and verify
+        run: |
+          python -c "
+          from ssc_study.loader import import_corpus, verify_import
+          from pathlib import Path
+          db_path = 'test_study.db'
+          result = import_corpus('pipeline_output/p2_gemini', db_path)
+          print(f'Imported: {result.question_count} questions')
+          if result.question_count < 2000:
+              print(f'ERROR: Expected >2000 questions, got {result.question_count}')
+              exit(1)
+          integrity = verify_import(db_path)
+          assert integrity['question_count'] > 2000
+          assert not integrity['has_errors'], integrity['error_details']
+          print(f'Verified: {integrity[\"question_count\"]} questions, 0 errors')
+          "
