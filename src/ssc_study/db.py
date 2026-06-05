@@ -173,26 +173,6 @@ MIGRATIONS: list[tuple[int, str, str]] = [
             created_at         TEXT NOT NULL DEFAULT (datetime('now'))
         )
     """),
-    (14, "add sealed_mock to sessions CHECK", """
-        CREATE TABLE IF NOT EXISTS sessions_new (
-            session_id        INTEGER PRIMARY KEY AUTOINCREMENT,
-            session_type      TEXT NOT NULL CHECK (session_type IN (
-                'sm2_review','boss_fight','tier2_module','gkga_memory',
-                'english','mock','analysis','foundation_pulse','ck_pulse','sealed_mock'
-            )),
-            started_at        TEXT NOT NULL,
-            ended_at          TEXT,
-            duration_minutes  INTEGER,
-            question_count    INTEGER NOT NULL DEFAULT 0,
-            correct_count     INTEGER NOT NULL DEFAULT 0,
-            tier              TEXT CHECK (tier IN ('tier1', 'tier2')),
-            notes             TEXT,
-            created_at        TEXT NOT NULL DEFAULT (datetime('now'))
-        );
-        INSERT OR IGNORE INTO sessions_new SELECT * FROM sessions;
-        DROP TABLE sessions;
-        ALTER TABLE sessions_new RENAME TO sessions;
-    """),
 ]
 
 
@@ -244,9 +224,16 @@ def apply_migrations(conn: sqlite3.Connection) -> int:
     for version, description, sql in MIGRATIONS:
         if version <= current:
             continue
+        needs_fk_off = False
         try:
+            needs_fk_off = sql.strip().startswith("-- FK_OFF")
+            sql_to_run = sql.strip()
+            if needs_fk_off:
+                sql_to_run = sql_to_run.removeprefix("-- FK_OFF").strip()
+                conn.execute("PRAGMA foreign_keys=OFF")
+
             conn.execute("BEGIN")
-            for statement in sql.strip().split(";"):
+            for statement in sql_to_run.split(";"):
                 stmt = statement.strip()
                 if stmt:
                     conn.execute(stmt)
@@ -255,11 +242,19 @@ def apply_migrations(conn: sqlite3.Connection) -> int:
                 (version, description),
             )
             conn.execute("COMMIT")
+            if needs_fk_off:
+                conn.execute("PRAGMA foreign_keys=ON")
             applied += 1
         except Exception as exc:
-            conn.execute("ROLLBACK")
+            try:
+                if conn.in_transaction:
+                    conn.execute("ROLLBACK")
+            except Exception:
+                pass
+            if needs_fk_off:
+                conn.execute("PRAGMA foreign_keys=ON")
             raise StudyDBError(
-                f"Migration {version} ({description}) failed — rollback applied"
+                f"Migration {version} ({description}) failed — {exc}"
             ) from exc
 
     return applied

@@ -14,6 +14,8 @@ from dataclasses import dataclass
 from datetime import date
 from typing import Any
 
+from .audit import is_audit_paused
+
 from .db import Database
 from .models import Question
 from .scheduler import _row_to_question as _row_to_question_sched
@@ -250,7 +252,19 @@ class QueueManager:
 
         These are archetypes that have been probed but need more work
         before graduating to SM-2.
+
+        Raises:
+            RuntimeError: If a major notification audit is active (advancement paused).
         """
+        # Block boss-fight advancement during notification audit
+        pause_status = is_audit_paused(self.db)
+        if pause_status["paused"]:
+            raise RuntimeError(
+                f"Boss-fight advancement paused — active notification audit "
+                f"(#{pause_status['active_audit_id']}). "
+                f"Run 'ssc-study audit complete' after review."
+            )
+
         conn = self.db.connect()
 
         boss_arch_rows = conn.execute(

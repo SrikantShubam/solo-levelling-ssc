@@ -150,7 +150,7 @@ def is_audit_paused(db: Database) -> dict[str, Any]:
         """SELECT audit_id, changes_detected, created_at
            FROM notification_audits
            WHERE audit_type = 'notification'
-             AND roi_adjustments IS NULL
+             AND (roi_adjustments IS NULL OR roi_adjustments = 'PAUSED')
            ORDER BY created_at DESC LIMIT 1"""
     ).fetchone()
 

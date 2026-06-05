@@ -142,7 +142,7 @@ def create_sealed_mock(
 
     cursor = conn.execute(
         "INSERT INTO sessions (session_type, started_at, tier, question_count, notes) "
-        "VALUES ('sealed_mock', ?, ?, ?, 'sealed holdout mock')",
+        "VALUES ('mock', ?, ?, ?, 'sealed holdout mock')",
         (datetime.now(timezone.utc).isoformat(), tier, len(questions)),
     )
     conn.commit()

@@ -33,6 +33,54 @@ def test_migration_idempotent(in_memory_db):
     assert v1 == v2, f"Version changed: {v1} → {v2}"
 
 
+def test_migration_14_preserves_existing_sessions_with_attempts():
+    """v13 databases upgrade without breaking attempt session FKs."""
+    conn = sqlite3.connect(":memory:")
+    conn.execute("PRAGMA foreign_keys=ON")
+    conn.row_factory = sqlite3.Row
+
+    for version, description, sql in MIGRATIONS[:13]:
+        for statement in sql.strip().split(";"):
+            stmt = statement.strip()
+            if stmt:
+                conn.execute(stmt)
+        conn.execute(
+            "INSERT INTO _schema_version (version, description) VALUES (?, ?)",
+            (version, description),
+        )
+    conn.commit()
+
+    conn.execute(
+        """INSERT INTO questions
+           (question_id, pdf_name, source_page, global_question_number, section,
+            year, tier, question_text, options_json, correct_option_label)
+           VALUES ('q_m14', 'pdf', 1, 1, 'Quant/DI', 2021, 'tier1',
+                   'Question?', '[]', '1')"""
+    )
+    conn.execute(
+        "INSERT INTO sessions (session_type, started_at) VALUES ('mock', '2025-01-01')"
+    )
+    session_id = conn.execute("SELECT last_insert_rowid() AS id").fetchone()["id"]
+    conn.execute(
+        """INSERT INTO attempts (question_id, session_id, is_correct)
+           VALUES ('q_m14', ?, 1)""",
+        (session_id,),
+    )
+    conn.commit()
+
+    applied = apply_migrations(conn)
+
+    assert applied == 1
+    assert get_current_version(conn) == len(MIGRATIONS)
+    session_type = conn.execute(
+        "SELECT session_type FROM sessions WHERE session_id = ?", (session_id,)
+    ).fetchone()["session_type"]
+    assert session_type == "mock"
+    conn.execute(
+        "INSERT INTO sessions (session_type, started_at) VALUES ('sealed_mock', '2025-01-02')"
+    )
+
+
 def test_all_tables_exist(in_memory_db):
     """Verify all expected tables are created."""
     conn = in_memory_db

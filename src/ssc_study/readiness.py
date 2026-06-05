@@ -395,14 +395,19 @@ def _check_mock_diversity(db: Database) -> CheckResult:
     """Check ≥2 of last 5 mocks are external or sealed-holdout."""
     conn = db.connect()
     rows = conn.execute(
-        """SELECT session_type, created_at
+        """SELECT session_type, notes, created_at
            FROM sessions
-           WHERE session_type IN ('mock', 'sealed_mock', 'external_mock')
+           WHERE session_type IN ('mock', 'external_mock')
+              OR notes LIKE '%sealed holdout mock%'
            ORDER BY created_at DESC
            LIMIT 5"""
     ).fetchall()
 
-    diverse = sum(1 for r in rows if r["session_type"] in ("sealed_mock", "external_mock"))
+    diverse = sum(
+        1 for r in rows
+        if r["session_type"] == "external_mock"
+        or (r["notes"] or "").find("sealed holdout mock") >= 0
+    )
     passed = diverse >= 2
 
     return CheckResult(
