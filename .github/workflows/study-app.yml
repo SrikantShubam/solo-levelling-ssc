@@ -43,7 +43,12 @@ jobs:
       - name: Install package with study extras
         run: pip install -e ".[study,dev]"
       - name: Run tests
-        run: pytest tests/test_sm2.py tests/test_db.py tests/test_loader.py -v --cov=src/ssc_study --cov-report=term-missing
+        run: |
+          pytest tests/test_sm2.py tests/test_db.py tests/test_loader.py \
+                tests/test_scheduler.py tests/test_quiz.py tests/test_reports.py \
+                tests/test_config.py tests/test_timer.py tests/test_archetypes.py \
+                tests/test_embeddings.py tests/test_cards.py \
+                -v --cov=src/ssc_study --cov-report=term-missing
 
   data-integrity:
     runs-on: ubuntu-latest
