@@ -99,6 +99,11 @@ class TestCreateSealedMock:
         result = create_sealed_mock(seeded_db, count=1)
         assert result["created"] is True
         assert result["session_id"] is not None
+        row = seeded_db.connect().execute(
+            "SELECT session_type FROM sessions WHERE session_id = ?",
+            (result["session_id"],),
+        ).fetchone()
+        assert row["session_type"] == "mock"
 
     def test_rejects_when_cap_hit(self, seeded_db):
         """Rejects when monthly cap is reached."""
