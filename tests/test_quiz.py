@@ -60,7 +60,7 @@ class TestQuizSession:
 
         # Override questions to avoid DB dependency in present_next
         # (which would block on actual user input)
-        from ssc_study.models import Question, Option
+        from ssc_study.models import Option, Question
         qs.questions = [
             Question(
                 question_id="test1", pdf_name="test", source_page=1,
@@ -178,3 +178,24 @@ class TestLoadQuestions:
         questions = _load_questions(seeded_db, "mock", None, 50)
         ids = [q.question_id for q in questions]
         assert "q11" not in ids
+
+
+class TestFoundationPulse:
+    """_load_foundation_pulse baseline session."""
+
+    def test_requires_200q(self, seeded_db):
+        """Non-200 count raises error."""
+        import pytest
+
+        from ssc_study.quiz import FoundationPulseError, _load_foundation_pulse
+        with pytest.raises(FoundationPulseError, match="exactly 200"):
+            _load_foundation_pulse(seeded_db, count=100)
+
+    def test_fails_if_section_short(self, seeded_db):
+        """Not enough questions in a section raises error."""
+        # Only 3 Quant/DI questions in seeded_db
+        import pytest
+
+        from ssc_study.quiz import FoundationPulseError, _load_foundation_pulse
+        with pytest.raises(FoundationPulseError, match="requires 80"):
+            _load_foundation_pulse(seeded_db, count=200)

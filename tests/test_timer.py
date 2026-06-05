@@ -109,9 +109,10 @@ class TestTimedInput:
             # Should retry since 5 is not a default valid key
             # Mock with no second call (would cause infinite retry)
             # so just check that default valid_keys exist
-            from ssc_study.timer import timed_input as ti
             # Use inspect or just verify attribute
             import inspect
+
+            from ssc_study.timer import timed_input as ti
             sig = inspect.signature(ti)
             default = sig.parameters["valid_keys"].default
             assert default is None  # None becomes {"1","2","3","4"} at runtime

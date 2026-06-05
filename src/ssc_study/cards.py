@@ -370,7 +370,7 @@ def generate_fact_cards(
     ).fetchall()
 
     import json
-    from .models import Option
+
 
     generated = 0
     skipped = 0
@@ -502,6 +502,155 @@ def get_fact_card_stats(db: Database) -> dict[str, int]:
         depth_counts[row["depth_level"]] = row["c"]
 
     return {"total": total, "by_tier": tier_counts, "by_depth": depth_counts}
+
+
+# ── Expired current-affairs exclusion ────────────────────────────────
+
+
+def get_active_fact_cards(
+    db: Database,
+    count: int = 10,
+    tier: str | None = None,
+    cbic_only: bool = False,
+) -> list[dict[str, Any]]:
+    """Get fact cards that are not expired.
+
+    Args:
+        db: Database instance.
+        count: Number of cards to return.
+        tier: Optional tier filter.
+        cbic_only: Only return CBIC-relevant cards.
+
+    Returns:
+        List of active fact card dicts.
+    """
+    conn = db.connect()
+    today = __import__("datetime").date.today().isoformat()
+
+    conditions = ["(f.expires_on IS NULL OR f.expires_on >= ?)"]
+    params: list[Any] = [today]
+
+    if tier:
+        conditions.append("(f.tier_scope = ? OR f.tier_scope = 'both')")
+        params.append(tier)
+
+    if cbic_only:
+        conditions.append("f.cbic_relevance = 1")
+
+    where = " AND ".join(conditions)
+
+    rows = conn.execute(
+        f"SELECT * FROM fact_cards f WHERE {where} ORDER BY RANDOM() LIMIT ?",
+        params + [count],
+    ).fetchall()
+
+    return [
+        {
+            "card_id": r["card_id"],
+            "front_text": r["front_text"],
+            "back_text": r["back_text"],
+            "depth_level": r["depth_level"],
+            "tier_scope": r["tier_scope"],
+            "cbic_relevance": bool(r["cbic_relevance"]),
+        }
+        for r in rows
+    ]
+
+
+def get_expired_cards(db: Database) -> list[dict[str, Any]]:
+    """Return expired fact cards for audit/history.
+
+    Returns:
+        List of expired card dicts.
+    """
+    conn = db.connect()
+    today = __import__("datetime").date.today().isoformat()
+
+    rows = conn.execute(
+        "SELECT * FROM fact_cards WHERE expires_on IS NOT NULL AND expires_on < ? ORDER BY expires_on",
+        (today,),
+    ).fetchall()
+
+    return [
+        {
+            "card_id": r["card_id"],
+            "front_text": r["front_text"],
+            "back_text": r["back_text"],
+            "expires_on": r["expires_on"],
+        }
+        for r in rows
+    ]
+
+
+def cbic_specific_accuracy(db: Database) -> dict[str, Any]:
+    """Compute accuracy on CBIC-relevant fact cards specifically.
+
+    Returns:
+        Dict with: attempts, correct, accuracy, minimum_met (bool).
+    """
+    conn = db.connect()
+    row = conn.execute(
+        """SELECT COUNT(at.attempt_id) as attempts,
+                  SUM(CASE WHEN at.is_correct = 1 THEN 1 ELSE 0 END) as correct
+           FROM attempts at
+           JOIN questions q ON q.question_id = at.question_id
+           JOIN fact_cards f ON f.question_id = q.question_id
+           WHERE f.cbic_relevance = 1"""
+    ).fetchone()
+
+    attempts = row["attempts"] or 0
+    correct = row["correct"] or 0
+    accuracy = correct / attempts if attempts > 0 else 0.0
+
+    return {
+        "attempts": attempts,
+        "correct": correct,
+        "accuracy": round(accuracy, 3),
+        "minimum_met": attempts >= 5 and accuracy >= 0.80,
+    }
+
+
+def needs_cbic_focus(db: Database) -> dict[str, Any]:
+    """Check if CBIC-specific focus is needed.
+
+    CBIC focus is needed when aggregate GA accuracy is above 75%
+    but CBIC-specific accuracy is below 80%.
+
+    Returns:
+        Dict with: needs_focus (bool), ga_accuracy, cbic_accuracy, reason.
+    """
+    conn = db.connect()
+
+    # Aggregate GA accuracy
+    ga_row = conn.execute(
+        """SELECT COUNT(at.attempt_id) as attempts,
+                  SUM(CASE WHEN at.is_correct = 1 THEN 1 ELSE 0 END) as correct
+           FROM attempts at
+           JOIN questions q ON q.question_id = at.question_id
+           WHERE q.section = 'GK/GA'"""
+    ).fetchone()
+    ga_attempts = ga_row["attempts"] or 0
+    ga_correct = ga_row["correct"] or 0
+    ga_accuracy = ga_correct / ga_attempts if ga_attempts > 0 else 0.0
+
+    cbic = cbic_specific_accuracy(db)
+
+    needs = ga_accuracy >= 0.75 and cbic["accuracy"] < 0.80
+
+    reason = ""
+    if needs:
+        reason = f"GA at {ga_accuracy:.0%} but CBIC at {cbic['accuracy']:.0%} (need 80%)"
+    elif cbic["accuracy"] >= 0.80:
+        reason = "CBIC readiness met"
+    else:
+        reason = f"CBIC at {cbic['accuracy']:.0%} (need more data or improvement)"
+
+    return {
+        "needs_focus": needs,
+        "ga_accuracy": round(ga_accuracy, 3),
+        "cbic_accuracy": cbic["accuracy"],
+        "reason": reason,
+    }
 
 
 # ── Internal helpers ──────────────────────────────────────────────────

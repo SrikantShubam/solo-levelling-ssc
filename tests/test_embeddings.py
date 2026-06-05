@@ -6,14 +6,10 @@ model import fails (CI environments without full ML stack).
 
 from __future__ import annotations
 
-import json
-
-import pytest
-
 from ssc_study.embeddings import (
-    get_embedding_stats,
     compute_text_embedding,
     find_similar_questions,
+    get_embedding_stats,
     update_all_embeddings,
 )
 

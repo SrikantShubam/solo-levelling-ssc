@@ -17,8 +17,7 @@ from dataclasses import dataclass
 from typing import Any
 
 from .db import Database
-from .models import Archetype, Question
-
+from .models import Question
 
 # ── Archetype definitions ──────────────────────────────────────────────
 # Each archetype has a name, section, and keyword patterns.
@@ -680,6 +679,7 @@ def _ensure_archetype(db: Database, name: str, section: str) -> int | None:
 def _row_to_question_archetype(row: Any) -> Question:
     """Convert a DB row to a Question (minimal fields for classification)."""
     import json as _json
+
     from .models import Option as _Option
 
     options_data = _json.loads(row["options_json"]) if isinstance(row["options_json"], str) else []

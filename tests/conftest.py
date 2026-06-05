@@ -34,7 +34,7 @@ def in_memory_db() -> sqlite3.Connection:
 
 
 @pytest.fixture
-def study_db(in_memory_db) -> "Database":
+def study_db(in_memory_db) -> Database:
     """A Database instance wrapping an in-memory SQLite DB."""
     from ssc_study.db import Database
 
@@ -189,7 +189,7 @@ def seeded_conn(in_memory_db) -> sqlite3.Connection:
 
 
 @pytest.fixture
-def seeded_db(seeded_conn) -> "Database":
+def seeded_db(seeded_conn) -> Database:
     """Database instance wrapping seeded_conn."""
     from ssc_study.db import Database
 

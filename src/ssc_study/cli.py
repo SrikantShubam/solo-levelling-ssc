@@ -17,7 +17,7 @@ from . import __version__
 from .config import load_config, save_config
 from .db import Database
 from .loader import import_corpus, verify_import
-from .quiz import QuizSession, _QuizAbortError
+from .quiz import FoundationPulseError, QuizSession, _QuizAbortError
 from .reports import daily_report, session_report
 
 console = Console()
@@ -114,7 +114,8 @@ def verify_cmd(db_path: Path) -> None:
     "--session-type",
     type=click.Choice([
         "sm2_review", "boss_fight", "tier2_module", "gkga_memory",
-        "english", "mock", "analysis",
+        "english", "mock", "analysis", "remediation",
+        "foundation_pulse",
     ]),
     default="mock",
     help="Type of practice session.",
@@ -177,6 +178,10 @@ def quiz(session_type: str, count: int, tier: str | None, timeout: int, db_path:
                           f"{finished.correct_count}/{finished.question_count} correct")
             console.print(f"Run [bold]ssc-study report --session {finished.session_id}[/bold] "
                           f"for details.")
+    except FoundationPulseError as e:
+        console.print(f"[red]{e}[/red]")
+        console.print("[yellow]Foundation pulse aborted — no session created.[/yellow]")
+        return
     except _QuizAbortError:
         quiz_session.abort()
         console.print("[yellow]Session abandoned.[/yellow]")
@@ -232,6 +237,119 @@ def config(db_path: Path | None, show_config: bool) -> None:
         cfg.db_path = str(db_path)
         save_config(cfg)
         console.print(f"[green]Database path set to {db_path}[/green]")
+
+
+@cli.command()
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
+def readiness(db_path: Path) -> None:
+    """Show exam readiness dashboard."""
+    from .readiness import compute_readiness
+
+    db = Database(db_path)
+    report = compute_readiness(db)
+
+    if report.ready:
+        console.print("[bold green]✓ READY[/bold green] — All conditions met!")
+    else:
+        console.print(f"[bold yellow]NOT READY[/bold yellow] — {len(report.missing)} condition(s) not met")
+        console.print()
+
+    for name, check in report.checks.items():
+        icon = "[green]✓[/green]" if check.passed else "[red]✗[/red]"
+        console.print(f"  {icon} {check.name}: {check.actual}")
+        if not check.passed and check.reason:
+            console.print(f"       [dim]{check.reason}[/dim]")
+
+    console.print()
+    passed = len(report.checks) - len(report.missing)
+    total = len(report.checks)
+    console.print(f"[bold]{passed}/{total}[/bold] checks passing ({passed/total*100:.0f}%)")
+
+
+@cli.group()
+def audit() -> None:
+    """Manage exam notification audits."""
+
+
+@audit.command("trigger")
+@click.option("--notification-date", help="Notification date (YYYY-MM-DD).")
+@click.option("--change", "changes", multiple=True, help="Detected changes.")
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
+def audit_trigger(notification_date: str | None, changes: tuple[str, ...], db_path: Path) -> None:
+    """Trigger a notification audit (when exam notification drops)."""
+    from .audit import trigger_notification_audit
+
+    db = Database(db_path)
+    notif_data = {}
+    if notification_date:
+        notif_data["notification_date"] = notification_date
+    if changes:
+        notif_data["changes"] = list(changes)
+
+    result = trigger_notification_audit(db, notif_data)
+    console.print(f"[bold]Audit #{result['audit_id']}[/bold] — {result['message']}")
+    if result["paused"]:
+        console.print("[yellow]Advancement paused. Run 'ssc-study audit complete' after review.[/yellow]")
+
+
+@audit.command("complete")
+@click.option("--audit-id", type=int, required=True, help="Audit ID to complete.")
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
+def audit_complete(audit_id: int, db_path: Path) -> None:
+    """Complete a notification audit with review."""
+    from .audit import NotificationChange, complete_audit
+
+    db = Database(db_path)
+    # For CLI, mark as minor with a basic note
+    result = complete_audit(db, audit_id, [
+        NotificationChange("other", "Manual review completed", "minor"),
+    ])
+    console.print(result["message"])
+    if result["affected_queues"]:
+        console.print(f"  Affected queues: {', '.join(result['affected_queues'])}")
+
+
+@audit.command("status")
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
+def audit_status(db_path: Path) -> None:
+    """Check if advancement is paused by an active audit."""
+    from .audit import get_audit_history, is_audit_paused
+
+    db = Database(db_path)
+    status = is_audit_paused(db)
+
+    if status["paused"]:
+        console.print("[yellow]ADVANCEMENT PAUSED[/yellow]")
+        console.print(f"  Reason: {status['reason']}")
+    else:
+        console.print("[green]No active advancement pause.[/green]")
+
+    history = get_audit_history(db, limit=5)
+    if history:
+        console.print()
+        console.print("[bold]Recent audits:[/bold]")
+        for h in history:
+            console.print(f"  #{h['audit_id']} ({h['notification_date'] or 'N/A'}): {h['changes_detected'][:60] or 'pending'}")
 
 
 def main(argv: list[str] | None = None) -> int:

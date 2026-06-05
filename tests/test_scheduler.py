@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-from datetime import date, timedelta
-
 from ssc_study.scheduler import (
     DueStats,
     get_due_archetypes,
@@ -49,8 +47,9 @@ class TestGetDueQuestions:
 
     def test_empty_db(self, in_memory_db):
         """Empty database returns empty list."""
-        from ssc_study.db import Database
         from pathlib import Path
+
+        from ssc_study.db import Database
 
         db = Database.__new__(Database)
         db._path = Path(":memory:")

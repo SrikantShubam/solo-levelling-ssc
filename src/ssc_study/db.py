@@ -173,6 +173,26 @@ MIGRATIONS: list[tuple[int, str, str]] = [
             created_at         TEXT NOT NULL DEFAULT (datetime('now'))
         )
     """),
+    (14, "add sealed_mock to sessions CHECK", """
+        CREATE TABLE IF NOT EXISTS sessions_new (
+            session_id        INTEGER PRIMARY KEY AUTOINCREMENT,
+            session_type      TEXT NOT NULL CHECK (session_type IN (
+                'sm2_review','boss_fight','tier2_module','gkga_memory',
+                'english','mock','analysis','foundation_pulse','ck_pulse','sealed_mock'
+            )),
+            started_at        TEXT NOT NULL,
+            ended_at          TEXT,
+            duration_minutes  INTEGER,
+            question_count    INTEGER NOT NULL DEFAULT 0,
+            correct_count     INTEGER NOT NULL DEFAULT 0,
+            tier              TEXT CHECK (tier IN ('tier1', 'tier2')),
+            notes             TEXT,
+            created_at        TEXT NOT NULL DEFAULT (datetime('now'))
+        );
+        INSERT OR IGNORE INTO sessions_new SELECT * FROM sessions;
+        DROP TABLE sessions;
+        ALTER TABLE sessions_new RENAME TO sessions;
+    """),
 ]
 
 

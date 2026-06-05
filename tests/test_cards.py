@@ -2,9 +2,12 @@
 
 from __future__ import annotations
 
-import json
-
-from ssc_study.cards import extract_fact, generate_fact_cards, get_due_fact_cards, get_fact_card_stats
+from ssc_study.cards import (
+    extract_fact,
+    generate_fact_cards,
+    get_due_fact_cards,
+    get_fact_card_stats,
+)
 
 
 class TestExtractFact:
@@ -115,3 +118,59 @@ class TestGetFactCardStats:
         assert stats["total"] >= 1
         assert "by_tier" in stats
         assert "by_depth" in stats
+
+
+class TestExpiredCards:
+    """Expired current-affairs exclusion."""
+
+    def test_active_cards_excludes_expired(self, seeded_db):
+        """get_active_fact_cards filters expired cards."""
+        from ssc_study.cards import get_active_fact_cards
+
+        conn = seeded_db.connect()
+        conn.execute(
+            """INSERT INTO fact_cards (question_id, front_text, back_text, tier_scope, depth_level, expires_on)
+               VALUES ('q8', 'Capital of France', 'Paris', 'both', 'basic', '2020-01-01')"""
+        )
+        conn.commit()
+
+        cards = get_active_fact_cards(seeded_db, count=10)
+        # The expired card should be excluded
+        expired_in_results = [c for c in cards if c["front_text"] == "Capital of France"]
+        assert len(expired_in_results) == 0
+
+    def test_expired_cards_queryable(self, seeded_db):
+        """Expired cards still queryable via get_expired_cards."""
+        from ssc_study.cards import get_expired_cards
+
+        conn = seeded_db.connect()
+        conn.execute(
+            """INSERT INTO fact_cards (question_id, front_text, back_text, tier_scope, depth_level, expires_on)
+               VALUES ('q8', 'Capital of France', 'Paris', 'both', 'basic', '2020-01-01')"""
+        )
+        conn.commit()
+
+        expired = get_expired_cards(seeded_db)
+        assert len(expired) >= 1
+
+
+class TestCBICAccuracy:
+    """CBIC-specific accuracy computation."""
+
+    def test_cbic_accuracy_returns_stats(self, seeded_db):
+        """cbic_specific_accuracy returns dict with attempt data."""
+        from ssc_study.cards import cbic_specific_accuracy
+
+        result = cbic_specific_accuracy(seeded_db)
+        assert "attempts" in result
+        assert "accuracy" in result
+        assert "minimum_met" in result
+
+    def test_needs_cbic_focus(self, seeded_db):
+        """needs_cbic_focus returns proper structure."""
+        from ssc_study.cards import needs_cbic_focus
+
+        result = needs_cbic_focus(seeded_db)
+        assert "needs_focus" in result
+        assert "ga_accuracy" in result
+        assert "cbic_accuracy" in result

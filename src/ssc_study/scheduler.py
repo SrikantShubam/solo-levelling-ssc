@@ -243,7 +243,6 @@ def record_review(
         question_id: The question to record a review for.
         quality: SM-2 quality score (0-5).
     """
-    from .models import SM2State
     from .sm2 import compute_sm2
 
     today = date.today().isoformat()

@@ -13,7 +13,6 @@ import json
 import sqlite3
 import time
 from datetime import datetime, timezone
-from typing import Any
 
 from rich.console import Console
 from rich.panel import Panel
@@ -22,7 +21,7 @@ from rich.text import Text
 
 from .db import Database
 from .models import Attempt, Question, Session, SM2State
-from .scheduler import get_due_questions
+from .queues import QueueManager
 from .sm2 import compute_sm2, quality_from_performance
 from .timer import format_timer, timed_input
 
@@ -183,35 +182,110 @@ def _load_questions(
 ) -> list[Question]:
     """Load questions from the database based on session type.
 
+    Dispatches to QueueManager for structured queues, or uses
+    section-filtered random for simple section-based types.
+
     Session types:
-      - sm2_review: uses SM-2 scheduler (due questions first, then new).
-      - gkga_memory / english: section-filtered random.
-      - boss_fight / tier2_module / mock / analysis: unfiltered random.
+      - sm2_review:     QueueManager → sm2_review (SM-2 scheduler)
+      - boss_fight:     QueueManager → boss_fight (50-79% archetypes)
+      - remediation:    QueueManager → remediation (weak archetypes)
+      - foundation_pulse: Special 200q baseline session
+      - mock/analysis:    QueueManager → active (general pool)
+      - gkga_memory:      QueueManager → active, section=GK/GA
+      - english:          QueueManager → active, section=English
+      - tier2_module:     QueueManager → active, tier=tier2
     """
-    # SM-2 review sessions use the scheduler
-    if session_type == "sm2_review":
-        section = None
-        return get_due_questions(db, count=count, tier=tier, exclude_holdout=True)
+    qm = QueueManager(db)
+
+    queue_map = {
+        "sm2_review": "sm2_review",
+        "boss_fight": "boss_fight",
+        "remediation": "remediation",
+        "mock": "active",
+        "analysis": "active",
+    }
+
+    section_map = {
+        "gkga_memory": "GK/GA",
+        "english": "English",
+    }
+
+    # Foundation pulse is handled separately
+    if session_type == "foundation_pulse":
+        return _load_foundation_pulse(db, count or 200)
+
+    # Queued session types
+    if session_type in queue_map:
+        qtype = queue_map[session_type]
+        section = section_map.get(session_type)
+        return qm.get_batch(qtype, count=count, tier=tier, section=section)
+
+    # Section-filtered types (gkga_memory, english) via active queue
+    if session_type in section_map:
+        return qm.get_batch("active", count=count, tier=tier, section=section_map[session_type])
+
+    # Fallback for tier2_module or unknown types
+    return qm.get_batch("active", count=count, tier=tier)
+
+
+# ── Foundation pulse ──────────────────────────────────────────────────────
+
+
+class FoundationPulseError(Exception):
+    """Raised when foundation pulse requirements cannot be met."""
+
+
+FOUNDATION_PULSE_REQUIREMENTS: dict[str, int] = {
+    "Quant/DI": 80,
+    "Reasoning": 40,
+    "English": 40,
+    "GK/GA": 40,
+}
+FOUNDATION_PULSE_TOTAL = sum(FOUNDATION_PULSE_REQUIREMENTS.values())  # 200
+
+
+def _load_foundation_pulse(
+    db: Database,
+    count: int = 200,
+) -> list[Question]:
+    """Load the foundation baseline session: 200 questions across 4 sections.
+
+    Args:
+        db: Database instance.
+        count: Must be 200 (or the sum of FOUNDATION_PULSE_REQUIREMENTS).
+
+    Returns:
+        Exactly 200 questions: 80 Quant/DI, 40 Reasoning, 40 English, 40 GK/GA.
+
+    Raises:
+        FoundationPulseError: If any section lacks enough non-holdout questions
+                              or count doesn't match requirements.
+    """
+    if count != FOUNDATION_PULSE_TOTAL:
+        raise FoundationPulseError(
+            f"Foundation pulse requires exactly {FOUNDATION_PULSE_TOTAL} questions "
+            f"({FOUNDATION_PULSE_REQUIREMENTS}), got {count}"
+        )
 
     conn = db.connect()
+    questions: list[Question] = []
 
-    query = "SELECT * FROM questions WHERE is_holdout = 0"
-    params: list[Any] = []
+    for section, needed in FOUNDATION_PULSE_REQUIREMENTS.items():
+        rows = conn.execute(
+            "SELECT * FROM questions WHERE section = ? AND is_holdout = 0 ORDER BY RANDOM() LIMIT ?",
+            (section, needed),
+        ).fetchall()
 
-    if tier:
-        query += " AND tier = ?"
-        params.append(tier)
+        if len(rows) < needed:
+            raise FoundationPulseError(
+                f"Foundation pulse requires {needed} {section} questions, "
+                f"but only {len(rows)} available (non-holdout). "
+                "Cannot create partial session."
+            )
 
-    if session_type == "gkga_memory":
-        query += " AND section = 'GK/GA'"
-    elif session_type == "english":
-        query += " AND section = 'English'"
+        questions.extend(_row_to_question(r) for r in rows)
 
-    query += " ORDER BY RANDOM() LIMIT ?"
-    params.append(count)
-
-    rows = conn.execute(query, tuple(params)).fetchall()
-    return [_row_to_question(r) for r in rows]
+    return questions
 
 
 def _row_to_question(row: sqlite3.Row) -> Question:
