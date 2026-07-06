@@ -107,4 +107,80 @@ def create_app(db: Database, templates_dir: str | Path | None = None) -> FastAPI
     async def api_result_next_steps(session_id: int) -> dict:
         return get_baseline_next_steps(db, session_id)
 
+    @app.get("/api/phase3/next-action")
+    async def api_phase3_next_action(section: str | None = None) -> dict:
+        from .phase3 import plan_next_action
+        action = plan_next_action(db, section=section)
+
+        action_section = section
+        if not action_section and action.target_archetype_id is not None:
+            conn = db.connect()
+            row = conn.execute(
+                "SELECT section FROM questions WHERE archetype_id = ? LIMIT 1",
+                (action.target_archetype_id,)
+            ).fetchone()
+            if row:
+                action_section = row["section"]
+
+        cli_cmd = "ssc-study phase3"
+        if section:
+            cli_cmd = f"{cli_cmd} --section {section}"
+
+        return {
+            "action_type": action.action_type,
+            "reason": action.reason,
+            "section": action_section,
+            "target_archetype_id": action.target_archetype_id,
+            "target_archetype_name": action.target_archetype_name,
+            "question_count": action.question_count,
+            "can_start_web_session": False,
+            "cli_command": cli_cmd,
+        }
+
+    @app.get("/api/study/summary")
+    async def api_study_summary() -> dict:
+        from .guardian import build_guardian_plan
+        from .readiness import compute_readiness
+
+        # Guardian summary
+        try:
+            plan = build_guardian_plan(db)
+            guardian_data = {
+                "available": True,
+                "mode": plan.audit_mode if plan.audit_mode != "normal" else "planner",
+                "total_minutes": plan.total_minutes,
+                "mock_recommendation": plan.mock_recommendation,
+                "pulse_recommendation": plan.pulse_recommendation,
+                "warnings": plan.warnings
+            }
+        except Exception as e:
+            guardian_data = {
+                "available": False,
+                "mode": "planner",
+                "total_minutes": 0,
+                "mock_recommendation": "none",
+                "pulse_recommendation": "none",
+                "warnings": [f"Guardian plan unavailable: {e}"]
+            }
+
+        # Readiness summary
+        try:
+            report = compute_readiness(db)
+            readiness_data = {
+                "available": True,
+                "status": "ready" if report.ready else "not_ready",
+                "missing_reasons": report.missing
+            }
+        except Exception as e:
+            readiness_data = {
+                "available": False,
+                "status": "unavailable",
+                "missing_reasons": [f"Readiness check failed: {e}"]
+            }
+
+        return {
+            "guardian": guardian_data,
+            "readiness": readiness_data
+        }
+
     return app

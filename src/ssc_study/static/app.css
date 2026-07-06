@@ -674,6 +674,115 @@ body {
     to { transform: scale(1); opacity: 1; }
 }
 
+/* Dashboard styles */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.dashboard-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dashboard-card h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.dashboard-card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.badge-status {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.badge-status.success {
+    background-color: var(--color-success-light);
+    color: var(--color-success);
+}
+
+.badge-status.warning {
+    background-color: var(--color-warning-light);
+    color: var(--color-warning);
+}
+
+.badge-status.error {
+    background-color: var(--color-error-light);
+    color: var(--color-error);
+}
+
+.badge-status.info {
+    background-color: #e0f2fe;
+    color: #0369a1;
+}
+
+.badge-status.secondary {
+    background-color: var(--bg-paper);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.cli-code-block {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    background-color: var(--bg-paper);
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.dashboard-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.dashboard-list li {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.75rem;
+    border-left: 2px solid var(--border-color);
+}
+
+.dashboard-list li.success {
+    border-left-color: var(--color-success);
+}
+
+.dashboard-list li.warning {
+    border-left-color: var(--color-warning);
+}
+
+.dashboard-list li.error {
+    border-left-color: var(--color-error);
+}
+
 /* Responsive adjustments */
 @media (max-width: 900px) {
     .cockpit-layout {

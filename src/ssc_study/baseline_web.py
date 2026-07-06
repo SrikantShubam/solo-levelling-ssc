@@ -400,6 +400,25 @@ def get_baseline_next_steps(db: Database, session_id: int) -> dict[str, Any]:
     mode = result["mode"]
     by_section = result["by_section"]
 
+    if mode == "smoke":
+        return {
+            "session_id": session_id,
+            "mode": mode,
+            "overall_accuracy": result["accuracy"],
+            "weak_sections": [],
+            "overall_action": {
+                "action_type": "smoke_warning",
+                "title": "Establish Full Baseline",
+                "command": "ssc-study web",
+                "reason": (
+                    "This was a 5-question Smoke Test. To establish a reliable baseline "
+                    "and unlock the daily scheduler, please take the 200-question Full "
+                    "Baseline exam."
+                ),
+            },
+            "guardian_plan": None,
+        }
+
     weak_sections = []
     tier_summary = {"remediation_excluded": False, "remediation_priority": False, "paired_remediation": False}
     for section, data in by_section.items():
@@ -433,15 +452,7 @@ def get_baseline_next_steps(db: Database, session_id: int) -> dict[str, Any]:
         })
 
     # Formulate recommendation by highest-priority tier
-    if mode == "smoke":
-        overall = {
-            "action_type": "smoke_warning",
-            "title": "Establish Full Baseline",
-            "command": "ssc-study web",
-            "reason": "This was a 5-question Smoke Test. To establish a reliable baseline and unlock the daily scheduler, please take the 200-question Full Baseline exam.",
-        }
-        guardian_info = None
-    elif tier_summary["remediation_excluded"]:
+    if tier_summary["remediation_excluded"]:
         overall = {
             "action_type": "remediation_excluded",
             "title": "Remediation-First Priority",

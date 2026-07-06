@@ -192,6 +192,38 @@ def test_get_result_next_steps_endpoint(web_client):
     assert ns_data["overall_action"]["action_type"] == "smoke_warning"
 
 
+def test_get_result_next_steps_read_only(web_client, seeded_db):
+    """Verify the next-steps endpoint does not mutate DB state."""
+    start_resp = web_client.post("/api/baseline/start", json={"mode": "smoke"})
+    start_data = start_resp.json()
+    answers = [{
+        "question_id": q["question_id"],
+        "user_answer": "1",
+        "time_spent_seconds": 10,
+        "marked_for_review": False,
+    } for q in start_data["questions"]]
+    submit_resp = web_client.post("/api/baseline/submit", json={
+        "exam_id": start_data["exam_id"],
+        "exam_token": start_data["exam_token"],
+        "mode": "smoke",
+        "started_at": "2026-07-06T10:00:00Z",
+        "ended_at": "2026-07-06T10:05:00Z",
+        "answers": answers,
+    })
+    session_id = submit_resp.json()["session_id"]
+    conn = seeded_db.connect()
+    before = dict(conn.execute(
+        "SELECT ended_at, question_count, correct_count FROM sessions WHERE session_id = ?",
+        (session_id,),
+    ).fetchone())
+    ns_resp = web_client.get(f"/api/baseline/result/{session_id}/next-steps")
+    assert ns_resp.status_code == 200
+    after = dict(conn.execute(
+        "SELECT ended_at, question_count, correct_count FROM sessions WHERE session_id = ?",
+        (session_id,),
+    ).fetchone())
+    assert before == after, "next-steps endpoint mutated session data"
+
 def test_get_result_not_found(web_client):
     """Verify result detail returns HTTP 404 for unknown session ID."""
     response = web_client.get("/api/baseline/result/999999")
@@ -203,3 +235,62 @@ def test_landing_page_has_next_steps_div(web_client):
     response = web_client.get("/")
     assert response.status_code == 200
     assert "next-steps-content" in response.text
+
+
+def test_phase3_next_action_endpoint(web_client):
+    """Verify that GET /api/phase3/next-action returns a valid schema and works with section filters."""
+    response = web_client.get("/api/phase3/next-action")
+    assert response.status_code == 200
+    data = response.json()
+    assert "action_type" in data
+    assert "reason" in data
+    assert "section" in data
+    assert "target_archetype_id" in data
+    assert "target_archetype_name" in data
+    assert "question_count" in data
+    assert "can_start_web_session" in data
+    assert "cli_command" in data
+
+    # Test filtering by section
+    response_sec = web_client.get("/api/phase3/next-action?section=Quant/DI")
+    assert response_sec.status_code == 200
+    data_sec = response_sec.json()
+    assert "action_type" in data_sec
+    assert data_sec["section"] == "Quant/DI" or data_sec["section"] is None
+    assert data_sec["cli_command"] == "ssc-study phase3 --section Quant/DI"
+    assert "--archetype-id" not in data_sec["cli_command"]
+    assert "--probe" not in data_sec["cli_command"]
+    assert "--remediation" not in data_sec["cli_command"]
+    assert "--boss-fight" not in data_sec["cli_command"]
+    assert "--sm2" not in data_sec["cli_command"]
+
+
+def test_frontend_escapes_phase3_section_action_reason(web_client):
+    """Verify section action reasons are escaped before entering result HTML."""
+    response = web_client.get("/static/app.js")
+    assert response.status_code == 200
+    js = response.text
+    assert "escapeHtml(ws.action.reason)" in js
+    assert "(${ws.action.reason})" not in js
+
+
+def test_study_summary_endpoint(web_client):
+    """Verify that GET /api/study/summary returns a valid schema."""
+    response = web_client.get("/api/study/summary")
+    assert response.status_code == 200
+    data = response.json()
+    assert "guardian" in data
+    assert "readiness" in data
+
+    guardian = data["guardian"]
+    assert "available" in guardian
+    assert "mode" in guardian
+    assert "total_minutes" in guardian
+    assert "mock_recommendation" in guardian
+    assert "pulse_recommendation" in guardian
+    assert "warnings" in guardian
+
+    readiness = data["readiness"]
+    assert "available" in readiness
+    assert "status" in readiness
+    assert "missing_reasons" in readiness

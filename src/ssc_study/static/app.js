@@ -297,42 +297,36 @@
             <p style="margin-top: 0.5rem;"><strong>Recommended Next Action:</strong> Return to the landing page and start the <strong>Full Baseline (200 Questions)</strong> once your database is eligible.</p>
           </div>
         `;
+        nextStepsContent.innerHTML = html;
       } else {
-        html += `
-          <div class="next-step-box success" style="border-left: 4px solid var(--color-success); padding: 1rem; background: var(--color-success-light); border-radius: var(--border-radius); margin-bottom: 1.5rem;">
-            <p><strong>Baseline Completed:</strong> Your 200-question Phase 1 Foundation Baseline Exam has been successfully submitted and saved to the SQLite database. Spaced repetition (SM-2) review states have been initialized for these questions.</p>
-          </div>
-        `;
-      }
-      
-      // Helper to render a per-section action line
-      function renderSectionAction(ws) {
-        if (ws.action && ws.action.action_type !== 'stop') {
-          const name = ws.action.target_archetype_name || 'unknown archetype';
+        // Helper to render a per-section action line
+        function renderSectionAction(ws) {
+          if (ws.action && ws.action.action_type !== 'stop') {
+            const name = ws.action.target_archetype_name || 'unknown archetype';
+            return ` <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.15rem; font-style: italic;">
+              ↳ Next diagnostic target: ${escapeHtml(ws.action.action_type)} on <strong>${escapeHtml(name)}</strong> (${escapeHtml(ws.action.reason)})
+            </span>`;
+          }
           return ` <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.15rem; font-style: italic;">
-            ↳ Next diagnostic target: ${escapeHtml(ws.action.action_type)} on <strong>${escapeHtml(name)}</strong> (${ws.action.reason})
+            ↳ No active archetypes eligible to probe.
           </span>`;
         }
-        return ` <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.15rem; font-style: italic;">
-          ↳ No active archetypes eligible to probe.
-        </span>`;
-      }
 
-      // Render weak sections grouped by Plan.md tier
-      if (ns.weak_sections && ns.weak_sections.length > 0) {
+        // Render weak sections grouped by Plan.md tier
         const excluded = ns.weak_sections.filter(function(ws) { return ws.tier === 'remediation_excluded'; });
         const priority = ns.weak_sections.filter(function(ws) { return ws.tier === 'remediation_priority'; });
         const paired = ns.weak_sections.filter(function(ws) { return ws.tier === 'paired_remediation'; });
 
+        let bucketsHtml = '';
+
         if (excluded.length > 0) {
-          html += `
-            <div style="margin-bottom: 0.75rem;">
-              <h4 style="font-weight: 600; color: var(--color-error); margin-bottom: 0.5rem;">Remediation-First Priority (&lt; 55% Accuracy)</h4>
-              <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Per Plan.md, sections below 55% require focused remediation first and are excluded from readiness scoring until reaching 65%.</p>
-              <ul style="margin-left: 1.5rem; margin-bottom: 0.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+          bucketsHtml += `
+            <div style="margin-bottom: 1rem;">
+              <h4 style="font-weight: 600; color: var(--color-error); margin-bottom: 0.25rem;">Remediation-First Priority (&lt; 55% Accuracy)</h4>
+              <ul class="dashboard-list">
                 ${excluded.map(function(ws) { return `
-                  <li style="margin-bottom: 0.25rem;">
-                    <strong>${escapeHtml(ws.section)}:</strong> ${(ws.accuracy * 100).toFixed(0)}% accuracy (${ws.correct} / ${ws.total} correct)
+                  <li class="error">
+                    <strong>${escapeHtml(ws.section)}</strong>: ${(ws.accuracy * 100).toFixed(0)}% (${ws.correct}/${ws.total})
                     ${renderSectionAction(ws)}
                   </li>
                 `;}).join('')}
@@ -342,14 +336,13 @@
         }
 
         if (priority.length > 0) {
-          html += `
-            <div style="margin-bottom: 0.75rem;">
-              <h4 style="font-weight: 600; color: var(--color-error); margin-bottom: 0.5rem;">Remediation Priority (55–64% Accuracy)</h4>
-              <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Per Plan.md, these sections need remediation but are included in readiness scoring.</p>
-              <ul style="margin-left: 1.5rem; margin-bottom: 0.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+          bucketsHtml += `
+            <div style="margin-bottom: 1rem;">
+              <h4 style="font-weight: 600; color: var(--color-error); margin-bottom: 0.25rem;">Remediation Priority (55–64% Accuracy)</h4>
+              <ul class="dashboard-list">
                 ${priority.map(function(ws) { return `
-                  <li style="margin-bottom: 0.25rem;">
-                    <strong>${escapeHtml(ws.section)}:</strong> ${(ws.accuracy * 100).toFixed(0)}% accuracy (${ws.correct} / ${ws.total} correct)
+                  <li class="error">
+                    <strong>${escapeHtml(ws.section)}</strong>: ${(ws.accuracy * 100).toFixed(0)}% (${ws.correct}/${ws.total})
                     ${renderSectionAction(ws)}
                   </li>
                 `;}).join('')}
@@ -359,14 +352,13 @@
         }
 
         if (paired.length > 0) {
-          html += `
-            <div style="margin-bottom: 0.75rem;">
-              <h4 style="font-weight: 600; color: var(--color-warning); margin-bottom: 0.5rem;">Boss Fight with Paired Remediation (65–69% Accuracy)</h4>
-              <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Per Plan.md, these sections may enter boss fights alongside continued remediation.</p>
-              <ul style="margin-left: 1.5rem; margin-bottom: 0.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+          bucketsHtml += `
+            <div style="margin-bottom: 1rem;">
+              <h4 style="font-weight: 600; color: var(--color-warning); margin-bottom: 0.25rem;">Boss Fight with Paired Remediation (65–69% Accuracy)</h4>
+              <ul class="dashboard-list">
                 ${paired.map(function(ws) { return `
-                  <li style="margin-bottom: 0.25rem;">
-                    <strong>${escapeHtml(ws.section)}:</strong> ${(ws.accuracy * 100).toFixed(0)}% accuracy (${ws.correct} / ${ws.total} correct)
+                  <li class="warning">
+                    <strong>${escapeHtml(ws.section)}</strong>: ${(ws.accuracy * 100).toFixed(0)}% (${ws.correct}/${ws.total})
                     ${renderSectionAction(ws)}
                   </li>
                 `;}).join('')}
@@ -374,54 +366,212 @@
             </div>
           `;
         }
-      } else if (ns.mode !== 'smoke') {
+
+        // Add cleared sections (boss fights unlocked)
+        const weakSectionsList = (ns.weak_sections || []).map(function(ws) { return ws.section; });
+        const cleared = ["Quant/DI", "Reasoning", "English", "GK/GA"].filter(function(sec) {
+          return weakSectionsList.indexOf(sec) === -1;
+        });
+
+        if (cleared.length > 0) {
+          bucketsHtml += `
+            <div style="margin-bottom: 1rem;">
+              <h4 style="font-weight: 600; color: var(--color-success); margin-bottom: 0.25rem;">Boss Fights Unlocked (&ge; 70% Accuracy)</h4>
+              <ul class="dashboard-list">
+                ${cleared.map(function(section) {
+                  const secData = result.by_section?.[section] || { correct: 0, total: 0 };
+                  const acc = secData.total > 0 ? (secData.correct / secData.total) : 0;
+                  return `
+                    <li class="success">
+                      <strong>${escapeHtml(section)}</strong>: ${(acc * 100).toFixed(0)}% (${secData.correct}/${secData.total})
+                      <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.15rem; font-style: italic;">
+                        ↳ Timed boss fights unlocked!
+                      </span>
+                    </li>
+                  `;
+                }).join('')}
+              </ul>
+            </div>
+          `;
+        }
+
         html += `
-          <div style="margin-bottom: 1.5rem;">
-            <h4 style="font-weight: 600; color: var(--color-success); margin-bottom: 0.5rem;">✓ Foundation Gate Cleared!</h4>
-            <p style="font-size: 0.95rem; color: var(--text-secondary);">All sections meet or exceed the 70% timed accuracy threshold. You have unlocked standard daily scheduling and boss fight queues.</p>
+          <div class="next-step-box success" style="border-left: 4px solid var(--color-success); padding: 1rem; background: var(--color-success-light); border-radius: var(--border-radius); margin-bottom: 1.5rem;">
+            <p><strong>Baseline Completed:</strong> Your 200-question Phase 1 Foundation Baseline Exam has been successfully submitted and saved. Spaced repetition (SM-2) review states have been initialized.</p>
           </div>
-        `;
-      }
-      
-      // Render recommended overall action
-      if (ns.overall_action) {
-        const act = ns.overall_action;
-        html += `
-          <div style="margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
-            <h4 style="font-weight: 600; color: var(--color-primary); margin-bottom: 0.75rem;">Recommended Follow-up CLI Command</h4>
-            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1.25rem; border-radius: var(--border-radius); display: flex; flex-direction: column; gap: 0.5rem;">
-              <span style="font-weight: 600; font-size: 0.95rem;">${escapeHtml(act.title)}</span>
-              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">${escapeHtml(act.reason)}</p>
-              <code style="font-family: var(--font-mono); font-size: 0.9rem; background: #e2e8f0; padding: 0.35rem 0.6rem; border-radius: 4px; display: block; overflow-x: auto; border: 1px solid #cbd5e1;">${escapeHtml(act.command)}</code>
+
+          <div class="dashboard-grid">
+            <!-- Card 1: Diagnostic Status -->
+            <div class="dashboard-card">
+              <h3>Diagnostic Status Buckets</h3>
+              <div>${bucketsHtml}</div>
+            </div>
+
+            <!-- Card 2: Phase 3 Next Action -->
+            <div class="dashboard-card" id="card-phase3-next-action">
+              <h3>Phase 3 Next Action</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem;">Loading Phase 3 next target...</p>
+            </div>
+
+            <!-- Card 3: Guardian & Readiness -->
+            <div class="dashboard-card" id="card-guardian-readiness">
+              <h3>Guardian & Readiness Summary</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem;">Loading Guardian planner & readiness state...</p>
             </div>
           </div>
         `;
+        nextStepsContent.innerHTML = html;
+
+        // Trigger asynchronous details loading
+        loadAsyncDashboardDetails();
       }
-      
-      // Render Guardian plan details if available
-      if (ns.guardian_plan) {
-        const g = ns.guardian_plan;
-        html += `
-          <div style="margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
-            <h4 style="font-weight: 600; color: var(--color-primary); margin-bottom: 0.5rem;">Guardian Daily Plan Summary</h4>
-            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1.25rem; border-radius: var(--border-radius); display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
-              <p><strong>Plan Date:</strong> ${escapeHtml(g.plan_date)}</p>
-              <p><strong>Mock Recommendation:</strong> ${escapeHtml(g.mock_recommendation)}</p>
-              <p><strong>Pulse Recommendation:</strong> ${escapeHtml(g.pulse_recommendation)}</p>
+    }
+  }
+
+  async function loadAsyncDashboardDetails() {
+    // 1. Fetch Phase 3 Next Action
+    try {
+      const resp = await fetch('/api/phase3/next-action');
+      const card = $('#card-phase3-next-action');
+      if (resp.ok && card) {
+        const na = await resp.json();
+        if (na.action_type === 'stop') {
+          card.innerHTML = `
+            <div class="dashboard-card-title">
+              <h3>Phase 3 Next Action</h3>
+              <span class="badge-status secondary">Stop</span>
+            </div>
+            <p style="font-size: 0.95rem; font-weight: 500;">No eligible Phase 3 work remains.</p>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">${escapeHtml(na.reason)}</p>
+          `;
+        } else {
+          const badgeClass = na.action_type === 'probe' ? 'info' : (na.action_type === 'boss_fight' ? 'success' : 'warning');
+          card.innerHTML = `
+            <div class="dashboard-card-title">
+              <h3>Phase 3 Next Action</h3>
+              <span class="badge-status ${badgeClass}">${escapeHtml(na.action_type)}</span>
+            </div>
+            <p style="font-size: 0.95rem; font-weight: 600; margin-bottom: 0.25rem;">
+              Target: ${escapeHtml(na.target_archetype_name || 'General')}
+            </p>
+            ${na.section ? `<p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: -0.25rem;">Section: <strong>${escapeHtml(na.section)}</strong></p>` : ''}
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">${escapeHtml(na.reason)}</p>
+            <div style="margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.25rem;">
+              <span style="font-size: 0.85rem; font-weight: 500;">Question Count: ${na.question_count}</span>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 0.25rem;">Recommended CLI Command:</span>
+              <code class="cli-code-block">${escapeHtml(na.cli_command)}</code>
+            </div>
+          `;
+        }
+      } else if (card) {
+        throw new Error(`HTTP ${resp.status}`);
+      }
+    } catch (e) {
+      const card = $('#card-phase3-next-action');
+      if (card) {
+        card.innerHTML = `
+          <div class="dashboard-card-title">
+            <h3>Phase 3 Next Action</h3>
+            <span class="badge-status error">Unavailable</span>
+          </div>
+          <p style="font-size: 0.9rem; color: var(--color-error);">Failed to load next action: ${escapeHtml(e.message)}</p>
+        `;
+      }
+    }
+
+    // 2. Fetch Guardian & Readiness Summary
+    try {
+      const resp = await fetch('/api/study/summary');
+      const card = $('#card-guardian-readiness');
+      if (resp.ok && card) {
+        const summary = await resp.json();
+        const g = summary.guardian;
+        const r = summary.readiness;
+
+        let guardianHtml = '';
+        if (g && g.available) {
+          const modeClass = g.mode === 'planner' ? 'success' : 'warning';
+          guardianHtml = `
+            <div style="border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 0.75rem;">
+              <div class="dashboard-card-title" style="margin-bottom: 0.5rem;">
+                <h4 style="font-weight: 600; font-size: 0.95rem;">Guardian (Advisory)</h4>
+                <span class="badge-status ${modeClass}">${escapeHtml(g.mode)}</span>
+              </div>
+              <p style="font-size: 0.85rem;"><strong>Daily capacity:</strong> ${g.total_minutes} mins</p>
+              <p style="font-size: 0.85rem;"><strong>Mock Rec:</strong> ${escapeHtml(g.mock_recommendation)}</p>
+              <p style="font-size: 0.85rem;"><strong>Pulse Rec:</strong> ${escapeHtml(g.pulse_recommendation)}</p>
               ${g.warnings && g.warnings.length > 0 ? `
-                <div style="color: var(--color-error); margin-top: 0.5rem;">
+                <div style="color: var(--color-error); font-size: 0.8rem; margin-top: 0.5rem;">
                   <strong>Warnings:</strong>
-                  <ul style="margin-left: 1.5rem; margin-top: 0.25rem;">
+                  <ul style="margin-left: 1rem; margin-top: 0.25rem;">
                     ${g.warnings.map(w => `<li>${escapeHtml(w)}</li>`).join('')}
                   </ul>
                 </div>
               ` : ''}
             </div>
+          `;
+        } else {
+          guardianHtml = `
+            <div style="border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 0.75rem;">
+              <div class="dashboard-card-title" style="margin-bottom: 0.5rem;">
+                <h4 style="font-weight: 600; font-size: 0.95rem;">Guardian (Advisory)</h4>
+                <span class="badge-status error">Unavailable</span>
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">${escapeHtml((g && g.warnings && g.warnings[0]) || 'Guardian scheduler is unavailable.')}</p>
+            </div>
+          `;
+        }
+
+        let readinessHtml = '';
+        if (r && r.available) {
+          const statusClass = r.status === 'ready' ? 'success' : 'warning';
+          readinessHtml = `
+            <div>
+              <div class="dashboard-card-title" style="margin-bottom: 0.5rem;">
+                <h4 style="font-weight: 600; font-size: 0.95rem;">Readiness Dashboard</h4>
+                <span class="badge-status ${statusClass}">${escapeHtml(r.status.replace('_', ' '))}</span>
+              </div>
+              ${r.status !== 'ready' && r.missing_reasons && r.missing_reasons.length > 0 ? `
+                <p style="font-size: 0.85rem; font-weight: 500; color: var(--text-secondary);">Missing Conditions:</p>
+                <ul style="margin-left: 1rem; font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                  ${r.missing_reasons.map(m => `<li>${escapeHtml(m.replace('_', ' '))}</li>`).join('')}
+                </ul>
+              ` : (r.status === 'ready' ? '<p style="font-size: 0.85rem; color: var(--color-success);">All readiness checklist requirements are satisfied!</p>' : '')}
+            </div>
+          `;
+        } else {
+          readinessHtml = `
+            <div>
+              <div class="dashboard-card-title" style="margin-bottom: 0.5rem;">
+                <h4 style="font-weight: 600; font-size: 0.95rem;">Readiness Dashboard</h4>
+                <span class="badge-status error">Unavailable</span>
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">${escapeHtml((r && r.missing_reasons && r.missing_reasons[0]) || 'Readiness dashboard is unavailable.')}</p>
+            </div>
+          `;
+        }
+
+        card.innerHTML = `
+          <h3>Guardian & Readiness Summary</h3>
+          <div style="display: flex; flex-direction: column;">
+            ${guardianHtml}
+            ${readinessHtml}
           </div>
         `;
+      } else if (card) {
+        throw new Error(`HTTP ${resp.status}`);
       }
-      
-      nextStepsContent.innerHTML = html;
+    } catch (e) {
+      const card = $('#card-guardian-readiness');
+      if (card) {
+        card.innerHTML = `
+          <div class="dashboard-card-title">
+            <h3>Guardian & Readiness Summary</h3>
+            <span class="badge-status error">Unavailable</span>
+          </div>
+          <p style="font-size: 0.9rem; color: var(--color-error);">Failed to load summary: ${escapeHtml(e.message)}</p>
+        `;
+      }
     }
   }
 

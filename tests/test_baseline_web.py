@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+from collections import Counter
+from typing import Any
 
 import pytest
 
@@ -130,6 +132,33 @@ def _build_submit_payload(
     if exam_token is not None:
         payload["exam_token"] = exam_token
     return payload
+
+
+def _build_section_accuracy_answers(
+    db: Database,
+    questions: list[dict[str, Any]],
+    section_correct_counts: dict[str, int],
+) -> dict[str, str]:
+    conn = db.connect()
+    answers: dict[str, str] = {}
+    section_seen: Counter[str] = Counter()
+
+    for question in questions:
+        section = question["section"]
+        question_id = question["question_id"]
+        correct_label = conn.execute(
+            "SELECT correct_option_label FROM questions WHERE question_id = ?",
+            (question_id,),
+        ).fetchone()["correct_option_label"]
+        wrong_label = next(label for label in ("1", "2", "3", "4") if label != correct_label)
+
+        if section_seen[section] < section_correct_counts.get(section, 0):
+            answers[question_id] = str(correct_label)
+        else:
+            answers[question_id] = wrong_label
+        section_seen[section] += 1
+
+    return answers
 
 
 class TestPreflight:
@@ -495,3 +524,78 @@ class TestResult:
 
         with pytest.raises(BaselineWebError, match="Session not found"):
             get_baseline_result(smoke_eligible_db, session_id)
+
+    def test_smoke_next_steps_do_not_expose_phase3_guidance(self, smoke_eligible_db):
+        started = start_baseline_exam(smoke_eligible_db, "smoke")
+        payload = _build_submit_payload(
+            started["exam_id"],
+            "smoke",
+            started["questions"],
+            exam_token=started["exam_token"],
+        )
+
+        result = submit_baseline_exam(smoke_eligible_db, payload)
+
+        assert result["next_steps"]["mode"] == "smoke"
+        assert result["next_steps"]["weak_sections"] == []
+        assert result["next_steps"]["overall_action"]["action_type"] == "smoke_warning"
+        assert result["next_steps"]["guardian_plan"] is None
+
+    def test_full_next_steps_classify_threshold_tiers(self, full_eligible_db):
+        started = start_baseline_exam(full_eligible_db, "full")
+        answers = _build_section_accuracy_answers(
+            full_eligible_db,
+            started["questions"],
+            {
+                "Quant/DI": 44,
+                "Reasoning": 26,
+                "English": 28,
+                "GK/GA": 21,
+            },
+        )
+        payload = _build_submit_payload(
+            started["exam_id"],
+            "full",
+            started["questions"],
+            exam_token=started["exam_token"],
+            answers=answers,
+        )
+
+        result = submit_baseline_exam(full_eligible_db, payload)
+        weak_sections = {
+            row["section"]: row
+            for row in result["next_steps"]["weak_sections"]
+        }
+
+        assert result["next_steps"]["overall_action"]["action_type"] == "remediation_excluded"
+        assert weak_sections["GK/GA"]["tier"] == "remediation_excluded"
+        assert weak_sections["Quant/DI"]["tier"] == "remediation_priority"
+        assert weak_sections["Reasoning"]["tier"] == "paired_remediation"
+        assert "English" not in weak_sections
+
+    def test_full_next_steps_unlock_guardian_when_all_sections_clear_gate(self, full_eligible_db):
+        started = start_baseline_exam(full_eligible_db, "full")
+        answers = _build_section_accuracy_answers(
+            full_eligible_db,
+            started["questions"],
+            {
+                "Quant/DI": 56,
+                "Reasoning": 28,
+                "English": 28,
+                "GK/GA": 28,
+            },
+        )
+        payload = _build_submit_payload(
+            started["exam_id"],
+            "full",
+            started["questions"],
+            exam_token=started["exam_token"],
+            answers=answers,
+        )
+
+        result = submit_baseline_exam(full_eligible_db, payload)
+
+        assert result["next_steps"]["weak_sections"] == []
+        assert result["next_steps"]["overall_action"]["action_type"] == "guardian_main_grind"
+        assert result["next_steps"]["guardian_plan"] is not None
+        assert result["next_steps"]["guardian_plan"]["total_minutes"] == 180

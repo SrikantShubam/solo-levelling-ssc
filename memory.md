@@ -127,3 +127,43 @@
 - Added 4 behavioral tests that submit full baseline exams and verify tier classification and overall_action correctness.
 - Added 4 JS source integrity tests verifying tier string presence and cross-file consistency.
 - Verification: `uv run pytest -q` passed with 364 passed, 2 existing warnings only.
+
+## 2026-07-06 Next-Step Bridge Review Corrections
+
+- Reviewed Gemini's Phase 3 web bridge handoff and found that smoke-mode results were still surfacing Phase 3 per-section guidance from a 5-question validation path.
+- Fixed `get_baseline_next_steps()` to short-circuit smoke mode so smoke results only return the full-baseline recommendation and do not derive weak sections or diagnostic routing.
+- Added focused baseline-web tests covering: smoke next-steps isolation, mixed full-baseline tier classification, and Guardian unlock when every section clears the gate.
+- Verification: `uv run pytest tests/test_baseline_web.py tests/test_web.py tests/test_phase1_frontend.py -q` passed with 95 tests; `uv run pytest -q` passed with 367 tests and the same 2 existing warnings.
+
+## 2026-07-06 Final Agent Workorder Package
+
+- Created the final post-smoke coding handoff under `docs/phase1_frontend/`.
+- Added `final-remaining-work.md`, `final-spec.md`, and `final-test-plan.md` to define the remaining Phase 3, Guardian, and readiness bridge scope.
+- Added Grok and Gemini workorders plus sendable prompts:
+  - `workorders/grok-04-phase3-actionable-flow.md`
+  - `workorders/gemini-05-guardian-readiness-ui.md`
+  - `prompts/grok-final.md`
+  - `prompts/gemini-final.md`
+- Added `prompts/codex-final-review.md` for strict integration review after agent work lands.
+- Updated `docs/phase1_frontend/README.md` to point to the final bridge package.
+
+## 2026-07-06 Gemini/DeepSeek Final Split
+
+- Added `agent-split-final.md` to define final ownership: Gemini owns UI/product surface, DeepSeek owns adversarial validation and review.
+- Added DeepSeek final workorder and sendable prompt:
+  - `workorders/deepseek-06-final-validation-and-review.md`
+  - `prompts/deepseek-final.md`
+- Added review-subagent prompts:
+  - `prompts/gemini-self-review.md`
+  - `prompts/deepseek-self-review.md`
+- Updated `final-remaining-work.md` execution order so Gemini and DeepSeek both run self-review before Codex final integration review.
+- Added `prompts/gemini-deepseek-final-combined.md` as the single-file handoff prompt for both Gemini and DeepSeek, with separate assigned sections and built-in self-review instructions.
+
+## 2026-07-07 Gemini/DeepSeek Bridge Review
+
+- Reviewed the Gemini and DeepSeek bridge outputs after their reports claimed 371/373 passing tests.
+- Fixed two review findings:
+  - `app.js` interpolated `ws.action.reason` into result-page HTML without escaping.
+  - `/api/phase3/next-action` returned unsupported CLI flags (`--probe`, `--archetype-id`, `--remediation`, `--boss-fight`, `--sm2`) instead of the actual `ssc-study phase3` command surface.
+- Added `tests/test_web.py` coverage for supported Phase 3 CLI fallback commands and frontend escaping of Phase 3 action reasons.
+- Verification: `uv run pytest tests/test_web.py -q` passed with 14 tests; `uv run pytest tests/test_baseline_web.py tests/test_web.py tests/test_phase1_frontend.py -q` passed with 102 tests; `uv run pytest -q` passed with 374 tests and the same 2 existing warnings.

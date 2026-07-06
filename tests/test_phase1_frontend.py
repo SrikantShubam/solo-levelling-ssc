@@ -785,6 +785,182 @@ class TestResult:
         assert resp.status_code == 404
         assert "not found" in resp.text.lower()
 
+    def test_next_steps_tier_all_wrong_full(self, full_client):
+        """Full baseline with 0% accuracy → all sections remediation_excluded."""
+        exam = full_client.post("/api/baseline/start", json={"mode": "full"}).json()
+        answers = []
+        for q in exam["questions"]:
+            answers.append({
+                "question_id": q["question_id"],
+                "user_answer": "2",
+                "time_spent_seconds": 10,
+                "marked_for_review": False,
+            })
+        resp = full_client.post("/api/baseline/submit", json={
+            "exam_id": exam["exam_id"],
+            "exam_token": exam["exam_token"],
+            "mode": "full",
+            "started_at": "2026-07-06T10:00:00Z",
+            "ended_at": "2026-07-06T10:15:00Z",
+            "answers": answers,
+        })
+        assert resp.status_code == 200
+        ns = resp.json()["next_steps"]
+        assert len(ns["weak_sections"]) == 4
+        for ws in ns["weak_sections"]:
+            assert ws["tier"] == "remediation_excluded", f"{ws['section']} should be remediation_excluded at {ws['accuracy']}"
+        assert ns["overall_action"]["action_type"] == "remediation_excluded"
+
+    def test_next_steps_tier_all_correct_full(self, full_client):
+        """Full baseline with 100% accuracy → no weak sections, guardian action."""
+        exam = full_client.post("/api/baseline/start", json={"mode": "full"}).json()
+        answers = []
+        for q in exam["questions"]:
+            answers.append({
+                "question_id": q["question_id"],
+                "user_answer": "1",
+                "time_spent_seconds": 10,
+                "marked_for_review": False,
+            })
+        resp = full_client.post("/api/baseline/submit", json={
+            "exam_id": exam["exam_id"],
+            "exam_token": exam["exam_token"],
+            "mode": "full",
+            "started_at": "2026-07-06T10:00:00Z",
+            "ended_at": "2026-07-06T10:15:00Z",
+            "answers": answers,
+        })
+        assert resp.status_code == 200
+        ns = resp.json()["next_steps"]
+        assert len(ns["weak_sections"]) == 0
+        assert ns["overall_action"]["action_type"] == "guardian_main_grind"
+
+    def test_next_steps_smoke_always_smoke_warning(self, smoke_client, smoke_eligible_db):
+        """Smoke mode overrides overall_action even with all correct answers."""
+        exam = smoke_client.post("/api/baseline/start", json={"mode": "smoke"}).json()
+        conn = smoke_eligible_db.connect()
+        correct = {r["question_id"]: r["correct_option_label"]
+                   for r in conn.execute(
+                       "SELECT question_id, correct_option_label FROM questions"
+                   ).fetchall()}
+        answers = []
+        for q in exam["questions"]:
+            answers.append({
+                "question_id": q["question_id"],
+                "user_answer": correct.get(q["question_id"], "1"),
+                "time_spent_seconds": 10,
+                "marked_for_review": False,
+            })
+        resp = smoke_client.post("/api/baseline/submit", json={
+            "exam_id": exam["exam_id"],
+            "exam_token": exam["exam_token"],
+            "mode": "smoke",
+            "started_at": "2026-07-06T10:00:00Z",
+            "ended_at": "2026-07-06T10:05:00Z",
+            "answers": answers,
+        })
+        assert resp.status_code == 200
+        ns = resp.json()["next_steps"]
+        assert ns["overall_action"]["action_type"] == "smoke_warning"
+
+    def test_next_steps_weak_sections_have_action(self, full_client):
+        """Every weak section must include a Phase 3 action object."""
+        exam = full_client.post("/api/baseline/start", json={"mode": "full"}).json()
+        answers = []
+        for q in exam["questions"]:
+            answers.append({
+                "question_id": q["question_id"],
+                "user_answer": "2",
+                "time_spent_seconds": 10,
+                "marked_for_review": False,
+            })
+        resp = full_client.post("/api/baseline/submit", json={
+            "exam_id": exam["exam_id"],
+            "exam_token": exam["exam_token"],
+            "mode": "full",
+            "started_at": "2026-07-06T10:00:00Z",
+            "ended_at": "2026-07-06T10:15:00Z",
+            "answers": answers,
+        })
+        assert resp.status_code == 200
+        ns = resp.json()["next_steps"]
+        for ws in ns["weak_sections"]:
+            assert "action" in ws, f"{ws['section']} missing action"
+            assert "action_type" in ws["action"], f"{ws['section']} missing action_type"
+            assert "reason" in ws["action"], f"{ws['section']} missing reason"
+
+    def test_guardian_plan_present_on_full_all_correct(self, full_client):
+        """Full baseline all correct → guardian_plan is a populated dict."""
+        exam = full_client.post("/api/baseline/start", json={"mode": "full"}).json()
+        answers = []
+        for q in exam["questions"]:
+            answers.append({
+                "question_id": q["question_id"],
+                "user_answer": "1",
+                "time_spent_seconds": 10,
+                "marked_for_review": False,
+            })
+        resp = full_client.post("/api/baseline/submit", json={
+            "exam_id": exam["exam_id"],
+            "exam_token": exam["exam_token"],
+            "mode": "full",
+            "started_at": "2026-07-06T10:00:00Z",
+            "ended_at": "2026-07-06T10:15:00Z",
+            "answers": answers,
+        })
+        assert resp.status_code == 200
+        ns = resp.json()["next_steps"]
+        gp = ns.get("guardian_plan")
+        assert gp is not None, "guardian_plan should be present when all sections pass"
+        assert isinstance(gp, dict), "guardian_plan should be a dict"
+        assert "plan_date" in gp, "guardian_plan missing plan_date"
+
+    def test_guardian_plan_absent_on_smoke(self, smoke_client, smoke_eligible_db):
+        """Smoke mode → guardian_plan is null."""
+        exam = smoke_client.post("/api/baseline/start", json={"mode": "smoke"}).json()
+        answers = []
+        for q in exam["questions"]:
+            answers.append({
+                "question_id": q["question_id"],
+                "user_answer": "1",
+                "time_spent_seconds": 10,
+                "marked_for_review": False,
+            })
+        resp = smoke_client.post("/api/baseline/submit", json={
+            "exam_id": exam["exam_id"],
+            "exam_token": exam["exam_token"],
+            "mode": "smoke",
+            "started_at": "2026-07-06T10:00:00Z",
+            "ended_at": "2026-07-06T10:05:00Z",
+            "answers": answers,
+        })
+        assert resp.status_code == 200
+        ns = resp.json()["next_steps"]
+        assert ns.get("guardian_plan") is None, "guardian_plan should be null in smoke mode"
+
+    def test_guardian_plan_absent_with_weak_sections(self, full_client):
+        """Full baseline with weak sections → guardian_plan is null."""
+        exam = full_client.post("/api/baseline/start", json={"mode": "full"}).json()
+        answers = []
+        for q in exam["questions"]:
+            answers.append({
+                "question_id": q["question_id"],
+                "user_answer": "2",
+                "time_spent_seconds": 10,
+                "marked_for_review": False,
+            })
+        resp = full_client.post("/api/baseline/submit", json={
+            "exam_id": exam["exam_id"],
+            "exam_token": exam["exam_token"],
+            "mode": "full",
+            "started_at": "2026-07-06T10:00:00Z",
+            "ended_at": "2026-07-06T10:15:00Z",
+            "answers": answers,
+        })
+        assert resp.status_code == 200
+        ns = resp.json()["next_steps"]
+        assert ns.get("guardian_plan") is None, "guardian_plan should be null when weak sections exist"
+
 
 # ══════════════════════════════════════════════════════════════════════
 # Static file tests
@@ -823,6 +999,53 @@ class TestStatic:
     def test_failed_submit_restarts_timer(self):
         app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
         assert "if (!result) {\n          currentQuestionStartTime = Date.now();\n          startTimer();\n          return;\n        }" in app_js
+
+    def test_frontend_has_four_tier_guidance(self):
+        app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
+        assert "Remediation-First Priority" in app_js
+        assert "Remediation Priority" in app_js
+        assert "Boss Fight with Paired Remediation" in app_js
+
+    def test_frontend_removed_false_generalization(self):
+        app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
+        assert "Weak Areas Detected" not in app_js
+
+    def test_frontend_has_correct_threshold_boundaries(self):
+        app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
+        assert "return ws.tier === 'remediation_excluded'" in app_js
+        assert "return ws.tier === 'remediation_priority'" in app_js
+        assert "return ws.tier === 'paired_remediation'" in app_js
+
+    def test_frontend_uses_tier_field_not_pct(self):
+        """Guidance uses server-side tier field, not client-side pct computation."""
+        app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
+        # The old approach used pct < 0.70; now it's server-driven by tier field
+        # Remove the old threshold JS check since it's now server-side logic
+        assert "ws.tier" in app_js
+
+    def test_frontend_displays_threshold_labels(self):
+        app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
+        assert "&lt; 55%" in app_js
+        assert "55–64%" in app_js
+        assert "65–69%" in app_js
+
+    def test_frontend_has_tier_render_sections(self):
+        app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
+        assert "renderSectionAction" in app_js
+        assert "remediation_excluded" in app_js
+        assert "remediation_priority" in app_js
+        assert "paired_remediation" in app_js
+
+    def test_frontend_backend_tier_strings_match(self):
+        app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
+        baseline_py = Path("src/ssc_study/baseline_web.py").read_text(encoding="utf-8")
+        # Tier values in JS filters must match what the Python backend sends
+        assert "remediation_excluded" in app_js
+        assert "remediation_excluded" in baseline_py
+        assert "remediation_priority" in app_js
+        assert "remediation_priority" in baseline_py
+        assert "paired_remediation" in app_js
+        assert "paired_remediation" in baseline_py
 
 
 # ══════════════════════════════════════════════════════════════════════
