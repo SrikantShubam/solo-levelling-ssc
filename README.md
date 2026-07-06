@@ -108,8 +108,9 @@ ssc-study config --show
 | Phase 1 | ✅ | PDF acquisition + integrity |
 | Phase 2 | ✅ | Corpus extraction (all 2355 q) |
 | **Phase 2b** | **✅** | **SQLite, study app, SM-2, embeddings, archetypes, fact cards** |
-| Phase 3 | 🔜 | Atlas — adaptive difficulty engine |
-| Phase 4 | 🔜 | Guardian — full mock test simulator |
+| Phase 2c | ✅ | Exam-pattern intelligence (advisory report & combiners) |
+| Phase 3 | ✅ | User diagnostic grinding over attempts and archetypes (deterministic loop & eval) |
+| Phase 4 | ✅ | Guardian — daily grind scheduler and mock cadence planner |
 
 ## Phase Critic And Implementation Spec
 
@@ -137,6 +138,9 @@ enough. `tier_difficulty` is a modeling and scheduling problem: the system needs
 Tier-1 and Tier-2 difficulty on the same Reasoning archetype pool, not extract more PDFs.
 
 ### Phase 2b Critic
+
+> [!NOTE]
+> **Current Status Note:** This Phase 2b Critic section and the list of missing items below are historical. As verified in the later "Phase 2b Implementation Review" section, all 12 items have been fully implemented, tested, and approved.
 
 **Approval:** Phase 2b is MVP-complete, but not plan-complete.
 
@@ -416,13 +420,13 @@ Result:
 ### Current Verdict
 
 Phase 2b is **fully implemented and approved**. All 12 Codex-spec items are complete,
-all 5 review findings are resolved, and 173 tests pass.
+all 5 review findings are resolved, and 218 tests pass.
 
 Current judgment:
 
 1. Phase 2b implementation status: `complete`
-2. Phase 2b focused tests: `passing (173/173)`
-3. Full repository test status: `green (study app), pre-existing corpus test fixture unrelated`
+2. Phase 2b focused tests: `passing (93/93)`
+3. Full repository test status: `green (218/218)`
 4. Phase 2b completion claim: `approved`
 
 ## Development

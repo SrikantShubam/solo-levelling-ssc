@@ -17,6 +17,8 @@ from . import __version__
 from .config import load_config, save_config
 from .db import Database
 from .loader import import_corpus, verify_import
+from .phase3 import run_phase3_loop
+from .phase3_eval import evaluate_phase3_predictions
 from .quiz import FoundationPulseError, QuizSession, _QuizAbortError
 from .reports import daily_report, session_report
 
@@ -271,6 +273,90 @@ def readiness(db_path: Path) -> None:
     console.print(f"[bold]{passed}/{total}[/bold] checks passing ({passed/total*100:.0f}%)")
 
 
+@cli.command()
+@click.option("--max-steps", default=5, show_default=True, help="Maximum loop steps to execute.")
+@click.option("--dry-run", is_flag=True, help="Plan the loop without any future execution hooks.")
+@click.option("--tier", type=click.Choice(["tier1", "tier2"]), help="Tier filter.")
+@click.option("--section", help="Section filter.")
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
+def phase3(max_steps: int, dry_run: bool, tier: str | None, section: str | None, db_path: Path) -> None:
+    """Run the bounded Phase 3 diagnostic orchestrator."""
+    db = Database(db_path)
+    report = run_phase3_loop(
+        db,
+        max_steps=max_steps,
+        tier=tier,
+        section=section,
+        dry_run=dry_run,
+    )
+
+    console.print("[bold]Phase 3 Orchestrator[/bold]")
+    console.print(f"  Steps executed: {report.steps_executed}")
+    console.print(f"  Stop reason:    {report.stop_reason}")
+    if dry_run:
+        console.print("  Mode:           dry-run")
+    console.print()
+
+    if not report.actions:
+        console.print("[dim]No actions scheduled.[/dim]")
+        return
+
+    for index, action in enumerate(report.actions, start=1):
+        target = action.target_archetype_name or "queue"
+        console.print(
+            f"  {index}. {action.action_type} "
+            f"({action.question_count} q) "
+            f"- {target}"
+        )
+        console.print(f"     [dim]{action.reason}[/dim]")
+
+
+@cli.command("phase3-eval")
+@click.option("--archetype-id", "archetype_ids", type=int, multiple=True, help="Specific archetype IDs to compare.")
+@click.option("--limit", default=20, show_default=True, help="Maximum archetypes to compare.")
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
+def phase3_eval(archetype_ids: tuple[int, ...], limit: int, db_path: Path) -> None:
+    """Compare Phase 3 predicted routes against actual recent outcomes."""
+    db = Database(db_path)
+    report = evaluate_phase3_predictions(
+        db,
+        archetype_ids=list(archetype_ids) if archetype_ids else None,
+        limit=limit,
+    )
+
+    console.print("[bold]Phase 3 Evaluation[/bold]")
+    console.print(f"  Compared archetypes: {report.total}")
+    console.print(f"  Matched:             {report.matched}")
+    console.print(f"  Mismatched:          {report.mismatched}")
+    console.print(f"  Pending actuals:     {report.pending}")
+    console.print()
+
+    if not report.comparisons:
+        console.print("[dim]No archetypes available for comparison.[/dim]")
+        return
+
+    for item in report.comparisons:
+        actual = item.actual_route or "n/a"
+        status = "match" if item.matches is True else "mismatch" if item.matches is False else "pending"
+        accuracy = "n/a" if item.actual_accuracy is None else f"{item.actual_accuracy:.0%}"
+        console.print(
+            f"  #{item.archetype_id} {item.archetype_name}: "
+            f"predicted={item.predicted_route} actual={actual} [{status}] "
+            f"attempts={item.actual_attempt_count} accuracy={accuracy} signal={item.signal_strength}"
+        )
+        console.print(f"     [dim]{item.reason}[/dim]")
+
+
 @cli.group()
 def audit() -> None:
     """Manage exam notification audits."""
@@ -350,6 +436,158 @@ def audit_status(db_path: Path) -> None:
         console.print("[bold]Recent audits:[/bold]")
         for h in history:
             console.print(f"  #{h['audit_id']} ({h['notification_date'] or 'N/A'}): {h['changes_detected'][:60] or 'pending'}")
+
+
+@cli.group("patterns")
+def patterns() -> None:
+    """Manage exam pattern intelligence."""
+
+
+@patterns.command("exam")
+@click.option("--tier", type=click.Choice(["tier1", "tier2"]), help="Tier filter.")
+@click.option("--year", type=int, multiple=True, help="Year filter(s).")
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
+def patterns_exam(tier: str | None, year: tuple[int, ...], db_path: Path) -> None:
+    """Analyze exam patterns in the non-holdout corpus."""
+    from .patterns_exam import analyze_exam_patterns
+
+    db = Database(db_path)
+    years_list = list(year) if year else None
+
+    report = analyze_exam_patterns(db, tier=tier, years=years_list)
+
+    console.print("[bold]Exam Pattern Analysis[/bold]")
+    console.print(f"  Eligible questions: {report.total_eligible_questions}")
+    console.print(f"  Signal strength:    {report.signal_strength}")
+    console.print()
+
+    console.print("[bold]Section Distribution:[/bold]")
+    for sec, count in sorted(report.section_distribution.items()):
+        console.print(f"  {sec}: {count}")
+    console.print()
+
+    console.print("[bold]Top Archetypes:[/bold]")
+    sorted_arches = sorted(report.archetype_distribution.items(), key=lambda x: x[1], reverse=True)
+    for name, count in sorted_arches[:10]:
+        console.print(f"  {name}: {count}")
+    console.print()
+
+    console.print("[yellow]⚠ Disclaimer: This blueprint is advisory only and does not mutate runtime state.[/yellow]")
+
+
+@patterns.command("priority")
+@click.option("--tier", type=click.Choice(["tier1", "tier2"]), help="Tier filter.")
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
+def patterns_priority(tier: str | None, db_path: Path) -> None:
+    """Combine exam patterns with user performance diagnostic signals."""
+    from .patterns_exam import analyze_exam_patterns
+    from .patterns_priority import combine_pattern_priorities
+
+    db = Database(db_path)
+
+    exam_report = analyze_exam_patterns(db, tier=tier)
+
+    # Load user archetype accuracies from the database
+    conn = db.connect()
+    user_rows = conn.execute(
+        """SELECT a.name,
+                  COUNT(at.attempt_id) as attempts,
+                  SUM(CASE WHEN at.is_correct = 1 THEN 1 ELSE 0 END) as correct
+           FROM archetypes a
+           JOIN questions q ON q.archetype_id = a.archetype_id
+           JOIN attempts at ON at.question_id = q.question_id
+           GROUP BY a.archetype_id"""
+    ).fetchall()
+
+    user_report = {}
+    for r in user_rows:
+        attempts = r["attempts"] or 0
+        correct = r["correct"] or 0
+        user_report[r["name"]] = correct / attempts if attempts > 0 else 1.0
+
+    report = combine_pattern_priorities(exam_report, user_report)
+
+    console.print("[bold]Exam Pattern & User Priority Combiner[/bold]")
+    console.print(f"  Advisory Status: {report.advisory_status}")
+    console.print()
+
+    console.print("[bold]Recommended Study Priorities (Top 10):[/bold]")
+    for idx, p in enumerate(report.priorities[:10], start=1):
+        console.print(
+            f"  {idx}. {p['archetype_name']}: "
+            f"exam_count={p['exam_count']} "
+            f"user_accuracy={p['user_accuracy']:.0%} "
+            f"priority_score={p['priority_score']} "
+            f"-> [bold cyan]{p['recommended_action']}[/bold cyan]"
+        )
+    console.print()
+    console.print("[yellow]⚠ Disclaimer: Recommended priorities are advisory only.[/yellow]")
+
+
+@cli.group("guardian")
+def guardian() -> None:
+    """Manage Phase 4 Guardian daily scheduling."""
+
+
+@guardian.command("plan")
+@click.option(
+    "--date",
+    "date_str",
+    help="Plan date (YYYY-MM-DD) for analysis.",
+)
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
+def guardian_plan(date_str: str | None, db_path: Path) -> None:
+    """Generate the daily study schedule recommendation."""
+    from .guardian import build_guardian_plan
+    from datetime import date as dt_date
+
+    db = Database(db_path)
+
+    target_date = None
+    if date_str:
+        try:
+            target_date = dt_date.fromisoformat(date_str)
+        except ValueError:
+            console.print(f"[red]Error: Invalid date format '{date_str}'. Use YYYY-MM-DD.[/red]")
+            raise SystemExit(1)
+
+    plan = build_guardian_plan(db, today=target_date)
+
+    console.print(f"[bold]Guardian Plan Recommendation[/bold] — {plan.plan_date}")
+    console.print(f"  Total planned minutes: {plan.total_minutes} min")
+    console.print(f"  Mock recommendation:   {plan.mock_recommendation}")
+    console.print(f"  Pulse recommendation:  {plan.pulse_recommendation}")
+    console.print(f"  Audit mode:            {plan.audit_mode}")
+    console.print()
+
+    console.print("[bold]Plan Blocks:[/bold]")
+    for idx, block in enumerate(plan.blocks, start=1):
+        console.print(
+            f"  {idx}. {block.name}: {block.minutes} min "
+            f"[dim]({block.reason})[/dim]"
+        )
+        console.print(f"     [dim]Source rule: {block.source_rule}[/dim]")
+
+    if plan.warnings:
+        console.print()
+        console.print("[bold yellow]Warnings:[/bold yellow]")
+        for w in plan.warnings:
+            console.print(f"  ⚠ {w}")
 
 
 def main(argv: list[str] | None = None) -> int:
