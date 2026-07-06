@@ -285,18 +285,12 @@
     }
 
     const nextStepsContent = $('#next-steps-content');
-    if (nextStepsContent) {
-      let weakSections = [];
-      Object.entries(result.by_section || {}).forEach(([section, data]) => {
-        const pct = data.total > 0 ? (data.correct / data.total) : 0;
-        if (pct < 0.70) {
-          weakSections.push({ name: section, pct: pct, correct: data.correct, total: data.total });
-        }
-      });
-      
+    if (nextStepsContent && result.next_steps) {
+      const ns = result.next_steps;
       let html = '';
       
-      if (result.mode === 'smoke') {
+      // Mode-specific message
+      if (ns.mode === 'smoke') {
         html += `
           <div class="next-step-box warning" style="border-left: 4px solid var(--color-warning); padding: 1rem; background: var(--color-warning-light); border-radius: var(--border-radius); margin-bottom: 1.5rem;">
             <p><strong>Note:</strong> This was a 5-question <strong>Smoke Test</strong>. Although your attempts have been successfully saved, a 5-question test is too small to unlock the daily scheduler or boss fights.</p>
@@ -311,58 +305,117 @@
         `;
       }
       
-      if (weakSections.length > 0) {
-        html += `
-          <div style="margin-bottom: 1.5rem;">
-            <h4 style="font-weight: 600; color: var(--color-error); margin-bottom: 0.5rem;">Weak Areas Detected (&lt; 70% Accuracy)</h4>
-            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.75rem;">According to <strong>Plan.md</strong>, sections below the 70% timed accuracy gate require remediation and cannot unlock boss fights immediately.</p>
-            <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
-              ${weakSections.map(ws => `
-                <li style="margin-bottom: 0.25rem;">
-                  <strong>${escapeHtml(ws.name)}:</strong> ${(ws.pct * 100).toFixed(0)}% accuracy (${ws.correct} / ${ws.total} correct)
-                </li>
-              `).join('')}
-            </ul>
-          </div>
-          
-          <div style="display: flex; flex-direction: column; gap: 1rem;">
-            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1rem; border-radius: var(--border-radius);">
-              <h5 style="font-weight: 600; margin-bottom: 0.25rem;">1. Run Diagnostic Grinding</h5>
-              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Probe your weak sections and archetypes on the command line to begin targeted grinding:</p>
-              <code style="font-family: var(--font-mono); font-size: 0.85rem; background: #e2e8f0; padding: 0.2rem 0.4rem; border-radius: 4px; display: block; overflow-x: auto;">ssc-study phase3</code>
+      // Helper to render a per-section action line
+      function renderSectionAction(ws) {
+        if (ws.action && ws.action.action_type !== 'stop') {
+          const name = ws.action.target_archetype_name || 'unknown archetype';
+          return ` <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.15rem; font-style: italic;">
+            ↳ Next diagnostic target: ${escapeHtml(ws.action.action_type)} on <strong>${escapeHtml(name)}</strong> (${ws.action.reason})
+          </span>`;
+        }
+        return ` <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.15rem; font-style: italic;">
+          ↳ No active archetypes eligible to probe.
+        </span>`;
+      }
+
+      // Render weak sections grouped by Plan.md tier
+      if (ns.weak_sections && ns.weak_sections.length > 0) {
+        const excluded = ns.weak_sections.filter(function(ws) { return ws.tier === 'remediation_excluded'; });
+        const priority = ns.weak_sections.filter(function(ws) { return ws.tier === 'remediation_priority'; });
+        const paired = ns.weak_sections.filter(function(ws) { return ws.tier === 'paired_remediation'; });
+
+        if (excluded.length > 0) {
+          html += `
+            <div style="margin-bottom: 0.75rem;">
+              <h4 style="font-weight: 600; color: var(--color-error); margin-bottom: 0.5rem;">Remediation-First Priority (&lt; 55% Accuracy)</h4>
+              <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Per Plan.md, sections below 55% require focused remediation first and are excluded from readiness scoring until reaching 65%.</p>
+              <ul style="margin-left: 1.5rem; margin-bottom: 0.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                ${excluded.map(function(ws) { return `
+                  <li style="margin-bottom: 0.25rem;">
+                    <strong>${escapeHtml(ws.section)}:</strong> ${(ws.accuracy * 100).toFixed(0)}% accuracy (${ws.correct} / ${ws.total} correct)
+                    ${renderSectionAction(ws)}
+                  </li>
+                `;}).join('')}
+              </ul>
             </div>
-            
-            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1rem; border-radius: var(--border-radius);">
-              <h5 style="font-weight: 600; margin-bottom: 0.25rem;">2. Check Diagnostic Evaluation</h5>
-              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Check the read-only evaluation report to compare predicted paths vs actual recent outcomes:</p>
-              <code style="font-family: var(--font-mono); font-size: 0.85rem; background: #e2e8f0; padding: 0.2rem 0.4rem; border-radius: 4px; display: block; overflow-x: auto;">ssc-study phase3-eval</code>
+          `;
+        }
+
+        if (priority.length > 0) {
+          html += `
+            <div style="margin-bottom: 0.75rem;">
+              <h4 style="font-weight: 600; color: var(--color-error); margin-bottom: 0.5rem;">Remediation Priority (55–64% Accuracy)</h4>
+              <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Per Plan.md, these sections need remediation but are included in readiness scoring.</p>
+              <ul style="margin-left: 1.5rem; margin-bottom: 0.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                ${priority.map(function(ws) { return `
+                  <li style="margin-bottom: 0.25rem;">
+                    <strong>${escapeHtml(ws.section)}:</strong> ${(ws.accuracy * 100).toFixed(0)}% accuracy (${ws.correct} / ${ws.total} correct)
+                    ${renderSectionAction(ws)}
+                  </li>
+                `;}).join('')}
+              </ul>
             </div>
-            
-            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1rem; border-radius: var(--border-radius);">
-              <h5 style="font-weight: 600; margin-bottom: 0.25rem;">3. View Overall System Readiness</h5>
-              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Monitor your progress across all final-readiness check gates (foundation pulse, archetype floors, CK topic metrics):</p>
-              <code style="font-family: var(--font-mono); font-size: 0.85rem; background: #e2e8f0; padding: 0.2rem 0.4rem; border-radius: 4px; display: block; overflow-x: auto;">ssc-study readiness</code>
+          `;
+        }
+
+        if (paired.length > 0) {
+          html += `
+            <div style="margin-bottom: 0.75rem;">
+              <h4 style="font-weight: 600; color: var(--color-warning); margin-bottom: 0.5rem;">Boss Fight with Paired Remediation (65–69% Accuracy)</h4>
+              <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Per Plan.md, these sections may enter boss fights alongside continued remediation.</p>
+              <ul style="margin-left: 1.5rem; margin-bottom: 0.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                ${paired.map(function(ws) { return `
+                  <li style="margin-bottom: 0.25rem;">
+                    <strong>${escapeHtml(ws.section)}:</strong> ${(ws.accuracy * 100).toFixed(0)}% accuracy (${ws.correct} / ${ws.total} correct)
+                    ${renderSectionAction(ws)}
+                  </li>
+                `;}).join('')}
+              </ul>
             </div>
-          </div>
-        `;
-      } else {
+          `;
+        }
+      } else if (ns.mode !== 'smoke') {
         html += `
           <div style="margin-bottom: 1.5rem;">
             <h4 style="font-weight: 600; color: var(--color-success); margin-bottom: 0.5rem;">✓ Foundation Gate Cleared!</h4>
             <p style="font-size: 0.95rem; color: var(--text-secondary);">All sections meet or exceed the 70% timed accuracy threshold. You have unlocked standard daily scheduling and boss fight queues.</p>
           </div>
-          
-          <div style="display: flex; flex-direction: column; gap: 1rem;">
-            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1rem; border-radius: var(--border-radius);">
-              <h5 style="font-weight: 600; margin-bottom: 0.25rem;">1. View Daily Grind Schedule</h5>
-              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Display your exact daily 180-minute schedule (SM-2 reviews, boss fights, memory queues, English blocks):</p>
-              <code style="font-family: var(--font-mono); font-size: 0.85rem; background: #e2e8f0; padding: 0.2rem 0.4rem; border-radius: 4px; display: block; overflow-x: auto;">ssc-study guardian plan</code>
+        `;
+      }
+      
+      // Render recommended overall action
+      if (ns.overall_action) {
+        const act = ns.overall_action;
+        html += `
+          <div style="margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+            <h4 style="font-weight: 600; color: var(--color-primary); margin-bottom: 0.75rem;">Recommended Follow-up CLI Command</h4>
+            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1.25rem; border-radius: var(--border-radius); display: flex; flex-direction: column; gap: 0.5rem;">
+              <span style="font-weight: 600; font-size: 0.95rem;">${escapeHtml(act.title)}</span>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">${escapeHtml(act.reason)}</p>
+              <code style="font-family: var(--font-mono); font-size: 0.9rem; background: #e2e8f0; padding: 0.35rem 0.6rem; border-radius: 4px; display: block; overflow-x: auto; border: 1px solid #cbd5e1;">${escapeHtml(act.command)}</code>
             </div>
-            
-            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1rem; border-radius: var(--border-radius);">
-              <h5 style="font-weight: 600; margin-bottom: 0.25rem;">2. Check System Readiness</h5>
-              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Check your status across all system readiness metrics:</p>
-              <code style="font-family: var(--font-mono); font-size: 0.85rem; background: #e2e8f0; padding: 0.2rem 0.4rem; border-radius: 4px; display: block; overflow-x: auto;">ssc-study readiness</code>
+          </div>
+        `;
+      }
+      
+      // Render Guardian plan details if available
+      if (ns.guardian_plan) {
+        const g = ns.guardian_plan;
+        html += `
+          <div style="margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+            <h4 style="font-weight: 600; color: var(--color-primary); margin-bottom: 0.5rem;">Guardian Daily Plan Summary</h4>
+            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1.25rem; border-radius: var(--border-radius); display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem;">
+              <p><strong>Plan Date:</strong> ${escapeHtml(g.plan_date)}</p>
+              <p><strong>Mock Recommendation:</strong> ${escapeHtml(g.mock_recommendation)}</p>
+              <p><strong>Pulse Recommendation:</strong> ${escapeHtml(g.pulse_recommendation)}</p>
+              ${g.warnings && g.warnings.length > 0 ? `
+                <div style="color: var(--color-error); margin-top: 0.5rem;">
+                  <strong>Warnings:</strong>
+                  <ul style="margin-left: 1.5rem; margin-top: 0.25rem;">
+                    ${g.warnings.map(w => `<li>${escapeHtml(w)}</li>`).join('')}
+                  </ul>
+                </div>
+              ` : ''}
             </div>
           </div>
         `;

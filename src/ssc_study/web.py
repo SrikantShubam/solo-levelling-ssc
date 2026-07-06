@@ -14,6 +14,7 @@ from .baseline_web import (
     SMOKE_TOTAL,
     BaselineWebError,
     get_baseline_preflight,
+    get_baseline_next_steps as _get_baseline_next_steps,
 )
 from .baseline_web import get_baseline_result as _get_baseline_result
 from .baseline_web import start_baseline_exam as _start_baseline_exam
@@ -41,6 +42,16 @@ def get_baseline_result(db: Database, session_id: int) -> dict:
     """Fetch a baseline result, translating missing sessions to HTTP 404."""
     try:
         return _get_baseline_result(db, session_id)
+    except BaselineWebError as exc:
+        message = str(exc)
+        status = 404 if "not found" in message.lower() else 400
+        raise HTTPException(status_code=status, detail=message) from exc
+
+
+def get_baseline_next_steps(db: Database, session_id: int) -> dict:
+    """Fetch a baseline next-step recommendation, translating errors to HTTP statuses."""
+    try:
+        return _get_baseline_next_steps(db, session_id)
     except BaselineWebError as exc:
         message = str(exc)
         status = 404 if "not found" in message.lower() else 400
@@ -91,5 +102,9 @@ def create_app(db: Database, templates_dir: str | Path | None = None) -> FastAPI
     @app.get("/api/baseline/result/{session_id}")
     async def api_result(session_id: int) -> dict:
         return get_baseline_result(db, session_id)
+
+    @app.get("/api/baseline/result/{session_id}/next-steps")
+    async def api_result_next_steps(session_id: int) -> dict:
+        return get_baseline_next_steps(db, session_id)
 
     return app

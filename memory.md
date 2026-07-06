@@ -117,3 +117,13 @@
 - Dynanically recommends next CLI workflows based on 70% threshold (e.g. `ssc-study phase3`, `ssc-study phase3-eval`, `ssc-study readiness`, or `ssc-study guardian plan`).
 - Updated stale documentation in `docs/phase1_frontend/README.md` and main `README.md` to document the `ssc-study web` command and frontend implementation.
 - Verified test suite and added next-steps element presence checks to `test_web.py`.
+
+## 2026-07-06 Guidance Threshold Hardening
+
+- Fixed `get_baseline_next_steps()` in `baseline_web.py` to classify weak sections into four Plan.md tiers: `remediation_excluded` (< 55%), `remediation_priority` (55-64%), `paired_remediation` (65-69%), and omitting sections >= 70%.
+- Removed the misleading "Weak Areas Detected (< 70%)" heading and replaced it with tier-specific cards ("Remediation-First Priority (< 55%)", "Remediation Priority (55–64%)", "Boss Fight with Paired Remediation (65–69%)").
+- The previous `< 65% → remediation-first` message falsely claimed readiness-scoring exclusion for 55-64% sections; now only the `< 55%` card mentions readiness-scoring exclusion, matching Plan.md exactly.
+- Updated `app.js` `renderResult()` to group weak sections by server-side `tier` field and render tier-specific messages.
+- Added 4 behavioral tests that submit full baseline exams and verify tier classification and overall_action correctness.
+- Added 4 JS source integrity tests verifying tier string presence and cross-file consistency.
+- Verification: `uv run pytest -q` passed with 364 passed, 2 existing warnings only.

@@ -221,7 +221,7 @@ def submit_baseline_exam(db: Database, payload: dict[str, Any]) -> dict[str, Any
     return get_baseline_result(db, session_id)
 
 
-def get_baseline_result(db: Database, session_id: int) -> dict[str, Any]:
+def _get_baseline_result_raw(db: Database, session_id: int) -> dict[str, Any]:
     """Return the persisted score summary for a Phase 1 web session."""
     conn = db.connect()
     session = conn.execute(
@@ -268,6 +268,13 @@ def get_baseline_result(db: Database, session_id: int) -> dict[str, Any]:
         "accuracy": accuracy,
         "by_section": by_section,
     }
+
+
+def get_baseline_result(db: Database, session_id: int) -> dict[str, Any]:
+    """Return the persisted score summary and next steps for a Phase 1 web session."""
+    res = _get_baseline_result_raw(db, session_id)
+    res["next_steps"] = get_baseline_next_steps(db, session_id)
+    return res
 
 
 def _load_smoke_baseline(db: Database) -> list[Question]:
@@ -382,3 +389,107 @@ def _validate_submit_distribution(questions: Any, mode: str) -> None:
             raise BaselineWebError(
                 f"{mode} submit requires {required} {section} questions, got {actual}"
             )
+
+
+def get_baseline_next_steps(db: Database, session_id: int) -> dict[str, Any]:
+    """Calculate and return data-backed next-step recommendations from baseline results."""
+    from .phase3 import plan_next_action
+    from .guardian import build_guardian_plan
+
+    result = _get_baseline_result_raw(db, session_id)
+    mode = result["mode"]
+    by_section = result["by_section"]
+
+    weak_sections = []
+    tier_summary = {"remediation_excluded": False, "remediation_priority": False, "paired_remediation": False}
+    for section, data in by_section.items():
+        total = data["total"]
+        correct = data["correct"]
+        acc = correct / total if total > 0 else 0.0
+        if acc >= 0.70:
+            continue
+        if acc < 0.55:
+            tier = "remediation_excluded"
+        elif acc < 0.65:
+            tier = "remediation_priority"
+        else:
+            tier = "paired_remediation"
+        tier_summary[tier] = True
+        p3_action = plan_next_action(db, section=section)
+        action_info = {
+            "action_type": p3_action.action_type,
+            "reason": p3_action.reason,
+            "target_archetype_name": p3_action.target_archetype_name,
+            "target_archetype_id": p3_action.target_archetype_id,
+            "question_count": p3_action.question_count,
+        }
+        weak_sections.append({
+            "section": section,
+            "accuracy": acc,
+            "correct": correct,
+            "total": total,
+            "tier": tier,
+            "action": action_info,
+        })
+
+    # Formulate recommendation by highest-priority tier
+    if mode == "smoke":
+        overall = {
+            "action_type": "smoke_warning",
+            "title": "Establish Full Baseline",
+            "command": "ssc-study web",
+            "reason": "This was a 5-question Smoke Test. To establish a reliable baseline and unlock the daily scheduler, please take the 200-question Full Baseline exam.",
+        }
+        guardian_info = None
+    elif tier_summary["remediation_excluded"]:
+        overall = {
+            "action_type": "remediation_excluded",
+            "title": "Remediation-First Priority",
+            "command": "ssc-study phase3",
+            "reason": "Some sections scored below 55%. These sections require focused remediation first and are excluded from readiness scoring until reaching 65%.",
+        }
+        guardian_info = None
+    elif tier_summary["remediation_priority"]:
+        overall = {
+            "action_type": "remediation_priority",
+            "title": "Remediation Priority",
+            "command": "ssc-study phase3",
+            "reason": "Some sections scored 55-64%. These sections need remediation but are included in readiness scoring.",
+        }
+        guardian_info = None
+    elif tier_summary["paired_remediation"]:
+        overall = {
+            "action_type": "paired_remediation",
+            "title": "Boss Fight with Paired Remediation",
+            "command": "ssc-study phase3",
+            "reason": "All sections scored at least 65%. Sections at 65-69% may enter boss fights alongside continued remediation.",
+        }
+        guardian_info = None
+    else:
+        overall = {
+            "action_type": "guardian_main_grind",
+            "title": "Unlock Phase 4: Main Grind",
+            "command": "ssc-study guardian plan",
+            "reason": "All sections meet the 70%+ accuracy gate. You are ready to transition to the daily 180-minute study schedule.",
+        }
+        # Fetch Guardian daily plan details
+        try:
+            g_plan = build_guardian_plan(db)
+            guardian_info = {
+                "plan_date": g_plan.plan_date,
+                "total_minutes": g_plan.total_minutes,
+                "mock_recommendation": g_plan.mock_recommendation,
+                "pulse_recommendation": g_plan.pulse_recommendation,
+                "warnings": g_plan.warnings,
+            }
+        except Exception:
+            guardian_info = None
+
+    return {
+        "session_id": session_id,
+        "mode": mode,
+        "overall_accuracy": result["accuracy"],
+        "weak_sections": weak_sections,
+        "overall_action": overall,
+        "guardian_plan": guardian_info,
+    }

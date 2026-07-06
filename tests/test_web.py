@@ -120,7 +120,7 @@ def test_submit_smoke_exam(web_client):
 
 
 def test_get_result_detail(web_client):
-    """Verify result retrieval endpoint works."""
+    """Verify result retrieval endpoint works and includes next_steps."""
     # Submit first to get a real session
     start_resp = web_client.post("/api/baseline/start", json={"mode": "smoke"})
     start_data = start_resp.json()
@@ -149,7 +149,47 @@ def test_get_result_detail(web_client):
     
     result_resp = web_client.get(f"/api/baseline/result/{session_id}")
     assert result_resp.status_code == 200
-    assert result_resp.json()["session_id"] == session_id
+    res_data = result_resp.json()
+    assert res_data["session_id"] == session_id
+    assert "next_steps" in res_data
+    assert res_data["next_steps"]["mode"] == "smoke"
+    assert "overall_action" in res_data["next_steps"]
+
+
+def test_get_result_next_steps_endpoint(web_client):
+    """Verify dedicated next-steps endpoint works and returns correct structured schema."""
+    start_resp = web_client.post("/api/baseline/start", json={"mode": "smoke"})
+    start_data = start_resp.json()
+    exam_id = start_data["exam_id"]
+    exam_token = start_data["exam_token"]
+    questions = start_data["questions"]
+    
+    answers = [{
+        "question_id": q["question_id"],
+        "user_answer": "1",
+        "time_spent_seconds": 10,
+        "marked_for_review": False
+    } for q in questions]
+    
+    payload = {
+        "exam_id": exam_id,
+        "exam_token": exam_token,
+        "mode": "smoke",
+        "started_at": "2026-07-06T10:00:00Z",
+        "ended_at": "2026-07-06T10:05:00Z",
+        "answers": answers
+    }
+    
+    submit_resp = web_client.post("/api/baseline/submit", json=payload)
+    session_id = submit_resp.json()["session_id"]
+    
+    ns_resp = web_client.get(f"/api/baseline/result/{session_id}/next-steps")
+    assert ns_resp.status_code == 200
+    ns_data = ns_resp.json()
+    assert ns_data["session_id"] == session_id
+    assert ns_data["mode"] == "smoke"
+    assert "overall_action" in ns_data
+    assert ns_data["overall_action"]["action_type"] == "smoke_warning"
 
 
 def test_get_result_not_found(web_client):
