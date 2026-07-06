@@ -85,8 +85,21 @@
 - Integrated `ssc-study patterns` and `ssc-study guardian` commands into `cli.py`.
 - Created comprehensive contract tests in `test_pattern_intelligence_contract.py` and `test_guardian.py`.
 - Updated documentation files to resolve Phase 2b and Phase 3 inconsistencies and reflect the current completed state of the repository.
+- Completed Phase 1 Web Frontend stitch:
+  - Overwrote `templates/landing.html` with a premium, dense exam cockpit.
+  - Overwrote `static/app.css` with clean CSS styling featuring outfit typography, color tokens, visual cards, grid buttons, and confirm modals.
+  - Overwrote `static/app.js` with premium client-side logic handling elapsed time, time-spent-seconds accumulation per question, marked-for-review, modal warning text counts, and localStorage draft recovery.
+  - Registered `ssc-study web` CLI subcommand inside `cli.py`.
+  - Added `check_same_thread=False` to SQLite connection calls in `db.py` and `tests/conftest.py` to prevent thread safety errors during ASGI routing/FastAPI tests.
+  - Created `tests/test_web.py` for route and landing page testing.
 
 ## 2026-07-06 Codex Review Fixes
 
 - Fixed Phase 2c/Phase 4 review blockers after Gemini implementation: committed Phase 3 runtime/test files into branch scope, excluded holdout attempts from `patterns priority`, stopped Guardian from inventing mock days with no mock history, skipped nullable external mock calibrated scores with warnings, and downgraded Phase 4 docs to planner-v1 status.
 - Added regression coverage for holdout leakage, fresh-DB Guardian mock recommendations, and nullable external mock calibrated scores.
+
+## 2026-07-06 Phase 1 Frontend Planning Package
+
+- Created the canonical Phase 1 frontend handoff under `docs/phase1_frontend/`.
+- The package defines the local FastAPI/Jinja/static MVP, real `foundation_pulse` 200-question split, 5-question smoke mode, no-answer-leak contract, work orders for Grok/Gemini/DeepSeekV4, and the Codex reviewer checklist.
+- This pass created planning/spec/prompt files only; it did not implement frontend source code.

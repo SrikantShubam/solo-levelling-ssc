@@ -248,6 +248,44 @@ def config(db_path: Path | None, show_config: bool) -> None:
     type=click.Path(path_type=Path),
     help="Path to the SQLite database.",
 )
+@click.option(
+    "--host",
+    default="127.0.0.1",
+    help="Host to bind the web server to.",
+)
+@click.option(
+    "--port",
+    default=8765,
+    type=int,
+    help="Port to bind the web server to.",
+)
+def web(db_path: Path, host: str, port: int) -> None:
+    """Start the Phase 1 local web MVP (baseline exam UI)."""
+    from .web import create_app
+    import uvicorn
+
+    db = Database(db_path)
+
+    # Check corpus exists
+    conn = db.connect()
+    q_count = conn.execute("SELECT COUNT(*) as c FROM questions").fetchone()["c"]
+    if q_count == 0:
+        console.print("[red]No questions in database. Run 'ssc-study import' first.[/red]")
+        raise SystemExit(1)
+
+    app = create_app(db)
+    console.print(f"[bold green]Starting web server at http://{host}:{port}[/bold green]")
+    console.print(f"  Database: {db.path}")
+    uvicorn.run(app, host=host, port=port, log_level="info")
+
+
+@cli.command()
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
 def readiness(db_path: Path) -> None:
     """Show exam readiness dashboard."""
     from .readiness import compute_readiness
@@ -589,6 +627,27 @@ def guardian_plan(date_str: str | None, db_path: Path) -> None:
         console.print("[bold yellow]Warnings:[/bold yellow]")
         for w in plan.warnings:
             console.print(f"  ⚠ {w}")
+
+
+@cli.command("web")
+@click.option(
+    "--db-path",
+    default="~/.ssc_study/study.db",
+    type=click.Path(path_type=Path),
+    help="Path to the SQLite database.",
+)
+@click.option("--host", default="127.0.0.1", show_default=True, help="Web server host.")
+@click.option("--port", default=8765, type=int, show_default=True, help="Web server port.")
+def web_cmd(db_path: Path, host: str, port: int) -> None:
+    """Start the Phase 1 web baseline exam interface."""
+    import uvicorn
+    from .web import create_app
+
+    db = Database(db_path)
+    app = create_app(db)
+
+    console.print(f"[bold green]Starting Phase 1 baseline exam server at http://{host}:{port}[/bold green]")
+    uvicorn.run(app, host=host, port=port)
 
 
 def main(argv: list[str] | None = None) -> int:

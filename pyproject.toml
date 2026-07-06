@@ -21,6 +21,9 @@ study = [
     "rich-click>=1.6",
     "sentence-transformers>=2.2",
     "faiss-cpu>=1.7",
+    "fastapi",
+    "uvicorn",
+    "jinja2",
 ]
 dev = [
     "pytest>=8.0",

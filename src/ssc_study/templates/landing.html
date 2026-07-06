@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSC Study — Phase 1 Baseline Exam Cockpit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+    <div id="error-banner" class="hidden">
+        <span id="error-message"></span>
+        <button id="error-close-btn">&times;</button>
+    </div>
+
+    <main class="app-container">
+        <!-- Landing / Preflight View -->
+        <section id="preflight-section" class="view-panel">
+            <header class="view-header">
+                <div class="logo-box">
+                    <span class="logo-badge">Phase 1</span>
+                    <h1>Scoring Machine Baseline Exam</h1>
+                </div>
+                <div class="db-info">
+                    <span class="label">Database:</span>
+                    <span class="value" title="{{ db_path }}">{{ db_path }}</span>
+                </div>
+            </header>
+
+            <div class="content-card">
+                <h2>Preflight Readiness Check</h2>
+                <p class="description">Before starting the baseline exam, the system verifies if there are enough eligible non-holdout questions in the database.</p>
+
+                <div class="sections-grid" id="preflight-sections">
+                    <table class="readiness-table">
+                        <thead>
+                            <tr>
+                                <th>Section</th>
+                                <th>Required</th>
+                                <th>Available</th>
+                                <th>Missing</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for section in required.keys() %}
+                            <tr>
+                                <td><strong>{{ section }}</strong></td>
+                                <td class="font-mono">{{ required[section] }}</td>
+                                <td class="font-mono">{{ available.get(section, 0) }}</td>
+                                <td class="font-mono {{ 'missing' if section in missing else 'ok' }}">
+                                    {{ missing.get(section, '—') }}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="readiness-banner {{ 'ready' if full_ready else 'not-ready' }}" id="readiness-status">
+                    {% if full_ready %}
+                        <strong>✓ Baseline Ready:</strong> All sections meet baseline requirements. You can start the full baseline exam.
+                    {% else %}
+                        <strong>⚠ Underfilled Database:</strong> Some sections do not have enough non-holdout questions. Full baseline is disabled.
+                    {% endif %}
+                </div>
+
+                <div class="preflight-actions">
+                    <button id="btn-smoke" class="btn btn-secondary" {{ 'disabled' if not smoke_ready else '' }}>
+                        Start Smoke Test <span class="badge">5 Questions</span>
+                    </button>
+                    <button id="btn-full" class="btn btn-primary" {{ 'disabled' if not full_ready else '' }}>
+                        Start Full Baseline <span class="badge">200 Questions</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exam Cockpit View -->
+        <section id="exam-section" class="view-panel hidden" style="display:none">
+            <header class="exam-header">
+                <div class="exam-meta">
+                    <span class="badge" id="exam-mode-badge">SMOKE MODE</span>
+                    <span class="timer-box" id="exam-timer">00:00</span>
+                </div>
+                <div class="exam-actions">
+                    <button id="btn-submit" class="btn btn-primary">Submit Exam</button>
+                </div>
+            </header>
+
+            <div class="cockpit-layout">
+                <!-- Sidebar Question Navigator -->
+                <aside class="cockpit-sidebar">
+                    <div class="sidebar-header">
+                        <h3>Question Navigator</h3>
+                        <div class="legend">
+                            <span class="legend-item"><span class="swatch current"></span> Active</span>
+                            <span class="legend-item"><span class="swatch answered"></span> Answered</span>
+                            <span class="legend-item"><span class="swatch marked"></span> Marked</span>
+                        </div>
+                    </div>
+                    <div class="question-grid" id="nav-grid">
+                        <!-- Number buttons populated by JS -->
+                    </div>
+                </aside>
+
+                <!-- Center Question Panel -->
+                <article class="question-panel">
+                    <div id="question-area">
+                        <!-- Loaded dynamically -->
+                    </div>
+                    <div class="question-card-footer">
+                        <button id="btn-prev" class="btn btn-nav">← Previous</button>
+                        <button id="btn-mark" class="btn btn-nav btn-amber">Mark for Review</button>
+                        <button id="btn-next" class="btn btn-nav">Next →</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Result View -->
+        <section id="result-section" class="view-panel hidden" style="display:none">
+            <header class="view-header">
+                <h1>Baseline Exam Scored Summary</h1>
+                <button id="btn-restart" class="btn btn-secondary">Return to Landing</button>
+            </header>
+
+            <div class="result-layout">
+                <div class="score-card">
+                    <div class="score-radial">
+                        <div class="radial-value" id="result-score-percent">0%</div>
+                        <div class="radial-label" id="result-score-fraction">0 / 0 Correct</div>
+                    </div>
+                </div>
+
+                <div class="section-breakdown-card">
+                    <h2>Section Breakdown</h2>
+                    <div id="result-summary">
+                        <!-- Breakdown table populated by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Confirmation Modal Dialog -->
+    <div id="submit-modal" class="modal hidden">
+        <div class="modal-content">
+            <h3>Confirm Submission</h3>
+            <p id="modal-warning-text">You are about to submit the exam. You have unanswered questions.</p>
+            <div class="modal-actions">
+                <button id="modal-cancel-btn" class="btn btn-secondary">Back to Exam</button>
+                <button id="modal-confirm-btn" class="btn btn-primary">Confirm Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

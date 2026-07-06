@@ -4,8 +4,9 @@ from __future__ import annotations
 
 import sqlite3
 import threading
+from contextlib import contextmanager
 from pathlib import Path
-from typing import Any
+from typing import Any, Generator
 
 
 class StudyDBError(Exception):
@@ -173,6 +174,28 @@ MIGRATIONS: list[tuple[int, str, str]] = [
             created_at         TEXT NOT NULL DEFAULT (datetime('now'))
         )
     """),
+    (14, "add sealed_mock session type", """
+        -- FK_OFF
+        DROP TABLE IF EXISTS sessions_new;
+        CREATE TABLE sessions_new (
+            session_id        INTEGER PRIMARY KEY AUTOINCREMENT,
+            session_type      TEXT NOT NULL CHECK (session_type IN (
+                'sm2_review','boss_fight','tier2_module','gkga_memory',
+                'english','mock','analysis','foundation_pulse','ck_pulse','sealed_mock'
+            )),
+            started_at        TEXT NOT NULL,
+            ended_at          TEXT,
+            duration_minutes  INTEGER,
+            question_count    INTEGER NOT NULL DEFAULT 0,
+            correct_count     INTEGER NOT NULL DEFAULT 0,
+            tier              TEXT CHECK (tier IN ('tier1', 'tier2')),
+            notes             TEXT,
+            created_at        TEXT NOT NULL DEFAULT (datetime('now'))
+        );
+        INSERT INTO sessions_new SELECT * FROM sessions;
+        DROP TABLE sessions;
+        ALTER TABLE sessions_new RENAME TO sessions;
+    """),
 ]
 
 
@@ -189,7 +212,7 @@ def get_connection(db_path: str | Path) -> sqlite3.Connection:
     path = Path(db_path)
     path.parent.mkdir(parents=True, exist_ok=True)
 
-    conn = sqlite3.connect(str(path), timeout=30)
+    conn = sqlite3.connect(str(path), timeout=30, check_same_thread=False)
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA synchronous=NORMAL")
     conn.execute("PRAGMA foreign_keys=ON")
@@ -226,12 +249,16 @@ def apply_migrations(conn: sqlite3.Connection) -> int:
             continue
         needs_fk_off = False
         try:
-            needs_fk_off = sql.strip().startswith("-- FK_OFF")
             sql_to_run = sql.strip()
+            needs_fk_off = sql_to_run.startswith("-- FK_OFF")
             if needs_fk_off:
                 sql_to_run = sql_to_run.removeprefix("-- FK_OFF").strip()
+                if conn.in_transaction:
+                    conn.execute("COMMIT")
                 conn.execute("PRAGMA foreign_keys=OFF")
 
+            if conn.in_transaction:
+                conn.execute("COMMIT")
             conn.execute("BEGIN")
             for statement in sql_to_run.split(";"):
                 stmt = statement.strip()
@@ -272,7 +299,9 @@ class Database:
     def __init__(self, db_path: str | Path) -> None:
         self._path = Path(db_path).expanduser()
         self._conn: sqlite3.Connection | None = None
-        self._lock = threading.Lock()
+        self._lock = threading.RLock()
+        self._transaction_depth = 0
+        self._savepoint_seq = 0
         self._init_connection()
 
     def _init_connection(self) -> None:
@@ -294,25 +323,75 @@ class Database:
 
     def execute(self, sql: str, params: tuple[Any, ...] = ()) -> sqlite3.Cursor:
         """Execute a write query with automatic commit under the lock."""
-        assert self._conn is not None
+        conn = self._require_connection()
         with self._lock:
-            cursor = self._conn.execute(sql, params)
-            self._conn.commit()
+            cursor = conn.execute(sql, params)
+            if getattr(self, "_transaction_depth", 0) == 0:
+                conn.commit()
             return cursor
 
     def execute_many(self, sql: str, params_list: list[tuple[Any, ...]]) -> sqlite3.Cursor:
         """Execute many parameterized inserts in a single transaction."""
-        assert self._conn is not None
+        conn = self._require_connection()
         with self._lock:
-            cursor = self._conn.executemany(sql, params_list)
-            self._conn.commit()
+            cursor = conn.executemany(sql, params_list)
+            if getattr(self, "_transaction_depth", 0) == 0:
+                conn.commit()
             return cursor
+
+    @contextmanager
+    def transaction(self) -> Generator[sqlite3.Connection, None, None]:
+        """Execute statements under the DB lock with rollback on failure.
+
+        Nested calls are isolated with savepoints so inner failures do not
+        partially commit outer work.
+        """
+        conn = self._require_connection()
+        if not hasattr(self, "_transaction_depth"):
+            self._transaction_depth = 0
+        if not hasattr(self, "_savepoint_seq"):
+            self._savepoint_seq = 0
+
+        with self._lock:
+            depth = self._transaction_depth
+            savepoint: str | None = None
+            if depth == 0:
+                conn.execute("BEGIN")
+            else:
+                self._savepoint_seq += 1
+                savepoint = f"sp_{self._savepoint_seq}"
+                conn.execute(f"SAVEPOINT {savepoint}")
+            self._transaction_depth = depth + 1
+            try:
+                yield conn
+            except Exception:
+                if savepoint is None:
+                    if conn.in_transaction:
+                        conn.execute("ROLLBACK")
+                else:
+                    conn.execute(f"ROLLBACK TO SAVEPOINT {savepoint}")
+                    conn.execute(f"RELEASE SAVEPOINT {savepoint}")
+                raise
+            else:
+                if savepoint is None:
+                    conn.execute("COMMIT")
+                else:
+                    conn.execute(f"RELEASE SAVEPOINT {savepoint}")
+            finally:
+                self._transaction_depth = depth
+
+    def _require_connection(self) -> sqlite3.Connection:
+        conn = self._conn
+        if conn is None:
+            raise StudyDBError("Database connection is closed")
+        return conn
 
     def close(self) -> None:
         with self._lock:
             if self._conn:
                 self._conn.close()
                 self._conn = None
+                self._transaction_depth = 0
 
     def __enter__(self) -> Database:
         return self

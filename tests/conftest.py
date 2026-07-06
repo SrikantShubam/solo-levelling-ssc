@@ -23,7 +23,7 @@ def in_memory_db() -> sqlite3.Connection:
     """Create an in-memory SQLite database with full schema applied."""
     from ssc_study.db import apply_migrations
 
-    conn = sqlite3.connect(":memory:")
+    conn = sqlite3.connect(":memory:", check_same_thread=False)
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA synchronous=NORMAL")
     conn.execute("PRAGMA foreign_keys=ON")
