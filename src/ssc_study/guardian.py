@@ -6,7 +6,7 @@ readiness floors, and active notification audits.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import date, timedelta
 from typing import Any, Dict, List, Optional
 from .db import Database
@@ -70,7 +70,7 @@ def build_guardian_plan(db: Database, *, today: Optional[date] = None) -> Guardi
            ORDER BY created_at DESC LIMIT 1"""
     ).fetchone()
 
-    if recent_audit:
+    if recent_audit and not is_paused:
         try:
             created_date = date.fromisoformat(recent_audit["created_at"].split("T")[0])
             if today - created_date <= timedelta(days=7):
@@ -128,8 +128,18 @@ def build_guardian_plan(db: Database, *, today: Optional[date] = None) -> Guardi
         except Exception:
             mock_due = True
     else:
-        warnings.append("No mock history found; defaulting to weekly mock cadence.")
-        mock_due = True
+        warnings.append("No mock history found; mock cadence cannot be evaluated yet.")
+
+    uncalibrated_external_mocks = conn.execute(
+        """SELECT COUNT(*) as c
+           FROM external_mocks
+           WHERE tier = 'tier1' AND calibrated_score IS NULL"""
+    ).fetchone()["c"]
+    if uncalibrated_external_mocks:
+        warnings.append(
+            f"{uncalibrated_external_mocks} Tier-1 external mock(s) lack calibrated score; "
+            "excluded from floor checks."
+        )
 
     # 3. Pulse day check (first Monday of the month)
     is_first_monday = (today.weekday() == 0) and (today.day <= 7)
@@ -336,7 +346,8 @@ def _check_tier1_floor_125_crossed(db: Database) -> bool:
         acc = r["correct_count"] / r["question_count"]
         scores.append(acc * 200)
     for r in external_rows:
-        scores.append(r["calibrated_score"])
+        if r["calibrated_score"] is not None:
+            scores.append(r["calibrated_score"])
 
     return any(score >= 125 for score in scores)
 
@@ -363,7 +374,8 @@ def _check_tier1_floor_135_twice(db: Database) -> bool:
         acc = r["correct_count"] / r["question_count"]
         scores.append((r["taken_at"], acc * 200))
     for r in external_rows:
-        scores.append((r["taken_at"], r["calibrated_score"]))
+        if r["calibrated_score"] is not None:
+            scores.append((r["taken_at"], r["calibrated_score"]))
 
     scores.sort(key=lambda x: x[0])
     cleared_count = sum(1 for _, score in scores if score >= 135)

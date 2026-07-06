@@ -506,6 +506,7 @@ def patterns_priority(tier: str | None, db_path: Path) -> None:
            FROM archetypes a
            JOIN questions q ON q.archetype_id = a.archetype_id
            JOIN attempts at ON at.question_id = q.question_id
+           WHERE q.is_holdout = 0
            GROUP BY a.archetype_id"""
     ).fetchall()
 

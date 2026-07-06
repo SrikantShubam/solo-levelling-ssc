@@ -40,7 +40,7 @@ Gemini workorder:
 
 ## R3: Phase 4 Guardian Main-Grind Scheduler
 
-Status: completed.
+Status: planner v1 completed.
 
 Purpose:
 - Add a deterministic daily plan generator for the 180-minute main grind.
@@ -51,6 +51,7 @@ Non-goals:
 - No full UI.
 - No automatic mock/session creation in v1.
 - No background daemon, notifications, or calendar integration.
+- Full Phase 4 execution remains out of scope until sessions, mock execution, and queue mutation are explicitly promoted.
 
 Spec:
 - `docs/agent_workorders/gemini_remaining/specs/phase4-guardian-spec.md`
@@ -84,4 +85,3 @@ Purpose:
 
 Review plan:
 - `docs/agent_workorders/gemini_remaining/codex-review-and-validation-plan.md`
-

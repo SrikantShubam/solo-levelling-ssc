@@ -85,3 +85,8 @@
 - Integrated `ssc-study patterns` and `ssc-study guardian` commands into `cli.py`.
 - Created comprehensive contract tests in `test_pattern_intelligence_contract.py` and `test_guardian.py`.
 - Updated documentation files to resolve Phase 2b and Phase 3 inconsistencies and reflect the current completed state of the repository.
+
+## 2026-07-06 Codex Review Fixes
+
+- Fixed Phase 2c/Phase 4 review blockers after Gemini implementation: committed Phase 3 runtime/test files into branch scope, excluded holdout attempts from `patterns priority`, stopped Guardian from inventing mock days with no mock history, skipped nullable external mock calibrated scores with warnings, and downgraded Phase 4 docs to planner-v1 status.
+- Added regression coverage for holdout leakage, fresh-DB Guardian mock recommendations, and nullable external mock calibrated scores.

@@ -110,7 +110,7 @@ ssc-study config --show
 | **Phase 2b** | **✅** | **SQLite, study app, SM-2, embeddings, archetypes, fact cards** |
 | Phase 2c | ✅ | Exam-pattern intelligence (advisory report & combiners) |
 | Phase 3 | ✅ | User diagnostic grinding over attempts and archetypes (deterministic loop & eval) |
-| Phase 4 | ✅ | Guardian — daily grind scheduler and mock cadence planner |
+| Phase 4 | 🟡 | Guardian planner v1 — daily schedule and mock cadence report only |
 
 ## Phase Critic And Implementation Spec
 

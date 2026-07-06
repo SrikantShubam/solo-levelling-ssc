@@ -78,9 +78,10 @@ Phase 2c is complete for read-only exam-paper pattern intelligence:
 - `src/ssc_study/patterns_priority.py` combines exam frequencies with user diagnostic signals to recommend priorities.
 - `ssc-study patterns` CLI command groups let users run these queries.
 
-Phase 4 is complete for Guardian daily schedule recommendation:
+Phase 4 planner v1 is complete for Guardian daily schedule recommendation:
 - `src/ssc_study/guardian.py` implements daily schedule recommendations, mock cadence, monthly pulses, and pause conditions.
 - `ssc-study guardian plan` CLI command displays the recommended daily schedule.
+- This is not full Phase 4 execution: it does not create sessions, run mocks, mutate queues, or automate the main grind.
 
 Recommended naming:
 - Treat model-based paper pattern discovery as `Phase 2c` if it builds the atlas before diagnostics.

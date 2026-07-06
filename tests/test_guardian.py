@@ -101,6 +101,32 @@ def test_mock_day_does_not_remove_sm2(seeded_db):
     assert "Tier-2 Module Queue" not in names
 
 
+def test_fresh_db_does_not_schedule_mock_without_history(seeded_db):
+    """Missing mock history should warn, not invent an immediate mock day."""
+    today = date(2026, 7, 8)
+
+    plan = build_guardian_plan(seeded_db, today=today)
+
+    assert plan.mock_recommendation == "none"
+    assert "Mock Test" not in [b.name for b in plan.blocks]
+    assert any("No mock history" in warning for warning in plan.warnings)
+
+
+def test_null_external_calibrated_score_does_not_crash(seeded_db):
+    """External mocks may lack calibrated_score and should not crash floor checks."""
+    conn = seeded_db.connect()
+    conn.execute(
+        """INSERT INTO external_mocks (mock_name, source, taken_at, tier, raw_score, calibrated_score)
+           VALUES ('Uncalibrated', 'External', '2026-07-07', 'tier1', 100, NULL)"""
+    )
+    conn.commit()
+
+    plan = build_guardian_plan(seeded_db, today=date(2026, 7, 8))
+
+    assert plan.mock_recommendation == "none"
+    assert any("calibrated score" in warning.lower() for warning in plan.warnings)
+
+
 def test_pulse_mock_collision(seeded_db):
     """Verify that collision of mock and pulse days defers the mock recommendation."""
     # Insert a dummy mock taken more than 7 days ago

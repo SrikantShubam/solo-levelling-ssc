@@ -111,6 +111,50 @@ def test_patterns_priority_command_runs(tmp_path) -> None:
     assert "Exam Pattern & User Priority Combiner" in result.output
 
 
+def test_patterns_priority_ignores_holdout_attempts(tmp_path) -> None:
+    runner = CliRunner()
+    db_path = tmp_path / "study.db"
+    db = Database(db_path)
+    conn = db.connect()
+    conn.execute(
+        """INSERT INTO archetypes
+           (archetype_id, name, section, tier, is_active)
+           VALUES (9901, 'Holdout Leak Check', 'Quant/DI', 'both', 1)"""
+    )
+    for question_id, is_holdout in (
+        ("priority_non_holdout", 0),
+        ("priority_holdout", 1),
+    ):
+        conn.execute(
+            """INSERT INTO questions
+               (question_id, pdf_name, source_page, global_question_number,
+                section, year, tier, question_text, options_json,
+                correct_option_label, correct_option_text, archetype_id, is_holdout)
+               VALUES (?, 'test_pdf', 1, 1, 'Quant/DI', 2024, 'tier1', ?, '[]', '1', 'A', 9901, ?)""",
+            (question_id, f"{question_id}?", is_holdout),
+        )
+    conn.execute(
+        """INSERT INTO sessions (session_id, session_type, started_at, question_count, correct_count, tier)
+           VALUES (9901, 'analysis', '2026-07-01T00:00:00', 2, 1, 'tier1')"""
+    )
+    conn.execute(
+        """INSERT INTO attempts (question_id, session_id, user_answer, is_correct, time_spent_seconds)
+           VALUES ('priority_non_holdout', 9901, '1', 1, 20)"""
+    )
+    conn.execute(
+        """INSERT INTO attempts (question_id, session_id, user_answer, is_correct, time_spent_seconds)
+           VALUES ('priority_holdout', 9901, '1', 0, 20)"""
+    )
+    conn.commit()
+
+    result = runner.invoke(cli, ["patterns", "priority", "--db-path", str(db_path)])
+
+    assert result.exit_code == 0
+    assert "Holdout Leak Check" in result.output
+    assert "user_accuracy=100%" in result.output
+    assert "user_accuracy=50%" not in result.output
+
+
 def test_guardian_plan_command_runs(tmp_path) -> None:
     runner = CliRunner()
     db_path = tmp_path / "study.db"
@@ -122,4 +166,3 @@ def test_guardian_plan_command_runs(tmp_path) -> None:
     assert result.exit_code == 0
     assert "Guardian Plan Recommendation" in result.output
     assert "SM-2 Review" in result.output
-
