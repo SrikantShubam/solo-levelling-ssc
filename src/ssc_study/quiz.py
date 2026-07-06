@@ -9,8 +9,6 @@ can use `Console(file=io.StringIO())` without needing Click.
 
 from __future__ import annotations
 
-import json
-import sqlite3
 import time
 from datetime import datetime, timezone
 
@@ -63,19 +61,18 @@ class QuizSession:
             self.db, self.session_type, self.tier, self.question_count
         )
 
-        conn = self.db.connect()
-        cursor = conn.execute(
-            """INSERT INTO sessions (session_type, started_at, tier, question_count)
-               VALUES (?, ?, ?, ?)""",
-            (
-                self.session_type,
-                datetime.now(timezone.utc).isoformat(),
-                self.tier,
-                len(self.questions),
-            ),
-        )
-        conn.commit()
-        session_id = cursor.lastrowid
+        with self.db.transaction() as conn:
+            cursor = conn.execute(
+                """INSERT INTO sessions (session_type, started_at, tier, question_count)
+                   VALUES (?, ?, ?, ?)""",
+                (
+                    self.session_type,
+                    datetime.now(timezone.utc).isoformat(),
+                    self.tier,
+                    len(self.questions),
+                ),
+            )
+            session_id = cursor.lastrowid
 
         self.session = Session(
             session_type=self.session_type,
@@ -126,37 +123,35 @@ class QuizSession:
         """Abandon the session (e.g. Ctrl+C)."""
         self._aborted = True
         if self.session and self.session.session_id:
-            conn = self.db.connect()
-            conn.execute(
-                "UPDATE sessions SET ended_at = ?, notes = ? WHERE session_id = ?",
-                (datetime.now(timezone.utc).isoformat(), "ABANDONED", self.session.session_id),
-            )
-            conn.commit()
+            with self.db.transaction() as conn:
+                conn.execute(
+                    "UPDATE sessions SET ended_at = ?, notes = ? WHERE session_id = ?",
+                    (datetime.now(timezone.utc).isoformat(), "ABANDONED", self.session.session_id),
+                )
 
     def finish(self) -> Session | None:
         """Complete the session and update summary stats."""
         if not self.session or not self.session.session_id:
             return None
 
-        conn = self.db.connect()
-        row = conn.execute(
-            """SELECT COUNT(*) as total,
-                      SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END) as correct
-               FROM attempts WHERE session_id = ?""",
-            (self.session.session_id,),
-        ).fetchone()
+        with self.db.transaction() as conn:
+            row = conn.execute(
+                """SELECT COUNT(*) as total,
+                          SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END) as correct
+                   FROM attempts WHERE session_id = ?""",
+                (self.session.session_id,),
+            ).fetchone()
 
-        total = row["total"]
-        correct = row["correct"] or 0
-        ended_at = datetime.now(timezone.utc).isoformat()
+            total = row["total"]
+            correct = row["correct"] or 0
+            ended_at = datetime.now(timezone.utc).isoformat()
 
-        conn.execute(
-            """UPDATE sessions
-               SET ended_at = ?, question_count = ?, correct_count = ?
-               WHERE session_id = ?""",
-            (ended_at, total, correct, self.session.session_id),
-        )
-        conn.commit()
+            conn.execute(
+                """UPDATE sessions
+                   SET ended_at = ?, question_count = ?, correct_count = ?
+                   WHERE session_id = ?""",
+                (ended_at, total, correct, self.session.session_id),
+            )
 
         return Session(
             session_type=self.session.session_type,
@@ -283,39 +278,9 @@ def _load_foundation_pulse(
                 "Cannot create partial session."
             )
 
-        questions.extend(_row_to_question(r) for r in rows)
+        questions.extend(Question.from_row(r) for r in rows)
 
     return questions
-
-
-def _row_to_question(row: sqlite3.Row) -> Question:
-    """Convert a SQLite row to a Question."""
-    options_data = json.loads(row["options_json"])
-    from .models import Option
-    options = [Option(label=o["label"], text=o["text"]) for o in options_data]
-
-    return Question(
-        question_id=row["question_id"],
-        pdf_name=row["pdf_name"],
-        source_page=row["source_page"],
-        global_question_number=row["global_question_number"],
-        section=row["section"],
-        year=row["year"],
-        tier=row["tier"],
-        question_text=row["question_text"],
-        options=options,
-        correct_option_label=row["correct_option_label"],
-        correct_option_text=row["correct_option_text"],
-        chosen_option_label=row["chosen_option_label"],
-        question_modality=row["question_modality"],
-        visual_required=bool(row["visual_required"]),
-        table_required=bool(row["table_required"]),
-        math_required=bool(row["math_required"]),
-        evidence_status=row["evidence_status"],
-        is_holdout=bool(row["is_holdout"]),
-        archetype_id=row["archetype_id"],
-    )
-
 
 def _present_question(
     question: Question,
@@ -411,16 +376,14 @@ def _present_question(
     )
 
 
-def _save_attempt(db: Database, attempt: Attempt, question: Question) -> None:
-    """Persist an attempt and update SM-2 state."""
-    # Compute SM-2 quality
+def _persist_attempt_with_sm2(conn, attempt: Attempt, question: Question) -> None:
+    """Write one attempt row and update SM-2 state on an open connection."""
     quality = quality_from_performance(
         is_correct=attempt.is_correct,
         time_spent_seconds=attempt.time_spent_seconds,
     )
     attempt.quality_score = quality
 
-    # Compute timing inference
     t = attempt.time_spent_seconds
     if t < 15:
         timing = "quick"
@@ -434,8 +397,6 @@ def _save_attempt(db: Database, attempt: Attempt, question: Question) -> None:
     result = "correct" if attempt.is_correct else "wrong"
     attempt.timing_inference = f"{timing}_{result}"
 
-    # Insert attempt
-    conn = db.connect()
     conn.execute(
         """INSERT INTO attempts
            (question_id, session_id, user_answer, is_correct, time_spent_seconds,
@@ -452,9 +413,7 @@ def _save_attempt(db: Database, attempt: Attempt, question: Question) -> None:
             quality,
         ),
     )
-    conn.commit()
 
-    # Update SM-2 state
     row = conn.execute(
         "SELECT * FROM sm2_state WHERE entity_type = 'question' AND entity_id = ?",
         (question.question_id,),
@@ -490,7 +449,12 @@ def _save_attempt(db: Database, attempt: Attempt, question: Question) -> None:
             quality,
         ),
     )
-    conn.commit()
+
+
+def _save_attempt(db: Database, attempt: Attempt, question: Question) -> None:
+    """Persist an attempt and update SM-2 state."""
+    with db.transaction() as conn:
+        _persist_attempt_with_sm2(conn, attempt, question)
 
 
 class _QuizAbortError(Exception):

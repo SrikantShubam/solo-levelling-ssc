@@ -81,6 +81,7 @@ def test_submit_smoke_exam(web_client):
     assert start_resp.status_code == 200
     start_data = start_resp.json()
     exam_id = start_data["exam_id"]
+    exam_token = start_data["exam_token"]
     questions = start_data["questions"]
     
     # Build answers payload
@@ -95,6 +96,7 @@ def test_submit_smoke_exam(web_client):
         
     payload = {
         "exam_id": exam_id,
+        "exam_token": exam_token,
         "mode": "smoke",
         "started_at": "2026-07-06T10:00:00Z",
         "ended_at": "2026-07-06T10:05:00Z",
@@ -123,6 +125,7 @@ def test_get_result_detail(web_client):
     start_resp = web_client.post("/api/baseline/start", json={"mode": "smoke"})
     start_data = start_resp.json()
     exam_id = start_data["exam_id"]
+    exam_token = start_data["exam_token"]
     questions = start_data["questions"]
     
     answers = [{
@@ -134,6 +137,7 @@ def test_get_result_detail(web_client):
     
     payload = {
         "exam_id": exam_id,
+        "exam_token": exam_token,
         "mode": "smoke",
         "started_at": "2026-07-06T10:00:00Z",
         "ended_at": "2026-07-06T10:05:00Z",

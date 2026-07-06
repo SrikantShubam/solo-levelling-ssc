@@ -4,6 +4,7 @@
   const EXAM_KEY_PREFIX = 'ssc_exam_';
   let state = {
     examId: null,
+    examToken: null,
     mode: null,
     questions: [],
     answers: {},
@@ -89,6 +90,7 @@
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         exam_id: state.examId,
+        exam_token: state.examToken,
         mode: state.mode,
         started_at: state.startedAt,
         ended_at: endedAt,
@@ -158,16 +160,16 @@
       <div class="q-meta">
         <div class="q-meta-left">
           <span class="q-index-title">Question ${state.currentIndex + 1} of ${state.questions.length}</span>
-          <span class="q-badge">${q.section}</span>
-          <span class="q-badge" style="text-transform: capitalize;">${q.tier}</span>
+          <span class="q-badge">${escapeHtml(q.section)}</span>
+          <span class="q-badge" style="text-transform: capitalize;">${escapeHtml(q.tier)}</span>
         </div>
       </div>
       <div class="q-text">${escapeHtml(q.question_text)}</div>
       <div class="q-options" id="options-area">
         ${q.options.map((o) => `
-          <label class="option-row ${state.answers[q.question_id] === o.label ? 'selected' : ''}" data-value="${o.label}">
-            <input type="radio" name="option" value="${o.label}" ${state.answers[q.question_id] === o.label ? 'checked' : ''}>
-            <span class="option-label" style="font-family: var(--font-mono); font-weight: 700; width: 32px; height: 32px; border-radius: 50%; background-color: var(--bg-paper); border: 1px solid var(--border-color); display: flex; align-items: center; justify-content: center; margin-right: 1.25rem; flex-shrink: 0; transition: var(--transition);">${o.label}</span>
+          <label class="option-row ${state.answers[q.question_id] === o.label ? 'selected' : ''}" data-value="${escapeHtml(o.label)}">
+            <input type="radio" name="option" value="${escapeHtml(o.label)}" ${state.answers[q.question_id] === o.label ? 'checked' : ''}>
+            <span class="option-label" style="font-family: var(--font-mono); font-weight: 700; width: 32px; height: 32px; border-radius: 50%; background-color: var(--bg-paper); border: 1px solid var(--border-color); display: flex; align-items: center; justify-content: center; margin-right: 1.25rem; flex-shrink: 0; transition: var(--transition);">${escapeHtml(o.label)}</span>
             <span>${escapeHtml(o.text)}</span>
           </label>
         `).join('')}
@@ -270,7 +272,7 @@
               const secPct = data.total > 0 ? Math.round((data.correct / data.total) * 100) : 0;
               return `
                 <tr>
-                  <td><strong>${section}</strong></td>
+                  <td><strong>${escapeHtml(section)}</strong></td>
                   <td class="font-mono">${data.correct}</td>
                   <td class="font-mono">${data.total}</td>
                   <td class="font-mono">${secPct}%</td>
@@ -288,6 +290,7 @@
     if (!state.examId) return;
     const draft = {
       examId: state.examId,
+      examToken: state.examToken,
       mode: state.mode,
       questions: state.questions,
       answers: state.answers,
@@ -320,6 +323,27 @@
     return false;
   }
 
+  function loadMostRecentDraft() {
+    try {
+      const drafts = Object.keys(localStorage)
+        .filter((key) => key.startsWith(EXAM_KEY_PREFIX))
+        .map((key) => {
+          try {
+            return JSON.parse(localStorage.getItem(key));
+          } catch (_) {
+            return null;
+          }
+        })
+        .filter((draft) => draft && draft.examId && Array.isArray(draft.questions));
+
+      drafts.sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
+      for (const draft of drafts) {
+        if (loadDraft(draft.examId)) return true;
+      }
+    } catch (_) { /* ignore */ }
+    return false;
+  }
+
   function clearDraft() {
     if (state.examId) {
       try { localStorage.removeItem(EXAM_KEY_PREFIX + state.examId); } catch (_) {}
@@ -344,7 +368,7 @@
     const urlParams = new URLSearchParams(window.location.search);
     const resumeExamId = urlParams.get('exam_id');
 
-    if (resumeExamId && loadDraft(resumeExamId)) {
+    if ((resumeExamId && loadDraft(resumeExamId)) || (!resumeExamId && loadMostRecentDraft())) {
       currentQuestionStartTime = Date.now();
       renderExam();
       return;
@@ -379,7 +403,11 @@
         if (modal) modal.classList.add('hidden');
         saveCurrentQuestionTime();
         const result = await submitExam();
-        if (!result) return;
+        if (!result) {
+          currentQuestionStartTime = Date.now();
+          startTimer();
+          return;
+        }
         clearDraft();
         renderResult(result);
       });
@@ -402,6 +430,7 @@
       const data = await startExam('smoke');
       if (!data) return;
       state.examId = data.exam_id;
+      state.examToken = data.exam_token;
       state.mode = 'smoke';
       state.questions = data.questions;
       state.answers = {};
@@ -424,6 +453,7 @@
       const data = await startExam('full');
       if (!data) return;
       state.examId = data.exam_id;
+      state.examToken = data.exam_token;
       state.mode = 'full';
       state.questions = data.questions;
       state.answers = {};
@@ -504,6 +534,11 @@
           }
         }
         submitExam().then(result => {
+          if (!result) {
+            currentQuestionStartTime = Date.now();
+            startTimer();
+            return;
+          }
           if (result) {
             clearDraft();
             renderResult(result);

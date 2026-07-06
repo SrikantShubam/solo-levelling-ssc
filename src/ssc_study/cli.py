@@ -629,27 +629,6 @@ def guardian_plan(date_str: str | None, db_path: Path) -> None:
             console.print(f"  ⚠ {w}")
 
 
-@cli.command("web")
-@click.option(
-    "--db-path",
-    default="~/.ssc_study/study.db",
-    type=click.Path(path_type=Path),
-    help="Path to the SQLite database.",
-)
-@click.option("--host", default="127.0.0.1", show_default=True, help="Web server host.")
-@click.option("--port", default=8765, type=int, show_default=True, help="Web server port.")
-def web_cmd(db_path: Path, host: str, port: int) -> None:
-    """Start the Phase 1 web baseline exam interface."""
-    import uvicorn
-    from .web import create_app
-
-    db = Database(db_path)
-    app = create_app(db)
-
-    console.print(f"[bold green]Starting Phase 1 baseline exam server at http://{host}:{port}[/bold green]")
-    uvicorn.run(app, host=host, port=port)
-
-
 def main(argv: list[str] | None = None) -> int:
     """Entry point for console_scripts."""
     try:
