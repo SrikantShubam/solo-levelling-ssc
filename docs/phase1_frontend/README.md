@@ -2,12 +2,7 @@
 
 ## Current truth
 
-The Phase 1 frontend is not implemented yet. The backend already has CLI support for a
-`foundation_pulse` baseline through `ssc-study quiz --session-type foundation_pulse --count 200`.
-That path enforces the required split and excludes holdout questions, but it is not a web UI.
-
-This package exists so Grok, Gemini, DeepSeekV4, and Codex can work in an agentic flow without
-guessing scope.
+The Phase 1 web frontend is fully implemented and integrated. The application can be started locally via the CLI command `ssc-study web`. It serves a premium, dense exam cockpit UI for both Smoke Exams and the Full Baseline Exam, and automatically provides recommendations and next steps based on the scored results.
 
 ## Execution order
 

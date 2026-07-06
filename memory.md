@@ -103,3 +103,17 @@
 - Created the canonical Phase 1 frontend handoff under `docs/phase1_frontend/`.
 - The package defines the local FastAPI/Jinja/static MVP, real `foundation_pulse` 200-question split, 5-question smoke mode, no-answer-leak contract, work orders for Grok/Gemini/DeepSeekV4, and the Codex reviewer checklist.
 - This pass created planning/spec/prompt files only; it did not implement frontend source code.
+
+## 2026-07-06 Phase 1 Frontend Review Fixes
+
+- Rated the Grok/Gemini/DeepSeekV4 Phase 1 web handoffs and fixed Codex/subagent review blockers.
+- Added server-signed `exam_token` binding for web starts/submits, rejected malformed answers and negative timing, removed Google Fonts, restored drafts without a query string, escaped DB-sourced JS fields, and restarted the timer after failed submit.
+- Verification: `uv run pytest tests/test_baseline_web.py tests/test_web.py tests/test_phase1_frontend.py tests/test_quiz.py tests/test_db.py -q` passed with 103 tests; `uv run pytest -q` passed with 350 tests and the existing two Google/Python warnings.
+
+## 2026-07-06 Grok Critic Review Resolution
+
+- Reviewed and resolved gaps listed in `grok_critic.md` for local web MVP.
+- Implemented client-side result analysis rendering a premium "Product Recommendations & Next Steps" card on the baseline scored results screen.
+- Dynanically recommends next CLI workflows based on 70% threshold (e.g. `ssc-study phase3`, `ssc-study phase3-eval`, `ssc-study readiness`, or `ssc-study guardian plan`).
+- Updated stale documentation in `docs/phase1_frontend/README.md` and main `README.md` to document the `ssc-study web` command and frontend implementation.
+- Verified test suite and added next-steps element presence checks to `test_web.py`.

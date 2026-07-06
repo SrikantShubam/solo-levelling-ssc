@@ -156,3 +156,10 @@ def test_get_result_not_found(web_client):
     """Verify result detail returns HTTP 404 for unknown session ID."""
     response = web_client.get("/api/baseline/result/999999")
     assert response.status_code == 404
+
+
+def test_landing_page_has_next_steps_div(web_client):
+    """Verify GET / returns HTML landing page containing the next steps container."""
+    response = web_client.get("/")
+    assert response.status_code == 200
+    assert "next-steps-content" in response.text

@@ -283,6 +283,93 @@
         </table>
       `;
     }
+
+    const nextStepsContent = $('#next-steps-content');
+    if (nextStepsContent) {
+      let weakSections = [];
+      Object.entries(result.by_section || {}).forEach(([section, data]) => {
+        const pct = data.total > 0 ? (data.correct / data.total) : 0;
+        if (pct < 0.70) {
+          weakSections.push({ name: section, pct: pct, correct: data.correct, total: data.total });
+        }
+      });
+      
+      let html = '';
+      
+      if (result.mode === 'smoke') {
+        html += `
+          <div class="next-step-box warning" style="border-left: 4px solid var(--color-warning); padding: 1rem; background: var(--color-warning-light); border-radius: var(--border-radius); margin-bottom: 1.5rem;">
+            <p><strong>Note:</strong> This was a 5-question <strong>Smoke Test</strong>. Although your attempts have been successfully saved, a 5-question test is too small to unlock the daily scheduler or boss fights.</p>
+            <p style="margin-top: 0.5rem;"><strong>Recommended Next Action:</strong> Return to the landing page and start the <strong>Full Baseline (200 Questions)</strong> once your database is eligible.</p>
+          </div>
+        `;
+      } else {
+        html += `
+          <div class="next-step-box success" style="border-left: 4px solid var(--color-success); padding: 1rem; background: var(--color-success-light); border-radius: var(--border-radius); margin-bottom: 1.5rem;">
+            <p><strong>Baseline Completed:</strong> Your 200-question Phase 1 Foundation Baseline Exam has been successfully submitted and saved to the SQLite database. Spaced repetition (SM-2) review states have been initialized for these questions.</p>
+          </div>
+        `;
+      }
+      
+      if (weakSections.length > 0) {
+        html += `
+          <div style="margin-bottom: 1.5rem;">
+            <h4 style="font-weight: 600; color: var(--color-error); margin-bottom: 0.5rem;">Weak Areas Detected (&lt; 70% Accuracy)</h4>
+            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.75rem;">According to <strong>Plan.md</strong>, sections below the 70% timed accuracy gate require remediation and cannot unlock boss fights immediately.</p>
+            <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
+              ${weakSections.map(ws => `
+                <li style="margin-bottom: 0.25rem;">
+                  <strong>${escapeHtml(ws.name)}:</strong> ${(ws.pct * 100).toFixed(0)}% accuracy (${ws.correct} / ${ws.total} correct)
+                </li>
+              `).join('')}
+            </ul>
+          </div>
+          
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1rem; border-radius: var(--border-radius);">
+              <h5 style="font-weight: 600; margin-bottom: 0.25rem;">1. Run Diagnostic Grinding</h5>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Probe your weak sections and archetypes on the command line to begin targeted grinding:</p>
+              <code style="font-family: var(--font-mono); font-size: 0.85rem; background: #e2e8f0; padding: 0.2rem 0.4rem; border-radius: 4px; display: block; overflow-x: auto;">ssc-study phase3</code>
+            </div>
+            
+            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1rem; border-radius: var(--border-radius);">
+              <h5 style="font-weight: 600; margin-bottom: 0.25rem;">2. Check Diagnostic Evaluation</h5>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Check the read-only evaluation report to compare predicted paths vs actual recent outcomes:</p>
+              <code style="font-family: var(--font-mono); font-size: 0.85rem; background: #e2e8f0; padding: 0.2rem 0.4rem; border-radius: 4px; display: block; overflow-x: auto;">ssc-study phase3-eval</code>
+            </div>
+            
+            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1rem; border-radius: var(--border-radius);">
+              <h5 style="font-weight: 600; margin-bottom: 0.25rem;">3. View Overall System Readiness</h5>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Monitor your progress across all final-readiness check gates (foundation pulse, archetype floors, CK topic metrics):</p>
+              <code style="font-family: var(--font-mono); font-size: 0.85rem; background: #e2e8f0; padding: 0.2rem 0.4rem; border-radius: 4px; display: block; overflow-x: auto;">ssc-study readiness</code>
+            </div>
+          </div>
+        `;
+      } else {
+        html += `
+          <div style="margin-bottom: 1.5rem;">
+            <h4 style="font-weight: 600; color: var(--color-success); margin-bottom: 0.5rem;">✓ Foundation Gate Cleared!</h4>
+            <p style="font-size: 0.95rem; color: var(--text-secondary);">All sections meet or exceed the 70% timed accuracy threshold. You have unlocked standard daily scheduling and boss fight queues.</p>
+          </div>
+          
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1rem; border-radius: var(--border-radius);">
+              <h5 style="font-weight: 600; margin-bottom: 0.25rem;">1. View Daily Grind Schedule</h5>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Display your exact daily 180-minute schedule (SM-2 reviews, boss fights, memory queues, English blocks):</p>
+              <code style="font-family: var(--font-mono); font-size: 0.85rem; background: #e2e8f0; padding: 0.2rem 0.4rem; border-radius: 4px; display: block; overflow-x: auto;">ssc-study guardian plan</code>
+            </div>
+            
+            <div style="background: var(--bg-paper); border: 1px solid var(--border-color); padding: 1rem; border-radius: var(--border-radius);">
+              <h5 style="font-weight: 600; margin-bottom: 0.25rem;">2. Check System Readiness</h5>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Check your status across all system readiness metrics:</p>
+              <code style="font-family: var(--font-mono); font-size: 0.85rem; background: #e2e8f0; padding: 0.2rem 0.4rem; border-radius: 4px; display: block; overflow-x: auto;">ssc-study readiness</code>
+            </div>
+          </div>
+        `;
+      }
+      
+      nextStepsContent.innerHTML = html;
+    }
   }
 
   // ── Draft persistence (localStorage) ──

@@ -131,10 +131,19 @@
                     </div>
                 </div>
 
-                <div class="section-breakdown-card">
-                    <h2>Section Breakdown</h2>
-                    <div id="result-summary">
-                        <!-- Breakdown table populated by JS -->
+                <div class="results-right-panel" style="display: flex; flex-direction: column; gap: 2rem; flex-grow: 1;">
+                    <div class="section-breakdown-card">
+                        <h2>Section Breakdown</h2>
+                        <div id="result-summary">
+                            <!-- Breakdown table populated by JS -->
+                        </div>
+                    </div>
+
+                    <div class="next-steps-card" style="background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--border-radius); padding: 2.5rem; box-shadow: var(--shadow-lg); display: flex; flex-direction: column; gap: 1.5rem;">
+                        <h2>Product Recommendations &amp; Next Steps</h2>
+                        <div id="next-steps-content">
+                            <!-- Populated dynamically by JS -->
+                        </div>
                     </div>
                 </div>
             </div>

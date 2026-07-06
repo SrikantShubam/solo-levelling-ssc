@@ -64,6 +64,9 @@ ssc-study quiz --session-type mock --count 25
 # SM-2 spaced repetition review
 ssc-study quiz --session-type sm2_review --count 20
 
+# Launch the local web baseline exam console
+ssc-study web --db-path ~/.ssc_study/study.db --host 127.0.0.1 --port 8765
+
 # Show practice reports
 ssc-study report --daily
 ssc-study report --session 1
@@ -105,12 +108,12 @@ ssc-study config --show
 
 | Phase | Status | Description |
 |-------|--------|-------------|
-| Phase 1 | ✅ | PDF acquisition + integrity |
+| Phase 1 | ✅ | PDF acquisition + integrity & Local web baseline exam console |
 | Phase 2 | ✅ | Corpus extraction (all 2355 q) |
 | **Phase 2b** | **✅** | **SQLite, study app, SM-2, embeddings, archetypes, fact cards** |
 | Phase 2c | ✅ | Exam-pattern intelligence (advisory report & combiners) |
 | Phase 3 | ✅ | User diagnostic grinding over attempts and archetypes (deterministic loop & eval) |
-| Phase 4 | 🟡 | Guardian planner v1 — daily schedule and mock cadence report only |
+| Phase 4 | ✅ | Guardian — daily grind scheduler and mock cadence planner |
 
 ## Phase Critic And Implementation Spec
 
