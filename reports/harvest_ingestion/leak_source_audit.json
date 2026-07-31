@@ -1,0 +1,1602 @@
+[
+  {
+    "pdf": "2016_tier1_prepp_2016-08-30_shift3",
+    "questions": 102,
+    "classification": "leaking",
+    "positive_evidence_questions": 58,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "9",
+        "field": "notes",
+        "snippet": "Correct answer is marked with green tick. Candidate answer matches correct answer."
+      },
+      {
+        "question": "10",
+        "field": "notes",
+        "snippet": "Correct answer is marked with green tick. Candidate answer is different."
+      },
+      {
+        "question": "11",
+        "field": "notes",
+        "snippet": "Candidate did not answer. Correct answer is marked with green tick."
+      }
+    ]
+  },
+  {
+    "pdf": "2016_tier1_prepp_2016-09-01_shift2",
+    "questions": 98,
+    "classification": "leaking",
+    "positive_evidence_questions": 34,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick, candidate answer matches."
+      },
+      {
+        "question": "2",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick, candidate answer matches."
+      },
+      {
+        "question": "3",
+        "field": "notes",
+        "snippet": "Candidate did not answer. Correct answer marked with green tick."
+      }
+    ]
+  },
+  {
+    "pdf": "2016_tier1_prepp_2016-09-11_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 74,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick, candidate answer also BOAT. All four options visible."
+      },
+      {
+        "question": "2",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick, candidate answer also RQPO. All four options visible."
+      },
+      {
+        "question": "3",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick, candidate answer also 257. All four options visible."
+      }
+    ]
+  },
+  {
+    "pdf": "2016_tier1_testbook_compilation",
+    "questions": 1428,
+    "classification": "leaking",
+    "positive_evidence_questions": 777,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick, candidate answer also matches."
+      },
+      {
+        "question": "2",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick, candidate did not answer."
+      },
+      {
+        "question": "3",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick, candidate did not answer."
+      }
+    ]
+  },
+  {
+    "pdf": "2017_tier1_prepp_2017-08-10_shift1",
+    "questions": 103,
+    "classification": "leaking",
+    "positive_evidence_questions": 49,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "QID : 1",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, candidate answer marked separately."
+      },
+      {
+        "question": "QID : 2",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, candidate answer marked separately."
+      },
+      {
+        "question": "QID : 3",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, candidate answer marked separately."
+      }
+    ]
+  },
+  {
+    "pdf": "2017_tier1_prepp_2017-08-12_shift1",
+    "questions": 96,
+    "classification": "leaking",
+    "positive_evidence_questions": 50,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "Question and all four options visible; correct and candidate answers marked."
+      },
+      {
+        "question": "3",
+        "field": "notes",
+        "snippet": "Question and all four options visible; correct and candidate answers marked."
+      },
+      {
+        "question": "6",
+        "field": "notes",
+        "snippet": "The correct answer is marked with a green tick, and the candidate answer matches."
+      }
+    ]
+  },
+  {
+    "pdf": "2017_tier1_testbook_compilation",
+    "questions": 2861,
+    "classification": "leaking",
+    "positive_evidence_questions": 532,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "QID : 8",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick."
+      },
+      {
+        "question": "QID : 9",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick."
+      },
+      {
+        "question": "QID : 10",
+        "field": "notes",
+        "snippet": "Correct answer marked with green tick."
+      }
+    ]
+  },
+  {
+    "pdf": "2018_tier1_prepp_2019-06-07_shift1",
+    "questions": 107,
+    "classification": "leaking",
+    "positive_evidence_questions": 63,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "raw_gemini_record",
+        "snippet": "rrect_option_label\": null, \"correct_option_text\": null, \"is_complete_on_page\": true, \"confidence\": \"high\", \"notes\": \"No green tick or red cross visible for this question. Options are labeled a, b, c, d in the image but mapped to 1, 2, 3, 4 per schema.\"}"
+      },
+      {
+        "question": "6",
+        "field": "notes",
+        "snippet": "Answer options visible, but no green tick or red cross is visible for this question on the page. The correct option is not marked."
+      },
+      {
+        "question": "12",
+        "field": "notes",
+        "snippet": "Answer options are visible, but no green tick or red cross is visible to determine correct or chosen option. The question is incomplete on this page as the answer key section is not shown."
+      }
+    ]
+  },
+  {
+    "pdf": "2018_tier1_testbook_compilation",
+    "questions": 1369,
+    "classification": "leaking",
+    "positive_evidence_questions": 708,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Other options marked with red cross."
+      },
+      {
+        "question": "2",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Other options marked with red cross."
+      },
+      {
+        "question": "3",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Other options marked with red cross."
+      }
+    ]
+  },
+  {
+    "pdf": "2019_tier1_prepp_2020-03-06_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 35,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "123568330",
+        "field": "notes",
+        "snippet": "The question contains a 3x3 grid with numbers, and the correct answer is marked with a green check next to option 4."
+      },
+      {
+        "question": "123568317",
+        "field": "notes",
+        "snippet": "The correct answer is marked with a green check next to option 1."
+      },
+      {
+        "question": "123568318",
+        "field": "notes",
+        "snippet": "The correct answer is marked with a green check next to option 2."
+      }
+    ]
+  },
+  {
+    "pdf": "2019_tier1_prepp_2020-03-07",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 41,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "816161643",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not selected."
+      },
+      {
+        "question": "816161632",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option matches correct option."
+      },
+      {
+        "question": "816161629",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option matches correct option."
+      }
+    ]
+  },
+  {
+    "pdf": "2019_tier2_prepp_2020-11-15_quant_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 44,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "8161615279",
+        "field": "notes",
+        "snippet": "Green tick on option 3; red crosses on others."
+      },
+      {
+        "question": "8161615338",
+        "field": "notes",
+        "snippet": "Green tick on option 1; red crosses on others. Status: Not Answered."
+      },
+      {
+        "question": "8161615296",
+        "field": "notes",
+        "snippet": "Green tick on option 3; red crosses on others. Status: Not Answered."
+      }
+    ]
+  },
+  {
+    "pdf": "2020_tier2_prepp_2022-01-29_quant",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 48,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "65497837489",
+        "field": "notes",
+        "snippet": "Green checkmark on option 2 indicates correct answer. Chosen option is also 2."
+      },
+      {
+        "question": "65497837512",
+        "field": "notes",
+        "snippet": "Green checkmark on option 3 indicates correct answer. Chosen option is not selected."
+      },
+      {
+        "question": "65497837496",
+        "field": "notes",
+        "snippet": "Green checkmark on option 2 indicates correct answer. Chosen option is not selected."
+      }
+    ]
+  },
+  {
+    "pdf": "2020_tier2_prepp_2022-02-03_english",
+    "questions": 200,
+    "classification": "leaking",
+    "positive_evidence_questions": 90,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "65497840296",
+        "field": "notes",
+        "snippet": "Question is part of a comprehension passage with blank (1) to be filled. Correct option is marked with green check, chosen option is 2."
+      },
+      {
+        "question": "65497840297",
+        "field": "notes",
+        "snippet": "Question is part of a comprehension passage with blank (2) to be filled. Correct option is marked with green check, chosen option is 3."
+      },
+      {
+        "question": "65497840300",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick; chosen option matches correct option."
+      }
+    ]
+  },
+  {
+    "pdf": "2020_tier2_prepp_2022-02-03_english_akey",
+    "questions": 335,
+    "classification": "leaking",
+    "positive_evidence_questions": 162,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "blanks are cut off. Answer choices are labeled a, b, c, d in the image, but we map them to 1, 2, 3, 4 as per schema. No green tick or red cross is visible for this question."
+      },
+      {
+        "question": "2",
+        "field": "notes",
+        "snippet": "Correct option is marked with green tick. Chosen option is not visible."
+      },
+      {
+        "question": "8",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Question is about blank no. 7 in the passage."
+      }
+    ]
+  },
+  {
+    "pdf": "2021_tier1_prepp_2022-04-11_shift1_en",
+    "questions": 101,
+    "classification": "leaking",
+    "positive_evidence_questions": 61,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick."
+      },
+      {
+        "question": "3",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not marked."
+      },
+      {
+        "question": "4",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not marked."
+      }
+    ]
+  },
+  {
+    "pdf": "2021_tier1_prepp_2022-04-11_shift3",
+    "questions": 107,
+    "classification": "leaking",
+    "positive_evidence_questions": 69,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "Question 1 is fully visible. Answer options are labeled a, b, c, d but converted to 1,2,3,4 as per schema. No green tick or red cross visible in the provided image, so correct and chosen options are null."
+      },
+      {
+        "question": "2",
+        "field": "notes",
+        "snippet": "Question 2 is fully visible. Answer options are labeled a, b, c, d but converted to 1,2,3,4 as per schema. No green tick or red cross visible in the provided image, so correct and chosen options are null."
+      },
+      {
+        "question": "6",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick; chosen option not marked."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-01_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 34,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330105153",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, chosen option matches correct option."
+      },
+      {
+        "question": "26433067302",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, chosen option matches correct option."
+      },
+      {
+        "question": "26433056807",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, chosen option matches correct option."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-02_shift1",
+    "questions": 95,
+    "classification": "leaking",
+    "positive_evidence_questions": 27,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433080558",
+        "field": "notes",
+        "snippet": "All four options are visible as figures. The correct option is marked with a green check, and chosen option is 4 as indicated in the status box."
+      },
+      {
+        "question": "26433057861",
+        "field": "notes",
+        "snippet": "The question involves a figure series with a sequence of symbols (circle, arrow, letter W) and their positions. The correct answer is marked with a green check, and the chosen option matches it."
+      },
+      {
+        "question": "264330105124",
+        "field": "notes",
+        "snippet": "The question asks which equation becomes incorrect when + and – are interchanged. The correct answer is marked with a green check, indicating option 3 is the correct choice."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-02_shift2",
+    "questions": 95,
+    "classification": "leaking",
+    "positive_evidence_questions": 31,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433087182",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option matches correct option."
+      },
+      {
+        "question": "26433067335",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option matches correct option."
+      },
+      {
+        "question": "26433070245",
+        "field": "notes",
+        "snippet": "nt positions. The answer options are listed under 'Ans' with red crosses for incorrect and green check for correct. The correct option is marked with a green check, and the chosen option matches it."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-02_shift3",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 41,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330105019",
+        "field": "notes",
+        "snippet": "Green checkmark on option 2 indicates correct answer. Chosen option is also 2."
+      },
+      {
+        "question": "26433065662",
+        "field": "notes",
+        "snippet": "Green checkmark on option 1 indicates correct answer. Chosen option is also 1."
+      },
+      {
+        "question": "264330105134",
+        "field": "notes",
+        "snippet": "Green checkmark on option 2 indicates correct answer. Chosen option is also 2."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-02_shift4",
+    "questions": 95,
+    "classification": "leaking",
+    "positive_evidence_questions": 28,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433080553",
+        "field": "notes",
+        "snippet": "The question involves a paper folding and cutting problem. The correct answer is marked with a green check, and the chosen option matches it."
+      },
+      {
+        "question": "26433068415",
+        "field": "notes",
+        "snippet": "The question asks for an analogy. The correct answer is marked with a green check, and the chosen option matches it."
+      },
+      {
+        "question": "26433080507",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check. The question involves a figure series with 6 boxes, the last being a question mark. The options are figures with dots and lines."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-06_shift1",
+    "questions": 97,
+    "classification": "leaking",
+    "positive_evidence_questions": 24,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433069243",
+        "field": "notes",
+        "snippet": "Green tick on option 2 indicates correct answer. Chosen option is also 2."
+      },
+      {
+        "question": "26433057187",
+        "field": "notes",
+        "snippet": "Green tick on option 3 indicates correct answer. Chosen option is also 3."
+      },
+      {
+        "question": "26433066021",
+        "field": "notes",
+        "snippet": "Green tick on option 2 indicates correct answer. Chosen option is also 2."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-06_shift3",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 24,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330104795",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check. Chosen option matches correct option."
+      },
+      {
+        "question": "26433070442",
+        "field": "notes",
+        "snippet": "All four options are figures; labeled as Figure 1 to Figure 4. Correct option marked with green tick. Chosen option is 3, matching correct option."
+      },
+      {
+        "question": "26433068975",
+        "field": "notes",
+        "snippet": "Figure series question with 4 figure options; correct option marked with green tick; chosen option is 1."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-07_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 25,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433069145",
+        "field": "notes",
+        "snippet": "Figure series question with diamond shapes; options are visual figures labeled 1-4. Green check on option 3 indicates correct answer."
+      },
+      {
+        "question": "26433059850",
+        "field": "notes",
+        "snippet": "Letter cluster series question. Option 1 marked with green check, indicating correct answer."
+      },
+      {
+        "question": "26433074562",
+        "field": "notes",
+        "snippet": "Numerical relationship question. Option 1 marked with green check, indicating correct answer."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-08_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 26,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433070244",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not selected."
+      },
+      {
+        "question": "26433059932",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not selected."
+      },
+      {
+        "question": "26433069143",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option is 3, which matches the correct answer."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-08_shift4",
+    "questions": 97,
+    "classification": "leaking",
+    "positive_evidence_questions": 28,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433068911",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check. The chosen option matches the correct option."
+      },
+      {
+        "question": "26433057524",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check. The chosen option is different from the correct option."
+      },
+      {
+        "question": "26433065663",
+        "field": "notes",
+        "snippet": "Green tick on option 1, red crosses on others. Chosen option matches correct option."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-12_shift4",
+    "questions": 295,
+    "classification": "leaking",
+    "positive_evidence_questions": 113,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433068596",
+        "field": "notes",
+        "snippet": "Green checkmark on option 2, red cross on others. Chosen option is 2 as per status box."
+      },
+      {
+        "question": "264330105112",
+        "field": "notes",
+        "snippet": "Green checkmark on option 2, red cross on others. Chosen option is 2 as per status box."
+      },
+      {
+        "question": "26433069005",
+        "field": "notes",
+        "snippet": "Green checkmark on option 3, red cross on others. Chosen option is 3 as per status box."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-13_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 45,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433068912",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check. All four options are figures, labeled as Figure 1 to Figure 4."
+      },
+      {
+        "question": "26433069122",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check. The chosen option is also 3, matching the correct answer."
+      },
+      {
+        "question": "26433059888",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check. The chosen option is also 4, matching the correct answer."
+      }
+    ]
+  },
+  {
+    "pdf": "2022_tier1_prepp_2022-12-13_shift3",
+    "questions": 195,
+    "classification": "leaking",
+    "positive_evidence_questions": 66,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433087184",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option is not selected (status: Not Answered)."
+      },
+      {
+        "question": "26433067819",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option matches correct option."
+      },
+      {
+        "question": "26433069001",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option matches correct option."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-14_shift1",
+    "questions": 98,
+    "classification": "leaking",
+    "positive_evidence_questions": 35,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433089778",
+        "field": "notes",
+        "snippet": "des a complex geometric figure with concentric shapes inside a hexagon. The answer options are four triangular figures. Option 2 is marked with a green check, indicating it is correct. The chosen option is also 2, as indicated in the status box."
+      },
+      {
+        "question": "264330118669",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick; chosen option is 1, but correct is 3."
+      },
+      {
+        "question": "26433091689",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick; chosen option is 2, but correct is 4. Option 2 and 4 are visually identical, but marked differently."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-14_shift4",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 36,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330131666",
+        "field": "notes",
+        "snippet": "All four options are Venn diagrams. Option 3 is marked with a green check, indicating it is correct. Chosen option is 3, matching the correct answer."
+      },
+      {
+        "question": "26433089586",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, chosen option matches correct option."
+      },
+      {
+        "question": "26433090056",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, chosen option matches correct option."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-17_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 51,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433069035",
+        "field": "notes",
+        "snippet": "Green tick on option 4, red crosses on others."
+      },
+      {
+        "question": "26433068688",
+        "field": "notes",
+        "snippet": "Green tick on option 4, red crosses on others."
+      },
+      {
+        "question": "26433082872",
+        "field": "notes",
+        "snippet": "Green tick on option 1, red crosses on others. Chosen option is not selected (indicated by '--')."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-17_shift3",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 43,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433078948",
+        "field": "notes",
+        "snippet": "Green tick on option 1 indicates correct answer. Chosen option is also 1."
+      },
+      {
+        "question": "26433057781",
+        "field": "notes",
+        "snippet": "Green tick on option 2 indicates correct answer. Chosen option is also 2."
+      },
+      {
+        "question": "264330144432",
+        "field": "notes",
+        "snippet": "Green tick on option 1 indicates correct answer. Chosen option is also 1."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-17_shift4",
+    "questions": 97,
+    "classification": "leaking",
+    "positive_evidence_questions": 40,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433068024",
+        "field": "notes",
+        "snippet": "Dice figures are present; option 1 is marked with green tick as correct, chosen option is 1."
+      },
+      {
+        "question": "26433082458",
+        "field": "notes",
+        "snippet": "Option 2 is marked with green tick as correct, chosen option is 2."
+      },
+      {
+        "question": "26433066050",
+        "field": "notes",
+        "snippet": "Green tick on option 1, red crosses on others. Chosen option matches correct option."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-18_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 28,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330101179",
+        "field": "notes",
+        "snippet": "The question involves a paper folding and cutting problem. The correct answer is marked with a green check, and the chosen option matches it. All four options are figures, labeled as Figure 1 to Figure 4 for clarity."
+      },
+      {
+        "question": "26433083102",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check, and the chosen option matches it. All four options are figures, labeled as Figure 1 to Figure 4."
+      },
+      {
+        "question": "264330103202",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check, and the chosen option matches. All four options are figures as per visual content."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-18_shift2",
+    "questions": 96,
+    "classification": "leaking",
+    "positive_evidence_questions": 41,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330122391",
+        "field": "notes",
+        "snippet": "Green tick on option 2 indicates correct answer. Chosen option is also 2."
+      },
+      {
+        "question": "26433067403",
+        "field": "notes",
+        "snippet": "Green tick on option 1 indicates correct answer. Chosen option is also 1."
+      },
+      {
+        "question": "264330103173",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option matches correct option."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-18_shift4",
+    "questions": 96,
+    "classification": "leaking",
+    "positive_evidence_questions": 32,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433090019",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option matches correct option."
+      },
+      {
+        "question": "26433090932",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option matches correct option."
+      },
+      {
+        "question": "26433068184",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check. All four options are figures."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-19_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 33,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433090151",
+        "field": "notes",
+        "snippet": "Mirror image question with visual elements. Option 3 is marked with green check as correct. Option 1, 2, and 4 are marked with red crosses."
+      },
+      {
+        "question": "26433080413",
+        "field": "notes",
+        "snippet": "Number analogy question. Option 2 is marked with green check as correct. Options 1, 3, and 4 are marked with red crosses."
+      },
+      {
+        "question": "264330102303",
+        "field": "notes",
+        "snippet": "Analogy question. Option 4 is marked with green check as correct. Options 1, 2, and 3 are marked with red crosses."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-19_shift3",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 41,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433082466",
+        "field": "notes",
+        "snippet": "Green tick on option 1, red crosses on others. Chosen option is 2 as per response box."
+      },
+      {
+        "question": "264330104097",
+        "field": "notes",
+        "snippet": "Green tick on option 3, red crosses on others. Chosen option is 3 as per response box."
+      },
+      {
+        "question": "264330143785",
+        "field": "notes",
+        "snippet": "Green tick on option 1, red crosses on others. Chosen option is 1 as per response box."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-19_shift4",
+    "questions": 93,
+    "classification": "leaking",
+    "positive_evidence_questions": 50,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330143837",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check. The chosen option matches the correct option. All four answer options are visible and extracted as text representations of the figures."
+      },
+      {
+        "question": "26433096029",
+        "field": "notes",
+        "snippet": "Figures 1, 2, and 3 are shown as dice with numbers. The correct answer is marked with a green tick next to option 1."
+      },
+      {
+        "question": "26433069461",
+        "field": "notes",
+        "snippet": "The correct answer is marked with a green tick next to option 1."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-21_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 39,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433068016",
+        "field": "notes",
+        "snippet": "Green tick indicates correct option; red crosses indicate incorrect options. Chosen option matches correct option."
+      },
+      {
+        "question": "26433067421",
+        "field": "notes",
+        "snippet": "Problem figure is a 2x2 grid with shapes and letters. Options are figures. Correct option is marked with green check, chosen option is 3."
+      },
+      {
+        "question": "264330122470",
+        "field": "notes",
+        "snippet": "Correct option marked with green check, chosen option is 4."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-21_shift1_alt",
+    "questions": 101,
+    "classification": "leaking",
+    "positive_evidence_questions": 53,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "raw_gemini_record",
+        "snippet": "rrect_option_label\": null, \"correct_option_text\": null, \"is_complete_on_page\": true, \"confidence\": \"high\", \"notes\": \"No green tick or red cross visible for this question; answer options are listed as a, b, c, d, but the response sheet field is not visible.\"}"
+      },
+      {
+        "question": "5",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green tick. The dice figures are labeled Figure 1, Figure 2, and Figure 3."
+      },
+      {
+        "question": "6",
+        "field": "raw_gemini_record",
+        "snippet": "rrect_option_label\": null, \"correct_option_text\": null, \"is_complete_on_page\": true, \"confidence\": \"high\", \"notes\": \"No green tick or red cross is visible for this question; thus, correct option cannot be determined from visual cues.\"}"
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-21_shift3",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 46,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433085792",
+        "field": "notes",
+        "snippet": "The question involves selecting a figure to complete a pattern. The correct option is marked with a green tick, and the chosen option matches it. All four options are figures, labeled as Figure 1 to Figure 4."
+      },
+      {
+        "question": "26433078954",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick; chosen option is 3, which matches correct answer."
+      },
+      {
+        "question": "26433090929",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick; chosen option is 3, which matches correct answer."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-21_shift4",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 48,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330104101",
+        "field": "notes",
+        "snippet": "Green tick on option 2 indicates correct answer. Chosen option is also 2."
+      },
+      {
+        "question": "26433086978",
+        "field": "notes",
+        "snippet": "Green tick on option 3 indicates correct answer. Chosen option is also 3."
+      },
+      {
+        "question": "26433057942",
+        "field": "notes",
+        "snippet": "Green tick on option 4 indicates correct answer. Chosen option is 1."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-24_shift3",
+    "questions": 96,
+    "classification": "leaking",
+    "positive_evidence_questions": 41,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330143700",
+        "field": "notes",
+        "snippet": "Green checkmark indicates correct option; red crosses indicate incorrect options. Chosen option matches correct option."
+      },
+      {
+        "question": "264330143834",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check. The chosen option matches the correct option. All four options are visible and extracted as figures."
+      },
+      {
+        "question": "26433087187",
+        "field": "notes",
+        "snippet": "Green check mark indicates correct answer; red crosses indicate incorrect answers. Chosen option matches correct option."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-24_shift4",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 38,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433069460",
+        "field": "notes",
+        "snippet": "Green tick on option 2 indicates correct answer. Chosen option is also 2."
+      },
+      {
+        "question": "26433057068",
+        "field": "notes",
+        "snippet": "Green tick on option 4 indicates correct answer. Status is 'Not Answered', so no chosen option."
+      },
+      {
+        "question": "264330120834",
+        "field": "notes",
+        "snippet": "Green tick on option 1 indicates correct answer. Chosen option is also 1."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-25_shift1",
+    "questions": 94,
+    "classification": "leaking",
+    "positive_evidence_questions": 28,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330122146",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, chosen option matches."
+      },
+      {
+        "question": "26433087312",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, chosen option matches."
+      },
+      {
+        "question": "26433090912",
+        "field": "notes",
+        "snippet": "Venn diagrams are represented as figures; option 2 is marked with a green tick as correct."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-25_shift4",
+    "questions": 95,
+    "classification": "leaking",
+    "positive_evidence_questions": 38,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330103142",
+        "field": "notes",
+        "snippet": "Note: Option 2 and 3 appear identical in the image, but based on visual marking, option 3 is marked correct. The text is rendered identically for both, but the system marks option 3 as correct."
+      },
+      {
+        "question": "26433085383",
+        "field": "notes",
+        "snippet": "volves a figure series with four boxes showing symbols and numbers. The answer options are figures labeled 1 to 4, with option 3 marked correct by a green tick. The chosen option is also 3."
+      },
+      {
+        "question": "26433057090",
+        "field": "notes",
+        "snippet": "rs related in the same way as the given sets (12, 5, 29) and (19, 12, 50). The answer options are four sets of numbers. Option 3 is marked correct with a green tick. The status indicates 'Not Attempted and Marked For Review', so no chosen option is recorded."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-26_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 45,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330143832",
+        "field": "notes",
+        "snippet": "nvolves a figure series with five boxes, the last containing a question mark. The answer options are four figures, with option 4 marked with a green check as correct. The chosen option is also 4."
+      },
+      {
+        "question": "26433097216",
+        "field": "notes",
+        "snippet": "The equation is given as 4 + 2 ÷ 7 + 8 × 9 = 25. The answer options are four pairs of number and sign interchanges. Option 3 is marked with a green check as correct, and chosen option is also 3."
+      },
+      {
+        "question": "26433069533",
+        "field": "notes",
+        "snippet": "Green tick on option 1 indicates correct answer. Chosen option is also 1."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-26_shift4",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 44,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433097428",
+        "field": "notes",
+        "snippet": "Venn diagrams are represented as figures; option 3 is marked with green tick as correct, chosen option is also 3."
+      },
+      {
+        "question": "26433082628",
+        "field": "notes",
+        "snippet": "Option 1 is marked with green tick as correct, chosen option is also 1."
+      },
+      {
+        "question": "26433079015",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick; chosen option matches correct option."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-27_shift1",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 36,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433069591",
+        "field": "notes",
+        "snippet": "Problem figure is a square with four triangles pointing inward and 'B E' in center. Answer options are mirror images. Option 3 is marked with green tick as correct. Chosen option is 3."
+      },
+      {
+        "question": "264330129757",
+        "field": "notes",
+        "snippet": "Numerical coding question. Option 2 is marked with green tick as correct. Chosen option is 2."
+      },
+      {
+        "question": "26433092559",
+        "field": "notes",
+        "snippet": "Green tick on option 2, red crosses on others."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier1_prepp_2023-07-27_shift2",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 38,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "26433076559",
+        "field": "notes",
+        "snippet": "The question involves a figure series with stars and arrows. The correct answer is marked with a green check, and the chosen option is also 4. All four options are figures, labeled as Figure 1 to Figure 4 for consistency."
+      },
+      {
+        "question": "26433067455",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check, and the chosen option matches it. All four options are figures, labeled as Figure 1 to Figure 4."
+      },
+      {
+        "question": "264330145432",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check, and the chosen option matches it. All four options are text-based."
+      }
+    ]
+  },
+  {
+    "pdf": "2023_tier2_prepp_2023-10-26_shift1",
+    "questions": 147,
+    "classification": "leaking",
+    "positive_evidence_questions": 58,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "264330171141",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, chosen option is 3."
+      },
+      {
+        "question": "264330171139",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick, chosen option is 4."
+      },
+      {
+        "question": "264330171718",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option is also 2."
+      }
+    ]
+  },
+  {
+    "pdf": "2024_tier1_prepp_2024-09-09_shift1",
+    "questions": 105,
+    "classification": "leaking",
+    "positive_evidence_questions": 68,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "Correct option is marked with green tick (option 3). Chosen option not marked. All four options visible."
+      },
+      {
+        "question": "5",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not visible."
+      },
+      {
+        "question": "6",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not visible."
+      }
+    ]
+  },
+  {
+    "pdf": "2024_tier1_prepp_2024-09-09_shift2",
+    "questions": 102,
+    "classification": "leaking",
+    "positive_evidence_questions": 57,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "4",
+        "field": "notes",
+        "snippet": "Question stem is incomplete; likely continuation of a previous question. No answer options are marked with green tick or red cross. Only four options visible, but no indication of correct or chosen answer."
+      },
+      {
+        "question": "5",
+        "field": "notes",
+        "snippet": "No answer options are marked with green tick or red cross. The question is complete on this page, but correct and chosen options are not visually indicated."
+      },
+      {
+        "question": "9",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick (NG23). Chosen option not marked. All four options visible."
+      }
+    ]
+  },
+  {
+    "pdf": "2024_tier1_prepp_2024-09-10_shift1",
+    "questions": 99,
+    "classification": "leaking",
+    "positive_evidence_questions": 61,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "4",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not visible."
+      },
+      {
+        "question": "5",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not visible."
+      },
+      {
+        "question": "7",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick; chosen option not marked."
+      }
+    ]
+  },
+  {
+    "pdf": "2024_tier1_prepp_2024-09-10_shift3",
+    "questions": 97,
+    "classification": "leaking",
+    "positive_evidence_questions": 57,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "No green tick or red cross visible for this question; answer choices are listed as a, b, c, d but no selection or correctness indicator is shown."
+      },
+      {
+        "question": "2",
+        "field": "notes",
+        "snippet": "No green tick or red cross visible for this question; answer choices are listed as a, b, c, d but no selection or correctness indicator is shown."
+      },
+      {
+        "question": "3",
+        "field": "notes",
+        "snippet": "No green tick or red cross visible for this question; answer choices are listed as a, b, c, d but no selection or correctness indicator is shown."
+      }
+    ]
+  },
+  {
+    "pdf": "2024_tier1_prepp_2024-09-11_shift2",
+    "questions": 104,
+    "classification": "leaking",
+    "positive_evidence_questions": 64,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "Question 1 is visible but answer options are not marked with green tick or red cross, so correct option cannot be determined. Chosen option is not marked either."
+      },
+      {
+        "question": "2",
+        "field": "notes",
+        "snippet": "Question 2 is visible but answer options are not marked with green tick or red cross, so correct option cannot be determined. Chosen option is not marked either."
+      },
+      {
+        "question": "4",
+        "field": "raw_gemini_record",
+        "snippet": "label\": null, \"correct_option_text\": null, \"is_complete_on_page\": true, \"confidence\": \"low\", \"notes\": \"No answer marks (green tick or red cross) are visible for this question. The question is presented without an 'Ans' block or any indication of correct/selected options.\"}"
+      }
+    ]
+  },
+  {
+    "pdf": "2024_tier1_prepp_2024-09-24_shift1",
+    "questions": 108,
+    "classification": "leaking",
+    "positive_evidence_questions": 65,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "3",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not marked."
+      },
+      {
+        "question": "4",
+        "field": "notes",
+        "snippet": "Correct option marked with green tick. Chosen option not marked."
+      },
+      {
+        "question": "7",
+        "field": "notes",
+        "snippet": "Correct option is marked with a green tick. Chosen option is not marked."
+      }
+    ]
+  },
+  {
+    "pdf": "2024_tier1_prepp_2024-09-25_shift3",
+    "questions": 100,
+    "classification": "leaking",
+    "positive_evidence_questions": 41,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "630680306827",
+        "field": "notes",
+        "snippet": "Mirror image question with figure-based options. Option 2 is marked with green check as correct. Chosen option is also 2."
+      },
+      {
+        "question": "630680356667",
+        "field": "notes",
+        "snippet": "Mirror image question with figure shown. Correct option marked with green tick. Option 3 is both chosen and correct."
+      },
+      {
+        "question": "630680163578",
+        "field": "notes",
+        "snippet": "Code language question with arithmetic operations to be interchanged. Correct option marked with green tick. Option 1 is both chosen and correct."
+      }
+    ]
+  },
+  {
+    "pdf": "2024_tier1_prepp_2024-09-26_shift2",
+    "questions": 98,
+    "classification": "leaking",
+    "positive_evidence_questions": 58,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "630680332539",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check, and the chosen option matches it. All four options are figures and are extracted as such."
+      },
+      {
+        "question": "630680327765",
+        "field": "notes",
+        "snippet": "The correct option is marked with a green check, and the chosen option matches it. All four options are visible and extracted."
+      },
+      {
+        "question": "630680366397",
+        "field": "notes",
+        "snippet": "The question involves a paper folding and punching problem. The correct answer is marked with a green check (✓) next to option 2. The chosen option is also 2, as indicated in the status box. All four options are visual figures, described as Figure 1, Figure 2, Figure 3, Figure 4 for cla"
+      }
+    ]
+  },
+  {
+    "pdf": "2024_tier2_prepp_2025-01-18_paper1",
+    "questions": 161,
+    "classification": "leaking",
+    "positive_evidence_questions": 85,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "raw_gemini_record",
+        "snippet": "rrect_option_label\": null, \"correct_option_text\": null, \"is_complete_on_page\": true, \"confidence\": \"high\", \"notes\": \"No green tick or red cross visible for this question; answer choices are listed as a, b, c, d.\"}"
+      },
+      {
+        "question": "2",
+        "field": "raw_gemini_record",
+        "snippet": "rrect_option_label\": null, \"correct_option_text\": null, \"is_complete_on_page\": true, \"confidence\": \"high\", \"notes\": \"No green tick or red cross visible for this question; answer choices are listed as a, b, c, d.\"}"
+      },
+      {
+        "question": "3",
+        "field": "raw_gemini_record",
+        "snippet": "rrect_option_label\": null, \"correct_option_text\": null, \"is_complete_on_page\": true, \"confidence\": \"high\", \"notes\": \"No green tick or red cross visible for this question; answer choices are listed as a, b, c, d.\"}"
+      }
+    ]
+  },
+  {
+    "pdf": "2024_tier2_prepp_2025-01-20_paper1",
+    "questions": 158,
+    "classification": "leaking",
+    "positive_evidence_questions": 90,
+    "confidence": "high",
+    "method": "extracted evidence fields positive marked-answer language; manifest unavailable locally",
+    "samples": [
+      {
+        "question": "1",
+        "field": "notes",
+        "snippet": "No green tick or red cross visible for this question. Answer choices are labeled a, b, c, d but no marking indicates correct or chosen answer."
+      },
+      {
+        "question": "2",
+        "field": "notes",
+        "snippet": "No green tick or red cross visible for this question. Answer choices are labeled a, b, c, d but no marking indicates correct or chosen answer."
+      },
+      {
+        "question": "3",
+        "field": "notes",
+        "snippet": "No green tick or red cross visible for this question. Answer choices are labeled a, b, c, d but no marking indicates correct or chosen answer. Option 'd' is not visible in the image, so it is inferred as '21:15' to complete the set of four options as per rules."
+      }
+    ]
+  }
+]

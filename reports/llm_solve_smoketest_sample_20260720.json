@@ -1,0 +1,761 @@
+{
+  "seed": 20260720,
+  "pool_counts": {
+    "Quant/DI": 2747,
+    "Reasoning": 548,
+    "English": 972
+  },
+  "excluded_gk_ga": true,
+  "sample": [
+    {
+      "n": 1,
+      "question_id": "harvest_2016_tier1_testbook_compilation_q724",
+      "section": "Quant/DI",
+      "stored_answer": "1",
+      "question_text": "In the following question, out of the four alternatives, choose the word which is opposite in meaning to the given word and click the button corresponding to it.\n\nGREGARIOUS",
+      "options": [
+        {
+          "label": "1",
+          "text": "UNSOCIALE"
+        },
+        {
+          "label": "2",
+          "text": "UNSYPATHETIC"
+        },
+        {
+          "label": "3",
+          "text": "UNGRATEFUL"
+        },
+        {
+          "label": "4",
+          "text": "UNATTRACTIVE"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "question_id": "harvest_2017_tier1_testbook_compilation_q2515",
+      "section": "Quant/DI",
+      "stored_answer": "2",
+      "question_text": "Rashmi said to me, \"Where is the telephone exchange\"?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Rashmi asked me that where the telephone exchange was."
+        },
+        {
+          "label": "2",
+          "text": "Rashmi asked me where the telephone exchange was."
+        },
+        {
+          "label": "3",
+          "text": "Rashmi asked me where was the telephone exchange."
+        },
+        {
+          "label": "4",
+          "text": "Rashmi wanted to know where the telephone exchange was."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "question_id": "harvest_2017_tier1_testbook_compilation_q2444",
+      "section": "Quant/DI",
+      "stored_answer": "1",
+      "question_text": "Lord Cornwallis is known for _____.",
+      "options": [
+        {
+          "label": "1",
+          "text": "permanent revenue settlement of Bengal"
+        },
+        {
+          "label": "2",
+          "text": "attacking the caste system"
+        },
+        {
+          "label": "3",
+          "text": "land revenue settlement of United States"
+        },
+        {
+          "label": "4",
+          "text": "ryotwari settlement of Madras"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "question_id": "harvest_2017_tier1_testbook_compilation_q2086",
+      "section": "Quant/DI",
+      "stored_answer": "3",
+      "question_text": "Match the following (Arjuna Award 2016). निम्नलिखित का मिलान कीजिए (अर्जुन पुरस्कार 2016)।",
+      "options": [
+        {
+          "label": "1",
+          "text": "1-b, 2-a, 3-c"
+        },
+        {
+          "label": "2",
+          "text": "1-c, 2-a, 3-b"
+        },
+        {
+          "label": "3",
+          "text": "1-b, 2-c, 3-a"
+        },
+        {
+          "label": "4",
+          "text": "1-c, 2-b, 3-a"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "question_id": "harvest_2017_tier1_testbook_compilation_q2017",
+      "section": "Quant/DI",
+      "stored_answer": "2",
+      "question_text": "In the following question, out of the four alternatives, select the word opposite in meaning to the word given.\nBurgeon",
+      "options": [
+        {
+          "label": "1",
+          "text": "Bolster"
+        },
+        {
+          "label": "2",
+          "text": "Shrivel"
+        },
+        {
+          "label": "3",
+          "text": "Mount"
+        },
+        {
+          "label": "4",
+          "text": "Amplify"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "question_id": "harvest_2017_tier1_testbook_compilation_q308",
+      "section": "Quant/DI",
+      "stored_answer": "3",
+      "question_text": "In the following question, out of the four alternatives, select the alternative which will improve the bracketed part of the sentence. In case no improvement is needed, select \"no improvement\".\nI absolutely must (seen) him, however painful it may be for me.",
+      "options": [
+        {
+          "label": "1",
+          "text": "saw"
+        },
+        {
+          "label": "2",
+          "text": "seeing"
+        },
+        {
+          "label": "3",
+          "text": "see"
+        },
+        {
+          "label": "4",
+          "text": "no improvement"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "question_id": "harvest_2022_tier1_prepp_2022-12-12_shift4_q187",
+      "section": "Quant/DI",
+      "stored_answer": "1",
+      "question_text": "Select the most appropriate ANTONYM of the given word.\n\nJeopardy",
+      "options": [
+        {
+          "label": "1",
+          "text": "Safety"
+        },
+        {
+          "label": "2",
+          "text": "Danger"
+        },
+        {
+          "label": "3",
+          "text": "Precaution"
+        },
+        {
+          "label": "4",
+          "text": "Risk"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "question_id": "harvest_2017_tier1_testbook_compilation_q2183",
+      "section": "Quant/DI",
+      "stored_answer": "3",
+      "question_text": "What is the common name of CaOC12?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Baking Powder"
+        },
+        {
+          "label": "2",
+          "text": "Baking Soda"
+        },
+        {
+          "label": "3",
+          "text": "Bleaching Powder"
+        },
+        {
+          "label": "4",
+          "text": "Washing Soda"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "question_id": "harvest_2016_tier1_testbook_compilation_q233",
+      "section": "Quant/DI",
+      "stored_answer": "1",
+      "question_text": "Select the related word/letters/numbers from the given alternatives:\n\nदिये गये विकल्पों में से संबन्धित शब्द/अक्षरों/संख्या को चुनिए।\n\n12 : 39 :: 15 : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "48"
+        },
+        {
+          "label": "2",
+          "text": "52"
+        },
+        {
+          "label": "3",
+          "text": "39"
+        },
+        {
+          "label": "4",
+          "text": "51"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "question_id": "harvest_2018_tier1_prepp_2019-06-07_shift1_q61",
+      "section": "Quant/DI",
+      "stored_answer": "3",
+      "question_text": "In ΔABC, AD bisects ∠A and intersects BC at D. If BC = a, AC = b and AB = c, then BD = ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "ab/(b + c)"
+        },
+        {
+          "label": "2",
+          "text": "bc/(c + a)"
+        },
+        {
+          "label": "3",
+          "text": "ac/(b + c)"
+        },
+        {
+          "label": "4",
+          "text": "ca/(a + b)"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "question_id": "harvest_2022_tier1_prepp_2022-12-02_shift2_q22",
+      "section": "Reasoning",
+      "stored_answer": "4",
+      "question_text": "In a certain code language, 'DENTIST' is written as 'CDMSHRS' and 'TOOTH' is written as 'SNNSC', how will 'HEALING' be written in that language?",
+      "options": [
+        {
+          "label": "1",
+          "text": "IFBMJOH"
+        },
+        {
+          "label": "2",
+          "text": "GDZMJOH"
+        },
+        {
+          "label": "3",
+          "text": "IFBKHMF"
+        },
+        {
+          "label": "4",
+          "text": "GDZKHMF"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "question_id": "harvest_2017_tier1_prepp_2017-08-12_shift1_q1",
+      "section": "Reasoning",
+      "stored_answer": "1",
+      "question_text": "In the following question, select the related word from the given alternatives.\nMathematics : Formulas : : Chemistry : ?\nनिम्नलिखित प्रश्न में दिए गए विकल्पों में से संबंधित शब्द को चुनिए।\nगणित : सूत्र : : रसायन-शास्त्र : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Reactions\nअभिक्रियाएँ"
+        },
+        {
+          "label": "2",
+          "text": "Organisms\nजीव"
+        },
+        {
+          "label": "3",
+          "text": "Theorems\nप्रमेय"
+        },
+        {
+          "label": "4",
+          "text": "Gravity\nगुरुत्वाकर्षण"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "question_id": "harvest_2017_tier1_testbook_compilation_q539",
+      "section": "Reasoning",
+      "stored_answer": "4",
+      "question_text": "Select the related word from the given alternatives.\nCotton : White :: Coal : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Fire"
+        },
+        {
+          "label": "2",
+          "text": "Mine"
+        },
+        {
+          "label": "3",
+          "text": "Wood"
+        },
+        {
+          "label": "4",
+          "text": "Black"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "question_id": "harvest_2016_tier1_prepp_2016-09-11_shift1_q6",
+      "section": "Reasoning",
+      "stored_answer": "4",
+      "question_text": "For the following questions\nFind the odd word/letters/number pair from the given alternatives.\nदिये गये विकल्पों में से विषम शब्द/ अक्षर/संख्या युग्म चुनिए।",
+      "options": [
+        {
+          "label": "1",
+          "text": "8-11"
+        },
+        {
+          "label": "2",
+          "text": "1-4"
+        },
+        {
+          "label": "3",
+          "text": "7-10"
+        },
+        {
+          "label": "4",
+          "text": "3-5"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "question_id": "harvest_2022_tier1_prepp_2022-12-13_shift3_q21",
+      "section": "Reasoning",
+      "stored_answer": "2",
+      "question_text": "Which of the following numbers will replace the question mark (?) in the given series? 31, ?, 40, 49, 61, 76",
+      "options": [
+        {
+          "label": "1",
+          "text": "36"
+        },
+        {
+          "label": "2",
+          "text": "34"
+        },
+        {
+          "label": "3",
+          "text": "35"
+        },
+        {
+          "label": "4",
+          "text": "37"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "question_id": "harvest_2022_tier1_prepp_2022-12-08_shift4_q4",
+      "section": "Reasoning",
+      "stored_answer": "1",
+      "question_text": "A @ B means ‘A is the sister of B’. A & B means ‘A is the brother of B’. A # B means ‘A is the wife of B’. A ^ B means ‘A is the mother of B’. A + B means ‘A is the mother of B’. If H @ V @ U # W & E ^ X # Z & R ^ S, then which of the following statements is NOT correct?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Z is the maternal grandfather of S."
+        },
+        {
+          "label": "2",
+          "text": "W is the husband of U."
+        },
+        {
+          "label": "3",
+          "text": "E is the mother-in-law of Z."
+        },
+        {
+          "label": "4",
+          "text": "U is the sister of H."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "question_id": "2024_tier1_prepp_shift1_q13",
+      "section": "Reasoning",
+      "stored_answer": "1",
+      "question_text": "Three of the following four options are alike in a certain way and thus form a group. Which is the one that does NOT belong to that group?\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits.)",
+      "options": [
+        {
+          "label": "1",
+          "text": "540 - 188 - 128"
+        },
+        {
+          "label": "2",
+          "text": "72 - 284 - 266"
+        },
+        {
+          "label": "3",
+          "text": "81 - 101 - 92"
+        },
+        {
+          "label": "4",
+          "text": "90 - 22 - 12"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "question_id": "harvest_2023_tier1_prepp_2023-07-17_shift4_q18",
+      "section": "Reasoning",
+      "stored_answer": "1",
+      "question_text": "Which of the following numbers will replace the question mark (?) in the given series? 325, 271, 226, ? , 163, 145, 136",
+      "options": [
+        {
+          "label": "1",
+          "text": "190"
+        },
+        {
+          "label": "2",
+          "text": "180"
+        },
+        {
+          "label": "3",
+          "text": "186"
+        },
+        {
+          "label": "4",
+          "text": "196"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "question_id": "harvest_2022_tier1_prepp_2022-12-06_shift3_q16",
+      "section": "Reasoning",
+      "stored_answer": "4",
+      "question_text": "If A + B means that A is the father of B, A – B means that A is the mother of B, A × B means that A is the brother of B then which of the following expression shows that Q is the son of P?",
+      "options": [
+        {
+          "label": "1",
+          "text": "P – R × Q"
+        },
+        {
+          "label": "2",
+          "text": "Q – P × R"
+        },
+        {
+          "label": "3",
+          "text": "P – Q + R"
+        },
+        {
+          "label": "4",
+          "text": "P – Q × R"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "question_id": "harvest_2017_tier1_testbook_compilation_q2143",
+      "section": "Reasoning",
+      "stored_answer": "2",
+      "question_text": "In the following question, select the related number from the given alternatives.\nAKP : 1121256 :: LNO : ?",
+      "options": [
+        {
+          "label": "1",
+          "text": "196125144"
+        },
+        {
+          "label": "2",
+          "text": "144196225"
+        },
+        {
+          "label": "3",
+          "text": "144225196"
+        },
+        {
+          "label": "4",
+          "text": "41521196"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "question_id": "harvest_2020_tier2_prepp_2022-02-03_english_akey_q276",
+      "section": "English",
+      "stored_answer": "1",
+      "question_text": "The correct answer is 'The police arrested four people for cheating.'",
+      "options": [
+        {
+          "label": "1",
+          "text": "The police arrested four people for cheating."
+        },
+        {
+          "label": "2",
+          "text": "Four people were arrested by the police for cheating."
+        },
+        {
+          "label": "3",
+          "text": "The police were arresting four people for cheating."
+        },
+        {
+          "label": "4",
+          "text": "Four people had been arrested by the police for cheating."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "question_id": "harvest_2023_tier1_prepp_2023-07-24_shift4_q90",
+      "section": "English",
+      "stored_answer": "3",
+      "question_text": "Select the most appropriate option to fill in the blank.\nThe room was very_______ .",
+      "options": [
+        {
+          "label": "1",
+          "text": "quit"
+        },
+        {
+          "label": "2",
+          "text": "quilt"
+        },
+        {
+          "label": "3",
+          "text": "quiet"
+        },
+        {
+          "label": "4",
+          "text": "quite"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "question_id": "harvest_2022_tier1_prepp_2022-12-02_shift2_q95",
+      "section": "English",
+      "stored_answer": "3",
+      "question_text": "Select the most appropriate answer to fill in blank 5.",
+      "options": [
+        {
+          "label": "1",
+          "text": "aggravated"
+        },
+        {
+          "label": "2",
+          "text": "confiscated"
+        },
+        {
+          "label": "3",
+          "text": "complicated"
+        },
+        {
+          "label": "4",
+          "text": "authenticated"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "question_id": "harvest_2022_tier1_prepp_2022-12-01_shift1_q94",
+      "section": "English",
+      "stored_answer": "3",
+      "question_text": "Select the most appropriate ANTONYM of the given word.\nHospitality",
+      "options": [
+        {
+          "label": "1",
+          "text": "Complaint"
+        },
+        {
+          "label": "2",
+          "text": "Cordiality"
+        },
+        {
+          "label": "3",
+          "text": "Coldness"
+        },
+        {
+          "label": "4",
+          "text": "Wrathful"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "question_id": "harvest_2023_tier1_prepp_2023-07-21_shift1_alt_q87",
+      "section": "English",
+      "stored_answer": "3",
+      "question_text": "Select the most appropriate synonym of the word given in brackets to fill in the blank.\nShe looked ___________ (luminous) in the diamond necklace.",
+      "options": [
+        {
+          "label": "1",
+          "text": "strident"
+        },
+        {
+          "label": "2",
+          "text": "transcendent"
+        },
+        {
+          "label": "3",
+          "text": "resplendent"
+        },
+        {
+          "label": "4",
+          "text": "impudent"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "question_id": "26433059713",
+      "section": "English",
+      "stored_answer": "3",
+      "question_text": "Select the most appropriate ANTONYM of the given word.\nHospitality",
+      "options": [
+        {
+          "label": "1",
+          "text": "Complaint"
+        },
+        {
+          "label": "2",
+          "text": "Cordiality"
+        },
+        {
+          "label": "3",
+          "text": "Coldness"
+        },
+        {
+          "label": "4",
+          "text": "Wrathful"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "question_id": "81616113413",
+      "section": "English",
+      "stored_answer": "4",
+      "question_text": "Select the most appropriate option to fill in the blank.\n\nIndia is formally moving ahead to ________ 21 MIG-29 and 12 Sukhoi-30MKI fighters from Russia along with upgrades of their existing fleets.",
+      "options": [
+        {
+          "label": "1",
+          "text": "advance"
+        },
+        {
+          "label": "2",
+          "text": "accomplish"
+        },
+        {
+          "label": "3",
+          "text": "achieve"
+        },
+        {
+          "label": "4",
+          "text": "procure"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "question_id": "harvest_2023_tier1_prepp_2023-07-18_shift1_q82",
+      "section": "English",
+      "stored_answer": "1",
+      "question_text": "Select the option that expresses the given sentence in passive voice.\nShe is building a new house.",
+      "options": [
+        {
+          "label": "1",
+          "text": "A new house is being built by her."
+        },
+        {
+          "label": "2",
+          "text": "She had built a new house."
+        },
+        {
+          "label": "3",
+          "text": "She has built a new house."
+        },
+        {
+          "label": "4",
+          "text": "A new house has been built by her."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "question_id": "harvest_2022_tier1_prepp_2022-12-12_shift4_q86",
+      "section": "English",
+      "stored_answer": "4",
+      "question_text": "Rearrange the parts of the sentence in correct order.\nThe absence of\nP. data on the migrant workers was\nQ. formulating effective policy decisions and\nR. preventing the governments from\nS. strategies for the welfare of migrant workers",
+      "options": [
+        {
+          "label": "1",
+          "text": "QPRS"
+        },
+        {
+          "label": "2",
+          "text": "RPQS"
+        },
+        {
+          "label": "3",
+          "text": "PSRQ"
+        },
+        {
+          "label": "4",
+          "text": "PRQS"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "question_id": "harvest_2017_tier1_prepp_2017-08-10_shift1_q87",
+      "section": "English",
+      "stored_answer": "2",
+      "question_text": "In the following question, out of the four alternatives, select the alternative which best expresses the meaning of the idiom/Phrase.\n\nTo go through fire and water",
+      "options": [
+        {
+          "label": "1",
+          "text": "To scold someone"
+        },
+        {
+          "label": "2",
+          "text": "To experience many dangers in order to achieve something"
+        },
+        {
+          "label": "3",
+          "text": "To act without restraints"
+        },
+        {
+          "label": "4",
+          "text": "Something which hurts"
+        }
+      ]
+    }
+  ]
+}

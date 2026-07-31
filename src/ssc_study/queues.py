@@ -18,7 +18,6 @@ from .audit import is_audit_paused
 
 from .db import Database
 from .models import Question
-from .scheduler import _row_to_question as _row_to_question_sched
 
 
 @dataclass
@@ -125,7 +124,7 @@ class QueueManager:
             f"SELECT q.* FROM questions q WHERE {where} ORDER BY RANDOM() LIMIT ?",
             params + [count],
         ).fetchall()
-        return [_row_to_question_sched(r) for r in rows]
+        return [Question.from_row(r) for r in rows]
 
     def _count_active(self) -> int:
         conn = self.db.connect()
@@ -191,7 +190,7 @@ class QueueManager:
             f"AND q.is_holdout = 0 ORDER BY RANDOM() LIMIT ?",
             selected + [count],
         ).fetchall()
-        return [_row_to_question_sched(r) for r in rows]
+        return [Question.from_row(r) for r in rows]
 
     def _count_remediation(self) -> int:
         conn = self.db.connect()
@@ -306,7 +305,7 @@ class QueueManager:
         ).fetchall()
 
         if rows:
-            return [_row_to_question_sched(r) for r in rows]
+            return [Question.from_row(r) for r in rows]
         # Fallback
         return self._active_batch(count, tier, section)
 

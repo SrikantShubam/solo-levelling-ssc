@@ -107,6 +107,10 @@ def _insert_question(
             {"label": "3", "text": "Option C"},
             {"label": "4", "text": "Option D"},
         ]
+    correct_option_text = next(
+        (str(option["text"]) for option in options if str(option["label"]) == str(correct_label)),
+        options[0]["text"],
+    )
     conn.execute(
         """INSERT OR REPLACE INTO questions
            (question_id, pdf_name, source_page, global_question_number,
@@ -114,7 +118,7 @@ def _insert_question(
             correct_option_label, correct_option_text, is_holdout)
            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         (qid, "test_pdf", 1, 1, section, year, tier, text,
-         json.dumps(options), correct_label, options[0]["text"], is_holdout),
+         json.dumps(options), correct_label, correct_option_text, is_holdout),
     )
     conn.commit()
 

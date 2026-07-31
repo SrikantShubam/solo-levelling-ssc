@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import requests
+import pytest
 
 from ssc_corpus.acquisition import _download
 
@@ -41,10 +42,11 @@ def test_download_ssc_legacy_host_disables_tls_verification(
 
     monkeypatch.setattr("ssc_corpus.acquisition.requests.get", fake_get)
 
-    metadata = _download(
-        "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/sample.pdf",
-        tmp_path / "file.pdf",
-    )
+    with pytest.warns(UserWarning, match="SSL verification disabled"):
+        metadata = _download(
+            "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/sample.pdf",
+            tmp_path / "file.pdf",
+        )
 
     assert (tmp_path / "file.pdf").read_bytes() == b"pdf-bytes"
     assert metadata["http_status"] == "200"

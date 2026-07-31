@@ -1,0 +1,193 @@
+{
+  "question_count_current": 2355,
+  "question_count_before": 2355,
+  "changed_existing_count": 0,
+  "protected_before": {
+    "attempts": 410,
+    "sessions": 4,
+    "sm2_state": 204
+  },
+  "protected_current": {
+    "attempts": 410,
+    "sessions": 4,
+    "sm2_state": 204
+  },
+  "protected_unchanged": true,
+  "preflight_current": {
+    "full_ready": true,
+    "required": {
+      "Quant/DI": 80,
+      "Reasoning": 40,
+      "English": 40,
+      "GK/GA": 40
+    },
+    "available": {
+      "Quant/DI": 331,
+      "Reasoning": 274,
+      "English": 631,
+      "GK/GA": 331
+    },
+    "raw_available": {
+      "Quant/DI": 372,
+      "Reasoning": 332,
+      "English": 671,
+      "GK/GA": 389
+    },
+    "quality_exclusions": {
+      "answer_integrity_failure": 13,
+      "unverified_answer": 133,
+      "duplicate_content": 42,
+      "unmaskable_answer_leak": 6,
+      "invalid_options": 3
+    },
+    "missing": {},
+    "smoke_ready": true,
+    "smoke_missing": {}
+  },
+  "collision_count": 236,
+  "collision_samples": [
+    {
+      "question_id": "264330102977",
+      "pdf_name": "2023_tier1_prepp_shift1",
+      "section": "Reasoning",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330104553",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "English",
+      "is_holdout": 1
+    },
+    {
+      "question_id": "264330104577",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "English",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330104623",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "English",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330104889",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "Reasoning",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330104941",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "Reasoning",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330105004",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "Reasoning",
+      "is_holdout": 1
+    },
+    {
+      "question_id": "264330105171",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330105275",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330105318",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 1
+    },
+    {
+      "question_id": "264330105322",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330105359",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 1
+    },
+    {
+      "question_id": "264330105458",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330105473",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330105474",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330105502",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 1
+    },
+    {
+      "question_id": "264330105581",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330105645",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "GK/GA",
+      "is_holdout": 0
+    },
+    {
+      "question_id": "264330105841",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "Quant/DI",
+      "is_holdout": 1
+    },
+    {
+      "question_id": "264330105853",
+      "pdf_name": "2022_tier1_prepp_shift1",
+      "section": "Quant/DI",
+      "is_holdout": 0
+    }
+  ],
+  "duplicate_in_harvest_count": 218,
+  "duplicate_in_harvest_samples": [
+    "QID : 1",
+    "QID : 2",
+    "QID : 18",
+    "27",
+    "29",
+    "54",
+    "56",
+    "60",
+    "65",
+    "66",
+    "68",
+    "3",
+    "QID : 27",
+    "QID : 28",
+    "QID : 29",
+    "31",
+    "32",
+    "57",
+    "91",
+    "94"
+  ]
+}

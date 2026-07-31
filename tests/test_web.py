@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import json
+
 import pytest
 from fastapi.testclient import TestClient
 from ssc_study.web import create_app
@@ -35,6 +37,115 @@ def test_static_assets_served(web_client):
     js_response = web_client.get("/static/app.js")
     assert js_response.status_code == 200
     assert "application/javascript" in js_response.headers["content-type"] or "text/plain" in js_response.headers["content-type"]
+
+
+def test_question_asset_endpoint_serves_db_backed_crop(seeded_db, tmp_path, monkeypatch):
+    monkeypatch.setenv("SSC_QUESTION_ASSET_ROOTS", str(tmp_path))
+    asset = tmp_path / "chart.png"
+    asset.write_bytes(b"\x89PNG\r\n\x1a\nasset")
+    conn = seeded_db.connect()
+    conn.execute(
+        """INSERT OR REPLACE INTO questions
+           (question_id, pdf_name, source_page, global_question_number,
+            section, year, tier, question_text, options_json,
+            correct_option_label, correct_option_text, question_modality,
+            visual_required, question_crop_path)
+           VALUES (?, 'pdf', 1, 999, 'Quant/DI', 2024, 'tier1',
+                   'Use the chart.', ?, '1', 'A', 'graph_chart', 1, ?)""",
+        (
+            "asset_q",
+            json.dumps([
+                {"label": "1", "text": "A"},
+                {"label": "2", "text": "B"},
+                {"label": "3", "text": "C"},
+                {"label": "4", "text": "D"},
+            ]),
+            str(asset),
+        ),
+    )
+    conn.commit()
+    client = TestClient(create_app(seeded_db))
+
+    response = client.get("/api/question-assets/asset_q/crop")
+
+    assert response.status_code == 200
+    assert response.content.startswith(b"\x89PNG")
+    assert response.headers["content-type"] == "image/png"
+
+
+def test_question_asset_endpoint_rejects_existing_image_outside_allowed_roots(seeded_db, tmp_path):
+    asset = tmp_path / "outside.png"
+    asset.write_bytes(b"\x89PNG\r\n\x1a\noutside")
+    conn = seeded_db.connect()
+    conn.execute(
+        """INSERT OR REPLACE INTO questions
+           (question_id, pdf_name, source_page, global_question_number,
+            section, year, tier, question_text, options_json,
+            correct_option_label, correct_option_text, question_modality,
+            visual_required, question_crop_path)
+           VALUES (?, 'pdf', 1, 999, 'Quant/DI', 2024, 'tier1',
+                   'Use the chart.', ?, '1', 'A', 'graph_chart', 1, ?)""",
+        (
+            "outside_asset_q",
+            json.dumps([
+                {"label": "1", "text": "A"},
+                {"label": "2", "text": "B"},
+                {"label": "3", "text": "C"},
+                {"label": "4", "text": "D"},
+            ]),
+            str(asset),
+        ),
+    )
+    conn.commit()
+    client = TestClient(create_app(seeded_db))
+
+    response = client.get("/api/question-assets/outside_asset_q/crop")
+
+    assert response.status_code == 404
+
+
+def test_question_asset_endpoint_rejects_missing_or_unknown_assets(web_client):
+    unknown = web_client.get("/api/question-assets/not-a-question/crop")
+    bad_kind = web_client.get("/api/question-assets/q1/other")
+
+    assert unknown.status_code == 404
+    assert bad_kind.status_code == 404
+
+
+def test_question_asset_endpoint_blocks_leaking_source_page_assets(seeded_db, tmp_path, monkeypatch):
+    monkeypatch.setenv("SSC_QUESTION_ASSET_ROOTS", str(tmp_path))
+    crop = tmp_path / "question_crops_masked" / "masked.png"
+    crop.parent.mkdir(parents=True)
+    crop.write_bytes(b"\x89PNG\r\n\x1a\nmask")
+    page = tmp_path / "page.png"
+    page.write_bytes(b"\x89PNG\r\n\x1a\npage")
+    conn = seeded_db.connect()
+    conn.execute(
+        """INSERT OR REPLACE INTO questions
+           (question_id, pdf_name, source_page, global_question_number,
+            section, year, tier, question_text, options_json,
+            correct_option_label, correct_option_text, question_crop_path, page_asset_path)
+           VALUES (?, ?, 1, 1001, 'Quant/DI', 2024, 'tier1',
+                   'Safe text-only question.', ?, '1', 'A', ?, ?)""",
+        (
+            "leaking_page_q",
+            "2020_tier2_kdcampus_answer_key",
+            json.dumps([
+                {"label": "1", "text": "A"},
+                {"label": "2", "text": "B"},
+                {"label": "3", "text": "C"},
+                {"label": "4", "text": "D"},
+            ]),
+            str(crop),
+            str(page),
+        ),
+    )
+    conn.commit()
+    client = TestClient(create_app(seeded_db))
+
+    response = client.get("/api/question-assets/leaking_page_q/page")
+
+    assert response.status_code == 404
 
 
 def test_preflight_endpoint(web_client):
@@ -272,6 +383,16 @@ def test_frontend_escapes_phase3_section_action_reason(web_client):
     js = response.text
     assert "escapeHtml(ws.action.reason)" in js
     assert "(${ws.action.reason})" not in js
+
+
+def test_frontend_renders_visual_assets_with_error_fallback(web_client):
+    response = web_client.get("/static/app.js")
+    assert response.status_code == 200
+    js = response.text
+    assert "renderQuestionAsset(q)" in js
+    assert "q-asset-image" in js
+    assert "q-asset-error" in js
+    assert "Image failed to load" in js
 
 
 def test_study_summary_endpoint(web_client):

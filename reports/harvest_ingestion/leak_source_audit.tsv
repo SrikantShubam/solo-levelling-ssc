@@ -1,0 +1,65 @@
+pdf	classification	questions	positive_evidence_questions	confidence	sample
+2016_tier1_prepp_2016-08-30_shift3	leaking	102	58	high	Correct answer is marked with green tick. Candidate answer matches correct answer.
+2016_tier1_prepp_2016-09-01_shift2	leaking	98	34	high	Correct answer marked with green tick, candidate answer matches.
+2016_tier1_prepp_2016-09-11_shift1	leaking	100	74	high	Correct answer marked with green tick, candidate answer also BOAT. All four options visible.
+2016_tier1_testbook_compilation	leaking	1428	777	high	Correct answer marked with green tick, candidate answer also matches.
+2017_tier1_prepp_2017-08-10_shift1	leaking	103	49	high	Correct option marked with green tick, candidate answer marked separately.
+2017_tier1_prepp_2017-08-12_shift1	leaking	96	50	high	Question and all four options visible; correct and candidate answers marked.
+2017_tier1_testbook_compilation	leaking	2861	532	high	Correct answer marked with green tick.
+2018_tier1_prepp_2019-06-07_shift1	leaking	107	63	high	"rrect_option_label"": null, ""correct_option_text"": null, ""is_complete_on_page"": true, ""confidence"": ""high"", ""notes"": ""No green tick or red cross visible for this question. Options are labeled a, b, c, d in the image but mapped to 1, 2, 3, 4 per schema.""}"
+2018_tier1_testbook_compilation	leaking	1369	708	high	Correct option marked with green tick. Other options marked with red cross.
+2019_tier1_prepp_2020-03-06_shift1	leaking	100	35	high	The question contains a 3x3 grid with numbers, and the correct answer is marked with a green check next to option 4.
+2019_tier1_prepp_2020-03-07	leaking	100	41	high	Correct option marked with green tick. Chosen option not selected.
+2019_tier2_prepp_2020-11-15_quant_shift1	leaking	100	44	high	Green tick on option 3; red crosses on others.
+2020_tier2_prepp_2022-01-29_quant	leaking	100	48	high	Green checkmark on option 2 indicates correct answer. Chosen option is also 2.
+2020_tier2_prepp_2022-02-03_english	leaking	200	90	high	Question is part of a comprehension passage with blank (1) to be filled. Correct option is marked with green check, chosen option is 2.
+2020_tier2_prepp_2022-02-03_english_akey	leaking	335	162	high	blanks are cut off. Answer choices are labeled a, b, c, d in the image, but we map them to 1, 2, 3, 4 as per schema. No green tick or red cross is visible for this question.
+2021_tier1_prepp_2022-04-11_shift1_en	leaking	101	61	high	Correct option marked with green tick.
+2021_tier1_prepp_2022-04-11_shift3	leaking	107	69	high	Question 1 is fully visible. Answer options are labeled a, b, c, d but converted to 1,2,3,4 as per schema. No green tick or red cross visible in the provided image, so correct and chosen options are null.
+2022_tier1_prepp_2022-12-01_shift1	leaking	100	34	high	Correct option marked with green tick, chosen option matches correct option.
+2022_tier1_prepp_2022-12-02_shift1	leaking	95	27	high	All four options are visible as figures. The correct option is marked with a green check, and chosen option is 4 as indicated in the status box.
+2022_tier1_prepp_2022-12-02_shift2	leaking	95	31	high	Correct option marked with green tick. Chosen option matches correct option.
+2022_tier1_prepp_2022-12-02_shift3	leaking	100	41	high	Green checkmark on option 2 indicates correct answer. Chosen option is also 2.
+2022_tier1_prepp_2022-12-02_shift4	leaking	95	28	high	The question involves a paper folding and cutting problem. The correct answer is marked with a green check, and the chosen option matches it.
+2022_tier1_prepp_2022-12-06_shift1	leaking	97	24	high	Green tick on option 2 indicates correct answer. Chosen option is also 2.
+2022_tier1_prepp_2022-12-06_shift3	leaking	100	24	high	The correct option is marked with a green check. Chosen option matches correct option.
+2022_tier1_prepp_2022-12-07_shift1	leaking	100	25	high	Figure series question with diamond shapes; options are visual figures labeled 1-4. Green check on option 3 indicates correct answer.
+2022_tier1_prepp_2022-12-08_shift1	leaking	100	26	high	Correct option marked with green tick. Chosen option not selected.
+2022_tier1_prepp_2022-12-08_shift4	leaking	97	28	high	The correct option is marked with a green check. The chosen option matches the correct option.
+2022_tier1_prepp_2022-12-12_shift4	leaking	295	113	high	Green checkmark on option 2, red cross on others. Chosen option is 2 as per status box.
+2022_tier1_prepp_2022-12-13_shift1	leaking	100	45	high	The correct option is marked with a green check. All four options are figures, labeled as Figure 1 to Figure 4.
+2022_tier1_prepp_2022-12-13_shift3	leaking	195	66	high	Correct option marked with green tick. Chosen option is not selected (status: Not Answered).
+2023_tier1_prepp_2023-07-14_shift1	leaking	98	35	high	des a complex geometric figure with concentric shapes inside a hexagon. The answer options are four triangular figures. Option 2 is marked with a green check, indicating it is correct. The chosen option is also 2, as indicated in the status box.
+2023_tier1_prepp_2023-07-14_shift4	leaking	100	36	high	All four options are Venn diagrams. Option 3 is marked with a green check, indicating it is correct. Chosen option is 3, matching the correct answer.
+2023_tier1_prepp_2023-07-17_shift1	leaking	100	51	high	Green tick on option 4, red crosses on others.
+2023_tier1_prepp_2023-07-17_shift3	leaking	100	43	high	Green tick on option 1 indicates correct answer. Chosen option is also 1.
+2023_tier1_prepp_2023-07-17_shift4	leaking	97	40	high	Dice figures are present; option 1 is marked with green tick as correct, chosen option is 1.
+2023_tier1_prepp_2023-07-18_shift1	leaking	100	28	high	The question involves a paper folding and cutting problem. The correct answer is marked with a green check, and the chosen option matches it. All four options are figures, labeled as Figure 1 to Figure 4 for clarity.
+2023_tier1_prepp_2023-07-18_shift2	leaking	96	41	high	Green tick on option 2 indicates correct answer. Chosen option is also 2.
+2023_tier1_prepp_2023-07-18_shift4	leaking	96	32	high	Correct option marked with green tick. Chosen option matches correct option.
+2023_tier1_prepp_2023-07-19_shift1	leaking	100	33	high	Mirror image question with visual elements. Option 3 is marked with green check as correct. Option 1, 2, and 4 are marked with red crosses.
+2023_tier1_prepp_2023-07-19_shift3	leaking	100	41	high	Green tick on option 1, red crosses on others. Chosen option is 2 as per response box.
+2023_tier1_prepp_2023-07-19_shift4	leaking	93	50	high	The correct option is marked with a green check. The chosen option matches the correct option. All four answer options are visible and extracted as text representations of the figures.
+2023_tier1_prepp_2023-07-21_shift1	leaking	100	39	high	Green tick indicates correct option; red crosses indicate incorrect options. Chosen option matches correct option.
+2023_tier1_prepp_2023-07-21_shift1_alt	leaking	101	53	high	"rrect_option_label"": null, ""correct_option_text"": null, ""is_complete_on_page"": true, ""confidence"": ""high"", ""notes"": ""No green tick or red cross visible for this question; answer options are listed as a, b, c, d, but the response sheet field is not visible.""}"
+2023_tier1_prepp_2023-07-21_shift3	leaking	100	46	high	The question involves selecting a figure to complete a pattern. The correct option is marked with a green tick, and the chosen option matches it. All four options are figures, labeled as Figure 1 to Figure 4.
+2023_tier1_prepp_2023-07-21_shift4	leaking	100	48	high	Green tick on option 2 indicates correct answer. Chosen option is also 2.
+2023_tier1_prepp_2023-07-24_shift3	leaking	96	41	high	Green checkmark indicates correct option; red crosses indicate incorrect options. Chosen option matches correct option.
+2023_tier1_prepp_2023-07-24_shift4	leaking	100	38	high	Green tick on option 2 indicates correct answer. Chosen option is also 2.
+2023_tier1_prepp_2023-07-25_shift1	leaking	94	28	high	Correct option marked with green tick, chosen option matches.
+2023_tier1_prepp_2023-07-25_shift4	leaking	95	38	high	Note: Option 2 and 3 appear identical in the image, but based on visual marking, option 3 is marked correct. The text is rendered identically for both, but the system marks option 3 as correct.
+2023_tier1_prepp_2023-07-26_shift1	leaking	100	45	high	nvolves a figure series with five boxes, the last containing a question mark. The answer options are four figures, with option 4 marked with a green check as correct. The chosen option is also 4.
+2023_tier1_prepp_2023-07-26_shift4	leaking	100	44	high	Venn diagrams are represented as figures; option 3 is marked with green tick as correct, chosen option is also 3.
+2023_tier1_prepp_2023-07-27_shift1	leaking	100	36	high	Problem figure is a square with four triangles pointing inward and 'B E' in center. Answer options are mirror images. Option 3 is marked with green tick as correct. Chosen option is 3.
+2023_tier1_prepp_2023-07-27_shift2	leaking	100	38	high	The question involves a figure series with stars and arrows. The correct answer is marked with a green check, and the chosen option is also 4. All four options are figures, labeled as Figure 1 to Figure 4 for consistency.
+2023_tier2_prepp_2023-10-26_shift1	leaking	147	58	high	Correct option marked with green tick, chosen option is 3.
+2024_tier1_prepp_2024-09-09_shift1	leaking	105	68	high	Correct option is marked with green tick (option 3). Chosen option not marked. All four options visible.
+2024_tier1_prepp_2024-09-09_shift2	leaking	102	57	high	Question stem is incomplete; likely continuation of a previous question. No answer options are marked with green tick or red cross. Only four options visible, but no indication of correct or chosen answer.
+2024_tier1_prepp_2024-09-10_shift1	leaking	99	61	high	Correct option marked with green tick. Chosen option not visible.
+2024_tier1_prepp_2024-09-10_shift3	leaking	97	57	high	No green tick or red cross visible for this question; answer choices are listed as a, b, c, d but no selection or correctness indicator is shown.
+2024_tier1_prepp_2024-09-11_shift2	leaking	104	64	high	Question 1 is visible but answer options are not marked with green tick or red cross, so correct option cannot be determined. Chosen option is not marked either.
+2024_tier1_prepp_2024-09-24_shift1	leaking	108	65	high	Correct option marked with green tick. Chosen option not marked.
+2024_tier1_prepp_2024-09-25_shift3	leaking	100	41	high	Mirror image question with figure-based options. Option 2 is marked with green check as correct. Chosen option is also 2.
+2024_tier1_prepp_2024-09-26_shift2	leaking	98	58	high	The correct option is marked with a green check, and the chosen option matches it. All four options are figures and are extracted as such.
+2024_tier2_prepp_2025-01-18_paper1	leaking	161	85	high	"rrect_option_label"": null, ""correct_option_text"": null, ""is_complete_on_page"": true, ""confidence"": ""high"", ""notes"": ""No green tick or red cross visible for this question; answer choices are listed as a, b, c, d.""}"
+2024_tier2_prepp_2025-01-20_paper1	leaking	158	90	high	No green tick or red cross visible for this question. Answer choices are labeled a, b, c, d but no marking indicates correct or chosen answer.

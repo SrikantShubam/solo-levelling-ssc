@@ -49,14 +49,17 @@ def render_pdf_pages(pdf_path: Path, image_dir: Path, scale: float = 2.5) -> lis
 
     image_dir.mkdir(parents=True, exist_ok=True)
     doc = fitz.open(str(pdf_path))
-    paths: list[Path] = []
-    for index, page in enumerate(doc, start=1):
-        path = image_dir / f"page_{index:02d}.png"
-        if not path.exists():
-            pix = page.get_pixmap(matrix=fitz.Matrix(scale, scale), alpha=False)
-            pix.save(str(path))
-        paths.append(path)
-    return paths
+    try:
+        paths: list[Path] = []
+        for index, page in enumerate(doc, start=1):
+            path = image_dir / f"page_{index:02d}.png"
+            if not path.exists():
+                pix = page.get_pixmap(matrix=fitz.Matrix(scale, scale), alpha=False)
+                pix.save(str(path))
+            paths.append(path)
+        return paths
+    finally:
+        doc.close()
 
 
 def merge_page_results(
@@ -323,8 +326,10 @@ def extract_pdf_with_gemini(
     for index, image_path in enumerate(image_paths, start=1):
         json_path = page_json_dir / f"page_{index:02d}.json"
         if json_path.exists() and not force:
-            page_results.append(json.loads(json_path.read_text(encoding="utf-8")))
-            continue
+            cached = _read_cached_page_json(json_path)
+            if cached is not None:
+                page_results.append(cached)
+                continue
         page_result = _extract_page(
             model,
             image_path,
@@ -417,12 +422,21 @@ def _collect_page_results(
     for index, image_path in enumerate(image_paths, start=1):
         json_path = page_json_dir / f"page_{index:02d}.json"
         if json_path.exists() and not force:
-            page_results.append(json.loads(json_path.read_text(encoding="utf-8")))
-            continue
+            cached = _read_cached_page_json(json_path)
+            if cached is not None:
+                page_results.append(cached)
+                continue
         page_result = page_extractor(image_path, index)
         json_path.write_text(json.dumps(page_result, ensure_ascii=False, indent=2), encoding="utf-8")
         page_results.append(page_result)
     return page_results
+
+
+def _read_cached_page_json(json_path: Path) -> dict[str, Any] | None:
+    try:
+        return json.loads(json_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return None
 
 
 def _finalize_extraction_result(

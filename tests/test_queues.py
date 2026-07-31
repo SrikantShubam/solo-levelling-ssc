@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+import pytest
+
+from ssc_study.audit import trigger_notification_audit
 from ssc_study.queues import QueueManager
 
 
@@ -62,3 +65,13 @@ class TestQueueManager:
         qm = QueueManager(seeded_db)
         questions = qm.get_batch("active", count=10, section="English")
         assert all(q.section == "English" for q in questions)
+
+    def test_boss_fight_blocked_during_major_notification_audit(self, seeded_db):
+        """Notification audits pause new boss-fight advancement."""
+        trigger_notification_audit(seeded_db, {
+            "changes": ["section_weights"],
+        })
+        qm = QueueManager(seeded_db)
+
+        with pytest.raises(RuntimeError, match="paused.*notification audit"):
+            qm.get_batch("boss_fight", count=5)

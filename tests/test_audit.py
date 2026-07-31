@@ -45,6 +45,17 @@ class TestIsAuditPaused:
         status = is_audit_paused(seeded_db)
         assert status["paused"] is False
 
+    def test_major_change_pause_is_observable(self, seeded_db):
+        """Major notification audits remain visibly paused until completion."""
+        audit = trigger_notification_audit(seeded_db, {
+            "changes": ["section_weights"],
+        })
+
+        status = is_audit_paused(seeded_db)
+
+        assert status["paused"] is True
+        assert status["active_audit_id"] == audit["audit_id"]
+
 
 class TestCompleteAudit:
     """complete_audit finalizes an audit."""

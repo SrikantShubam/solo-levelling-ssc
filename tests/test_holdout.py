@@ -103,7 +103,12 @@ class TestCreateSealedMock:
             "SELECT session_type FROM sessions WHERE session_id = ?",
             (result["session_id"],),
         ).fetchone()
-        assert row["session_type"] == "mock"
+        assert row["session_type"] == "sealed_mock"
+        usage = seeded_db.connect().execute(
+            "SELECT COUNT(*) as c FROM holdout_usage_log WHERE session_id = ?",
+            (result["session_id"],),
+        ).fetchone()
+        assert usage["c"] == 1
 
     def test_rejects_when_cap_hit(self, seeded_db):
         """Rejects when monthly cap is reached."""

@@ -7,15 +7,14 @@ practice sessions.
 
 from __future__ import annotations
 
-import json
-import sqlite3
 from collections import Counter
 from dataclasses import dataclass
-from datetime import date, timedelta
+from datetime import date
 from typing import Any
 
 from .db import Database
-from .models import Option, Question, SM2State
+from .models import Question, SM2State
+from .sm2 import add_days, compute_sm2
 
 
 @dataclass
@@ -101,9 +100,9 @@ def get_due_questions(
         """
         new_params = params + [new_count]
         new_rows = conn.execute(new_sql, tuple(new_params)).fetchall()
-        new_questions = [_row_to_question(r) for r in new_rows]
+        new_questions = [Question.from_row(r) for r in new_rows]
 
-    overdue_questions = [_row_to_question(r) for r in overdue_rows]
+    overdue_questions = [Question.from_row(r) for r in overdue_rows]
 
     # Interleave: overdue first (sorted by oldest), then new
     all_questions = overdue_questions + new_questions
@@ -126,7 +125,7 @@ def get_due_questions(
         """
         fill_params = params + reviewed_ids + [remaining]
         fill_rows = conn.execute(fill_sql, tuple(fill_params)).fetchall()
-        all_questions.extend(_row_to_question(r) for r in fill_rows)
+        all_questions.extend(Question.from_row(r) for r in fill_rows)
 
     return all_questions[:count]
 
@@ -174,9 +173,9 @@ def get_due_stats(db: Database) -> DueStats:
             due_today += 1
             by_section[row["section"]] += 1
             by_tier[row["tier"]] += 1
-        elif nr <= _add_days(today, 7):
+        elif nr <= add_days(today, 7):
             upcoming_7d += 1
-        elif nr <= _add_days(today, 30):
+        elif nr <= add_days(today, 30):
             upcoming_30d += 1
 
     return DueStats(
@@ -243,80 +242,34 @@ def record_review(
         question_id: The question to record a review for.
         quality: SM-2 quality score (0-5).
     """
-    from .sm2 import compute_sm2
-
     today = date.today().isoformat()
+    with db.transaction() as conn:
+        row = conn.execute(
+            "SELECT * FROM sm2_state WHERE entity_type = 'question' AND entity_id = ?",
+            (question_id,),
+        ).fetchone()
 
-    conn = db.connect()
-    row = conn.execute(
-        "SELECT * FROM sm2_state WHERE entity_type = 'question' AND entity_id = ?",
-        (question_id,),
-    ).fetchone()
+        prev = SM2State()
+        if row:
+            prev = SM2State(
+                easiness=row["easiness"],
+                interval_days=row["interval_days"],
+                repetitions=row["repetitions"],
+                next_review=row["next_review"],
+                last_review=row["last_review"],
+                last_quality=row["last_quality"],
+            )
 
-    prev = SM2State()
-    if row:
-        prev = SM2State(
-            easiness=row["easiness"],
-            interval_days=row["interval_days"],
-            repetitions=row["repetitions"],
-            next_review=row["next_review"],
-            last_review=row["last_review"],
-            last_quality=row["last_quality"],
+        result = compute_sm2(quality, prev, today)
+        conn.execute(
+            """INSERT OR REPLACE INTO sm2_state
+               (entity_type, entity_id, easiness, interval_days, repetitions,
+                next_review, last_review, last_quality)
+               VALUES ('question', ?, ?, ?, ?, ?, ?, ?)""",
+            (question_id, result.easiness, result.interval_days,
+             result.repetitions, result.next_review, today, quality),
         )
-
-    result = compute_sm2(quality, prev, today)
-    conn.execute(
-        """INSERT OR REPLACE INTO sm2_state
-           (entity_type, entity_id, easiness, interval_days, repetitions,
-            next_review, last_review, last_quality)
-           VALUES ('question', ?, ?, ?, ?, ?, ?, ?)""",
-        (question_id, result.easiness, result.interval_days,
-         result.repetitions, result.next_review, today, quality),
-    )
-    conn.commit()
 
 
 # ── Internal helpers ──────────────────────────────────────────────────
 
-
-def _row_to_question(row: sqlite3.Row) -> Question:
-    """Convert a SQLite row (with optional sm2_state fields) to a Question."""
-    options_data = json.loads(row["options_json"]) if isinstance(row["options_json"], str) else []
-    options = [Option(label=o["label"], text=o["text"]) for o in options_data]
-
-    # created_at may not be present in all queries
-    try:
-        created_at = row["created_at"]
-    except (KeyError, IndexError):
-        created_at = ""
-
-    return Question(
-        question_id=row["question_id"],
-        pdf_name=row["pdf_name"],
-        source_page=row["source_page"],
-        global_question_number=row["global_question_number"],
-        section=row["section"],
-        year=row["year"],
-        tier=row["tier"],
-        question_text=row["question_text"],
-        options=options,
-        correct_option_label=row["correct_option_label"],
-        correct_option_text=row["correct_option_text"],
-        chosen_option_label=row["chosen_option_label"],
-        question_modality=row["question_modality"],
-        visual_required=bool(row["visual_required"]),
-        table_required=bool(row["table_required"]),
-        math_required=bool(row["math_required"]),
-        evidence_status=row["evidence_status"],
-        question_crop_path=row["question_crop_path"],
-        page_asset_path=row["page_asset_path"],
-        archetype_id=row["archetype_id"],
-        is_holdout=bool(row["is_holdout"]),
-        created_at=created_at,
-    )
-
-
-def _add_days(iso_date: str, days: int) -> str:
-    """Add N days to an ISO date string."""
-    d = date.fromisoformat(iso_date)
-    return (d + timedelta(days=days)).isoformat()

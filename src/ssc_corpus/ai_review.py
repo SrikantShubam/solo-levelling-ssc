@@ -7,6 +7,8 @@ from typing import Any
 
 from .extraction import _is_practice_ready, _refresh_qc_status
 
+VALID_LABELS = ("1", "2", "3", "4")
+
 
 def scan_flagged_questions(pipeline_root: str | Path) -> list[dict[str, Any]]:
     pipeline_root = Path(pipeline_root)
@@ -160,13 +162,13 @@ def merge_grok_results(results_path: str | Path, report_path: str | Path | None 
             existing_texts = {str(o.get("label")): str(o.get("text", "")) for o in existing_opts if isinstance(o, dict)}
             grok_texts = {str(o.get("label")): str(o.get("text", "")) for o in grok_opts if isinstance(o, dict)}
             has_better = False
-            for lbl in {"1", "2", "3", "4"}:
+            for lbl in VALID_LABELS:
                 if grok_texts.get(lbl, "") and not existing_texts.get(lbl, ""):
                     has_better = True
                     break
             if has_better:
                 new_opts = []
-                for lbl in {"1", "2", "3", "4"}:
+                for lbl in VALID_LABELS:
                     new_opts.append({"label": lbl, "text": grok_texts.get(lbl, "") or existing_texts.get(lbl, "")})
                 changes["options"] = new_opts
                 stats["options_fixed"] += 1
@@ -231,16 +233,13 @@ def compute_delta(pipeline_root: str | Path) -> dict[str, Any]:
     pipeline_root = Path(pipeline_root)
     practice_ready = 0
     total = 0
+    ai_reviewed = 0
     for merged_path in sorted(pipeline_root.rglob("merged_questions_global_order.json")):
         data = json.loads(merged_path.read_text(encoding="utf-8"))
         for q in data.get("questions", []):
             total += 1
             if q.get("practice_ready", False):
                 practice_ready += 1
-    ai_reviewed = 0
-    for merged_path in sorted(pipeline_root.rglob("merged_questions_global_order.json")):
-        data = json.loads(merged_path.read_text(encoding="utf-8"))
-        for q in data.get("questions", []):
             if q.get("ai_reviewed"):
                 ai_reviewed += 1
     return {

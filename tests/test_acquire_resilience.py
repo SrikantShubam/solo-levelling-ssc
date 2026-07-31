@@ -3,7 +3,6 @@ from pathlib import Path
 
 from ssc_corpus.cli import main
 
-
 SEED_HEADERS = [
     "canonical_id",
     "year",

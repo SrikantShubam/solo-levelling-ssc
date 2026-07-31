@@ -1,0 +1,13 @@
+{
+  "harvest_non_holdout": 4637,
+  "harvest_non_holdout_assigned": 2444,
+  "harvest_holdout": 1543,
+  "harvest_holdout_assigned": 0,
+  "all_holdout_assigned": 0,
+  "harvest_assigned_by_section": {
+    "English": 523,
+    "GK/GA": 376,
+    "Quant/DI": 1124,
+    "Reasoning": 421
+  }
+}

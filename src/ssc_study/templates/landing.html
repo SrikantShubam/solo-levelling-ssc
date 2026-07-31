@@ -26,6 +26,17 @@
                 </div>
             </header>
 
+            <div class="content-card operator-guidance-card">
+                <h2>Manual Baseline Operator Guidance</h2>
+                <p class="description">Review the checklist and system boundaries below for today's active workflow:</p>
+                <ul class="guidance-list">
+                    <li><strong>Manual Run Priority:</strong> The 200-question Foundation Baseline must be completed manually. The web cockpit is the local interface to run, score, and persist this session.</li>
+                    <li><strong>Verification Checklist:</strong> Verify the split is exactly 80/40/40/40, the timer works, draft recovery (reloading the page) restores answers, and duplicate submissions are safe.</li>
+                    <li><strong>No Answer Leakage:</strong> Verify that correct answer options are not loaded or accessible in the DOM/page source before submission.</li>
+                    <li><strong>CLI Fallback &amp; Advisory Scope:</strong> After submitting a <strong>Full Baseline</strong> exam, Phase 3 diagnostic recommendations and Phase 4 daily study schedules will be calculated and displayed. (Note: Smoke submissions will not compute or display these diagnostic schedules). For all runs, actual loop execution remains CLI-only (e.g., <code>ssc-study phase3</code> or <code>ssc-study guardian plan</code>); the web app acts only as an advisory dashboard.</li>
+                </ul>
+            </div>
+
             <div class="content-card">
                 <h2>Preflight Readiness Check</h2>
                 <p class="description">Before starting the baseline exam, the system verifies if there are enough eligible non-holdout questions in the database.</p>
@@ -109,6 +120,7 @@
                     </div>
                     <div class="question-card-footer">
                         <button id="btn-prev" class="btn btn-nav">← Previous</button>
+                        <button id="btn-clear-answer" class="btn btn-nav btn-secondary">Clear Response</button>
                         <button id="btn-mark" class="btn btn-nav btn-amber">Mark for Review</button>
                         <button id="btn-next" class="btn btn-nav">Next →</button>
                     </div>

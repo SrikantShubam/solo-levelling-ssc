@@ -4,6 +4,7 @@ import csv
 import hashlib
 import mimetypes
 import shutil
+import warnings
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -143,6 +144,12 @@ def _download(url: str, destination: Path) -> dict[str, str]:
         }
     parsed = urlparse(url)
     verify = False if parsed.hostname == "ssc.nic.in" else True
+    if not verify:
+        warnings.warn(
+            "SSL verification disabled for ssc.nic.in - verify downloaded file integrity separately.",
+            UserWarning,
+            stacklevel=2,
+        )
     response = requests.get(
         url,
         timeout=30,

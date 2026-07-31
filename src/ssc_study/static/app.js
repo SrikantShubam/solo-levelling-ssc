@@ -140,6 +140,29 @@
   }
 
   // ── UI: render exam ──
+  function renderQuestionAsset(q) {
+    const urls = q.asset_urls || {};
+    const src = urls.crop || urls.page;
+    if (!src) return '';
+    return `
+      <div class="q-asset-block">
+        <div class="q-asset-label">Visual reference</div>
+        <img class="q-asset-image" src="${escapeHtml(src)}" alt="Question visual reference">
+        <div class="q-asset-error hidden">Image failed to load. Report this question before using the baseline score.</div>
+      </div>
+    `;
+  }
+
+  function renderPassage(q) {
+    if (!q.passage_text) return '';
+    return `
+      <div class="baseline-passage">
+        <div class="baseline-passage-label">Passage</div>
+        <div class="baseline-passage-text">${escapeHtml(q.passage_text)}</div>
+      </div>
+    `;
+  }
+
   function renderExam() {
     showSection('#exam-section');
     const badge = $('#exam-mode-badge');
@@ -164,6 +187,8 @@
           <span class="q-badge" style="text-transform: capitalize;">${escapeHtml(q.tier)}</span>
         </div>
       </div>
+      ${renderQuestionAsset(q)}
+      ${renderPassage(q)}
       <div class="q-text">${escapeHtml(q.question_text)}</div>
       <div class="q-options" id="options-area">
         ${q.options.map((o) => `
@@ -188,6 +213,15 @@
         renderNav();
       });
     });
+
+    const assetImage = area.querySelector('.q-asset-image');
+    if (assetImage) {
+      assetImage.addEventListener('error', () => {
+        assetImage.classList.add('hidden');
+        const error = area.querySelector('.q-asset-error');
+        if (error) error.classList.remove('hidden');
+      });
+    }
 
     updateNavActive();
 
@@ -244,7 +278,142 @@
     });
   }
 
+  function buildSmokeNextStepsHtml() {
+    return `
+      <div class="next-step-box warning" style="border-left: 4px solid var(--color-warning); padding: 1rem; background: var(--color-warning-light); border-radius: var(--border-radius); margin-bottom: 1.5rem;">
+        <p><strong>Note:</strong> This was a 5-question <strong>Smoke Test</strong>. Although your attempts have been successfully saved, a 5-question test is too small to unlock the daily scheduler or boss fights.</p>
+        <p style="margin-top: 0.5rem;"><strong>Recommended Next Action:</strong> Return to the landing page and start the <strong>Full Baseline (200 Questions)</strong> once your database is eligible.</p>
+      </div>
+    `;
+  }
+
+  function buildFullBaselineNextStepsHtml(result, ns) {
+    function renderSectionAction(ws) {
+      if (ws.action && ws.action.action_type !== 'stop') {
+        const name = ws.action.target_archetype_name || 'unknown archetype';
+        return ` <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.15rem; font-style: italic;">
+          ↳ Next diagnostic target: ${escapeHtml(ws.action.action_type)} on <strong>${escapeHtml(name)}</strong> (${escapeHtml(ws.action.reason)})
+        </span>`;
+      }
+      return ` <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.15rem; font-style: italic;">
+        ↳ No active archetypes eligible to probe.
+      </span>`;
+    }
+
+    const excluded = ns.weak_sections.filter(function(ws) { return ws.tier === 'remediation_excluded'; });
+    const priority = ns.weak_sections.filter(function(ws) { return ws.tier === 'remediation_priority'; });
+    const paired = ns.weak_sections.filter(function(ws) { return ws.tier === 'paired_remediation'; });
+
+    let bucketsHtml = '';
+
+    if (excluded.length > 0) {
+      bucketsHtml += `
+        <div style="margin-bottom: 1rem;">
+          <h4 style="font-weight: 600; color: var(--color-error); margin-bottom: 0.25rem;">Remediation-First Priority (&lt; 55% Accuracy)</h4>
+          <ul class="dashboard-list">
+            ${excluded.map(function(ws) { return `
+              <li class="error">
+                <strong>${escapeHtml(ws.section)}</strong>: ${(ws.accuracy * 100).toFixed(0)}% (${ws.correct}/${ws.total})
+                ${renderSectionAction(ws)}
+              </li>
+            `;}).join('')}
+          </ul>
+        </div>
+      `;
+    }
+
+    if (priority.length > 0) {
+      bucketsHtml += `
+        <div style="margin-bottom: 1rem;">
+          <h4 style="font-weight: 600; color: var(--color-error); margin-bottom: 0.25rem;">Remediation Priority (55–64% Accuracy)</h4>
+          <ul class="dashboard-list">
+            ${priority.map(function(ws) { return `
+              <li class="error">
+                <strong>${escapeHtml(ws.section)}</strong>: ${(ws.accuracy * 100).toFixed(0)}% (${ws.correct}/${ws.total})
+                ${renderSectionAction(ws)}
+              </li>
+            `;}).join('')}
+          </ul>
+        </div>
+      `;
+    }
+
+    if (paired.length > 0) {
+      bucketsHtml += `
+        <div style="margin-bottom: 1rem;">
+          <h4 style="font-weight: 600; color: var(--color-warning); margin-bottom: 0.25rem;">Boss Fight with Paired Remediation (65–69% Accuracy)</h4>
+          <ul class="dashboard-list">
+            ${paired.map(function(ws) { return `
+              <li class="warning">
+                <strong>${escapeHtml(ws.section)}</strong>: ${(ws.accuracy * 100).toFixed(0)}% (${ws.correct}/${ws.total})
+                ${renderSectionAction(ws)}
+              </li>
+            `;}).join('')}
+          </ul>
+        </div>
+      `;
+    }
+
+    const weakSectionsList = (ns.weak_sections || []).map(function(ws) { return ws.section; });
+    const cleared = ['Quant/DI', 'Reasoning', 'English', 'GK/GA'].filter(function(sec) {
+      return weakSectionsList.indexOf(sec) === -1;
+    });
+
+    if (cleared.length > 0) {
+      bucketsHtml += `
+        <div style="margin-bottom: 1rem;">
+          <h4 style="font-weight: 600; color: var(--color-success); margin-bottom: 0.25rem;">Boss Fights Unlocked (&ge; 70% Accuracy)</h4>
+          <ul class="dashboard-list">
+            ${cleared.map(function(section) {
+              const secData = result.by_section?.[section] || { correct: 0, total: 0 };
+              const acc = secData.total > 0 ? (secData.correct / secData.total) : 0;
+              return `
+                <li class="success">
+                  <strong>${escapeHtml(section)}</strong>: ${(acc * 100).toFixed(0)}% (${secData.correct}/${secData.total})
+                  <span style="display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.15rem; font-style: italic;">
+                    ↳ Timed boss fights unlocked!
+                  </span>
+                </li>
+              `;
+            }).join('')}
+          </ul>
+        </div>
+      `;
+    }
+
+    return `
+      <div class="next-step-box success" style="border-left: 4px solid var(--color-success); padding: 1rem; background: var(--color-success-light); border-radius: var(--border-radius); margin-bottom: 1.5rem;">
+        <p><strong>Baseline Completed:</strong> Your 200-question Phase 1 Foundation Baseline Exam has been successfully submitted and saved. Spaced repetition (SM-2) review states have been initialized.</p>
+      </div>
+
+      <div class="next-step-box warning" style="border-left: 4px solid var(--color-warning); padding: 1rem; background: var(--color-warning-light); border-radius: var(--border-radius); margin-bottom: 1.5rem;">
+        <p><strong>Important Advisory / CLI-Only Scope:</strong> Today's manual baseline run is complete. The dashboard recommendations and next-step schedules displayed below are <strong>advisory-only</strong>. To run Phase 3 diagnostics or Phase 4 daily study loops, you must execute the recommended commands using the command-line interface (CLI) in your terminal.</p>
+      </div>
+
+      <div class="dashboard-grid">
+        <div class="dashboard-card">
+          <h3>Diagnostic Status Buckets</h3>
+          <div>${bucketsHtml}</div>
+        </div>
+
+        <div class="dashboard-card" id="card-phase3-next-action">
+          <h3>Phase 3 Next Action</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">Loading Phase 3 next target...</p>
+        </div>
+
+        <div class="dashboard-card" id="card-guardian-readiness">
+          <h3>Guardian & Readiness Summary</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">Loading Guardian planner & readiness state...</p>
+        </div>
+      </div>
+    `;
+  }
+
   // ── UI: render result ──
+  function formatMarks(value) {
+    return Number.isInteger(value) ? String(value) : value.toFixed(1);
+  }
+
   function renderResult(result) {
     showSection('#result-section');
     stopTimer();
@@ -253,29 +422,41 @@
     const scorePctEl = $('#result-score-percent');
     if (scorePctEl) scorePctEl.textContent = `${percent}%`;
     const scoreFractionEl = $('#result-score-fraction');
-    if (scoreFractionEl) scoreFractionEl.textContent = `${result.correct_count} / ${result.question_count} Correct`;
+    if (scoreFractionEl) {
+      scoreFractionEl.textContent = `${result.correct_count} correct, ${result.wrong_count} wrong, ${result.skipped_count} skipped`;
+    }
 
     const summary = $('#result-summary');
     if (summary) {
       summary.innerHTML = `
+        <div class="result-overall-line" style="margin-bottom: 0.9rem; font-size: 0.95rem;">
+          <strong>Overall:</strong>
+          ${result.correct_count} correct, ${result.wrong_count} wrong, ${result.skipped_count} skipped
+          | ${percent}%
+          | Marks: ${formatMarks(result.marks_earned)} / ${formatMarks(result.marks_max)}
+        </div>
         <table class="result-table">
           <thead>
             <tr>
               <th>Section</th>
               <th>Correct</th>
-              <th>Total</th>
-              <th>Accuracy</th>
+              <th>Wrong</th>
+              <th>Skipped</th>
+              <th>Percent</th>
+              <th>Marks</th>
             </tr>
           </thead>
           <tbody>
             ${Object.entries(result.by_section || {}).map(([section, data]) => {
-              const secPct = data.total > 0 ? Math.round((data.correct / data.total) * 100) : 0;
+              const secPct = Math.round((data.accuracy || 0) * 100);
               return `
                 <tr>
                   <td><strong>${escapeHtml(section)}</strong></td>
                   <td class="font-mono">${data.correct}</td>
-                  <td class="font-mono">${data.total}</td>
+                  <td class="font-mono">${data.wrong}</td>
+                  <td class="font-mono">${data.skipped}</td>
                   <td class="font-mono">${secPct}%</td>
+                  <td class="font-mono">${formatMarks(data.marks_earned)} / ${formatMarks(data.marks_max)}</td>
                 </tr>
               `;
             }).join('')}
@@ -287,6 +468,14 @@
     const nextStepsContent = $('#next-steps-content');
     if (nextStepsContent && result.next_steps) {
       const ns = result.next_steps;
+      if (ns.mode === 'smoke') {
+        nextStepsContent.innerHTML = buildSmokeNextStepsHtml();
+        return;
+      }
+      nextStepsContent.innerHTML = buildFullBaselineNextStepsHtml(result, ns);
+      loadAsyncDashboardDetails();
+      return;
+
       let html = '';
       
       // Mode-specific message
@@ -398,6 +587,10 @@
         html += `
           <div class="next-step-box success" style="border-left: 4px solid var(--color-success); padding: 1rem; background: var(--color-success-light); border-radius: var(--border-radius); margin-bottom: 1.5rem;">
             <p><strong>Baseline Completed:</strong> Your 200-question Phase 1 Foundation Baseline Exam has been successfully submitted and saved. Spaced repetition (SM-2) review states have been initialized.</p>
+          </div>
+
+          <div class="next-step-box warning" style="border-left: 4px solid var(--color-warning); padding: 1rem; background: var(--color-warning-light); border-radius: var(--border-radius); margin-bottom: 1.5rem;">
+            <p><strong>Important Advisory / CLI-Only Scope:</strong> Today's manual baseline run is complete. The dashboard recommendations and next-step schedules displayed below are <strong>advisory-only</strong>. To run Phase 3 diagnostics or Phase 4 daily study loops, you must execute the recommended commands using the command-line interface (CLI) in your terminal.</p>
           </div>
 
           <div class="dashboard-grid">
@@ -776,6 +969,15 @@
         currentQuestionStartTime = Date.now();
         renderQuestion();
         saveDraft();
+      }
+    }
+    if (e.target.id === 'btn-clear-answer') {
+      const q = state.questions[state.currentIndex];
+      if (q && state.answers[q.question_id]) {
+        delete state.answers[q.question_id];
+        saveDraft();
+        renderQuestion();
+        renderNav();
       }
     }
     if (e.target.id === 'btn-mark') {

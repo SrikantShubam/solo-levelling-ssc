@@ -1,0 +1,102 @@
+{
+  "before_preflight": {
+    "full_ready": true,
+    "required": {
+      "Quant/DI": 80,
+      "Reasoning": 40,
+      "English": 40,
+      "GK/GA": 40
+    },
+    "available": {
+      "Quant/DI": 331,
+      "Reasoning": 274,
+      "English": 631,
+      "GK/GA": 331
+    },
+    "raw_available": {
+      "Quant/DI": 372,
+      "Reasoning": 332,
+      "English": 671,
+      "GK/GA": 389
+    },
+    "quality_exclusions": {
+      "answer_integrity_failure": 13,
+      "unverified_answer": 133,
+      "duplicate_content": 42,
+      "unmaskable_answer_leak": 6,
+      "invalid_options": 3
+    },
+    "missing": {},
+    "smoke_ready": true,
+    "smoke_missing": {}
+  },
+  "after_preflight": {
+    "full_ready": true,
+    "required": {
+      "Quant/DI": 80,
+      "Reasoning": 40,
+      "English": 40,
+      "GK/GA": 40
+    },
+    "available": {
+      "Quant/DI": 655,
+      "Reasoning": 384,
+      "English": 794,
+      "GK/GA": 483
+    },
+    "raw_available": {
+      "Quant/DI": 2775,
+      "Reasoning": 828,
+      "English": 1664,
+      "GK/GA": 1134
+    },
+    "quality_exclusions": {
+      "answer_integrity_failure": 13,
+      "unverified_answer": 3936,
+      "duplicate_content": 111,
+      "passage_dependent": 7,
+      "unmaskable_answer_leak": 6,
+      "invalid_options": 12
+    },
+    "missing": {},
+    "smoke_ready": true,
+    "smoke_missing": {}
+  },
+  "net_available_by_section": {
+    "English": 163,
+    "GK/GA": 152,
+    "Quant/DI": 324,
+    "Reasoning": 110
+  },
+  "net_raw_by_section": {
+    "English": 993,
+    "GK/GA": 745,
+    "Quant/DI": 2403,
+    "Reasoning": 496
+  },
+  "net_available_total": 749,
+  "net_raw_total": 4637,
+  "protected_before": {
+    "attempts": 410,
+    "sessions": 4,
+    "sm2_state": 204
+  },
+  "protected_after": {
+    "attempts": 410,
+    "sessions": 4,
+    "sm2_state": 204
+  },
+  "protected_unchanged": true,
+  "counts_after": {
+    "questions": 8535,
+    "passages": 42,
+    "archetypes": 48
+  },
+  "harvest_sections_after_repair": {
+    "English": 1324,
+    "GK/GA": 993,
+    "Quant/DI": 3200,
+    "Reasoning": 663
+  },
+  "noncanonical_harvest_sections_after_repair": {}
+}

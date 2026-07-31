@@ -52,6 +52,9 @@ def save_pdf_region_crop(
 
     from PIL import Image
 
+    if bbox[2] <= bbox[0] or bbox[3] <= bbox[1]:
+        raise ValueError(f"Degenerate crop region: {bbox}")
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with Image.open(page_image_path) as image:
         image = image.convert("RGB")
@@ -63,6 +66,8 @@ def save_pdf_region_crop(
         top = int(max(0, round((bbox[1] - page_rect[1]) * scale_y) - padding_px))
         right = int(min(image.width, round((bbox[2] - page_rect[0]) * scale_x) + padding_px))
         bottom = int(min(image.height, round((bbox[3] - page_rect[1]) * scale_y) + padding_px))
+        if right <= left or bottom <= top:
+            raise ValueError(f"Degenerate crop region: ({left}, {top}, {right}, {bottom})")
         image.crop((left, top, right, bottom)).save(output_path)
         width = right - left
         height = bottom - top

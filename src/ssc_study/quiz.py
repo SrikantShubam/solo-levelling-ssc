@@ -400,8 +400,8 @@ def _persist_attempt_with_sm2(conn, attempt: Attempt, question: Question) -> Non
     conn.execute(
         """INSERT INTO attempts
            (question_id, session_id, user_answer, is_correct, time_spent_seconds,
-            student_label, timing_inference, quality_score)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+            student_label, timing_inference, quality_score, marked_for_review)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         (
             attempt.question_id,
             attempt.session_id,
@@ -411,6 +411,7 @@ def _persist_attempt_with_sm2(conn, attempt: Attempt, question: Question) -> Non
             attempt.student_label,
             attempt.timing_inference,
             quality,
+            int(attempt.marked_for_review),
         ),
     )
 

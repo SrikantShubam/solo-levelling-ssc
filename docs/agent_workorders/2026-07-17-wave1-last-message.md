@@ -1,0 +1,61 @@
+- Files changed
+  - `src/ssc_study/baseline_web.py`
+  - `src/ssc_study/corpus_assets.py`
+  - `scripts/remap_baseline_assets.py`
+  - `tests/test_baseline_web.py`
+  - `tests/conftest.py`
+  - `data/study.db`
+  - generated `question_crops_masked/` assets under `pipeline_output/p2_gemini/...`
+
+- Migration/script added and exact command to run it
+  - Added `scripts/remap_baseline_assets.py`
+  - Ran: `uv run python scripts/remap_baseline_assets.py --db data/study.db`
+
+- Counts: rows remapped, rows still `missing_asset`, rows newly excluded per reason (`unverified_answer`, `answer_integrity_failure`, `passage_dependent`, `unmaskable_answer_leak`)
+  - `rows_seen=2355`
+  - `rows_remapped=2355`
+  - `missing_asset_rows=0`
+  - `masked_rows=823`
+  - `unmaskable_answer_leak_rows=6` from masking script:
+    - `2020_tier2_kdcampus_answer_key_q67`
+    - `2020_tier2_kdcampus_answer_key_q68`
+    - `2020_tier2_kdcampus_answer_key_q69`
+    - `2020_tier2_kdcampus_answer_key_q70`
+    - `2020_tier2_kdcampus_answer_key_q71`
+    - `2020_tier2_kdcampus_answer_key_q72`
+  - Live web-safe preflight exclusions:
+    - `missing_asset`: 0
+    - `unverified_answer`: 155
+    - `answer_integrity_failure`: 8
+    - `passage_dependent`: 44
+    - `unmaskable_answer_leak`: 2
+
+- Tests added
+  - Asset remap rewrites only verified current files.
+  - Drifted asset paths are excluded and not exposed as URLs.
+  - `PASS_LLM_ONLY` / `BLOCKED` evidence statuses are excluded.
+  - Correct-label/text integrity failures are excluded.
+  - Passage/cloze orphan stems are excluded.
+  - Answer-leaking crops are masked; unmaskable crops are excluded.
+  - Start/preflight refuses excluded rows.
+
+- Exact verification commands and exact results
+  - `uv run pytest tests/test_baseline_web.py tests/test_web.py tests/test_phase1_frontend.py -q`
+    - `132 passed in 4.17s`
+  - `uv run pytest -q`
+    - `408 passed, 2 warnings in 67.07s`
+  - `git diff --check -- src/ssc_study/baseline_web.py src/ssc_study/corpus_assets.py scripts/remap_baseline_assets.py tests/test_baseline_web.py tests/conftest.py data/study.db`
+    - no whitespace errors; Git printed LF-to-CRLF warnings only.
+  - Manually confirmed 3 remapped asset rows resolve to real crop and page files:
+    - `1235689`
+    - `1235682`
+    - `12356819`
+  - Manually confirmed masked sample:
+    - Original: `1459x649`
+    - Masked: `1459x123`
+    - Visual check: masked image preserves the question stem/equation and removes the `Ans` row, colored check/cross marks, and chosen-option footer.
+
+- Residual risk or follow-ups for Wave 2
+  - Masking follows the Wave 1 policy by cropping above the answer marker; for response-sheet questions where options are part of the marked answer block, options are removed with the answer leak.
+  - Real passage/RC grouping, answer re-verification beyond label/text integrity, modality reclassification, and math rendering remain Wave 2 scope.
+

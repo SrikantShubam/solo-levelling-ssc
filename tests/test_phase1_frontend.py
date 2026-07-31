@@ -37,7 +37,7 @@ def _insert_question(
     qid: str,
     section: str = "Quant/DI",
     tier: str = "tier1",
-    text: str = "Test question?",
+    text: str | None = None,
     correct_label: str = "1",
     is_holdout: int = 0,
 ) -> None:
@@ -53,7 +53,7 @@ def _insert_question(
             section, year, tier, question_text, options_json,
             correct_option_label, correct_option_text, is_holdout)
            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-        (qid, "test_pdf", 1, 1, section, 2021, tier, text,
+        (qid, "test_pdf", 1, 1, section, 2021, tier, text or f"Test question {qid}?",
          json.dumps(options), correct_label, options[0]["text"], is_holdout),
     )
     conn.commit()
@@ -996,6 +996,12 @@ class TestStatic:
         assert "escapeHtml(o.label)" in app_js
         assert "escapeHtml(section)" in app_js
 
+    def test_frontend_renders_linked_passage_text(self):
+        app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
+        assert "renderPassage(q)" in app_js
+        assert "q.passage_text" in app_js
+        assert "baseline-passage" in app_js
+
     def test_failed_submit_restarts_timer(self):
         app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
         assert "if (!result) {\n          currentQuestionStartTime = Date.now();\n          startTimer();\n          return;\n        }" in app_js
@@ -1015,6 +1021,13 @@ class TestStatic:
         assert "return ws.tier === 'remediation_excluded'" in app_js
         assert "return ws.tier === 'remediation_priority'" in app_js
         assert "return ws.tier === 'paired_remediation'" in app_js
+
+    def test_frontend_renders_marks_and_result_breakdown(self):
+        app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
+        assert "function formatMarks(value)" in app_js
+        assert "wrong_count" in app_js
+        assert "skipped_count" in app_js
+        assert "Marks:" in app_js
 
     def test_frontend_uses_tier_field_not_pct(self):
         """Guidance uses server-side tier field, not client-side pct computation."""
@@ -1046,6 +1059,60 @@ class TestStatic:
         assert "remediation_priority" in baseline_py
         assert "paired_remediation" in app_js
         assert "paired_remediation" in baseline_py
+
+    def test_landing_page_renders_operator_guidance(self, full_client):
+        resp = full_client.get("/")
+        assert resp.status_code == 200
+        assert "Manual Baseline Operator Guidance" in resp.text
+        assert "Manual Run Priority" in resp.text
+        assert "After submitting a <strong>Full Baseline</strong> exam" in resp.text
+        assert "Note: Smoke submissions will not compute or display" in resp.text
+
+    def test_static_css_contains_guidance_styles(self, full_client):
+        resp = full_client.get("/static/app.css")
+        assert resp.status_code == 200
+        assert ".operator-guidance-card" in resp.text
+        assert ".guidance-list" in resp.text
+
+    def test_frontend_js_uses_separate_smoke_and_full_result_renderers(self, full_client):
+        resp = full_client.get("/static/app.js")
+        assert resp.status_code == 200
+        app_js = resp.text
+
+        assert "function buildSmokeNextStepsHtml()" in app_js
+        assert "function buildFullBaselineNextStepsHtml(result, ns)" in app_js
+        assert "if (ns.mode === 'smoke')" in app_js
+        assert "nextStepsContent.innerHTML = buildSmokeNextStepsHtml();" in app_js
+        assert "nextStepsContent.innerHTML = buildFullBaselineNextStepsHtml(result, ns);" in app_js
+
+    def test_frontend_js_keeps_cli_advisory_out_of_smoke_renderer(self):
+        app_js = Path("src/ssc_study/static/app.js").read_text(encoding="utf-8")
+
+        smoke_start = app_js.find("function buildSmokeNextStepsHtml()")
+        full_start = app_js.find("function buildFullBaselineNextStepsHtml(result, ns)")
+
+        assert smoke_start != -1, "Missing smoke renderer helper"
+        assert full_start != -1, "Missing full-baseline renderer helper"
+
+        smoke_block = app_js[smoke_start:full_start]
+        full_block = app_js[full_start:]
+
+        assert "Important Advisory / CLI-Only Scope" not in smoke_block
+        assert "Today's manual baseline run is complete" not in smoke_block
+        assert "Important Advisory / CLI-Only Scope" in full_block
+        assert "advisory-only" in full_block
+
+    def test_exam_ui_can_clear_an_answer_back_to_unattempted(self, full_client):
+        page = full_client.get("/")
+        assert page.status_code == 200
+        assert 'id="btn-clear-answer"' in page.text
+        assert "Clear Response" in page.text
+
+        app_js = full_client.get("/static/app.js").text
+        assert "e.target.id === 'btn-clear-answer'" in app_js
+        assert "delete state.answers[q.question_id]" in app_js
+        assert "renderQuestion();" in app_js
+        assert "renderNav();" in app_js
 
 
 # ══════════════════════════════════════════════════════════════════════

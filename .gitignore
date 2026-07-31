@@ -8,3 +8,19 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+.worktrees/
+/gm/
+/ds/
+/mm/
+
+# Local database, backups, and harvested source PDFs - never belong in git
+/data/
+/backups/
+
+# Harvest extraction working output - large generated image trees,
+# regenerable from the (also-excluded) source PDFs via the extraction scripts
+pipeline_output/harvest_batch/
+pipeline_output/harvest_batch_*/
+pipeline_output/harvest_batch_launch*.log*
+pipeline_output/harvest_smoke/
+pipeline_output/harvest_smoke_qwen/

@@ -14,6 +14,7 @@ from datetime import date
 from typing import Any
 
 from .db import Database
+from .models import Question
 from .skips import record_failed_gate
 
 
@@ -28,6 +29,16 @@ class GateResult:
     concept_gap: bool  # True if failure was concept-based (not speed)
     unlocked: bool  # True if routed to SM-2
     skip_update: dict[str, Any] | None  # result of record_failed_gate if applicable
+
+
+@dataclass(frozen=True)
+class ProbeClassification:
+    """Pure classification of probe attempts without DB side effects."""
+
+    accuracy: float
+    attempt_count: int
+    route: str
+    concept_gap: bool
 
 
 PROBE_SIZE = 10
@@ -58,35 +69,32 @@ def evaluate_probe(
     ).fetchone()
     arch_name = row["name"] if row else f"archetype_{archetype_id}"
 
-    total = len(attempts)
-    correct = sum(1 for a in attempts if a.get("is_correct"))
-    accuracy = correct / total if total > 0 else 0.0
-
-    # Determine concept gap: look at student_label and concept_tag patterns
-    concept_gap = _detect_concept_gap(attempts)
+    classification = classify_probe_attempts(attempts)
+    accuracy = classification.accuracy
+    concept_gap = classification.concept_gap
 
     skip_update = None
     unlocked = False
 
-    if accuracy >= SM2_THRESHOLD:
+    if classification.route == "sm2":
         # Route to SM-2
-        route = "sm2"
+        route = classification.route
         unlocked = True
         conn.execute(
             "UPDATE archetypes SET is_unlocked = 1, t1_accuracy = ? WHERE archetype_id = ?",
             (round(accuracy, 3), archetype_id),
         )
-    elif BOSS_FIGHT_LOWER <= accuracy <= BOSS_FIGHT_UPPER:
-        route = "boss_fight"
+    elif classification.route == "boss_fight":
+        route = classification.route
         conn.execute(
             "UPDATE archetypes SET t1_accuracy = ? WHERE archetype_id = ?",
             (round(accuracy, 3), archetype_id),
         )
-    elif concept_gap:
-        route = "remediation"
+    elif classification.route == "remediation":
+        route = classification.route
         skip_update = record_failed_gate(db, archetype_id)
     else:
-        route = "high_priority_boss"
+        route = classification.route
         skip_update = record_failed_gate(db, archetype_id)
 
     conn.commit()
@@ -95,11 +103,35 @@ def evaluate_probe(
         archetype_id=archetype_id,
         archetype_name=arch_name,
         accuracy=round(accuracy, 3),
-        attempt_count=total,
+        attempt_count=classification.attempt_count,
         route=route,
         concept_gap=concept_gap,
         unlocked=unlocked,
         skip_update=skip_update,
+    )
+
+
+def classify_probe_attempts(attempts: list[dict[str, Any]]) -> ProbeClassification:
+    """Classify probe attempts into the expected Phase 3 route."""
+    total = len(attempts)
+    correct = sum(1 for a in attempts if a.get("is_correct"))
+    accuracy = correct / total if total > 0 else 0.0
+    concept_gap = _detect_concept_gap(attempts)
+
+    if accuracy >= SM2_THRESHOLD:
+        route = "sm2"
+    elif BOSS_FIGHT_LOWER <= accuracy <= BOSS_FIGHT_UPPER:
+        route = "boss_fight"
+    elif concept_gap:
+        route = "remediation"
+    else:
+        route = "high_priority_boss"
+
+    return ProbeClassification(
+        accuracy=round(accuracy, 3),
+        attempt_count=total,
+        route=route,
+        concept_gap=concept_gap,
     )
 
 
@@ -171,9 +203,7 @@ def run_probe(
             f"need {PROBE_SIZE} for a probe."
         )
 
-    from .scheduler import _row_to_question as _to_q
-
-    questions = [_to_q(r) for r in rows[:PROBE_SIZE]]
+    questions = [Question.from_row(r) for r in rows[:PROBE_SIZE]]
     return [
         {
             "question_id": q.question_id,

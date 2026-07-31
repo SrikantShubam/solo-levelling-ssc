@@ -346,35 +346,5 @@ def _row_to_question_ref(
     skip_embedding: bool = False,
 ) -> Question:
     """Convert a database row to a Question (minimal field set for embedding)."""
-    options_data = json.loads(row["options_json"]) if isinstance(row["options_json"], str) else []
-    from .models import Option
-    options = [Option(label=o["label"], text=o["text"]) for o in options_data]
-
-    def _g(key: str, default: Any = None) -> Any:
-        try:
-            v = row[key]
-            return v if v is not None else default
-        except (KeyError, IndexError):
-            return default
-
-    return Question(
-        question_id=row["question_id"],
-        pdf_name=_g("pdf_name", ""),
-        source_page=_g("source_page", 0),
-        global_question_number=_g("global_question_number", 0),
-        section=row["section"],
-        year=_g("year", 0),
-        tier=_g("tier", "tier1"),
-        question_text=row["question_text"],
-        options=options,
-        correct_option_label=_g("correct_option_label", ""),
-        correct_option_text=_g("correct_option_text"),
-        chosen_option_label=_g("chosen_option_label"),
-        question_modality=_g("question_modality", "text_only"),
-        visual_required=bool(_g("visual_required", False)),
-        table_required=bool(_g("table_required", False)),
-        math_required=bool(_g("math_required", False)),
-        evidence_status=_g("evidence_status"),
-        is_holdout=bool(_g("is_holdout", False)),
-        archetype_id=_g("archetype_id"),
-    )
+    del skip_embedding
+    return Question.from_row(row)

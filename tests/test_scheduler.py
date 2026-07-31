@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+import pytest
+
+from ssc_study.models import Question
 from ssc_study.scheduler import (
     DueStats,
     get_due_archetypes,
@@ -103,6 +106,42 @@ class TestRecordReview:
         assert row is not None
         assert row["repetitions"] == 2  # was 1, now 2
         assert row["interval_days"] == 6  # n=1 -> 6
+
+    def test_record_review_rolls_back_on_sm2_failure(self, seeded_db, monkeypatch):
+        """SM-2 failure must not leave partial scheduler state."""
+        def explode(*_args, **_kwargs):
+            raise RuntimeError("sm2 failed")
+
+        monkeypatch.setattr("ssc_study.scheduler.compute_sm2", explode)
+
+        with pytest.raises(RuntimeError, match="sm2 failed"):
+            record_review(seeded_db, "q3", 5)
+
+        conn = seeded_db.connect()
+        row = conn.execute(
+            "SELECT COUNT(*) as c FROM sm2_state WHERE entity_type = 'question' AND entity_id = 'q3'"
+        ).fetchone()
+        assert row["c"] == 0
+
+
+class TestQuestionFromRow:
+    """Question.from_row is the shared scheduler row parser."""
+
+    def test_parses_database_row(self, seeded_db):
+        conn = seeded_db.connect()
+        row = conn.execute("SELECT * FROM questions WHERE question_id = 'q1'").fetchone()
+        question = Question.from_row(row)
+        assert question.question_id == "q1"
+        assert len(question.options) == 4
+
+    def test_tolerates_malformed_options_json(self):
+        question = Question.from_row({
+            "question_id": "bad-json",
+            "options_json": "not-json",
+            "section": "Quant/DI",
+            "tier": "tier1",
+        })
+        assert question.options == []
 
 
 class TestGetDueArchetypes:

@@ -196,6 +196,32 @@ MIGRATIONS: list[tuple[int, str, str]] = [
         DROP TABLE sessions;
         ALTER TABLE sessions_new RENAME TO sessions;
     """),
+    (15, "add marked_for_review to attempts", """
+        ALTER TABLE attempts
+        ADD COLUMN marked_for_review INTEGER NOT NULL DEFAULT 0
+        CHECK (marked_for_review IN (0, 1))
+    """),
+    (16, "passage groups for passage-dependent questions", """
+        CREATE TABLE IF NOT EXISTS passages (
+            passage_id   INTEGER PRIMARY KEY AUTOINCREMENT,
+            pdf_name     TEXT NOT NULL,
+            source_page  INTEGER NOT NULL,
+            passage_text TEXT NOT NULL,
+            created_at   TEXT NOT NULL DEFAULT (datetime('now')),
+            UNIQUE (pdf_name, source_page, passage_text)
+        );
+        ALTER TABLE questions
+        ADD COLUMN passage_id INTEGER REFERENCES passages(passage_id);
+        CREATE INDEX IF NOT EXISTS idx_passages_pdf_page ON passages(pdf_name, source_page);
+        CREATE INDEX IF NOT EXISTS idx_questions_passage ON questions(passage_id)
+    """),
+    (17, "application secrets table", """
+        CREATE TABLE IF NOT EXISTS _app_secrets (
+            secret_name  TEXT PRIMARY KEY,
+            secret_value TEXT NOT NULL,
+            created_at   TEXT NOT NULL DEFAULT (datetime('now'))
+        )
+    """),
 ]
 
 

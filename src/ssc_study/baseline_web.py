@@ -6,19 +6,29 @@ import base64
 import hashlib
 import hmac
 import json
+import logging
+import random
+import re
 import secrets
+import sqlite3
 import uuid
 from collections import Counter
+from datetime import datetime
+from pathlib import Path
 from typing import Any
 
+from .corpus_assets import (
+    ANSWER_LEAKING_SOURCES as ANSWER_LEAKING_SOURCES,
+    MASKED_CROP_DIRNAME,
+    is_answer_leaking_source,
+)
 from .db import Database
 from .models import Attempt, Question
 from .quiz import (
     FOUNDATION_PULSE_REQUIREMENTS,
-    FoundationPulseError,
-    _load_foundation_pulse,
     _persist_attempt_with_sm2,
 )
+from .question_assets import validate_asset_path
 
 SMOKE_REQUIREMENTS: dict[str, int] = {
     "Quant/DI": 2,
@@ -27,7 +37,25 @@ SMOKE_REQUIREMENTS: dict[str, int] = {
     "GK/GA": 1,
 }
 SMOKE_TOTAL = sum(SMOKE_REQUIREMENTS.values())
-_EXAM_TOKEN_SECRET = secrets.token_bytes(32)
+_WEB_TEXT_MODALITIES = {"", "text_only", "math_formula"}
+_MOJIBAKE_MARKERS = (chr(0xFFFD), chr(0x00C3), chr(0x00C2), chr(0x00E2), chr(0x00F0))
+_INCOMPLETE_STEM_PREFIXES = (
+    "...",
+    "pair does not belong",
+    "constituent digits.",
+    "performing mathematical operations",
+)
+_UNVERIFIED_EVIDENCE_STATUSES = {"PASS_LLM_ONLY", "BLOCKED"}
+_PASSAGE_DEPENDENT_PATTERNS = (
+    re.compile(r"\bfill in blank number\s+\d+\b", re.IGNORECASE),
+    re.compile(r"\bblank number\s+\d+\b", re.IGNORECASE),
+)
+_BACKUP_KEEP_LATEST = 20
+_CORRECT_MARKS = 2.0
+_WRONG_MARKS = -0.5
+_APP_SECRET_NAME = "baseline_exam_token_secret"
+_EXAM_TOKEN_SECRET_CACHE: dict[str, bytes] = {}
+logger = logging.getLogger(__name__)
 
 
 class BaselineWebError(Exception):
@@ -36,14 +64,11 @@ class BaselineWebError(Exception):
 
 def get_baseline_preflight(db: Database) -> dict[str, Any]:
     """Return readiness for full and smoke baseline exams."""
-    conn = db.connect()
-    available: dict[str, int] = {}
-    for section in FOUNDATION_PULSE_REQUIREMENTS:
-        row = conn.execute(
-            "SELECT COUNT(*) as c FROM questions WHERE section = ? AND is_holdout = 0",
-            (section,),
-        ).fetchone()
-        available[section] = int(row["c"])
+    pool = _build_web_safe_question_pool(db)
+    available = {
+        section: len(pool["questions_by_section"].get(section, []))
+        for section in FOUNDATION_PULSE_REQUIREMENTS
+    }
 
     missing: dict[str, int] = {}
     for section, required in FOUNDATION_PULSE_REQUIREMENTS.items():
@@ -61,6 +86,8 @@ def get_baseline_preflight(db: Database) -> dict[str, Any]:
         "full_ready": len(missing) == 0,
         "required": dict(FOUNDATION_PULSE_REQUIREMENTS),
         "available": available,
+        "raw_available": pool["raw_available"],
+        "quality_exclusions": dict(pool["quality_exclusions"]),
         "missing": missing,
         "smoke_ready": len(smoke_missing) == 0,
         "smoke_missing": smoke_missing,
@@ -70,15 +97,9 @@ def get_baseline_preflight(db: Database) -> dict[str, Any]:
 def start_baseline_exam(db: Database, mode: str) -> dict[str, Any]:
     """Load questions for a smoke or full baseline exam without answer leakage."""
     if mode == "full":
-        try:
-            questions = _load_foundation_pulse(db, 200)
-        except FoundationPulseError as exc:
-            raise BaselineWebError(str(exc)) from exc
+        questions = _load_web_baseline_questions(db, FOUNDATION_PULSE_REQUIREMENTS, "full baseline")
     elif mode == "smoke":
-        try:
-            questions = _load_smoke_baseline(db)
-        except FoundationPulseError as exc:
-            raise BaselineWebError(str(exc)) from exc
+        questions = _load_web_baseline_questions(db, SMOKE_REQUIREMENTS, "smoke baseline")
     else:
         raise BaselineWebError(f"Invalid mode: {mode}")
 
@@ -87,7 +108,7 @@ def start_baseline_exam(db: Database, mode: str) -> dict[str, Any]:
 
     return {
         "exam_id": exam_id,
-        "exam_token": _encode_exam_token(exam_id, mode, question_ids),
+        "exam_token": _encode_exam_token(db, exam_id, mode, question_ids),
         "mode": mode,
         "question_count": len(questions),
         "questions": [
@@ -109,7 +130,7 @@ def submit_baseline_exam(db: Database, payload: dict[str, Any]) -> dict[str, Any
     if not isinstance(exam_token, str) or not exam_token:
         raise BaselineWebError("exam_token is required")
 
-    token_payload = _decode_exam_token(exam_token)
+    token_payload = _decode_exam_token(db, exam_token)
     if token_payload.get("exam_id") != str(exam_id) or token_payload.get("mode") != mode:
         raise BaselineWebError("exam_token does not match submitted exam")
 
@@ -155,6 +176,8 @@ def submit_baseline_exam(db: Database, payload: dict[str, Any]) -> dict[str, Any
         raise BaselineWebError("started_at and ended_at are required")
 
     session_type = "foundation_pulse" if mode == "full" else "analysis"
+    if mode == "full":
+        _backup_study_db(db)
 
     with db.transaction() as tx:
         duplicate = tx.execute(
@@ -208,6 +231,7 @@ def submit_baseline_exam(db: Database, payload: dict[str, Any]) -> dict[str, Any
                 is_correct=is_correct,
                 time_spent_seconds=time_spent,
                 student_label=student_label,
+                marked_for_review=bool(answer.get("marked_for_review")),
             )
             _persist_attempt_with_sm2(tx, attempt, question)
 
@@ -244,8 +268,10 @@ def _get_baseline_result_raw(db: Database, session_id: int) -> dict[str, Any]:
     accuracy = correct_count / question_count if question_count else 0.0
 
     rows = conn.execute(
-        """SELECT q.section, COUNT(*) as total,
-                  SUM(CASE WHEN a.is_correct = 1 THEN 1 ELSE 0 END) as correct
+        """SELECT q.section,
+                  COUNT(*) as total,
+                  SUM(CASE WHEN a.is_correct = 1 THEN 1 ELSE 0 END) as correct,
+                  SUM(CASE WHEN a.user_answer IS NULL THEN 1 ELSE 0 END) as skipped
            FROM attempts a
            JOIN questions q ON q.question_id = a.question_id
            WHERE a.session_id = ?
@@ -255,17 +281,32 @@ def _get_baseline_result_raw(db: Database, session_id: int) -> dict[str, Any]:
 
     by_section: dict[str, dict[str, int]] = {}
     for row in rows:
+        total = int(row["total"] or 0)
+        correct = int(row["correct"] or 0)
+        skipped = int(row["skipped"] or 0)
+        wrong = total - correct - skipped
         by_section[row["section"]] = {
-            "total": int(row["total"]),
-            "correct": int(row["correct"] or 0),
+            "total": total,
+            "correct": correct,
+            "wrong": wrong,
+            "skipped": skipped,
+            "accuracy": (correct / total) if total else 0.0,
+            "marks_earned": _score_marks(correct, wrong),
+            "marks_max": total * _CORRECT_MARKS,
         }
+    wrong_count = sum(section["wrong"] for section in by_section.values())
+    skipped_count = sum(section["skipped"] for section in by_section.values())
 
     return {
         "session_id": session_id,
         "mode": mode,
         "question_count": question_count,
         "correct_count": correct_count,
+        "wrong_count": wrong_count,
+        "skipped_count": skipped_count,
         "accuracy": accuracy,
+        "marks_earned": _score_marks(correct_count, wrong_count),
+        "marks_max": question_count * _CORRECT_MARKS,
         "by_section": by_section,
     }
 
@@ -277,35 +318,212 @@ def get_baseline_result(db: Database, session_id: int) -> dict[str, Any]:
     return res
 
 
-def _load_smoke_baseline(db: Database) -> list[Question]:
-    """Load the 5-question smoke baseline across four sections."""
-    conn = db.connect()
+def _load_web_baseline_questions(
+    db: Database,
+    requirements: dict[str, int],
+    label: str,
+) -> list[Question]:
+    """Load web-renderable baseline questions across the requested section split."""
+    pool = _build_web_safe_question_pool(db)
     questions: list[Question] = []
+    rng = random.SystemRandom()
 
-    for section, needed in SMOKE_REQUIREMENTS.items():
-        rows = conn.execute(
-            "SELECT * FROM questions WHERE section = ? AND is_holdout = 0 ORDER BY RANDOM() LIMIT ?",
-            (section, needed),
-        ).fetchall()
-        if len(rows) < needed:
-            raise FoundationPulseError(
-                f"Smoke baseline requires {needed} {section} questions, "
-                f"but only {len(rows)} available (non-holdout)."
+    for section, needed in requirements.items():
+        candidates = list(pool["questions_by_section"].get(section, []))
+        rng.shuffle(candidates)
+        if len(candidates) < needed:
+            raise BaselineWebError(
+                f"{label} requires {needed} web-safe {section} questions, "
+                f"but only {len(candidates)} are available after excluding duplicates, "
+                "mojibake, invalid options, and visual/table questions with missing assets."
             )
-        questions.extend(Question.from_row(row) for row in rows)
+        questions.extend(candidates[:needed])
 
     return questions
 
 
-def _question_to_client(question: Question, index: int) -> dict[str, Any]:
+def _build_web_safe_question_pool(db: Database) -> dict[str, Any]:
+    conn = db.connect()
+    rows = conn.execute(
+        """SELECT q.*, p.passage_text
+           FROM questions q
+           LEFT JOIN passages p ON p.passage_id = q.passage_id
+           WHERE q.is_holdout = 0
+           ORDER BY q.section, q.question_id"""
+    ).fetchall()
+    required_sections = set(FOUNDATION_PULSE_REQUIREMENTS)
+    raw_available = {section: 0 for section in FOUNDATION_PULSE_REQUIREMENTS}
+    questions_by_section: dict[str, list[Question]] = {
+        section: [] for section in FOUNDATION_PULSE_REQUIREMENTS
+    }
+    quality_exclusions: Counter[str] = Counter()
+    seen_fingerprints: set[str] = set()
+
+    for row in rows:
+        section = str(row["section"])
+        if section not in required_sections:
+            continue
+        raw_available[section] += 1
+        question = Question.from_row(row)
+
+        rejection = _web_baseline_rejection_reason(question)
+        if rejection:
+            quality_exclusions[rejection] += 1
+            continue
+
+        fingerprint = _question_fingerprint(question)
+        if fingerprint in seen_fingerprints:
+            quality_exclusions["duplicate_content"] += 1
+            continue
+        seen_fingerprints.add(fingerprint)
+        questions_by_section[section].append(question)
+
     return {
+        "raw_available": raw_available,
+        "questions_by_section": questions_by_section,
+        "quality_exclusions": quality_exclusions,
+    }
+
+
+def _web_baseline_rejection_reason(question: Question) -> str | None:
+    options = question.options
+    labels = {option.label for option in options}
+    if (
+        len(options) != 4
+        or any(not option.text.strip() for option in options)
+    ):
+        return "invalid_options"
+
+    if str(question.evidence_status or "") in _UNVERIFIED_EVIDENCE_STATUSES:
+        return "unverified_answer"
+
+    if _has_answer_integrity_failure(question):
+        return "answer_integrity_failure"
+
+    if labels != {"1", "2", "3", "4"}:
+        return "invalid_options"
+
+    combined_text = question.question_text + " " + " ".join(option.text for option in options)
+    if any(marker in combined_text for marker in _MOJIBAKE_MARKERS):
+        return "mojibake"
+
+    if _looks_like_incomplete_stem(question.question_text):
+        return "incomplete_stem"
+
+    if _looks_passage_dependent(question.question_text) and not _has_linked_passage(question):
+        return "passage_dependent"
+
+    if _has_unmaskable_answer_leak(question):
+        return "unmaskable_answer_leak"
+
+    if _has_drifted_asset_path(question):
+        return "missing_asset"
+
+    if _question_needs_visual_asset(question) and not _question_has_visual_asset(question):
+        return "missing_visual_asset"
+
+    if not _question_fingerprint(question):
+        return "blank_content"
+    return None
+
+
+def _looks_like_incomplete_stem(text: str) -> bool:
+    normalized = text.strip().casefold()
+    return any(normalized.startswith(prefix) for prefix in _INCOMPLETE_STEM_PREFIXES)
+
+
+def _looks_passage_dependent(text: str) -> bool:
+    normalized = re.sub(r"\s+", " ", text.strip())
+    if re.search(r"\bin the following passage\b", normalized, re.IGNORECASE) and len(normalized.split()) >= 30:
+        return False
+    return any(pattern.search(normalized) for pattern in _PASSAGE_DEPENDENT_PATTERNS)
+
+
+def _has_linked_passage(question: Question) -> bool:
+    return question.passage_id is not None and bool(str(question.passage_text or "").strip())
+
+
+def _has_answer_integrity_failure(question: Question) -> bool:
+    option_by_label = {option.label: option.text for option in question.options}
+    option_text = option_by_label.get(question.correct_option_label)
+    if option_text is None:
+        return True
+    if question.correct_option_text is None:
+        return False
+    return _normalize_answer_text(option_text) != _normalize_answer_text(question.correct_option_text)
+
+
+def _normalize_answer_text(text: str) -> str:
+    return re.sub(r"\s+", " ", str(text).strip()).casefold()
+
+
+def _has_drifted_asset_path(question: Question) -> bool:
+    return (
+        (bool(question.question_crop_path) and validate_asset_path(question.question_crop_path) is None)
+        or (bool(question.page_asset_path) and validate_asset_path(question.page_asset_path) is None)
+    )
+
+
+def _has_unmaskable_answer_leak(question: Question) -> bool:
+    if not is_answer_leaking_source(question.pdf_name):
+        return False
+    crop_path = question.question_crop_path
+    if not crop_path:
+        return _question_needs_visual_asset(question)
+    validated_crop = validate_asset_path(crop_path)
+    if validated_crop is None:
+        return True
+    return MASKED_CROP_DIRNAME not in {part for part in str(crop_path).replace("\\", "/").split("/")}
+
+
+def _question_needs_visual_asset(question: Question) -> bool:
+    return (
+        question.visual_required
+        or question.table_required
+        or question.question_modality not in _WEB_TEXT_MODALITIES
+    )
+
+
+def _question_has_visual_asset(question: Question) -> bool:
+    return (
+        validate_asset_path(question.question_crop_path) is not None
+        or validate_asset_path(question.page_asset_path) is not None
+    )
+
+
+def _question_asset_urls(question: Question) -> dict[str, str]:
+    urls: dict[str, str] = {}
+    if validate_asset_path(question.question_crop_path) is not None:
+        urls["crop"] = f"/api/question-assets/{question.question_id}/crop"
+    if (
+        not is_answer_leaking_source(question.pdf_name)
+        and validate_asset_path(question.page_asset_path) is not None
+    ):
+        urls["page"] = f"/api/question-assets/{question.question_id}/page"
+    return urls
+
+
+def _question_fingerprint(question: Question) -> str:
+    text = question.question_text + " " + " ".join(option.text for option in question.options)
+    return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", " ", text.casefold())).strip()
+
+
+def _question_to_client(question: Question, index: int) -> dict[str, Any]:
+    payload = {
         "question_id": question.question_id,
         "index": index,
         "section": question.section,
         "tier": question.tier,
+        "question_modality": question.question_modality,
+        "visual_required": question.visual_required,
+        "table_required": question.table_required,
+        "asset_urls": _question_asset_urls(question),
         "question_text": question.question_text,
         "options": [{"label": option.label, "text": option.text} for option in question.options],
     }
+    if _has_linked_passage(question):
+        payload["passage_text"] = str(question.passage_text)
+    return payload
 
 
 def _idempotency_note(mode: str, exam_id: str) -> str:
@@ -313,7 +531,7 @@ def _idempotency_note(mode: str, exam_id: str) -> str:
     return f"{prefix}:{exam_id}"
 
 
-def _encode_exam_token(exam_id: str, mode: str, question_ids: list[str]) -> str:
+def _encode_exam_token(db: Database, exam_id: str, mode: str, question_ids: list[str]) -> str:
     payload = {
         "exam_id": exam_id,
         "mode": mode,
@@ -322,18 +540,18 @@ def _encode_exam_token(exam_id: str, mode: str, question_ids: list[str]) -> str:
     body = base64.urlsafe_b64encode(
         json.dumps(payload, separators=(",", ":"), sort_keys=True).encode("utf-8")
     ).decode("ascii").rstrip("=")
-    signature = hmac.new(_EXAM_TOKEN_SECRET, body.encode("ascii"), hashlib.sha256).digest()
+    signature = hmac.new(_get_exam_token_secret(db), body.encode("ascii"), hashlib.sha256).digest()
     sig = base64.urlsafe_b64encode(signature).decode("ascii").rstrip("=")
     return f"{body}.{sig}"
 
 
-def _decode_exam_token(token: str) -> dict[str, Any]:
+def _decode_exam_token(db: Database, token: str) -> dict[str, Any]:
     try:
         body, sig = token.split(".", 1)
     except ValueError as exc:
         raise BaselineWebError("Invalid exam_token") from exc
 
-    expected = hmac.new(_EXAM_TOKEN_SECRET, body.encode("ascii"), hashlib.sha256).digest()
+    expected = hmac.new(_get_exam_token_secret(db), body.encode("ascii"), hashlib.sha256).digest()
     expected_sig = base64.urlsafe_b64encode(expected).decode("ascii").rstrip("=")
     if not hmac.compare_digest(sig, expected_sig):
         raise BaselineWebError("Invalid exam_token")
@@ -350,13 +568,74 @@ def _decode_exam_token(token: str) -> dict[str, Any]:
     return payload
 
 
+def _get_exam_token_secret(db: Database) -> bytes:
+    conn = db.connect()
+    if str(db.path) == ":memory:":
+        cache_key = f"memory:{id(conn)}"
+    else:
+        cache_key = str(db.path.resolve(strict=False))
+    cached = _EXAM_TOKEN_SECRET_CACHE.get(cache_key)
+    if cached is not None:
+        return cached
+
+    row = conn.execute(
+        "SELECT secret_value FROM _app_secrets WHERE secret_name = ?",
+        (_APP_SECRET_NAME,),
+    ).fetchone()
+    if row is None:
+        secret = secrets.token_bytes(32)
+        encoded = base64.b64encode(secret).decode("ascii")
+        conn.execute(
+            "INSERT INTO _app_secrets (secret_name, secret_value) VALUES (?, ?)",
+            (_APP_SECRET_NAME, encoded),
+        )
+        conn.commit()
+    else:
+        secret = base64.b64decode(str(row["secret_value"]))
+
+    _EXAM_TOKEN_SECRET_CACHE[cache_key] = secret
+    return secret
+
+
+def _backup_study_db(db: Database) -> None:
+    source_path = db.path
+    backups_dir = source_path.parent / "backups"
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    backup_path = backups_dir / f"study-{timestamp}.db"
+    try:
+        backups_dir.mkdir(parents=True, exist_ok=True)
+        source_conn = db.connect()
+        with sqlite3.connect(str(backup_path)) as backup_conn:
+            source_conn.backup(backup_conn)
+            backup_conn.commit()
+        _prune_old_backups(backups_dir)
+    except Exception as exc:
+        logger.warning("Failed to create pre-submit study DB backup at %s: %s", backup_path, exc)
+
+
+def _prune_old_backups(backups_dir: Path) -> None:
+    backups = sorted(backups_dir.glob("study-*.db"), key=lambda path: path.stat().st_mtime, reverse=True)
+    for old_path in backups[_BACKUP_KEEP_LATEST:]:
+        try:
+            old_path.unlink()
+        except OSError as exc:
+            logger.warning("Failed to delete old study DB backup %s: %s", old_path, exc)
+
+
+def _score_marks(correct_count: int, wrong_count: int) -> float:
+    return (correct_count * _CORRECT_MARKS) + (wrong_count * _WRONG_MARKS)
+
+
 def _load_questions_for_submit(
     conn: Any,
     question_ids: list[str],
 ) -> dict[str, Question]:
     placeholders = ",".join("?" for _ in question_ids)
     rows = conn.execute(
-        f"SELECT * FROM questions WHERE question_id IN ({placeholders})",
+        f"""SELECT q.*, p.passage_text
+            FROM questions q
+            LEFT JOIN passages p ON p.passage_id = q.passage_id
+            WHERE q.question_id IN ({placeholders})""",
         tuple(question_ids),
     ).fetchall()
 

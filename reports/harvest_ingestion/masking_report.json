@@ -1,0 +1,515 @@
+{
+  "remap_stats": {
+    "rows_seen": 8535,
+    "rows_remapped": 6180,
+    "missing_asset_rows": 0,
+    "masked_rows": 1674,
+    "unmaskable_answer_leak_rows": 5070,
+    "unmaskable_question_ids_sample": [
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q1",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q100",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q101",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q102",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q11",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q14",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q17",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q18",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q2",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q27",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q28",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q3",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q32",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q35",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q36",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q37",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q39",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q40",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q43",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q44",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q47",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q48",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q5",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q51",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q53",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q55",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q57",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q58",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q6",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q61",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q62",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q64",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q65",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q67",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q69",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q70",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q72",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q79",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q87",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q88",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q89",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q90",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q91",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q95",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q96",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q97",
+      "harvest_2016_tier1_prepp_2016-08-30_shift3_q99",
+      "harvest_2016_tier1_prepp_2016-09-01_shift2_q1",
+      "harvest_2016_tier1_prepp_2016-09-01_shift2_q10",
+      "harvest_2016_tier1_prepp_2016-09-01_shift2_q11"
+    ]
+  },
+  "harvest_total_rows": 6180,
+  "harvest_masked_rows": 1110,
+  "harvest_null_crop_rows": 5070,
+  "harvest_visual_needs_null_crop_rows": 0,
+  "per_source": {
+    "2016_tier1_prepp_2016-08-30_shift3": {
+      "rows": 47,
+      "masked": 0,
+      "null_crop": 47,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2016_tier1_prepp_2016-09-01_shift2": {
+      "rows": 48,
+      "masked": 0,
+      "null_crop": 48,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2016_tier1_prepp_2016-09-11_shift1": {
+      "rows": 56,
+      "masked": 0,
+      "null_crop": 56,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2016_tier1_testbook_compilation": {
+      "rows": 723,
+      "masked": 0,
+      "null_crop": 723,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2017_tier1_prepp_2017-08-10_shift1": {
+      "rows": 57,
+      "masked": 0,
+      "null_crop": 57,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2017_tier1_prepp_2017-08-12_shift1": {
+      "rows": 46,
+      "masked": 0,
+      "null_crop": 46,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2017_tier1_testbook_compilation": {
+      "rows": 1306,
+      "masked": 0,
+      "null_crop": 1306,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2018_tier1_prepp_2019-06-07_shift1": {
+      "rows": 31,
+      "masked": 0,
+      "null_crop": 31,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2018_tier1_testbook_compilation": {
+      "rows": 699,
+      "masked": 372,
+      "null_crop": 327,
+      "visual_needs_null_crop": 0,
+      "has_crop": 372
+    },
+    "2019_tier1_prepp_2020-03-06_shift1": {
+      "rows": 83,
+      "masked": 83,
+      "null_crop": 0,
+      "visual_needs_null_crop": 0,
+      "has_crop": 83
+    },
+    "2019_tier1_prepp_2020-03-07": {
+      "rows": 76,
+      "masked": 76,
+      "null_crop": 0,
+      "visual_needs_null_crop": 0,
+      "has_crop": 76
+    },
+    "2019_tier2_prepp_2020-11-15_quant_shift1": {
+      "rows": 35,
+      "masked": 35,
+      "null_crop": 0,
+      "visual_needs_null_crop": 0,
+      "has_crop": 35
+    },
+    "2020_tier2_prepp_2022-01-29_quant": {
+      "rows": 38,
+      "masked": 38,
+      "null_crop": 0,
+      "visual_needs_null_crop": 0,
+      "has_crop": 38
+    },
+    "2020_tier2_prepp_2022-02-03_english": {
+      "rows": 161,
+      "masked": 10,
+      "null_crop": 151,
+      "visual_needs_null_crop": 0,
+      "has_crop": 10
+    },
+    "2020_tier2_prepp_2022-02-03_english_akey": {
+      "rows": 139,
+      "masked": 0,
+      "null_crop": 139,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2021_tier1_prepp_2022-04-11_shift1_en": {
+      "rows": 22,
+      "masked": 0,
+      "null_crop": 22,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2021_tier1_prepp_2022-04-11_shift3": {
+      "rows": 29,
+      "masked": 0,
+      "null_crop": 29,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-01_shift1": {
+      "rows": 65,
+      "masked": 0,
+      "null_crop": 65,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-02_shift1": {
+      "rows": 53,
+      "masked": 0,
+      "null_crop": 53,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-02_shift2": {
+      "rows": 54,
+      "masked": 0,
+      "null_crop": 54,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-02_shift3": {
+      "rows": 56,
+      "masked": 0,
+      "null_crop": 56,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-02_shift4": {
+      "rows": 54,
+      "masked": 0,
+      "null_crop": 54,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-06_shift1": {
+      "rows": 58,
+      "masked": 0,
+      "null_crop": 58,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-06_shift3": {
+      "rows": 68,
+      "masked": 0,
+      "null_crop": 68,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-07_shift1": {
+      "rows": 52,
+      "masked": 0,
+      "null_crop": 52,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-08_shift1": {
+      "rows": 59,
+      "masked": 0,
+      "null_crop": 59,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-08_shift4": {
+      "rows": 63,
+      "masked": 0,
+      "null_crop": 63,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-12_shift4": {
+      "rows": 164,
+      "masked": 0,
+      "null_crop": 164,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-13_shift1": {
+      "rows": 63,
+      "masked": 0,
+      "null_crop": 63,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2022_tier1_prepp_2022-12-13_shift3": {
+      "rows": 111,
+      "masked": 0,
+      "null_crop": 111,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-14_shift1": {
+      "rows": 47,
+      "masked": 35,
+      "null_crop": 12,
+      "visual_needs_null_crop": 0,
+      "has_crop": 35
+    },
+    "2023_tier1_prepp_2023-07-14_shift4": {
+      "rows": 50,
+      "masked": 0,
+      "null_crop": 50,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-17_shift1": {
+      "rows": 56,
+      "masked": 0,
+      "null_crop": 56,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-17_shift3": {
+      "rows": 60,
+      "masked": 0,
+      "null_crop": 60,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-17_shift4": {
+      "rows": 50,
+      "masked": 0,
+      "null_crop": 50,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-18_shift1": {
+      "rows": 64,
+      "masked": 0,
+      "null_crop": 64,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-18_shift2": {
+      "rows": 59,
+      "masked": 0,
+      "null_crop": 59,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-18_shift4": {
+      "rows": 54,
+      "masked": 0,
+      "null_crop": 54,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-19_shift1": {
+      "rows": 59,
+      "masked": 0,
+      "null_crop": 59,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-19_shift3": {
+      "rows": 68,
+      "masked": 0,
+      "null_crop": 68,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-19_shift4": {
+      "rows": 52,
+      "masked": 0,
+      "null_crop": 52,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-21_shift1": {
+      "rows": 52,
+      "masked": 0,
+      "null_crop": 52,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-21_shift1_alt": {
+      "rows": 22,
+      "masked": 0,
+      "null_crop": 22,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-21_shift3": {
+      "rows": 66,
+      "masked": 0,
+      "null_crop": 66,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-21_shift4": {
+      "rows": 61,
+      "masked": 0,
+      "null_crop": 61,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-24_shift3": {
+      "rows": 52,
+      "masked": 0,
+      "null_crop": 52,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-24_shift4": {
+      "rows": 55,
+      "masked": 0,
+      "null_crop": 55,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2023_tier1_prepp_2023-07-25_shift1": {
+      "rows": 57,
+      "masked": 51,
+      "null_crop": 6,
+      "visual_needs_null_crop": 0,
+      "has_crop": 51
+    },
+    "2023_tier1_prepp_2023-07-25_shift4": {
+      "rows": 47,
+      "masked": 39,
+      "null_crop": 8,
+      "visual_needs_null_crop": 0,
+      "has_crop": 39
+    },
+    "2023_tier1_prepp_2023-07-26_shift1": {
+      "rows": 48,
+      "masked": 45,
+      "null_crop": 3,
+      "visual_needs_null_crop": 0,
+      "has_crop": 45
+    },
+    "2023_tier1_prepp_2023-07-26_shift4": {
+      "rows": 50,
+      "masked": 43,
+      "null_crop": 7,
+      "visual_needs_null_crop": 0,
+      "has_crop": 43
+    },
+    "2023_tier1_prepp_2023-07-27_shift1": {
+      "rows": 49,
+      "masked": 43,
+      "null_crop": 6,
+      "visual_needs_null_crop": 0,
+      "has_crop": 43
+    },
+    "2023_tier1_prepp_2023-07-27_shift2": {
+      "rows": 54,
+      "masked": 46,
+      "null_crop": 8,
+      "visual_needs_null_crop": 0,
+      "has_crop": 46
+    },
+    "2023_tier2_prepp_2023-10-26_shift1": {
+      "rows": 89,
+      "masked": 87,
+      "null_crop": 2,
+      "visual_needs_null_crop": 0,
+      "has_crop": 87
+    },
+    "2024_tier1_prepp_2024-09-09_shift1": {
+      "rows": 29,
+      "masked": 0,
+      "null_crop": 29,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2024_tier1_prepp_2024-09-09_shift2": {
+      "rows": 30,
+      "masked": 0,
+      "null_crop": 30,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2024_tier1_prepp_2024-09-10_shift1": {
+      "rows": 24,
+      "masked": 0,
+      "null_crop": 24,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2024_tier1_prepp_2024-09-10_shift3": {
+      "rows": 24,
+      "masked": 0,
+      "null_crop": 24,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2024_tier1_prepp_2024-09-11_shift2": {
+      "rows": 22,
+      "masked": 0,
+      "null_crop": 22,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2024_tier1_prepp_2024-09-24_shift1": {
+      "rows": 23,
+      "masked": 0,
+      "null_crop": 23,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2024_tier1_prepp_2024-09-25_shift3": {
+      "rows": 50,
+      "masked": 50,
+      "null_crop": 0,
+      "visual_needs_null_crop": 0,
+      "has_crop": 50
+    },
+    "2024_tier1_prepp_2024-09-26_shift2": {
+      "rows": 58,
+      "masked": 57,
+      "null_crop": 1,
+      "visual_needs_null_crop": 0,
+      "has_crop": 57
+    },
+    "2024_tier2_prepp_2025-01-18_paper1": {
+      "rows": 40,
+      "masked": 0,
+      "null_crop": 40,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    },
+    "2024_tier2_prepp_2025-01-20_paper1": {
+      "rows": 43,
+      "masked": 0,
+      "null_crop": 43,
+      "visual_needs_null_crop": 0,
+      "has_crop": 0
+    }
+  }
+}

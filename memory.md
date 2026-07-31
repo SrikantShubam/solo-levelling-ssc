@@ -36,6 +36,15 @@
 ## 2026-06-25 Phase 3 Anti-Overfit Completion
 
 - Added evaluation contract spec at `docs/superpowers/specs/2026-06-25-phase3-anti-overfit-completion-design.md`.
+
+## 2026-07-13 Phase 1 Web Incomplete-Stem Gate
+
+- Smoke test exposed `2024_tier1_appx_answer_key_q29`, an answer-key appendix row whose question text starts mid-sentence: `pair does not belong to that group?`.
+- Baseline web eligibility now excludes incomplete continuation stems with `incomplete_stem` and excludes four-label rows with blank option text as `invalid_options`.
+- This is a holdout-from-baseline repair, not deletion: the rows remain available for later corpus backfill/reconstruction.
+- Verification: `uv run pytest -q` passed with `395 passed, 2 warnings`.
+
+Follow-up: do not use a generic lowercase-first heuristic for incomplete stems. It falsely flags valid rows that start with currency, formulas, blanks, or symbols. The actual repaired split rows were `2024_tier1_appx_answer_key_q8`, `q22`, and `q29`; report is `reports/incomplete_stem_repair_report.md`. Verification after repair: `uv run pytest -q` passed with `396 passed, 2 warnings`.
 - Hardened `src/ssc_study/phase3_eval.py` without coupling it to runtime orchestration.
 - Phase 3 evaluation is now explicitly read-only, derives actual routes from the latest 10 non-holdout attempts only, and reports `actual_attempt_count`, `actual_accuracy`, and `signal_strength` (`insufficient`, `weak`, `stable`) per comparison.
 - `ssc-study phase3-eval` now prints attempt count, accuracy, and signal strength per archetype comparison without adding any mutating CLI behavior.
@@ -134,6 +143,21 @@
 - Fixed `get_baseline_next_steps()` to short-circuit smoke mode so smoke results only return the full-baseline recommendation and do not derive weak sections or diagnostic routing.
 - Added focused baseline-web tests covering: smoke next-steps isolation, mixed full-baseline tier classification, and Guardian unlock when every section clears the gate.
 - Verification: `uv run pytest tests/test_baseline_web.py tests/test_web.py tests/test_phase1_frontend.py -q` passed with 95 tests; `uv run pytest -q` passed with 367 tests and the same 2 existing warnings.
+
+## 2026-07-11 Baseline Web-Safe Pool Hardening
+
+- Manual 200-question baseline testing showed the baseline was not ready: repeated questions, mojibake, and visual/image questions that did not render invalidated the readiness assumption.
+- `src/ssc_study/baseline_web.py` now gates preflight/start on a web-safe unique candidate pool instead of raw non-holdout section counts.
+- Web baseline excludes duplicate normalized content, mojibake markers, invalid options, and unsupported visual/table modalities; preflight reports both `raw_available` and `quality_exclusions`.
+- Live `data/study.db` still had enough clean candidates after filtering: Quant/DI 319, Reasoning 235, English 565, GK/GA 321.
+- Verification: `uv run pytest tests/test_baseline_web.py tests/test_web.py tests/test_phase1_frontend.py -q` passed with 108 tests.
+
+## 2026-07-11 Baseline Clear Response UI
+
+- Manual baseline testing also showed the UI could not return an answered question to unattempted/skipped state.
+- Added a `Clear Response` button to the exam footer; it deletes the current `state.answers[question_id]`, saves the draft, and refreshes the selected option/nav state.
+- Existing submit behavior already records unanswered questions as `user_answer: null` and `student_label='skipped'`; this change makes that reachable in the browser.
+- Verification: `uv run pytest tests/test_baseline_web.py tests/test_web.py tests/test_phase1_frontend.py -q` passed with 109 tests.
 
 ## 2026-07-06 Final Agent Workorder Package
 

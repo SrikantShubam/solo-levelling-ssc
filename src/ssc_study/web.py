@@ -5,44 +5,40 @@ from __future__ import annotations
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from jinja2 import Environment, FileSystemLoader
 
-from .baseline_web import (
-    SMOKE_REQUIREMENTS,
-    SMOKE_TOTAL,
-    BaselineWebError,
-    get_baseline_preflight,
-    get_baseline_next_steps as _get_baseline_next_steps,
-)
-from .baseline_web import get_baseline_result as _get_baseline_result
-from .baseline_web import start_baseline_exam as _start_baseline_exam
-from .baseline_web import submit_baseline_exam as _submit_baseline_exam
+from . import baseline_web
 from .db import Database
+from .question_assets import media_type_for_asset, resolve_question_asset
+
+SMOKE_REQUIREMENTS = baseline_web.SMOKE_REQUIREMENTS
+SMOKE_TOTAL = baseline_web.SMOKE_TOTAL
+get_baseline_preflight = baseline_web.get_baseline_preflight
 
 
 def start_baseline_exam(db: Database, mode: str) -> dict:
     """Start a baseline exam, translating domain errors to HTTP 400."""
     try:
-        return _start_baseline_exam(db, mode)
-    except BaselineWebError as exc:
+        return baseline_web.start_baseline_exam(db, mode)
+    except baseline_web.BaselineWebError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
 
 
 def submit_baseline_exam(db: Database, payload: dict) -> dict:
     """Submit a baseline exam, translating domain errors to HTTP 400."""
     try:
-        return _submit_baseline_exam(db, payload)
-    except BaselineWebError as exc:
+        return baseline_web.submit_baseline_exam(db, payload)
+    except baseline_web.BaselineWebError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
 
 
 def get_baseline_result(db: Database, session_id: int) -> dict:
     """Fetch a baseline result, translating missing sessions to HTTP 404."""
     try:
-        return _get_baseline_result(db, session_id)
-    except BaselineWebError as exc:
+        return baseline_web.get_baseline_result(db, session_id)
+    except baseline_web.BaselineWebError as exc:
         message = str(exc)
         status = 404 if "not found" in message.lower() else 400
         raise HTTPException(status_code=status, detail=message) from exc
@@ -51,8 +47,8 @@ def get_baseline_result(db: Database, session_id: int) -> dict:
 def get_baseline_next_steps(db: Database, session_id: int) -> dict:
     """Fetch a baseline next-step recommendation, translating errors to HTTP statuses."""
     try:
-        return _get_baseline_next_steps(db, session_id)
-    except BaselineWebError as exc:
+        return baseline_web.get_baseline_next_steps(db, session_id)
+    except baseline_web.BaselineWebError as exc:
         message = str(exc)
         status = 404 if "not found" in message.lower() else 400
         raise HTTPException(status_code=status, detail=message) from exc
@@ -94,6 +90,13 @@ def create_app(db: Database, templates_dir: str | Path | None = None) -> FastAPI
         if mode not in ("smoke", "full"):
             raise HTTPException(status_code=400, detail=f"Invalid mode: {mode!r}")
         return start_baseline_exam(db, mode)
+
+    @app.get("/api/question-assets/{question_id}/{kind}")
+    async def api_question_asset(question_id: str, kind: str) -> FileResponse:
+        path = resolve_question_asset(db.connect(), question_id, kind)
+        if path is None:
+            raise HTTPException(status_code=404, detail="Question asset not found")
+        return FileResponse(path, media_type=media_type_for_asset(path))
 
     @app.post("/api/baseline/submit")
     async def api_submit(payload: dict) -> dict:

@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import json
+import sqlite3
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -57,9 +59,68 @@ class Question:
     evidence_status: str | None = None
     question_crop_path: str | None = None
     page_asset_path: str | None = None
+    passage_id: int | None = None
+    passage_text: str | None = None
     archetype_id: int | None = None
     is_holdout: bool = False
     created_at: str = ""
+
+    @classmethod
+    def from_row(cls, row: sqlite3.Row | dict[str, Any]) -> Question:
+        """Build a Question from a database row-like object."""
+
+        def _get(key: str, default: Any = None) -> Any:
+            try:
+                value = row[key]  # type: ignore[index]
+            except (KeyError, IndexError):
+                return default
+            return default if value is None else value
+
+        options_raw = _get("options_json", [])
+        if isinstance(options_raw, bytes):
+            options_raw = options_raw.decode("utf-8")
+        if isinstance(options_raw, str):
+            try:
+                options_data = json.loads(options_raw)
+            except json.JSONDecodeError:
+                options_data = []
+        elif isinstance(options_raw, list):
+            options_data = options_raw
+        else:
+            options_data = []
+
+        options = [
+            Option(label=str(option.get("label", "")), text=str(option.get("text", "")))
+            for option in options_data
+            if isinstance(option, dict)
+        ]
+
+        return cls(
+            question_id=str(_get("question_id", "")),
+            pdf_name=str(_get("pdf_name", "")),
+            source_page=int(_get("source_page", 0)),
+            global_question_number=int(_get("global_question_number", 0)),
+            section=str(_get("section", "")),
+            year=int(_get("year", 0)),
+            tier=str(_get("tier", "tier1")),
+            question_text=str(_get("question_text", "")),
+            options=options,
+            correct_option_label=str(_get("correct_option_label", "")),
+            correct_option_text=_get("correct_option_text"),
+            chosen_option_label=_get("chosen_option_label"),
+            question_modality=str(_get("question_modality", "text_only")),
+            visual_required=bool(_get("visual_required", False)),
+            table_required=bool(_get("table_required", False)),
+            math_required=bool(_get("math_required", False)),
+            evidence_status=_get("evidence_status"),
+            question_crop_path=_get("question_crop_path"),
+            page_asset_path=_get("page_asset_path"),
+            passage_id=_get("passage_id"),
+            passage_text=_get("passage_text"),
+            archetype_id=_get("archetype_id"),
+            is_holdout=bool(_get("is_holdout", False)),
+            created_at=str(_get("created_at", "")),
+        )
 
     @classmethod
     def from_merged_json(cls, data: dict[str, Any], section: str, year: int, tier: str) -> Question:
@@ -111,6 +172,7 @@ class Attempt:
     concept_tag: str | None = None
     quality_score: int | None = None  # 0–5 SM-2 quality
     was_remediated: bool = False
+    marked_for_review: bool = False
     created_at: str = ""
     attempt_id: int | None = None  # set by DB after insert
 

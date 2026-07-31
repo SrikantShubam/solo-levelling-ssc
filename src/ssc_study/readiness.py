@@ -125,7 +125,12 @@ def get_readiness_summary(db: Database) -> dict[str, Any]:
 
 
 def _check_foundation_pulse(db: Database) -> CheckResult:
-    """Check if foundation pulse areas are 75%+ within 14 days."""
+    """Check if foundation pulse areas are 75%+ within 14 days.
+
+    Counts attempts from foundation_pulse sessions, regular mocks, and sealed_mock
+    full mocks. Sealed-holdout mocks were previously typed as mock; sealed_mock must
+    stay included so the v14 session-type rename does not drop valid area signal.
+    """
     conn = db.connect()
     fourteen_days_ago = (date.today() - timedelta(days=14)).isoformat()
 
@@ -141,7 +146,7 @@ def _check_foundation_pulse(db: Database) -> CheckResult:
                JOIN sessions s ON s.session_id = at.session_id
                WHERE q.section = ?
                  AND at.created_at >= ?
-                 AND s.session_type IN ('foundation_pulse', 'mock')""",
+                 AND s.session_type IN ('foundation_pulse', 'mock', 'sealed_mock')""",
             (area, fourteen_days_ago),
         ).fetchone()
 

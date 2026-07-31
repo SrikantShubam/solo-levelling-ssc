@@ -6,7 +6,10 @@ from io import StringIO
 
 from rich.console import Console
 
-from ssc_study.quiz import QuizSession, _load_questions
+import pytest
+
+from ssc_study.models import Attempt, Option, Question
+from ssc_study.quiz import QuizSession, _load_questions, _save_attempt
 
 
 class TestQuizSession:
@@ -199,3 +202,47 @@ class TestFoundationPulse:
         from ssc_study.quiz import FoundationPulseError, _load_foundation_pulse
         with pytest.raises(FoundationPulseError, match="requires 80"):
             _load_foundation_pulse(seeded_db, count=200)
+
+
+def test_save_attempt_rolls_back_attempt_insert_when_sm2_update_fails(seeded_db, monkeypatch):
+    conn = seeded_db.connect()
+    conn.execute(
+        "INSERT INTO sessions (session_type, started_at) VALUES ('mock', '2025-01-01')"
+    )
+    conn.commit()
+    session_id = conn.execute("SELECT last_insert_rowid() as id").fetchone()["id"]
+
+    attempt = Attempt(
+        question_id="q3",
+        session_id=session_id,
+        user_answer="1",
+        is_correct=True,
+        time_spent_seconds=25,
+        student_label="correct",
+    )
+    question = Question(
+        question_id="q3",
+        pdf_name="test_pdf",
+        source_page=1,
+        global_question_number=3,
+        section="Quant/DI",
+        year=2021,
+        tier="tier1",
+        question_text="Question q3?",
+        options=[Option("1", "A"), Option("2", "B"), Option("3", "C"), Option("4", "D")],
+        correct_option_label="1",
+    )
+
+    def explode(*_args, **_kwargs):
+        raise RuntimeError("sm2 failed")
+
+    monkeypatch.setattr("ssc_study.quiz.compute_sm2", explode)
+
+    with pytest.raises(RuntimeError, match="sm2 failed"):
+        _save_attempt(seeded_db, attempt, question)
+
+    row = conn.execute(
+        "SELECT COUNT(*) as c FROM attempts WHERE session_id = ? AND question_id = 'q3'",
+        (session_id,),
+    ).fetchone()
+    assert row["c"] == 0

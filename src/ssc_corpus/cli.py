@@ -31,6 +31,13 @@ from .storage import initialize_workspace
 from . import ai_review
 
 
+def _load_env_or_raise(env_file: Path) -> dict[str, str]:
+    try:
+        return _read_env(env_file.resolve())
+    except FileNotFoundError as exc:
+        raise ValueError(f"API key configuration file not found: {env_file.resolve()}") from exc
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="ssc-corpus")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -111,55 +118,67 @@ def main(argv: list[str] | None = None) -> int:
         result = audit_workspace(root)
         return 0 if result.status == "GO" else 1 if result.status == "GO_WITH_EXCEPTIONS" else 2
     if args.command == "extract-pdf":
-        api_key = read_api_key(args.env_file.resolve()) if args.provider == "gemini" else None
-        env = _read_env(args.env_file.resolve())
-        fallback_extractor = None
-        if args.allow_fallback:
-            spec = ModelSpec(
-                provider="nvidia_nim",
-                model=args.fallback_model,
-                env_key_names=("NVIDIA_API_KEY", "NIM_API_KEY", "NVIDIA_NIM_API_KEY", "nvidia_nim_api_key"),
-                endpoint=NVIDIA_NIM_URL,
-            )
-            fallback_key = _first_env_value(env, spec.env_key_names)
-            if not fallback_key:
-                raise ValueError("Fallback requested but no NVIDIA/NIM API key was found")
+        try:
+            env = _load_env_or_raise(args.env_file)
+            if args.provider == "gemini":
+                try:
+                    api_key = read_api_key(args.env_file.resolve())
+                except FileNotFoundError as exc:
+                    raise ValueError(
+                        f"API key configuration file not found: {args.env_file.resolve()}"
+                    ) from exc
+            else:
+                api_key = None
+            fallback_extractor = None
+            if args.allow_fallback:
+                spec = ModelSpec(
+                    provider="nvidia_nim",
+                    model=args.fallback_model,
+                    env_key_names=("NVIDIA_API_KEY", "NIM_API_KEY", "NVIDIA_NIM_API_KEY", "nvidia_nim_api_key"),
+                    endpoint=NVIDIA_NIM_URL,
+                )
+                fallback_key = _first_env_value(env, spec.env_key_names)
+                if not fallback_key:
+                    raise ValueError("Fallback requested but no NVIDIA/NIM API key was found")
 
-            def fallback_extractor(image_path: Path, page_number: int, failure: dict) -> dict:
-                result = _call_openai_compatible_vision(spec, fallback_key, image_path, page_number)
-                result["fallback_parent_failure_type"] = failure.get("failure_type")
-                result["fallback_parent_provider"] = failure.get("provider")
-                result["fallback_parent_model"] = failure.get("model")
-                return result
+                def fallback_extractor(image_path: Path, page_number: int, failure: dict) -> dict:
+                    result = _call_openai_compatible_vision(spec, fallback_key, image_path, page_number)
+                    result["fallback_parent_failure_type"] = failure.get("failure_type")
+                    result["fallback_parent_provider"] = failure.get("provider")
+                    result["fallback_parent_model"] = failure.get("model")
+                    return result
 
-        if args.provider == "gemini":
-            result = extract_pdf_with_gemini(
-                pdf_path=args.pdf.resolve(),
-                output_dir=args.out.resolve(),
-                api_key=str(api_key),
-                expected_questions=args.expected_questions,
-                model_name=args.model,
-                force=args.force,
-                fallback_extractor=fallback_extractor,
-            )
-        else:
-            spec = _primary_model_spec(args.provider, args.model)
-            provider_key = _first_env_value(env, spec.env_key_names)
-            if not provider_key:
-                raise ValueError(f"No API key found for provider {args.provider}")
-            page_delay = 5.0 if args.provider == "openrouter" else 0.0
-            result = extract_pdf_with_openai_compatible_vision(
-                pdf_path=args.pdf.resolve(),
-                output_dir=args.out.resolve(),
-                provider=spec.provider,
-                model_name=spec.model,
-                endpoint=spec.endpoint,
-                api_key=provider_key,
-                expected_questions=args.expected_questions,
-                force=args.force,
-                fallback_extractor=fallback_extractor,
-                page_delay_seconds=page_delay,
-            )
+            if args.provider == "gemini":
+                result = extract_pdf_with_gemini(
+                    pdf_path=args.pdf.resolve(),
+                    output_dir=args.out.resolve(),
+                    api_key=str(api_key),
+                    expected_questions=args.expected_questions,
+                    model_name=args.model,
+                    force=args.force,
+                    fallback_extractor=fallback_extractor,
+                )
+            else:
+                spec = _primary_model_spec(args.provider, args.model)
+                provider_key = _first_env_value(env, spec.env_key_names)
+                if not provider_key:
+                    raise ValueError(f"No API key found for provider {args.provider}")
+                page_delay = 5.0 if args.provider == "openrouter" else 0.0
+                result = extract_pdf_with_openai_compatible_vision(
+                    pdf_path=args.pdf.resolve(),
+                    output_dir=args.out.resolve(),
+                    provider=spec.provider,
+                    model_name=spec.model,
+                    endpoint=spec.endpoint,
+                    api_key=provider_key,
+                    expected_questions=args.expected_questions,
+                    force=args.force,
+                    fallback_extractor=fallback_extractor,
+                    page_delay_seconds=page_delay,
+                )
+        except (FileNotFoundError, ValueError) as exc:
+            print(f"Error: {exc}")
+            return 1
         print(f"questions={result.question_count}")
         print(f"qc_passed={result.qc_passed}")
         print(f"qc_status={result.qc_status}")
@@ -190,16 +209,25 @@ def main(argv: list[str] | None = None) -> int:
         print(f"json={json_path}")
         return 0
     if args.command == "retry-failed-batch":
-        env = _read_env(args.env_file.resolve())
-        if args.provider == "gemini":
-            primary_key = read_api_key(args.env_file.resolve())
-            endpoint = None
-        else:
-            spec = _primary_model_spec(args.provider, args.model)
-            primary_key = _first_env_value(env, spec.env_key_names)
-            if not primary_key:
-                raise ValueError(f"No API key found for provider {args.provider}")
-            endpoint = spec.endpoint
+        try:
+            env = _load_env_or_raise(args.env_file)
+            if args.provider == "gemini":
+                try:
+                    primary_key = read_api_key(args.env_file.resolve())
+                except FileNotFoundError as exc:
+                    raise ValueError(
+                        f"API key configuration file not found: {args.env_file.resolve()}"
+                    ) from exc
+                endpoint = None
+            else:
+                spec = _primary_model_spec(args.provider, args.model)
+                primary_key = _first_env_value(env, spec.env_key_names)
+                if not primary_key:
+                    raise ValueError(f"No API key found for provider {args.provider}")
+                endpoint = spec.endpoint
+        except (FileNotFoundError, ValueError) as exc:
+            print(f"Error: {exc}")
+            return 1
         page_delay = 5.0 if args.provider == "openrouter" else 0.0
         report = retry_failed_extractions(
             batch_summary_path=args.batch_summary.resolve(),
@@ -296,7 +324,7 @@ def _primary_model_spec(provider: str, model: str) -> ModelSpec:
     return ModelSpec(
         provider=provider,
         model=model,
-        env_key_names=("OPENROUTER_API_KEY", "OPENROUTER_KEY", "openrouter", "deep_seek_open_router"),
+        env_key_names=("SSC_OPENROUTER", "OPENROUTER_API_KEY", "OPENROUTER_KEY", "openrouter", "deep_seek_open_router"),
         endpoint="https://openrouter.ai/api/v1/chat/completions",
     )
 

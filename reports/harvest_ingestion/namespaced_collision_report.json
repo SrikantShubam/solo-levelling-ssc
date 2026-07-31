@@ -1,0 +1,14 @@
+{
+  "all_harvest_questions": 12521,
+  "insertable_harvest_rows": 6180,
+  "skipped_not_ready": 6341,
+  "skipped_missing_correct": 0,
+  "skipped_bad_label": 0,
+  "existing_question_count": 2355,
+  "collision_count": 0,
+  "duplicate_in_harvest_count": 0,
+  "bad_prefix_count": 0,
+  "collision_samples": [],
+  "duplicate_samples": [],
+  "bad_prefix_samples": []
+}

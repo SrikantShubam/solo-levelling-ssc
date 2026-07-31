@@ -1,9 +1,14 @@
 from pathlib import Path
+from types import SimpleNamespace
+
+import pytest
 
 from ssc_corpus.extraction import (
+    _collect_page_results,
     _classify_failure_type,
     _extract_page,
     merge_page_results,
+    render_pdf_pages,
     write_review_summary,
 )
 
@@ -247,6 +252,62 @@ def test_deterministic_conflict_clears_canonical_correct_answer() -> None:
     assert row["canonical_correct_option_label"] is None
     assert row["correct_option_label"] is None
     assert row["raw_gemini_correct_option_label"] == "2"
+
+
+def test_render_pdf_pages_closes_document(monkeypatch, tmp_path: Path) -> None:
+    closed = {"value": False}
+
+    class FakePixmap:
+        def save(self, path: str) -> None:
+            Path(path).write_bytes(b"png")
+
+    class FakePage:
+        def get_pixmap(self, matrix, alpha):  # noqa: ANN001
+            assert alpha is False
+            return FakePixmap()
+
+    class FakeDoc:
+        def __iter__(self):
+            return iter([FakePage()])
+
+        def close(self) -> None:
+            closed["value"] = True
+
+    monkeypatch.setitem(
+        __import__("sys").modules,
+        "fitz",
+        SimpleNamespace(open=lambda _path: FakeDoc(), Matrix=lambda x, y: (x, y)),
+    )
+
+    paths = render_pdf_pages(tmp_path / "paper.pdf", tmp_path / "images")
+
+    assert len(paths) == 1
+    assert closed["value"] is True
+
+
+def test_collect_page_results_reextracts_corrupt_cached_json(tmp_path: Path) -> None:
+    image_paths = [tmp_path / "page_01.png"]
+    image_paths[0].write_bytes(b"png")
+    page_json_dir = tmp_path / "page_json"
+    page_json_dir.mkdir()
+    cached = page_json_dir / "page_01.json"
+    cached.write_text("{not valid json", encoding="utf-8")
+
+    called = {"count": 0}
+
+    def extractor(image_path: Path, page_number: int) -> dict:
+        called["count"] += 1
+        return {
+            "page": page_number,
+            "questions": [_question(1, f"Recovered from {image_path.name}", "1")],
+            "warnings": [],
+        }
+
+    results = _collect_page_results(image_paths, page_json_dir, extractor, force=False)
+
+    assert called["count"] == 1
+    assert results[0]["questions"][0]["question_text_full"].startswith("Recovered")
+    assert "Recovered" in cached.read_text(encoding="utf-8")
 
 
 def _question(number: int, text: str, correct: str) -> dict:

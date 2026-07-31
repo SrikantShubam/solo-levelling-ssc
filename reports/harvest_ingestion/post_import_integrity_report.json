@@ -1,0 +1,39 @@
+{
+  "before_questions": 2355,
+  "after_questions": 8535,
+  "expected_after_questions": 8535,
+  "harvest_rows": 6180,
+  "changed_existing_count": 0,
+  "missing_existing_count": 0,
+  "changed_existing_samples": [],
+  "missing_existing_samples": [],
+  "protected_before": {
+    "attempts": 410,
+    "sessions": 4,
+    "sm2_state": 204
+  },
+  "protected_after": {
+    "attempts": 410,
+    "sessions": 4,
+    "sm2_state": 204
+  },
+  "protected_unchanged": true,
+  "counts_after": {
+    "questions": 8535,
+    "passages": 42,
+    "archetypes": 48
+  },
+  "harvest_by_section": {
+    "Arrange the following words as per order in the dictionary": 1,
+    "Common": 61,
+    "Comprehension:": 13,
+    "Computer Knowledge": 4,
+    "English": 1314,
+    "For the following questions": 28,
+    "GK/GA": 989,
+    "Mathematics": 47,
+    "Quant/DI": 3063,
+    "Reasoning": 656,
+    "ssc cgl": 4
+  }
+}

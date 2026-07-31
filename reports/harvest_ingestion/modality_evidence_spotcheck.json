@@ -1,0 +1,225 @@
+{
+  "sample_count": 20,
+  "samples": [
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q54",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "Quant/DI",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p16_q054_question.png",
+      "text": "Arrange the following words in a logical and meaningful order.\n1. Wrist\n2. Nails\n3. Shoulder\n4. Elbow\n5. Palm\n6. Fingers"
+    },
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q56",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "Quant/DI",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p16_q056_question.png",
+      "text": "Select the word-pair in which the two words are related in the same way as the two words in the following word-pair.\nDirty : Filthy"
+    },
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q60",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "Quant/DI",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p18_q060_question.png",
+      "text": "Select the option that is related to the third number in the same way as the second number is related to the first number.\n\n12 : 192 :: 15 : ?"
+    },
+    {
+      "question_id": "harvest_2016_tier1_prepp_2016-08-30_shift3_q51",
+      "pdf_name": "2016_tier1_prepp_2016-08-30_shift3",
+      "section": "Quant/DI",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_LLM_ONLY",
+      "question_crop_path": null,
+      "text": "A can do a piece of work in 10 days, B can do it in 12 days and C can do it in 15 days. In how many days will A, B and C finish it, working all together?\n\nA किसी काम को 10 दिन में "
+    },
+    {
+      "question_id": "harvest_2016_tier1_prepp_2016-08-30_shift3_q53",
+      "pdf_name": "2016_tier1_prepp_2016-08-30_shift3",
+      "section": "Quant/DI",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_LLM_ONLY",
+      "question_crop_path": null,
+      "text": "List price of TV is Rs. 2300 and discount series found to be 25% and 10%. Then the selling price of TV is\n\nकिसी टी.वी. की सूची कीमत Rs. 2300 है और उन पर बट्टा 25% और 10% हो तो विक्"
+    },
+    {
+      "question_id": "harvest_2016_tier1_prepp_2016-08-30_shift3_q55",
+      "pdf_name": "2016_tier1_prepp_2016-08-30_shift3",
+      "section": "Quant/DI",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_LLM_ONLY",
+      "question_crop_path": null,
+      "text": "If the average age of 40 students is 10 years and average age of 30 of them is 12 years, then the average age of the remaining students is"
+    },
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q7",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "Reasoning",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p02_q007_question.png",
+      "text": "Which of the following is the national sport of Bangladesh?"
+    },
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q10",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "Reasoning",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p04_q010_question.png",
+      "text": "Which was the wettest place in India in 2018 as per the India Meteorological Department (IMD)?"
+    },
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q11",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "Reasoning",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p04_q011_question.png",
+      "text": "Wind turbines convert ________ energy into mechanical power."
+    },
+    {
+      "question_id": "harvest_2016_tier1_prepp_2016-08-30_shift3_q1",
+      "pdf_name": "2016_tier1_prepp_2016-08-30_shift3",
+      "section": "Reasoning",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_LLM_ONLY",
+      "question_crop_path": null,
+      "text": "Select the related word/letters/number from the given alternatives.\nदिये गये विकल्पों में से संबन्धित शब्द/अक्षरों/संख्या को चुनिए।\nGrain : Warehouse :: Water ?\nअनाज : गोदाम:: जल :"
+    },
+    {
+      "question_id": "harvest_2016_tier1_prepp_2016-08-30_shift3_q2",
+      "pdf_name": "2016_tier1_prepp_2016-08-30_shift3",
+      "section": "Reasoning",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_LLM_ONLY",
+      "question_crop_path": null,
+      "text": "Select the related word/letters/number from the given alternatives.\nदिये गये विकल्पों में से संबन्धित शब्द/अक्षरों/संख्या को चुनिए।\nADFG : KNPQ :: DGJ : ?"
+    },
+    {
+      "question_id": "harvest_2016_tier1_prepp_2016-08-30_shift3_q3",
+      "pdf_name": "2016_tier1_prepp_2016-08-30_shift3",
+      "section": "Reasoning",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_LLM_ONLY",
+      "question_crop_path": null,
+      "text": "Select the related word/letters/number from the given alternatives.\nदिये गये विकल्पों में से संबन्धित शब्द/अक्षरों/संख्या को चुनिए।\n12 : 144 :: ?"
+    },
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q23",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "English",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p07_q023_question.png",
+      "text": "Select the correctly spelt word."
+    },
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q24",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "English",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p07_q024_question.png",
+      "text": "Select the most appropriate option to fill in the blank.\n\nI am quite satisfied that I have not been ________ in doing whatever was needful for building up their character."
+    },
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q39",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "English",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p11_q039_question.png",
+      "text": "Select the most appropriate option to fill in blank No.(4)"
+    },
+    {
+      "question_id": "harvest_2016_tier1_prepp_2016-08-30_shift3_q79",
+      "pdf_name": "2016_tier1_prepp_2016-08-30_shift3",
+      "section": "English",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_LLM_ONLY",
+      "question_crop_path": null,
+      "text": "In the following question, out of the four alternatives, choose the word which is opposite in meaning to the given word and click the button corresponding to it.\n\nDISAVOWAL"
+    },
+    {
+      "question_id": "harvest_2016_tier1_prepp_2016-08-30_shift3_q87",
+      "pdf_name": "2016_tier1_prepp_2016-08-30_shift3",
+      "section": "English",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_LLM_ONLY",
+      "question_crop_path": null,
+      "text": "In each of the questions, four alternatives are given for the Idiom/Phrase. Choose the alternative which best expresses the meaning of the Idiom/Phrase and click the button corresp"
+    },
+    {
+      "question_id": "harvest_2016_tier1_prepp_2016-08-30_shift3_q88",
+      "pdf_name": "2016_tier1_prepp_2016-08-30_shift3",
+      "section": "English",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_LLM_ONLY",
+      "question_crop_path": null,
+      "text": "In each of the questions, four alternatives are given for the Idiom/Phrase. Choose the alternative which best expresses the meaning of the Idiom/Phrase and click the button corresp"
+    },
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q1",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "GK/GA",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p01_q001_question.png",
+      "text": "Who is the author of the book The Buddha and His Dhamma?"
+    },
+    {
+      "question_id": "harvest_2018_tier1_testbook_compilation_q3",
+      "pdf_name": "2018_tier1_testbook_compilation",
+      "section": "GK/GA",
+      "question_modality": "text_only",
+      "visual_required": 0,
+      "table_required": 0,
+      "evidence_status": "PASS_WITH_EVIDENCE",
+      "question_crop_path": "C:\\experiments\\ssc\\pipeline_output\\harvest_batch\\2018_tier1_testbook_compilation\\assets\\question_crops_masked\\2018_tier1_testbook_compilation_p01_q003_question.png",
+      "text": "Who among the following is/was the longest serving governor of an Indian state?"
+    }
+  ]
+}

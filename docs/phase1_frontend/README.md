@@ -32,6 +32,19 @@ After the baseline web MVP and manual browser smoke are accepted, use these file
 - `prompts/deepseek-self-review.md`: DeepSeek review-subagent prompt.
 - `prompts/codex-final-review.md`: final strict review prompt.
 
+## Baseline validity repair package
+
+Manual 200-question testing found that the baseline must not be treated as final until visual/table/comprehension support is integrated. These files define the required repair path:
+
+- `comprehension-visual-integration-workorder.md`: umbrella workorder for shared passages, visual/table rendering, and grouped selection.
+- `workorders/07-persist-flagged-questions.md`: persist `marked_for_review` so uncomfortable questions survive submit.
+- `workorders/08-visual-table-asset-rendering.md`: safely serve and render visual/table/graph/dice assets.
+- `workorders/09-comprehension-stimulus-groups.md`: attach readable passage context to comprehension/cloze children and preserve grouped order.
+- `workorders/10-baseline-gating-and-validation.md`: replace the temporary text-safe gate with representative final gating.
+- `pre-200-baseline-todo.md`: operator checklist before attempting another full 200-question baseline.
+
+Non-negotiable: visual, table, graph, dice, comprehension, and cloze question types must not be globally removed from the baseline. They are required SSC item types and must re-enter eligibility once their assets/passages render correctly.
+
 ## Work order map
 
 - `workorders/grok-01-backend-contract.md`: backend/API contract, preflight, submit, result, data safety.

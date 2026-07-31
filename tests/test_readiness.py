@@ -57,6 +57,37 @@ class TestComputeReadiness:
             assert check.required, f"{name} has no required value"
 
 
+class TestFoundationPulseSealedMock:
+    """Regression: sealed_mock must count toward foundation pulse like mock did pre-rename."""
+
+    def test_sealed_mock_attempts_feed_foundation_pulse_check(self, seeded_db):
+        """Quant/DI attempts from sealed_mock sessions count in the 14-day pulse check."""
+        from datetime import datetime, timezone
+
+        from ssc_study.readiness import _check_foundation_pulse
+
+        conn = seeded_db.connect()
+        now = datetime.now(timezone.utc).isoformat()
+        conn.execute(
+            """INSERT INTO sessions (session_type, started_at, tier, question_count, notes)
+               VALUES ('sealed_mock', ?, 'tier1', 4, 'sealed holdout mock')""",
+            (now,),
+        )
+        session_id = conn.execute("SELECT last_insert_rowid() as id").fetchone()["id"]
+        for qid in ("q1", "q2", "q3", "q11"):
+            conn.execute(
+                """INSERT INTO attempts (session_id, question_id, user_answer, is_correct)
+                   VALUES (?, ?, '1', 1)""",
+                (session_id, qid),
+            )
+        conn.commit()
+
+        result = _check_foundation_pulse(seeded_db)
+
+        # Before the fix, sealed_mock is excluded and Quant/DI shows 0 attempts.
+        assert "Quant/DI: 0% (0/0)" not in result.actual
+
+
 class TestGetReadinessSummary:
     """get_readiness_summary returns a compact summary."""
 
